@@ -23,5 +23,6 @@ urlpatterns = [
     path('api/highlights/', PublicHighlightsView.as_view(), name='highlights'),
 ]
 
-if settings.DEBUG:
-    urlpatterns += static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
+# Les medias sont controles par le depot git (backend/media) et doivent rester
+# servis en production : on ajoute la route Django quels que soient DEBUG.
+urlpatterns += static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)

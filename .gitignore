@@ -23,6 +23,7 @@ secrets*.json
 *.log
 *.txt
 media/
+!media/
 
 # OS
 .DS_Store
