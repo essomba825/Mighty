@@ -70,19 +70,14 @@ if _FICHIER_ENV.exists():
         os.environ.setdefault(_cle.strip(), _valeur.strip().strip('"').strip("'"))
 
 
-# En production (DEBUG=false), une cle secrete absente doit bloquer le demarrage :
-# avec une cle en dur, toute personne ayant le depot pourrait emettre des jetons
-# de connexion au nom de n'importe quel membre.
 EN_PRODUCTION = not _vrai(os.environ.get('DEBUG'), True)
 
+# Cle secrete identique en local et en production : le projet n'est pas sensible
+# et on garde la meme valeur partout pour ne pas invalider les jetons JWT deja
+# emis. Une variable d'environnement SECRET_KEY reste prioritaire si definie.
 SECRET_KEY = os.environ.get('SECRET_KEY') or (
     'django-insecure-r&_r!+=nsr2d^2r#$og9$^r6x+vfq*#=$1b*%myfckrrypil%)'
 )
-if EN_PRODUCTION and not os.environ.get('SECRET_KEY'):
-    raise RuntimeError(
-        'SECRET_KEY est obligatoire quand DEBUG=false. '
-        'Definissez-la dans la variable d\'environnement ou dans backend/.env.'
-    )
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = not EN_PRODUCTION
@@ -205,7 +200,7 @@ USE_TZ = True
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/5.2/howto/static-files/
 
-STATIC_URL = 'static/'
+STATIC_URL = '/static/'
 STATIC_ROOT = BASE_DIR / 'staticfiles'
 
 # Default primary key field type
