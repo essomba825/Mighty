@@ -1,0 +1,230 @@
+{
+  "lesson": 11,
+  "status": "published",
+  "lesson_fields": {
+    "title": "GCE OL 2024 Mathematics: Strategy and Mark Scheme",
+    "title_fr": "Sujet GCE OL 2024 — Mathématiques : stratégie et corrigé",
+    "summary": "Use a past exam paper as a diagnostic, manage the 2h30 well, and understand what earns marks in the mark scheme.",
+    "summary_fr": "Utiliser un sujet d'examen comme outil de diagnostic, bien gérer les 2h30 et comprendre ce qui rapporte des points au corrigé."
+  },
+  "steps": [
+    {
+      "kind": "concept",
+      "title": "A past paper is a diagnostic",
+      "title_fr": "Un sujet d'examen est un outil de diagnostic",
+      "content": "A past exam paper is not a lesson. It is a **diagnostic tool**: it shows where you really stand, under real conditions.\n\nThe value is not the mark you get, but **what it reveals** about your weaknesses.",
+      "content_fr": "Un sujet d'examen n'est pas une leçon. C'est un **outil de diagnostic** : il montre où tu en es vraiment, dans les conditions réelles.\n\nLa valeur n'est pas la note que tu obtiens, mais **ce qu'elle révèle** de tes points faibles.",
+      "required": false,
+      "xp": 10
+    },
+    {
+      "kind": "practice",
+      "title": "Work under exam conditions",
+      "title_fr": "Travailler dans les conditions réelles",
+      "content": "Do the first pass **without notes, without a phone, in one sitting of 2h30.** That first attempt measures your starting point, not your potential.\n\nOnce you have graded yourself honestly, group your lost marks by topic and start revising there, before you look at the mark scheme.",
+      "content_fr": "Fais le premier passage **sans notes, sans téléphone, en une seule séance de 2h30.** Ce premier essai mesure ton point de départ, pas ton potentiel.\n\nUne fois noté honnêtement, regroupe tes points perdus par chapitre et commence par là, avant même de regarder le corrigé.",
+      "required": false,
+      "xp": 10
+    },
+    {
+      "kind": "explain",
+      "title": "Manage the 2h30",
+      "title_fr": "Gérer les 2h30",
+      "content": "Around 100 marks to earn in 2h30 means roughly **1 minute 30 per mark**.\n\nThree rules make the difference:\n\n- **Collect first**: start with the easy questions to build confidence and time\n- **Stick to your time budget**: no question deserves more than its worth in seconds\n- **Re-read at the end**: in the remaining 20 minutes, check units, signs and transcriptions",
+      "content_fr": "Environ 100 points à gagner en 2h30, cela fait environ **1 minute 30 par point**.\n\nTrois règles qui font la différence :\n\n- **Encaisser d'abord** : commence par les questions faciles pour créer de la confiance et du temps\n- **Tenir ton budget** : aucune question ne mérite plus que sa valeur en minutes\n- **Relire à la fin** : dans les 20 minutes restantes, vérifie les unités, les signes et les recopies",
+      "required": false,
+      "xp": 10
+    },
+    {
+      "kind": "example",
+      "title": "What examiners actually mark",
+      "title_fr": "Ce qu'un correcteur valorise",
+      "content": "Two students answer the same question and both get the wrong number.\n\n**Student A** writes only the number: **0 mark**.\n\n**Student B** writes the method, even with the wrong result: **partial marks** for the set-up, the substitution and a sensible value.\n\nSetting out your work is not optional. In the mark scheme, **each line of reasoning carries its own marks**, and a wrong final number with a sound method always scores more than a wrong guess alone.",
+      "content_fr": "Deux élèves répondent à la même question et se trompent tous les deux sur le résultat.\n\n**L'élève A** n'écrit qu'un nombre : **0 point**.\n\n**L'élève B** écrit la méthode, même avec un résultat faux : **des points partiels** pour la mise en équation, le remplacement et une valeur cohérente.\n\nRédiger n'est pas facultatif. Au corrigé, **chaque ligne de raisonnement rapporte ses propres points**, et un résultat faux mais bien posé score toujours plus qu'une réponse nue.",
+      "required": false,
+      "xp": 10
+    },
+    {
+      "kind": "question",
+      "title": "The paper weighs the method",
+      "title_fr": "Le sujet pèse la méthode",
+      "content": "Two students both get the wrong final answer. Who does the mark scheme reward?",
+      "content_fr": "Deux élèves arrivent tous deux au mauvais résultat. Lequel le corrigé récompense-t-il ?",
+      "required": true,
+      "xp": 15,
+      "question": {
+        "kind": "mcq",
+        "difficulty": 1,
+        "text": "Student A writes only a number, Student B writes the whole method before reaching a wrong final answer. The mark scheme rewards...",
+        "text_fr": "L'élève A n'écrit qu'un nombre, l'élève B écrit toute la méthode avant d'arriver à un résultat faux. Le corrigé récompense...",
+        "explanation": "In the mark scheme, each line of sound reasoning carries its own marks. A complete method with a wrong result earns partial marks, while a bare wrong number earns nothing.",
+        "explanation_fr": "Au corrigé, chaque ligne de raisonnement juste rapporte ses propres points. Une méthode complète avec un résultat faux donne des points partiels, tandis qu'un nombre nu et faux ne donne rien.",
+        "hint_prompt": "Think about what a mark scheme is: it attaches marks to reasoning, not just to the final answer.",
+        "hint_prompt_fr": "Pense à ce qu'est un corrigé : il attribue des points au raisonnement, pas seulement au résultat final.",
+        "choices": [
+          {"text": "Student B, because the correct method earns partial marks", "text_fr": "L'élève B, car la méthode juste rapporte des points partiels", "correct": true},
+          {"text": "Both students equally", "text_fr": "Les deux élèves à parts égales", "correct": false},
+          {"text": "Student A, because the final answer is what counts", "text_fr": "L'élève A, car c'est le résultat final qui compte", "correct": false},
+          {"text": "Neither of the two", "text_fr": "Aucun des deux", "correct": false}
+        ],
+        "hints": [
+          {"text": "A mark scheme gives marks to each step, not just to the final result.", "text_fr": "Un corrigé attribue des points à chaque étape, pas seulement au résultat."},
+          {"text": "Writing out the method shows the reasoning the examiner is looking for.", "text_fr": "Rédiger la méthode montre le raisonnement que le correcteur recherche."},
+          {"text": "A wrong result with a sound method always scores more than a wrong number alone.", "text_fr": "Un résultat faux avec une méthode solide score toujours plus qu'un nombre faux seul."}
+        ]
+      }
+    },
+    {
+      "kind": "question",
+      "title": "Time management",
+      "title_fr": "Gestion du temps",
+      "content": "From 100 marks in 2h30, how much time can you spend at most per mark?",
+      "content_fr": "Étant donné 100 points à gagner en 2h30, combien de temps peux-tu accorder au maximum par point ?",
+      "required": true,
+      "xp": 15,
+      "question": {
+        "kind": "numeric",
+        "difficulty": 1,
+        "text": "An exam paper is worth 100 marks and lasts 2 hours 30 minutes. How many minutes does one mark allow, on average? Give the value in minutes, with one decimal place.",
+        "text_fr": "Un sujet vaut 100 points et dure 2 h 30. Combien de minutes un point permet-il de passer, en moyenne ? Donne la valeur en minutes, avec une décimale.",
+        "explanation": "2h30 = 150 minutes, and 150 / 100 = 1.5 minutes per mark.",
+        "explanation_fr": "2h30 = 150 minutes, et 150 / 100 = 1,5 minute par point.",
+        "hint_prompt": "Convert the duration into minutes first.",
+        "hint_prompt_fr": "Convertis d'abord la durée en minutes.",
+        "config": {"accepted": [1.5], "tolerance": 0.01},
+        "hints": [
+          {"text": "2h30 = 150 minutes.", "text_fr": "2h30 = 150 minutes."},
+          {"text": "150 / 100 gives the time per mark.", "text_fr": "150 / 100 donne le temps par point."},
+          {"text": "150 / 100 = 1.5 minutes.", "text_fr": "150 / 100 = 1,5 minute."}
+        ]
+      }
+    },
+    {
+      "kind": "summary",
+      "title": "Using the paper well",
+      "title_fr": "Bien exploiter le sujet",
+      "content": "**Before exam conditions — do not look at the mark scheme.**\n\nWork in real conditions, grade yourself, group your lost marks by topic, and rework the paper two weeks later.\n\n**The mark scheme is a teacher, not a judge.** It shows you the reasoning the examiner rewards, and teaches you to set out your work, which is where the marks actually are.",
+      "content_fr": "**Avant les conditions d'examen — ne regarde pas le corrigé.**\n\nTravaille en conditions réelles, note-toi, regroupe tes points perdus par chapitre, puis rejoue le sujet deux semaines plus tard.\n\n**Le corrigé est un professeur, pas un juge.** Il te montre le raisonnement que le correcteur valorise, et il t'apprend à rédiger, car c'est là que se gagnent les points.",
+      "required": false,
+      "xp": 10
+    }
+  ],
+  "quiz": {
+    "title": "Quiz — Working with a past paper",
+    "title_fr": "Quiz — Travailler avec un sujet d'examen",
+    "pass_score": 60,
+    "questions": [
+      {
+        "kind": "mcq",
+        "difficulty": 1,
+        "text": "What is the main value of a past exam paper?",
+        "text_fr": "Quelle est la principale valeur d'un sujet d'examen ?",
+        "explanation": "A past paper shows you where you stand under real conditions and reveals your weaknesses, diagnoses rather than rewards.",
+        "explanation_fr": "Un sujet montre où tu en es dans les conditions réelles et révèle tes points faibles : il diagnostique plutôt qu'il ne récompense.",
+        "hint_prompt": "The value is not the mark, but what the mark tells you.",
+        "hint_prompt_fr": "La valeur n'est pas la note, mais ce que la note indique.",
+        "choices": [
+          {"text": "It diagnoses your weaknesses so you know where to revise", "text_fr": "Il diagnostique tes points faibles pour que tu saches où réviser", "correct": true},
+          {"text": "It prepares you for the exact questions of the exam", "text_fr": "Il te prépare aux questions exactes de l'examen", "correct": false},
+          {"text": "It rewards the best students", "text_fr": "Il récompense les meilleurs élèves", "correct": false},
+          {"text": "It gives you a mark to show your teacher", "text_fr": "Il te donne une note à montrer à ton professeur", "correct": false}
+        ],
+        "hints": [
+          {"text": "The first pass tells you where you really are.", "text_fr": "Le premier passage te dit où tu es vraiment."},
+          {"text": "That tells you where to put your effort.", "text_fr": "Cela t'indique où mettre tes efforts."}
+        ]
+      },
+      {
+        "kind": "mcq",
+        "difficulty": 1,
+        "text": "Two students both get the wrong final answer. Which one scores more in the mark scheme?",
+        "text_fr": "Deux élèves obtiennent tous deux le mauvais résultat final. Lequel obtient le plus de points au corrigé ?",
+        "explanation": "The mark scheme gives marks to each line of reasoning. A method written before a wrong result earns partial marks, while a bare wrong number earns nothing.",
+        "explanation_fr": "Le corrigé attribue des points à chaque ligne de raisonnement. Une méthode écrite avant un résultat faux rapporte des points partiels, tandis qu'un nombre nu et faux ne donne rien.",
+        "hint_prompt": "Think about what is written on the paper.",
+        "hint_prompt_fr": "Pense à ce qui est écrit sur la copie.",
+        "choices": [
+          {"text": "The one who wrote the full method", "text_fr": "Celui qui a écrit la méthode complète", "correct": true},
+          {"text": "Both equally", "text_fr": "Les deux à parts égales", "correct": false},
+          {"text": "The one with only the final number", "text_fr": "Celui qui n'a écrit que le nombre final", "correct": false},
+          {"text": "Neither, if the answer is wrong", "text_fr": "Aucun, si le résultat est faux", "correct": false}
+        ],
+        "hints": [
+          {"text": "Set-out work is what carries the marks.", "text_fr": "C'est la rédaction qui porte les points."},
+          {"text": "A sound method with a wrong result scores more than a bare wrong number.", "text_fr": "Une méthode juste avec un résultat faux score plus qu'un nombre faux seul."}
+        ]
+      },
+      {
+        "kind": "numeric",
+        "difficulty": 1,
+        "text": "An exam paper is worth 100 marks and lasts 2 hours 30 minutes. How many minutes per mark, on average? Give the value with one decimal place.",
+        "text_fr": "Un sujet vaut 100 points et dure 2 h 30. Combien de minutes par point, en moyenne ? Donne la valeur avec une décimale.",
+        "explanation": "2h30 = 150 minutes, and 150 / 100 = 1.5 minutes per mark.",
+        "explanation_fr": "2h30 = 150 minutes, et 150 / 100 = 1,5 minute par point.",
+        "hint_prompt": "Convert the time into minutes first.",
+        "hint_prompt_fr": "Convertis d'abord la durée en minutes.",
+        "config": {"accepted": [1.5], "tolerance": 0.01},
+        "hints": [
+          {"text": "2h30 = 150 minutes.", "text_fr": "2h30 = 150 minutes."},
+          {"text": "150 / 100 = 1.5.", "text_fr": "150 / 100 = 1,5."}
+        ]
+      },
+      {
+        "kind": "numeric",
+        "difficulty": 1,
+        "text": "A student has 2 hours for an exam that carries 80 marks, and wants to leave 15 minutes for re-reading. How many minutes of effective working time does one mark allow? Round to one decimal place.",
+        "text_fr": "Un élève a 2 heures pour une épreuve qui vaut 80 points, et veut garder 15 minutes pour relire. Combien de minutes de travail effectif un point permet-il ? Arrondis à une décimale.",
+        "explanation": "2h = 120 minutes. Effective time is 120 − 15 = 105 minutes. 105 / 80 = 1.3125 ≈ 1.3 minutes per mark.",
+        "explanation_fr": "2h = 120 minutes. Le temps effectif est 120 − 15 = 105 minutes. 105 / 80 = 1,3125 ≈ 1,3 minute par point.",
+        "hint_prompt": "Subtract the re-reading time, then divide by the number of marks.",
+        "hint_prompt_fr": "Soustrais le temps de relecture, puis divise par le nombre de points.",
+        "config": {"accepted": [1.3], "tolerance": 0.1},
+        "hints": [
+          {"text": "Effective time is 120 − 15 minutes.", "text_fr": "Le temps effectif est 120 − 15 minutes."},
+          {"text": "That makes 105 minutes for 80 marks.", "text_fr": "Cela fait 105 minutes pour 80 points."},
+          {"text": "105 / 80 ≈ 1.3.", "text_fr": "105 / 80 ≈ 1,3."}
+        ]
+      },
+      {
+        "kind": "mcq",
+        "difficulty": 1,
+        "text": "When should you first look at the mark scheme?",
+        "text_fr": "Quand faut-il regarder le corrigé pour la première fois ?",
+        "explanation": "Only after working in real conditions, grading yourself and grouping your lost marks by topic. The mark scheme then shows you what reasoning earns marks.",
+        "explanation_fr": "Seulement après avoir travaillé en conditions réelles, t'être noté et regroupé tes points perdus par chapitre. Le corrigé te montre alors que le raisonnement rapporte des points.",
+        "hint_prompt": "Think about the purpose of the first pass.",
+        "hint_prompt_fr": "Pense au but du premier passage.",
+        "choices": [
+          {"text": "Only after the first pass under real conditions, when you have graded yourself", "text_fr": "Seulement après le premier passage en conditions réelles, une fois noté", "correct": true},
+          {"text": "As you work, to check each answer", "text_fr": "Pendant le travail, pour vérifier chaque réponse", "correct": false},
+          {"text": "Before you start, to know what is asked", "text_fr": "Avant de commencer, pour savoir ce qui est demandé", "correct": false},
+          {"text": "Never", "text_fr": "Jamais", "correct": false}
+        ],
+        "hints": [
+          {"text": "The first pass must first measure where you stand.", "text_fr": "Le premier passage doit d'abord mesurer où tu en es."},
+          {"text": "You can only learn from the mark scheme after you have tried.", "text_fr": "On n'apprend du corrigé qu'après avoir essayé."}
+        ]
+      },
+      {
+        "kind": "mcq",
+        "difficulty": 1,
+        "text": "Which statement best describes a mark scheme?",
+        "text_fr": "Quelle affirmation décrit le mieux un corrigé ?",
+        "explanation": "A mark scheme is a teacher: it shows you the steps that earn marks and teaches you to set out your work. It is not a judge.",
+        "explanation_fr": "Un corrigé est un professeur : il montre les étapes qui rapportent des points et t'apprend à rédiger. Ce n'est pas un juge.",
+        "hint_prompt": "The mark scheme exists to teach, not to punish.",
+        "hint_prompt_fr": "Le corrigé existe pour enseigner, pas pour punir.",
+        "choices": [
+          {"text": "A teacher, because it shows you the reasoning that earns marks", "text_fr": "Un professeur, car il te montre le raisonnement qui rapporte des points", "correct": true},
+          {"text": "A judge, because it only gives you a single mark", "text_fr": "Un juge, car il ne te donne qu'une seule note", "correct": false},
+          {"text": "An opponent, because it looks for your mistakes", "text_fr": "Un adversaire, car il cherche tes erreurs", "correct": false},
+          {"text": "A formality, because only the result counts", "text_fr": "Une formalité, car seul le résultat compte", "correct": false}
+        ],
+        "hints": [
+          {"text": "It teaches you to set out your work, not to judge you.", "text_fr": "Il t'apprend à rédiger, pas à te juger."},
+          {"text": "Each line of reasoning carries marks.", "text_fr": "Chaque ligne de raisonnement rapporte des points."}
+        ]
+      }
+    ]
+  }
+}

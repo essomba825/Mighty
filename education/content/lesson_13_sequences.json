@@ -1,0 +1,290 @@
+{
+  "lesson": 13,
+  "status": "published",
+  "lesson_fields": {
+    "title": "Arithmetic and Geometric Sequences",
+    "title_fr": "Suites arithmétiques et géométriques",
+    "summary": "Recognise an arithmetic or geometric sequence, find its general term, and compute a sum.",
+    "summary_fr": "Reconnaître une suite arithmétique ou géométrique, trouver son terme général et calculer une somme.",
+    "content": "## Two kinds of sequence\n\nA **sequence** is a list of numbers in order: `u₁, u₂, u₃, …`\n\nWhat links the terms together tells you which family it belongs to.\n\n## Arithmetic sequence: a constant difference\n\nEach term is the previous one plus the same number, the **common difference** `r`.\n\n    u(n+1) = u(n) + r\n\nExample: 3, 7, 11, 15 → r = 4\n\n**General term:**\n\n    u(n) = u(1) + (n − 1) × r\n\n**Sum of the first n terms:**\n\n    S(n) = n × (u(1) + u(n)) / 2\n\n## Geometric sequence: a constant ratio\n\nEach term is the previous one multiplied by the same number, the **common ratio** `q`.\n\n    u(n+1) = u(n) × q\n\nExample: 3, 6, 12, 24 → q = 2\n\n**General term:**\n\n    u(n) = u(1) × q^(n−1)\n\n**Sum of the first n terms:**\n\n    S(n) = u(1) × (q^n − 1) / (q − 1)      for q ≠ 1\n\n## How to tell them apart\n\nDivide a term by the previous one:\n\n- same result each time → **geometric**, that result is `q`\n- different results → **arithmetic**\n\nSubtract a term from the previous one:\n\n- same result each time → **arithmetic**, that result is `r`\n- different results → **geometric**\n\nIn this lesson you will identify the family, compute `u(n)` and `S(n)`, and use the sum formula in both directions.",
+    "content_fr": "## Deux familles de suites\n\nUne **suite** est une liste de nombres ordonnés : `u₁, u₂, u₃, …`\n\nC'est le lien entre les termes qui détermine la famille.\n\n## Suite arithmétique : une raison constante\n\nChaque terme est le précédent augmenté d'un même nombre, la **raison** `r`.\n\n    u(n+1) = u(n) + r\n\nExemple : 3, 7, 11, 15 → r = 4\n\n**Terme général :**\n\n    u(n) = u(1) + (n − 1) × r\n\n**Somme des n premiers termes :**\n\n    S(n) = n × (u(1) + u(n)) / 2\n\n## Suite géométrique : une raison constante\n\nChaque terme est le précédent multiplié par un même nombre, la **raison** `q`.\n\n    u(n+1) = u(n) × q\n\nExemple : 3, 6, 12, 24 → q = 2\n\n**Terme général :**\n\n    u(n) = u(1) × q^(n−1)\n\n**Somme des n premiers termes :**\n\n    S(n) = u(1) × (q^n − 1) / (q − 1)      pour q ≠ 1\n\n## Comment les distinguer\n\nDivise un terme par le précédent :\n\n- même résultat à chaque fois → **géométrique**, ce résultat est `q`\n- résultats différents → **arithmétique**\n\nSoustrais le terme précédent d'un terme :\n\n- même résultat à chaque fois → **arithmétique**, ce résultat est `r`\n- résultats différents → **géométrique**\n\nDans cette leçon, tu identifieras la famille, calculeras `u(n)` et `S(n)`, et utiliseras la formule de la somme dans les deux sens.",
+    "objectives": [
+      "Recognise an arithmetic sequence and find its common difference",
+      "Recognise a geometric sequence and find its common ratio",
+      "Compute u(n) with the general term of either family",
+      "Compute S(n) and use the arithmetic sum formula backwards"
+    ],
+    "objectives_fr": [
+      "Reconnaître une suite arithmétique et trouver sa raison",
+      "Reconnaître une suite géométrique et trouver sa raison",
+      "Calculer u(n) avec le terme général de l'une ou l'autre famille",
+      "Calculer S(n) et utiliser la formule de la somme arithmétique à l'envers"
+    ]
+  },
+  "steps": [
+    {
+      "kind": "concept",
+      "title": "What links the terms?",
+      "title_fr": "Qu'est-ce qui lie les termes ?",
+      "content": "A **sequence** is a list of numbers in order, written `u₁, u₂, u₃, …`\n\nLook at what happens from one term to the next:\n\n- **Add the same number** every time → arithmetic sequence, that number is the common difference `r`\n- **Multiply by the same number** every time → geometric sequence, that number is the common ratio `q`\n\n    3, 7, 11, 15   → +4 each time   → arithmetic, r = 4\n    3, 6, 12, 24   → ×2 each time   → geometric, q = 2\n\nThe **index** `n` is the position: `u₁` is the first term, `u₂` the second.",
+      "content_fr": "Une **suite** est une liste de nombres ordonnés, notée `u₁, u₂, u₃, …`\n\nRegarde ce qui se passe d'un terme au suivant :\n\n- **Ajouter le même nombre** à chaque fois → suite arithmétique, ce nombre est la raison `r`\n- **Multiplier par le même nombre** à chaque fois → suite géométrique, ce nombre est la raison `q`\n\n    3, 7, 11, 15   → +4 à chaque fois  → arithmétique, r = 4\n    3, 6, 12, 24   → ×2 à chaque fois  → géométrique, q = 2\n\nL'**indice** `n` est le rang : `u₁` est le premier terme, `u₂` le deuxième.",
+      "required": false,
+      "xp": 10
+    },
+    {
+      "kind": "question",
+      "title": "Arithmetic or geometric?",
+      "title_fr": "Arithmétique ou géométrique ?",
+      "content": "Subtract each term from the next. Is the difference constant?",
+      "content_fr": "Soustrais chaque terme du suivant. La différence est-elle constante ?",
+      "required": true,
+      "xp": 15,
+      "question": {
+        "kind": "mcq",
+        "difficulty": 1,
+        "text": "The sequence is 3, 7, 11, 15, 19. What kind of sequence is it?",
+        "text_fr": "La suite est 3, 7, 11, 15, 19. De quel type de suite s'agit-il ?",
+        "explanation": "7 − 3 = 4, 11 − 7 = 4, 15 − 11 = 4. The difference is constant, so it is arithmetic with r = 4.",
+        "explanation_fr": "7 − 3 = 4, 11 − 7 = 4, 15 − 11 = 4. La différence est constante : c'est une suite arithmétique de raison r = 4.",
+        "hint_prompt": "Compute 7 − 3, then 11 − 7.",
+        "hint_prompt_fr": "Calcule 7 − 3, puis 11 − 7.",
+        "choices": [
+          {"text": "Arithmetic, with r = 4", "text_fr": "Arithmétique, de raison r = 4", "correct": true},
+          {"text": "Geometric, with q = 4", "text_fr": "Géométrique, de raison q = 4", "correct": false},
+          {"text": "Arithmetic, with r = 19", "text_fr": "Arithmétique, de raison r = 19", "correct": false},
+          {"text": "It is neither", "text_fr": "Ce n'est ni l'une ni l'autre", "correct": false}
+        ],
+        "hints": [
+          {"text": "Look at the difference between consecutive terms, not the terms themselves.", "text_fr": "Regarde la différence entre termes consécutifs, pas les termes eux-mêmes."},
+          {"text": "7 − 3 = 4 and 11 − 7 = 4.", "text_fr": "7 − 3 = 4 et 11 − 7 = 4."},
+          {"text": "A constant difference means the sequence is arithmetic.", "text_fr": "Une différence constante signifie que la suite est arithmétique."}
+        ]
+      }
+    },
+    {
+      "kind": "explain",
+      "title": "General term of an arithmetic sequence",
+      "title_fr": "Terme général d'une suite arithmétique",
+      "content": "To reach term `n`, you walk `n − 1` steps from `u₁`, adding `r` each time.\n\n    u(n) = u(1) + (n − 1) × r\n\n**The trap:** `n − 1`, not `n`. At `n = 1` the formula must give `u₁` back, and only `(1 − 1) = 0` steps does that.\n\nExample, `u₁ = 3` and `r = 4`:\n\n    u(10) = 3 + 9 × 4 = 3 + 36 = 39\n\nCheck by walking: 3, 7, 11, 15, … after 9 steps from 3 you land on 39 ✓",
+      "content_fr": "Pour atteindre le terme `n`, tu fais `n − 1` pas depuis `u₁`, en ajoutant `r` à chaque pas.\n\n    u(n) = u(1) + (n − 1) × r\n\n**Le piège :** `n − 1`, et non `n`. Pour `n = 1`, la formule doit rendre `u₁`, et seul `(1 − 1) = 0` pas y parvient.\n\nExemple, `u₁ = 3` et `r = 4` :\n\n    u(10) = 3 + 9 × 4 = 3 + 36 = 39\n\nVérification en avançant : 3, 7, 11, 15, … après 9 pas depuis 3 on arrive à 39 ✓",
+      "required": false,
+      "xp": 10
+    },
+    {
+      "kind": "question",
+      "title": "Find u(10)",
+      "title_fr": "Trouver u(10)",
+      "content": "Count the steps carefully before you multiply.",
+      "content_fr": "Compte les pas avant de multiplier.",
+      "required": true,
+      "xp": 20,
+      "question": {
+        "kind": "numeric",
+        "difficulty": 2,
+        "text": "The arithmetic sequence starts at u1 = 3 with common difference r = 4. Find u(10).",
+        "text_fr": "La suite arithmétique commence à u1 = 3 avec la raison r = 4. Trouve u(10).",
+        "explanation": "u(10) = 3 + (10 − 1) × 4 = 3 + 36 = 39.",
+        "explanation_fr": "u(10) = 3 + (10 − 1) × 4 = 3 + 36 = 39.",
+        "hint_prompt": "How many steps separate u1 from u10?",
+        "hint_prompt_fr": "Combien de pas séparent u1 de u10 ?",
+        "config": {"accepted": [39]},
+        "hints": [
+          {"text": "From term 1 to term 10 you move 9 times, not 10.", "text_fr": "Du terme 1 au terme 10, tu avances 9 fois, pas 10."},
+          {"text": "u(n) = u(1) + (n − 1) × r, so u(10) = 3 + 9 × 4.", "text_fr": "u(n) = u(1) + (n − 1) × r, donc u(10) = 3 + 9 × 4."},
+          {"text": "9 × 4 = 36, and 3 + 36 = 39.", "text_fr": "9 × 4 = 36, et 3 + 36 = 39."}
+        ]
+      }
+    },
+    {
+      "kind": "explain",
+      "title": "General term of a geometric sequence",
+      "title_fr": "Terme général d'une suite géométrique",
+      "content": "Each step multiplies by `q`, and reaching term `n` again takes `n − 1` steps.\n\n    u(n) = u(1) × q^(n−1)\n\nExample, `u₁ = 3` and `q = 2`:\n\n    u(5) = 3 × 2^4 = 3 × 16 = 48\n\n**Watch the exponent:** it is `n − 1`. With `u₁` already counted, four multiplications by 2 give the fifth term.\n\n    3 → 6 → 12 → 24 → 48\n       ×2   ×2   ×2   ×2     four multiplications\n\n`q = 1` is the special case where every term equals `u₁`, so the formula still works: `1^(n−1) = 1`.",
+      "content_fr": "Chaque pas multiplie par `q`, et atteindre le terme `n` demande encore `n − 1` pas.\n\n    u(n) = u(1) × q^(n−1)\n\nExemple, `u₁ = 3` et `q = 2` :\n\n    u(5) = 3 × 2^4 = 3 × 16 = 48\n\n**Attention à l'exposant :** c'est `n − 1`. `u₁` étant déjà compté, quatre multiplications par 2 donnent le cinquième terme.\n\n    3 → 6 → 12 → 24 → 48\n       ×2   ×2   ×2   ×2     quatre multiplications\n\n`q = 1` est le cas particulier où tous les termes valent `u₁` : la formule fonctionne encore, car `1^(n−1) = 1`.",
+      "required": false,
+      "xp": 10
+    },
+    {
+      "kind": "question",
+      "title": "Find u(5)",
+      "title_fr": "Trouver u(5)",
+      "content": "Exponent n − 1, not n. Count the multiplications.",
+      "content_fr": "L'exposant est n − 1, pas n. Compte les multiplications.",
+      "required": true,
+      "xp": 20,
+      "question": {
+        "kind": "numeric",
+        "difficulty": 2,
+        "text": "The geometric sequence starts at u1 = 3 with common ratio q = 2. Find u(5).",
+        "text_fr": "La suite géométrique commence à u1 = 3 avec la raison q = 2. Trouve u(5).",
+        "explanation": "u(5) = 3 × 2^(5−1) = 3 × 2^4 = 3 × 16 = 48.",
+        "explanation_fr": "u(5) = 3 × 2^(5−1) = 3 × 2^4 = 3 × 16 = 48.",
+        "hint_prompt": "How many times do you multiply by 2 to get from u1 to u5?",
+        "hint_prompt_fr": "Combien de fois multiplies-tu par 2 pour aller de u1 à u5 ?",
+        "config": {"accepted": [48]},
+        "hints": [
+          {"text": "Going from term 1 to term 5 takes 4 multiplications.", "text_fr": "Aller du terme 1 au terme 5 demande 4 multiplications."},
+          {"text": "u(n) = u(1) × q^(n−1), so u(5) = 3 × 2^4.", "text_fr": "u(n) = u(1) × q^(n−1), donc u(5) = 3 × 2^4."},
+          {"text": "2^4 = 16, and 3 × 16 = 48.", "text_fr": "2^4 = 16, et 3 × 16 = 48."}
+        ]
+      }
+    },
+    {
+      "kind": "practice",
+      "title": "Sums: the pairing trick",
+      "title_fr": "Les sommes : l'astuce des extrémités",
+      "content": "For an arithmetic sequence, pair the first term with the last, the second with the second-to-last:\n\n    S(n) = n × (u(1) + u(n)) / 2\n\n**Each pair always sums to the same value**, whatever `r` is.\n\nExample, 3, 7, 11, 15 → `S(4) = 4 × (3 + 15) / 2 = 4 × 9 = 36`\n\nFor a geometric sequence, with `q ≠ 1`:\n\n    S(n) = u(1) × (q^n − 1) / (q − 1)\n\nExample, 3, 6, 12, 24 → `S(4) = 3 × (2^4 − 1) / 1 = 3 × 15 = 45`",
+      "content_fr": "Pour une suite arithmétique, apparie le premier terme avec le dernier, le deuxième avec l'avant-dernier :\n\n    S(n) = n × (u(1) + u(n)) / 2\n\n**Chaque paire donne toujours la même valeur**, quel que soit `r`.\n\nExemple, 3, 7, 11, 15 → `S(4) = 4 × (3 + 15) / 2 = 4 × 9 = 36`\n\nPour une suite géométrique, avec `q ≠ 1` :\n\n    S(n) = u(1) × (q^n − 1) / (q − 1)\n\nExemple, 3, 6, 12, 24 → `S(4) = 3 × (2^4 − 1) / 1 = 3 × 15 = 45`",
+      "required": false,
+      "xp": 10
+    },
+    {
+      "kind": "question",
+      "title": "Sum of 3, 7, 11, 15",
+      "title_fr": "Somme de 3, 7, 11, 15",
+      "content": "Pairing the ends, each pair sums to 18. Four terms make two pairs.",
+      "content_fr": "En appariant les extrémités, chaque paire vaut 18. Quatre termes font deux paires.",
+      "required": true,
+      "xp": 25,
+      "question": {
+        "kind": "numeric",
+        "difficulty": 3,
+        "text": "For the arithmetic sequence 3, 7, 11, 15, find the sum S(4) of the first four terms.",
+        "text_fr": "Pour la suite arithmétique 3, 7, 11, 15, trouve la somme S(4) des quatre premiers termes.",
+        "explanation": "S(4) = 4 × (3 + 15) / 2 = 4 × 18 / 2 = 36. You can check by adding: 3 + 7 + 11 + 15 = 36.",
+        "explanation_fr": "S(4) = 4 × (3 + 15) / 2 = 4 × 18 / 2 = 36. Vérification par addition : 3 + 7 + 11 + 15 = 36.",
+        "hint_prompt": "Use n × (first + last) / 2.",
+        "hint_prompt_fr": "Utilise n × (premier + dernier) / 2.",
+        "config": {"accepted": [36]},
+        "hints": [
+          {"text": "The first term is 3 and the fourth is 15.", "text_fr": "Le premier terme est 3 et le quatrième 15."},
+          {"text": "S(4) = 4 × (3 + 15) / 2 = 4 × 18 / 2.", "text_fr": "S(4) = 4 × (3 + 15) / 2 = 4 × 18 / 2."},
+          {"text": "4 × 18 / 2 = 36.", "text_fr": "4 × 18 / 2 = 36."}
+        ]
+      }
+    },
+    {
+      "kind": "summary",
+      "title": "Which formula do I need?",
+      "title_fr": "Quelle formule utiliser ?",
+      "content": "**Arithmetic** — constant difference `r`:\n\n    u(n) = u(1) + (n − 1) × r\n    S(n) = n × (u(1) + u(n)) / 2\n\n**Geometric** — constant ratio `q`:\n\n    u(n) = u(1) × q^(n−1)\n    S(n) = u(1) × (q^n − 1) / (q − 1)\n\nBoth general terms use **`n − 1`**: from `u₁` to `u(n)` there are `n − 1` moves.\n\nTo decide, test one division and one subtraction:\n\n- constant division → geometric\n- constant subtraction → arithmetic",
+      "content_fr": "**Arithmétique** — raison constante `r` :\n\n    u(n) = u(1) + (n − 1) × r\n    S(n) = n × (u(1) + u(n)) / 2\n\n**Géométrique** — raison constante `q` :\n\n    u(n) = u(1) × q^(n−1)\n    S(n) = u(1) × (q^n − 1) / (q − 1)\n\nLes deux termes généraux utilisent **`n − 1`** : de `u₁` à `u(n)`, il y a `n − 1` déplacements.\n\nPour trancher, teste une division et une soustraction :\n\n- division constante → géométrique\n- soustraction constante → arithmétique",
+      "required": false,
+      "xp": 10
+    }
+  ],
+  "quiz": {
+    "title": "Quiz — Arithmetic and geometric sequences",
+    "title_fr": "Quiz — Suites arithmétiques et géométriques",
+    "pass_score": 60,
+    "questions": [
+      {
+        "kind": "mcq",
+        "difficulty": 1,
+        "text": "The sequence is 5, 9, 13, 17. What kind of sequence is it and what is the ratio?",
+        "text_fr": "La suite est 5, 9, 13, 17. De quel type est-elle et quelle est sa raison ?",
+        "explanation": "9 − 5 = 13 − 9 = 17 − 13 = 4. The difference is constant, so it is arithmetic with r = 4.",
+        "explanation_fr": "9 − 5 = 13 − 9 = 17 − 13 = 4. La différence est constante : suite arithmétique de raison r = 4.",
+        "hint_prompt": "Subtract consecutive terms.",
+        "hint_prompt_fr": "Soustrais les termes consécutifs.",
+        "choices": [
+          {"text": "Arithmetic, r = 4", "text_fr": "Arithmétique, r = 4", "correct": true},
+          {"text": "Geometric, q = 4", "text_fr": "Géométrique, q = 4", "correct": false},
+          {"text": "Arithmetic, r = 5", "text_fr": "Arithmétique, r = 5", "correct": false},
+          {"text": "Geometric, q = 5", "text_fr": "Géométrique, q = 5", "correct": false}
+        ],
+        "hints": [
+          {"text": "9 − 5 = 4 and 13 − 9 = 4.", "text_fr": "9 − 5 = 4 et 13 − 9 = 4."},
+          {"text": "A constant difference means arithmetic.", "text_fr": "Une différence constante signifie arithmétique."}
+        ]
+      },
+      {
+        "kind": "numeric",
+        "difficulty": 2,
+        "text": "The arithmetic sequence starts at u1 = 3 with r = 4. Find u(10).",
+        "text_fr": "La suite arithmétique commence à u1 = 3 avec r = 4. Trouve u(10).",
+        "explanation": "u(10) = 3 + (10 − 1) × 4 = 3 + 36 = 39.",
+        "explanation_fr": "u(10) = 3 + (10 − 1) × 4 = 3 + 36 = 39.",
+        "hint_prompt": "From u1 to u10 there are 9 steps.",
+        "hint_prompt_fr": "De u1 à u10, il y a 9 pas.",
+        "config": {"accepted": [39]},
+        "hints": [
+          {"text": "u(n) = u(1) + (n − 1) × r.", "text_fr": "u(n) = u(1) + (n − 1) × r."},
+          {"text": "3 + 9 × 4 = 3 + 36 = 39.", "text_fr": "3 + 9 × 4 = 3 + 36 = 39."}
+        ]
+      },
+      {
+        "kind": "mcq",
+        "difficulty": 2,
+        "text": "The sequence is 2, 6, 18, 54. Which general term gives u(5)?",
+        "text_fr": "La suite est 2, 6, 18, 54. Quel terme général donne u(5) ?",
+        "explanation": "Each term is multiplied by 3, so q = 3 and u(n) = 2 × 3^(n−1). Then u(5) = 2 × 3^4 = 2 × 81 = 162.",
+        "explanation_fr": "Chaque terme est multiplié par 3 : q = 3 et u(n) = 2 × 3^(n−1). Donc u(5) = 2 × 3^4 = 2 × 81 = 162.",
+        "hint_prompt": "Find the ratio first: 6 ÷ 2.",
+        "hint_prompt_fr": "Trouve d'abord la raison : 6 ÷ 2.",
+        "choices": [
+          {"text": "u(n) = 2 × 3^(n−1), so u(5) = 162", "text_fr": "u(n) = 2 × 3^(n−1), donc u(5) = 162", "correct": true},
+          {"text": "u(n) = 2 × 3^n, so u(5) = 486", "text_fr": "u(n) = 2 × 3^n, donc u(5) = 486", "correct": false},
+          {"text": "u(n) = 2 + 4n, so u(5) = 22", "text_fr": "u(n) = 2 + 4n, donc u(5) = 22", "correct": false},
+          {"text": "u(n) = 3n, so u(5) = 15", "text_fr": "u(n) = 3n, donc u(5) = 15", "correct": false}
+        ],
+        "hints": [
+          {"text": "6 ÷ 2 = 3, 18 ÷ 6 = 3: the ratio is constant, so the sequence is geometric.", "text_fr": "6 ÷ 2 = 3, 18 ÷ 6 = 3 : la raison est constante, la suite est géométrique."},
+          {"text": "For a geometric sequence the exponent is n − 1, not n.", "text_fr": "Pour une suite géométrique, l'exposant est n − 1, pas n."},
+          {"text": "u(5) = 2 × 3^4 = 2 × 81 = 162.", "text_fr": "u(5) = 2 × 3^4 = 2 × 81 = 162."}
+        ]
+      },
+      {
+        "kind": "numeric",
+        "difficulty": 3,
+        "text": "For the arithmetic sequence 3, 7, 11, 15, find S(4), the sum of the first four terms.",
+        "text_fr": "Pour la suite arithmétique 3, 7, 11, 15, trouve S(4), la somme des quatre premiers termes.",
+        "explanation": "S(4) = 4 × (3 + 15) / 2 = 4 × 18 / 2 = 36.",
+        "explanation_fr": "S(4) = 4 × (3 + 15) / 2 = 4 × 18 / 2 = 36.",
+        "hint_prompt": "Use n × (first + last) / 2.",
+        "hint_prompt_fr": "Utilise n × (premier + dernier) / 2.",
+        "config": {"accepted": [36]},
+        "hints": [
+          {"text": "The first term is 3 and the fourth is 15.", "text_fr": "Le premier terme est 3 et le quatrième 15."},
+          {"text": "4 × 18 / 2 = 36.", "text_fr": "4 × 18 / 2 = 36."}
+        ]
+      },
+      {
+        "kind": "numeric",
+        "difficulty": 3,
+        "text": "For the arithmetic sequence starting at u1 = 3 with r = 4, find S(10), the sum of the first ten terms.",
+        "text_fr": "Pour la suite arithmétique commençant à u1 = 3 avec r = 4, trouve S(10), la somme des dix premiers termes.",
+        "explanation": "You need u(10) before the sum formula works: u(10) = 3 + 9 × 4 = 39. Then S(10) = 10 × (3 + 39) / 2 = 10 × 42 / 2 = 210.",
+        "explanation_fr": "Il faut connaître u(10) avant d'appliquer la formule : u(10) = 3 + 9 × 4 = 39. Ensuite S(10) = 10 × (3 + 39) / 2 = 10 × 42 / 2 = 210.",
+        "hint_prompt": "The formula needs both u1 and u(n), so find u(10) first.",
+        "hint_prompt_fr": "La formule a besoin de u1 et de u(n) : trouve donc d'abord u(10).",
+        "config": {"accepted": [210]},
+        "hints": [
+          {"text": "u(10) = 3 + (10 − 1) × 4 = 39.", "text_fr": "u(10) = 3 + (10 − 1) × 4 = 39."},
+          {"text": "S(10) = 10 × (3 + 39) / 2 = 10 × 42 / 2.", "text_fr": "S(10) = 10 × (3 + 39) / 2 = 10 × 42 / 2."},
+          {"text": "10 × 42 / 2 = 210.", "text_fr": "10 × 42 / 2 = 210."}
+        ]
+      },
+      {
+        "kind": "mcq",
+        "difficulty": 3,
+        "text": "Why must the arithmetic sum formula use n × (first + last) / 2 rather than just adding the terms?",
+        "text_fr": "Pourquoi la formule de la somme arithmétique utilise-t-elle n × (premier + dernier) / 2 plutôt que d'additionner les termes ?",
+        "explanation": "Pairing the first term with the last, the second with the second-to-last, and so on, every pair sums to the same value, whatever the common difference is. With n terms you get n/2 pairs, so the total is n/2 × (first + last). The formula saves working out every term.",
+        "explanation_fr": "En appariant le premier terme avec le dernier, le deuxième avec l'avant-dernier, etc., chaque paire vaut la même valeur, quelle que soit la raison. Avec n termes on obtient n/2 paires, d'où le total n/2 × (premier + dernier). La formule évite de calculer chaque terme.",
+        "hint_prompt": "Think about what happens when you pair the ends together.",
+        "hint_prompt_fr": "Pense à ce qui se passe quand on apparie les extrémités.",
+        "choices": [
+          {"text": "Pairing first with last always gives the same sum, so n/2 pairs give the total without listing every term", "text_fr": "Aparier le premier avec le dernier donne toujours la même somme : n/2 paires donnent le total sans énumérer chaque terme", "correct": true},
+          {"text": "Because the terms are always integers", "text_fr": "Parce que les termes sont toujours entiers", "correct": false},
+          {"text": "Because adding them would give a different result", "text_fr": "Parce que l'addition donnerait un résultat différent", "correct": false},
+          {"text": "Because the sequence is infinite", "text_fr": "Parce que la suite est infinie", "correct": false}
+        ],
+        "hints": [
+          {"text": "Try 3 + 15 and 7 + 11.", "text_fr": "Essaie 3 + 15 et 7 + 11."},
+          {"text": "Both pairs give 18, whatever the common difference is.", "text_fr": "Les deux paires valent 18, quelle que soit la raison."}
+        ]
+      }
+    ]
+  }
+}

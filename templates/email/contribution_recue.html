@@ -1,0 +1,41 @@
+{% extends "email/base.html" %}
+
+{% block contenu %}
+  <h1 style="margin:0 0 16px;font-size:22px;color:#12203a;">Merci pour votre contribution&nbsp;!</h1>
+
+  <p style="margin:0 0 14px;font-size:15px;line-height:1.6;">
+    {% if prenom %}Bonjour {{ prenom }},{% else %}Bonjour,{% endif %}
+    votre paiement a bien été confirmé.
+  </p>
+
+  <table role="presentation" width="100%" cellpadding="0" cellspacing="0"
+         style="background:#f4f6fa;border-radius:8px;padding:16px;margin:0 0 16px;">
+    <tr>
+      <td style="font-size:14px;color:#6b7280;padding:4px 0;">Montant</td>
+      <td align="right" style="font-size:16px;font-weight:bold;color:#12203a;padding:4px 0;">{{ montant }} FCFA</td>
+    </tr>
+    {% if projet %}
+    <tr>
+      <td style="font-size:14px;color:#6b7280;padding:4px 0;">Projet soutenu</td>
+      <td align="right" style="font-size:14px;color:#12203a;padding:4px 0;">{{ projet }}</td>
+    </tr>
+    {% endif %}
+    <tr>
+      <td style="font-size:14px;color:#6b7280;padding:4px 0;">Référence</td>
+      <td align="right" style="font-size:14px;color:#12203a;padding:4px 0;">{{ reference }}</td>
+    </tr>
+  </table>
+
+  <p style="margin:0 0 14px;font-size:15px;line-height:1.6;">
+    Ce reçu vaut confirmation officielle de votre don. Chaque contribution
+    finance directement les projets de l'association.
+  </p>
+
+  <p style="margin:24px 0;text-align:center;">
+    <a href="{{ site_url }}/projets"
+       style="display:inline-block;background:#e8590c;color:#ffffff;text-decoration:none;
+              padding:12px 24px;border-radius:8px;font-weight:bold;">
+      Voir les projets
+    </a>
+  </p>
+{% endblock %}

@@ -1,0 +1,265 @@
+{
+  "lesson": 16,
+  "status": "published",
+  "lesson_fields": {
+    "summary_fr": "Convertir entre fractions, décimaux et pourcentages, calculer avec des fractions, appliquer une augmentation ou une réduction en pourcentage.",
+    "objectives": [
+      "Convert between fractions, decimals and percentages",
+      "Add, subtract, multiply and divide fractions",
+      "Apply percentage increase and decrease in real situations"
+    ],
+    "objectives_fr": [
+      "Convertir entre fractions, décimaux et pourcentages",
+      "Additionner, soustraire, multiplier et diviser des fractions",
+      "Appliquer une augmentation ou une réduction en pourcentage à une situation réelle"
+    ]
+  },
+  "steps": [
+    {
+      "kind": "concept",
+      "title": "A fraction is a division",
+      "title_fr": "Une fraction est une division",
+      "content": "The **numerator** is the top number, the **denominator** is the bottom one.\n\n3/5 means *3 shared between 5*. A fraction is just a division written vertically.\n\n- 1/2 is one half\n- 3/4 is three quarters\n- 5/5 is one whole",
+      "content_fr": "Le **numérateur** est le nombre du haut, le **dénominateur** celui du bas.\n\n3/5 signifie *3 partagé entre 5*. Une fraction n'est qu'une division écrite verticalement.\n\n- 1/2 = un demi\n- 3/4 = trois quarts\n- 5/5 = un entier",
+      "required": false,
+      "xp": 10
+    },
+    {
+      "kind": "question",
+      "title": "Reading a fraction",
+      "title_fr": "Lire une fraction",
+      "content": "Try it before moving on.",
+      "content_fr": "Essaie avant de continuer.",
+      "required": true,
+      "xp": 15,
+      "question": {
+        "kind": "mcq",
+        "difficulty": 1,
+        "text": "What does the fraction 3/8 mean?",
+        "text_fr": "Que signifie la fraction 3/8 ?",
+        "explanation": "3/8 means 3 shared between 8 equal parts. It is read 'three eighths'.",
+        "explanation_fr": "3/8 signifie 3 partagé entre 8 parts égales. On le lit « trois huitièmes ».",
+        "hint_prompt": "The denominator is the number of equal parts.",
+        "hint_prompt_fr": "Le dénominateur indique le nombre de parts égales.",
+        "choices": [
+          {"text": "3 parts shared between 8", "text_fr": "3 parts partagées entre 8", "correct": true},
+          {"text": "8 parts shared between 3", "text_fr": "8 parts partagées entre 3", "correct": false},
+          {"text": "3 groups of 8", "text_fr": "3 groupes de 8", "correct": false},
+          {"text": "8 divided by 3, rounded", "text_fr": "8 divisé par 3, arrondi", "correct": false}
+        ],
+        "hints": [
+          {"text": "Read a fraction as 'numerator over denominator'.", "text_fr": "Lis une fraction comme « numérateur sur dénominateur »."},
+          {"text": "3/8 is three eighths: 3 out of 8 equal parts.", "text_fr": "3/8, ce sont trois huitièmes : 3 sur 8 parts égales."},
+          {"text": "The bottom number (8) counts the equal parts.", "text_fr": "Le nombre du bas (8) compte les parts égales."}
+        ]
+      }
+    },
+    {
+      "kind": "explain",
+      "title": "Fractions to decimals",
+      "title_fr": "Des fractions aux décimaux",
+      "content": "Divide the numerator by the denominator. Some divisions come out exact, others never do.\n\n**Exact:**\n- 1/2 = 0.5\n- 1/4 = 0.25\n- 3/5 = 0.6\n\n**Never exact (repeating):**\n- 1/3 = 0.333...\n- 2/3 = 0.666...\n\nTo convert a fraction to a percentage, multiply by 100:\n1/4 = 0.25 = **25%**",
+      "content_fr": "Divise le numérateur par le dénominateur. Certaines divisions tombent juste, d'autres jamais.\n\n**Exactes :**\n- 1/2 = 0,5\n- 1/4 = 0,25\n- 3/5 = 0,6\n\n**Jamais exactes (périodiques) :**\n- 1/3 = 0,333...\n- 2/3 = 0,666...\n\nPour convertir une fraction en pourcentage, multiplie par 100 :\n1/4 = 0,25 = **25 %**",
+      "required": false,
+      "xp": 10
+    },
+    {
+      "kind": "question",
+      "title": "Converting to a percentage",
+      "title_fr": "Convertir en pourcentage",
+      "content": "Multiply the decimal by 100.",
+      "content_fr": "Multiplie le décimal par 100.",
+      "required": true,
+      "xp": 15,
+      "question": {
+        "kind": "numeric",
+        "difficulty": 2,
+        "text": "Convert the decimal 0.25 to a percentage. Type the number only.",
+        "text_fr": "Convertis le décimal 0,25 en pourcentage. Écris seulement le nombre.",
+        "explanation": "0.25 x 100 = 25. So 0.25 is 25%. The most common mistake is to forget the multiplication by 100 and write 2.5.",
+        "explanation_fr": "0,25 x 100 = 25. Donc 0,25 vaut 25 %. L'erreur la plus fréquente est d'oublier la multiplication par 100 et d'écrire 2,5.",
+        "hint_prompt": "What do you do to move the decimal point two places to the right?",
+        "hint_prompt_fr": "Que fais-tu pour déplacer la virgule de deux crans vers la droite ?",
+        "config": {"accepted": [25, "25%", "25 %"]},
+        "hints": [
+          {"text": "To turn a decimal into a percentage you multiply by 100.", "text_fr": "Pour transformer un décimal en pourcentage, tu multiplies par 100."},
+          {"text": "0.25 x 100 = ?", "text_fr": "0,25 x 100 = ?"},
+          {"text": "The answer is 25.", "text_fr": "La réponse est 25."}
+        ]
+      }
+    },
+    {
+      "kind": "concept",
+      "title": "Adding and subtracting fractions",
+      "title_fr": "Additionner et soustraire des fractions",
+      "content": "You can only add the **tops** if the bottoms are identical. Otherwise make the denominators match.\n\n**Same denominator — add the numerators:**\n1/5 + 2/5 = 3/5\n\n**Different denominators — find a common denominator:**\n1/2 + 1/3 → the common denominator is 6\n1/2 = 3/6 and 1/3 = 2/6, so 3/6 + 2/6 = **5/6**",
+      "content_fr": "On ne peut additionner que les **hauts** si les bas sont identiques. Sinon, il faut mettre les dénominateurs au même dénominateur.\n\n**Même dénominateur — on additionne les numérateurs :**\n1/5 + 2/5 = 3/5\n\n**Dénominateurs différents — on cherche un dénominateur commun :**\n1/2 + 1/3 → le dénominateur commun est 6\n1/2 = 3/6 et 1/3 = 2/6, donc 3/6 + 2/6 = **5/6**",
+      "required": false,
+      "xp": 10
+    },
+    {
+      "kind": "practice",
+      "title": "Guided exercise",
+      "title_fr": "Exercice guidé",
+      "content": "Find a common denominator, then add.",
+      "content_fr": "Trouve un dénominateur commun, puis additionne.",
+      "required": true,
+      "xp": 15,
+      "question": {
+        "kind": "text",
+        "difficulty": 2,
+        "text": "Calculate 1/2 + 1/3. Write the answer as a fraction, for example 5/6.",
+        "text_fr": "Calcule 1/2 + 1/3. Écris la réponse sous forme de fraction, par exemple 5/6.",
+        "explanation": "The common denominator of 2 and 3 is 6. Then 1/2 = 3/6 and 1/3 = 2/6, so 3/6 + 2/6 = 5/6.",
+        "explanation_fr": "Le dénominateur commun de 2 et 3 est 6. Alors 1/2 = 3/6 et 1/3 = 2/6, donc 3/6 + 2/6 = 5/6.",
+        "hint_prompt": "What is the smallest number that 2 and 3 both divide into?",
+        "hint_prompt_fr": "Quel est le plus petit nombre dans lequel 2 et 3 divisent exactement ?",
+        "config": {"accepted": ["5/6", "5/6 simplified"]},
+        "hints": [
+          {"text": "You cannot add the tops until the bottoms match.", "text_fr": "Tu ne peux pas additionner les hauts tant que les bas ne correspondent pas."},
+          {"text": "The common denominator of 2 and 3 is 6.", "text_fr": "Le dénominateur commun de 2 et 3 est 6."},
+          {"text": "1/2 = 3/6 and 1/3 = 2/6, so the answer is 5/6.", "text_fr": "1/2 = 3/6 et 1/3 = 2/6, donc la réponse est 5/6."}
+        ]
+      }
+    },
+    {
+      "kind": "example",
+      "title": "Worked example",
+      "title_fr": "Exemple résolu",
+      "content": "**A shirt costs $25 and is 20% off. What is the new price?**\n\n1. Find the discount: 20% of 25 = 25 / 100 x 20 = 5\n2. Subtract it: 25 - 5 = 20\n\n**The new price is $20.**\n\nWatch the direction: *20% off* means the price **goes down**, so you subtract. *20% more* would mean you add 5 to get $30.",
+      "content_fr": "**Un t-shirt coûte 25 $ et est à 20 % de réduction. Quel est le nouveau prix ?**\n\n1. Calcule la réduction : 20 % de 25 = 25 / 100 x 20 = 5\n2. Soustrais-la : 25 - 5 = 20\n\n**Le nouveau prix est 20 $.**\n\nAttention au sens : *20 % de réduction* veut dire que le prix **baisse**, donc tu soustrais. *20 % de plus* voudrait dire que tu ajoutes 5 pour obtenir 30 $.",
+      "required": false,
+      "xp": 10
+    },
+    {
+      "kind": "question",
+      "title": "The direction trap",
+      "title_fr": "Le piège du sens",
+      "content": "Decide first whether to add or subtract.",
+      "content_fr": "Décide d'abord s'il faut ajouter ou soustraire.",
+      "required": true,
+      "xp": 15,
+      "question": {
+        "kind": "mcq",
+        "difficulty": 3,
+        "text": "A jacket costs $80 and goes up by 15%. What is the new price?",
+        "text_fr": "Une veste coûte 80 $ et son prix augmente de 15 %. Quel est le nouveau prix ?",
+        "explanation": "15% of 80 = 80 / 100 x 15 = 12. The price goes UP, so you add: 80 + 12 = $92.",
+        "explanation_fr": "15 % de 80 = 80 / 100 x 15 = 12. Le prix **augmente**, donc tu additionnes : 80 + 12 = 92 $.",
+        "hint_prompt": "'Goes up' means the price increases.",
+        "hint_prompt_fr": "« Augmente » veut dire que le prix progresse.",
+        "choices": [
+          {"text": "$92", "text_fr": "92 $", "correct": true},
+          {"text": "$68", "text_fr": "68 $", "correct": false},
+          {"text": "$95", "text_fr": "95 $", "correct": false},
+          {"text": "$8", "text_fr": "8 $", "correct": false}
+        ],
+        "hints": [
+          {"text": "First find 15% of 80, then decide whether to add or subtract.", "text_fr": "Calcule d'abord 15 % de 80, puis décide s'il faut ajouter ou soustraire."},
+          {"text": "15% of 80 = 80 / 100 x 15 = 12.", "text_fr": "15 % de 80 = 80 / 100 x 15 = 12."},
+          {"text": "The price goes up, so 80 + 12 = 92.", "text_fr": "Le prix augmente, donc 80 + 12 = 92."}
+        ]
+      }
+    },
+    {
+      "kind": "summary",
+      "title": "What to remember",
+      "title_fr": "Ce qu'il faut retenir",
+      "content": "- A fraction is a division: **numerator ÷ denominator**.\n- To convert a fraction to a decimal, divide.\n- To convert a decimal to a percentage, **multiply by 100**.\n- To add fractions, the denominators must match first.\n- **Percentage off** means subtract, **percentage more** means add. Check the direction before calculating.",
+      "content_fr": "- Une fraction est une division : **numérateur ÷ dénominateur**.\n- Pour convertir une fraction en décimal, on divise.\n- Pour convertir un décimal en pourcentage, on **multiplie par 100**.\n- Pour additionner des fractions, les dénominateurs doivent d'abord correspondre.\n- **Réduction** veut dire soustraire, **augmentation** veut dire ajouter. Vérifie le sens avant de calculer.",
+      "required": false,
+      "xp": 10
+    }
+  ],
+  "quiz": {
+    "title": "Quiz - Fractions, Decimals and Percentages",
+    "title_fr": "Quiz - Fractions, décimaux et pourcentages",
+    "pass_score": 60,
+    "questions": [
+      {
+        "kind": "mcq",
+        "difficulty": 1,
+        "text": "Convert the fraction 3/5 to a decimal.",
+        "text_fr": "Convertis la fraction 3/5 en décimal.",
+        "explanation": "3 ÷ 5 = 0.6.",
+        "explanation_fr": "3 ÷ 5 = 0,6.",
+        "choices": [
+          {"text": "0.6", "text_fr": "0,6", "correct": true},
+          {"text": "0.35", "text_fr": "0,35", "correct": false},
+          {"text": "1.67", "text_fr": "1,67", "correct": false},
+          {"text": "0.06", "text_fr": "0,06", "correct": false}
+        ]
+      },
+      {
+        "kind": "mcq",
+        "difficulty": 1,
+        "text": "What is 1/4 as a percentage?",
+        "text_fr": "Combien vaut 1/4 en pourcentage ?",
+        "explanation": "1/4 = 0.25, and 0.25 x 100 = 25%.",
+        "explanation_fr": "1/4 = 0,25, et 0,25 x 100 = 25 %.",
+        "choices": [
+          {"text": "25%", "text_fr": "25 %", "correct": true},
+          {"text": "4%", "text_fr": "4 %", "correct": false},
+          {"text": "40%", "text_fr": "40 %", "correct": false},
+          {"text": "2.5%", "text_fr": "2,5 %", "correct": false}
+        ]
+      },
+      {
+        "kind": "mcq",
+        "difficulty": 2,
+        "text": "Calculate 3/4 of 16.",
+        "text_fr": "Calcule les 3/4 de 16.",
+        "explanation": "16 / 4 = 4, and 4 x 3 = 12.",
+        "explanation_fr": "16 / 4 = 4, et 4 x 3 = 12.",
+        "choices": [
+          {"text": "12", "text_fr": "12", "correct": true},
+          {"text": "7", "text_fr": "7", "correct": false},
+          {"text": "48", "text_fr": "48", "correct": false},
+          {"text": "13.33", "text_fr": "13,33", "correct": false}
+        ]
+      },
+      {
+        "kind": "mcq",
+        "difficulty": 2,
+        "text": "A shirt originally costs $25. It is on sale for 20% off. What is the sale price?",
+        "text_fr": "Un t-shirt coûte 25 $ à l'origine. Il est en promotion à 20 % de réduction. Quel est le prix promo ?",
+        "explanation": "20% of 25 is 5. The price goes down, so 25 - 5 = $20.",
+        "explanation_fr": "20 % de 25 font 5. Le prix baisse, donc 25 - 5 = 20 $.",
+        "choices": [
+          {"text": "$20", "text_fr": "20 $", "correct": true},
+          {"text": "$5", "text_fr": "5 $", "correct": false},
+          {"text": "$30", "text_fr": "30 $", "correct": false},
+          {"text": "$45", "text_fr": "45 $", "correct": false}
+        ]
+      },
+      {
+        "kind": "mcq",
+        "difficulty": 2,
+        "text": "What is 1/2 + 1/3?",
+        "text_fr": "Combien vaut 1/2 + 1/3 ?",
+        "explanation": "The common denominator of 2 and 3 is 6, so 1/2 = 3/6 and 1/3 = 2/6, giving 5/6.",
+        "explanation_fr": "Le dénominateur commun de 2 et 3 est 6, donc 1/2 = 3/6 et 1/3 = 2/6, ce qui donne 5/6.",
+        "choices": [
+          {"text": "5/6", "text_fr": "5/6", "correct": true},
+          {"text": "2/5", "text_fr": "2/5", "correct": false},
+          {"text": "3/6", "text_fr": "3/6", "correct": false},
+          {"text": "1/6", "text_fr": "1/6", "correct": false}
+        ]
+      },
+      {
+        "kind": "mcq",
+        "difficulty": 3,
+        "text": "If a product is 30% off, what does that mean for the price?",
+        "text_fr": "Si un produit est à 30 % de réduction, qu'est-ce que cela signifie pour le prix ?",
+        "explanation": "30% off means you pay 100% - 30% = 70% of the original price.",
+        "explanation_fr": "30 % de réduction signifie que tu paies 100 % - 30 % = 70 % du prix initial.",
+        "choices": [
+          {"text": "The product is now 70% of its original price.", "text_fr": "Le produit vaut maintenant 70 % de son prix initial.", "correct": true},
+          {"text": "The product is now 30% of its original price.", "text_fr": "Le produit vaut maintenant 30 % de son prix initial.", "correct": false},
+          {"text": "The product is now 130% of its original price.", "text_fr": "Le produit vaut maintenant 130 % de son prix initial.", "correct": false},
+          {"text": "The product is now 70 dollars cheaper.", "text_fr": "Le produit est maintenant 70 dollars moins cher.", "correct": false}
+        ]
+      }
+    ]
+  }
+}

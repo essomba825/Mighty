@@ -1,0 +1,339 @@
+{
+  "lesson": 56,
+  "status": "draft",
+  "lesson_fields": {
+    "title": "Newton's Laws of Motion",
+    "title_fr": "Les lois de Newton",
+    "summary": "The three laws of Newton, what a force really is, and how to use F = ma on real problems.",
+    "summary_fr": "Les trois lois de Newton, ce qu'est vraiment une force, et comment utiliser F = m × a sur de vrais problèmes.",
+    "objectives": [
+      "State what a force is and give its SI unit",
+      "Apply Newton's first law to decide whether an object is in equilibrium",
+      "Use F = ma to find a force, a mass or an acceleration",
+      "Explain the third law and identify why action and reaction do not cancel"
+    ],
+    "objectives_fr": [
+      "Définir ce qu'est une force et donner son unité SI",
+      "Appliquer la première loi de Newton pour décider si un objet est en équilibre",
+      "Utiliser F = m × a pour trouver une force, une masse ou une accélération",
+      "Expliquer la troisième loi et dire pourquoi action et réaction ne s'annulent pas"
+    ],
+    "estimated_minutes": 18
+  },
+  "steps": [
+    {
+      "kind": "concept",
+      "title": "What is a force?",
+      "title_fr": "Qu'est-ce qu'une force ?",
+      "content": "A **force** is any push or pull that can change an object's motion. Two things describe it: its **size** (how big the push or pull is) and its **direction** (where it points).\n\nThe unit of force is the **newton**, written N.\n\nForces are drawn as **arrows**. The arrow starts at the object and points the way the force acts. A longer arrow means a bigger force.\n\nTwo families appear in examples:\n- **Contact forces** need something to push against: friction from the floor, the pull of a rope, the push of your hand.\n- **Non-contact forces** act at a distance: gravity, and magnetism.\n\n**Careful:** only one of these is a force — mass. Mass tells you how much stuff there is, but it is not a push or a pull.",
+      "content_fr": "Une **force** est une poussée ou une traction susceptible de modifier le mouvement d'un objet. Deux choses la décrivent : sa **grandeur** (l'ampleur de la poussée ou de la traction) et sa **direction** (où elle pointe).\n\nL'unité de force est le **newton**, noté N.\n\nOn représente les forces par des **flèches**. La flèche part de l'objet et pointe dans le sens d'action de la force. Une flèche plus longue signifie une force plus grande.\n\nDeux familles apparaissent dans les exercices :\n- Les **forces de contact** ont besoin de quelque chose pour pousser : le frottement du sol, la traction d'une corde, la poussée de ta main.\n- Les **forces à distance** agissent sans contact : la gravité, le magnétisme.\n\n**Attention :** une seule de ces choses est une force — la masse. La masse indique la quantité de matière, mais ce n'est ni une poussée ni une traction.",
+      "required": false,
+      "xp": 10
+    },
+    {
+      "kind": "question",
+      "title": "Is a stationary object free of forces?",
+      "title_fr": "Un objet immobile est-il soustrait aux forces ?",
+      "content": "Before choosing, remember the phrase **resultant force**: the single force you get when you add up all the forces acting on one object, taking their directions into account.\n\nA book lies flat on a table. Gravity pulls it down with a force of about 0.6 N. The table pushes it up with a force of about 0.6 N. The book is not moving, and the two forces do not disappear — they **cancel**.\n\nSo before answering, ask two things:\n1. Which forces act on this one object?\n2. Do they add to zero, or not?\n\nA stationary object is the easy case, because \"not moving\" tells you the answer to question 2 immediately. But you still have to be able to name the forces.",
+      "content_fr": "Avant de choisir, retiens l'expression **force résultante** : la force unique que l'on obtient en additionnant toutes les forces qui agissent sur un même objet, en tenant compte de leurs directions.\n\nUn livre est posé à plat sur une table. La gravité le tire vers le bas avec une force d'environ 0,6 N. La table le pousse vers le haut avec une force d'environ 0,6 N. Le livre ne bouge pas, et les deux forces ne disparaissent pas — elles **s'annulent**.\n\nAvant de répondre, pose-toi donc deux questions :\n1. Quelles forces agissent sur cet objet précis ?\n2. Font-elles une somme nulle, ou non ?\n\nUn objet immobile est le cas facile, car « il ne bouge pas » répond déjà à la question 2. Mais tu dois toujours savoir nommer les forces en jeu.",
+      "required": true,
+      "xp": 15,
+      "question": {
+        "kind": "mcq",
+        "text": "A box of 4 kg sits on a table and does not move. Which statement is correct?",
+        "text_fr": "Une boîte de 4 kg est posée sur une table et ne bouge pas. Quelle proposition est correcte ?",
+        "explanation": "The box is not free of forces: weight acts downwards and the table pushes upwards with the same size. Those two cancel, so the resultant force is zero. Zero resultant is what stops the motion, not the absence of forces.",
+        "explanation_fr": "La boîte n'est pas soustraite aux forces : son poids agit vers le bas et la table pousse vers le haut avec la même grandeur. Ces deux forces s'annulent, donc la force résultante est nulle. C'est la force résultante nulle qui bloque le mouvement, et non l'absence de forces.",
+        "hint_prompt": "Two forces are acting here. Ask whether they cancel.",
+        "hint_prompt_fr": "Deux forces agissent ici. Demande-toi si elles s'annulent.",
+        "choices": [
+          {
+            "text": "The forces on the box are balanced, so the resultant force is zero",
+            "text_fr": "Les forces qui agissent sur la boîte se compensent, donc la force résultante est nulle",
+            "correct": true
+          },
+          {
+            "text": "No forces can be acting on the box, because nothing moves",
+            "text_fr": "Aucune force ne peut agir sur la boîte, puisque rien ne bouge",
+            "correct": false
+          },
+          {
+            "text": "The resultant force must equal the weight of the box",
+            "text_fr": "La force résultante doit être égale au poids de la boîte",
+            "correct": false
+          },
+          {
+            "text": "The box must be accelerating downwards, since gravity acts on it",
+            "text_fr": "La boîte doit accélérer vers le bas, puisque la gravité agit sur elle",
+            "correct": false
+          }
+        ]
+      }
+    },
+    {
+      "kind": "explain",
+      "title": "First law: the law of inertia",
+      "title_fr": "Première loi : la loi de l'inertie",
+      "content": "**Newton's First Law** says an object keeps doing what it is already doing unless a resultant force acts on it. A book on a table stays still. A ball rolled across a frictionless floor keeps rolling forever, because nothing pushes back against it.\n\nThe property that keeps the object going is called **inertia**. Inertia is not a force — it is a property of mass. A heavier object has more inertia, so it is harder to start and harder to stop.\n\nThe keyword is *resultant*. The book is not free of forces: gravity pulls it down, the table pushes it up. Those forces are equal and opposite, so they cancel and the resultant force is zero.\n\nThat gives one rule worth memorising: an object at rest and an object moving at constant speed in a straight line are **the same case**. Both have zero resultant force.",
+      "content_fr": "La **première loi de Newton** affirme qu'un objet continue de faire ce qu'il fait déjà, sauf si une force résultante agit sur lui. Un livre sur une table reste immobile. Une bille lancée sur un sol sans frottement roule indéfiniment.\n\nLa propriété qui maintient l'objet en mouvement s'appelle l'**inertie**. L'inertie n'est pas une force : c'est une propriété de la masse. Un objet plus massif a plus d'inertie : il est plus difficile à mettre en mouvement et à arrêter.\n\nLe mot clé est *résultante*. Le livre n'est pas soustrait aux forces : la gravité tire vers le bas, la table pousse vers le haut. Ces forces sont égales et opposées, donc elles s'annulent et la force résultante est nulle.\n\nD'où une règle à retenir : un objet au repos et un objet qui avance à vitesse constante en ligne droite sont **le même cas**, avec une force résultante nulle.",
+      "required": false,
+      "xp": 10
+    },
+    {
+      "kind": "practice",
+      "title": "Second law: F = m × a",
+      "title_fr": "Deuxième loi : F = m × a",
+      "content": "**Newton's Second Law** links force, mass and acceleration:\n\n**F = m × a**\n\nwith F in newtons (N), m in kilograms (kg) and a in metres per second squared (m/s²).\n\nTwo readings of the same equation matter.\n\n*Same mass, bigger force:* acceleration goes up in proportion. Double the force on the same mass and the acceleration doubles.\n\n*Same force, bigger mass:* acceleration goes down. Double the mass and the acceleration halves.\n\nAlways check the units before you calculate. kg × m/s² gives kg·m/s², and that product **is** the newton — which confirms the formula and catches a wrong unit.\n\nThe law gives you any of the three quantities from the other two: divide to find either missing factor.",
+      "content_fr": "La **deuxième loi de Newton** relie force, masse et accélération :\n\n**F = m × a**\n\navec F en newtons (N), m en kilogrammes (kg) et a en mètres par seconde au carré (m/s²).\n\nDeux lectures de la même équation sont importantes.\n\n*À masse fixée, force plus grande :* l'accélération augmente proportionnellement. Si tu doubles la force sur la même masse, l'accélération double.\n\n*À force fixée, masse plus grande :* l'accélération diminue. Si tu doubles la masse, l'accélération est divisée par deux.\n\nVérifie toujours les unités avant de calculer. kg × m/s² donne kg·m/s², et ce produit **est** le newton : la formule se confirme donc elle-même et détecte une unité erronée.\n\nLa loi permet de retrouver n'importe laquelle des trois grandeurs à partir des deux autres : il suffit de diviser.",
+      "required": true,
+      "xp": 15,
+      "question": {
+        "kind": "numeric",
+        "text": "A net force of 18 N acts on a trolley of mass 3 kg. Using F = m × a, what is the acceleration in m/s²?",
+        "text_fr": "Une force résultante de 18 N agit sur un chariot de masse 3 kg. En utilisant F = m × a, quelle est l'accélération en m/s² ?",
+        "explanation": "Rearranging F = m × a gives a = F ÷ m = 18 ÷ 3 = 6 m/s². The mass must be in kilograms, so the trolley must be written as 3 kg and not 3000 g, or the answer comes out a hundred times too small.",
+        "explanation_fr": "En isolant a dans F = m × a, on obtient a = F ÷ m = 18 ÷ 3 = 6 m/s². La masse doit être en kilogrammes : le chariot doit donc être écrit 3 kg et non 3000 g, sinon le résultat est cent fois trop petit.",
+        "hint_prompt": "Divide the force by the mass, not the other way round.",
+        "hint_prompt_fr": "Divise la force par la masse, et non l'inverse.",
+        "config": {
+          "accepted": [6, "6"]
+        }
+      }
+    },
+    {
+      "kind": "concept",
+      "title": "Reading the second law carefully",
+      "title_fr": "Bien lire la deuxième loi",
+      "content": "The equation is short, but two details decide the answer.\n\n**First: it is the resultant that appears.** F = m × a uses the single force left after all other forces on the object have been added up. Using a component force on its own is wrong — for instance gravity alone when friction also acts.\n\n**Second: the law is not about velocity.** Acceleration is not speed. A car going round a bend at a steady 60 km/h has a large acceleration, because its **direction** changes. A car speeding up on a straight road has acceleration with no change of direction. In both cases m × a gives the force needed.\n\nA useful self-check: if a = 0, then F = 0 whatever the mass. That is the first law inside the second, and it explains how an object moves at constant speed while forces act on it.",
+      "content_fr": "L'équation est courte, mais deux détails décident de la réponse.\n\n**Premier point :** c'est la force **résultante** qui apparaît. F = m × a utilise la force unique qui reste après addition de toutes les autres forces. Utiliser une seule composante est faux — par exemple le poids seul alors que le frottement agit.\n\n**Deuxième point :** la loi ne parle pas de vitesse. L'accélération n'est pas la vitesse. Une voiture qui tourne à vitesse constante de 60 km/h a une grande accélération, car sa **direction** change. Une voiture qui accélère sur une route droite a une accélération sans changement de direction. Dans les deux cas, m × a donne la force nécessaire.\n\nUn bon contrôle : si a = 0, alors F = 0 quelle que soit la masse. C'est la première loi à l'intérieur de la deuxième, et cela explique qu'un objet avance à vitesse constante tout en subissant des forces.",
+      "required": false,
+      "xp": 10
+    },
+    {
+      "kind": "example",
+      "title": "Third law: action and reaction",
+      "title_fr": "Troisième loi : action et réaction",
+      "content": "**Newton's Third Law** states that whenever object A exerts a force on object B, object B exerts an equal and opposite force on object A.\n\nA swimmer pushes the water backwards, and the water pushes the swimmer forwards. A rocket pushes hot gases backwards, and the gases push the rocket forwards.\n\nThe classic trap is to say these two forces cancel. **They never do**, because they act on **different objects**. A force can only balance a force acting on the same body.\n\nTo sort it out, ask: *on which body does this force act?* If your two forces act on two different bodies, they are the action–reaction pair, and no object is in equilibrium because of them.\n\nThe law is also symmetric: it does not say the larger or heavier object exerts the bigger force. The two forces always have the same size.",
+      "content_fr": "La **troisième loi de Newton** énonce que chaque fois qu'un objet A exerce une force sur un objet B, B exerce sur A une force égale et opposée.\n\nUn nageur pousse l'eau vers l'arrière, et l'eau pousse le nageur vers l'avant. Une fusée expulse des gaz chauds vers l'arrière, et les gaz poussent la fusée vers l'avant.\n\nL'erreur classique consiste à dire que ces deux forces s'annulent. **Jamais**, car elles agissent sur des **objets différents**. Une force n'équilibre qu'une force agissant sur le même corps.\n\nPour démêler, pose cette question : *sur quel corps cette force agit-elle ?* Si tes deux forces portent sur deux corps différents, elles forment la paire action-réaction, et aucun objet n'est en équilibre grâce à elles.\n\nLa loi est aussi symétrique : elle ne dit pas que l'objet le plus lourd exerce la plus grande force. Les deux forces ont toujours la même grandeur.",
+      "required": false,
+      "xp": 10
+    },
+    {
+      "kind": "question",
+      "title": "Third law on a bouncing ball",
+      "title_fr": "La troisième loi avec une balle qui rebondit",
+      "content": "A ball is dropped onto a hard floor and bounces back up.\n\nDuring the bounce, the ball is squashed for a moment, so it is not a perfect elastic collision, but the third law still applies throughout.\n\nTwo forces are involved, and they are not equal to zero even though the ball changes direction:\n- the force of the **ball on the floor**\n- the force of the **floor on the ball**\n\nWrite the pair in the right order with the body each force acts on, then pick the correct statement. Watch out for the option that tries to make the two forces cancel: it cannot work, because each one acts on a different body.",
+      "content_fr": "Une balle est lâchée sur un sol dur et remonte.\n\nPendant le rebond, la balle est déformée un instant : ce n'est donc pas un choc parfaitement élastique, mais la troisième loi s'applique tout de même.\n\nDeux forces sont en jeu, et leur somme n'est pas nulle alors même que la balle change de direction :\n- la force de la **balle sur le sol**\n- la force du **sol sur la balle**\n\nÉcris la paire dans le bon ordre en indiquant le corps sur lequel chaque force agit, puis choisis la proposition correcte. Méfie-toi de l'option qui essaie de faire s'annuler les deux forces : c'est impossible, car chacune agit sur un corps différent.",
+      "required": true,
+      "xp": 15,
+      "question": {
+        "kind": "mcq",
+        "text": "A ball hits the floor and bounces. Which statement about the forces is correct?",
+        "text_fr": "Une balle frappe le sol et rebondit. Quelle proposition sur les forces est correcte ?",
+        "explanation": "The ball pushes down on the floor, and the floor pushes up on the ball with the same size. These are the action–reaction pair of the third law. They cannot cancel, because they act on two different bodies: only forces acting on the same body can balance each other.",
+        "explanation_fr": "La balle pousse le sol vers le bas, et le sol pousse la balle vers le haut avec la même grandeur. C'est la paire action-réaction de la troisième loi. Elles ne peuvent pas s'annuler, car elles agissent sur deux corps différents : seules des forces agissant sur le même corps peuvent se compenser.",
+        "hint_prompt": "Ask which body each force acts on before judging whether they cancel.",
+        "hint_prompt_fr": "Demande sur quel corps agit chaque force avant de juger si elles s'annulent.",
+        "choices": [
+          {
+            "text": "The floor pushes the ball upwards with a force equal and opposite to the force the ball exerts on the floor",
+            "text_fr": "Le sol pousse la balle vers le haut avec une force égale et opposée à celle que la balle exerce sur le sol",
+            "correct": true
+          },
+          {
+            "text": "The two forces are equal, so they cancel and the ball cannot bounce",
+            "text_fr": "Les deux forces sont égales, donc elles s'annulent et la balle ne peut pas rebondir",
+            "correct": false
+          },
+          {
+            "text": "The force of the ball on the floor is larger, because the ball is moving",
+            "text_fr": "La force de la balle sur le sol est plus grande, parce que la balle est en mouvement",
+            "correct": false
+          },
+          {
+            "text": "The floor pushes with a different force, because a solid object resists more than a ball",
+            "text_fr": "Le sol pousse avec une force différente, car un objet solide résiste plus qu'une balle",
+            "correct": false
+          }
+        ]
+      }
+    },
+    {
+      "kind": "summary",
+      "title": "What to remember",
+      "title_fr": "Ce qu'il faut retenir",
+      "content": "**A force** is a push or a pull, measured in newtons (N), drawn as an arrow. Mass is not a force.\n\n**First law:** without a resultant force, motion does not change. Rest and constant straight-line speed are the same case, with zero resultant force.\n\n**Second law:** **F = m × a** uses the *resultant* force. It is about acceleration, not speed. Fixed force and doubled mass gives half the acceleration.\n\n**Third law:** forces come in equal and opposite pairs acting on **two different bodies**, which is exactly why they never cancel.\n\nIf you can only remember one thing, remember the word **resultant**. It is the trap in most mechanics questions, and answering with a single component force instead is the usual reason a mark is lost.",
+      "content_fr": "**Une force** est une poussée ou une traction, mesurée en newtons (N), représentée par une flèche. La masse n'est pas une force.\n\n**Première loi :** sans force résultante, le mouvement ne change pas. Le repos et l'avancement à vitesse constante en ligne droite sont le même cas, avec une force résultante nulle.\n\n**Deuxième loi :** **F = m × a** utilise la force *résultante*. Elle parle d'accélération, pas de vitesse. À force constante, doubler la masse divise l'accélération par deux.\n\n**Troisième loi :** les forces vont par paires égales et opposées agissant sur **deux corps différents**, ce qui explique précisément qu'elles ne s'annulent jamais.\n\nSi tu ne dois retenir qu'une chose, retiens le mot **résultante**. C'est le piège de la plupart des questions de mécanique, et répondre avec une seule composante est la raison habituelle d'un point perdu.",
+      "required": false,
+      "xp": 10
+    }
+  ],
+  "quiz": {
+    "title": "Check: Newton's laws",
+    "title_fr": "Vérification : les lois de Newton",
+    "pass_score": 60,
+    "questions": [
+      {
+        "kind": "mcq",
+        "difficulty": 1,
+        "text": "What is the SI unit of force?",
+        "text_fr": "Quelle est l'unité SI de la force ?",
+        "explanation": "The newton (N) is the SI unit of force. Kilograms measure mass, and metres per second squared measure acceleration.",
+        "explanation_fr": "Le newton (N) est l'unité SI de la force. Les kilogrammes mesurent la masse, et les mètres par seconde au carré mesurent l'accélération.",
+        "choices": [
+          {
+            "text": "Newton",
+            "text_fr": "Newton",
+            "correct": true
+          },
+          {
+            "text": "Kilogram",
+            "text_fr": "Kilogramme",
+            "correct": false
+          },
+          {
+            "text": "Metre per second squared",
+            "text_fr": "Mètre par seconde au carré",
+            "correct": false
+          },
+          {
+            "text": "Joule",
+            "text_fr": "Joule",
+            "correct": false
+          }
+        ]
+      },
+      {
+        "kind": "mcq",
+        "difficulty": 2,
+        "text": "A cyclist travels at a steady 15 km/h along a straight road. What is the resultant force on the cyclist?",
+        "text_fr": "Un cycliste roule à vitesse constante de 15 km/h sur une route droite. Quelle est la force résultante sur le cycliste ?",
+        "explanation": "Constant speed in a straight line means zero acceleration, so by F = m × a the resultant force is zero. Forces still act — the driving force balances the resistive ones — but they cancel.",
+        "explanation_fr": "Une vitesse constante en ligne droite signifie une accélération nulle, donc F = m × a donne une force résultante nulle. Des forces agissent toujours — la force motrice compense les forces de résistance — mais elles s'annulent.",
+        "choices": [
+          {
+            "text": "Zero, because the cyclist is not accelerating",
+            "text_fr": "Nulle, car le cycliste n'accélère pas",
+            "correct": true
+          },
+          {
+            "text": "Zero, because there are no forces while he is moving",
+            "text_fr": "Nulle, car aucune force n'agit pendant qu'il roule",
+            "correct": false
+          },
+          {
+            "text": "Equal to the weight of the cyclist and bicycle",
+            "text_fr": "Égale au poids du cycliste et de son vélo",
+            "correct": false
+          },
+          {
+            "text": "Equal to the driving force, since nothing opposes motion",
+            "text_fr": "Égale à la force motrice, puisque rien ne s'oppose au mouvement",
+            "correct": false
+          }
+        ]
+      },
+      {
+        "kind": "numeric",
+        "difficulty": 2,
+        "text": "A resultant force of 12 N acts on a mass of 4 kg. What is the acceleration in m/s²?",
+        "text_fr": "Une force résultante de 12 N agit sur une masse de 4 kg. Quelle est l'accélération en m/s² ?",
+        "explanation": "From F = m × a, the acceleration is a = F ÷ m = 12 ÷ 4 = 3 m/s².",
+        "explanation_fr": "D'après F = m × a, l'accélération vaut a = F ÷ m = 12 ÷ 4 = 3 m/s².",
+        "config": {
+          "accepted": [3, "3"]
+        }
+      },
+      {
+        "kind": "mcq",
+        "difficulty": 2,
+        "text": "The same force acts on two objects of different mass. What happens to their accelerations?",
+        "text_fr": "La même force agit sur deux objets de masses différentes. Que deviennent leurs accélérations ?",
+        "explanation": "Since a = F ÷ m, a larger mass gives a smaller acceleration. The heavier object accelerates less. Halving the mass doubles the acceleration.",
+        "explanation_fr": "Comme a = F ÷ m, une masse plus grande donne une accélération plus faible. L'objet le plus lourd accélère moins. Diviser la masse par deux double l'accélération.",
+        "choices": [
+          {
+            "text": "The object with the larger mass has the smaller acceleration",
+            "text_fr": "L'objet de plus grande masse a la plus faible accélération",
+            "correct": true
+          },
+          {
+            "text": "Both have the same acceleration, because the force is the same",
+            "text_fr": "Les deux ont la même accélération, car la force est la même",
+            "correct": false
+          },
+          {
+            "text": "The object with the larger mass has the larger acceleration",
+            "text_fr": "L'objet de plus grande masse a la plus forte accélération",
+            "correct": false
+          },
+          {
+            "text": "Neither accelerates, because equal forces mean motion is impossible",
+            "text_fr": "Aucun n'accélère, car des forces égales rendent tout mouvement impossible",
+            "correct": false
+          }
+        ]
+      },
+      {
+        "kind": "mcq",
+        "difficulty": 3,
+        "text": "A woman jumps out of a boat onto a jetty. Why does the boat move backwards?",
+        "text_fr": "Une femme saute d'un bateau sur un quai. Pourquoi le bateau recule-t-il ?",
+        "explanation": "As she pushes the boat backwards to jump, the boat pushes her forwards with an equal and opposite force. The two forces act on different bodies, so they do not cancel: she is propelled forwards and the boat is propelled backwards.",
+        "explanation_fr": "En poussant le bateau vers l'arrière pour sauter, elle subit une force égale et opposée vers l'avant. Les deux forces agissent sur des corps différents : elles ne s'annulent donc pas, elle est propulsée vers l'avant et le bateau vers l'arrière.",
+        "choices": [
+          {
+            "text": "She pushes the boat backwards, so the boat pushes her forwards with an equal and opposite force",
+            "text_fr": "Elle pousse le bateau vers l'arrière, donc le bateau la pousse vers l'avant avec une force égale et opposée",
+            "correct": true
+          },
+          {
+            "text": "The water pushes the boat backwards, so the boat cannot stay still",
+            "text_fr": "L'eau pousse le bateau vers l'arrière, donc le bateau ne peut pas rester immobile",
+            "correct": false
+          },
+          {
+            "text": "Her weight in the boat makes it sink and water rushes in behind it",
+            "text_fr": "Son poids dans le bateau le fait couler, et l'eau afflue derrière lui",
+            "correct": false
+          },
+          {
+            "text": "The jetty pulls the boat away as she lands on it",
+            "text_fr": "Le quai tire le bateau lorsqu'elle y atterrit",
+            "correct": false
+          }
+        ]
+      },
+      {
+        "kind": "mcq",
+        "difficulty": 3,
+        "text": "Which statement about a resultant force is true?",
+        "text_fr": "Quelle proposition sur la force résultante est vraie ?",
+        "explanation": "The resultant force is the single force equivalent to adding up all forces on one body with their directions. Any real force on that same body can be balanced by it, but a force acting on a different body cannot.",
+        "explanation_fr": "La force résultante est la force unique équivalente à l'addition de toutes les forces sur un même corps, en tenant compte des directions. Toute force réelle sur ce même corps peut la compenser, mais une force agissant sur un autre corps ne le peut pas.",
+        "choices": [
+          {
+            "text": "It is the single force that replaces all the forces on one body once their directions are accounted for",
+            "text_fr": "C'est la force unique qui remplace toutes les forces sur un même corps une fois leurs directions prises en compte",
+            "correct": true
+          },
+          {
+            "text": "It is the largest of the forces acting on the body",
+            "text_fr": "C'est la plus grande des forces agissant sur le corps",
+            "correct": false
+          },
+          {
+            "text": "It acts only on objects that are stationary",
+            "text_fr": "Elle n'agit que sur les objets immobiles",
+            "correct": false
+          },
+          {
+            "text": "It is always equal to the weight of the body",
+            "text_fr": "Elle est toujours égale au poids du corps",
+            "correct": false
+          }
+        ]
+      }
+    ]
+  }
+}

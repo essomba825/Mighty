@@ -1,0 +1,286 @@
+{
+  "lesson": 12,
+  "status": "published",
+  "lesson_fields": {
+    "title": "Speed and Motion",
+    "title_fr": "Vitesse et mouvement",
+    "summary": "Define average speed, convert between m/s and km/h, and tell uniform motion from accelerated motion.",
+    "summary_fr": "Définir la vitesse moyenne, convertir entre m/s et km/h, et distinguer un mouvement uniforme d'un mouvement accéléré.",
+    "content": "## Speed\n\n**Average speed** answers: *how much distance did I cover, per unit of time?*\n\n    average speed = total distance / total time\n\nDistance in metres (m) or kilometres (km), time in seconds (s) or hours (h).\n\n## Converting the units\n\n    1 m/s = 3.6 km/h      1 km/h = 5/18 m/s ≈ 0.278 m/s\n\nMultiply by 3.6 to go m/s → km/h, divide by 3.6 to go back.\n\n    20 m/s = 20 × 3.6 = 72 km/h\n\n## Uniform and accelerated motion\n\n- **Uniform motion**: the speed stays constant. A speed-time graph is a horizontal line.\n- **Accelerated motion**: the speed changes. The graph tilts.\n\n**Acceleration** is the change of speed per second:\n\n    acceleration = (final speed − initial speed) / time\n\nIts unit is m/s². On a speed-time graph, the gradient *is* the acceleration.\n\nIn this lesson you will calculate speeds, convert units, and read a graph.",
+    "content_fr": "## La vitesse\n\nLa **vitesse moyenne** répond à : *quelle distance ai-je parcourue, par unité de temps ?*\n\n    vitesse moyenne = distance totale / temps total\n\nDistance en mètres (m) ou kilomètres (km), temps en secondes (s) ou heures (h).\n\n## Conversion des unités\n\n    1 m/s = 3,6 km/h      1 km/h = 5/18 m/s ≈ 0,278 m/s\n\nOn multiplie par 3,6 pour passer de m/s à km/h, et on divise par 3,6 pour l'inverse.\n\n    20 m/s = 20 × 3,6 = 72 km/h\n\n## Mouvement uniforme et accéléré\n\n- **Mouvement uniforme** : la vitesse reste constante. Le graphique vitesse-temps est une horizontale.\n- **Mouvement accéléré** : la vitesse varie. Le graphique est incliné.\n\nL'**accélération** est la variation de vitesse par seconde :\n\n    accélération = (vitesse finale − vitesse initiale) / temps\n\nSon unité est m/s². Sur un graphique vitesse-temps, la pente *est* l'accélération.\n\nDans cette leçon, tu calculeras des vitesses, convertiras des unités et liras un graphique.",
+    "objectives": [
+      "Calculate an average speed from distance and time",
+      "Convert a speed between m/s and km/h",
+      "Distinguish uniform motion from accelerated motion",
+      "Calculate an acceleration"
+    ],
+    "objectives_fr": [
+      "Calculer une vitesse moyenne à partir de la distance et du temps",
+      "Convertir une vitesse entre m/s et km/h",
+      "Distinguer un mouvement uniforme d'un mouvement accéléré",
+      "Calculer une accélération"
+    ]
+  },
+  "steps": [
+    {
+      "kind": "concept",
+      "title": "Average speed",
+      "title_fr": "La vitesse moyenne",
+      "content": "**Average speed = total distance ÷ total time**\n\nIt answers \"how far per unit of time\".\n\nA car covers 120 km in 2 h:\n\n    120 ÷ 2 = 60 km/h\n\n**Careful:** it is an *average*. If the car drove 60 km/h for one hour then 120 km/h for one hour, its average speed over the two hours is still 90 km/h, not 60 — it is total distance over total time, never the mean of the two speeds.",
+      "content_fr": "**Vitesse moyenne = distance totale ÷ temps total**\n\nElle répond à « quelle distance par unité de temps ».\n\nUne voiture parcourt 120 km en 2 h :\n\n    120 ÷ 2 = 60 km/h\n\n**Attention :** c'est une *moyenne*. Si la voiture roule à 60 km/h pendant une heure puis à 120 km/h pendant une heure, sa vitesse moyenne sur les deux heures reste 90 km/h, et non 60 : c'est la distance totale divisée par le temps total, jamais la moyenne des deux vitesses.",
+      "required": false,
+      "xp": 10
+    },
+    {
+      "kind": "question",
+      "title": "A 120 km journey",
+      "title_fr": "Un trajet de 120 km",
+      "content": "Total distance over total time. Check your units before dividing.",
+      "content_fr": "Distance totale divisée par temps total. Vérifie tes unités avant de diviser.",
+      "required": true,
+      "xp": 15,
+      "question": {
+        "kind": "mcq",
+        "difficulty": 1,
+        "text": "A car travels 120 km in 2 hours. What is its average speed?",
+        "text_fr": "Une voiture parcourt 120 km en 2 heures. Quelle est sa vitesse moyenne ?",
+        "explanation": "120 km ÷ 2 h = 60 km/h. Average speed is total distance divided by total time.",
+        "explanation_fr": "120 km ÷ 2 h = 60 km/h. La vitesse moyenne est la distance totale divisée par le temps total.",
+        "hint_prompt": "Which units do you need before dividing?",
+        "hint_prompt_fr": "Quelles unités faut-il avoir avant de diviser ?",
+        "choices": [
+          {"text": "60 km/h", "text_fr": "60 km/h", "correct": true},
+          {"text": "240 km/h", "text_fr": "240 km/h", "correct": false},
+          {"text": "30 km/h", "text_fr": "30 km/h", "correct": false},
+          {"text": "62 km", "text_fr": "62 km", "correct": false}
+        ],
+        "hints": [
+          {"text": "Speed needs distance over time, both with matching units.", "text_fr": "La vitesse demande une distance divisée par un temps, avec des unités compatibles."},
+          {"text": "120 ÷ 2 = 60.", "text_fr": "120 ÷ 2 = 60."},
+          {"text": "The unit is km per hour, so the answer is 60 km/h.", "text_fr": "L'unité est le kilomètre par heure, donc la réponse est 60 km/h."}
+        ]
+      }
+    },
+    {
+      "kind": "explain",
+      "title": "Converting m/s to km/h",
+      "title_fr": "Convertir des m/s en km/h",
+      "content": "Both units describe the same speed, so:\n\n    1 m/s = 3.6 km/h\n\nTo go from **m/s to km/h, multiply by 3.6**.\nTo go from **km/h to m/s, divide by 3.6**.\n\nWhere 3.6 comes from: 1 m/s = 1000 m in 1 s = 1000 m in 1/3600 h = 3600 m/h = 3.6 km/h.\n\n    20 m/s = 20 × 3.6 = 72 km/h\n    90 km/h = 90 ÷ 3.6 = 25 m/s\n\nThe single most common error is multiplying when you should divide, so write down which direction you are going first.",
+      "content_fr": "Les deux unités décrivent la même vitesse, donc :\n\n    1 m/s = 3,6 km/h\n\nPour passer de **m/s à km/h, on multiplie par 3,6**.\nPour passer de **km/h à m/s, on divise par 3,6**.\n\nD'où 3,6 : 1 m/s = 1000 m en 1 s = 1000 m en 1/3600 h = 3600 m/h = 3,6 km/h.\n\n    20 m/s = 20 × 3,6 = 72 km/h\n    90 km/h = 90 ÷ 3,6 = 25 m/s\n\nL'erreur la plus fréquente est de multiplier quand il faudrait diviser : note donc d'abord le sens dans lequel tu vas.",
+      "required": false,
+      "xp": 10
+    },
+    {
+      "kind": "question",
+      "title": "20 m/s in km/h",
+      "title_fr": "20 m/s en km/h",
+      "content": "Going from m/s to km/h: which operation do you need?",
+      "content_fr": "En passant de m/s à km/h : quelle opération faut-il utiliser ?",
+      "required": true,
+      "xp": 15,
+      "question": {
+        "kind": "numeric",
+        "difficulty": 2,
+        "text": "Convert 20 m/s to km/h. Give the numerical value only.",
+        "text_fr": "Convertis 20 m/s en km/h. Donne seulement la valeur numérique.",
+        "explanation": "Going from m/s to km/h means multiplying by 3.6: 20 × 3.6 = 72.",
+        "explanation_fr": "Passer de m/s à km/h, c'est multiplier par 3,6 : 20 × 3,6 = 72.",
+        "hint_prompt": "m/s to km/h is the upward direction: multiply.",
+        "hint_prompt_fr": "De m/s à km/h, c'est le sens croissant : multiplier.",
+        "config": {"accepted": [72]},
+        "hints": [
+          {"text": "1 m/s is smaller than 1 km/h, so the number must get bigger.", "text_fr": "1 m/s est plus petit que 1 km/h : le nombre doit donc augmenter."},
+          {"text": "Multiply by 3.6: 20 × 3.6.", "text_fr": "Multiplie par 3,6 : 20 × 3,6."},
+          {"text": "20 × 3.6 = 72.", "text_fr": "20 × 3,6 = 72."}
+        ]
+      }
+    },
+    {
+      "kind": "question",
+      "title": "90 km/h in m/s",
+      "title_fr": "90 km/h en m/s",
+      "content": "This time the conversion goes the other way.",
+      "content_fr": "Cette fois, la conversion se fait dans l'autre sens.",
+      "required": true,
+      "xp": 20,
+      "question": {
+        "kind": "numeric",
+        "difficulty": 2,
+        "text": "Convert 90 km/h to m/s. Give the numerical value only.",
+        "text_fr": "Convertis 90 km/h en m/s. Donne seulement la valeur numérique.",
+        "explanation": "Going from km/h to m/s means dividing by 3.6: 90 ÷ 3.6 = 25.",
+        "explanation_fr": "Passer de km/h à m/s, c'est diviser par 3,6 : 90 ÷ 3,6 = 25.",
+        "hint_prompt": "km/h to m/s is the downward direction: divide.",
+        "hint_prompt_fr": "De km/h à m/s, c'est le sens décroissant : diviser.",
+        "config": {"accepted": [25]},
+        "hints": [
+          {"text": "1 km/h is smaller than 1 m/s, so the number must get smaller.", "text_fr": "1 km/h est plus petit que 1 m/s : le nombre doit donc diminuer."},
+          {"text": "Divide by 3.6: 90 ÷ 3.6.", "text_fr": "Divise par 3,6 : 90 ÷ 3,6."},
+          {"text": "90 ÷ 3.6 = 25.", "text_fr": "90 ÷ 3,6 = 25."}
+        ]
+      }
+    },
+    {
+      "kind": "practice",
+      "title": "Uniform or accelerated?",
+      "title_fr": "Uniforme ou accéléré ?",
+      "content": "**Uniform motion**: the speed stays the same. On a speed-time graph, a **horizontal line**.\n\n**Accelerated motion**: the speed changes. The graph **tilts** — upward if speeding up, downward if slowing down.\n\nThe **gradient** (slope) of a speed-time graph equals the acceleration.\n\nA car at a steady 60 km/h for 30 minutes has zero acceleration, however fast it is going.",
+      "content_fr": "**Mouvement uniforme** : la vitesse reste la même. Sur un graphique vitesse-temps, une **horizontale**.\n\n**Mouvement accéléré** : la vitesse varie. Le graphique est **incliné** — vers le haut si la vitesse augmente, vers le bas si elle diminue.\n\nLa **pente** d'un graphique vitesse-temps vaut l'accélération.\n\nUne voiture maintenue à 60 km/h pendant 30 minutes a une accélération nulle, quelle que soit sa vitesse.",
+      "required": false,
+      "xp": 10
+    },
+    {
+      "kind": "question",
+      "title": "Reading a speed-time graph",
+      "title_fr": "Lire un graphique vitesse-temps",
+      "content": "The gradient of a speed-time graph is the acceleration. A flat line means zero.",
+      "content_fr": "La pente d'un graphique vitesse-temps est l'accélération. Une horizontale signifie zéro.",
+      "required": true,
+      "xp": 20,
+      "question": {
+        "kind": "mcq",
+        "difficulty": 2,
+        "text": "On a speed-time graph, the line is horizontal at 50 km/h. What is the acceleration?",
+        "text_fr": "Sur un graphique vitesse-temps, la droite est horizontale à 50 km/h. Quelle est l'accélération ?",
+        "explanation": "A horizontal line has zero gradient, so the speed is not changing and the acceleration is 0 m/s².",
+        "explanation_fr": "Une horizontale a une pente nulle : la vitesse ne change pas et l'accélération vaut 0 m/s².",
+        "hint_prompt": "A horizontal line has no gradient.",
+        "hint_prompt_fr": "Une horizontale n'a pas de pente.",
+        "choices": [
+          {"text": "0 m/s²", "text_fr": "0 m/s²", "correct": true},
+          {"text": "50 m/s²", "text_fr": "50 m/s²", "correct": false},
+          {"text": "50 km/h", "text_fr": "50 km/h", "correct": false},
+          {"text": "It cannot be determined", "text_fr": "On ne peut pas le déterminer", "correct": false}
+        ],
+        "hints": [
+          {"text": "Acceleration is the gradient, not the value on the axis.", "text_fr": "L'accélération est la pente, et non la valeur portée sur l'axe."},
+          {"text": "A horizontal line has a gradient of zero.", "text_fr": "Une horizontale a une pente nulle."},
+          {"text": "Zero gradient means the speed is constant, so a = 0.", "text_fr": "Pente nulle signifie vitesse constante, donc a = 0."}
+        ]
+      }
+    },
+    {
+      "kind": "summary",
+      "title": "The three formulas",
+      "title_fr": "Les trois formules",
+      "content": "    average speed = total distance / total time\n    acceleration  = (final speed − initial speed) / time\n    1 m/s = 3.6 km/h\n\n**Units:** m/s or km/h for speed, m/s² for acceleration.\n\nAlways keep matching units before dividing, and check whether a conversion means multiplying by 3.6 or dividing by it.",
+      "content_fr": "    vitesse moyenne = distance totale / temps total\n    accélération    = (vitesse finale − vitesse initiale) / temps\n    1 m/s = 3,6 km/h\n\n**Unités :** m/s ou km/h pour la vitesse, m/s² pour l'accélération.\n\nGarde toujours des unités compatibles avant de diviser, et vérifie si une conversion consiste à multiplier par 3,6 ou à diviser par 3,6.",
+      "required": false,
+      "xp": 10
+    }
+  ],
+  "quiz": {
+    "title": "Quiz — Speed and motion",
+    "title_fr": "Quiz — Vitesse et mouvement",
+    "pass_score": 60,
+    "questions": [
+      {
+        "kind": "mcq",
+        "difficulty": 1,
+        "text": "A car travels 120 km in 2 hours. What is its average speed?",
+        "text_fr": "Une voiture parcourt 120 km en 2 heures. Quelle est sa vitesse moyenne ?",
+        "explanation": "120 km ÷ 2 h = 60 km/h.",
+        "explanation_fr": "120 km ÷ 2 h = 60 km/h.",
+        "hint_prompt": "Total distance over total time.",
+        "hint_prompt_fr": "Distance totale sur temps total.",
+        "choices": [
+          {"text": "60 km/h", "text_fr": "60 km/h", "correct": true},
+          {"text": "240 km/h", "text_fr": "240 km/h", "correct": false},
+          {"text": "30 km/h", "text_fr": "30 km/h", "correct": false},
+          {"text": "118 km/h", "text_fr": "118 km/h", "correct": false}
+        ],
+        "hints": [
+          {"text": "120 ÷ 2 = 60.", "text_fr": "120 ÷ 2 = 60."},
+          {"text": "The unit is kilometres per hour.", "text_fr": "L'unité est le kilomètre par heure."}
+        ]
+      },
+      {
+        "kind": "numeric",
+        "difficulty": 2,
+        "text": "Convert 20 m/s to km/h. Give the numerical value only.",
+        "text_fr": "Convertis 20 m/s en km/h. Donne seulement la valeur numérique.",
+        "explanation": "Multiply by 3.6: 20 × 3.6 = 72.",
+        "explanation_fr": "Multiplie par 3,6 : 20 × 3,6 = 72.",
+        "hint_prompt": "Going to the larger unit means multiplying.",
+        "hint_prompt_fr": "Aller vers l'unité la plus grande, c'est multiplier.",
+        "config": {"accepted": [72]},
+        "hints": [
+          {"text": "1 m/s = 3.6 km/h.", "text_fr": "1 m/s = 3,6 km/h."},
+          {"text": "20 × 3.6 = 72.", "text_fr": "20 × 3,6 = 72."}
+        ]
+      },
+      {
+        "kind": "numeric",
+        "difficulty": 2,
+        "text": "Convert 90 km/h to m/s. Give the numerical value only.",
+        "text_fr": "Convertis 90 km/h en m/s. Donne seulement la valeur numérique.",
+        "explanation": "Divide by 3.6: 90 ÷ 3.6 = 25.",
+        "explanation_fr": "Divise par 3,6 : 90 ÷ 3,6 = 25.",
+        "hint_prompt": "Going to the smaller unit means dividing.",
+        "hint_prompt_fr": "Aller vers l'unité la plus petite, c'est diviser.",
+        "config": {"accepted": [25]},
+        "hints": [
+          {"text": "Divide by 3.6 to go from km/h to m/s.", "text_fr": "Divise par 3,6 pour passer de km/h à m/s."},
+          {"text": "90 ÷ 3.6 = 25.", "text_fr": "90 ÷ 3,6 = 25."}
+        ]
+      },
+      {
+        "kind": "mcq",
+        "difficulty": 2,
+        "text": "What does a horizontal line on a speed-time graph mean?",
+        "text_fr": "Que signifie une horizontale sur un graphique vitesse-temps ?",
+        "explanation": "A horizontal line has zero gradient, so the speed is constant and the acceleration is zero: uniform motion.",
+        "explanation_fr": "Une horizontale a une pente nulle : la vitesse est constante et l'accélération est nulle, c'est un mouvement uniforme.",
+        "hint_prompt": "Think about the gradient.",
+        "hint_prompt_fr": "Pense à la pente.",
+        "choices": [
+          {"text": "The speed is constant and the acceleration is zero", "text_fr": "La vitesse est constante et l'accélération est nulle", "correct": true},
+          {"text": "The speed increases steadily", "text_fr": "La vitesse augmente régulièrement", "correct": false},
+          {"text": "The speed decreases steadily", "text_fr": "La vitesse diminue régulièrement", "correct": false},
+          {"text": "The object is not moving", "text_fr": "L'objet est immobile", "correct": false}
+        ],
+        "hints": [
+          {"text": "The gradient of the line is the acceleration.", "text_fr": "La pente de la droite est l'accélération."},
+          {"text": "Zero gradient means the speed does not change.", "text_fr": "Pente nulle signifie que la vitesse ne change pas."}
+        ]
+      },
+      {
+        "kind": "numeric",
+        "difficulty": 3,
+        "text": "A car accelerates from 10 m/s to 40 m/s in 6 seconds. What is the acceleration in m/s²?",
+        "text_fr": "Une voiture accélère de 10 m/s à 40 m/s en 6 secondes. Quelle est l'accélération en m/s² ?",
+        "explanation": "a = (40 − 10) ÷ 6 = 30 ÷ 6 = 5 m/s².",
+        "explanation_fr": "a = (40 − 10) ÷ 6 = 30 ÷ 6 = 5 m/s².",
+        "hint_prompt": "Change in speed, divided by the time taken.",
+        "hint_prompt_fr": "Variation de vitesse, divisée par le temps écoulé.",
+        "config": {"accepted": [5]},
+        "hints": [
+          {"text": "Subtract the initial speed from the final speed: 40 − 10.", "text_fr": "Soustrais la vitesse initiale de la vitesse finale : 40 − 10."},
+          {"text": "The change is 30 m/s.", "text_fr": "La variation est de 30 m/s."},
+          {"text": "Divide 30 by 6 to get 5 m/s².", "text_fr": "Divise 30 par 6 pour obtenir 5 m/s²."}
+        ]
+      },
+      {
+        "kind": "mcq",
+        "difficulty": 2,
+        "text": "A cyclist rides at 20 km/h for one hour, then at 30 km/h for one hour. What is the average speed over the two hours?",
+        "text_fr": "Un cycliste roule à 20 km/h pendant une heure, puis à 30 km/h pendant une heure. Quelle est sa vitesse moyenne sur les deux heures ?",
+        "explanation": "Total distance is 20 + 30 = 50 km over 2 h, so the average speed is 50 ÷ 2 = 25 km/h. It is not the mean of 20 and 30, because the time at each speed is the same here but the average of speeds is not the average of the journey.",
+        "explanation_fr": "La distance totale est 20 + 30 = 50 km sur 2 h, donc la vitesse moyenne est 50 ÷ 2 = 25 km/h. Ce n'est pas la moyenne de 20 et 30 : la vitesse moyenne se calcule sur la distance totale, pas en faisant la moyenne des vitesses.",
+        "hint_prompt": "Add up the distances first, then divide by the total time.",
+        "hint_prompt_fr": "Additionne les distances, puis divise par le temps total.",
+        "choices": [
+          {"text": "25 km/h", "text_fr": "25 km/h", "correct": true},
+          {"text": "50 km/h", "text_fr": "50 km/h", "correct": false},
+          {"text": "27.5 km/h", "text_fr": "27,5 km/h", "correct": false},
+          {"text": "It cannot be calculated", "text_fr": "On ne peut pas la calculer", "correct": false}
+        ],
+        "hints": [
+          {"text": "In the first hour the cyclist covers 20 km, in the second 30 km.", "text_fr": "Pendant la première heure le cycliste parcourt 20 km, pendant la seconde 30 km."},
+          {"text": "Total distance is 50 km and total time is 2 h.", "text_fr": "La distance totale est 50 km et le temps total 2 h."},
+          {"text": "50 ÷ 2 = 25 km/h.", "text_fr": "50 ÷ 2 = 25 km/h."}
+        ]
+      }
+    ]
+  }
+}

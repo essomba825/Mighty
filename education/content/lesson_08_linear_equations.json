@@ -1,0 +1,273 @@
+{
+  "lesson": 8,
+  "status": "published",
+  "lesson_fields": {
+    "title": "Solving Linear Equations of the First Degree",
+    "title_fr": "Résoudre une équation du premier degré",
+    "summary": "Solve ax + b = c by isolating x, then check the solution by substitution.",
+    "summary_fr": "Résoudre ax + b = c en isolant x, puis vérifier la solution par substitution.",
+    "content": "## What is a first-degree equation?\n\nAn equation is a **balance**: both sides hold the same value. Solving it means finding the value of the unknown that keeps the balance.\n\nA **first-degree equation** contains the unknown `x` to the power 1, and it can always be written:\n\n    ax + b = c      where a ≠ 0\n\n**Examples:** `3x + 5 = 14` · `x/4 - 2 = 1` · `2x - 7 = x + 3`\n\n## The method\n\n1. Move the `x` terms to one side, the constants to the other\n2. Divide by the coefficient of `x`\n\nWhatever you do to one side, do to the other — that is what keeps the balance.\n\n## Worked example\n\n    3x + 5 = 14\n    3x     = 14 - 5      (subtract 5)\n    3x     = 9\n    x      = 3           (divide by 3)\n\n**Check:** 3(3) + 5 = 9 + 5 = 14 ✓\n\n## A common mistake\n\nDividing only one term, or forgetting the sign when moving a negative term:\n\n    2x - 7 = x + 3\n    x - 7 = 3            ← subtract x\n    x     = 10           ← add 7\n\nCheck: 2(10) - 7 = 13, and 10 + 3 = 13 ✓\n\nIn this lesson you will learn to isolate the unknown, keep the balance, and verify each answer.",
+    "content_fr": "## Qu'est-ce qu'une équation du premier degré ?\n\nUne équation est un **équilibre** : les deux membres valent la même chose. Résoudre, c'est trouver la valeur de l'inconnue qui respecte cet équilibre.\n\nUne **équation du premier degré** contient l'inconnue `x` à la puissance 1, et s'écrit toujours :\n\n    ax + b = c      avec a ≠ 0\n\n**Exemples :** `3x + 5 = 14` · `x/4 - 2 = 1` · `2x - 7 = x + 3`\n\n## La méthode\n\n1. Regrouper les termes en `x` d'un côté, les constantes de l'autre\n2. Diviser par le coefficient de `x`\n\nCe que tu fais d'un côté, tu le fais de l'autre — c'est ce qui préserve l'équilibre.\n\n## Exemple résolu\n\n    3x + 5 = 14\n    3x     = 14 - 5      (on soustrait 5)\n    3x     = 9\n    x      = 3           (on divise par 3)\n\n**Vérification :** 3(3) + 5 = 9 + 5 = 14 ✓\n\n## Une erreur fréquente\n\nDiviser un seul terme, ou oublier le signe en déplaçant un terme négatif :\n\n    2x - 7 = x + 3\n    x - 7 = 3            ← on soustrait x\n    x     = 10           ← on ajoute 7\n\nVérification : 2(10) - 7 = 13, et 10 + 3 = 13 ✓\n\nDans cette leçon, tu apprendras à isoler l'inconnue, à garder l'équilibre et à vérifier chaque réponse.",
+    "objectives": [
+      "Recognise an equation of the first degree and identify its coefficients",
+      "Solve ax + b = c by isolating x",
+      "Solve equations where x appears on both sides",
+      "Verify a solution by substitution"
+    ],
+    "objectives_fr": [
+      "Reconnaître une équation du premier degré et identifier ses coefficients",
+      "Résoudre ax + b = c en isolant x",
+      "Résoudre une équation où x figure des deux côtés",
+      "Vérifier une solution par substitution"
+    ]
+  },
+  "steps": [
+    {
+      "kind": "concept",
+      "title": "An equation is a balance",
+      "title_fr": "Une équation est un équilibre",
+      "content": "In `3x + 5 = 14`, the sign `=` means **both sides are worth the same**.\n\nSolving means finding the value of `x` that makes this true.\n\n**The golden rule:** whatever you do to one side, do the same to the other.\n\n- add 2 on the left → add 2 on the right\n- multiply by 3 on the left → multiply by 3 on the right\n\nBreaking the rule is the number one source of wrong answers.",
+      "content_fr": "Dans `3x + 5 = 14`, le signe `=` signifie que **les deux membres valent la même chose**.\n\nRésoudre, c'est trouver la valeur de `x` qui rend cette égalité vraie.\n\n**La règle d'or :** ce que tu fais d'un côté, tu le fais de l'autre.\n\n- ajouter 2 à gauche → ajouter 2 à droite\n- multiplier par 3 à gauche → multiplier par 3 à droite\n\nEnfreindre cette règle est la première source de mauvaises réponses.",
+      "required": false,
+      "xp": 10
+    },
+    {
+      "kind": "explain",
+      "title": "Isolating x: move, then divide",
+      "title_fr": "Isoler x : regrouper, puis diviser",
+      "content": "Any first-degree equation rearranges to `ax + b = c`.\n\n**Step 1 — move the x terms to one side, the constants to the other.**\nUse `+` and `−` only. If the term you move is behind a `−`, the sign flips.\n\n**Step 2 — divide by the coefficient of x.**\n\n    3x + 5 = 14\n    3x     = 14 - 5     →  3x = 9\n    x      = 9 ÷ 3      →  x = 3\n\n**Never** divide a single term in `3x + 5` — put the parentheses on: `3(x) + 5`, then divide everything by 3.",
+      "content_fr": "Toute équation du premier degré se ramène à `ax + b = c`.\n\n**Étape 1 — regrouper les termes en x d'un côté, les constantes de l'autre.**\nOn n'utilise que `+` et `−`. Si le terme déplacé est précédé d'un `−`, le signe s'inverse.\n\n**Étape 2 — diviser par le coefficient de x.**\n\n    3x + 5 = 14\n    3x     = 14 - 5     →  3x = 9\n    x      = 9 ÷ 3      →  x = 3\n\n**Ne divise jamais** un seul terme dans `3x + 5` — mets les parenthèses : `3(x) + 5`, puis divise tout par 3.",
+      "required": false,
+      "xp": 10
+    },
+    {
+      "kind": "question",
+      "title": "Solve 3x + 5 = 14",
+      "title_fr": "Résoudre 3x + 5 = 14",
+      "content": "Apply both steps, then state the value of x.",
+      "content_fr": "Applique les deux étapes, puis donne la valeur de x.",
+      "required": true,
+      "xp": 15,
+      "question": {
+        "kind": "mcq",
+        "difficulty": 1,
+        "text": "Solve 3x + 5 = 14.",
+        "text_fr": "Résous 3x + 5 = 14.",
+        "explanation": "Subtract 5 from both sides: 3x = 9. Divide by 3: x = 3.",
+        "explanation_fr": "On soustrait 5 de chaque membre : 3x = 9. On divise par 3 : x = 3.",
+        "hint_prompt": "First remove the + 5 from both sides.",
+        "hint_prompt_fr": "Commence par enlever le + 5 des deux membres.",
+        "choices": [
+          {"text": "x = 3", "text_fr": "x = 3", "correct": true},
+          {"text": "x = 9", "text_fr": "x = 9", "correct": false},
+          {"text": "x = 19", "text_fr": "x = 19", "correct": false},
+          {"text": "x = 9/5", "text_fr": "x = 9/5", "correct": false}
+        ],
+        "hints": [
+          {"text": "The equation has a + 5 that is not part of the x term.", "text_fr": "L'équation contient un + 5 qui ne fait pas partie du terme en x."},
+          {"text": "Subtract 5 from both sides to get 3x = 9.", "text_fr": "Soustrais 5 aux deux membres pour obtenir 3x = 9."},
+          {"text": "Divide 9 by 3 to get x = 3.", "text_fr": "Divise 9 par 3 pour obtenir x = 3."}
+        ]
+      }
+    },
+    {
+      "kind": "question",
+      "title": "x on both sides",
+      "title_fr": "x des deux côtés",
+      "content": "When x appears on the left **and** on the right, subtract x from both sides first. Watch the signs.",
+      "content_fr": "Lorsque x apparaît à gauche **et** à droite, soustrais x aux deux membres d'abord. Attention aux signes.",
+      "required": true,
+      "xp": 20,
+      "question": {
+        "kind": "mcq",
+        "difficulty": 2,
+        "text": "Solve 2x - 7 = x + 3.",
+        "text_fr": "Résous 2x - 7 = x + 3.",
+        "explanation": "Subtract x from both sides: x - 7 = 3. Then add 7: x = 10. Check: 2(10) - 7 = 13 and 10 + 3 = 13.",
+        "explanation_fr": "On soustrait x aux deux membres : x - 7 = 3. Puis on ajoute 7 : x = 10. Vérification : 2(10) - 7 = 13 et 10 + 3 = 13.",
+        "hint_prompt": "Get rid of the x on the right-hand side.",
+        "hint_prompt_fr": "Élimine le x situé à droite.",
+        "choices": [
+          {"text": "x = 10", "text_fr": "x = 10", "correct": true},
+          {"text": "x = 4", "text_fr": "x = 4", "correct": false},
+          {"text": "x = -4", "text_fr": "x = -4", "correct": false},
+          {"text": "x = 5", "text_fr": "x = 5", "correct": false}
+        ],
+        "hints": [
+          {"text": "There is an x on the right. Subtract x from both sides.", "text_fr": "Il y a un x à droite. Soustrais x aux deux membres."},
+          {"text": "2x - x - 7 = 3 becomes x - 7 = 3.", "text_fr": "2x - x - 7 = 3 devient x - 7 = 3."},
+          {"text": "Add 7 to both sides: x = 10.", "text_fr": "Ajoute 7 aux deux membres : x = 10."}
+        ]
+      }
+    },
+    {
+      "kind": "practice",
+      "title": "With a fraction as coefficient",
+      "title_fr": "Avec une fraction comme coefficient",
+      "content": "When x is divided by a number, remember that **dividing both sides by 4 is the same as multiplying by 1/4**.\n\n    x/4 - 2 = 1\n    x/4     = 3        (add 2)\n    x       = 12       (multiply by 4)\n\nMultiplying by the denominator is easier than dividing by the fraction.",
+      "content_fr": "Lorsque x est divisé par un nombre, rappelle-toi que **diviser les deux membres par 4 revient à multiplier par 1/4**.\n\n    x/4 - 2 = 1\n    x/4     = 3        (on ajoute 2)\n    x       = 12       (on multiplie par 4)\n\nMultiplier par le dénominateur est plus simple que diviser par la fraction.",
+      "required": false,
+      "xp": 10
+    },
+    {
+      "kind": "question",
+      "title": "Solve x/4 - 2 = 1",
+      "title_fr": "Résoudre x/4 - 2 = 1",
+      "content": "Clear the − 2, then get rid of the division by 4.",
+      "content_fr": "Supprime le − 2, puis élimine la division par 4.",
+      "required": true,
+      "xp": 20,
+      "question": {
+        "kind": "numeric",
+        "difficulty": 2,
+        "text": "Solve x/4 - 2 = 1. Give the value of x.",
+        "text_fr": "Résous x/4 - 2 = 1. Donne la valeur de x.",
+        "explanation": "Add 2 to both sides: x/4 = 3. Multiply both sides by 4: x = 12.",
+        "explanation_fr": "On ajoute 2 aux deux membres : x/4 = 3. On multiplie les deux membres par 4 : x = 12.",
+        "hint_prompt": "Multiply both sides by 4 once the division is alone on one side.",
+        "hint_prompt_fr": "Multiplie les deux membres par 4 une fois la division seule d'un côté.",
+        "config": {"accepted": [12]},
+        "hints": [
+          {"text": "There is a - 2 on the left that must be cancelled.", "text_fr": "Il y a un - 2 à gauche qu'il faut annuler."},
+          {"text": "Add 2 to both sides and you get x/4 = 3.", "text_fr": "Ajoute 2 aux deux membres et tu obtiens x/4 = 3."},
+          {"text": "Multiplying both sides by 4 gives x = 12.", "text_fr": "Multiplier les deux membres par 4 donne x = 12."}
+        ]
+      }
+    },
+    {
+      "kind": "example",
+      "title": "The equation with no solution",
+      "title_fr": "L'équation sans solution",
+      "content": "Some equations cannot be solved, and that is a valid answer.\n\n    x + 4 = x\n\nSubtract x from both sides:\n\n    4 = 0\n\nThis is false, so the equation has **no solution** (in French: *sans solution*).\n\nThe same happens when you reach `0x = 9`: the x disappears and you get a contradiction.\n\nThe other special case is `0x = 0`, true for every x: that is an **identity**, and every value works.",
+      "content_fr": "Certaines équations ne se résolvent pas, et c'est une réponse valable.\n\n    x + 4 = x\n\nOn soustrait x aux deux membres :\n\n    4 = 0\n\nC'est faux : l'équation est **sans solution**.\n\nIl en va de même quand on obtient `0x = 9` : le x disparaît et il reste une contradiction.\n\nL'autre cas particulier est `0x = 0`, vrai pour tout x : c'est une **identité**, et toute valeur convient.",
+      "required": false,
+      "xp": 10
+    },
+    {
+      "kind": "summary",
+      "title": "Method and check",
+      "title_fr": "Méthode et vérification",
+      "content": "**To solve ax + b = c:**\n\n1. Move every x term to one side, every constant to the other\n2. Change `+` to `−` and the other way round when crossing a term\n3. Divide by the coefficient of x, on both sides\n4. **Substitute your answer back** to check it\n\nSubstituting is not optional. It takes ten seconds and catches sign errors, which are the most common mistake.",
+      "content_fr": "**Pour résoudre ax + b = c :**\n\n1. Regroupe tous les termes en x d'un côté, toutes les constantes de l'autre\n2. Change `+` en `−` et l'inverse en passant un terme\n3. Divise par le coefficient de x, des deux côtés\n4. **Remplace x par ta réponse** pour vérifier\n\nLa vérification n'est pas facultative. Elle prend dix secondes et révèle les erreurs de signe, de loin les plus fréquentes.",
+      "required": false,
+      "xp": 10
+    }
+  ],
+  "quiz": {
+    "title": "Quiz — Solving linear equations",
+    "title_fr": "Quiz — Résoudre les équations du premier degré",
+    "pass_score": 60,
+    "questions": [
+      {
+        "kind": "mcq",
+        "difficulty": 1,
+        "text": "Solve 3x + 5 = 14.",
+        "text_fr": "Résous 3x + 5 = 14.",
+        "explanation": "Subtract 5 from both sides: 3x = 9. Divide by 3: x = 3.",
+        "explanation_fr": "On soustrait 5 des deux membres : 3x = 9. On divise par 3 : x = 3.",
+        "hint_prompt": "Remove the + 5 first.",
+        "hint_prompt_fr": "Enleve d'abord le + 5.",
+        "choices": [
+          {"text": "x = 3", "text_fr": "x = 3", "correct": true},
+          {"text": "x = 9", "text_fr": "x = 9", "correct": false},
+          {"text": "x = 19", "text_fr": "x = 19", "correct": false},
+          {"text": "x = 5/3", "text_fr": "x = 5/3", "correct": false}
+        ],
+        "hints": [
+          {"text": "Subtracting 5 from both sides gives 3x = 9.", "text_fr": "En soustrayant 5 des deux membres, on obtient 3x = 9."},
+          {"text": "x = 9 divided by 3 is 3.", "text_fr": "9 divisé par 3 vaut 3."}
+        ]
+      },
+      {
+        "kind": "mcq",
+        "difficulty": 2,
+        "text": "Solve 2x - 7 = x + 3.",
+        "text_fr": "Résous 2x - 7 = x + 3.",
+        "explanation": "Subtract x from both sides: x - 7 = 3. Add 7 to both sides: x = 10.",
+        "explanation_fr": "On soustrait x aux deux membres : x - 7 = 3. On ajoute 7 aux deux membres : x = 10.",
+        "hint_prompt": "There is an x on the right-hand side.",
+        "hint_prompt_fr": "Il y a un x dans le membre de droite.",
+        "choices": [
+          {"text": "x = 10", "text_fr": "x = 10", "correct": true},
+          {"text": "x = 4", "text_fr": "x = 4", "correct": false},
+          {"text": "x = -4", "text_fr": "x = -4", "correct": false},
+          {"text": "x = 13", "text_fr": "x = 13", "correct": false}
+        ],
+        "hints": [
+          {"text": "Subtract x from both sides to get x - 7 = 3.", "text_fr": "Soustrais x aux deux membres pour obtenir x - 7 = 3."},
+          {"text": "Adding 7 to both sides gives x = 10.", "text_fr": "Ajouter 7 aux deux membres donne x = 10."}
+        ]
+      },
+      {
+        "kind": "numeric",
+        "difficulty": 2,
+        "text": "Solve x/4 - 2 = 1. Give the value of x.",
+        "text_fr": "Résous x/4 - 2 = 1. Donne la valeur de x.",
+        "explanation": "Add 2 to both sides: x/4 = 3. Multiply both sides by 4: x = 12.",
+        "explanation_fr": "On ajoute 2 aux deux membres : x/4 = 3. On multiplie par 4 : x = 12.",
+        "hint_prompt": "Multiply by 4 once x/4 stands alone.",
+        "hint_prompt_fr": "Multiplie par 4 une fois x/4 seul.",
+        "config": {"accepted": [12]},
+        "hints": [
+          {"text": "Add 2 to both sides: x/4 = 3.", "text_fr": "Ajoute 2 aux deux membres : x/4 = 3."},
+          {"text": "Multiplying both sides by 4 gives x = 12.", "text_fr": "Multiplier les deux membres par 4 donne x = 12."}
+        ]
+      },
+      {
+        "kind": "mcq",
+        "difficulty": 2,
+        "text": "Solve 5x = 3x + 8.",
+        "text_fr": "Résous 5x = 3x + 8.",
+        "explanation": "Subtract 3x from both sides: 2x = 8. Divide by 2: x = 4. Check: 5(4) = 20 and 3(4) + 8 = 20.",
+        "explanation_fr": "On soustrait 3x aux deux membres : 2x = 8. On divise par 2 : x = 4. Vérification : 5(4) = 20 et 3(4) + 8 = 20.",
+        "hint_prompt": "Get the x terms on the same side.",
+        "hint_prompt_fr": "Mets les termes en x du même côté.",
+        "choices": [
+          {"text": "x = 4", "text_fr": "x = 4", "correct": true},
+          {"text": "x = 8", "text_fr": "x = 8", "correct": false},
+          {"text": "x = 2", "text_fr": "x = 2", "correct": false},
+          {"text": "x = 16", "text_fr": "x = 16", "correct": false}
+        ],
+        "hints": [
+          {"text": "Subtract 3x from both sides: 2x = 8.", "text_fr": "Soustrais 3x aux deux membres : 2x = 8."},
+          {"text": "Divide 8 by 2 to get x = 4.", "text_fr": "Divise 8 par 2 pour obtenir x = 4."}
+        ]
+      },
+      {
+        "kind": "mcq",
+        "difficulty": 3,
+        "text": "What happens with the equation x + 4 = x?",
+        "text_fr": "Que se passe-t-il avec l'équation x + 4 = x ?",
+        "explanation": "Subtracting x from both sides leaves 4 = 0, which is false. The equation has no solution.",
+        "explanation_fr": "En soustrayant x aux deux membres, il reste 4 = 0, ce qui est faux. L'équation est sans solution.",
+        "hint_prompt": "Subtract x from both sides and read what is left.",
+        "hint_prompt_fr": "Soustrais x aux deux membres et regarde ce qui reste.",
+        "choices": [
+          {"text": "It has no solution", "text_fr": "Elle est sans solution", "correct": true},
+          {"text": "It has the solution x = 4", "text_fr": "Elle a la solution x = 4", "correct": false},
+          {"text": "It has the solution x = -4", "text_fr": "Elle a la solution x = -4", "correct": false},
+          {"text": "It has infinitely many solutions", "text_fr": "Elle a une infinité de solutions", "correct": false}
+        ],
+        "hints": [
+          {"text": "Subtract x from both sides: 4 = 0.", "text_fr": "Soustrais x aux deux membres : 4 = 0."},
+          {"text": "4 = 0 is false, so there is no value of x that works.", "text_fr": "4 = 0 est faux : aucune valeur de x ne convient."}
+        ]
+      },
+      {
+        "kind": "numeric",
+        "difficulty": 2,
+        "text": "Solve 7x + 3 = 5x + 11. Give the value of x.",
+        "text_fr": "Résous 7x + 3 = 5x + 11. Donne la valeur de x.",
+        "explanation": "Subtract 5x from both sides: 2x + 3 = 11. Subtract 3: 2x = 8. Divide by 2: x = 4.",
+        "explanation_fr": "On soustrait 5x aux deux membres : 2x + 3 = 11. On soustrait 3 : 2x = 8. On divise par 2 : x = 4.",
+        "hint_prompt": "Start by subtracting 5x from both sides.",
+        "hint_prompt_fr": "Commence par soustraire 5x aux deux membres.",
+        "config": {"accepted": [4]},
+        "hints": [
+          {"text": "Subtracting 5x gives 2x + 3 = 11.", "text_fr": "En soustrayant 5x, on obtient 2x + 3 = 11."},
+          {"text": "Subtract 3 then divide by 2 to get x = 4.", "text_fr": "Soustrais 3 puis divise par 2 pour obtenir x = 4."}
+        ]
+      }
+    ]
+  }
+}

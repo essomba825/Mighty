@@ -1,0 +1,256 @@
+{
+  "subject": {
+    "name": "Mathematics",
+    "name_fr": "Mathématiques",
+    "slug": "mathematics-ol",
+    "level": "ol",
+    "icon": "mdi-function-variant",
+    "color": "#3d5fd6",
+    "description": "GCE Ordinary Level Mathematics — full syllabus in progressive lessons.",
+    "description_fr": "Programme complet de mathématiques GCE OL en leçons progressives."
+  },
+  "chapters": [
+    {
+      "order": 1,
+      "title": "Numbers and the Number System",
+      "title_fr": "Les nombres",
+      "description": "Foundations: integers, fractions, decimals, percentages.",
+      "lessons": [
+        {
+          "order": 1,
+          "title": "Types of Numbers and Prime Factors",
+          "title_fr": "Types de nombres et facteurs premiers",
+          "objective_en": "Identify natural numbers, integers, primes, multiples and factors; decompose a number into prime factors; find HCF and LCM.",
+          "estimated_minutes": 25,
+          "generate": true
+        },
+        {
+          "order": 2,
+          "title": "Fractions, Decimals and Percentages",
+          "title_fr": "Fractions, décimaux et pourcentages",
+          "objective_en": "Convert between fractions, decimals and percentages; compute with fractions; apply percentage increase and decrease in real situations.",
+          "estimated_minutes": 30,
+          "generate": true
+        },
+        {
+          "order": 3,
+          "title": "Ratio and Proportion",
+          "title_fr": "Ratios et proportionnalité",
+          "objective_en": "Simplify ratios, share quantities in a given ratio, solve direct and inverse proportion problems.",
+          "estimated_minutes": 25,
+          "generate": true
+        },
+        {
+          "order": 4,
+          "title": "Estimation and Rounding Practice",
+          "title_fr": "Estimation et arrondis",
+          "objective_en": "Round to given significant figures and decimal places; estimate results; recognise upper and lower bounds.",
+          "estimated_minutes": 20,
+          "generate": true
+        }
+      ]
+    },
+    {
+      "order": 2,
+      "title": "Powers, Roots and Standard Form",
+      "title_fr": "Puissances, racines et écriture scientifique",
+      "description": "Indices, scientific notation and square roots.",
+      "lessons": [
+        {
+          "order": 1,
+          "title": "Laws of Indices",
+          "title_fr": "Règles des indices",
+          "objective_en": "Apply the laws of exponents for multiplication, division, powers of powers, zero and negative indices.",
+          "estimated_minutes": 25,
+          "generate": true
+        },
+        {
+          "order": 2,
+          "title": "Standard Form (Scientific Notation)",
+          "title_fr": "Écriture scientifique",
+          "objective_en": "Convert very large and small numbers to and from standard form; compute with them.",
+          "estimated_minutes": 20,
+          "generate": true
+        },
+        {
+          "order": 3,
+          "title": "Squares, Cubes and Roots",
+          "title_fr": "Carrés, cubes et racines",
+          "objective_en": "Find squares, cubes and their roots, estimate square roots between integers.",
+          "estimated_minutes": 20,
+          "generate": false
+        }
+      ]
+    },
+    {
+      "order": 3,
+      "title": "Algebra I — Expressions and Linear Equations",
+      "title_fr": "Algèbre I — expressions et équations du premier degré",
+      "description": "From arithmetic patterns to algebraic reasoning.",
+      "lessons": [
+        {
+          "order": 1,
+          "title": "Simplifying and Expanding Expressions",
+          "title_fr": "Simplification et développement",
+          "objective_en": "Collect like terms, expand single and double brackets, factorise simple expressions.",
+          "estimated_minutes": 30,
+          "generate": false
+        },
+        {
+          "order": 2,
+          "title": "Solving Linear Equations",
+          "title_fr": "Résolution d'équations du premier degré",
+          "objective_en": "Solve one-step and multi-step linear equations, equations with brackets and unknowns on both sides.",
+          "estimated_minutes": 30,
+          "generate": false
+        },
+        {
+          "order": 3,
+          "title": "Linear Inequalities and Number Lines",
+          "title_fr": "Inéquations linéaires",
+          "objective_en": "Solve linear inequalities and represent the solution set on a number line.",
+          "estimated_minutes": 25,
+          "generate": false
+        }
+      ]
+    },
+    {
+      "order": 4,
+      "title": "Algebra II — Quadratics and Simultaneous Equations",
+      "title_fr": "Algèbre II — second degré et systèmes",
+      "description": "Factorisation, quadratic equations and systems.",
+      "lessons": [
+        {
+          "order": 1,
+          "title": "Factorising Quadratic Expressions",
+          "objective_en": "Factorise quadratics with a = 1 and a > 1; recognise the difference of two squares.",
+          "estimated_minutes": 30,
+          "generate": false
+        },
+        {
+          "order": 2,
+          "title": "Solving Quadratic Equations",
+          "objective_en": "Solve by factorisation, completing the square and the quadratic formula.",
+          "estimated_minutes": 35,
+          "generate": false
+        },
+        {
+          "order": 3,
+          "title": "Simultaneous Equations",
+          "objective_en": "Solve pairs of linear simultaneous equations by substitution and elimination.",
+          "estimated_minutes": 30,
+          "generate": false
+        }
+      ]
+    },
+    {
+      "order": 5,
+      "title": "Geometry — Angles and Polygons",
+      "title_fr": "Géométrie — angles et polygones",
+      "description": "Angle theorems, triangles and polygons.",
+      "lessons": [
+        {
+          "order": 1,
+          "title": "Angles at Points and on Lines",
+          "objective_en": "Use angle facts: points, straight lines, parallel lines, corresponding and alternate angles.",
+          "estimated_minutes": 25,
+          "generate": false
+        },
+        {
+          "order": 2,
+          "title": "Triangles and Quadrilaterals",
+          "objective_en": "Apply angle sums in triangles and quadrilaterals; classify special quadrilaterals.",
+          "estimated_minutes": 30,
+          "generate": false
+        },
+        {
+          "order": 3,
+          "title": "Polygons — Interior and Exterior Angles",
+          "objective_en": "Calculate interior and exterior angle sums of regular polygons.",
+          "estimated_minutes": 25,
+          "generate": false
+        }
+      ]
+    },
+    {
+      "order": 6,
+      "title": "Mensuration — Perimeter, Area and Volume",
+      "title_fr": "Mesures — périmètres, aires et volumes",
+      "description": "2D and 3D measurement with applications.",
+      "lessons": [
+        {
+          "order": 1,
+          "title": "Perimeter and Area of 2D Shapes",
+          "objective_en": "Compute perimeters and areas of rectangles, triangles, parallelograms, trapezia and composite shapes.",
+          "estimated_minutes": 30,
+          "generate": false
+        },
+        {
+          "order": 2,
+          "title": "Circles — Circumference and Area",
+          "objective_en": "Use C = 2πr and A = πr²; sectors and arcs introduction.",
+          "estimated_minutes": 25,
+          "generate": false
+        },
+        {
+          "order": 3,
+          "title": "Surface Area and Volume of Solids",
+          "objective_en": "Prisms, cylinders, cones, spheres: calculate surface area and volume.",
+          "estimated_minutes": 35,
+          "generate": false
+        }
+      ]
+    },
+    {
+      "order": 7,
+      "title": "Trigonometry",
+      "title_fr": "Trigonométrie",
+      "description": "Right-triangle trigonometry.",
+      "lessons": [
+        {
+          "order": 1,
+          "title": "Pythagoras' Theorem",
+          "objective_en": "Apply Pythagoras to find missing sides; converse to check right angles.",
+          "estimated_minutes": 25,
+          "generate": false
+        },
+        {
+          "order": 2,
+          "title": "SOH CAH TOA — Sine, Cosine and Tangent",
+          "objective_en": "Find missing sides and angles in right triangles using trigonometric ratios.",
+          "estimated_minutes": 30,
+          "generate": false
+        }
+      ]
+    },
+    {
+      "order": 8,
+      "title": "Statistics and Probability",
+      "title_fr": "Statistiques et probabilités",
+      "description": "Data handling and chance.",
+      "lessons": [
+        {
+          "order": 1,
+          "title": "Mean, Median, Mode and Range",
+          "objective_en": "Compute averages from lists and frequency tables; interpret which average fits best.",
+          "estimated_minutes": 30,
+          "generate": false
+        },
+        {
+          "order": 2,
+          "title": "Charts and Graphs for Data",
+          "objective_en": "Build and read bar charts, pie charts, pictograms and histograms.",
+          "estimated_minutes": 25,
+          "generate": false
+        },
+        {
+          "order": 3,
+          "title": "Introduction to Probability",
+          "objective_en": "Probability scale, mutually exclusive events, combined probabilities with tables.",
+          "estimated_minutes": 30,
+          "generate": false
+        }
+      ]
+    }
+  ]
+}

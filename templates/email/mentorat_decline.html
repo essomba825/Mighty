@@ -1,0 +1,31 @@
+{% extends "email/base.html" %}
+
+{% block contenu %}
+  <h1 style="margin:0 0 16px;font-size:22px;color:#12203a;">Demande de mentorat non retenue</h1>
+
+  <p style="margin:0 0 14px;font-size:15px;line-height:1.6;">
+    Bonjour{% if prenom %} {{ prenom }}{% endif %},
+  </p>
+
+  <p style="margin:0 0 14px;font-size:15px;line-height:1.6;">
+    <strong>{{ mentor }}</strong> n'a pas retenu votre demande de mentorat en
+    <strong>« {{ domaine }} »</strong>.
+  </p>
+
+  <p style="margin:0 0 14px;font-size:15px;line-height:1.6;">
+    Ne vous découragez pas : d'autres mentors proposent leur accompagnement et
+    vous pouvez leur envoyer une nouvelle demande.
+  </p>
+
+  <p style="margin:24px 0;text-align:center;">
+    <a href="{{ site_url }}/mentorat"
+       style="display:inline-block;background:#e8590c;color:#ffffff;text-decoration:none;
+              padding:12px 24px;border-radius:8px;font-weight:bold;">
+      Voir les offres de mentorat
+    </a>
+  </p>
+
+  <p style="margin:0;font-size:14px;color:#6b7280;">
+    Toutes vos demandes de mentorat se trouvent sur la page Mentorat.
+  </p>
+{% endblock %}

@@ -1,0 +1,275 @@
+{
+  "lesson": 20,
+  "status": "published",
+  "lesson_fields": {
+    "summary_fr": "Convertir de très grands et de très petits nombres en écriture scientifique et inversement, puis calculer avec.",
+    "objectives": [
+      "Convert a number to standard form",
+      "Convert a number in standard form back to an ordinary number",
+      "Multiply and divide numbers written in standard form"
+    ],
+    "objectives_fr": [
+      "Convertir un nombre en écriture scientifique",
+      "Reconvertir un nombre en écriture scientifique en nombre ordinaire",
+      "Multiplier et diviser des nombres écrits en écriture scientifique"
+    ]
+  },
+  "steps": [
+    {
+      "kind": "concept",
+      "title": "Why standard form exists",
+      "title_fr": "Pourquoi l'écriture scientifique existe",
+      "content": "Some numbers are too big or too small to write out in full. Standard form (scientific notation) shortens them to **a number between 1 and 10, multiplied by a power of 10**.\n\n- 8,000,000 becomes 8 x 10^6\n- 0.0004567 becomes 4.567 x 10^-3\n- 45,000 becomes 4.5 x 10^4\n\nThe rule for the power of 10: **count the places you move the decimal point.**",
+      "content_fr": "Certains nombres sont trop grands ou trop petits pour être écrits en entier. L'écriture scientifique les raccourcit en **un nombre compris entre 1 et 10, multiplié par une puissance de 10**.\n\n- 8 000 000 devient 8 x 10^6\n- 0,0004567 devient 4,567 x 10^-3\n- 45 000 devient 4,5 x 10^4\n\nLa règle de la puissance de 10 : **compte les crans que tu déplaces la virgule.**",
+      "required": false,
+      "xp": 10
+    },
+    {
+      "kind": "question",
+      "title": "Reading the notation",
+      "title_fr": "Lire la notation",
+      "content": "Remember: 10^6 means 10 multiplied by itself six times.",
+      "content_fr": "Rappelle-toi : 10^6 signifie 10 multiplié par lui-même six fois.",
+      "required": true,
+      "xp": 15,
+      "question": {
+        "kind": "mcq",
+        "difficulty": 1,
+        "text": "What does standard form represent?",
+        "text_fr": "Que représente l'écriture scientifique ?",
+        "explanation": "Standard form writes a number as a value between 1 and 10 multiplied by a power of 10, which keeps very large and very small numbers manageable.",
+        "explanation_fr": "L'écriture scientifique écrit un nombre compris entre 1 et 10 multiplié par une puissance de 10, ce qui rend gérables les très grands et très petits nombres.",
+        "hint_prompt": "Think about what stays between 1 and 10.",
+        "hint_prompt_fr": "Pense à ce qui reste compris entre 1 et 10.",
+        "choices": [
+          {"text": "A way to write numbers in a more compact and organised manner.", "text_fr": "Une manière d'écrire les nombres de manière plus compacte et organisée.", "correct": true},
+          {"text": "A way to round a number to the nearest integer.", "text_fr": "Une manière d'arrondir un nombre à l'entier le plus proche.", "correct": false},
+          {"text": "A method for converting fractions to decimals.", "text_fr": "Une méthode pour convertir des fractions en décimaux.", "correct": false},
+          {"text": "A unit used to measure very large distances.", "text_fr": "Une unité de mesure des très grandes distances.", "correct": false}
+        ],
+        "hints": [
+          {"text": "Standard form is about how numbers are written, not what they mean.", "text_fr": "L'écriture scientifique concerne la façon dont on écrit les nombres, pas leur sens."},
+          {"text": "The first number is always between 1 and 10.", "text_fr": "Le premier nombre est toujours compris entre 1 et 10."},
+          {"text": "The answer is the first option.", "text_fr": "La bonne réponse est la première proposition."}
+        ]
+      }
+    },
+    {
+      "kind": "explain",
+      "title": "Big numbers: move the point left",
+      "title_fr": "Grands nombres : déplace la virgule vers la gauche",
+      "content": "**Worked: write 8,000,000 in standard form**\n\n1. Put the decimal point after the first digit: 8.000000\n2. Count the places moved: 6 places to the left\n3. So the power of 10 is 6: **8 x 10^6**\n\n**Check:** 10^6 = 1,000,000, and 8 x 1,000,000 = 8,000,000. Correct.\n\nThe power of 10 is always **positive** for a number greater than 1.",
+      "content_fr": "**Cas : écrire 8 000 000 en écriture scientifique**\n\n1. Place la virgule juste après le premier chiffre : 8.000000\n2. Compte les crans déplacés : 6 crans vers la gauche\n3. La puissance de 10 est donc 6 : **8 x 10^6**\n\n**Vérification :** 10^6 = 1 000 000, et 8 x 1 000 000 = 8 000 000. Correct.\n\nLa puissance de 10 est toujours **positive** pour un nombre supérieur à 1.",
+      "required": false,
+      "xp": 10
+    },
+    {
+      "kind": "question",
+      "title": "Converting a large number",
+      "title_fr": "Convertir un grand nombre",
+      "content": "Move the point until only one digit is left before it.",
+      "content_fr": "Déplace la virgule jusqu'à ce qu'il ne reste qu'un seul chiffre avant elle.",
+      "required": true,
+      "xp": 15,
+      "question": {
+        "kind": "mcq",
+        "difficulty": 2,
+        "text": "What is the correct way to write 8,000,000 in standard form?",
+        "text_fr": "Quelle est la bonne façon d'écrire 8 000 000 en écriture scientifique ?",
+        "explanation": "Move the decimal point 6 places to the left to get 8, so the power of 10 is 6: 8 x 10^6.",
+        "explanation_fr": "On déplace la virgule de 6 crans vers la gauche pour obtenir 8, donc la puissance de 10 est 6 : 8 x 10^6.",
+        "hint_prompt": "Count how many places the decimal point moves.",
+        "hint_prompt_fr": "Compte le nombre de crans dont la virgule se déplace.",
+        "choices": [
+          {"text": "8 x 10^6", "text_fr": "8 x 10^6", "correct": true},
+          {"text": "80 x 10^5", "text_fr": "80 x 10^5", "correct": false},
+          {"text": "8 x 10^7", "text_fr": "8 x 10^7", "correct": false},
+          {"text": "8 x 10^5", "text_fr": "8 x 10^5", "correct": false}
+        ],
+        "hints": [
+          {"text": "The first number must be between 1 and 10, so 80 is not allowed.", "text_fr": "Le premier nombre doit être compris entre 1 et 10, donc 80 est exclu."},
+          {"text": "8,000,000 has 6 zeros after the 8.", "text_fr": "8 000 000 a 6 zéros après le 8."},
+          {"text": "So the answer is 8 x 10^6.", "text_fr": "La réponse est donc 8 x 10^6."}
+        ]
+      }
+    },
+    {
+      "kind": "explain",
+      "title": "Small numbers: move the point right",
+      "title_fr": "Petits nombres : déplace la virgule vers la droite",
+      "content": "**Worked: write 0.0004567 in standard form**\n\n1. Move the decimal point until only one digit is left before it: 4.567\n2. Count the places moved: 3 places to the **right**\n3. Moving right means a **negative** power: **4.567 x 10^-3**\n\n**Check:** 10^-3 = 1/1000 = 0.001, and 4.567 x 0.001 = 0.004567. Correct.\n\nThe power of 10 is **negative** for a number smaller than 1.",
+      "content_fr": "**Cas : écrire 0,0004567 en écriture scientifique**\n\n1. Déplace la virgule jusqu'à ce qu'il ne reste qu'un seul chiffre avant elle : 4,567\n2. Compte les crans déplacés : 3 crans vers la **droite**\n3. Aller vers la droite signifie une puissance **négative** : **4,567 x 10^-3**\n\n**Vérification :** 10^-3 = 1/1000 = 0,001, et 4,567 x 0,001 = 0,004567. Correct.\n\nLa puissance de 10 est **négative** pour un nombre inférieur à 1.",
+      "required": false,
+      "xp": 10
+    },
+    {
+      "kind": "question",
+      "title": "The negative power trap",
+      "title_fr": "Le piège de la puissance négative",
+      "content": "Moving the point to the right gives a negative power.",
+      "content_fr": "Déplacer le point vers la droite donne une puissance négative.",
+      "required": true,
+      "xp": 20,
+      "question": {
+        "kind": "mcq",
+        "difficulty": 3,
+        "text": "Which is the correct standard form for 0.0004567?",
+        "text_fr": "Quelle est la bonne écriture scientifique de 0,0004567 ?",
+        "explanation": "The first digit must be 4.567, and the point moved 3 places to the right, so the power is negative: 4.567 x 10^-3.",
+        "explanation_fr": "Le premier chiffre doit être 4,567, et la virgule s'est déplacée de 3 crans vers la droite, donc la puissance est négative : 4,567 x 10^-3.",
+        "hint_prompt": "Start from the first non-zero digit, 4. Then count the places to the right.",
+        "hint_prompt_fr": "Part du premier chiffre non nul, 4. Puis compte les crans vers la droite.",
+        "choices": [
+          {"text": "4.567 x 10^-3", "text_fr": "4,567 x 10^-3", "correct": true},
+          {"text": "4.567 x 10^3", "text_fr": "4,567 x 10^3", "correct": false},
+          {"text": "4.567 x 10^-4", "text_fr": "4,567 x 10^-4", "correct": false},
+          {"text": "45.67 x 10^-4", "text_fr": "45,67 x 10^-4", "correct": false}
+        ],
+        "hints": [
+          {"text": "The first number must be between 1 and 10, which rules out 45.67.", "text_fr": "Le premier nombre doit être compris entre 1 et 10, ce qui exclut 45,67."},
+          {"text": "Count the zeros after the decimal point before the 4: there are three.", "text_fr": "Compte les zéros après la virgule avant le 4 : il y en a trois."},
+          {"text": "Three places to the right means the power is -3.", "text_fr": "Trois crans vers la droite, c'est une puissance de -3."}
+        ]
+      }
+    },
+    {
+      "kind": "example",
+      "title": "Worked example",
+      "title_fr": "Exemple résolu",
+      "content": "**Calculate 2.5 x 10^3 x 4.5 x 10^-5**\n\n1. Multiply the first numbers: 2.5 x 4.5 = **11.25**\n2. Add the powers of 10: 3 + (-5) = **-2**\n3. Write the answer: **11.25 x 10^-2**\n\nThe two rules are: multiply the coefficients, then **add** the powers.",
+      "content_fr": "**Calcule 2,5 x 10^3 x 4,5 x 10^-5**\n\n1. Multiplie les nombres : 2,5 x 4,5 = **11,25**\n2. Additionne les puissances de 10 : 3 + (-5) = **-2**\n3. Écris le résultat : **11,25 x 10^-2**\n\nLes deux règles : on multiplie les coefficients, puis on **additionne** les puissances.",
+      "required": false,
+      "xp": 10
+    },
+    {
+      "kind": "question",
+      "title": "Multiplying in standard form",
+      "title_fr": "Multiplier en écriture scientifique",
+      "content": "Coefficients first, then add the powers.",
+      "content_fr": "D'abord les coefficients, puis on additionne les puissances.",
+      "required": true,
+      "xp": 20,
+      "question": {
+        "kind": "mcq",
+        "difficulty": 3,
+        "text": "What is the result of multiplying 2.5 x 10^3 by 4.5 x 10^-5?",
+        "text_fr": "Quel est le résultat de la multiplication de 2,5 x 10^3 par 4,5 x 10^-5 ?",
+        "explanation": "Multiply the coefficients: 2.5 x 4.5 = 11.25. Add the powers: 3 + (-5) = -2. So the answer is 11.25 x 10^-2.",
+        "explanation_fr": "On multiplie les coefficients : 2,5 x 4,5 = 11,25. On additionne les puissances : 3 + (-5) = -2. La réponse est donc 11,25 x 10^-2.",
+        "hint_prompt": "Multiply the two numbers that are not powers of 10.",
+        "hint_prompt_fr": "Multiplie les deux nombres qui ne sont pas des puissances de 10.",
+        "choices": [
+          {"text": "11.25 x 10^-2", "text_fr": "11,25 x 10^-2", "correct": true},
+          {"text": "11.25 x 10^-8", "text_fr": "11,25 x 10^-8", "correct": false},
+          {"text": "11.25 x 10^2", "text_fr": "11,25 x 10^2", "correct": false},
+          {"text": "112.5 x 10^-2", "text_fr": "112,5 x 10^-2", "correct": false}
+        ],
+        "hints": [
+          {"text": "There are two separate things to do: the coefficients and the powers.", "text_fr": "Il y a deux choses à faire : les coefficients et les puissances."},
+          {"text": "2.5 x 4.5 = 11.25.", "text_fr": "2,5 x 4,5 = 11,25."},
+          {"text": "The powers are added, not multiplied: 3 + (-5) = -2.", "text_fr": "Les puissances s'additionnent, elles ne se multiplient pas : 3 + (-5) = -2."}
+        ]
+      }
+    },
+    {
+      "kind": "summary",
+      "title": "What to remember",
+      "title_fr": "Ce qu'il faut retenir",
+      "content": "- Standard form is **a number between 1 and 10**, multiplied by a power of 10.\n- Moving the point **left** gives a positive power: 8,000,000 = 8 x 10^6\n- Moving the point **right** gives a negative power: 0.0004567 = 4.567 x 10^-3\n- To multiply: multiply the coefficients, then **add** the powers.\n- Always check by working backwards — 10^6 really is 1,000,000.",
+      "content_fr": "- L'écriture scientifique, c'est **un nombre entre 1 et 10**, multiplié par une puissance de 10.\n- Déplacer le point **vers la gauche** donne une puissance positive : 8 000 000 = 8 x 10^6\n- Déplacer le point **vers la droite** donne une puissance négative : 0,0004567 = 4,567 x 10^-3\n- Pour multiplier : on multiplie les coefficients, puis on **additionne** les puissances.\n- Vérifie toujours en faisant l'inverse — 10^6 vaut bien 1 000 000.",
+      "required": false,
+      "xp": 10
+    }
+  ],
+  "quiz": {
+    "title": "Quiz - Standard Form (Scientific Notation)",
+    "title_fr": "Quiz - Écriture scientifique",
+    "pass_score": 60,
+    "questions": [
+      {
+        "kind": "mcq",
+        "difficulty": 1,
+        "text": "What does standard form represent?",
+        "text_fr": "Que représente l'écriture scientifique ?",
+        "explanation": "It writes a number as a value between 1 and 10 multiplied by a power of 10.",
+        "explanation_fr": "Elle écrit un nombre compris entre 1 et 10 multiplié par une puissance de 10.",
+        "choices": [
+          {"text": "A way to write numbers in a more compact and organised manner.", "text_fr": "Une manière d'écrire les nombres de manière plus compacte et organisée.", "correct": true},
+          {"text": "A way to round a number to the nearest integer.", "text_fr": "Une manière d'arrondir un nombre à l'entier le plus proche.", "correct": false},
+          {"text": "A method for converting fractions to decimals.", "text_fr": "Une méthode pour convertir des fractions en décimaux.", "correct": false},
+          {"text": "A unit used to measure very large distances.", "text_fr": "Une unité de mesure des très grandes distances.", "correct": false}
+        ]
+      },
+      {
+        "kind": "mcq",
+        "difficulty": 2,
+        "text": "What is the correct way to write 0.0004567 in standard form?",
+        "text_fr": "Quelle est la bonne façon d'écrire 0,0004567 en écriture scientifique ?",
+        "explanation": "The first digit is 4.567 and the point moved 3 places to the right, so the power is negative.",
+        "explanation_fr": "Le premier chiffre est 4,567 et la virgule s'est déplacée de 3 crans vers la droite, donc la puissance est négative.",
+        "choices": [
+          {"text": "4.567 x 10^-3", "text_fr": "4,567 x 10^-3", "correct": true},
+          {"text": "4.567 x 10^3", "text_fr": "4,567 x 10^3", "correct": false},
+          {"text": "4.567 x 10^-4", "text_fr": "4,567 x 10^-4", "correct": false},
+          {"text": "45.67 x 10^-4", "text_fr": "45,67 x 10^-4", "correct": false}
+        ]
+      },
+      {
+        "kind": "mcq",
+        "difficulty": 1,
+        "text": "Which of the following is an example of a number written in standard form?",
+        "text_fr": "Lequel des nombres suivants est écrit en écriture scientifique ?",
+        "explanation": "Standard form needs a number between 1 and 10 multiplied by a power of 10. 3,000,000 is a plain number, not standard form.",
+        "explanation_fr": "L'écriture scientifique exige un nombre entre 1 et 10 multiplié par une puissance de 10. 3 000 000 est un nombre ordinaire.",
+        "choices": [
+          {"text": "4.5 x 10^7", "text_fr": "4,5 x 10^7", "correct": true},
+          {"text": "3,000,000", "text_fr": "3 000 000", "correct": false},
+          {"text": "0.00032", "text_fr": "0,00032", "correct": false},
+          {"text": "45 x 10^3", "text_fr": "45 x 10^3", "correct": false}
+        ]
+      },
+      {
+        "kind": "mcq",
+        "difficulty": 2,
+        "text": "What is the correct way to write 8,000,000 in standard form?",
+        "text_fr": "Quelle est la bonne façon d'écrire 8 000 000 en écriture scientifique ?",
+        "explanation": "Move the point 6 places to the left to get 8, so the power of 10 is 6.",
+        "explanation_fr": "On déplace la virgule de 6 crans vers la gauche pour obtenir 8, donc la puissance de 10 est 6.",
+        "choices": [
+          {"text": "8 x 10^6", "text_fr": "8 x 10^6", "correct": true},
+          {"text": "8 x 10^7", "text_fr": "8 x 10^7", "correct": false},
+          {"text": "80 x 10^5", "text_fr": "80 x 10^5", "correct": false},
+          {"text": "8 x 10^5", "text_fr": "8 x 10^5", "correct": false}
+        ]
+      },
+      {
+        "kind": "mcq",
+        "difficulty": 1,
+        "text": "What is the meaning of 'x' in scientific notation?",
+        "text_fr": "Que signifie « x » en écriture scientifique ?",
+        "explanation": "The x is the multiplication sign between the number and the power of 10.",
+        "explanation_fr": "Le x est le signe de multiplication entre le nombre et la puissance de 10.",
+        "choices": [
+          {"text": "The multiplication sign", "text_fr": "Le signe de multiplication", "correct": true},
+          {"text": "A placeholder for an unknown number", "text_fr": "Un espace réservé pour un nombre inconnu", "correct": false},
+          {"text": "The decimal point", "text_fr": "La virgule décimale", "correct": false},
+          {"text": "A unit of measurement", "text_fr": "Une unité de mesure", "correct": false}
+        ]
+      },
+      {
+        "kind": "mcq",
+        "difficulty": 3,
+        "text": "What is the result of multiplying 2.5 x 10^3 by 4.5 x 10^-5?",
+        "text_fr": "Quel est le résultat de la multiplication de 2,5 x 10^3 par 4,5 x 10^-5 ?",
+        "explanation": "Multiply the coefficients to get 11.25, then add the powers to get 3 + (-5) = -2.",
+        "explanation_fr": "On multiplie les coefficients pour obtenir 11,25, puis on additionne les puissances : 3 + (-5) = -2.",
+        "choices": [
+          {"text": "11.25 x 10^-2", "text_fr": "11,25 x 10^-2", "correct": true},
+          {"text": "11.25 x 10^-8", "text_fr": "11,25 x 10^-8", "correct": false},
+          {"text": "11.25 x 10^2", "text_fr": "11,25 x 10^2", "correct": false},
+          {"text": "112.5 x 10^-2", "text_fr": "112,5 x 10^-2", "correct": false}
+        ]
+      }
+    ]
+  }
+}

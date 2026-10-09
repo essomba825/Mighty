@@ -1,0 +1,29 @@
+{% extends "email/base.html" %}
+
+{% block contenu %}
+  <h1 style="margin:0 0 16px;font-size:22px;color:#12203a;">Bienvenue{% if prenom %}, {{ prenom }}{% endif %} !</h1>
+
+  <p style="margin:0 0 14px;font-size:15px;line-height:1.6;">
+    Votre compte a bien été créé sur Mega Mighty Sixers. Merci de rejoindre
+    le réseau des anciens élèves&nbsp;!
+  </p>
+
+  <p style="margin:0 0 14px;font-size:15px;line-height:1.6;">
+    <strong>Prochaine étape :</strong> un administrateur va valider votre
+    compte. Vous recevrez une notification dès qu'il sera actif — cela prend
+    en général moins de 24&nbsp;heures.
+  </p>
+
+  <p style="margin:24px 0;text-align:center;">
+    <a href="{{ site_url }}/login"
+       style="display:inline-block;background:#e8590c;color:#ffffff;text-decoration:none;
+              padding:12px 24px;border-radius:8px;font-weight:bold;">
+      Se connecter
+    </a>
+  </p>
+
+  <p style="margin:0;font-size:14px;color:#6b7280;">
+    En attendant, vous pouvez déjà consulter le catalogue des cours sur
+    <a href="{{ site_url }}/education" style="color:#e8590c;">la page Éducation</a>.
+  </p>
+{% endblock %}

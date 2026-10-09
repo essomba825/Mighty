@@ -1,0 +1,318 @@
+{
+  "lesson": 3,
+  "status": "published",
+  "lesson_fields": {
+    "title": "Fractions and Rational Numbers",
+    "title_fr": "Les fractions et les nombres rationnels",
+    "summary": "Simplify a fraction, find a common denominator, and add or multiply fractions and rational numbers.",
+    "summary_fr": "Simplifier une fraction, trouver un dénominateur commun, et additionner ou multiplier des fractions et des nombres rationnels.",
+    "content": "## A fraction is a quotient\n\n    a / b   where b ≠ 0\n\nA **rational number** is a number that can be written as a quotient of two integers: 3/4, −2/5, or 7 (= 7/1). A non-integer rational always has two forms: a fraction and a decimal.\n\n## Simplifying a fraction\n\nDivide the numerator and the denominator by the same number:\n\n    8/12 → divide by 4 → 2/3\n\nThe fraction is **irreducible** when the numerator and the denominator have no common factor left, that is, when their GCD equals 1.\n\n## A common denominator\n\nTo add or subtract, you need the same denominator:\n\n    1/2 + 1/3 = 3/6 + 2/6 = 5/6\n\nMultiply numerator and denominator of each fraction by the same factor to reach the denominator that suits everyone — usually the least common multiple.\n\n## Four operations\n\n- **Addition/subtraction**: same denominator, then keep it\n- **Multiplication**: multiply the numerators, then the denominators\n- **Division**: multiply by the inverse of the second fraction\n\nIn this lesson you will simplify, add, multiply and divide fractions, and handle the sign of the denominator.",
+    "content_fr": "## Une fraction est un quotient\n\n    a / b   avec b ≠ 0\n\nUn **nombre rationnel** est un nombre qui s'écrit comme quotient de deux entiers : 3/4, −2/5, ou 7 (= 7/1). Un rationnel non entier possède toujours deux écritures : fractionnaire et décimale.\n\n## Simplifier une fraction\n\nOn divise le numérateur et le dénominateur par un même nombre :\n\n    8/12 → divisé par 4 → 2/3\n\nLa fraction est **irréductible** quand numérateur et dénominateur n'ont plus de facteur commun, c'est-à-dire quand leur PGCD vaut 1.\n\n## Un dénominateur commun\n\nPour ajouter ou soustraire, il faut le même dénominateur :\n\n    1/2 + 1/3 = 3/6 + 2/6 = 5/6\n\nOn multiplie numérateur et dénominateur de chaque fraction par un même facteur pour atteindre un dénominateur qui convienne à tout le monde — en général le plus petit multiple commun.\n\n## Quatre opérations\n\n- **Addition/soustraction** : même dénominateur, puis on le garde\n- **Multiplication** : on multiplie les numérateurs, puis les dénominateurs\n- **Division** : on multiplie par l'inverse de la seconde fraction\n\nDans cette leçon, tu simplifieras, additionneras, multiplieras et diviseras des fractions, et tu géreras le signe du dénominateur.",
+    "objectives": [
+      "Simplify a fraction to its irreducible form",
+      "Add and subtract fractions using a common denominator",
+      "Multiply and divide fractions and rational numbers",
+      "Explain the role of the sign of the denominator"
+    ],
+    "objectives_fr": [
+      "Simplifier une fraction sous forme irréductible",
+      "Additionner et soustraire des fractions avec un dénominateur commun",
+      "Multiplier et diviser des fractions et des nombres rationnels",
+      "Expliquer le rôle du signe du dénominateur"
+    ]
+  },
+  "steps": [
+    {
+      "kind": "concept",
+      "title": "What is a rational number?",
+      "title_fr": "Qu'est-ce qu'un nombre rationnel ?",
+      "content": "A **rational number** is any number that can be written as a quotient `a/b`, where `a` and `b` are whole numbers and `b ≠ 0`.\n\n- 3/4 → rational\n- −2/5 → rational\n- 7 → rational (it is 7/1)\n- √2 → **not** rational\n\nEvery fraction has infinitely many forms: `1/2 = 2/4 = 50/100`. The **irreducible** form has no common factor between numerator and denominator.",
+      "content_fr": "Un **nombre rationnel** est tout nombre qui s'écrit comme un quotient `a/b`, où `a` et `b` sont des entiers et `b ≠ 0`.\n\n- 3/4 → rationnel\n- −2/5 → rationnel\n- 7 → rationnel (c'est 7/1)\n- √2 → **non** rationnel\n\nToute fraction possède une infinité d'écritures : `1/2 = 2/4 = 50/100`. La forme **irréductible** n'a plus aucun facteur commun entre le numérateur et le dénominateur.",
+      "required": false,
+      "xp": 10
+    },
+    {
+      "kind": "question",
+      "title": "Simplify 8/12",
+      "title_fr": "Simplifier 8/12",
+      "content": "Find the greatest common divisor, then divide top and bottom by it.",
+      "content_fr": "Trouve le plus grand diviseur commun, puis divise le numérateur et le dénominateur.",
+      "required": true,
+      "xp": 15,
+      "question": {
+        "kind": "mcq",
+        "difficulty": 1,
+        "text": "Write 8/12 in its irreducible form.",
+        "text_fr": "Écris 8/12 sous sa forme irréductible.",
+        "explanation": "The GCD of 8 and 12 is 4. Dividing numerator and denominator by 4 gives 2/3.",
+        "explanation_fr": "Le PGCD de 8 et 12 est 4. En divisant le numérateur et le dénominateur par 4, on obtient 2/3.",
+        "hint_prompt": "What is the largest number that divides 8 and 12 without a remainder?",
+        "hint_prompt_fr": "Quel est le plus grand nombre qui divise 8 et 12 sans reste ?",
+        "choices": [
+          {"text": "2/3", "text_fr": "2/3", "correct": true},
+          {"text": "4/6", "text_fr": "4/6", "correct": false},
+          {"text": "8/12", "text_fr": "8/12", "correct": false},
+          {"text": "1/2", "text_fr": "1/2", "correct": false}
+        ],
+        "hints": [
+          {"text": "Both 8 and 12 are divisible by 4.", "text_fr": "8 et 12 sont tous deux divisibles par 4."},
+          {"text": "8 ÷ 4 = 2 and 12 ÷ 4 = 3.", "text_fr": "8 ÷ 4 = 2 et 12 ÷ 4 = 3."},
+          {"text": "The answer is 2/3.", "text_fr": "La réponse est 2/3."}
+        ]
+      }
+    },
+    {
+      "kind": "explain",
+      "title": "The common denominator",
+      "title_fr": "Le dénominateur commun",
+      "content": "Fractions can only be added once they share the same denominator.\n\nFind a denominator that works for both — usually the **least common multiple** of the two denominators.\n\nFor 1/2 + 1/3, the LCM is 6:\n\n    1/2 = 3/6\n    1/3 = 2/6\n    1/2 + 1/3 = 3/6 + 2/6 = 5/6\n\nThen add the numerators and keep the denominator. **Never add the denominators**: 1/2 + 1/3 is not 2/5.",
+      "content_fr": "On ne peut additionner des fractions qu'une fois un dénominateur commun trouvé.\n\nCherche un dénominateur qui convienne aux deux — en général le **plus petit multiple commun** des deux dénominateurs.\n\nPour 1/2 + 1/3, le PPCM est 6 :\n\n    1/2 = 3/6\n    1/3 = 2/6\n    1/2 + 1/3 = 3/6 + 2/6 = 5/6\n\nOn additionne ensuite les numérateurs et on garde le dénominateur. **On n'additionne jamais les dénominateurs** : 1/2 + 1/3 ne fait pas 2/5.",
+      "required": false,
+      "xp": 10
+    },
+    {
+      "kind": "question",
+      "title": "Add 1/2 + 1/3",
+      "title_fr": "Additionner 1/2 + 1/3",
+      "content": "The denominator must be a multiple of 2 and of 3.",
+      "content_fr": "Le dénominateur doit être un multiple de 2 et de 3.",
+      "required": true,
+      "xp": 15,
+      "question": {
+        "kind": "mcq",
+        "difficulty": 1,
+        "text": "Calculate 1/2 + 1/3.",
+        "text_fr": "Calcule 1/2 + 1/3.",
+        "explanation": "The common denominator is 6: 1/2 = 3/6 and 1/3 = 2/6, so 1/2 + 1/3 = 5/6.",
+        "explanation_fr": "Le dénominateur commun est 6 : 1/2 = 3/6 et 1/3 = 2/6, donc 1/2 + 1/3 = 5/6.",
+        "hint_prompt": "What denominator works for both 2 and 3?",
+        "hint_prompt_fr": "Quel dénominateur convient à la fois pour 2 et pour 3 ?",
+        "choices": [
+          {"text": "5/6", "text_fr": "5/6", "correct": true},
+          {"text": "2/5", "text_fr": "2/5", "correct": false},
+          {"text": "1/5", "text_fr": "1/5", "correct": false},
+          {"text": "2/6, which is 1/3", "text_fr": "2/6, qui vaut 1/3", "correct": false}
+        ],
+        "hints": [
+          {"text": "The least common multiple of 2 and 3 is 6.", "text_fr": "Le plus petit multiple commun de 2 et 3 est 6."},
+          {"text": "1/2 = 3/6 and 1/3 = 2/6.", "text_fr": "1/2 = 3/6 et 1/3 = 2/6."},
+          {"text": "3/6 + 2/6 = 5/6.", "text_fr": "3/6 + 2/6 = 5/6."}
+        ]
+      }
+    },
+    {
+      "kind": "explain",
+      "title": "Multiplication and division",
+      "title_fr": "Multiplication et division",
+      "content": "**Multiplication:** multiply the numerators, then multiply the denominators.\n\n    (2/3) × (5/7) = (2×5) / (3×7) = 10/21\n\n**Division:** multiply by the **inverse** of the second fraction. The inverse of a/b is b/a.\n\n    (2/3) ÷ (5/7) = (2/3) × (7/5) = 14/15\n\n**A negative sign in front of the fraction is the same as a negative numerator:**\n\n    −3/4 = (−3)/4 = 3/(−4)\n\nAll three are the same number, but the standard notation is (−3)/4.",
+      "content_fr": "**Multiplication :** on multiplie les numérateurs, puis les dénominateurs.\n\n    (2/3) × (5/7) = (2×5) / (3×7) = 10/21\n\n**Division :** on multiplie par l'**inverse** de la seconde fraction. L'inverse de a/b est b/a.\n\n    (2/3) ÷ (5/7) = (2/3) × (7/5) = 14/15\n\n**Un signe moins devant la fraction revient à un numérateur négatif :**\n\n    −3/4 = (−3)/4 = 3/(−4)\n\nCes trois écritures sont le même nombre, mais la notation standard est (−3)/4.",
+      "required": false,
+      "xp": 10
+    },
+    {
+      "kind": "question",
+      "title": "Divide 2/3 by 5/7",
+      "title_fr": "Diviser 2/3 par 5/7",
+      "content": "Flip the second fraction and change ÷ to ×.",
+      "content_fr": "Retourne la seconde fraction et remplace ÷ par ×.",
+      "required": true,
+      "xp": 15,
+      "question": {
+        "kind": "mcq",
+        "difficulty": 2,
+        "text": "Calculate (2/3) ÷ (5/7).",
+        "text_fr": "Calcule (2/3) ÷ (5/7).",
+        "explanation": "Multiply by the inverse: (2/3) × (7/5) = 14/15.",
+        "explanation_fr": "On multiplie par l'inverse : (2/3) × (7/5) = 14/15.",
+        "hint_prompt": "Dividing by 5/7 means multiplying by its inverse.",
+        "hint_prompt_fr": "Diviser par 5/7 signifie multiplier par son inverse.",
+        "choices": [
+          {"text": "14/15", "text_fr": "14/15", "correct": true},
+          {"text": "10/21", "text_fr": "10/21", "correct": false},
+          {"text": "15/14", "text_fr": "15/14", "correct": false},
+          {"text": "7/15", "text_fr": "7/15", "correct": false}
+        ],
+        "hints": [
+          {"text": "The inverse of 5/7 is 7/5.", "text_fr": "L'inverse de 5/7 est 7/5."},
+          {"text": "Multiply the numerators (2 × 7) and the denominators (3 × 5).", "text_fr": "Multiplie les numérateurs (2 × 7) et les dénominateurs (3 × 5)."},
+          {"text": "14/15.", "text_fr": "14/15."}
+        ]
+      }
+    },
+    {
+      "kind": "example",
+      "title": "A sign mistake to avoid",
+      "title_fr": "Une erreur de signe à éviter",
+      "content": "**Wrong answer:**\n\n    (−2)/3 × (3/4) = 6/12 = 1/2\n\nThe sign must come from somewhere. In practice: one negative factor → one negative result.\n\n**Right answer:**\n\n    (−2)/3 × (3/4) = (−2×3)/(3×4) = −6/12 = −1/2\n\nYou get the same trap when a denominator carries a negative: −6/(−4) is positive, since the two signs cancel out.",
+      "content_fr": "**Réponse fausse :**\n\n    (−2)/3 × (3/4) = 6/12 = 1/2\n\nLe signe doit bien apparaître quelque part. En pratique : un seul facteur négatif → un résultat négatif.\n\n**Réponse juste :**\n\n    (−2)/3 × (3/4) = (−2×3)/(3×4) = −6/12 = −1/2\n\nMême piège quand le dénominateur porte un signe négatif : −6/(−4) est positif, car les deux signes se compensent.",
+      "required": false,
+      "xp": 10
+    },
+    {
+      "kind": "question",
+      "title": "Multiply 2/3 × 5/7",
+      "title_fr": "Multiplier 2/3 × 5/7",
+      "content": "Multiply the numerators together, and the denominators together.",
+      "content_fr": "Multiplie les numérateurs ensemble, puis les dénominateurs ensemble.",
+      "required": true,
+      "xp": 15,
+      "question": {
+        "kind": "mcq",
+        "difficulty": 1,
+        "text": "Calculate (2/3) × (5/7).",
+        "text_fr": "Calcule (2/3) × (5/7).",
+        "explanation": "Multiply the numerators and the denominators: (2 × 5)/(3 × 7) = 10/21.",
+        "explanation_fr": "On multiplie les numérateurs et les dénominateurs : (2 × 5)/(3 × 7) = 10/21.",
+        "hint_prompt": "Do the numerators first.",
+        "hint_prompt_fr": "Commence par les numérateurs.",
+        "choices": [
+          {"text": "10/21", "text_fr": "10/21", "correct": true},
+          {"text": "7/10", "text_fr": "7/10", "correct": false},
+          {"text": "10/10, which is 1", "text_fr": "10/10, qui vaut 1", "correct": false},
+          {"text": "15/14", "text_fr": "15/14", "correct": false}
+        ],
+        "hints": [
+          {"text": "2 × 5 = 10.", "text_fr": "2 × 5 = 10."},
+          {"text": "3 × 7 = 21.", "text_fr": "3 × 7 = 21."},
+          {"text": "The result is 10/21.", "text_fr": "Le résultat est 10/21."}
+        ]
+      }
+    },
+    {
+      "kind": "summary",
+      "title": "The four operations in one view",
+      "title_fr": "Les quatre opérations en un coup d'œil",
+      "content": "**Simplify:** divide top and bottom by the GCD.\n\n    8/12 → 2/3\n\n**Add/subtract:** common denominator first.\n\n    1/2 + 1/3 = 5/6\n\n**Multiply:** numerator × numerator, denominator × denominator.\n\n    (2/3) × (5/7) = 10/21\n\n**Divide:** multiply by the inverse.\n\n    (2/3) ÷ (5/7) = (2/3) × (7/5) = 14/15\n\nFor signs: an odd number of negative signs gives a negative result, and −a/b = (−a)/b = a/(−b).",
+      "content_fr": "**Simplifier :** divise numérateur et dénominateur par le PGCD.\n\n    8/12 → 2/3\n\n**Additionner/soustraire :** d'abord un dénominateur commun.\n\n    1/2 + 1/3 = 5/6\n\n**Multiplier :** numérateur × numérateur, dénominateur × dénominateur.\n\n    (2/3) × (5/7) = 10/21\n\n**Diviser :** multiplier par l'inverse.\n\n    (2/3) ÷ (5/7) = (2/3) × (7/5) = 14/15\n\nPour les signes : un nombre impair de signes négatifs donne un résultat négatif, et −a/b = (−a)/b = a/(−b).",
+      "required": false,
+      "xp": 10
+    }
+  ],
+  "quiz": {
+    "title": "Quiz — Fractions and rational numbers",
+    "title_fr": "Quiz — Fractions et nombres rationnels",
+    "pass_score": 60,
+    "questions": [
+      {
+        "kind": "mcq",
+        "difficulty": 1,
+        "text": "Which of the following numbers is rational?",
+        "text_fr": "Lequel des nombres suivants est rationnel ?",
+        "explanation": "A rational number is a quotient of two integers. 7/1 = 7, so 7 is rational. √2 cannot be written as a quotient of integers.",
+        "explanation_fr": "Un nombre rationnel est un quotient de deux entiers. 7/1 = 7, donc 7 est rationnel. √2 ne peut pas s'écrire comme quotient d'entiers.",
+        "hint_prompt": "Can the number be written a/b with a and b whole numbers?",
+        "hint_prompt_fr": "Ce nombre peut-il s'écrire a/b avec a et b entiers ?",
+        "choices": [
+          {"text": "7", "text_fr": "7", "correct": true},
+          {"text": "√2", "text_fr": "√2", "correct": false},
+          {"text": "π", "text_fr": "π", "correct": false},
+          {"text": "√2 and π", "text_fr": "√2 et π", "correct": false}
+        ],
+        "hints": [
+          {"text": "7 = 7/1, a quotient of two integers: it is rational.", "text_fr": "7 = 7/1, un quotient de deux entiers : il est rationnel."},
+          {"text": "Neither √2 nor π has a fractional form.", "text_fr": "Ni √2 ni π ne possèdent de forme fractionnaire."}
+        ]
+      },
+      {
+        "kind": "mcq",
+        "difficulty": 1,
+        "text": "Write 8/12 in irreducible form.",
+        "text_fr": "Écris 8/12 sous forme irréductible.",
+        "explanation": "The GCD of 8 and 12 is 4, so dividing both by 4 gives 2/3.",
+        "explanation_fr": "Le PGCD de 8 et 12 est 4 : en divisant par 4, on obtient 2/3.",
+        "hint_prompt": "What is the greatest common divisor of 8 and 12?",
+        "hint_prompt_fr": "Quel est le plus grand diviseur commun de 8 et 12 ?",
+        "choices": [
+          {"text": "2/3", "text_fr": "2/3", "correct": true},
+          {"text": "4/6", "text_fr": "4/6", "correct": false},
+          {"text": "1/2", "text_fr": "1/2", "correct": false},
+          {"text": "8/12", "text_fr": "8/12", "correct": false}
+        ],
+        "hints": [
+          {"text": "8 ÷ 4 = 2 and 12 ÷ 4 = 3.", "text_fr": "8 ÷ 4 = 2 et 12 ÷ 4 = 3."},
+          {"text": "The answer is 2/3.", "text_fr": "La réponse est 2/3."}
+        ]
+      },
+      {
+        "kind": "mcq",
+        "difficulty": 2,
+        "text": "Calculate 1/2 + 1/3.",
+        "text_fr": "Calcule 1/2 + 1/3.",
+        "explanation": "The common denominator is 6: 3/6 + 2/6 = 5/6.",
+        "explanation_fr": "Le dénominateur commun est 6 : 3/6 + 2/6 = 5/6.",
+        "hint_prompt": "Find the least common multiple of 2 and 3.",
+        "hint_prompt_fr": "Trouve le plus petit multiple commun de 2 et 3.",
+        "choices": [
+          {"text": "5/6", "text_fr": "5/6", "correct": true},
+          {"text": "2/5", "text_fr": "2/5", "correct": false},
+          {"text": "1/5", "text_fr": "1/5", "correct": false},
+          {"text": "2/6", "text_fr": "2/6", "correct": false}
+        ],
+        "hints": [
+          {"text": "1/2 = 3/6 and 1/3 = 2/6.", "text_fr": "1/2 = 3/6 et 1/3 = 2/6."},
+          {"text": "3/6 + 2/6 = 5/6.", "text_fr": "3/6 + 2/6 = 5/6."}
+        ]
+      },
+      {
+        "kind": "mcq",
+        "difficulty": 2,
+        "text": "Calculate (2/3) ÷ (5/7).",
+        "text_fr": "Calcule (2/3) ÷ (5/7).",
+        "explanation": "Multiply by the inverse of 5/7, which is 7/5: 2/3 × 7/5 = 14/15.",
+        "explanation_fr": "On multiplie par l'inverse de 5/7, qui est 7/5 : 2/3 × 7/5 = 14/15.",
+        "hint_prompt": "Flip the second fraction and multiply.",
+        "hint_prompt_fr": "Retourne la seconde fraction et multiplie.",
+        "choices": [
+          {"text": "14/15", "text_fr": "14/15", "correct": true},
+          {"text": "10/21", "text_fr": "10/21", "correct": false},
+          {"text": "15/14", "text_fr": "15/14", "correct": false},
+          {"text": "7/15", "text_fr": "7/15", "correct": false}
+        ],
+        "hints": [
+          {"text": "Multiply 2/3 by the inverse of 5/7: 7/5.", "text_fr": "Multiplie 2/3 par l'inverse de 5/7 : 7/5."},
+          {"text": "2 × 7 = 14 and 3 × 5 = 15.", "text_fr": "2 × 7 = 14 et 3 × 5 = 15."}
+        ]
+      },
+      {
+        "kind": "mcq",
+        "difficulty": 2,
+        "text": "Calculate (2/3) × (5/7).",
+        "text_fr": "Calcule (2/3) × (5/7).",
+        "explanation": "Multiply the numerators and the denominators: (2 × 5)/(3 × 7) = 10/21.",
+        "explanation_fr": "On multiplie les numérateurs et les dénominateurs : (2 × 5)/(3 × 7) = 10/21.",
+        "hint_prompt": "Numerators together, denominators together.",
+        "hint_prompt_fr": "Les numérateurs ensemble, les dénominateurs ensemble.",
+        "choices": [
+          {"text": "10/21", "text_fr": "10/21", "correct": true},
+          {"text": "14/15", "text_fr": "14/15", "correct": false},
+          {"text": "7/10", "text_fr": "7/10", "correct": false},
+          {"text": "1", "text_fr": "1", "correct": false}
+        ],
+        "hints": [
+          {"text": "2 × 5 = 10 and 3 × 7 = 21.", "text_fr": "2 × 5 = 10 et 3 × 7 = 21."},
+          {"text": "The result is 10/21.", "text_fr": "Le résultat est 10/21."}
+        ]
+      },
+      {
+        "kind": "mcq",
+        "difficulty": 3,
+        "text": "What is the sign of (−2)/3 × (3/4)?",
+        "text_fr": "Quel est le signe de (−2)/3 × (3/4) ?",
+        "explanation": "One factor is negative and one is positive, so the result is negative: (−2×3)/(3×4) = −6/12 = −1/2.",
+        "explanation_fr": "Un facteur est négatif et l'autre positif : le résultat est négatif : (−2×3)/(3×4) = −6/12 = −1/2.",
+        "hint_prompt": "Only one of the two fractions is negative.",
+        "hint_prompt_fr": "Une seule des deux fractions est négative.",
+        "choices": [
+          {"text": "Negative", "text_fr": "Négatif", "correct": true},
+          {"text": "Positive", "text_fr": "Positif", "correct": false},
+          {"text": "Zero", "text_fr": "Nul", "correct": false},
+          {"text": "It depends on the denominators", "text_fr": "Cela dépend des dénominateurs", "correct": false}
+        ],
+        "hints": [
+          {"text": "A negative times a positive is negative.", "text_fr": "Négatif fois positif donne négatif."},
+          {"text": "(−2 × 3)/(3 × 4) = −6/12 = −1/2.", "text_fr": "(−2 × 3)/(3 × 4) = −6/12 = −1/2."}
+        ]
+      }
+    ]
+  }
+}

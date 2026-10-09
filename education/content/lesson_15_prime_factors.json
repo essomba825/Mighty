@@ -1,0 +1,455 @@
+{
+  "lesson": 15,
+  "status": "published",
+  "lesson_fields": {
+    "title": "Types of Numbers and Prime Factors",
+    "title_fr": "Types de nombres et facteurs premiers",
+    "summary": "Lesson : Types of Numbers and Prime Factors.",
+    "summary_fr": "Identifier les nombres naturels, les entiers et les nombres premiers, decomposer un nombre en facteurs premiers et calculer un PGCD ou un PPCM.",
+    "objectives": [
+      "Identify natural numbers, integers, prime numbers, multiples and factors",
+      "Decompose a number into its prime factors",
+      "Find the HCF and the LCM of two whole numbers"
+    ],
+    "objectives_fr": [
+      "Identifier les nombres naturels, les entiers, les nombres premiers, les multiples et les facteurs",
+      "Décomposer un nombre en facteurs premiers",
+      "Calculer le PGCD et le PPCM de deux entiers"
+    ],
+    "content": "## Learning Objectives\n\n* Students will be able to identify natural numbers, integers, primes, multiples and factors. \n* Students will understand how to decompose a number into its prime factors using factorization techniques.\n* Students will learn the relationship between HCF (Highest Common Factor) and LCM (Least Common Multiple).\n\n\n## Explanation\n\nLet's dive into the fascinating world of numbers!  We'll explore different types of numbers, their properties, and how they interact with each other. \n\n**1. What are Numbers?**\nNumbers are everywhere in our lives – from counting objects to calculating distances. They help us understand the world around us.  There are many kinds of numbers:\n\n* **Natural Numbers:** These are the whole numbers you use for counting (e.g., 1, 2, 3, 4...). Think about how we count apples in a basket!\n* **Integers:** Integers include all natural numbers and their negatives (e.g., -5, -2, 0, 7, 10...) We can use integers to represent quantities like money or temperature.\n\n**2. Prime Numbers: The Building Blocks of Numbers**\n\nPrime numbers are special! They're the building blocks of all other whole numbers.  A prime number is a natural number greater than 1 that has only two divisors: 1 and itself. Think about how you can break down any number into smaller pieces – primes help us do this easily.\n\n* **Example:** The number 7 is a prime number because it's only divisible by 1 and 7 (no other whole numbers).\n* **Important Note:** 2, 3, 5, 7, 11 are all prime numbers.\n\n\n**3. Multiples & Factors: Understanding Relationships**\n\n* **Multiples:**  These are the results of multiplying a number by another integer. For example, multiples of 4 are 4, 8, 12, 16...\n* **Factors:** These are the numbers that divide evenly into another number without leaving a remainder. The factors of 12 are 1, 2, 3, 4, 6, and 12.\n\n**Prime Factorization: Breaking Down Numbers**\n\nImagine you have a big tower made of blocks (your number). Prime factorization is like taking that tower apart into smaller blocks (prime numbers) to understand its structure better!  We use prime factors to express any number as a product of primes. This helps us find the HCF and LCM, which we'll discuss next.\n\n**Example:**\nLet's say you have the number 36:\n\n* **Prime Factorization:** 36 = 2 x 2 x 3 x 3 (or 2² x 3²)\n\n\n**4. Finding HCF and LCM: The Relationship Between Factors**\n\nThe Highest Common Factor (HCF) is the largest whole number that divides two or more numbers evenly, while the Least Common Multiple (LCM) is the smallest whole number that is a multiple of two or more numbers.  They are connected! \n\n\n* **Example:**\n    * HCF(12, 18): The greatest common factor of 12 and 18 is 6. This means both numbers can be divided by 6 without leaving a remainder. \n    * LCM(12, 18):  The least common multiple of 12 and 18 is 36. This means the smallest number that is divisible by both 12 and 18 is 36.\n\n**5. Common Mistakes to Avoid:**\n\n* **Mixing up prime numbers with multiples:** A multiple is a result of multiplying a base number by another integer, while a prime number can only be divided by itself and one.\n* **Not understanding the connection between prime factorization and HCF/LCM:**  Prime factorization helps us find the factors of any number, which we use to calculate the HCF and LCM efficiently!\n\n\n**6. Key Takeaways:**\n\n* Prime numbers are essential building blocks for all other whole numbers. \n* Understanding multiples and factors is crucial in breaking down complex numbers into simpler parts.\n* The relationship between prime factorization and HCF/LCM helps us find the greatest common factor (HCF) and least common multiple (LCM).",
+    "content_fr": "## Objectifs d'apprentissage\n\n* Les étudiants seront en mesure d'identifier les nombres naturels, les entiers, les nombres premiers, les multiples et les facteurs. \n* Les étudiants comprendront comment décomposer un nombre en ses facteurs primaires en utilisant des techniques de factorisation.\n* Les étudiants apprendront la relation entre le HCF (Plus Grand Commun Divisible) et le LCM (Moins Grand Multiple).\n\n\n## Explication\n\nAllons explorer le fascinant monde des nombres! Nous allons explorer différents types de nombres, leurs propriétés et comment ils interagissent les uns avec les autres. \n\n**1. Que sont les Nombres?**\nLes nombres sont partout dans notre vie – de compter des objets à calculer des distances. Ils nous aident à comprendre le monde qui nous entoure. Il existe plusieurs sortes de nombres:\n\n* **Nombres Naturels:** Ces nombres sont les nombres entiers que nous utilisons pour compter (par exemple, 1, 2, 3, 4...). Pensez à la façon dont on comptabilise les pommes dans un panier!\n* **Entiers:** Les entiers incluent tous les nombres naturels et leurs négatifs (par exemple, -5, -2, 0, 7, 10...) Nous pouvons utiliser des entiers pour représenter des quantités comme de l'argent ou la température.\n\n**2.  Nombres Premiers: Les Blocs Fondamentaux des Nombres**\nLes nombres premiers sont spéciaux! Ils constituent les blocs fondamentaux de tous les autres nombres entiers. Un nombre premier est un nombre naturel supérieur à 1 qui a seulement deux diviseurs : 1 et lui-même. Pensez à la façon dont vous pouvez décomposer n'importe quel nombre en morceaux plus petits – les premiers nous aident à le faire facilement.\n\n* **Exemple:** Le nombre 7 est un nombre premier car il ne peut être divisé que par 1 et 7 (aucun autre nombre entier).\n* **Remarque importante:** 2, 3, 5, 7, 11 sont tous des nombres premiers.\n\n\n**3. Multiples & Facteurs: Comprendre les Relations**\n\n* **Multiples:**  Ces résultats sont obtenus en multipliant un nombre par un autre entier. Par exemple, les multiples de 4 sont 4, 8, 12, 16...\n* **Facteurs:** Ces nombres divisent un autre nombre sans laisser de reste. Les facteurs du 12 sont 1, 2, 3, 4, 6 et 12.\n\n**Factorisation Primaire: Décomposer les Nombres**\n\nImaginez que vous avez une grande tour faite de blocs (votre nombre). La factorisation prime est comme décomposer cette tour en petits blocs (nombres premiers) pour mieux comprendre sa structure! Nous utilisons les facteurs primaires pour exprimer n'importe quel nombre comme un produit de nombres premiers. Cela nous aide à trouver le HCF et LCM, que nous discuterons ensuite.\n\n**Exemple:**\nPar exemple, si vous avez le nombre 36:\n\n* **Factorisation Primaire:** 36 = 2 x 2 x 3 x 3 (ou 2² x 3²)\n\n\n**4. Trouver HCF et LCM: La Relation entre les Facteurs**\n\nLe Plus Grand Commun Divisible (HCF) est le plus grand nombre entier qui divise deux ou plusieurs nombres de manière égale, tandis que le Moins Grand Multiple (LCM) est le plus petit nombre entier multiple de deux ou plusieurs nombres. Ils sont liés!\n\n\n* **Exemple:**\n    * HCF(12, 18): Le plus grand commun diviseur de 12 et 18 est 6. Cela signifie que les deux nombres peuvent être divisés par 6 sans laisser de reste. \n    * LCM(12, 18):  Le moins grand multiple de 12 et 18 est 36. Cela signifie que le plus petit nombre divisible par les deux nombres est 36.\n\n**5. Erreurs Frequentes à Éviter:**\n\n* **Mélange entre les nombres premiers et les multiples:** Un multiple est un résultat de la multiplication d'un nombre base par un autre entier, tandis qu'un nombre premier ne peut être divisé que par lui-même et 1.\n* **Ne pas comprendre la relation entre la factorisation prime et HCF/LCM:** La factorisation prime nous aide à trouver les facteurs de n'importe quel nombre, ce qui nous permet d'obtenir le HCF et LCM plus facilement!\n\n\n**6. Points Cles:**\n\n* Les nombres premiers sont des éléments essentiels pour tous les autres nombres entiers. \n* Comprendre les multiples et les facteurs est crucial pour décomposer complexes en parties plus simples.\n* La relation entre la factorisation prime et HCF/LCM nous aide à trouver le plus grand commun diviseur (HCF) et le moins grand multiple (LCM)."
+  },
+  "steps": [
+    {
+      "kind": "question",
+      "title": "Before you start",
+      "title_fr": "Avant de commencer",
+      "content": "Read the question carefully before choosing.",
+      "content_fr": "Lis attentivement la question avant de choisir.",
+      "required": false,
+      "xp": 10,
+      "question": {
+        "kind": "mcq",
+        "text": "Which of these numbers is NOT a prime number?",
+        "text_fr": "Parmi ces nombres, lequel n'est pas un nombre premier ?",
+        "explanation": "15 = 3 x 5, so it has divisors other than 1 and itself. 7, 11 and 13 are only divisible by 1 and themselves.",
+        "explanation_fr": "15 = 3 x 5, donc il a deux diviseurs autres que 1 et lui-même. 7, 11 et 13 ne se divisent que par 1 et eux-mêmes.",
+        "hint_prompt": "Divide each number by 2, then by 3.",
+        "hint_prompt_fr": "Divise chaque nombre par 2, puis par 3.",
+        "difficulty": 1,
+        "config": {},
+        "choices": [
+          {
+            "text": "7",
+            "text_fr": "7",
+            "correct": false
+          },
+          {
+            "text": "11",
+            "text_fr": "11",
+            "correct": false
+          },
+          {
+            "text": "13",
+            "text_fr": "13",
+            "correct": false
+          },
+          {
+            "text": "15",
+            "text_fr": "15",
+            "correct": true
+          }
+        ],
+        "hints": [
+          {
+            "text": "A prime number has only two divisors: 1 and itself.",
+            "text_fr": "Un nombre premier n'a que deux diviseurs : 1 et lui-même."
+          },
+          {
+            "text": "Start with the even numbers — that rules out half of them.",
+            "text_fr": "Divise les nombres pairs d'abord, ça élimine la moitié des cas."
+          },
+          {
+            "text": "Divide 15 by 3: it comes out even, so 15 has a divisor other than 1.",
+            "text_fr": "Divise 15 par 3 : ça tombe juste, donc 15 a un diviseur de plus que 1."
+          }
+        ]
+      }
+    },
+    {
+      "kind": "concept",
+      "title": "What is a prime number",
+      "title_fr": "Un nombre premier",
+      "content": "A **prime number** has exactly two divisors: **1** and **itself**.\n\n- 13 is prime: it is only divisible by 1 and 13.\n- 15 is not: 15 = 3 x 5.\n- 1 is **not** prime: it has only one divisor.\n- 2 is the only even prime number.",
+      "content_fr": "Un **nombre premier** n'a que deux diviseurs : **1** et **lui-même**.\n\n- 13 est premier : il ne se divise que par 1 et 13.\n- 15 ne l'est pas : 15 = 3 x 5.\n- 1 n'est **pas** premier : il n'a qu'un seul diviseur.",
+      "required": false,
+      "xp": 10
+    },
+    {
+      "kind": "question",
+      "title": "Your turn",
+      "title_fr": "À toi",
+      "content": "Have a go: the answer is a single number.",
+      "content_fr": "À toi de jouer : la réponse est un seul nombre.",
+      "required": false,
+      "xp": 10,
+      "question": {
+        "kind": "numeric",
+        "text": "Out of 2, 4, 7, 9, 11 and 16, how many are prime numbers?",
+        "text_fr": "Parmi 2, 4, 7, 9, 11 et 16, combien sont des nombres premiers ?",
+        "explanation": "The primes in this list are 2, 7 and 11. 9 is not prime because 9 = 3 x 3. So the answer is 3.",
+        "explanation_fr": "Les nombres premiers parmi cette liste sont 2, 7 et 11. 9 ne l’est pas car 9 = 3 x 3. Donc la réponse est 3 nombres premiers.",
+        "hint_prompt": "Only one divisor to test per number: its square root.",
+        "hint_prompt_fr": "Un seul diviseur à tester par nombre : sa racine carrée.",
+        "difficulty": 2,
+        "config": {
+          "accepted": [
+            3
+          ],
+          "tolerance": 0
+        },
+        "choices": [],
+        "hints": [
+          {
+            "text": "Test each number with the divisors 2 and 3: that is enough for numbers under 100.",
+            "text_fr": "Teste chaque nombre avec les diviseurs 2 et 3 : ça suffit pour les nombres < 100."
+          },
+          {
+            "text": "2, 7 and 11 are not divisible by anything between 2 and their square root.",
+            "text_fr": "2, 7 et 11 ne se divisent par aucun nombre entre 2 et leur racine carrée."
+          },
+          {
+            "text": "The answer is 3: the prime numbers are 2, 7 and 11.",
+            "text_fr": "La bonne réponse est 3 : les nombres premiers sont 2, 7 et 11."
+          }
+        ]
+      }
+    },
+    {
+      "kind": "example",
+      "title": "Worked example",
+      "title_fr": "Exemple résolu",
+      "content": "**Factorise 60.**\n\n1. Divide by the smallest possible divisor: 2 → 60 = 2 x 30\n2. 30 is still even: 30 = 2 x 15\n3. Keep going while the number is even, then move to 3: 15 = 3 x 5\n4. 5 is prime, so the factorisation is **60 = 2 x 2 x 3 x 5**\n\nCheck: 2 x 2 x 3 x 5 = 60. Correct.",
+      "content_fr": "**Factorise 60.**\n\n1. Je divise par le plus petit diviseur possible : 2 → 60 = 2 x 30\n2. 30 est encore pair : 30 = 2 x 15\n3. Je continue tant que c'est pair, puis je passe à 3 : 15 = 3 x 5\n4. 5 est premier, je m'arrête.\n\nDonc **60 = 2 x 2 x 3 x 5**.\n\nLes nombres premiers qui restent à la fin s'appellent les **facteurs premiers**.",
+      "required": false,
+      "xp": 10
+    },
+    {
+      "kind": "practice",
+      "title": "Guided exercise",
+      "title_fr": "Exercice guidé",
+      "content": "Write your answer as a product, using x or ^.",
+      "content_fr": "Écris ta réponse sous forme de produit, avec x ou ^.",
+      "required": true,
+      "xp": 10,
+      "question": {
+        "kind": "text",
+        "text": "Write the prime factorisation of 84 as a product.",
+        "text_fr": "Écris la décomposition en facteurs premiers de 84 sous la forme d’un produit.",
+        "explanation": "84 is even, so start with 2: 84 = 2 x 42. 42 is still even: 42 = 2 x 21. Then 21 = 3 x 7. Altogether 84 = 2 x 2 x 3 x 7, also written 2^2 x 3 x 7. Only the prime factors are needed: the order does not matter.",
+        "explanation_fr": "84 est pair, donc on commence par 2 : 84 = 2 x 42. 42 est encore pair : 42 = 2 x 21. Puis 21 = 3 x 7. Au total 84 = 2 x 2 x 3 x 7, que l’on écrit aussi 2^2 x 3 x 7. Le produit des facteurs premiers suffit : l’ordre n’a pas d’importance.",
+        "hint_prompt": "Divide by 2 as many times as possible first.",
+        "hint_prompt_fr": "Divise d'abord par 2 autant de fois que possible.",
+        "difficulty": 2,
+        "config": {
+          "accepted": [
+            "2^2*3*7",
+            "2*2*3*7",
+            "4*3*7"
+          ]
+        },
+        "choices": [],
+        "hints": [
+          {
+            "text": "84 is even: start with 2.",
+            "text_fr": "84 est un nombre pair : commence par 2."
+          },
+          {
+            "text": "Keep dividing by 2 as long as possible, then carry on with the remainder.",
+            "text_fr": "Divise par 2 autant de fois que possible, puis continue avec le reste."
+          },
+          {
+            "text": "You are left with 21 = 3 x 7, so the full product is 2 x 2 x 3 x 7.",
+            "text_fr": "Il te reste 21 = 3 x 7, donc le produit complet est 2 x 2 x 3 x 7."
+          }
+        ]
+      }
+    },
+    {
+      "kind": "question",
+      "title": "The classic mistake",
+      "title_fr": "L'erreur classique",
+      "content": "The most common mistake is to think a number is prime because it is large or odd.\n\n12 is odd, yet it is not prime: 12 = 2 x 6, and its divisors are 1, 2, 3, 4, 6 and 12 — six of them.\n\n13 is prime because its only divisors are 1 and 13. The size is irrelevant: what counts is the number of divisors.",
+      "content_fr": "L'erreur la plus fréquente est de croire qu'un nombre est premier parce qu'il est grand ou impair.\n\n12 est impair, pourtant il n'est pas premier : 12 = 2 x 6, et ses diviseurs sont 1, 2, 3, 4, 6 et 12 — six au total.\n\n13 est premier car ses seuls diviseurs sont 1 et 13. La taille ne compte pas : ce qui compte, c'est le nombre de diviseurs.",
+      "required": true,
+      "xp": 10,
+      "question": {
+        "kind": "mcq",
+        "text": "Why is 12 not a prime number?",
+        "text_fr": "Pourquoi 12 n'est-il pas un nombre premier ?",
+        "explanation": "What makes a number prime is not being even or being large — it is the number of divisors. 12 has six: 1, 2, 3, 4, 6 and 12. So it is not prime. This is the same reasoning as for 15 = 3 x 5.",
+        "explanation_fr": "Ce qui définit un nombre premier, ce n’est pas d’être pair ou d’être grand, c’est le nombre de diviseurs. 12 a six diviseurs : 1, 2, 3, 4, 6 et 12. Il n’est donc pas premier. C’est le même raisonnement que pour 15 = 3 x 5.",
+        "hint_prompt": "Count the divisors of 12.",
+        "hint_prompt_fr": "Compte les diviseurs de 12.",
+        "difficulty": 2,
+        "config": {},
+        "choices": [
+          {
+            "text": "Because 12 is even",
+            "text_fr": "Parce que 12 est pair",
+            "correct": false
+          },
+          {
+            "text": "Because 12 = 2 x 6 has the divisors 1, 2, 3, 4, 6, 12",
+            "text_fr": "Parce que 12 = 2 x 6 a des diviseurs 1, 2, 3, 4, 6, 12",
+            "correct": true
+          },
+          {
+            "text": "Because 12 is greater than 10",
+            "text_fr": "Parce que 12 est plus grand que 10",
+            "correct": false
+          },
+          {
+            "text": "Because 12 has two digits",
+            "text_fr": "Parce que 12 a deux chiffres",
+            "correct": false
+          }
+        ],
+        "hints": [
+          {
+            "text": "Think about what separates 13 from 12: it is not the size.",
+            "text_fr": "Réfléchis à ce qui distingue 13 de 12 : ce n'est pas la taille."
+          },
+          {
+            "text": "Count the divisors of 12: 1, 2, 3, 4, 6, 12.",
+            "text_fr": "Compte les diviseurs de 12 : 1, 2, 3, 4, 6, 12."
+          },
+          {
+            "text": "The right answer is the second one: 12 has more than two divisors.",
+            "text_fr": "La bonne réponse est la deuxième : 12 a plus de deux diviseurs."
+          }
+        ]
+      }
+    },
+    {
+      "kind": "summary",
+      "title": "What to remember",
+      "title_fr": "Ce qu'il faut retenir",
+      "content": "- A **prime number** has exactly 2 divisors: 1 and itself.\n- 1 is not prime.\n- To factorise: keep dividing by 2, then by 3, 5, 7...\n- The primes left at the end are the prime factors.\n- Order does not matter: 3 x 5 = 5 x 3.",
+      "content_fr": "- Un **nombre premier** a exactement 2 diviseurs : 1 et lui-même.\n- 1 n'est pas premier.\n- Pour factoriser : on divise par 2 en boucle, puis par 3, 5, 7...\n- Les nombres premiers qui restent à la fin sont les **facteurs premiers**.\n\nProchaine leçon : le **PGCD et le PPCM**, qui s'appuient directement là-dessus.",
+      "required": false,
+      "xp": 10
+    }
+  ],
+  "quiz": {
+    "title": "Quiz - Types of Numbers and Prime Factors",
+    "title_fr": "Quiz - Types de nombres et facteurs premiers",
+    "pass_score": 60,
+    "questions": [
+      {
+        "kind": "mcq",
+        "text": "Natural numbers are...",
+        "text_fr": "Les nombres naturels sont...",
+        "explanation": "Every natural number is an integer, but not every integer is a natural number: -4 is an integer but not a natural number.",
+        "explanation_fr": "Tout nombre naturel est un entier, mais tout entier n'est pas un naturel : -4 est un entier mais pas un nombre naturel.",
+        "hint_prompt": "",
+        "hint_prompt_fr": "",
+        "difficulty": 1,
+        "config": {},
+        "choices": [
+          {
+            "text": "Natural numbers are whole numbers greater than 0, while integers include all positive and negative whole numbers.",
+            "text_fr": "Les nombres naturels sont les entiers supérieurs ou égaux à 0, tandis que les entiers incluent tous les entiers positifs et négatifs.",
+            "correct": false
+          },
+          {
+            "text": "Natural numbers only include positive whole numbers, while integers can also include fractions.",
+            "text_fr": "Les nombres naturels ne comprennent que les entiers positifs, tandis que les entiers peuvent aussi inclure des fractions.",
+            "correct": false
+          },
+          {
+            "text": "Natural numbers are a subset of integers.",
+            "text_fr": "Les nombres naturels sont un sous-ensemble des entiers.",
+            "correct": true
+          },
+          {
+            "text": "There is no difference between natural numbers and integers.",
+            "text_fr": "Il n'y a aucune différence entre les nombres naturels et les entiers.",
+            "correct": false
+          }
+        ],
+        "hints": []
+      },
+      {
+        "kind": "mcq",
+        "text": "Which number is NOT a prime number?",
+        "text_fr": "Lequel de ces nombres n'est PAS un nombre premier ?",
+        "explanation": "35 = 5 x 7 and 49 = 7 x 7, so both are composite. 2 and 17 are prime.",
+        "explanation_fr": "35 = 5 x 7 et 49 = 7 x 7 : les deux sont composés. 2 et 17 sont premiers.",
+        "hint_prompt": "",
+        "hint_prompt_fr": "",
+        "difficulty": 1,
+        "config": {},
+        "choices": [
+          {
+            "text": "2",
+            "text_fr": "2",
+            "correct": false
+          },
+          {
+            "text": "17",
+            "text_fr": "17",
+            "correct": false
+          },
+          {
+            "text": "35",
+            "text_fr": "35",
+            "correct": true
+          },
+          {
+            "text": "49",
+            "text_fr": "49",
+            "correct": false
+          }
+        ],
+        "hints": []
+      },
+      {
+        "kind": "mcq",
+        "text": "What is the result of 6 x 8?",
+        "text_fr": "Quel est le résultat de 6 x 8 ?",
+        "explanation": "6 x 8 = 48. A quick way: 6 x 8 = (6 x 4) x 2 = 24 x 2 = 48.",
+        "explanation_fr": "6 x 8 = 48. Un coup d'œil rapide : 6 x 8 = (6 x 4) x 2 = 24 x 2 = 48.",
+        "hint_prompt": "",
+        "hint_prompt_fr": "",
+        "difficulty": 1,
+        "config": {},
+        "choices": [
+          {
+            "text": "12",
+            "text_fr": "12",
+            "correct": false
+          },
+          {
+            "text": "30",
+            "text_fr": "30",
+            "correct": false
+          },
+          {
+            "text": "48",
+            "text_fr": "48",
+            "correct": true
+          },
+          {
+            "text": "72",
+            "text_fr": "72",
+            "correct": false
+          }
+        ],
+        "hints": []
+      },
+      {
+        "kind": "mcq",
+        "text": "What is the prime factorisation of 15?",
+        "text_fr": "Quelle est la décomposition en facteurs premiers de 15 ?",
+        "explanation": "15 is divisible by 3: 15 = 3 x 5. Both 3 and 5 are prime, so this is the prime factorisation.",
+        "explanation_fr": "15 est divisible par 3 : 15 = 3 x 5. Comme 3 et 5 sont premiers, c'est bien la décomposition en facteurs premiers.",
+        "hint_prompt": "",
+        "hint_prompt_fr": "",
+        "difficulty": 1,
+        "config": {},
+        "choices": [
+          {
+            "text": "3 x 5",
+            "text_fr": "3 x 5",
+            "correct": true
+          },
+          {
+            "text": "2 x 3",
+            "text_fr": "2 x 3",
+            "correct": false
+          },
+          {
+            "text": "4 x 5",
+            "text_fr": "4 x 5",
+            "correct": false
+          },
+          {
+            "text": "10 x 3",
+            "text_fr": "10 x 3",
+            "correct": false
+          }
+        ],
+        "hints": []
+      },
+      {
+        "kind": "mcq",
+        "text": "What is the Highest Common Factor (HCF) of 24 and 36?",
+        "text_fr": "Quel est le Plus Grand Commun Diviseur (PGCD) de 24 et 36 ?",
+        "explanation": "24 = 2 x 2 x 2 x 3 and 36 = 2 x 2 x 3 x 3. The common factors are 2 x 2 x 3 = 12.",
+        "explanation_fr": "24 = 2 x 2 x 2 x 3 et 36 = 2 x 2 x 3 x 3. Les facteurs communs sont 2 x 2 x 3 = 12.",
+        "hint_prompt": "",
+        "hint_prompt_fr": "",
+        "difficulty": 1,
+        "config": {},
+        "choices": [
+          {
+            "text": "12",
+            "text_fr": "12",
+            "correct": true
+          },
+          {
+            "text": "6",
+            "text_fr": "6",
+            "correct": false
+          },
+          {
+            "text": "9",
+            "text_fr": "9",
+            "correct": false
+          },
+          {
+            "text": "18",
+            "text_fr": "18",
+            "correct": false
+          }
+        ],
+        "hints": []
+      },
+      {
+        "kind": "mcq",
+        "text": "What is the Least Common Multiple (LCM) of 4 and 6?",
+        "text_fr": "Quel est le Plus Petit Commun Multiple (PPCM) de 4 et 6 ?",
+        "explanation": "The multiples of 4 are 4, 8, 12... and those of 6 are 6, 12... The first one they share is 12.",
+        "explanation_fr": "Les multiples de 4 sont 4, 8, 12... et ceux de 6 sont 6, 12... Le premier qu'ils partagent est 12.",
+        "hint_prompt": "",
+        "hint_prompt_fr": "",
+        "difficulty": 1,
+        "config": {},
+        "choices": [
+          {
+            "text": "12",
+            "text_fr": "12",
+            "correct": true
+          },
+          {
+            "text": "9",
+            "text_fr": "9",
+            "correct": false
+          },
+          {
+            "text": "18",
+            "text_fr": "18",
+            "correct": false
+          },
+          {
+            "text": "24",
+            "text_fr": "24",
+            "correct": false
+          }
+        ],
+        "hints": []
+      }
+    ]
+  }
+}

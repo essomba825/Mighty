@@ -1,0 +1,240 @@
+{
+  "lesson": 17,
+  "status": "published",
+  "lesson_fields": {
+    "summary_fr": "Simplifier un rapport, partager une quantité selon un rapport donné, résoudre des problèmes de proportionnalité directe et inverse.",
+    "objectives": [
+      "Define a ratio and simplify it to its simplest form",
+      "Share a quantity in a given ratio",
+      "Solve direct and inverse proportion problems"
+    ],
+    "objectives_fr": [
+      "Définir un rapport et le simplifier sous forme irréductible",
+      "Partager une quantité selon un rapport donné",
+      "Résoudre des problèmes de proportionnalité directe et inverse"
+    ]
+  },
+  "steps": [
+    {
+      "kind": "concept",
+      "title": "What is a ratio?",
+      "title_fr": "Qu'est-ce qu'un rapport ?",
+      "content": "A **ratio** compares two quantities of the same kind. It answers *\"how many times as much?\"*\n\nWritten with a colon: 3:5 (read \"3 to 5\").\n\n- The two numbers must be in the same order: boys:girls, not girls:boys\n- A ratio is **not** a fraction: 3:5 means 3 for every 5, so 3/(3+5) is the fraction that are boys\n\n**To simplify:** divide both numbers by the same value.\n6:9 → divide by 3 → **2:3**",
+      "content_fr": "Un **rapport** compare deux quantités de même nature. Il répond à *« combien de fois plus ? »*\n\nÉcrit avec deux-points : 3:5 (on lit « 3 pour 5 »).\n\n- Les deux nombres doivent être dans le même ordre : garçons:filles, et non filles:garçons\n- Un rapport n'est **pas** une fraction : 3:5 signifie 3 pour 5, donc 3/(3+5) est la fraction de garçons\n\n**Pour simplifier :** divise les deux nombres par la même valeur.\n6:9 → divise par 3 → **2:3**",
+      "required": false,
+      "xp": 10
+    },
+    {
+      "kind": "question",
+      "title": "Simplify a ratio",
+      "title_fr": "Simplifier un rapport",
+      "content": "Find the common factor, then divide both sides by it.",
+      "content_fr": "Trouve le facteur commun, puis divise les deux termes par ce facteur.",
+      "required": true,
+      "xp": 15,
+      "question": {
+        "kind": "mcq",
+        "difficulty": 1,
+        "text": "Simplify the ratio 6:9.",
+        "text_fr": "Simplifie le rapport 6:9.",
+        "explanation": "6 and 9 share the factor 3. Dividing both by 3 gives 2:3.",
+        "explanation_fr": "6 et 9 ont le facteur commun 3. En divisant les deux par 3, on obtient 2:3.",
+        "hint_prompt": "What number divides into 6 and 9 without a remainder?",
+        "hint_prompt_fr": "Quel nombre divise 6 et 9 sans reste ?",
+        "choices": [
+          {"text": "2:3", "text_fr": "2:3", "correct": true},
+          {"text": "3:2", "text_fr": "3:2", "correct": false},
+          {"text": "1:1.5", "text_fr": "1:1,5", "correct": false},
+          {"text": "12:18", "text_fr": "12:18", "correct": false}
+        ],
+        "hints": [
+          {"text": "Simplifying means making both numbers as small as possible.", "text_fr": "Simplifier, c'est rendre les deux nombres les plus petits possible."},
+          {"text": "The common factor of 6 and 9 is 3.", "text_fr": "Le facteur commun de 6 et 9 est 3."},
+          {"text": "6 / 3 = 2 and 9 / 3 = 3, so the answer is 2:3.", "text_fr": "6 / 3 = 2 et 9 / 3 = 3, donc la réponse est 2:3."}
+        ]
+      }
+    },
+    {
+      "kind": "explain",
+      "title": "Sharing in a given ratio",
+      "title_fr": "Partager selon un rapport donné",
+      "content": "To split a quantity in a ratio, **add the parts first**, then find one part.\n\n**Worked: share 24 cookies in the ratio 1:3**\n\n1. Total parts: 1 + 3 = 4\n2. One part: 24 / 4 = 6\n3. The 1 part gets 6, the 3 parts get 3 x 6 = 18\n\n**Check:** 6 + 18 = 24. Correct.",
+      "content_fr": "Pour partager une quantité selon un rapport, **additionne d'abord les parts**, puis trouve une part.\n\n**Cas : partager 24 biscuits dans le rapport 1:3**\n\n1. Total des parts : 1 + 3 = 4\n2. Une part : 24 / 4 = 6\n3. La part « 1 » reçoit 6, la part « 3 » reçoit 3 x 6 = 18\n\n**Vérification :** 6 + 18 = 24. Correct.",
+      "required": false,
+      "xp": 10
+    },
+    {
+      "kind": "practice",
+      "title": "Guided exercise",
+      "title_fr": "Exercice guidé",
+      "content": "Total the parts, then divide.",
+      "content_fr": "Additionne les parts, puis divise.",
+      "required": true,
+      "xp": 15,
+      "question": {
+        "kind": "numeric",
+        "difficulty": 2,
+        "text": "24 cookies are shared in the ratio 1:3. How many cookies does the « 1 » part get?",
+        "text_fr": "24 biscuits sont partagés dans le rapport 1:3. Combien de biscuits la part « 1 » reçoit-elle ?",
+        "explanation": "The total number of parts is 1 + 3 = 4. So one part is 24 / 4 = 6.",
+        "explanation_fr": "Le nombre total de parts est 1 + 3 = 4. Une part vaut donc 24 / 4 = 6.",
+        "hint_prompt": "How many parts are there altogether?",
+        "hint_prompt_fr": "Combien de parts y a-t-il au total ?",
+        "config": {"accepted": [6, "6"]},
+        "hints": [
+          {"text": "The ratio 1:3 means 1 part for every 3 parts, so 4 parts in total.", "text_fr": "Le rapport 1:3 signifie 1 part pour 3 parts, donc 4 parts au total."},
+          {"text": "24 cookies ÷ 4 parts = ?", "text_fr": "24 biscuits ÷ 4 parts = ?"},
+          {"text": "One part is 6, so the 3 part gets 18.", "text_fr": "Une part vaut 6, donc la part « 3 » reçoit 18."}
+        ]
+      }
+    },
+    {
+      "kind": "concept",
+      "title": "Direct and inverse proportion",
+      "title_fr": "Proportionnalité directe et inverse",
+      "content": "**Direct proportion** — both quantities rise and fall together. Multiply:\n\n3 pens cost $6, so 8 pens cost 6 / 3 x 8 = **$16**.\n\n**Inverse proportion** — one goes up while the other goes down. Divide:\n\n6 machines take 4 hours. 12 machines take 4 / 2 = **2 hours**.\n\nThe clue is the wording: *\"per\"*, *\"each\"* and *\"for every\"* signal direct proportion.",
+      "content_fr": "**Proportionnalité directe** — les deux quantités montent et descendent ensemble. On multiplie :\n\n3 stylos coûtent 6 $, donc 8 stylos coûtent 6 / 3 x 8 = **16 $**.\n\n**Proportionnalité inverse** — l'une monte pendant que l'autre baisse. On divise :\n\n6 machines prennent 4 heures. 12 machines prennent 4 / 2 = **2 heures**.\n\nL'indice est dans la formulation : *« par »*, *« chacun »* et *« pour chaque »* signalent une proportionnalité directe.",
+      "required": false,
+      "xp": 10
+    },
+    {
+      "kind": "example",
+      "title": "Worked example",
+      "title_fr": "Exemple résolu",
+      "content": "**Solve 3/x = 6/18.**\n\nCross-multiply: 3 x 18 = 6 x x\n\n54 = 6x\n\nx = 54 / 6 = **9**\n\n**Check:** 3/9 = 6/18, and both sides equal 1/3.",
+      "content_fr": "**Résous 3/x = 6/18.**\n\nMultiplication croisée : 3 x 18 = 6 x x\n\n54 = 6x\n\nx = 54 / 6 = **9**\n\n**Vérification :** 3/9 = 6/18, et les deux membres valent 1/3.",
+      "required": false,
+      "xp": 10
+    },
+    {
+      "kind": "question",
+      "title": "Choosing the right operation",
+      "title_fr": "Choisir la bonne opération",
+      "content": "More workers means less time. Which do you use?",
+      "content_fr": "Plus d'ouvriers, moins de temps. Quelle opération utilises-tu ?",
+      "required": true,
+      "xp": 15,
+      "question": {
+        "kind": "mcq",
+        "difficulty": 3,
+        "text": "6 machines take 4 hours to finish a job. How long do 12 machines take?",
+        "text_fr": "6 machines mettent 4 heures pour terminer un travail. Combien de temps mettent 12 machines ?",
+        "explanation": "Doubling the machines from 6 to 12 halves the time: 4 / 2 = 2 hours. More workers means less time, so this is inverse proportion — you divide.",
+        "explanation_fr": "Doubler les machines de 6 à 12 divise le temps par deux : 4 / 2 = 2 heures. Plus d'ouvriers signifie moins de temps : c'est une proportionnalité inverse, on divise.",
+        "hint_prompt": "The machines went up by a factor of 2. What happens to the time?",
+        "hint_prompt_fr": "Le nombre de machines a été multiplié par 2. Qu'advient-il du temps ?",
+        "choices": [
+          {"text": "2 hours", "text_fr": "2 heures", "correct": true},
+          {"text": "8 hours", "text_fr": "8 heures", "correct": false},
+          {"text": "4 hours", "text_fr": "4 heures", "correct": false},
+          {"text": "12 hours", "text_fr": "12 heures", "correct": false}
+        ],
+        "hints": [
+          {"text": "Decide first: direct or inverse proportion?", "text_fr": "Décide d'abord : proportionnalité directe ou inverse ?"},
+          {"text": "Twice as many machines means half the time, so 4 / 2 = 2.", "text_fr": "Deux fois plus de machines, c'est la moitié du temps, donc 4 / 2 = 2."},
+          {"text": "The answer is 2 hours.", "text_fr": "La réponse est 2 heures."}
+        ]
+      }
+    },
+    {
+      "kind": "summary",
+      "title": "What to remember",
+      "title_fr": "Ce qu'il faut retenir",
+      "content": "- A ratio compares two quantities **in the same order**.\n- To simplify, divide both numbers by the same factor: 6:9 → 2:3.\n- To share in a ratio, add the parts, divide to get one part, then multiply.\n- **Direct proportion** (both go up together): multiply.\n- **Inverse proportion** (one goes up, the other down): divide.\n- Always check your answer by adding or multiplying the parts back.",
+      "content_fr": "- Un rapport compare deux quantités **dans le même ordre**.\n- Pour simplifier, divise les deux nombres par le même facteur : 6:9 → 2:3.\n- Pour partager selon un rapport, additionne les parts, divise pour obtenir une part, puis multiplie.\n- **Proportionnalité directe** (les deux montent ensemble) : on multiplie.\n- **Proportionnalité inverse** (l'une monte, l'autre baisse) : on divise.\n- Vérifie toujours ta réponse en additionnant ou en multipliant les parts à l'envers.",
+      "required": false,
+      "xp": 10
+    }
+  ],
+  "quiz": {
+    "title": "Quiz - Ratio and Proportion",
+    "title_fr": "Quiz - Rapports et proportionnalité",
+    "pass_score": 60,
+    "questions": [
+      {
+        "kind": "mcq",
+        "difficulty": 1,
+        "text": "What is a ratio?",
+        "text_fr": "Qu'est-ce qu'un rapport ?",
+        "explanation": "A ratio compares two quantities of the same kind using division.",
+        "explanation_fr": "Un rapport compare deux quantités de même nature en utilisant la division.",
+        "choices": [
+          {"text": "A comparison of two quantities using division", "text_fr": "Une comparaison de deux quantités par la division", "correct": true},
+          {"text": "The sum of two quantities", "text_fr": "La somme de deux quantités", "correct": false},
+          {"text": "The difference between two quantities", "text_fr": "La différence entre deux quantités", "correct": false},
+          {"text": "A fraction written vertically", "text_fr": "Une fraction écrite verticalement", "correct": false}
+        ]
+      },
+      {
+        "kind": "mcq",
+        "difficulty": 1,
+        "text": "Simplify the ratio 6:9.",
+        "text_fr": "Simplifie le rapport 6:9.",
+        "explanation": "Divide both numbers by their common factor 3 to get 2:3.",
+        "explanation_fr": "Divise les deux nombres par leur facteur commun 3 pour obtenir 2:3.",
+        "choices": [
+          {"text": "2:3", "text_fr": "2:3", "correct": true},
+          {"text": "3:2", "text_fr": "3:2", "correct": false},
+          {"text": "1:1.5", "text_fr": "1:1,5", "correct": false},
+          {"text": "0.67", "text_fr": "0,67", "correct": false}
+        ]
+      },
+      {
+        "kind": "mcq",
+        "difficulty": 2,
+        "text": "If you have 24 cookies shared in the ratio 1:3, how many does the « 1 » part get?",
+        "text_fr": "Si tu partages 24 biscuits dans le rapport 1:3, combien la part « 1 » reçoit-elle ?",
+        "explanation": "There are 1 + 3 = 4 parts, so one part is 24 / 4 = 6.",
+        "explanation_fr": "Il y a 1 + 3 = 4 parts, donc une part vaut 24 / 4 = 6.",
+        "choices": [
+          {"text": "6", "text_fr": "6", "correct": true},
+          {"text": "18", "text_fr": "18", "correct": false},
+          {"text": "8", "text_fr": "8", "correct": false},
+          {"text": "12", "text_fr": "12", "correct": false}
+        ]
+      },
+      {
+        "kind": "mcq",
+        "difficulty": 2,
+        "text": "Solve for x in the proportion 3/x = 6/18.",
+        "text_fr": "Résous x dans la proportion 3/x = 6/18.",
+        "explanation": "Cross-multiply: 3 x 18 = 6 x x, so 54 = 6x and x = 9.",
+        "explanation_fr": "Multiplication croisée : 3 x 18 = 6 x x, donc 54 = 6x et x = 9.",
+        "choices": [
+          {"text": "x = 9", "text_fr": "x = 9", "correct": true},
+          {"text": "x = 4.5", "text_fr": "x = 4,5", "correct": false},
+          {"text": "x = 18", "text_fr": "x = 18", "correct": false},
+          {"text": "x = 36", "text_fr": "x = 36", "correct": false}
+        ]
+      },
+      {
+        "kind": "mcq",
+        "difficulty": 3,
+        "text": "The cost of apples is proportional to their weight. If 2 kg costs $6, how much does 5 kg cost?",
+        "text_fr": "Le coût des pommes est proportionnel à leur poids. Si 2 kg coûtent 6 $, combien coûtent 5 kg ?",
+        "explanation": "This is direct proportion, so you multiply: 6 / 2 x 5 = $15.",
+        "explanation_fr": "C'est une proportionnalité directe, on multiplie : 6 / 2 x 5 = 15 $.",
+        "choices": [
+          {"text": "$15", "text_fr": "15 $", "correct": true},
+          {"text": "$10", "text_fr": "10 $", "correct": false},
+          {"text": "$2.40", "text_fr": "2,40 $", "correct": false},
+          {"text": "$30", "text_fr": "30 $", "correct": false}
+        ]
+      },
+      {
+        "kind": "mcq",
+        "difficulty": 3,
+        "text": "6 machines take 4 hours to finish a job. How long do 12 machines take?",
+        "text_fr": "6 machines mettent 4 heures à terminer un travail. Combien de temps mettent 12 machines ?",
+        "explanation": "More machines means less time, so this is inverse proportion: 4 / 2 = 2 hours.",
+        "explanation_fr": "Plus de machines signifie moins de temps : proportionnalité inverse, 4 / 2 = 2 heures.",
+        "choices": [
+          {"text": "2 hours", "text_fr": "2 heures", "correct": true},
+          {"text": "8 hours", "text_fr": "8 heures", "correct": false},
+          {"text": "4 hours", "text_fr": "4 heures", "correct": false},
+          {"text": "1 hour", "text_fr": "1 heure", "correct": false}
+        ]
+      }
+    ]
+  }
+}

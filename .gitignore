@@ -1,0 +1,28 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+
+# SQLite databases & backups
+db.sqlite3
+db.sqlite3-journal
+*.sqlite3
+*.sqlite3-journal
+
+# Secrets & Environment variables
+.env
+.env.*
+!.env.example
+*.key
+*.pem
+secrets*.json
+
+# Logs & temp text files
+*.log
+*.txt
+media/
+
+# OS
+.DS_Store

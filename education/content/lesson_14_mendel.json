@@ -1,0 +1,310 @@
+{
+  "lesson": 14,
+  "status": "published",
+  "lesson_fields": {
+    "title": "Mendelian Genetics",
+    "title_fr": "La génétique mendélienne",
+    "summary": "Work out the F1 and F2 offspring ratios from a monohybrid cross, using Mendel's two laws.",
+    "summary_fr": "Déterminer les proportions des générations F1 et F2 d'un croisement monohybride, avec les deux lois de Mendel.",
+    "content": "## Alleles and the cell\n\nA **gene** is a segment of DNA carrying an instruction. Its different versions are **alleles**, written as letters:\n\n- a **dominant** allele (A) shows its effect even with one copy\n- a **recessive** allele (a) only shows with two copies\n\nAn organism with **AA** is *homozygous*; with **Aa** it is *heterozygous* and shows the dominant trait.\n\n## Mendel's first law — uniformity of F1\n\nCross a purebred dominant with a purebred recessive: **AA × aa**\n\nEvery F1 offspring is **Aa**, so all look identical. Each one carries one allele of each parent.\n\n## Mendel's second law — segregation\n\nWhen the F1 individuals form gametes, the two alleles **separate**. Crossing two F1 (**Aa × Aa**) gives:\n\n    AA : Aa : Aa : aa   →   1 : 2 : 1\n\nSo in F2, **75 % show the dominant trait** and **25 % show the recessive trait**.\n\n## Reading a result\n\nA **3:1 phenotypic ratio** is the classic F2 signature of a single gene with complete dominance. Any deviation points to another factor: incomplete dominance, two genes, or a small sample.\n\nIn this lesson you will build Punnett squares and predict offspring ratios.",
+    "content_fr": "## Allèles et cellule\n\nUn **gène** est un segment d'ADN portant une instruction. Ses différentes versions sont les **allèles**, notés par des lettres :\n\n- un allèle **dominant** (A) exprime son effet même en un seul exemplaire\n- un allèle **récessif** (a) ne s'exprime qu'en double exemplaire\n\nUn organisme **AA** est *homozygote* ; avec **Aa** il est *hétérozygote* et présente le caractère dominant.\n\n## Première loi de Mendel — uniformité de F1\n\nOn croise un dominant pur avec un récessif pur : **AA × aa**\n\nTous les descendants F1 sont **Aa**, donc tous se ressemblent. Chacun porte un allèle de chaque parent.\n\n## Deuxième loi de Mendel — disjonction des caractères\n\nQuand les F1 forment les gamètes, les deux allèles **se séparent**. Le croisement de deux F1 (**Aa × Aa**) donne :\n\n    AA : Aa : Aa : aa   →   1 : 2 : 1\n\nAinsi en F2, **75 % présentent le caractère dominant** et **25 % le caractère récessif**.\n\n## Lire un résultat\n\nUn rapport phénotypique **3:1** est la signature F2 classique d'un gène unique à dominance complète. Tout écart pointe vers un autre facteur : dominance incomplète, deux gènes, ou un petit échantillon.\n\nDans cette leçon, tu construiras des tables de Punnett et prévoiras les proportions de la descendance.",
+    "objectives": [
+      "Distinguish a dominant allele from a recessive allele",
+      "Predict the F1 offspring of a monohybrid cross",
+      "Predict the F2 ratio with a Punnett square",
+      "Explain Mendel's laws of uniformity and segregation"
+    ],
+    "objectives_fr": [
+      "Distinguer un allèle dominant d'un allèle récessif",
+      "Prévoir la génération F1 d'un croisement monohybride",
+      "Prévoir le rapport de la F2 avec une table de Punnett",
+      "Expliquer les lois d'uniformité et de disjonction de Mendel"
+    ]
+  },
+  "steps": [
+    {
+      "kind": "concept",
+      "title": "Genes and alleles",
+      "title_fr": "Gènes et allèles",
+      "content": "A **gene** is a piece of DNA carrying one instruction. Its versions are **alleles**, written with letters.\n\n- **Dominant** (A): one copy is enough for the trait to show\n- **Recessive** (a): the trait only shows with two copies\n\nAn organism's two alleles make its **genotype**: `AA`, `Aa` or `aa`.\n\nWhat you see is the **phenotype**: the trait actually expressed.\n\n`AA` and `Aa` both look the same, because A is dominant. Only `aa` shows the recessive trait.",
+      "content_fr": "Un **gène** est un fragment d'ADN portant une instruction. Ses versions sont les **allèles**, notés par des lettres.\n\n- **Dominant** (A) : un seul exemplaire suffit pour que le caractère s'exprime\n- **Récessif** (a) : le caractère n'apparaît qu'en double exemplaire\n\nLes deux allèles d'un organisme constituent son **génotype** : `AA`, `Aa` ou `aa`.\n\nCe que l'on voit est le **phénotype** : le caractère réellement exprimé.\n\n`AA` et `Aa` se ressemblent, car A est dominant. Seul `aa` montre le caractère récessif.",
+      "required": false,
+      "xp": 10
+    },
+    {
+      "kind": "question",
+      "title": "Genotype and phenotype",
+      "title_fr": "Génotype et phénotype",
+      "content": "Genotype is the alleles; phenotype is what shows. They are not the same thing.",
+      "content_fr": "Le génotype, ce sont les allèles ; le phénotype, ce qui se voit. Ce n'est pas la même chose.",
+      "required": true,
+      "xp": 15,
+      "question": {
+        "kind": "mcq",
+        "difficulty": 1,
+        "text": "For the trait controlled by allele A (dominant over a), which organism shows the recessive phenotype?",
+        "text_fr": "Pour le caractère contrôlé par l'allèle A (dominant sur a), quel organisme présente le phénotype récessif ?",
+        "explanation": "The recessive phenotype only appears with two copies of a, so the genotype must be aa.",
+        "explanation_fr": "Le phénotype récessif n'apparaît qu'avec deux exemplaires de a : le génotype doit être aa.",
+        "hint_prompt": "How many copies of a are needed?",
+        "hint_prompt_fr": "Combien d'exemplaires de a faut-il ?",
+        "choices": [
+          {"text": "The organism with genotype aa", "text_fr": "L'organisme de génotype aa", "correct": true},
+          {"text": "The organism with genotype AA", "text_fr": "L'organisme de génotype AA", "correct": false},
+          {"text": "The organism with genotype Aa", "text_fr": "L'organisme de génotype Aa", "correct": false},
+          {"text": "Any organism with at least one A", "text_fr": "Tout organisme possédant au moins un A", "correct": false}
+        ],
+        "hints": [
+          {"text": "A is dominant, so one copy of A hides a.", "text_fr": "A est dominant : un seul A masque a."},
+          {"text": "The recessive trait needs no A at all.", "text_fr": "Le caractère récessif ne demande aucun A."},
+          {"text": "Two copies of a means the genotype is aa.", "text_fr": "Deux exemplaires de a : le génotype est aa."}
+        ]
+      }
+    },
+    {
+      "kind": "explain",
+      "title": "Punnett squares",
+      "title_fr": "Les tables de Punnett",
+      "content": "To predict offspring, put one parent's gametes along the top and the other's down the side, then fill the squares.\n\nCross **Aa × Aa**:\n\n         A     a\n      A  AA    Aa\n      a  Aa    aa\n\nEach square holds one offspring, combining one allele from each parent.\n\n**Reading the result:**\n\n- 1 AA, 2 Aa, 1 aa → ratio **1 : 2 : 1**\n- Genotypes AA + Aa = 3 out of 4 → **75 % dominant**\n- Genotype aa = 1 out of 4 → **25 % recessive**\n\nEach parent passes on its two alleles in equal numbers, which is why these ratios come out clean.",
+      "content_fr": "Pour prévoir la descendance, on place les gamètes d'un parent en haut et ceux de l'autre sur le côté, puis on remplit les cases.\n\nCroisement **Aa × Aa** :\n\n         A     a\n      A  AA    Aa\n      a  Aa    aa\n\nChaque case représente un descendant, combinant un allèle de chaque parent.\n\n**Lecture du résultat :**\n\n- 1 AA, 2 Aa, 1 aa → rapport **1 : 2 : 1**\n- Génotypes AA + Aa = 3 sur 4 → **75 % dominant**\n- Génotype aa = 1 sur 4 → **25 % récessif**\n\nChaque parent transmet ses deux allèles en proportions égales, d'où des rapports bien réguliers.",
+      "required": false,
+      "xp": 10
+    },
+    {
+      "kind": "question",
+      "title": "Cross two F1 individuals",
+      "title_fr": "Croiser deux F1",
+      "content": "Fill the Punnett square for Aa × Aa and count the recessive phenotypes.",
+      "content_fr": "Remplis la table de Punnett pour Aa × Aa et compte les phénotypes récessifs.",
+      "required": true,
+      "xp": 20,
+      "question": {
+        "kind": "mcq",
+        "difficulty": 2,
+        "text": "Two heterozygous parents (Aa × Aa) have offspring. What fraction shows the recessive phenotype?",
+        "text_fr": "Deux parents hétérozygotes (Aa × Aa) ont une descendance. Quelle fraction présente le phénotype récessif ?",
+        "explanation": "The Punnett square gives AA, Aa, Aa, aa. Only aa shows the recessive phenotype, so 1 out of 4, that is 25 %.",
+        "explanation_fr": "La table de Punnett donne AA, Aa, Aa, aa. Seul aa présente le phénotype récessif : 1 sur 4, soit 25 %.",
+        "hint_prompt": "Only one of the four squares has two recessive alleles.",
+        "hint_prompt_fr": "Une seule des quatre cases porte deux allèles récessifs.",
+        "choices": [
+          {"text": "1/4, that is 25 %", "text_fr": "1/4, soit 25 %", "correct": true},
+          {"text": "1/2, that is 50 %", "text_fr": "1/2, soit 50 %", "correct": false},
+          {"text": "3/4, that is 75 %", "text_fr": "3/4, soit 75 %", "correct": false},
+          {"text": "1/8, that is 12.5 %", "text_fr": "1/8, soit 12,5 %", "correct": false}
+        ],
+        "hints": [
+          {"text": "The four squares hold AA, Aa, Aa and aa.", "text_fr": "Les quatre cases contiennent AA, Aa, Aa et aa."},
+          {"text": "Only the aa square shows the recessive trait.", "text_fr": "Seule la case aa montre le caractère récessif."},
+          {"text": "One square out of four means 25 %.", "text_fr": "Une case sur quatre, soit 25 %."}
+        ]
+      }
+    },
+    {
+      "kind": "question",
+      "title": "Mendel's first law in practice",
+      "title_fr": "La première loi de Mendel en pratique",
+      "content": "Cross AA with aa. What do all the offspring look like?",
+      "content_fr": "Croise AA avec aa. À quoi ressemblent tous les descendants ?",
+      "required": true,
+      "xp": 20,
+      "question": {
+        "kind": "mcq",
+        "difficulty": 2,
+        "text": "A purebred dominant organism (AA) is crossed with a purebred recessive one (aa). What is the F1 generation?",
+        "text_fr": "Un organisme dominant pur (AA) est croisé avec un récessif pur (aa). Que donne la génération F1 ?",
+        "explanation": "Every offspring receives A from the first parent and a from the second, so all are Aa and all show the dominant trait. This is Mendel's law of uniformity of F1.",
+        "explanation_fr": "Chaque descendant reçoit A du premier parent et a du second : tous sont Aa et tous présentent le caractère dominant. C'est la loi d'uniformité de la F1 de Mendel.",
+        "hint_prompt": "Each parent can only pass on the allele it carries.",
+        "hint_prompt_fr": "Chaque parent ne peut transmettre que l'allèle qu'il porte.",
+        "choices": [
+          {"text": "All Aa, all showing the dominant trait", "text_fr": "Tous Aa, tous présentant le caractère dominant", "correct": true},
+          {"text": "Half Aa, half aa", "text_fr": "La moitié Aa, la moitié aa", "correct": false},
+          {"text": "All AA", "text_fr": "Tous AA", "correct": false},
+          {"text": "Three quarters Aa, one quarter aa", "text_fr": "Trois quarts Aa, un quart aa", "correct": false}
+        ],
+        "hints": [
+          {"text": "The AA parent can only give A, and the aa parent can only give a.", "text_fr": "Le parent AA ne peut donner que A, et le parent aa que a."},
+          {"text": "So every offspring is Aa.", "text_fr": "Chaque descendant est donc Aa."},
+          {"text": "Since A is dominant, they all look the same: this is the law of uniformity.", "text_fr": "A étant dominant, ils se ressemblent tous : c'est la loi d'uniformité."}
+        ]
+      }
+    },
+    {
+      "kind": "practice",
+      "title": "Recognising a 3:1 ratio",
+      "title_fr": "Reconnaître un rapport 3:1",
+      "content": "**1 : 2 : 1** is the genotype ratio. **3 : 1** is the phenotype ratio: 3 dominant-looking for every 1 recessive-looking.\n\n    AA : Aa : Aa : aa\n     1    2    2    1     genotypes → 1:2:1\n\n    dominant (AA + Aa) : recessive (aa)  =  3 : 1  phenotypes\n\nBoth appear in the answers, so read carefully which one a question asks for.\n\nIf the results do not match 3:1, suspect incomplete dominance, a second gene, or too few offspring — with only 4 offspring, a 1:1 ratio is a perfectly ordinary accident of chance.",
+      "content_fr": "**1 : 2 : 1** est le rapport génotypique. **3 : 1** est le rapport phénotypique : 3 apparences dominantes pour 1 récessive.\n\n    AA : Aa : Aa : aa\n     1    2    2    1     génotypes → 1:2:1\n\n    dominant (AA + Aa) : récessif (aa)  =  3 : 1  phénotypes\n\nLes deux figurent dans les réponses : lis donc attentivement ce qui est demandé.\n\nSi les résultats ne correspondent pas à 3:1, suspecte une dominance incomplète, un second gène, ou un effectif trop réduit : avec seulement 4 descendants, un rapport 1:1 est un simple hasard tout à fait normal.",
+      "required": false,
+      "xp": 10
+    },
+    {
+      "kind": "question",
+      "title": "Which ratio is asked for?",
+      "title_fr": "Quel rapport est demandé ?",
+      "content": "The same cross gives both a 1:2:1 and a 3:1 ratio. They are not the same.",
+      "content_fr": "Le même croisement donne à la fois 1:2:1 et 3:1. Ce n'est pas la même chose.",
+      "required": true,
+      "xp": 25,
+      "question": {
+        "kind": "mcq",
+        "difficulty": 3,
+        "text": "In the F2 of an Aa × Aa cross, what is the ratio of genotypes AA : Aa : aa?",
+        "text_fr": "En F2 d'un croisement Aa × Aa, quel est le rapport des génotypes AA : Aa : aa ?",
+        "explanation": "The Punnett square gives AA, Aa, Aa, aa, so the genotype ratio is 1 : 2 : 1. The 3 : 1 figure describes phenotypes, not genotypes.",
+        "explanation_fr": "La table de Punnett donne AA, Aa, Aa, aa : le rapport génotypique est donc 1 : 2 : 1. Le chiffre 3 : 1 décrit les phénotypes, pas les génotypes.",
+        "hint_prompt": "Count each genotype in the square.",
+        "hint_prompt_fr": "Compte chaque génotype dans la table.",
+        "choices": [
+          {"text": "1 : 2 : 1", "text_fr": "1 : 2 : 1", "correct": true},
+          {"text": "3 : 1", "text_fr": "3 : 1", "correct": false},
+          {"text": "1 : 1", "text_fr": "1 : 1", "correct": false},
+          {"text": "2 : 1 : 1", "text_fr": "2 : 1 : 1", "correct": false}
+        ],
+        "hints": [
+          {"text": "The four squares contain AA, Aa, Aa and aa.", "text_fr": "Les quatre cases contiennent AA, Aa, Aa et aa."},
+          {"text": "Count: one AA, two Aa, one aa.", "text_fr": "Dénombrement : un AA, deux Aa, un aa."},
+          {"text": "That gives 1 : 2 : 1 for genotypes; 3 : 1 would be the phenotype ratio.", "text_fr": "Cela donne 1 : 2 : 1 pour les génotypes ; 3 : 1 serait le rapport phénotypique."}
+        ]
+      }
+    },
+    {
+      "kind": "summary",
+      "title": "The two laws in one line each",
+      "title_fr": "Les deux lois en une ligne chacune",
+      "content": "**First law — uniformity of F1**\n\n    AA × aa → all F1 are Aa\n\n**Second law — segregation**\n\n    Aa × Aa → 1 AA : 2 Aa : 1 aa  →  3 dominant : 1 recessive\n\nThe underlying idea is the same in both cases: **each parent passes on its two alleles in equal numbers**, and they separate in the gamete. That is why the ratios come out as clean fractions.",
+      "content_fr": "**Première loi — uniformité de la F1**\n\n    AA × aa → toute la F1 est Aa\n\n**Deuxième loi — disjonction des caractères**\n\n    Aa × Aa → 1 AA : 2 Aa : 1 aa  →  3 dominant : 1 récessif\n\nL'idée de fond est la même dans les deux cas : **chaque parent transmet ses deux allèles en proportions égales**, et ceux-ci se séparent dans le gamète. C'est pourquoi les rapports tombent juste.",
+      "required": false,
+      "xp": 10
+    }
+  ],
+  "quiz": {
+    "title": "Quiz — Mendelian genetics",
+    "title_fr": "Quiz — Génétique mendélienne",
+    "pass_score": 60,
+    "questions": [
+      {
+        "kind": "mcq",
+        "difficulty": 1,
+        "text": "For a trait where A is dominant over a, which genotype shows the recessive phenotype?",
+        "text_fr": "Pour un caractère où A est dominant sur a, quel génotype présente le phénotype récessif ?",
+        "explanation": "The recessive phenotype needs two copies of a, so the genotype is aa.",
+        "explanation_fr": "Le phénotype récessif demande deux exemplaires de a : le génotype est aa.",
+        "hint_prompt": "One copy of A is enough to hide a.",
+        "hint_prompt_fr": "Un seul A suffit à masquer a.",
+        "choices": [
+          {"text": "aa", "text_fr": "aa", "correct": true},
+          {"text": "AA", "text_fr": "AA", "correct": false},
+          {"text": "Aa", "text_fr": "Aa", "correct": false},
+          {"text": "A and a together", "text_fr": "A et a ensemble", "correct": false}
+        ],
+        "hints": [
+          {"text": "Only the genotype with no dominant allele shows the recessive trait.", "text_fr": "Seul le génotype sans allèle dominant montre le caractère récessif."},
+          {"text": "That genotype is aa.", "text_fr": "Ce génotype est aa."}
+        ]
+      },
+      {
+        "kind": "mcq",
+        "difficulty": 2,
+        "text": "AA is crossed with aa. What is the F1 generation?",
+        "text_fr": "AA est croisé avec aa. Que donne la F1 ?",
+        "explanation": "AA can only pass on A and aa can only pass on a, so every offspring is Aa and shows the dominant trait.",
+        "explanation_fr": "AA ne peut transmettre que A et aa que a : chaque descendant est donc Aa et présente le caractère dominant.",
+        "hint_prompt": "Each parent passes on the single allele it has.",
+        "hint_prompt_fr": "Chaque parent transmet l'unique allèle qu'il porte.",
+        "choices": [
+          {"text": "All Aa, all showing the dominant trait", "text_fr": "Tous Aa, tous présentant le caractère dominant", "correct": true},
+          {"text": "Half Aa, half aa", "text_fr": "La moitié Aa, la moitié aa", "correct": false},
+          {"text": "All AA", "text_fr": "Tous AA", "correct": false},
+          {"text": "3 Aa to 1 aa", "text_fr": "3 Aa pour 1 aa", "correct": false}
+        ],
+        "hints": [
+          {"text": "The AA parent gives A, the aa parent gives a.", "text_fr": "Le parent AA donne A, le parent aa donne a."},
+          {"text": "Combining them always gives Aa.", "text_fr": "La combinaison donne toujours Aa."}
+        ]
+      },
+      {
+        "kind": "mcq",
+        "difficulty": 2,
+        "text": "Two heterozygous parents (Aa × Aa) have offspring. What proportion shows the recessive phenotype?",
+        "text_fr": "Deux parents hétérozygotes (Aa × Aa) ont une descendance. Quelle proportion présente le phénotype récessif ?",
+        "explanation": "The Punnett square gives AA, Aa, Aa, aa. Only aa shows the recessive phenotype, so 1 in 4, that is 25 %.",
+        "explanation_fr": "La table de Punnett donne AA, Aa, Aa, aa. Seul aa présente le phénotype récessif : 1 sur 4, soit 25 %.",
+        "hint_prompt": "One square of the four holds aa.",
+        "hint_prompt_fr": "Une case sur quatre contient aa.",
+        "choices": [
+          {"text": "25 %", "text_fr": "25 %", "correct": true},
+          {"text": "50 %", "text_fr": "50 %", "correct": false},
+          {"text": "75 %", "text_fr": "75 %", "correct": false},
+          {"text": "100 %", "text_fr": "100 %", "correct": false}
+        ],
+        "hints": [
+          {"text": "The four squares hold AA, Aa, Aa and aa.", "text_fr": "Les quatre cases contiennent AA, Aa, Aa et aa."},
+          {"text": "One out of four squares is aa.", "text_fr": "Une case sur quatre est aa."},
+          {"text": "1/4 = 25 %.", "text_fr": "1/4 = 25 %."}
+        ]
+      },
+      {
+        "kind": "mcq",
+        "difficulty": 3,
+        "text": "In the F2 of an Aa × Aa cross, what is the ratio of the genotypes AA : Aa : aa?",
+        "text_fr": "En F2 d'un croisement Aa × Aa, quel est le rapport des génotypes AA : Aa : aa ?",
+        "explanation": "The square gives one AA, two Aa and one aa, so the genotype ratio is 1 : 2 : 1.",
+        "explanation_fr": "La table donne un AA, deux Aa et un aa : le rapport génotypique est 1 : 2 : 1.",
+        "hint_prompt": "Count each genotype in the Punnett square.",
+        "hint_prompt_fr": "Compte chaque génotype dans la table de Punnett.",
+        "choices": [
+          {"text": "1 : 2 : 1", "text_fr": "1 : 2 : 1", "correct": true},
+          {"text": "3 : 1", "text_fr": "3 : 1", "correct": false},
+          {"text": "1 : 1 : 1", "text_fr": "1 : 1 : 1", "correct": false},
+          {"text": "2 : 1 : 1", "text_fr": "2 : 1 : 1", "correct": false}
+        ],
+        "hints": [
+          {"text": "One square is AA, two are Aa, one is aa.", "text_fr": "Une case est AA, deux sont Aa, une est aa."},
+          {"text": "That is 1 : 2 : 1.", "text_fr": "Cela fait 1 : 2 : 1."}
+        ]
+      },
+      {
+        "kind": "mcq",
+        "difficulty": 3,
+        "text": "Which statement about Mendel's second law is correct?",
+        "text_fr": "Quelle affirmation sur la deuxième loi de Mendel est correcte ?",
+        "explanation": "The law of segregation states that the two alleles of a gene separate during gamete formation, so each gamete carries only one of them. That is why Aa × Aa gives a 1 : 2 : 1 genotype ratio.",
+        "explanation_fr": "La loi de disjonction énonce que les deux allèles d'un gène se séparent lors de la formation des gamètes : chaque gamète n'en porte qu'un. C'est pourquoi Aa × Aa donne un rapport 1 : 2 : 1.",
+        "hint_prompt": "Think about what happens when gametes are formed.",
+        "hint_prompt_fr": "Pense à ce qui se passe lors de la formation des gamètes.",
+        "choices": [
+          {"text": "The two alleles of a gene separate during gamete formation, so each gamete carries one", "text_fr": "Les deux allèles d'un gène se séparent lors de la formation des gamètes : chaque gamète n'en porte qu'un", "correct": true},
+          {"text": "Alleles only separate in the F2 generation", "text_fr": "Les allèles ne se séparent qu'en F2", "correct": false},
+          {"text": "Each gamete carries both alleles of the gene", "text_fr": "Chaque gamète porte les deux allèles du gène", "correct": false},
+          {"text": "Dominant alleles are transmitted more often than recessive ones", "text_fr": "Les allèles dominants sont transmis plus souvent que les récessifs", "correct": false}
+        ],
+        "hints": [
+          {"text": "The name of the law is \"segregation\", which means separating.", "text_fr": "Cette loi s'appelle la disjonction, c'est-à-dire la séparation."},
+          {"text": "A gamete is haploid: it carries one allele of each gene.", "text_fr": "Un gamète est haploïde : il porte un allèle de chaque gène."}
+        ]
+      },
+      {
+        "kind": "mcq",
+        "difficulty": 2,
+        "text": "A cross between two heterozygous plants gives 75 tall and 25 short offspring. What does this match?",
+        "text_fr": "Un croisement entre deux plantes hétérozygotes donne 75 hautes et 25 basses. À quoi cela correspond-il ?",
+        "explanation": "75 % to 25 % is the 3 : 1 phenotypic ratio expected in F2 from a monohybrid cross with complete dominance.",
+        "explanation_fr": "75 % contre 25 % correspond au rapport phénotypique 3 : 1 attendu en F2 d'un croisement monohybride à dominance complète.",
+        "hint_prompt": "Compare 75 to 25 as a ratio.",
+        "hint_prompt_fr": "Compare 75 à 25 comme un rapport.",
+        "choices": [
+          {"text": "The 3 : 1 phenotypic ratio of F2", "text_fr": "Le rapport phénotypique 3 : 1 de la F2", "correct": true},
+          {"text": "The 1 : 1 ratio of a testcross", "text_fr": "Le rapport 1 : 1 d'un testcroisement", "correct": false},
+          {"text": "The 9 : 3 : 3 : 1 ratio of two genes", "text_fr": "Le rapport 9 : 3 : 3 : 1 de deux gènes", "correct": false},
+          {"text": "Complete dominance is absent", "text_fr": "La dominance complète est absente", "correct": false}
+        ],
+        "hints": [
+          {"text": "75 to 25 simplifies to 3 to 1.", "text_fr": "75 pour 25 se simplifie en 3 pour 1."},
+          {"text": "The 3 : 1 phenotype ratio is the classic signature of F2 with complete dominance.", "text_fr": "Le rapport phénotypique 3 : 1 est la signature classique de la F2 à dominance complète."}
+        ]
+      }
+    ]
+  }
+}

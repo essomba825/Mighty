@@ -1,0 +1,28 @@
+{% extends "email/base.html" %}
+
+{% block contenu %}
+  <h1 style="margin:0 0 16px;font-size:22px;color:#12203a;">Demande de mentorat envoyée</h1>
+
+  <p style="margin:0 0 14px;font-size:15px;line-height:1.6;">
+    Bonjour{% if prenom %} {{ prenom }}{% endif %},
+  </p>
+
+  <p style="margin:0 0 14px;font-size:15px;line-height:1.6;">
+    Votre demande de mentorat en <strong>« {{ domaine }} »</strong> a bien été
+    transmise à <strong>{{ mentor }}</strong>. Vous serez notifié dès qu'il
+    l'acceptera ou la déclinera.
+  </p>
+
+  <p style="margin:24px 0;text-align:center;">
+    <a href="{{ site_url }}/mentorat"
+       style="display:inline-block;background:#e8590c;color:#ffffff;text-decoration:none;
+              padding:12px 24px;border-radius:8px;font-weight:bold;">
+      Suivre ma demande
+    </a>
+  </p>
+
+  <p style="margin:0;font-size:14px;color:#6b7280;">
+    Vous pouvez suivre l'avancement de vos demandes et répondre aux vôtres
+    depuis la page Mentorat.
+  </p>
+{% endblock %}

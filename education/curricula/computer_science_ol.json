@@ -1,0 +1,115 @@
+{
+  "subject": {
+    "name": "Computer Science",
+    "name_fr": "Informatique / Programmation",
+    "slug": "computer-science-ol",
+    "level": "ol",
+    "icon": "mdi-code-tags",
+    "color": "#2fae5f",
+    "description": "Foundations of programming and computational thinking, taught in English.",
+    "description_fr": "Fondamentaux de la programmation, en anglais."
+  },
+  "chapters": [
+    {
+      "order": 1,
+      "title": "Getting Started with Python",
+      "title_fr": "Premiers pas avec Python",
+      "description": "Why Python, first program, and the idea of algorithms.",
+      "lessons": [
+        {
+          "order": 1,
+          "title": "What Is an Algorithm?",
+          "title_fr": "Qu'est-ce qu'un algorithme ?",
+          "objective_en": "Define an algorithm, describe everyday tasks step by step, know why order of instructions matters.",
+          "estimated_minutes": 20,
+          "generate": true
+        },
+        {
+          "order": 2,
+          "title": "Your First Python Program",
+          "title_fr": "Ton premier programme Python",
+          "objective_en": "Write and run a Hello World program, understand print(), basic input via input(), and what an interpreter does.",
+          "estimated_minutes": 25,
+          "generate": true
+        }
+      ]
+    },
+    {
+      "order": 2,
+      "title": "Variables and Data Types",
+      "description": "Storing and manipulating information.",
+      "lessons": [
+        {
+          "order": 1,
+          "title": "Variables, Strings and Numbers",
+          "objective_en": "Create variables, use str/int/float types, convert between types, format output with f-strings.",
+          "estimated_minutes": 30,
+          "generate": true
+        },
+        {
+          "order": 2,
+          "title": "Operators and Boolean Logic",
+          "objective_en": "Use arithmetic and comparison operators, combine conditions with and/or/not.",
+          "estimated_minutes": 25,
+          "generate": false
+        }
+      ]
+    },
+    {
+      "order": 3,
+      "title": "Control Flow",
+      "description": "Making decisions and repeating actions.",
+      "lessons": [
+        {
+          "order": 1,
+          "title": "If / Elif / Else",
+          "objective_en": "Write conditional branches, nest conditions, avoid common pitfalls (else alignment, == vs =).",
+          "estimated_minutes": 30,
+          "generate": false
+        },
+        {
+          "order": 2,
+          "title": "For and While Loops",
+          "objective_en": "Repeat actions with for and while, use range(), break and continue, avoid infinite loops.",
+          "estimated_minutes": 35,
+          "generate": false
+        }
+      ]
+    },
+    {
+      "order": 4,
+      "title": "Functions and Organisation",
+      "description": "Reusable code and clean structure.",
+      "lessons": [
+        {
+          "order": 1,
+          "title": "Defining and Calling Functions",
+          "objective_en": "Define functions with def, use parameters and return values, understand scope of variables.",
+          "estimated_minutes": 35,
+          "generate": false
+        },
+        {
+          "order": 2,
+          "title": "Lists, Tuples and Dictionaries",
+          "objective_en": "Store collections of data, slice lists, iterate over dictionaries, choose the right structure.",
+          "estimated_minutes": 40,
+          "generate": false
+        }
+      ]
+    },
+    {
+      "order": 5,
+      "title": "Problem Solving Project",
+      "description": "Building a small program from scratch.",
+      "lessons": [
+        {
+          "order": 1,
+          "title": "Mini-Project: Grade Calculator",
+          "objective_en": "Build a program that takes marks from to user, computes an average, and prints a grade (A to F) with feedback.",
+          "estimated_minutes": 45,
+          "generate": false
+        }
+      ]
+    }
+  ]
+}

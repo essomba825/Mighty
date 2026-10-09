@@ -1,0 +1,387 @@
+{
+  "lesson": 18,
+  "status": "draft",
+  "lesson_fields": {
+    "title": "Estimation and Rounding Practice",
+    "title_fr": "Estimation et arrondissement",
+    "summary": "Round to a stated precision, estimate before calculating, and judge whether an answer is plausible.",
+    "summary_fr": "Arrondir à une précision annoncée, estimer avant de calculer, et juger si un résultat est plausible.",
+    "content": "## Why this lesson comes last\n\nYou already work with exact values. This lesson is about saying **how precise** a value is.\n\nA rounded number is a claim: \"I am certain about this many digits.\"\nEverything else here follows from taking that claim seriously.\n\n## The three tools\n\n1. **Rounding** to decimal places or to significant figures.\n2. **Estimation**, to reach an order of magnitude in seconds.\n3. **Limits of accuracy**, the interval a rounded value hides inside.\n\n## What you already know\n\nYou can simplify a fraction, convert between fraction, decimal and percentage, and share in a given ratio. Nothing in this lesson repeats that. It only adds a claim about precision on top of it.",
+    "content_fr": "Pourquoi cette leçon vient en dernier\n\nVous manipulez déjà des valeurs exactes. Cette leçon porte sur l announcing de la précision d'une valeur.\n\nUn nombre arrondi est une promesse : « je suis certain de ces chiffres-là ». Tout le reste découle de cette promesse.\n\nLes trois outils\n\n1. L arrondi, au nombre de décimales ou de chiffres significatifs.\n2. L estimation, pour atteindre un ordre de grandeur en quelques secondes.\n3. Les limites de précision, l intervalle qu une valeur arrondie cache en elle.\n\nCe que vous savez déjà\n\nVous simplifiez une fraction, vous convertissez entre fraction, décimal et pourcentage, et vous partagez selon un rapport donné. Rien ici ne répète cela. Cette leçon ajoute seulement une promesse de précision par-dessus le reste.",
+    "objectives": [
+      "Round a number to a stated number of decimal places and justify the direction",
+      "Explain what a significant figure is and count them in a given value",
+      "Round a number to a stated number of significant figures",
+      "Estimate a calculation by rounding each number first",
+      "Judge whether an answer is plausible and decide what to do when it is not",
+      "State the lower and upper bounds of a value rounded to a given precision"
+    ],
+    "objectives_fr": [
+      "Arrondir un nombre à un nombre de décimales donné et justifier le sens retenu",
+      "Expliquer ce qu'est un chiffre significatif et les dénombrer dans une valeur",
+      "Arrondir un nombre à un nombre de chiffres significatifs donné",
+      "Estimer un calcul en arrondissant d'abord chaque nombre",
+      "Juger si un résultat est plausible et décider quoi faire sinon",
+      "Énoncer la borne inférieure et la borne supérieure d'une valeur arrondie"
+    ]
+  },
+  "steps": [
+    {
+      "kind": "concept",
+      "title": "Rounding to a stated number of decimal places",
+      "title_fr": "Arrondir à un nombre de décimales annoncé",
+      "content": "Rounding is a promise about precision. To round 4,68 to the nearest whole number, look at the digit sitting after the cut: it is 6, which is 5 or more, so you raise the digit you keep by one and obtain 5. Had that digit been 3, you would keep 4 and drop the rest.\n\nThe cut can be placed anywhere: before the point, after one decimal digit, after two. Two rules never change. You never move the position of the digit you keep, and rounding never carries into a new place — a 9 turns into a 10 only when you are rounding the digit standing to its left.\n\nSo the method is always the same three moves: draw the cut, judge the digit after it, adjust the digit before it.",
+      "content_fr": "Arrondir, c'est promettre une précision. Pour arrondir 4,68 à l'entier le plus proche, on regarde le chiffre situé après la coupure : c'est 6, donc supérieur ou égal à 5, on augmente le chiffre conservé de un, et l'on obtient 5. Si ce chiffre avait valu 3, on aurait gardé 4 et jeté le reste.\n\nLa coupure peut se placer n'importe où : avant la virgule, après un chiffre décimal, après deux. Deux règles ne changent jamais. On ne déplace jamais la position du chiffre conservé, et un arrondi ne déborde jamais vers un nouveau rang — un 9 ne devient 10 que lorsqu'on arrondit le chiffre placé à sa gauche.\n\nLa méthode tient donc en trois gestes : tracer la coupure, juger le chiffre suivant, ajuster le précédent.",
+      "required": true,
+      "xp": 10,
+      "question": {
+        "kind": "mcq",
+        "text": "Round 3.476 to 2 decimal places.",
+        "text_fr": "Arrondis 3,476 a 2 decimales.",
+        "explanation": "The third decimal is 6, so the second one goes up: 7 becomes 8. That gives 3.48. Rounding down would give 3.47, which is wrong because 6 is more than half.",
+        "explanation_fr": "La troisieme decimale vaut 6, donc la deuxieme monte : le 7 devient 8. On obtient 3,48. Arrondir vers le bas donnerait 3,47, ce qui est faux car 6 vaut plus que la moitie.",
+        "hint_prompt": "Look only at the digit just after the one you are keeping.",
+        "hint_prompt_fr": "Regarde uniquement le chiffre qui suit celui que tu gardes.",
+        "choices": [
+          {
+            "text": "3.48",
+            "text_fr": "3,48",
+            "correct": true
+          },
+          {
+            "text": "3.47",
+            "text_fr": "3,47"
+          },
+          {
+            "text": "3.5",
+            "text_fr": "3,5"
+          },
+          {
+            "text": "3.476",
+            "text_fr": "3,476"
+          }
+        ]
+      }
+    },
+    {
+      "kind": "concept",
+      "title": "What a significant figure is",
+      "title_fr": "Ce qu'est un chiffre significatif",
+      "content": "A significant figure is any digit that carries real information about precision.\n\nIn 0,0450 the 4 and the 5 are significant. The zeros in front are only placeholders holding the value in place. In 2,50 the trailing zero is significant, because it announces that the reading was taken to two decimal places.\n\nThe rule follows: a leading zero never counts, and a zero after the point always counts.\n\nWhole numbers are the awkward case. In 300 the two zeros might be placeholders, or they might be measured values. Nothing in the writing tells you, so such a zero is treated as not significant. That is exactly why a measurement is written 3 × 10² rather than 300: only the first version cannot be misread.",
+      "content_fr": "Un chiffre significatif est un chiffre qui porte une information réelle sur la précision.\n\nDans 0,0450, le 4 et le 5 sont significatifs. Les zéros de tête ne servent qu'à maintenir la valeur en place. Dans 2,50, le zéro final est significatif, car il annonce que la lecture a été prise au centième près.\n\nLa règle en découle : un zéro de tête ne compte jamais, un zéro situé après la virgule compte toujours.\n\nLes entiers sont le cas difficile. Dans 300, les deux zéros peuvent être de simples repères, ou des valeurs mesurées. L'écriture ne dit rien, donc ce zéro est tenu pour non significatif. C'est précisément pourquoi une mesure s'écrit 3 × 10² plutôt que 300 : seule la première écriture ne peut pas être mal comprise.",
+      "required": true,
+      "xp": 10,
+      "question": {
+        "kind": "mcq",
+        "text": "How many significant figures does 0.0450 have?",
+        "text_fr": "Combien 0,0450 possede-t-il de chiffres significatifs ?",
+        "explanation": "Only the digits that carry information count. The two leading zeros do not, but the final zero does: it shows the number was measured to that place. So 4, 5 and 0 give 3 figures.",
+        "explanation_fr": "Seuls les chiffres qui portent de l'information comptent. Les deux zeros de tete ne comptent pas, mais le zero final compte : il montre que la mesure a ete faite a cette precision. Ainsi 4, 5 et 0 donnent 3 chiffres.",
+        "hint_prompt": "Ask which zeros are placeholders and which are measurements.",
+        "hint_prompt_fr": "Demande-toi quels zeros sont de simples reperes et lesquels sont des mesures.",
+        "choices": [
+          {
+            "text": "3",
+            "text_fr": "3",
+            "correct": true
+          },
+          {
+            "text": "2",
+            "text_fr": "2"
+          },
+          {
+            "text": "4",
+            "text_fr": "4"
+          },
+          {
+            "text": "1",
+            "text_fr": "1"
+          }
+        ]
+      }
+    },
+    {
+      "kind": "practice",
+      "title": "Rounding to significant figures",
+      "title_fr": "Arrondir à des chiffres significatifs",
+      "content": "Rounding to significant figures counts digits of precision from the first significant one, and ignores the position of the point.\n\nRound 0,0450 to two significant figures. Keep 4 and 5, inspect the next digit, which is 0, and stop: the value is 0,045.\n\nRound 7,263 to three significant figures. Keep 7, 2 and 6, inspect the next digit, which is 3, and stop: the value is 7,26.\n\nNow change the request to two significant figures on that same value: keep 7 and 2, inspect 6, raise it, and obtain 7,3.\n\nThe point is that \"how many digits\" is not the same question as \"how many places\". A small number and a large number can carry the same precision once expressed in the same number of figures.",
+      "content_fr": "Arrondir à des chiffres significatifs, c'est compter les chiffres de précision à partir du premier significatif, en ignorant la position de la virgule.\n\nArrondir 0,0450 à deux chiffres significatifs. On garde 4 et 5, on regarde le chiffre suivant, qui vaut 0, et on s'arrête : la valeur est 0,045.\n\nArrondir 7,263 à trois chiffres significatifs. On garde 7, 2 et 6, on regarde le chiffre suivant, qui vaut 3, et on s'arrête : la valeur est 7,26.\n\nRedemandons maintenant deux chiffres significatifs sur cette même valeur : on garde 7 et 2, on regarde 6, on l'augmente, et l'on obtient 7,3.\n\nL'intérêt est que « combien de chiffres » n'est pas la même question que « combien de positions ». Un petit nombre et un grand nombre peuvent porter la même précision dès lors qu'on les exprime avec le même nombre de chiffres.",
+      "required": true,
+      "xp": 12,
+      "question": {
+        "kind": "mcq",
+        "text": "Round 7.263 to 3 significant figures.",
+        "text_fr": "Arrondis 7,263 a 3 chiffres significatifs.",
+        "explanation": "Keep 7, 2 and 6, and look at the 3 that follows. Since 3 is below 5, nothing moves up. The result is 7.26. Keeping all four digits would be 7.263, which is one figure too many.",
+        "explanation_fr": "Garde 7, 2 et 6, puis regarde le 3 qui suit. Comme 3 est inferieur a 5, rien ne monte. Le resultat est 7,26. Garder les quatre chiffres donnerait 7,263, soit un chiffre de trop.",
+        "hint_prompt": "Count from the first non-zero digit, not from the decimal point.",
+        "hint_prompt_fr": "Compte a partir du premier chiffre non nul, pas a partir de la virgule.",
+        "choices": [
+          {
+            "text": "7.26",
+            "text_fr": "7,26",
+            "correct": true
+          },
+          {
+            "text": "7.3",
+            "text_fr": "7,3"
+          },
+          {
+            "text": "7.263",
+            "text_fr": "7,263"
+          },
+          {
+            "text": "7",
+            "text_fr": "7"
+          }
+        ]
+      }
+    },
+    {
+      "kind": "practice",
+      "title": "Estimating before you calculate",
+      "title_fr": "Estimer avant de calculer",
+      "content": "An estimate replaces every number by a rounder neighbour, so the arithmetic collapses into something you can do in your head.\n\nTo estimate 2,75 × 3,9, round each factor to one significant figure: 2,75 becomes 3, and 3,9 becomes 4. The estimate is 3 × 4 = 12. The exact product is 10,725.\n\nNotice what the estimate does and does not claim. It does not give the answer. It gives the size of the answer, cheaply enough to use as a check. A genuine estimate is not allowed to be 10,725, because reaching that figure means you already calculated.\n\nRound outward, not inward, when you want a guarantee. Rounding 2,75 down to 2 and 3,9 down to 3 gives 6, a lower bound. Rounding both up gives 16, an upper bound. The truth lies between.",
+      "content_fr": "Une estimation remplace chaque nombre par un voisin plus rond, de sorte que le calcul s'effondre en quelque chose de faisable de tête.\n\nPour estimer 2,75 × 3,9, on arrondit chaque facteur à un chiffre significatif : 2,75 devient 3, et 3,9 devient 4. L'estimation vaut 3 × 4 = 12. Le produit exact est 10,725.\n\nL'estimation ne donne pas la réponse, elle donne la taille de la réponse, à un coût si faible qu'on peut s'en servir comme contrôle. Une estimation véritable ne peut pas valoir 10,725 : atteindre ce chiffre suppose déjà le calcul.\n\nPour obtenir une garantie, arrondir vers l'extérieur, non vers l'intérieur. En arrondissant 2,75 vers le bas à 2 et 3,9 vers le bas à 3, on obtient 6, une borne inférieure. En arrondissant les deux vers le haut, on obtient 16. La vérité se situe entre les deux.",
+      "required": true,
+      "xp": 12,
+      "question": {
+        "kind": "mcq",
+        "text": "Estimate 2.75 x 3.9 to 1 significant figure.",
+        "text_fr": "Estime 2,75 x 3,9 a 1 chiffre significatif.",
+        "explanation": "Round each factor to 1 figure: 2.75 becomes 3 and 3.9 becomes 4. Then 3 x 4 = 12. The estimate is 12, not the exact answer 10.725 — that is the whole point of estimating.",
+        "explanation_fr": "Arrondis chaque facteur a 1 chiffre : 2,75 devient 3 et 3,9 devient 4. Puis 3 x 4 = 12. L'estimation vaut 12, et non la reponse exacte 10,725 : c'est exactement l'interet de l'estimation.",
+        "hint_prompt": "Round the factors first, multiply afterwards.",
+        "hint_prompt_fr": "Arrondis d'abord les facteurs, multiplie ensuite.",
+        "choices": [
+          {
+            "text": "12",
+            "text_fr": "12",
+            "correct": true
+          },
+          {
+            "text": "10.725",
+            "text_fr": "10,725"
+          },
+          {
+            "text": "11",
+            "text_fr": "11"
+          },
+          {
+            "text": "6",
+            "text_fr": "6"
+          }
+        ]
+      }
+    },
+    {
+      "kind": "explain",
+      "title": "Judging whether an answer is plausible",
+      "title_fr": "Juger la plausibilité d'un résultat",
+      "content": "A result is implausible when it disagrees with the size you expected. The test costs nothing.\n\nEstimate 49 × 48 as 50 × 50 = 2500. If the calculator then reports 2352, the answer is almost certainly right, because it sits close to the estimate. If it reports 25 200, the decimal point has moved, and the mistake is a factor of ten rather than a wrong method.\n\nSo the routine is: estimate, calculate, compare. If the two disagree by a large factor, look first at the decimal point and at the order of magnitude.\n\nThe same test catches a lost unit. A journey of 12 kilometres computed as 12 000 metres is not wrong, it is mislabelled. Always check that the unit you are about to write matches the one you worked in.",
+      "content_fr": "Un résultat devient implausible lorsqu'il s'écarte de la taille attendue. Le test ne coûte rien.\n\nEstimons 49 × 48 comme 50 × 50 = 2500. Si la calculatrice annonce ensuite 2352, la réponse est presque certainement juste, car elle est proche de l'estimation. Si elle annonce 25 200, c'est la virgule qui a changé de place, et l'erreur est un facteur dix plutôt qu'une méthode fausse.\n\nLe rituel est donc : estimer, calculer, comparer. Si les deux s'écartent d'un facteur important, vérifier d'abord la virgule et l'ordre de grandeur.\n\nLe même test révèle une unité perdue. Un trajet de 12 kilomètres calculé en 12 000 mètres n'est pas faux, il est mal étiqueté. Il faut toujours vérifier que l'unité que l'on va écrire est bien celle dans laquelle on a travaillé.",
+      "required": true,
+      "xp": 12,
+      "question": {
+        "kind": "mcq",
+        "text": "Without calculating, an estimate of 18 x 24 is about 450. Which exact value fits?",
+        "text_fr": "Sans calculer, on estime 18 x 24 a environ 450. Quelle valeur exacte convient ?",
+        "explanation": "Round outwards to get bounds: 18 -> 20 and 24 -> 25, so 500; downwards 10 and 20 give 200. The product lies between 200 and 500. Only 432 fits that range, the others are far outside it.",
+        "explanation_fr": "Arrondis vers l'exterieur pour borner : 18 -> 20 et 24 -> 25, donc 500 ; vers l'interieur 10 et 20 donnent 200. Le produit est entre 200 et 500. Seule la valeur 432 y correspond, les autres sont tres a l'exterieur.",
+        "hint_prompt": "Build an upper and a lower bound, then look for the answer between them.",
+        "hint_prompt_fr": "Construis une borne haute et une borne basse, puis cherche la reponse entre elles.",
+        "choices": [
+          {
+            "text": "432",
+            "text_fr": "432",
+            "correct": true
+          },
+          {
+            "text": "2100",
+            "text_fr": "2100"
+          },
+          {
+            "text": "76",
+            "text_fr": "76"
+          },
+          {
+            "text": "9.4",
+            "text_fr": "9,4"
+          }
+        ]
+      }
+    },
+    {
+      "kind": "explain",
+      "title": "The limits hidden inside a rounded value",
+      "title_fr": "Les limites cachées dans une valeur arrondie",
+      "content": "Rounding does not replace a value, it describes an interval.\n\nA length is 4,3 m, correct to one decimal place. The true length is therefore at least 4,25 m and at most 4,35 m. We write 4,25 ≤ L ≤ 4,35 and call 4,3 the rounded value. The two bounds are the limits of accuracy.\n\nAny true value inside that interval rounds to 4,3, and no value outside it does. So the limits describe exactly what the reading cannot tell you.\n\nWatch the direction. Lower bound: keep the digits as written, then subtract one unit in the last position, 4,30 becomes 4,25. Upper bound: add one unit in the last position, 4,30 becomes 4,35.\n\nThis is the step where marks are most often lost, because students give the rounded value again instead of its bounds.",
+      "content_fr": "L'arrondi ne remplace pas une valeur, il décrit un intervalle.\n\nUne longueur vaut 4,3 m, à un dixième près. La longueur réelle est donc au moins 4,25 m et au plus 4,35 m. On écrit 4,25 ≤ L ≤ 4,35, et l'on nomme 4,3 la valeur arrondie. Ces deux bornes sont les limites de précision.\n\nToute valeur vraie située dans cet intervalle s'arrondit à 4,3, et aucune valeur extérieure ne le fait. Les limites décrivent donc exactement ce que la lecture ne peut pas dire.\n\nAttention au sens. Borne inférieure : on conserve les chiffres écrits, puis on retranche une unité au dernier rang, 4,30 devient 4,25. Borne supérieure : on ajoute une unité au dernier rang, 4,30 devient 4,35.\n\nC'est l'étape où l'on perd le plus de points, car les élèves redonnent la valeur arrondie au lieu de ses bornes.",
+      "required": true,
+      "xp": 15,
+      "question": {
+        "kind": "mcq",
+        "text": "A mass is given as 7.4 kg, correct to the nearest 0.1 kg. Which mass is possible?",
+        "text_fr": "Une masse vaut 7,4 kg, a 0,1 kg pres. Quelle masse est possible ?",
+        "explanation": "To the nearest 0.1 kg means the true mass lies between 7.35 and 7.45. Only 7.36 sits inside that interval. The others are all outside, so the answer 7.4 could not come from them.",
+        "explanation_fr": "A 0,1 kg pres signifie que la vraie masse est entre 7,35 et 7,45. Seule la valeur 7,36 se trouve dans cet intervalle. Les autres sont a l'exterieur, donc la reponse 7,4 ne pourrait pas en venir.",
+        "hint_prompt": "Write the lower and upper bound of 7.4 at that precision.",
+        "hint_prompt_fr": "Ecris la borne basse et la borne haute de 7,4 a cette precision.",
+        "choices": [
+          {
+            "text": "7.36",
+            "text_fr": "7,36",
+            "correct": true
+          },
+          {
+            "text": "7.44",
+            "text_fr": "7,44"
+          },
+          {
+            "text": "7.45",
+            "text_fr": "7,45"
+          },
+          {
+            "text": "7.34",
+            "text_fr": "7,34"
+          }
+        ]
+      }
+    }
+  ],
+  "quiz": {
+    "title": "Quiz — Estimation and Rounding",
+    "title_fr": "Quiz — Estimation et arrondissement",
+    "pass_score": 60,
+    "questions": [
+      {
+        "kind": "numeric",
+        "difficulty": 1,
+        "text": "Round 3,47 to one decimal place.",
+        "text_fr": "Arrondir 3,47 à une décimale.",
+        "explanation": "The digit after the cut is 7, which is 5 or more, so the kept digit goes up: 3,5.",
+        "explanation_fr": "Le chiffre après la coupure vaut 7, donc au moins 5 : le chiffre conservé augmente, d'où 3,5.",
+        "hint_prompt": "Look at the first digit after the point.",
+        "hint_prompt_fr": "Regarde le premier chiffre situé après la virgule.",
+        "config": {
+          "accepted": [
+            3.5
+          ],
+          "tolerance": 0.01
+        }
+      },
+      {
+        "kind": "numeric",
+        "difficulty": 2,
+        "text": "Round 0,0450 to two significant figures.",
+        "text_fr": "Arrondir 0,0450 à deux chiffres significatifs.",
+        "explanation": "The leading zeros are placeholders, so the significant digits are 4 and 5. The next digit is 0, so nothing goes up: 0,045.",
+        "explanation_fr": "Les zéros de tête sont de simples repères : les chiffres significatifs sont 4 et 5. Le suivant vaut 0, donc rien n'augmente : 0,045.",
+        "hint_prompt": "Leading zeros do not count.",
+        "hint_prompt_fr": "Les zéros de tête ne comptent pas.",
+        "config": {
+          "accepted": [
+            0.045
+          ],
+          "tolerance": 0.0001
+        }
+      },
+      {
+        "kind": "mcq",
+        "difficulty": 2,
+        "text": "A reading is 8,96 m, correct to the nearest metre. What is its upper limit?",
+        "text_fr": "Une lecture vaut 8,96 m, à l mètre le plus proche. Quelle est sa borne supérieure ?",
+        "explanation": "The reading was rounded to a whole metre, so the true value lies between 8,5 and 9,5. The upper limit is 9,5.",
+        "explanation_fr": "La lecture a été arrondie au mètre entier : la valeur vraie est comprise entre 8,5 et 9,5. La borne supérieure vaut 9,5.",
+        "hint_prompt": "Keep the digits as written, then add one unit in the last position.",
+        "hint_prompt_fr": "Garde les chiffres écrits, puis ajoute une unité au dernier rang.",
+        "choices": [
+          {
+            "text": "9,5 m",
+            "text_fr": "9,5 m",
+            "correct": true
+          },
+          {
+            "text": "8,5 m",
+            "text_fr": "8,5 m",
+            "correct": false
+          },
+          {
+            "text": "8,96 m",
+            "text_fr": "8,96 m",
+            "correct": false
+          },
+          {
+            "text": "10,0 m",
+            "text_fr": "10,0 m",
+            "correct": false
+          }
+        ]
+      },
+      {
+        "kind": "numeric",
+        "difficulty": 2,
+        "text": "Round 2,75 and 3,9 to one significant figure each, then multiply them. What do you obtain?",
+        "text_fr": "Arrondir 2,75 et 3,9 à un chiffre significatif chacun, puis les multiplier. Que obtient-on ?",
+        "explanation": "2,75 becomes 3 and 3,9 becomes 4, so the estimate is 3 × 4 = 12.",
+        "explanation_fr": "2,75 devient 3 et 3,9 devient 4, donc l'estimation vaut 3 × 4 = 12.",
+        "hint_prompt": "Round each factor before multiplying, never afterwards.",
+        "hint_prompt_fr": "Arrondir chaque facteur avant la multiplication, jamais après.",
+        "config": {
+          "accepted": [
+            12
+          ],
+          "tolerance": 0.01
+        }
+      },
+      {
+        "kind": "numeric",
+        "difficulty": 3,
+        "text": "A mass is recorded as 2,4 kg, correct to one decimal place. What is its lower limit?",
+        "text_fr": "Une masse est notée 2,4 kg, au dixième de kilogramme près. Quelle est sa borne inférieure ?",
+        "explanation": "Keep 2,40 as written, then subtract one unit in the last position: 2,40 − 0,05 = 2,35. The lower limit is 2,35 kg.",
+        "explanation_fr": "On garde 2,40 tel quel, puis on retranche une unité au dernier rang : 2,40 − 0,05 = 2,35. La borne inférieure vaut 2,35 kg.",
+        "hint_prompt": "Lower means subtracting, and the step is half of the last position.",
+        "hint_prompt_fr": "Vers le bas, c'est soustraire, et le pas vaut la moitié du dernier rang.",
+        "config": {
+          "accepted": [
+            2.35
+          ],
+          "tolerance": 0.005
+        }
+      },
+      {
+        "kind": "mcq",
+        "difficulty": 3,
+        "text": "Round 8,96 to the nearest whole number.",
+        "text_fr": "Arrondir 8,96 à l'entier le plus proche.",
+        "explanation": "The digit after the point is 6, which is 5 or more, so the whole number goes up from 8 to 9.",
+        "explanation_fr": "Le chiffre après la virgule vaut 6, donc au moins 5 : l'entier passe de 8 à 9.",
+        "hint_prompt": "A 6 is above 5, so the kept digit rises.",
+        "hint_prompt_fr": "Un 6 dépasse 5, donc le chiffre conservé augmente.",
+        "choices": [
+          {
+            "text": "9",
+            "text_fr": "9",
+            "correct": true
+          },
+          {
+            "text": "8",
+            "text_fr": "8",
+            "correct": false
+          },
+          {
+            "text": "8,6",
+            "text_fr": "8,6",
+            "correct": false
+          },
+          {
+            "text": "10",
+            "text_fr": "10",
+            "correct": false
+          }
+        ]
+      }
+    ]
+  }
+}
