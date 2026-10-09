@@ -71,7 +71,9 @@ class PartnershipRequestViewSet(mixins.CreateModelMixin, mixins.ListModelMixin,
     def create(self, request, *args, **kwargs):
         """Une seule demande en cours par email : les doublons sont rejetés
         tant que la précédente n'est pas traitée (acceptée ou refusée)."""
-        email = (request.data.get('email') or '').strip().lower()
+        email = (request.data.get('email') or (request.user.email if request.user and request.user.is_authenticated else '')).strip().lower()
+        if not email:
+            return Response({'detail': "Email requis."}, status=status.HTTP_400_BAD_REQUEST)
         if PartnershipRequest.objects.filter(
                 email__iexact=email, status__in=['new', 'contacted']).exists():
             return Response(
@@ -81,10 +83,39 @@ class PartnershipRequestViewSet(mixins.CreateModelMixin, mixins.ListModelMixin,
                 status=status.HTTP_400_BAD_REQUEST)
         return super().create(request, *args, **kwargs)
 
+    def perform_update(self, serializer):
+        instance = serializer.save()
+        # Notifier l'utilisateur par notification interne + push s'il possède un compte
+        from django.contrib.auth import get_user_model
+        from notifications.models import Notification
+        
+        User = get_user_model()
+        user = User.objects.filter(email__iexact=instance.email).first()
+        if user:
+            status_messages = {
+                'accepted': ('Partenariat validé ! 🎉', 'Votre demande de partenariat a été acceptée par l\'association. Nous vous recontacterons très prochainement pour finaliser les détails.'),
+                'contacted': ('Demande de partenariat en cours d\'étude', 'Votre proposition de partenariat est actuellement en cours d\'examen par notre équipe.'),
+                'refused': ('Mise à jour concernant votre partenariat', 'Votre demande de partenariat a été examinée par notre équipe.'),
+            }
+            if instance.status in status_messages:
+                title, msg = status_messages[instance.status]
+                if not Notification.objects.filter(user=user, title=title, message=msg).exists():
+                    Notification.objects.create(
+                        user=user,
+                        title=title,
+                        message=msg,
+                        link='/partenaires'
+                    )
+                    try:
+                        from notifications.push import envoyer_push_utilisateur
+                        envoyer_push_utilisateur(user, title, msg, link='/partenaires')
+                    except Exception:
+                        pass
+
     @action(detail=False, methods=['get'], permission_classes=[permissions.AllowAny])
     def status(self, request):
-        """Suivi public : état de la dernière demande pour un email donné."""
-        email = (request.query_params.get('email') or '').strip().lower()
+        """Suivi public / membre : état de la dernière demande pour un email donné."""
+        email = (request.query_params.get('email') or (request.user.email if request.user and request.user.is_authenticated else '')).strip().lower()
         if not email:
             return Response({'detail': 'Email requis.'}, status=400)
         demande = (PartnershipRequest.objects.filter(email__iexact=email)
