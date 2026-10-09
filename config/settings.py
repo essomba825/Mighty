@@ -300,23 +300,24 @@ USE_X_FORWARDED_HOST = EN_PRODUCTION
 X_FRAME_OPTIONS = 'DENY'
 
 # Origines autorisees a presenter des jetons : sans cela, un site tiers peut
-# rejouer une requete contre l'API en Mifflin nom de membre connecte.
+# rejouer une requete contre l'API au nom de membre connecte.
 CSRF_TRUSTED_ORIGINS = _liste(os.environ.get('CSRF_TRUSTED_ORIGINS'))
 CORS_ALLOWED_ORIGINS = _liste(
     os.environ.get('CORS_ALLOWED_ORIGINS'),
     # En developpement le front est ouvert depuis n'importe quelle adresse de
     # la machine : `localhost` sur la machine, et l'IP locale depuis le
     # telephone. Plutot que de maintenir une liste qui change a chaque reseau,
-    # on ouvre en dev et on ferme en production.
+    # on ouvre en dev.
     [] if EN_PRODUCTION else ['http://localhost:5173', 'http://127.0.0.1:5173'],
 )
-# Hors production, toute origine est acceptee : le site est ouvert depuis le
-# telephone du pair, sur une IP impossible a prevoir ici. En production la liste
-# explicite reprend la main et seules les origines declarees passent.
-CORS_ALLOW_ALL_ORIGINS = not EN_PRODUCTION
-if EN_PRODUCTION and not CORS_ALLOWED_ORIGINS:
+# Pendant la mise en place, l'app pelou deja presente sur le serveur accepte
+# toute origine et ce backend doit se comporter pareil. On ouvre donc CORS a
+# tout le monde, en dev comme en production. Pour resserrer plus tard : definir
+# CORS_ALLOW_ALL=false et fournir CORS_ALLOWED_ORIGINS.
+CORS_ALLOW_ALL_ORIGINS = _vrai(os.environ.get('CORS_ALLOW_ALL'), True)
+if not CORS_ALLOWED_ORIGINS:
     # Pas une erreur fatale : une PWA servie par le meme hote n'a pas besoin de
-    # CORS. La liste impose simplement que le developpement local continue.
+    # CORS. On garde une liste vide plutot que None pour rester sur.
     CORS_ALLOWED_ORIGINS = []
 
 # --- Emails ---
