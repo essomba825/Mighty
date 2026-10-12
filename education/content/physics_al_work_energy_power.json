@@ -149,15 +149,21 @@
         ]
       },
       {
-        "kind": "numeric",
+        "kind": "mcq",
         "difficulty": 1,
-        "text": "A force of 30 N pushes a trolley over 4 m in the direction of motion. How much work is done, in joules?",
-        "text_fr": "Une force de 30 N pousse un chariot sur 4 m dans la direction du mouvement. Quel travail est fourni, en joules ?",
+        "text": "A force of 30 N pushes a trolley over 4 m in the direction of motion. How much work is done?",
+        "text_fr": "Une force de 30 N pousse un chariot sur 4 m dans la direction du mouvement. Quel travail est fourni ?",
         "explanation": "W = F x s = 30 x 4 = 120 J.",
         "explanation_fr": "W = F x s = 30 x 4 = 120 J.",
-        "hint_prompt": "Which three quantities multiply here?",
-        "hint_prompt_fr": "Quelles grandeurs se multiplient ici ?",
-        "config": {"accepted": [120], "tolerance": 1},
+        "hint_prompt": "Which two quantities multiply here?",
+        "hint_prompt_fr": "Quelles deux grandeurs se multiplient ici ?",
+        "config": {},
+        "choices": [
+          {"text": "4 J", "text_fr": "4 J", "correct": false},
+          {"text": "26 J", "text_fr": "26 J", "correct": false},
+          {"text": "120 J", "text_fr": "120 J", "correct": true},
+          {"text": "480 J", "text_fr": "480 J", "correct": false}
+        ],
         "hints": [
           {"text": "Work is force times distance: 30 x 4.", "text_fr": "Le travail est la force fois la distance : 30 x 4."}
         ]
@@ -183,15 +189,21 @@
         ]
       },
       {
-        "kind": "numeric",
+        "kind": "mcq",
         "difficulty": 2,
-        "text": "A motor does 600 J of work in 20 s. What is its power, in watts?",
-        "text_fr": "Un moteur fournit 600 J de travail en 20 s. Quelle est sa puissance, en watts ?",
+        "text": "A motor does 600 J of work in 20 s. What is its power?",
+        "text_fr": "Un moteur fournit 600 J de travail en 20 s. Quelle est sa puissance ?",
         "explanation": "P = W / t = 600 / 20 = 30 W.",
         "explanation_fr": "P = W / t = 600 / 20 = 30 W.",
         "hint_prompt": "Power is work divided by time.",
         "hint_prompt_fr": "La puissance est le travail divisé par le temps.",
-        "config": {"accepted": [30], "tolerance": 1},
+        "config": {},
+        "choices": [
+          {"text": "0.03 W", "text_fr": "0,03 W", "correct": false},
+          {"text": "30 W", "text_fr": "30 W", "correct": true},
+          {"text": "620 W", "text_fr": "620 W", "correct": false},
+          {"text": "12 000 W", "text_fr": "12 000 W", "correct": false}
+        ],
         "hints": [
           {"text": "P = W / t = 600 / 20.", "text_fr": "P = W / t = 600 / 20."}
         ]
