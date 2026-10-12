@@ -1,7 +1,9 @@
+import re
+
 from django.conf import settings
-from django.conf.urls.static import static
 from django.contrib import admin
-from django.urls import include, path
+from django.urls import include, path, re_path
+from django.views.static import serve
 
 from .stats_views import PublicHighlightsView, StatsView
 
@@ -23,6 +25,16 @@ urlpatterns = [
     path('api/highlights/', PublicHighlightsView.as_view(), name='highlights'),
 ]
 
-# Les medias sont controles par le depot git (backend/media) et doivent rester
-# servis en production : on ajoute la route Django quels que soient DEBUG.
-urlpatterns += static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
+# Les medias sont versionnes dans le depot (backend/media) et doivent rester
+# servis en production. Attention : `django.conf.urls.static.static()` ne
+# renvoie ses routes que si DEBUG=True — en production /media/ n'existait donc
+# pas et toutes les images du site (projets, actualites, evenements, archives,
+# galerie, photos de profil) renvoyaient une 404. On declare la route
+# explicitement, quel que soit DEBUG.
+urlpatterns += [
+    re_path(
+        r'^%s(?P<path>.*)$' % re.escape(settings.MEDIA_URL.lstrip('/')),
+        serve,
+        {'document_root': settings.MEDIA_ROOT},
+    ),
+]
