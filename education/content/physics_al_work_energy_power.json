@@ -1,0 +1,221 @@
+{
+  "lesson": 1,
+  "status": "published",
+  "lesson_fields": {
+    "title": "Work, Energy and Power",
+    "title_fr": "Travail, énergie et puissance",
+    "summary": "The physical meaning of work and energy, how to compute W = F x s, kinetic and gravitational potential energy, and power, with worked examples.",
+    "summary_fr": "Le sens physique du travail et de l'énergie, le calcul W = F x s, l'énergie cinétique et potentielle de pesanteur, et la puissance, avec des exemples résolus.",
+    "estimated_minutes": 25,
+    "objectives": [
+      "Define work in the physical sense and compute W = F x s.",
+      "Calculate kinetic energy and gravitational potential energy.",
+      "Relate work, energy and power, and compute P = W / t."
+    ],
+    "objectives_fr": [
+      "Définir le travail au sens physique et calculer W = F x s.",
+      "Calculer l'énergie cinétique et l'énergie potentielle de pesanteur.",
+      "Relier travail, énergie et puissance, et calculer P = W / t."
+    ]
+  },
+  "steps": [
+    {
+      "kind": "concept",
+      "title": "Work, in the physical sense",
+      "title_fr": "Le travail, au sens physique",
+      "content": "In everyday language, work means any effort. In physics the word has a precise meaning: work is done when a force moves an object in the direction of that force. Pushing a wall that does not move produces no physical work, however tired you feel. The rule is: work = force x distance moved in the direction of the force, written W = F x s. The unit is the joule (J): 1 J is the work done when a force of 1 N moves its point of application by 1 m.",
+      "content_fr": "Dans la langue courante, travailler recouvre tout effort. En physique, le mot a un sens précis : il y a travail quand une force déplace un objet dans la direction de cette force. Pousser un mur qui ne bouge pas ne produit aucun travail physique, même si tu es fatigué. La règle est : travail = force x distance parcourue dans la direction de la force, noté W = F x s. L'unité est le joule (J) : 1 J est le travail d'une force de 1 N qui déplace son point d'application de 1 m.",
+      "xp": 10
+    },
+    {
+      "kind": "explain",
+      "title": "How to compute work",
+      "title_fr": "Comment calculer un travail",
+      "content": "To use W = F x s correctly, only the motion in the direction of the force counts. When you carry a bag horizontally, your upward force does no work on the bag. When a student lifts a 60 N bag through 2 m, the work done on the bag is W = 60 x 2 = 120 J. Work is a scalar quantity: it has a value, but no direction.",
+      "content_fr": "Pour utiliser W = F x s correctement, seul le déplacement dans la direction de la force compte. Quand tu portes un sac à l'horizontale, ta force verticale ne travaille pas sur le sac. Quand un élève soulève un sac de 60 N sur 2 m, le travail fourni sur le sac vaut W = 60 x 2 = 120 J. Le travail est une grandeur scalaire : il a une valeur, mais pas de direction.",
+      "xp": 10
+    },
+    {
+      "kind": "concept",
+      "title": "Energy: kinetic and potential",
+      "title_fr": "L'énergie : cinétique et potentielle",
+      "content": "Energy is the ability to do work. A moving object has kinetic energy: KE = 0.5 m v^2, where m is the mass in kg and v the speed in m/s. An object raised above the ground has gravitational potential energy: PE = m g h, with g = 10 N/kg near the surface of the Earth. Both are measured in joules.",
+      "content_fr": "L'énergie est la capacité à fournir un travail. Un objet en mouvement possède une énergie cinétique : Ec = 0,5 m v^2, où m est la masse en kg et v la vitesse en m/s. Un objet soulevé possède une énergie potentielle de pesanteur : Ep = m g h, avec g = 10 N/kg près de la surface de la Terre. Les deux se mesurent en joules.",
+      "xp": 10
+    },
+    {
+      "kind": "example",
+      "title": "Worked example: lifting a box",
+      "title_fr": "Exemple résolu : soulever une caisse",
+      "content": "A 5 kg box is lifted 1.2 m above the floor. The gravitational potential energy gained is PE = m g h = 5 x 10 x 1.2 = 60 J. If the same box simply slides on the floor, its height does not change: it gains no potential energy. The work you do against friction is still transformed, but into another store of energy.",
+      "content_fr": "Une caisse de 5 kg est soulevée de 1,2 m au-dessus du sol. L'énergie potentielle gagnée vaut Ep = m g h = 5 x 10 x 1,2 = 60 J. Si la même caisse glisse seulement sur le sol, sa hauteur ne change pas : elle ne gagne aucune énergie potentielle. Le travail fourni contre le frottement est quand même transformé, mais vers un autre réservoir d'énergie.",
+      "xp": 10
+    },
+    {
+      "kind": "practice",
+      "title": "Your turn: compute the energy gain",
+      "title_fr": "À toi : calcule le gain d'énergie",
+      "content": "Work through this situation methodically. First, identify the mass of the object and the height it is raised. Then recall the formula for gravitational potential energy, PE = m g h, and notice that the value of g is given. Substitute the numbers and multiply them in any order you like. The result is the energy the book gains. If you hesitate, look back at the worked example on the box: the method is exactly the same, only the three numbers have changed. Enter the number without units.",
+      "content_fr": "Avance méthodiquement dans cette situation. Identifie d'abord la masse de l'objet et la hauteur dont il est soulevé. Rappelle ensuite la formule de l'énergie potentielle de pesanteur, Ep = m g h, en notant que la valeur de g est donnée. Remplace par les nombres et multiplie-les dans l'ordre qui te convient. Le résultat est l'énergie gagnée par le livre. En cas d'hésitation, regarde l'exemple résolu de la caisse : la méthode est exactement la même, seuls les trois nombres changent. Entre le nombre sans l'unité.",
+      "required": true,
+      "xp": 10,
+      "question": {
+        "kind": "numeric",
+        "difficulty": 2,
+        "text": "A 2 kg book is raised 1.5 m above the desk. Using g = 10 N/kg, what is its gain in gravitational potential energy, in joules?",
+        "text_fr": "Un livre de 2 kg est hissé de 1,5 m au-dessus de la table. Avec g = 10 N/kg, quel est son gain d'énergie potentielle de pesanteur, en joules ?",
+        "explanation": "PE = m g h = 2 x 10 x 1.5 = 30 J.",
+        "explanation_fr": "Ep = m g h = 2 x 10 x 1,5 = 30 J.",
+        "hint_prompt": "Which formula links energy, mass and height?",
+        "hint_prompt_fr": "Quelle formule relie énergie, masse et hauteur ?",
+        "config": {"accepted": [30], "tolerance": 0.5},
+        "hints": [
+          {"text": "Use PE = m g h with m = 2 kg, g = 10 N/kg and h = 1.5 m.", "text_fr": "Utilise Ep = m g h avec m = 2 kg, g = 10 N/kg et h = 1,5 m."},
+          {"text": "2 x 10 x 1.5 = 30, so the gain is 30 J.", "text_fr": "2 x 10 x 1,5 = 30 : le gain vaut donc 30 J."}
+        ]
+      }
+    },
+    {
+      "kind": "explain",
+      "title": "Power: how fast work is done",
+      "title_fr": "La puissance : la rapidité du travail",
+      "content": "Power measures the rate of doing work: P = W / t, in watts (W), where 1 W = 1 J/s. Two cranes may lift the same load to the same height, so they do exactly the same work, yet the faster one is more powerful because its time is shorter. This distinction matters in exam questions: work compares forces and distances, while power also divides by time. A 60 W lamp converts 60 J of energy every second it is on, and a 30 W lamp converts exactly half as much in the same second.",
+      "content_fr": "La puissance mesure la rapidité à fournir un travail : P = W / t, en watts (W), avec 1 W = 1 J/s. Deux grues peuvent soulever la même charge à la même hauteur, donc elles fournissent exactement le même travail, mais la plus rapide est la plus puissante car sa durée est plus courte. Cette distinction tombe souvent aux examens : le travail compare des forces et des distances, tandis que la puissance divise en plus par le temps. Une lampe de 60 W convertit 60 J d'énergie chaque seconde, et une lampe de 30 W en convertit exactement la moitié pendant le même temps.",
+      "xp": 10
+    },
+    {
+      "kind": "question",
+      "title": "Check: work versus power",
+      "title_fr": "Vérification : travail et puissance",
+      "content": "Read the data about the two workers and keep the two ideas separate before you answer. For the work, compute W = F x s for each of them, using the load of 400 N and the height of 6 m; you may notice they are identical. Then, for the power, divide that work by the time of each worker, P = W / t. Only after comparing the two numbers should you choose the correct statement. Be careful: a statement can have a true first half and still be wrong overall.",
+      "content_fr": "Lis les données des deux ouvriers et garde les deux idées séparées avant de répondre. Pour le travail, calcule W = F x s pour chacun, avec la charge de 400 N et la hauteur de 6 m ; tu remarqueras qu'ils sont identiques. Ensuite, pour la puissance, divise ce travail par la durée de chaque ouvrier, P = W / t. Ce n'est qu'après avoir comparé les deux nombres qu'il faut choisir l'affirmation correcte. Attention : une phrase peut avoir une moitié vraie et être quand même fausse au total.",
+      "required": true,
+      "xp": 10,
+      "question": {
+        "kind": "mcq",
+        "difficulty": 2,
+        "text": "Two workers each carry 400 N of bricks up 6 m. Worker A takes 40 s, worker B takes 80 s. Which statement is true?",
+        "text_fr": "Deux ouvriers montent chacun 400 N de briques de 6 m. L'ouvrier A met 40 s, l'ouvrier B met 80 s. Quelle affirmation est correcte ?",
+        "explanation": "Both do the same work W = F x s = 400 x 6 = 2400 J. Power P = W / t: A gives 60 W, B gives 30 W, so A is more powerful.",
+        "explanation_fr": "Les deux fournissent le même travail W = F x s = 400 x 6 = 2400 J. Puissance P = W / t : A vaut 60 W, B vaut 30 W, donc A est plus puissant.",
+        "hint_prompt": "Work depends on force and distance; power also depends on time.",
+        "hint_prompt_fr": "Le travail dépend de la force et de la distance ; la puissance dépend aussi du temps.",
+        "config": {},
+        "choices": [
+          {"text": "A does more work than B", "text_fr": "A fournit plus de travail que B", "correct": false},
+          {"text": "B does more work than A", "text_fr": "B fournit plus de travail que A", "correct": false},
+          {"text": "They do the same work, but A is more powerful", "text_fr": "Ils fournissent le même travail, mais A est plus puissant", "correct": true},
+          {"text": "They do the same work and have the same power", "text_fr": "Ils fournissent le même travail et la même puissance", "correct": false}
+        ],
+        "hints": [
+          {"text": "Work W = F x s depends only on force and height: it is identical for both.", "text_fr": "Le travail W = F x s ne dépend que de la force et de la hauteur : il est identique pour les deux."},
+          {"text": "Power P = W / t: 2400 / 40 = 60 W for A and 2400 / 80 = 30 W for B.", "text_fr": "Puissance P = W / t : 2400 / 40 = 60 W pour A et 2400 / 80 = 30 W pour B."}
+        ]
+      }
+    },
+    {
+      "kind": "summary",
+      "title": "Key takeaways",
+      "title_fr": "Les points clés",
+      "content": "Keep these results: work is W = F x s, measured in joules, and it only counts the motion in the direction of the force. Energy is the ability to do work, and doing work transfers energy from one store to another. Kinetic energy is KE = 0.5 m v^2 and depends on the square of the speed. Gravitational potential energy is PE = m g h. Power is the rate of doing work, P = W / t, measured in watts: the faster the work is done, the greater the power of the device or of the machine.",
+      "content_fr": "Retiens ces résultats : le travail vaut W = F x s, en joules, et il ne compte que le mouvement dans la direction de la force. L'énergie est la capacité à fournir un travail, et travailler transfère de l'énergie d'un réservoir vers un autre. L'énergie cinétique est Ec = 0,5 m v^2 et dépend du carré de la vitesse. L'énergie potentielle de pesanteur est Ep = m g h. La puissance est la rapidité du travail, P = W / t, en watts : plus le travail est fourni vite, plus la puissance est grande.",
+      "xp": 10
+    }
+  ],
+  "quiz": {
+    "title": "Quiz: Work, Energy and Power",
+    "title_fr": "Quiz : travail, énergie et puissance",
+    "pass_score": 60,
+    "questions": [
+      {
+        "kind": "mcq",
+        "difficulty": 1,
+        "text": "What is the SI unit of energy?",
+        "text_fr": "Quelle est l'unité SI de l'énergie ?",
+        "explanation": "The SI unit of work and energy is the joule.",
+        "explanation_fr": "L'unité SI de travail et d'énergie est le joule.",
+        "hint_prompt": "Think of the unit used for work.",
+        "hint_prompt_fr": "Pense à l'unité qui sert pour le travail.",
+        "config": {},
+        "choices": [
+          {"text": "Joule", "text_fr": "Joule", "correct": true},
+          {"text": "Watt", "text_fr": "Watt", "correct": false},
+          {"text": "Newton", "text_fr": "Newton", "correct": false},
+          {"text": "Pascal", "text_fr": "Pascal", "correct": false}
+        ],
+        "hints": [
+          {"text": "The watt is a unit of power, not of energy.", "text_fr": "Le watt est une unité de puissance, pas d'énergie."},
+          {"text": "Work and energy share the unit named after Professor Joule.", "text_fr": "Travail et énergie partagent l'unité nommée d'après le physicien Joule."}
+        ]
+      },
+      {
+        "kind": "numeric",
+        "difficulty": 1,
+        "text": "A force of 30 N pushes a trolley over 4 m in the direction of motion. How much work is done, in joules?",
+        "text_fr": "Une force de 30 N pousse un chariot sur 4 m dans la direction du mouvement. Quel travail est fourni, en joules ?",
+        "explanation": "W = F x s = 30 x 4 = 120 J.",
+        "explanation_fr": "W = F x s = 30 x 4 = 120 J.",
+        "hint_prompt": "Which three quantities multiply here?",
+        "hint_prompt_fr": "Quelles grandeurs se multiplient ici ?",
+        "config": {"accepted": [120], "tolerance": 1},
+        "hints": [
+          {"text": "Work is force times distance: 30 x 4.", "text_fr": "Le travail est la force fois la distance : 30 x 4."}
+        ]
+      },
+      {
+        "kind": "mcq",
+        "difficulty": 2,
+        "text": "A book rests on a shelf 2 m above the ground. What kind of energy does it store?",
+        "text_fr": "Un livre repose sur une étagère à 2 m du sol. Quelle forme d'énergie stocke-t-il ?",
+        "explanation": "Height above the ground gives gravitational potential energy; the book is not moving, so its kinetic energy is zero.",
+        "explanation_fr": "La hauteur au-dessus du sol donne une énergie potentielle de pesanteur ; le livre ne bouge pas, donc son énergie cinétique est nulle.",
+        "hint_prompt": "The book is motionless, but it has height.",
+        "hint_prompt_fr": "Le livre est immobile, mais il a une hauteur.",
+        "config": {},
+        "choices": [
+          {"text": "Kinetic energy", "text_fr": "Énergie cinétique", "correct": false},
+          {"text": "Gravitational potential energy", "text_fr": "Énergie potentielle de pesanteur", "correct": true},
+          {"text": "Thermal energy", "text_fr": "Énergie thermique", "correct": false},
+          {"text": "No energy at all", "text_fr": "Aucune énergie", "correct": false}
+        ],
+        "hints": [
+          {"text": "Kinetic energy needs motion; this book does not move.", "text_fr": "L'énergie cinétique exige un mouvement ; ce livre ne bouge pas."}
+        ]
+      },
+      {
+        "kind": "numeric",
+        "difficulty": 2,
+        "text": "A motor does 600 J of work in 20 s. What is its power, in watts?",
+        "text_fr": "Un moteur fournit 600 J de travail en 20 s. Quelle est sa puissance, en watts ?",
+        "explanation": "P = W / t = 600 / 20 = 30 W.",
+        "explanation_fr": "P = W / t = 600 / 20 = 30 W.",
+        "hint_prompt": "Power is work divided by time.",
+        "hint_prompt_fr": "La puissance est le travail divisé par le temps.",
+        "config": {"accepted": [30], "tolerance": 1},
+        "hints": [
+          {"text": "P = W / t = 600 / 20.", "text_fr": "P = W / t = 600 / 20."}
+        ]
+      },
+      {
+        "kind": "mcq",
+        "difficulty": 3,
+        "text": "If a car doubles its speed, its kinetic energy becomes...",
+        "text_fr": "Si une voiture double sa vitesse, son énergie cinétique devient…",
+        "explanation": "Kinetic energy is 0.5 m v^2: doubling v multiplies energy by 2^2 = 4.",
+        "explanation_fr": "L'énergie cinétique vaut 0,5 m v^2 : doubler v multiplie l'énergie par 2^2 = 4.",
+        "hint_prompt": "The speed appears as a square in the formula.",
+        "hint_prompt_fr": "La vitesse apparaît au carré dans la formule.",
+        "config": {},
+        "choices": [
+          {"text": "unchanged", "text_fr": "inchangée", "correct": false},
+          {"text": "doubled", "text_fr": "doublée", "correct": false},
+          {"text": "multiplied by 4", "text_fr": "multipliée par 4", "correct": true},
+          {"text": "halved", "text_fr": "divisée par deux", "correct": false}
+        ],
+        "hints": [
+          {"text": "KE = 0.5 m v^2, so what happens when v becomes 2v?", "text_fr": "Ec = 0,5 m v^2 : que se passe-t-il quand v devient 2v ?"}
+        ]
+      }
+    ]
+  }
+}
