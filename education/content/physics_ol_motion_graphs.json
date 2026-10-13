@@ -1,0 +1,224 @@
+{
+  "lesson": 60,
+  "status": "published",
+  "lesson_fields": {
+    "title": "Reading Motion Graphs",
+    "title_fr": "Lire les graphes de mouvement",
+    "summary": "How to read distance-time and speed-time graphs: what a flat line means, what the slope tells you, and the two golden rules that turn a picture into numbers.",
+    "summary_fr": "Comment lire un graphe distance-temps ou vitesse-temps : ce que signifie une ligne plate, ce que dit la pente, et les deux règles d'or qui transforment un dessin en nombres.",
+    "estimated_minutes": 25,
+    "is_public": true,
+    "objectives": [
+      "Identify the axes and the meaning of flat, rising and falling parts of a distance-time graph.",
+      "Get the speed from the slope of a distance-time graph, and from a speed-time graph directly.",
+      "Use a speed-time graph to find a distance by taking the area under the line."
+    ],
+    "objectives_fr": [
+      "Identifier les axes et le sens des portions plates, montantes et descendantes d'un graphe distance-temps.",
+      "Trouver la vitesse à partir de la pente d'un graphe distance-temps, ou à lire directement sur un graphe vitesse-temps.",
+      "Utiliser un graphe vitesse-temps pour trouver une distance en prenant l'aire sous la ligne."
+    ]
+  },
+  "steps": [
+    {
+      "kind": "concept",
+      "title": "A graph is a story of a journey",
+      "title_fr": "Un graphe est l'histoire d'un trajet",
+      "content": "A distance-time graph tells the whole story of a journey in one picture. The horizontal axis is the time, always increasing; the vertical axis is the distance from a chosen starting point. Nothing on the graph is a photograph: we read the position of the moving object at every instant. A line that climbs means the object moves away; a flat, horizontal line means the distance stays the same, so the object is stopped; a line that is steep means the distance changes fast, so the object is fast.",
+      "content_fr": "Un graphe distance-temps raconte toute l'histoire d'un trajet en un seul dessin. L'axe horizontal est le temps, toujours croissant ; l'axe vertical est la distance par rapport à un point de départ choisi. Ce n'est pas une photographie : on y lit la position du mobile à chaque instant. Une ligne qui monte signifie que l'objet s'éloigne ; une ligne plate, horizontale, signifie que la distance ne change pas, donc l'objet est à l'arrêt ; une ligne raide signifie que la distance change vite, donc l'objet va vite.",
+      "xp": 10
+    },
+    {
+      "kind": "explain",
+      "title": "Golden rule: the slope is the speed",
+      "title_fr": "Règle d'or : la pente, c'est la vitesse",
+      "content": "On a distance-time graph, the speed is the slope of the line. To measure it, take two readable points on the straight part, for example 40 m after 10 s and 100 m after 30 s. The speed is the change of distance divided by the change of time: (100 - 40) / (30 - 10) = 60 / 20 = 3 m/s. A straight line means a constant speed, a steeper line a bigger speed, and a curved line means the speed changes along the way.",
+      "content_fr": "Sur un graphe distance-temps, la vitesse est la pente de la ligne. Pour la mesurer, prends deux points lisibles sur la partie droite, par exemple 40 m au bout de 10 s et 100 m au bout de 30 s. La vitesse est la variation de la distance divisée par la variation du temps : (100 - 40) / (30 - 10) = 60 / 20 = 3 m/s. Une ligne droite indique une vitesse constante, une ligne plus raide une vitesse plus grande, et une ligne courbe signifie que la vitesse change en cours de route.",
+      "xp": 10
+    },
+    {
+      "kind": "example",
+      "title": "Worked example: the slope of a walker",
+      "title_fr": "Exemple résolu : la pente d'un marcheur",
+      "content": "A distance-time graph shows a walker who starts at 0 m, reaches 20 m after 10 s and stays there until 20 s, then walks on to 60 m at 40 s. From 0 to 10 s the slope is (20 - 0) / (10 - 0) = 2 m/s: the walker moves steadily. From 10 to 20 s the line is flat: zero speed, he rests. From 20 to 40 s the slope is (60 - 20) / (40 - 20) = 2 m/s again. The same slope before and after the pause shows identical speeds on both moving parts.",
+      "content_fr": "Un graphe distance-temps montre un marcheur qui part de 0 m, atteint 20 m en 10 s, reste là jusqu'à 20 s, puis rejoint 60 m à 40 s. De 0 à 10 s, la pente vaut (20 - 0) / (10 - 0) = 2 m/s : le marcheur avance régulièrement. De 10 à 20 s, la ligne est plate : vitesse nulle, il se repose. De 20 à 40 s, la pente vaut (60 - 20) / (40 - 20) = 2 m/s de nouveau. La même pente avant et après la pause montre des vitesses identiques sur les deux parties en mouvement.",
+      "xp": 10
+    },
+    {
+      "kind": "practice",
+      "title": "Your turn: read a slope",
+      "title_fr": "À toi : lis une pente",
+      "content": "Here is a clean graph to practise on. A cyclist is 30 m from home after 10 s and 90 m from home after 40 s, riding in a straight line. Identify the two time and distance pairs first, then subtract the distances, subtract the times, and divide one by the other. That division gives you the speed in m/s. Keep the units consistent: metres divided by seconds.",
+      "content_fr": "Voici un graphe propre pour t'entraîner. Un cycliste est à 30 m de chez lui après 10 s, puis à 90 m après 40 s, en roulant en ligne droite. Repère d'abord les deux couples temps-distance, puis soustrais les distances, soustrais les durées, et divise l'une par l'autre. Cette division te donne la vitesse en m/s. Garde les unités cohérentes : des mètres divisés par des secondes.",
+      "required": true,
+      "xp": 10,
+      "question": {
+        "kind": "numeric",
+        "difficulty": 2,
+        "text": "On a distance-time graph, a cyclist is at 30 m when t = 10 s, and at 90 m when t = 40 s. What is his speed, in m/s?",
+        "text_fr": "Sur un graphe distance-temps, un cycliste est à 30 m quand t = 10 s, puis à 90 m quand t = 40 s. Quelle est sa vitesse, en m/s ?",
+        "explanation": "v = (90 - 30) / (40 - 10) = 60 / 30 = 2 m/s.",
+        "explanation_fr": "v = (90 - 30) / (40 - 10) = 60 / 30 = 2 m/s.",
+        "hint_prompt": "Slope = change of distance divided by change of time.",
+        "hint_prompt_fr": "Pente = variation de la distance divisée par la variation du temps.",
+        "config": {"accepted": [2], "tolerance": 0.1},
+        "hints": [
+          {"text": "Subtract first: the extra distance is 90 - 30 = 60 m.", "text_fr": "Soustrais d'abord : la distance gagnée est 90 - 30 = 60 m."},
+          {"text": "Then the extra time is 40 - 10 = 30 s, so 60 / 30 = 2 m/s.", "text_fr": "Puis le temps gagné est 40 - 10 = 30 s, donc 60 / 30 = 2 m/s."}
+        ]
+      }
+    },
+    {
+      "kind": "explain",
+      "title": "The other picture: speed-time graphs",
+      "title_fr": "L'autre dessin : le graphe vitesse-temps",
+      "content": "A speed-time graph swaps the information: the vertical axis is now the speed itself, so the cruising speed is read directly. The golden rule changes too: the distance travelled is the area under the line. A constant speed of 6 m/s during 5 s gives the area of a rectangle, 6 x 5 = 30 m. When the line rises, the motion is accelerating; when it falls, the object slows down; a flat part is again a steady speed, not a stop — that is the trap to avoid between the two graphs.",
+      "content_fr": "Un graphe vitesse-temps inverse les informations : l'axe vertical porte maintenant la vitesse elle-même, donc on lit directement la vitesse de croisière. La règle d'or change aussi : la distance parcourue est l'aire sous la ligne. Une vitesse constante de 6 m/s pendant 5 s donne l'aire d'un rectangle, soit 6 x 5 = 30 m. Quand la ligne monte, le mouvement est accéléré ; quand elle descend, l'objet ralentit ; une portion plate est encore une vitesse stable, pas un arrêt — c'est le piège à éviter entre les deux graphes.",
+      "xp": 10
+    },
+    {
+      "kind": "question",
+      "title": "Check: the most frequent mix-up",
+      "title_fr": "Vérification : la confusion la plus fréquente",
+      "content": "This is the question where most marks are lost at the GCE. Placing a flat line on the two kinds of graph does not mean the same thing at all. Look at the vertical axis before you decide what a flat section says about the motion: on one graph it is a rest, on the other it is steady movement at constant speed. Pick the statement that matches a flat line on a speed-time graph.",
+      "content_fr": "C'est la question où l'on perd le plus de points au GCE. Une ligne plate n'a pas du tout le même sens sur les deux types de graphes. Regarde l'axe vertical avant de décider ce qu'une portion plate dit du mouvement : sur l'un c'est un arrêt, sur l'autre c'est un déplacement à vitesse constante. Choisis l'affirmation qui correspond à une ligne plate sur un graphe vitesse-temps.",
+      "required": true,
+      "xp": 10,
+      "question": {
+        "kind": "mcq",
+        "difficulty": 2,
+        "text": "On a speed-time graph this week, a line stays flat at 15 km/h for one hour. What does that hour of the journey show?",
+        "text_fr": "Sur un graphe vitesse-temps, une ligne reste plate à 15 km/h pendant une heure. Que montre cette heure de trajet ?",
+        "explanation": "On a speed-time graph, a flat line means a constant speed of 15 km/h, so the object kept moving; 15 km would be covered.",
+        "explanation_fr": "Sur un graphe vitesse-temps, une ligne plate signifie une vitesse constante de 15 km/h : l'objet a donc continué à avancer, parcourant 15 km.",
+        "hint_prompt": "Look at the vertical axis before deciding.",
+        "hint_prompt_fr": "Regarde l'axe vertical avant de trancher.",
+        "config": {},
+        "choices": [
+          {"text": "The object was stopped for one hour", "text_fr": "L'objet était à l'arrêt pendant une heure", "correct": false},
+          {"text": "The object moved at a constant 15 km/h", "text_fr": "L'objet s'est déplacé à une vitesse constante de 15 km/h", "correct": true},
+          {"text": "The object accelerated strongly", "text_fr": "L'objet a fortement accéléré", "correct": false},
+          {"text": "The object turned back home", "text_fr": "L'objet est rentré chez lui", "correct": false}
+        ],
+        "hints": [
+          {"text": "This axis carries speed: a flat line means speed does not change.", "text_fr": "Cet axe porte la vitesse : une ligne plate signifie que la vitesse ne change pas."}
+        ]
+      }
+    },
+    {
+      "kind": "summary",
+      "title": "Key takeaways",
+      "title_fr": "Les points clés",
+      "content": "Learn to read the axes first: on a distance-time graph, distance on the vertical axis, time on the horizontal one; a rising line means movement away, a flat line a stop, and the slope gives the speed in metres per second. On a speed-time graph the value on the line is the speed itself, and the distance travelled is the area under the line, a simple rectangle when the speed is constant. Those two golden rules, slope for speed and area for distance, answer almost every graph question of the Ordinary Level paper.",
+      "content_fr": "Apprends d'abord à lire les axes : sur un graphe distance-temps, la distance sur l'axe vertical et le temps sur l'horizontal ; une ligne montante indique un éloignement, une ligne plate un arrêt, et la pente donne la vitesse en mètres par seconde. Sur un graphe vitesse-temps, la valeur de la ligne est la vitesse elle-même, et la distance parcourue est l'aire sous la ligne, un simple rectangle quand la vitesse est constante. Ces deux règles d'or — la pente pour la vitesse, l'aire pour la distance — répondent à presque toutes les questions de graphe de l'examen Ordinary Level.",
+      "xp": 10
+    }
+  ],
+  "quiz": {
+    "title": "Quiz: Reading Motion Graphs",
+    "title_fr": "Quiz : lire les graphes de mouvement",
+    "pass_score": 60,
+    "questions": [
+      {
+        "kind": "mcq",
+        "difficulty": 1,
+        "text": "On a distance-time graph, what does a horizontal line mean?",
+        "text_fr": "Sur un graphe distance-temps, que signifie une ligne horizontale ?",
+        "explanation": "The distance does not change with time, so the object is at rest.",
+        "explanation_fr": "La distance ne change pas avec le temps : l'objet est donc à l'arrêt.",
+        "hint_prompt": "What stays constant?",
+        "hint_prompt_fr": "Qu'est-ce qui reste constant ?",
+        "config": {},
+        "choices": [
+          {"text": "The object is accelerating", "text_fr": "L'objet accélère", "correct": false},
+          {"text": "The object moves at constant speed", "text_fr": "L'objet avance à vitesse constante", "correct": false},
+          {"text": "The object is stopped", "text_fr": "L'objet est à l'arrêt", "correct": true},
+          {"text": "The object turns back", "text_fr": "L'objet fait demi-tour", "correct": false}
+        ],
+        "hints": [
+          {"text": "If the reading on the distance axis never moves, nothing is travelling.", "text_fr": "Si la lecture sur l'axe des distances ne bouge jamais, rien ne se déplace."}
+        ]
+      },
+      {
+        "kind": "mcq",
+        "difficulty": 1,
+        "text": "On a distance-time graph, how is the speed obtained?",
+        "text_fr": "Sur un graphe distance-temps, comment obtient-on la vitesse ?",
+        "explanation": "Speed = slope of the line = change of distance divided by change of time.",
+        "explanation_fr": "Vitesse = pente de la ligne = variation de la distance divisée par la variation du temps.",
+        "hint_prompt": "Think of rise over run.",
+        "hint_prompt_fr": "Pense à la montée sur l'avancée.",
+        "config": {},
+        "choices": [
+          {"text": "From the area under the line", "text_fr": "À partir de l'aire sous la ligne", "correct": false},
+          {"text": "From the slope of the line", "text_fr": "À partir de la pente de la ligne", "correct": true},
+          {"text": "From the length of the line", "text_fr": "À partir de la longueur de la ligne", "correct": false},
+          {"text": "From the maximum of the line", "text_fr": "À partir du maximum de la ligne", "correct": false}
+        ],
+        "hints": [
+          {"text": "Distance over time is exactly what speed measures.", "text_fr": "La distance sur le temps, c'est précisément ce que mesure la vitesse."}
+        ]
+      },
+      {
+        "kind": "mcq",
+        "difficulty": 2,
+        "text": "A straight line goes from 0 m at 0 s to 80 m at 20 s on a distance-time graph. The speed is...",
+        "text_fr": "Une droite part de 0 m à 0 s et arrive à 80 m à 20 s sur un graphe distance-temps. La vitesse vaut…",
+        "explanation": "Slope = 80 / 20 = 4 m/s.",
+        "explanation_fr": "Pente = 80 / 20 = 4 m/s.",
+        "hint_prompt": "Divide the two coordinates of the end point.",
+        "hint_prompt_fr": "Divise les deux coordonnées du point final.",
+        "config": {},
+        "choices": [
+          {"text": "2 m/s", "text_fr": "2 m/s", "correct": false},
+          {"text": "4 m/s", "text_fr": "4 m/s", "correct": true},
+          {"text": "20 m/s", "text_fr": "20 m/s", "correct": false},
+          {"text": "1600 m/s", "text_fr": "1600 m/s", "correct": false}
+        ],
+        "hints": [
+          {"text": "80 metres shared over 20 seconds.", "text_fr": "80 mètres répartis sur 20 secondes."}
+        ]
+      },
+      {
+        "kind": "mcq",
+        "difficulty": 2,
+        "text": "On a speed-time graph, how is a distance computed?",
+        "text_fr": "Sur un graphe vitesse-temps, comment obtient-on une distance ?",
+        "explanation": "Distance = area under the line, for example a rectangle of 6 m/s by 5 s gives 30 m.",
+        "explanation_fr": "Distance = aire sous la ligne ; par exemple un rectangle de 6 m/s sur 5 s donne 30 m.",
+        "hint_prompt": " swapped with the other graph: here we multiply.",
+        "hint_prompt_fr": "Inversé par rapport à l'autre graphe : ici on multiplie.",
+        "config": {},
+        "choices": [
+          {"text": "From the slope of the line", "text_fr": "À partir de la pente de la ligne", "correct": false},
+          {"text": "From the area under the line", "text_fr": "À partir de l'aire sous la ligne", "correct": true},
+          {"text": "By reading the middle of the line", "text_fr": "En lisant le milieu de la ligne", "correct": false},
+          {"text": "It cannot be done", "text_fr": "Ce n'est pas possible", "correct": false}
+        ],
+        "hints": [
+          {"text": "Speed times time gives metres: the shape between the line and the axis is a rectangle.", "text_fr": "La vitesse fois le temps donne des mètres : la forme entre la ligne et l'axe est un rectangle."}
+        ]
+      },
+      {
+        "kind": "mcq",
+        "difficulty": 3,
+        "text": "On a speed-time graph the line rises steadily from 0 to 10 m/s in 5 s. What is the motion?",
+        "text_fr": "Sur un graphe vitesse-temps, la ligne monte régulièrement de 0 à 10 m/s en 5 s. Quel est le mouvement ?",
+        "explanation": "The speed increases with time, so the object is accelerating, at 2 m/s^2.",
+        "explanation_fr": "La vitesse augmente avec le temps : l'objet accélère, à 2 m/s^2.",
+        "hint_prompt": "The vertical axis is the speed itself.",
+        "hint_prompt_fr": "L'axe vertical est la vitesse elle-même.",
+        "config": {},
+        "choices": [
+          {"text": "Constant speed of 10 m/s", "text_fr": "Vitesse constante de 10 m/s", "correct": false},
+          {"text": "Constant acceleration", "text_fr": "Accélération constante", "correct": true},
+          {"text": "The object is stopped", "text_fr": "L'objet est à l'arrêt", "correct": false},
+          {"text": "The object is slowing down", "text_fr": "L'objet ralentit", "correct": false}
+        ],
+        "hints": [
+          {"text": "Speed goes from 0 to 10 m/s: it grows, it does not stay still.", "text_fr": "La vitesse passe de 0 à 10 m/s : elle grandit, elle ne reste pas fixe."}
+        ]
+      }
+    ]
+  }
+}
