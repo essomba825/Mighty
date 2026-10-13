@@ -257,7 +257,51 @@ FRICTION = [
 ]
 
 
+# --------------------------------------------- Chimie : atomes, elements, composes
+ATOMS = [
+    dict(en="Exercise 1 - Sort the three families",
+         en_txt="Classify each item as element, compound or mixture: "
+                "a) iron nails, b) carbon dioxide, c) sea water, d) oxygen gas.",
+         fr_txt="Classe chaque item comme element, compose ou melange : "
+                "a) les clous en fer, b) le dioxyde de carbone, c) l'eau de mer, d) le gaz oxygene.",
+         sol="Ex. 1 - a) element (une seule sorte d'atomes). b) compose. c) melange. d) element."),
+    dict(en="Exercise 2 - Read the formula",
+         en_txt="State how many atoms of each element are inside one molecule of: "
+                "a) H2 (hydrogen gas), b) H2O (water), c) CO2 (carbon dioxide).",
+         fr_txt="Dis combien d'atomes de chaque element contient une molecule de : "
+                "a) H2 (gaz hydrogene), b) H2O (eau), c) CO2 (dioxyde de carbone).",
+         sol="Ex. 2 - a) 2 H. b) 2 H et 1 O. c) 1 C et 2 O. Les indices suivent leur lettre de gauche."),
+    dict(en="Exercise 3 - The kitchen test",
+         en_txt="Sugar cube, air, tap water, pure copper wire: which is a compound? Justify.",
+         fr_txt="Cube de sucre, air, eau du robinet, fil de cuivre pur : "
+                "lequel est un compose ? Justifie.",
+         sol="Ex. 3 - Le sucre est un compose (C, H, O unis chimiquement) ; l'air et l'eau du robinet "
+             "sont des melanges ; le cuivre est un element."),
+    dict(en="Exercise 4 - Separation as a clue",
+         en_txt="Salt water loses its water on gentle boiling and leaves salt behind. "
+                "What does this prove about salt water?",
+         fr_txt="L'eau salee perd son eau par legere ebullition et laisse le sel. "
+                "Qu'est-ce que cela prouve sur l'eau salee ?",
+         sol="Ex. 4 - C'est un melange, car ses constituants se separent sans changement chimique."),
+    dict(en="Exercise 5 - Count the atoms",
+         en_txt="Count the total number of atoms in one molecule of glucose: C6H12O6.",
+         fr_txt="Compte le nombre total d'atomes dans une molecule de glucose : C6H12O6.",
+         sol="Ex. 5 - 6 + 12 + 6 = 24 atomes au total."),
+    dict(en="Exercise 6 - Harder: mixtures versus compounds",
+         en_txt="Explain in one or two sentences why rust (iron oxide) is a compound "
+                "while the mixture of iron filings and sulfur is only a mixture.",
+         fr_txt="Explique en une ou deux phrases pourquoi la rouille (oxyde de fer) est un compose "
+                "alors qu'un melange de limaille de fer et de soufre n'est qu'un melange.",
+         sol="Ex. 6 - Dans la rouille, Fe et O se sont unis chimiquement et ne se separent plus par "
+             "des gestes simples ; dans la limaille + soufre, un aimant ou un tamis separe encore les deux."),
+]
+
+
 if __name__ == '__main__':
+    build('atoms-exercices.pdf', 'Atoms, Elements and Compounds - Practice worksheet',
+          'GCE Ordinary Level Chemistry - Atomes, elements et composes', ATOMS, with_solutions=False)
+    build('atoms-corrige.pdf', 'Atoms, Elements and Compounds - Answer key',
+          'GCE Ordinary Level Chemistry - Atomes, elements et composes - Corrige', ATOMS, with_solutions=True)
     build('forces-friction-exercices.pdf', 'Friction and Resultant Forces - Practice worksheet',
           'GCE Ordinary Level Physics - Frottements et resultantes', FRICTION, with_solutions=False)
     build('forces-friction-corrige.pdf', 'Friction and Resultant Forces - Answer key',

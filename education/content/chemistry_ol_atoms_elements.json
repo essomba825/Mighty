@@ -1,0 +1,229 @@
+{
+  "lesson": 64,
+  "status": "published",
+  "lesson_fields": {
+    "title": "Atoms, Elements and Compounds",
+    "title_fr": "Atomes, éléments et composés",
+    "summary": "What everything around you is made of: elements as the pure building blocks, compounds as genuine chemical marriages between them, and mixtures, with everyday African examples to anchor each idea.",
+    "summary_fr": "De quoi est fait tout ce qui t'entoure : les éléments comme briques pures, les composés comme de vrais mariages chimiques entre eux, et les mélanges, avec des exemples du quotidien africain pour ancrer chaque idée.",
+    "estimated_minutes": 28,
+    "is_public": true,
+    "objectives": [
+      "Define an element, a compound and a mixture, and give one example of each from daily life.",
+      "Lire les symboles chimiques les plus courants : H, O, C, Na, Cl, Ca, Fe.",
+      "Classer un materiau reel comme element, compose ou melange, puis justify the choice."
+    ],
+    "objectives_fr": [
+      "Définir un élément, un composé et un mélange, et donner un exemple de chacun issu de la vie quotidienne.",
+      "Lire les symboles chimiques les plus courants : H, O, C, Na, Cl, Ca, Fe.",
+      "Classer un matériau réel comme élément, composé ou mélange, puis justifier le choix."
+    ]
+  },
+  "steps": [
+    {
+      "kind": "concept",
+      "title": "Everything is made of atoms",
+      "title_fr": "Tout est fait d'atomes",
+      "content": "Look at the mango on your table, the water in the bucket, the air above the street: every one of them is built from the same invisible grains called atoms. Atoms are so small that a single drop of water holds more of them than there are drops of water in the ocean. Chemists don't count atoms one by one; they group them by kind. The kinds of atoms that matter in ordinary matter are called the elements, and there are only about a hundred of them, which fits neatly on one chart, the periodic table that hangs in the lab.",
+      "content_fr": "Regarde la mangue sur ta table, l'eau du seau, l'air au-dessus de la rue : toutes ces choses sont bâties avec les mêmes grains invisibles appelés atomes. Les atomes sont si petits qu'une seule goutte d'eau en contient plus qu'il n'y a de gouttes d'eau dans l'océan. Les chimistes ne comptent pas les atomes un par un, ils les regroupent par famille : les familles d'atomes du monde ordinaire sont les éléments, et il n'en existe qu'environ une centaine, ce qui tient exactement sur le tableau périodique qui trône dans le laboratoire.",
+      "xp": 10
+    },
+    {
+      "kind": "explain",
+      "title": "Element, compound, mixture: the three sorts",
+      "title_fr": "Élément, composé et mélange : les trois familles",
+      "content": "Keep three words separate and half of chemistry clears up. An element is a pure material made of one kind of atom only, like the copper of a cable or the oxygen in your breath. A compound is made when elements chemically combine and stop behaving like their parents: sodium burns in air, chlorine is a choking gas, but their compound is simply table salt that seasons your lunch. A mixture is much more casual: the ingredients stay put together without truly combining, like the sand and gravel of a concrete yard. compound equals a genuine marriage, mixture equals neighbours sharing a room.",
+      "content_fr": "Tiens trois mots séparés et la moitié de la chimie s'illumine. Un élément est un matériau pur fait d'une seule sorte d'atomes, comme le cuivre d'un câble ou l'oxygène de ton souffle. Un composé naît quand des éléments se combinent chimiquement et cessent de ressembler à leurs parents : le sodium brûle à l'air, le chlore est un gaz étouffant, mais leur composé est simplement le sel de table qui assaisonne ton repas. Un mélange est bien plus décontracté : les ingrédients restent rassemblés sans vraiment se combiner, comme le sable et le gravier d'une cour en béton. Le composé est un vrai mariage, le mélange n'est que des voisins qui partagent une pièce.",
+      "xp": 10
+    },
+    {
+      "kind": "example",
+      "title": "Worked example: classify a kitchen",
+      "title_fr": "Exemple résolu : classer une cuisine",
+      "content": "Step into a real kitchen and the three families fall into place. The iron of the grill is an element, one single kind of atom. The water in the pot is a compound, because hydrogen and oxygen combined chemically into H2O, something neither parent resembles. The pepper soup bubbling away is a mixture, since fish, water, oil and spice sit together and can still be separated. That last trick is the finest test in daily life: when simple tricks such as filtering, evaporating or even picking by hand can separate the parts, you are dealing with a mixture, and when the parts are fused for good, you are dealing with a compound.",
+      "content_fr": "Entre dans une vraie cuisine et les trois familles se rangent d'elles-mêmes. Le fer du grill est un élément, une seule sorte d'atomes. L'eau de la marmite est un composé, car l'hydrogène et l'oxygène se sont unis chimiquement en H2O, qui ne ressemble à aucun de ses deux parents. La soupe de poisson qui bouillonne est un mélange, puisque poisson, eau, huile et piment restent voisins et peuvent encore être séparés. Ce dernier truc est le plus fin test du quotidien : quand de simples gestes comme filtrer, évaporer ou trier à la main suffisent à séparer les parties, c'est un mélange, et quand elles sont fondues pour de bon, c'est un composé.",
+      "xp": 10
+    },
+    {
+      "kind": "practice",
+      "title": "Your turn: the beach test",
+      "title_fr": "À toi : le test de la plage",
+      "content": "Take a handful of wet sand from Limbe beach. Reflect step by step before choosing an answer, and let the kitchen example guide you. Ask first whether the sand is one single kind of atoms, which would make it an element. If not, ask whether its parts — grains, water, salt — are chemically welded into something new, which would make it a compound, or simply gathered side by side, which would make it a mixture. The separation trick should help you end the debate.",
+      "content_fr": "Prends une poignée de sable mouillé sur la plage de Limbe. Réfléchis pas à pas avant de choisir une réponse, et laisse l'exemple de la cuisine te guider. Demande d'abord si ce sable n'est qu'une seule sorte d'atomes, ce qui en ferait un élément. Sinon, demande si ses parties — grains, eau, sel — sont soudées chimiquement en quelque chose de neuf, ce qui ferait un composé, ou simplement réunies côte à côte, ce qui ferait un mélange. Le truc de la séparation devrait clore le débat.",
+      "required": true,
+      "xp": 10,
+      "question": {
+        "kind": "mcq",
+        "difficulty": 1,
+        "text": "Wet sand from the beach contains sand grains, water and salt sitting side by side. What is it?",
+        "text_fr": "Le sable mouillé de la plage contient des grains de sable, de l'eau et du sel placés côte à côte. Qu'est-ce que c'est ?",
+        "explanation": "The parts sit together and can be separated by simple tricks (evaporating, filtering): it is a mixture.",
+        "explanation_fr": "Les parties cohabitent et se séparent par des gestes simples (évaporer, filtrer) : c'est un mélange.",
+        "hint_prompt": "Could you get the separate parts back?",
+        "hint_prompt_fr": "Peut-on retrouver les parties séparées ?",
+        "config": {},
+        "choices": [
+          {"text": "An element", "text_fr": "Un élément", "correct": false},
+          {"text": "A compound", "text_fr": "Un composé", "correct": false},
+          {"text": "A mixture", "text_fr": "Un mélange", "correct": true},
+          {"text": "A solution of atoms", "text_fr": "Une solution d'atomes", "correct": false}
+        ],
+        "hints": [
+          {"text": "A sunny afternoon alone would leave dry sand behind: nothing was fused.", "text_fr": "Un après-midi de soleil suffirait à retrouver le sable sec : rien n'était fusionné."}
+        ]
+      }
+    },
+    {
+      "kind": "explain",
+      "title": "The alphabet of the chemists",
+      "title_fr": "L'alphabet des chimistes",
+      "content": "Read formulas like short words and the subject loses its mystery. One capital letter alone stands for its element: H for hydrogen, O for oxygen, C for carbon and N for the nitrogen of the air. Others borrow two letters, like Ca for calcium in chalk and cement, or Fe for the iron of gates. When atoms stand in groups they make molecules; the little number underneath counts how many atoms of each element, so water H2O holds two hydrogens and one oxygen, while the CO2 you breathe out has one carbon and two oxygens clustered together.",
+      "content_fr": "Lis les formules comme des mots courts et le sujet perd son mystère. Une seule lettre majuscule tient lieu d'élément : H pour l'hydrogène, O pour l'oxygène, C pour le carbone, N pour l'azote de l'air. D'autres empruntent deux lettres, comme Ca pour le calcium de la craie et du ciment, ou Fe pour le fer des portails. Quand les atomes se rangent en groupes, ils forment des molécules : le petit chiffre en bas compte les atomes de chaque élément, ainsi l'eau H2O rassemble deux hydrogènes et un oxygène, tandis que le CO2 que tu expires lie un carbone à deux oxygènes.",
+      "xp": 10
+    },
+    {
+      "kind": "question",
+      "title": "Check: decode the formula",
+      "title_fr": "Vérification : décode la formule",
+      "content": "Invented compound or not, the reading method always works, so apply it as written in the step above. Split the formula into letter blocks, one per element, then collect the little index numbers right of each letter and put them to the elements they belong to. End by asking what this compound really is, since you meet it at the end of every meal and your teacher's desk.",
+      "content_fr": "Compose inventé ou non, la méthode de lecture fonctionne toujours, alors applique-la comme dans l'étape précédente. Découpe la formule en blocs de lettres, un par élément, puis rassemble les petits indices juste à droite de chaque lettre et attribue-les aux éléments qu'ils comptent. Termine en te demandant ce qu'est vraiment ce composé, puisque tu le croises à la fin de chaque repas et sur le bureau de ton professeur.",
+      "required": true,
+      "xp": 10,
+      "question": {
+        "kind": "mcq",
+        "difficulty": 2,
+        "text": "How many atoms of each element are in a molecule of water, H2O?",
+        "text_fr": "Combien d'atomes de chaque élément compte une molécule d'eau, H2O ?",
+        "explanation": "The 2 sits under hydrogen: two hydrogens; oxygen has no index, so one oxygen. Total three atoms.",
+        "explanation_fr": "Le 2 se place sous l'hydrogène : deux hydrogènes ; l'oxygène n'a pas d'indice, donc un oxygène. Trois atomes au total.",
+        "hint_prompt": "The little number belongs to the letter on its left.",
+        "hint_prompt_fr": "Le petit chiffre appartient à la lettre sur sa gauche.",
+        "config": {},
+        "choices": [
+          {"text": "One hydrogen and two oxygens", "text_fr": "Un hydrogène et deux oxygènes", "correct": false},
+          {"text": "Two hydrogens and one oxygen", "text_fr": "Deux hydrogènes et un oxygène", "correct": true},
+          {"text": "Three hydrogens", "text_fr": "Trois hydrogènes", "correct": false},
+          {"text": "One atom of each", "text_fr": "Un atome de chaque", "correct": false}
+        ],
+        "hints": [
+          {"text": "H counts the hydrogens, and nothing follows O: just 1.", "text_fr": "Le chiffre 2 suit H, et rien ne suit O : donc 1."}
+        ]
+      }
+    },
+    {
+      "kind": "summary",
+      "title": "Key takeaways",
+      "title_fr": "Les points clés",
+      "content": "Carry four things from this lesson: matter is built from atoms, grouped into about one hundred elements that fill the periodic table. Elements combine chemically to make compounds, while simple gatherings without a reaction simply make mixtures — filter or evaporate and the parts of a mixture return to you unchanged. Read unknown formulas letter by letter, using the small indexes to count the atoms of each element inside. These three ideas, element, compound and mixture, will sort almost every substance you meet in the Ordinary Level papers.",
+      "content_fr": "Emporte quatre choses de cette leçon : la matière est faite d'atomes, regroupés en une centaine d'éléments qui peuplent le tableau périodique. Les éléments se combinent chimiquement pour donner des composés, tandis qu'un rassemblement sans réaction ne fait qu'un mélange — filtre ou évapore et ses parties te sont rendues intactes. Lis les formules inconnues lettre par lettre, avec les petits indices pour compter les atomes de chaque élément à l'intérieur. Ces trois idées, élément, composé et mélange, classeront presque toutes les substances de l'examen Ordinary Level.",
+      "xp": 10
+    }
+  ],
+  "quiz": {
+    "title": "Quiz: Atoms, Elements and Compounds",
+    "title_fr": "Quiz : atomes, éléments et composés",
+    "pass_score": 60,
+    "questions": [
+      {
+        "kind": "mcq",
+        "difficulty": 1,
+        "text": "Which of these is an element?",
+        "text_fr": "Lequel de ces matériaux est un élément ?",
+        "explanation": "Copper holds only copper atoms: one kind of atom makes an element.",
+        "explanation_fr": "Le cuivre ne contient que des atomes de cuivre : une seule sorte d'atomes fait un élément.",
+        "hint_prompt": "One single kind of atoms.",
+        "hint_prompt_fr": "Une seule sorte d'atomes.",
+        "config": {},
+        "choices": [
+          {"text": "Table salt", "text_fr": "Le sel de table", "correct": false},
+          {"text": "Copper", "text_fr": "Le cuivre", "correct": true},
+          {"text": "Sea water", "text_fr": "L'eau de mer", "correct": false},
+          {"text": "Carbon dioxide", "text_fr": "Le dioxyde de carbone", "correct": false}
+        ],
+        "hints": [
+          {"text": "eliminate what you can separate or split.", "text_fr": "Élimine ce qui peut être séparé ou brisé."}
+        ]
+      },
+      {
+        "kind": "mcq",
+        "difficulty": 1,
+        "text": "Table salt, NaCl, is...",
+        "text_fr": "Le sel de table, NaCl, est…",
+        "explanation": "A compound: sodium and chlorine combined chemically; neither parent shows any more.",
+        "explanation_fr": "Un composé : le sodium et le chlore sont chimiquement unis ; plus rien des parents n'apparaît.",
+        "hint_prompt": "Is sodium alone a safe seasoning?",
+        "hint_prompt_fr": "Le sodium seul est-il un assaisonnement sûr ?",
+        "config": {},
+        "choices": [
+          {"text": "an element", "text_fr": "un élément", "correct": false},
+          {"text": "a mixture", "text_fr": "un mélange", "correct": false},
+          {"text": "a compound", "text_fr": "un composé", "correct": true},
+          {"text": "an alloy of metals", "text_fr": "un alliage de métaux", "correct": false}
+        ],
+        "hints": [
+          {"text": "The chlorine is a poisoned gas and the sodium a burning metal — yet here they stand as your banquet salt, so they truly combined.", "text_fr": "Le chlore est un gaz toxique, le sodium un métal brûlant — pourtant voici ton sel de repas : ils se sont vraiment unis."}
+        ]
+      },
+      {
+        "kind": "mcq",
+        "difficulty": 2,
+        "text": "Which set contains only mixtures?",
+        "text_fr": "Quel ensemble ne contient que des mélanges ?",
+        "explanation": "Air, soil and pepper soup are gatherings that can be separated; salt and water are compounds until the soup arrives.",
+        "explanation_fr": "L'air, le sol et la soupe au piment sont des rassemblements séparables ; le sel et l'eau sont des composés tant que la soupe n'arrive pas.",
+        "hint_prompt": "Look for groups that can be hand-sorted.",
+        "hint_prompt_fr": "Cherche les groupes qu'on peut trier à la main.",
+        "config": {},
+        "choices": [
+          {"text": "Water, salt, bread", "text_fr": "Eau, sel, pain", "correct": false},
+          {"text": "Air, soil, pepper soup", "text_fr": "Air, sol, soupe au piment", "correct": true},
+          {"text": "Iron, copper, oxygen", "text_fr": "Fer, cuivre, oxygène", "correct": false},
+          {"text": "Salt, sugar, water", "text_fr": "Sel, sucre, eau", "correct": false}
+        ],
+        "hints": [
+          {"text": "Water and salt are already married compounds, not mixtures.", "text_fr": "L'eau et le sel sont déjà des composés unis, pas des mélanges."}
+        ]
+      },
+      {
+        "kind": "mcq",
+        "difficulty": 2,
+        "text": "In the formula CO2, how many oxygen atoms are there?",
+        "text_fr": "Dans la formule CO2, combien y a-t-il d'atomes d'oxygène ?",
+        "explanation": "The small 2 belongs to O: one carbon, two oxygens.",
+        "explanation_fr": "Le petit 2 appartient à O : un carbone, deux oxygènes.",
+        "hint_prompt": "Count the little numbers.",
+        "hint_prompt_fr": "Compte les petits indices.",
+        "config": {},
+        "choices": [
+          {"text": "One", "text_fr": "Un", "correct": false},
+          {"text": "Two", "text_fr": "Deux", "correct": true},
+          {"text": "Three", "text_fr": "Trois", "correct": false},
+          {"text": "Zero", "text_fr": "Zéro", "correct": false}
+        ],
+        "hints": [
+          {"text": "The index 2 follows to the letter O.", "text_fr": "L'indice 2 colle à la lettre O."}
+        ]
+      },
+      {
+        "kind": "mcq",
+        "difficulty": 3,
+        "text": "A student dissolves salt in water for an experiment. What has she made?",
+        "text_fr": "Une élève dissout du sel dans l'eau pour une expérience. Qu'a-t-elle obtenu ?",
+        "explanation": "A mixture: no chemical marriage happened, and evaporation would give both back unchanged.",
+        "explanation_fr": "Un mélange : aucun mariage chimique n'a eu lieu, et l'évaporation rendrait les deux intacts.",
+        "hint_prompt": "Can we get back salt and water separately?",
+        "hint_prompt_fr": "Peut-on récupérer le sel et l'eau séparément ?",
+        "config": {},
+        "choices": [
+          {"text": "A new compound of salt and water", "text_fr": "Un nouveau composé de sel et d'eau", "correct": false},
+          {"text": "A mixture", "text_fr": "Un mélange", "correct": true},
+          {"text": "A new element made of salt and water", "text_fr": "Un nouvel élément né du sel et de l'eau", "correct": false},
+          {"text": "Pure salt", "text_fr": "Du sel pur", "correct": false}
+        ],
+        "hints": [
+          {"text": "Boil it and the salt sits at the bottom again: nothing irreversible happened.", "text_fr": "Fais bouillir : le sel réapparaît au fond, rien d'irréversible ne s'est produit."}
+        ]
+      }
+    ]
+  }
+}
