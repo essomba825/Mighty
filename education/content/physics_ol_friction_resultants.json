@@ -1,0 +1,224 @@
+{
+  "lesson": 63,
+  "status": "published",
+  "lesson_fields": {
+    "title": "Friction and Resultant Forces",
+    "title_fr": "Frottements et forces résultantes",
+    "summary": "Friction as a friend and as an obstacle, the ground pushing back with a normal force, and the one skill that unlocks every force diagram: combining forces into a single resultant.",
+    "summary_fr": "Le frottement, ami ou obstacle, le sol qui repousse avec une force normale, et le geste qui débloque tous les schémas de forces : combiner les forces en une seule résultante.",
+    "estimated_minutes": 28,
+    "is_public": true,
+    "objectives": [
+      "Describe friction as a force that opposes motion, and say when it is useful or harmful.",
+      "Name the normal force that supports an object resting on a surface.",
+      "Compute the resultant of forces acting along one line, and link resultant zero to steady motion."
+    ],
+    "objectives_fr": [
+      "Décrire le frottement comme une force qui s'oppose au mouvement, utile ou gênante selon les cas.",
+      "Nommer la force normale qui soutient un objet posé sur une surface.",
+      "Calculer la résultante de forces colinéaires et relier résultante nulle et mouvement stable."
+    ]
+  },
+  "steps": [
+    {
+      "kind": "concept",
+      "title": "Friction: the friend you curse at",
+      "title_fr": "Le frottement : l'ami qu'on maudit",
+      "content": "Rub your hands together on a cold morning and you meet friction: the force that opposes sliding between two surfaces. Without it you could not walk, since your shoes would slide back on the floor as if on oiled tiles, and a truck's brakes would just spin uselessly. Without it a chain slips off the bike gear the moment you pedal. Yet the same friction wastes fuel by fighting every moving part and slowly wears out your soles. Physics does not judge friction: it measures it, always acting against the motion, along the surface.",
+      "content_fr": "Frotte tes mains un matin froid et tu rencontres le frottement : la force qui s'oppose au glissement entre deux surfaces. Sans lui on ne pourrait pas marcher, puisque les chaussures glisseraient en arrière sur le sol comme sur des carreaux huilés, et les freins d'un camion tourneraient dans le vide. Sans lui, la chaîne déraille du vélo dès qu'on pédale. Pourtant ce même frottement gaspille l'essence en combattant chaque pièce en mouvement et use lentement tes semelles. La physique ne le juge pas : elle le mesure, toujours dirigée contre le mouvement, le long de la surface.",
+      "xp": 10
+    },
+    {
+      "kind": "explain",
+      "title": "The floor pushes back: the normal force",
+      "title_fr": "Le sol pousse en retour : la force normale",
+      "content": "Put a dictionary on a table. Its weight pulls it down with W newtons, yet it does not sink. The table pushes back up with an equal force called the normal contact force, normal meaning at right angles to the surface. When you stand, the ground does exactly that under your feet. If the book lies on a sloping desk, the normal force still points out of the desk, not straight up: it always leaves the surface squarely. This quiet partner appears wherever something rests, and forgetting it is the first diagram error of every exam season.",
+      "content_fr": "Pose un dictionnaire sur une table. Son poids le tire vers le bas avec W newtons, pourtant il ne s'enfonce pas : la table le repousse vers le haut avec une force égale appelée force normale de contact, normale au sens perpendiculaire à la surface. Quand tu te tiens debout, le sol fait exactement cela sous tes pieds. Si le livre repose sur un pupitre incliné, la force normale part encore à angle droit du plan plutôt qu'à la verticale : elle quitte toujours la surface droitement. Cette partenaire discrète apparaît partout où quelque chose repose, et l'oublier est la première erreur de schéma de chaque saison d'examens.",
+      "xp": 10
+    },
+    {
+      "kind": "example",
+      "title": "Worked example: one push against the other",
+      "title_fr": "Exemple résolu : poussée contre retenue",
+      "content": "Two workers slide a crate. The first pushes with 400 N forward, the friction of the ground fights back with 150 N. Because forces add up along one direction, the resultant is the difference: 400 - 150 = 250 N forward. That single number replaces both arrows in every later computation. If instead the two had pushed together, their forces would add: 400 + 150 = 550 N. So forces in the same direction add, forces in opposite directions subtract, and the biggest side wins the direction.",
+      "content_fr": "Deux ouvriers font glisser une caisse. Le premier pousse avec 400 N vers l'avant, le frottement du sol résiste avec 150 N. Comme les forces s'additionnent le long d'une direction, la résultante est la différence : 400 - 150 = 250 N vers l'avant. Ce seul nombre remplace les deux flèches dans tous les calculs qui suivent. Si les deux avaient poussé ensemble, leurs forces s'ajouteraient : 400 + 150 = 550 N. Donc les forces de même sens s'ajoutent, les forces opposées se soustraient, et le plus grand camp emporte la direction.",
+      "xp": 10
+    },
+    {
+      "kind": "practice",
+      "title": "Your turn: combine the arrows",
+      "title_fr": "À toi : combine les flèches",
+      "content": "A stalled car needs a push. Manuela presses with 250 N to the right, Jacob adds 350 N in the same direction, and the friction of the tarmac bites back 150 N toward the left. Gather the helpers first — adding the two pushes — then let the opponent do its subtraction. The answer you seek is the size of the resultant in newtons, not its direction. Write the pure number only.",
+      "content_fr": "Une voiture en panne a besoin d'une poussée. Manuela appuie avec 250 N vers la droite, Jacob ajoute 350 N dans le même sens, et le frottement du bitume rétrocède 150 N vers la gauche. Rassemble d'abord les auxiliaires — additionne les deux poussées — puis laisse l'adversaire faire sa soustraction. La réponse demandée est la valeur de la résultante en newtons, pas sa direction. Écris seulement le nombre pur.",
+      "required": true,
+      "xp": 10,
+      "question": {
+        "kind": "numeric",
+        "difficulty": 2,
+        "text": "A car is pushed with 250 N and 350 N in the same direction, while friction resists with 150 N. What is the size of the resultant force, in newtons?",
+        "text_fr": "Une voiture est poussée avec 250 N et 350 N dans le même sens, tandis que le frottement résiste avec 150 N. Quelle est la taille de la force résultante, en newtons ?",
+        "explanation": "250 + 350 = 600 N forward, minus 150 N of friction gives 450 N forward.",
+        "explanation_fr": "250 + 350 = 600 N vers l'avant, moins 150 N de frottement : 450 N vers l'avant.",
+        "hint_prompt": "First add the two pushes, then let friction subtract.",
+        "hint_prompt_fr": "Ajoute d'abord les deux poussées, puis laisse le frottement soustraire.",
+        "config": {"accepted": [450], "tolerance": 2},
+        "hints": [
+          {"text": "Same direction: 250 + 350 = 600 N.", "text_fr": "Même sens : 250 + 350 = 600 N."},
+          {"text": "600 - 150 = 450 N is the resultant.", "text_fr": "600 - 150 = 450 N est la résultante."}
+        ]
+      }
+    },
+    {
+      "kind": "explain",
+      "title": "Balanced or not: what the resultant decides",
+      "title_fr": "Équilibré ou non : ce que la résultante décide",
+      "content": "Here is the deep rule of this chapter: the resultant force tells you everything about the motion. When the resultant is zero, we say the forces are balanced, and the motion does not change: a parked bus stays parked, a bus rolling steadily on the highway keeps its speed. When the resultant is not zero, the forces are unbalanced, and the speed or direction must change, exactly the acceleration you measured in the previous chapter. Remember the cruise phase on the speed-time graph, the flat part: that is balance, not absence of forces.",
+      "content_fr": "Voici la règle profonde du chapitre : la force résultante dit tout du mouvement. Quand elle est nulle, on dit que les forces sont équilibrées, et le mouvement ne change pas : un bus garé reste garé, un bus qui roule tranquillement sur l'autoroute garde sa vitesse. Quand elle n'est pas nulle, les forces sont déséquilibrées, et la vitesse ou la direction doit changer, exactement l'accélération mesurée au chapitre précédent. Souviens-toi de la phase de croisière du graphe vitesse-temps, la partie plate : c'est l'équilibre, pas l'absence de forces.",
+      "xp": 10
+    },
+    {
+      "kind": "question",
+      "title": "Check: steady on the motorway",
+      "title_fr": "Vérification : au raser sur l'autoroute",
+      "content": "A bus cruising at a constant 80 km/h on a perfectly straight motorway is the classic trap for students who believe motion needs a net push. Before answering, replay the rule of the resultant from the previous step, then ask what the driving force and resistance are doing to each other. Your choice tests whether constant speed means balance or a fight that never ends.",
+      "content_fr": "Un bus roulant à 80 km/h constants sur une autoroute parfaitement droite est le piège classique des élèves qui croient qu'avancer exige une poussée nette. Avant de répondre, rejoue la règle de la résultante de l'étape précédente, puis demande-toi ce que la force motrice et les résistances se font mutuellement. Ta réponse éprouve s'il y a équilibre à vitesse constante, ou bagarre sans fin.",
+      "required": true,
+      "xp": 10,
+      "question": {
+        "kind": "mcq",
+        "difficulty": 2,
+        "text": "A bus moves in a straight line at a constant 80 km/h. What is the resultant force on it?",
+        "text_fr": "Un bus avance en ligne droite à 80 km/h constants. Quelle est la force résultante sur lui ?",
+        "explanation": "Constant speed means zero acceleration, so the forces balance: engine force equals friction and air resistance, the resultant is 0 N.",
+        "explanation_fr": "Vitesse constante signifie accélération nulle, donc les forces s'équilibrent : la poussée moteur égale frottements et air, la résultante vaut 0 N.",
+        "hint_prompt": "No change of speed means no unbalanced push.",
+        "hint_prompt_fr": "Pas de changement de vitesse, donc pas de poussée déséquilibrée.",
+        "config": {},
+        "choices": [
+          {"text": "80 N, in the direction of travel", "text_fr": "80 N, dans le sens du trajet", "correct": false},
+          {"text": "Zero, the driving force and friction cancel out", "text_fr": "Zéro : la force motrice et les frottements s'annulent", "correct": true},
+          {"text": "A large forward force that keeps it going", "text_fr": "Une grande force vers l'avant qui l'entretient", "correct": false},
+          {"text": "There is no force at all on the bus", "text_fr": "Il n'y a aucune force sur le bus", "correct": false}
+        ],
+        "hints": [
+          {"text": "Careful: forces exist everywhere here; they are simply balanced.", "text_fr": "Attention : les forces existent bien ici ; elles sont simplement équilibrées."}
+        ]
+      }
+    },
+    {
+      "kind": "summary",
+      "title": "Key takeaways",
+      "title_fr": "Les points clés",
+      "content": "Keep four ideas: friction is a force that opposes sliding along a surface, useful for walking and braking, wasteful for engines. The normal force is the push a surface gives back, always square to it. Resultants combine forces along one line: same sense adds, opposite senses subtract, and the strongest side decides the direction. Above all, read motion from the resultant: zero means balanced forces and an unchanging velocity, while non-zero means something speeds up, slows down or turns. Motion questions now reduce to working out one number.",
+      "content_fr": "Garde quatre idées : le frottement est une force qui s'oppose au glissement le long d'une surface, utile pour marcher et freiner, gaspilleuse pour les moteurs. La force normale est la poussée qu'une surface rend en retour, toujours perpendiculaire à elle. Les résultantes combinent les forces le long d'une ligne : même sens ajoute, sens contraires soustrait, et le plus fort impose la direction. Surtout, lis le mouvement à travers la résultante : zéro signifie forces équilibrées et vitesse inchangée, non nul signifie que quelque chose accélère, ralentit ou tourne. Les questions de mouvement se ramènent désormais à un seul nombre.",
+      "xp": 10
+    }
+  ],
+  "quiz": {
+    "title": "Quiz: Friction and Resultant Forces",
+    "title_fr": "Quiz : frottements et forces résultantes",
+    "pass_score": 60,
+    "questions": [
+      {
+        "kind": "mcq",
+        "difficulty": 1,
+        "text": "Friction between a tyre and the road is useful because it...",
+        "text_fr": "Le frottement entre un pneu et la route est utile parce qu'il…",
+        "explanation": "Friction grips the road so steering and braking work; it is the friend of drivers.",
+        "explanation_fr": "Le frottement fait adhérer la route, ainsi la direction et le freinage fonctionnent ; c'est l'ami des conducteurs.",
+        "hint_prompt": "Think of icy roads.",
+        "hint_prompt_fr": "Pense aux routes verglacées.",
+        "config": {},
+        "choices": [
+          {"text": "wears out the brakes", "text_fr": "use les freins", "correct": false},
+          {"text": "lets the wheels grip and steer", "text_fr": "permet aux roues d'adhérer et de diriger", "correct": true},
+          {"text": "increases the petrol bill", "text_fr": "augmente la facture d'essence", "correct": false},
+          {"text": "heats the engine", "text_fr": "chauffe le moteur", "correct": false}
+        ],
+        "hints": [
+          {"text": "Without grip, turning the wheel would do nothing.", "text_fr": "Sans adhérence, tourner le volant ne servirait à rien."}
+        ]
+      },
+      {
+        "kind": "mcq",
+        "difficulty": 1,
+        "text": "On a resting book, the upward force from the table is called...",
+        "text_fr": "Sur un livre posé, la force vers le haut de la table s'appelle…",
+        "explanation": "The surface pushes back squarely: that is the normal contact force.",
+        "explanation_fr": "La surface repousse perpendiculairement : c'est la force normale de contact.",
+        "hint_prompt": "Think square to the surface.",
+        "hint_prompt_fr": "Pense perpendiculaire à la surface.",
+        "config": {},
+        "choices": [
+          {"text": "the weight", "text_fr": "le poids", "correct": false},
+          {"text": "the friction", "text_fr": "le frottement", "correct": false},
+          {"text": "the normal force", "text_fr": "la force normale", "correct": true},
+          {"text": "the thrust", "text_fr": "la poussée motrice", "correct": false}
+        ],
+        "hints": [
+          {"text": "Normal here means perpendicular, not ordinary.", "text_fr": "Normal signifie ici perpendiculaire, pas banal."}
+        ]
+      },
+      {
+        "kind": "mcq",
+        "difficulty": 2,
+        "text": "A rope is pulled 200 N to the left and 500 N to the right. The resultant force is...",
+        "text_fr": "Une corde est tirée de 200 N vers la gauche et 500 N vers la droite. La résultante vaut…",
+        "explanation": "Opposite directions subtract: 500 - 200 = 300 N towards the right, the stronger side.",
+        "explanation_fr": "Les sens opposés se soustraient : 500 - 200 = 300 N vers la droite, le camp le plus fort.",
+        "hint_prompt": "Substract and look at the winner.",
+        "hint_prompt_fr": "Soustrais et regarde le gagnant.",
+        "config": {},
+        "choices": [
+          {"text": "700 N to the right", "text_fr": "700 N vers la droite", "correct": false},
+          {"text": "300 N to the left", "text_fr": "300 N vers la gauche", "correct": false},
+          {"text": "300 N to the right", "text_fr": "300 N vers la droite", "correct": true},
+          {"text": "0 N", "text_fr": "0 N", "correct": false}
+        ],
+        "hints": [
+          {"text": "Add only when the arrows point the same way.", "text_fr": "On additionne seulement quand les flèches vont dans le même sens."}
+        ]
+      },
+      {
+        "kind": "mcq",
+        "difficulty": 2,
+        "text": "Aces flying at constant speed in calm air have a resultant force of...",
+        "text_fr": "Un avion volant à vitesse constante dans un air calme subit une résultante de…",
+        "explanation": "Constant velocity means balance: thrust and drag cancel, the resultant is zero.",
+        "explanation_fr": "Vitesse constante, c'est l'équilibre : poussée et traînée s'annulent, la résultante est nulle.",
+        "hint_prompt": "Check the graph lesson: flat speed means...",
+        "hint_prompt_fr": "Rappelle-toi la leçon sur les graphes : vitesse plate, c'est…",
+        "config": {},
+        "choices": [
+          {"text": "exactly zero", "text_fr": "exactement zéro", "correct": true},
+          {"text": "small but forwards", "text_fr": "petite mais vers l'avant", "correct": false},
+          {"text": "large and forwards, since it moves", "text_fr": "grande et vers l'avant, puisqu'il bouge", "correct": false},
+          {"text": "impossible to tell", "text_fr": "impossible à savoir", "correct": false}
+        ],
+        "hints": [
+          {"text": "Any unbalanced force would change the speed; here nothing changes.", "text_fr": "Toute force déséquilibrée changerait la vitesse ; ici rien ne change."}
+        ]
+      },
+      {
+        "kind": "mcq",
+        "difficulty": 3,
+        "text": "If the resultant on a moving object is non-zero, then the object...",
+        "text_fr": "Si la résultante sur un objet en mouvement n'est pas nulle, alors l'objet…",
+        "explanation": "A non-zero resultant forces a change of velocity: speed or direction must shift — that is acceleration.",
+        "explanation_fr": "Une résultante non nulle force un changement de vitesse : la vitesse ou la direction doit varier — c'est l'accélération.",
+        "hint_prompt": "Link this to the chapter on acceleration.",
+        "hint_prompt_fr": "Relie cela au chapitre sur l'accélération.",
+        "config": {},
+        "choices": [
+          {"text": "keeps exactly the same speed forever", "text_fr": "garde exactement la même vitesse pour toujours", "correct": false},
+          {"text": "must speed up, slow down or change direction", "text_fr": "doit accélérer, ralentir ou changer de direction", "correct": true},
+          {"text": "stops immediately", "text_fr": "s'arrête immédiatement", "correct": false},
+          {"text": "loses all its mass", "text_fr": "perd toute sa masse", "correct": false}
+        ],
+        "hints": [
+          {"text": "Balanced means unchanged motion; the opposite case is everything else.", "text_fr": "Équilibré signifie mouvement inchangé ; le cas contraire couvre tout le reste."}
+        ]
+      }
+    ]
+  }
+}

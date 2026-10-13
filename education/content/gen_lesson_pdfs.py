@@ -211,7 +211,57 @@ FORCES = [
 ]
 
 
+# ------------------------------------------------- Frottements et resultantes
+FRICTION = [
+    dict(en="Exercise 1 - Useful or harmful",
+         en_txt="For each of these, say if friction is useful or harmful: "
+                "a) the sole of a shoe on a wet floor, b) the axle of a bike wheel, "
+                "c) the brake pads of a car.",
+         fr_txt="Pour chacun, dis si le frottement est utile ou genant : "
+                "a) la semelle d'une chaussure sur sol mouille, b) l'axe d'une roue de velo, "
+                "c) les plaquettes de frein d'une voiture.",
+         sol="Ex. 1 - a) utile : sans grip on glisse. b) genant : il use et freine l'axe, on le graisse. "
+             "c) utile : il permet de freiner."),
+    dict(en="Exercise 2 - One direction only",
+         en_txt="Two porters push a sofa with 300 N and 400 N in the same direction. "
+                "What is the size of the resultant force?",
+         fr_txt="Deux porteurs poussent un canape avec 300 N et 400 N dans le meme sens. "
+                "Quelle est la valeure de la force resultante ?",
+         sol="Ex. 2 - Meme sens, on additionne : 300 + 400 = 700 N."),
+    dict(en="Exercise 3 - Tug of war",
+         en_txt="A rope game pulls 450 N to the right and 250 N to the left. "
+                "Compute the resultant force, with its direction.",
+         fr_txt="Un jeu de corde tire 450 N vers la droite et 250 N vers la gauche. "
+                "Calcule la resultante, avec son sens.",
+         sol="Ex. 3 - Sens opposes, on soustrait : 450 - 250 = 200 N vers la droite."),
+    dict(en="Exercise 4 - Fighting friction",
+         en_txt="A crate is driven by a resultant of 0 N over the ground while someone pushes "
+                "with 180 N. What is the friction force from the ground?",
+         fr_txt="Une caisse avance sous une resultante de 0 N pendant qu'on la pousse "
+                "avec 180 N. Quelle est la force de frottement du sol ?",
+         sol="Ex. 4 - Resultante nulle : les forces s'equilibrent ; le frottement vaut 180 N en sens contraire."),
+    dict(en="Exercise 5 - Unbalanced",
+         en_txt="Weight of a crate : 500 N downward. Normal force from a table : 500 N upward. "
+                "What is the resultant in the vertical direction?",
+         fr_txt="Poids d'une caisse : 500 N vers le bas. Force normale de la table : 500 N vers le haut. "
+                "Quelle est la resultante verticale ?",
+         sol="Ex. 5 - 500 - 500 = 0 N : les forces verticales sont equilibrees."),
+    dict(en="Exercise 6 - Balance or change",
+         en_txt="States if the motion changes or stays identical : "
+                "a) a car at rest with resultant 0 N, b) a sprinter accelerating, resultant 120 N, "
+                "c) a pontoon boat at constant velocity on a lake.",
+         fr_txt="Dis si le mouvement change ou reste identique : "
+                "a) une voiture a l'arret, resultante 0 N, b) un sprinter qui accelere, resultante 120 N, "
+                "c) un bateau a vitesse constante sur un lac.",
+         sol="Ex. 6 - a) inchangé. b) change (acceleration). c) inchangé : resultante nulle malgré le mouvement."),
+]
+
+
 if __name__ == '__main__':
+    build('forces-friction-exercices.pdf', 'Friction and Resultant Forces - Practice worksheet',
+          'GCE Ordinary Level Physics - Frottements et resultantes', FRICTION, with_solutions=False)
+    build('forces-friction-corrige.pdf', 'Friction and Resultant Forces - Answer key',
+          'GCE Ordinary Level Physics - Frottements et resultantes - Corrige', FRICTION, with_solutions=True)
     build('speed-motion-exercices.pdf', 'Speed and Motion - Practice worksheet',
           'GCE Ordinary Level Physics - Vitesse et mouvement', SPEED['exos'], with_solutions=False)
     build('speed-motion-corrige.pdf', 'Speed and Motion - Answer key',
