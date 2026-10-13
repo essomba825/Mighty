@@ -1,0 +1,224 @@
+{
+  "lesson": 61,
+  "status": "published",
+  "lesson_fields": {
+    "title": "Acceleration: When Speed Changes",
+    "title_fr": "L'accélération : quand la vitesse change",
+    "summary": "What acceleration really measures, how to compute it with a = Δv / Δt in m/s², braking as a negative acceleration, and how everything connects to the speed-time graph you met in the previous lesson.",
+    "summary_fr": "Ce que mesure réellement l'accélération, comment la calculer avec a = Δv / Δt en m/s², le freinage comme accélération négative, et le lien direct avec le graphe vitesse-temps de la leçon précédente.",
+    "estimated_minutes": 28,
+    "is_public": true,
+    "objectives": [
+      "Define acceleration as the rate of change of speed and give its unit, m/s².",
+      "Compute acceleration with a = Δv / Δt from typical road and school examples.",
+      "Interpret acceleration and braking on a speed-time graph, building on the previous lesson."
+    ],
+    "objectives_fr": [
+      "Définir l'accélération comme taux de variation de la vitesse et donner son unité, m/s².",
+      "Calculer l'accélération avec a = Δv / Δt sur des exemples réels de la route et de l'école.",
+      "Interpréter accélération et freinage sur un graphe vitesse-temps, en prolongeant la leçon précédente."
+    ]
+  },
+  "steps": [
+    {
+      "kind": "concept",
+      "title": "Speed almost never stays still",
+      "title_fr": "La vitesse ne reste presque jamais stable",
+      "content": "In the lesson on average speed, we quietly treated journeys as if the bike or bus kept one speed from start to finish. Real traffic never behaves like that: a taxi leaves a junction slowly, builds up speed between two roundabouts, then brakes hard behind a truck. Physicists invented a quantity precisely for that changing speed, and this lesson gives it to you in one clean formula. Watch a moto at a green light in town and you are already seeing acceleration; the only new thing is that now you will be able to compute it instead of just noticing it.",
+      "content_fr": "Dans la leçon sur la vitesse moyenne, nous avons fait comme si le vélo ou le bus gardait une seule vitesse du départ à l'arrivée. La circulation réelle ne fonctionne jamais ainsi : un taxi part doucement à un carrefour, prend de la vitesse entre deux ronds-points, puis freine fort derrière un camion. Les physiciens ont inventé une grandeur précisément pour cette vitesse qui change, et cette leçon la résume en une formule propre. Regarde une moto démarrer au feu vert en ville : tu vois déjà l'accélération ; la nouveauté, c'est que tu vas maintenant pouvoir la calculer au lieu de seulement la remarquer.",
+      "xp": 10
+    },
+    {
+      "kind": "explain",
+      "title": "One formula for changing speed",
+      "title_fr": "Une formule pour la vitesse qui change",
+      "content": "Acceleration measures how fast the speed itself changes: a = Δv / Δt. Read it aloud as change of speed, Δv, divided by the time taken for that change, Δt. The unit follows directly: metres per second divided by seconds gives metres per second squared, written m/s². If a bus goes from 5 m/s to 13 m/s in 4 s, the change is 13 - 5 = 8 m/s over 4 s, so a = 8 / 4 = 2 m/s². Every second, the bus gains 2 m/s: that is exactly what the number 2 means. Keep in mind that Δ always means finish minus start.",
+      "content_fr": "L'accélération mesure la rapidité avec laquelle change la vitesse elle-même : a = Δv / Δt. Lis-la à voix haute : la variation de vitesse, Δv, divisée par la durée de cette variation, Δt. L'unité en découle directement : des mètres par seconde divisés par des secondes donnent des mètres par seconde au carré, notés m/s². Si un bus passe de 5 m/s à 13 m/s en 4 s, la variation vaut 13 - 5 = 8 m/s sur 4 s, donc a = 8 / 4 = 2 m/s². À chaque seconde, le bus gagne 2 m/s : c'est exactement le sens du chiffre 2. Retiens bien que Δ signifie toujours valeur finale moins valeur initiale.",
+      "xp": 10
+    },
+    {
+      "kind": "example",
+      "title": "Worked example: 0 to 100 km/h like a TV advert",
+      "title_fr": "Exemple résolu : de 0 à 100 km/h comme dans la pub",
+      "content": "Magazines love to promise that a car reaches 100 km/h in 8 s. Let us turn that into physics. First put the units in SI form: 100 km/h = 100 / 3.6 = 27.8 m/s. The speed goes from 0 to 27.8 m/s, so Δv = 27.8 m/s over Δt = 8 s. The acceleration is a = 27.8 / 8 ≈ 3.5 m/s². That is a typical value for a polite family car; racing cars manage more than double that. Two lessons of unit conversion and one new formula already let you compute something newspapers quote every week.",
+      "content_fr": "Les magazines adorent promettre qu'une voiture atteint 100 km/h en 8 s. Traduisons cela en physique. Remets d'abord les unités en forme SI : 100 km/h = 100 / 3,6 = 27,8 m/s. La vitesse passe de 0 à 27,8 m/s, donc Δv = 27,8 m/s sur Δt = 8 s. L'accélération vaut a = 27,8 / 8 ≈ 3,5 m/s². C'est une valeur typique pour une bonne voiture familiale ; les voitures de course dépassent le double. Deux leçons de conversion et une formule neuve te permettent déjà de calculer ce que les journaux citent chaque semaine.",
+      "xp": 10
+    },
+    {
+      "kind": "practice",
+      "title": "Your turn: the moving bus",
+      "title_fr": "À toi : le bus qui accélère",
+      "content": "Here is the same situation you just watched, with new numbers, so the method needs to come from you. A bus leaves the stop at 5 m/s and reaches 15 m/s in 4 s. Start by taming the symbols: Δv is the finish speed minus the start speed, and Δt is the 4 s over which it happened. Divide one by the other and write the unit metres per second squared. If your answer does not look like a small everyday number like 2 or 3, re-check which way you divided before asking for the hints.",
+      "content_fr": "Voici la même situation que celle que tu viens de voir, avec de nouveaux nombres pour que la méthode vienne de toi. Un bus quitte l'arrêt à 5 m/s et atteint 15 m/s en 4 s. Dompte d'abord les symboles : Δv est la vitesse finale moins la vitesse initiale, et Δt est les 4 s pendant lesquelles cela s'est produit. Divise l'un par l'autre et écris l'unité mètre par seconde au carré. Si ta réponse ne ressemble pas à un petit nombre du quotidien comme 2 ou 3, revérifie le sens de ta division avant de demander les indices.",
+      "required": true,
+      "xp": 10,
+      "question": {
+        "kind": "numeric",
+        "difficulty": 2,
+        "text": "A bus speeds up from 5 m/s to 15 m/s in 4 s. What is its acceleration, in m/s²?",
+        "text_fr": "Un bus passe de 5 m/s à 15 m/s en 4 s. Quelle est son accélération, en m/s² ?",
+        "explanation": "a = Δv / Δt = (15 - 5) / 4 = 10 / 4 = 2.5 m/s².",
+        "explanation_fr": "a = Δv / Δt = (15 - 5) / 4 = 10 / 4 = 2,5 m/s².",
+        "hint_prompt": "Start with finish minus start for the speed.",
+        "hint_prompt_fr": "Commence par la finale moins l'initiale pour la vitesse.",
+        "config": {"accepted": [2.5], "tolerance": 0.1},
+        "hints": [
+          {"text": "Δv = 15 - 5 = 10 m/s, over Δt = 4 s.", "text_fr": "Δv = 15 - 5 = 10 m/s, sur Δt = 4 s."},
+          {"text": "10 / 4 = 2.5, so the answer is 2.5 m/s².", "text_fr": "10 / 4 = 2,5 : la réponse est donc 2,5 m/s²."}
+        ]
+      }
+    },
+    {
+      "kind": "explain",
+      "title": "Braking is acceleration too",
+      "title_fr": "Freiner, c'est aussi accélérer",
+      "content": "Nothing in a = Δv / Δt says the speed must grow. When a truck slows from 20 m/s to 0 m/s in 5 s, Δv = 0 - 20 = -20 m/s and the acceleration comes out at -4 m/s². The minus sign simply reads as speed lost, so in everyday speech we call it deceleration or braking. On a speed-time graph, the one from the previous lesson, acceleration is exactly the slope: a rising line is speeding up, a falling line is braking, and a flat line is cruising at constant speed. One formula now covers all three pictures.",
+      "content_fr": "Rien dans a = Δv / Δt n'oblige la vitesse à augmenter. Quand un camion passe de 20 m/s à 0 m/s en 5 s, Δv = 0 - 20 = -20 m/s et l'accélération vaut -4 m/s². Le signe moins se lit simplement comme de la vitesse perdue, c'est pourquoi on parle de décélération ou de freinage au quotidien. Sur le graphe vitesse-temps, celui de la leçon précédente, l'accélération est exactement la pente : une ligne qui monte, c'est une vitesse qui grandit ; une ligne qui descend, c'est du freinage ; et une ligne plate, c'est la croisière à vitesse constante. Une seule formule couvre désormais les trois dessins.",
+      "xp": 10
+    },
+    {
+      "kind": "question",
+      "title": "Check: the unit nobody expects",
+      "title_fr": "Vérification : l'unité que personne n'attend",
+      "content": "Students lose marks here because they remember the formula but not its unit. Work it out instead of guessing it: the top of the formula is a speed, and the bottom is a time. Divide the unit of the top by the unit of the bottom, write the result as two separate × per second × if it helps you, and then choose the answer that matches. Picture the 0-to-100 example we solved a moment ago if you need an anchor.",
+      "content_fr": "Les élèves perdent des points ici parce qu'ils retiennent la formule mais pas son unité. Retrouve-la au lieu de la deviner : en haut de la formule, il y a une vitesse, et en bas une durée. Divise l'unité du haut par celle du bas, écris le résultat en deux fois × par seconde × si cela t'aide, puis choisis la réponse qui correspond. Revois l'exemple de 0 à 100 km/h résolu un peu plus haut si tu as besoin d'un point d'ancrage.",
+      "required": true,
+      "xp": 10,
+      "question": {
+        "kind": "mcq",
+        "difficulty": 1,
+        "text": "What is the SI unit of acceleration?",
+        "text_fr": "Quelle est l'unité SI de l'accélération ?",
+        "explanation": "Δv is in m/s and Δt is in seconds, so a is measured in (m/s)/s = m/s².",
+        "explanation_fr": "Δv est en m/s et Δt en secondes, donc a se mesure en (m/s)/s = m/s².",
+        "hint_prompt": "The unit is the formula applied to the units themselves.",
+        "hint_prompt_fr": "L'unité est la formule appliquée aux unités elles-mêmes.",
+        "config": {},
+        "choices": [
+          {"text": "m/s", "text_fr": "m/s", "correct": false},
+          {"text": "km/h", "text_fr": "km/h", "correct": false},
+          {"text": "m/s²", "text_fr": "m/s²", "correct": true},
+          {"text": "N/kg", "text_fr": "N/kg", "correct": false}
+        ],
+        "hints": [
+          {"text": "Speed per second: metres every second, every second.", "text_fr": "De la vitesse par seconde : des mètres par seconde, à chaque seconde."}
+        ]
+      }
+    },
+    {
+      "kind": "summary",
+      "title": "Key takeaways",
+      "title_fr": "Les points clés",
+      "content": "This lesson adds one formula to the two pictures you can already read: acceleration is the rate of change of speed, a = Δv / Δt, with Δ meaning finish minus start. Its unit is metres per second squared, m/s², because a speed is divided by a time. Braking or slowing down is the same thing with a minus sign, since the finish speed is then smaller than the start. On a speed-time graph, acceleration is the slope, so rising means faster, falling means braking, and flat means cruising. You can now measure pickups and slowdowns with one number.",
+      "content_fr": "Cette leçon ajoute une formule aux deux dessins que tu sais déjà lire : l'accélération est le taux de variation de la vitesse, a = Δv / Δt, où Δ signifie finale moins initiale. Son unité est le mètre par seconde au carré, m/s², parce qu'une vitesse est divisée par une durée. Freiner ou ralentir, c'est la même chose avec un signe moins, car la vitesse finale est alors plus petite que l'initiale. Sur un graphe vitesse-temps, l'accélération est la pente : une ligne qui monte signifie plus vite, une qui descend du freinage, une plate de la croisière. Tu peux maintenant mesurer les démarrages et les ralentissements avec un seul nombre.",
+      "xp": 10
+    }
+  ],
+  "quiz": {
+    "title": "Quiz: Acceleration",
+    "title_fr": "Quiz : l'accélération",
+    "pass_score": 60,
+    "questions": [
+      {
+        "kind": "mcq",
+        "difficulty": 1,
+        "text": "Acceleration measures...",
+        "text_fr": "L'accélération mesure…",
+        "explanation": "It is the rate of change of speed: how much speed is gained or lost per second.",
+        "explanation_fr": "C'est le taux de variation de la vitesse : combien de vitesse est gagnée ou perdue à chaque seconde.",
+        "hint_prompt": "What changes, per second?",
+        "hint_prompt_fr": "Qu'est-ce qui change, à la seconde ?",
+        "config": {},
+        "choices": [
+          {"text": "the total distance of the journey", "text_fr": "la distance totale du trajet", "correct": false},
+          {"text": "the change of speed per unit of time", "text_fr": "la variation de vitesse par unité de temps", "correct": true},
+          {"text": "the maximum speed reached", "text_fr": "la vitesse maximale atteinte", "correct": false},
+          {"text": "the mass of the moving object", "text_fr": "la masse de l'objet en mouvement", "correct": false}
+        ],
+        "hints": [
+          {"text": "Think Δv over Δt: something divided by time.", "text_fr": "Pense à Δv sur Δt : quelque chose divisé par le temps."}
+        ]
+      },
+      {
+        "kind": "mcq",
+        "difficulty": 1,
+        "text": "In which unit is acceleration measured?",
+        "text_fr": "Dans quelle unité mesure-t-on l'accélération ?",
+        "explanation": "Metres per second divided by seconds gives m/s².",
+        "explanation_fr": "Des mètres par seconde divisés par des secondes donnent des m/s².",
+        "hint_prompt": "A speed, divided by a time.",
+        "hint_prompt_fr": "Une vitesse, divisée par un temps.",
+        "config": {},
+        "choices": [
+          {"text": "m/s²", "text_fr": "m/s²", "correct": true},
+          {"text": "m/s", "text_fr": "m/s", "correct": false},
+          {"text": "J", "text_fr": "J", "correct": false},
+          {"text": "W", "text_fr": "W", "correct": false}
+        ],
+        "hints": [
+          {"text": "m/s per s, written with a square on the s.", "text_fr": "Des m/s par s, ce qui s'écrit avec un carré sur le s."}
+        ]
+      },
+      {
+        "kind": "mcq",
+        "difficulty": 2,
+        "text": "A bike accelerates from rest to 20 m/s in 5 s. Its acceleration is...",
+        "text_fr": "Un vélo passe de l'arrêt à 20 m/s en 5 s. Son accélération vaut…",
+        "explanation": "a = Δv / Δt = (20 - 0) / 5 = 4 m/s².",
+        "explanation_fr": "a = Δv / Δt = (20 - 0) / 5 = 4 m/s².",
+        "hint_prompt": "Finish speed 20, start speed 0.",
+        "hint_prompt_fr": "Vitesse finale 20, vitesse initiale 0.",
+        "config": {},
+        "choices": [
+          {"text": "100 m/s²", "text_fr": "100 m/s²", "correct": false},
+          {"text": "4 m/s²", "text_fr": "4 m/s²", "correct": true},
+          {"text": "25 m/s²", "text_fr": "25 m/s²", "correct": false},
+          {"text": "0.25 m/s²", "text_fr": "0,25 m/s²", "correct": false}
+        ],
+        "hints": [
+          {"text": "Δv = 20 - 0 = 20 m/s ; then divide by the 5 seconds.", "text_fr": "Δv = 20 - 0 = 20 m/s ; puis divise par les 5 secondes."}
+        ]
+      },
+      {
+        "kind": "mcq",
+        "difficulty": 2,
+        "text": "A car brakes from 20 m/s to a standstill in 4 s. What is its acceleration?",
+        "text_fr": "Une voiture freine de 20 m/s jusqu'à l'arrêt en 4 s. Quelle est son accélération ?",
+        "explanation": "a = (0 - 20) / 4 = -5 m/s²: the negative sign marks the braking.",
+        "explanation_fr": "a = (0 - 20) / 4 = -5 m/s² : le signe négatif marque le freinage.",
+        "hint_prompt": "Finish minus start, even when the finish is zero.",
+        "hint_prompt_fr": "Finale moins initiale, même quand la finale vaut zéro.",
+        "config": {},
+        "choices": [
+          {"text": "+5 m/s²", "text_fr": "+5 m/s²", "correct": false},
+          {"text": "-5 m/s²", "text_fr": "-5 m/s²", "correct": true},
+          {"text": "+80 m/s²", "text_fr": "+80 m/s²", "correct": false},
+          {"text": "0 m/s²", "text_fr": "0 m/s²", "correct": false}
+        ],
+        "hints": [
+          {"text": "Δv = 0 - 20 = -20 m/s, divided by 4 s.", "text_fr": "Δv = 0 - 20 = -20 m/s, divisé par 4 s."}
+        ]
+      },
+      {
+        "kind": "mcq",
+        "difficulty": 3,
+        "text": "On a speed-time graph, the acceleration of the object is given by...",
+        "text_fr": "Sur un graphe vitesse-temps, l'accélération de l'objet est donnée par…",
+        "explanation": "The slope of a speed-time graph is the acceleration; the area under it is the distance.",
+        "explanation_fr": "La pente d'un graphe vitesse-temps est l'accélération ; l'aire sous la ligne est la distance.",
+        "hint_prompt": "Same word as in the graphs lesson, different quantity.",
+        "hint_prompt_fr": "Le même mot que dans la leçon sur les graphes, pour une autre grandeur.",
+        "config": {},
+        "choices": [
+          {"text": "the area under the line", "text_fr": "l'aire sous la ligne", "correct": false},
+          {"text": "the slope of the line", "text_fr": "la pente de la ligne", "correct": true},
+          {"text": "the length of the graph", "text_fr": "la longueur du graphe", "correct": false},
+          {"text": "the height of the highest point", "text_fr": "la hauteur du point le plus haut", "correct": false}
+        ],
+        "hints": [
+          {"text": "Speed divided by time — that is exactly what a slope computes on those axes.", "text_fr": "Vitesse divisée par le temps — c'est exactement ce que calcule une pente sur ces axes."}
+        ]
+      }
+    ]
+  }
+}
