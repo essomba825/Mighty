@@ -1,0 +1,225 @@
+{
+  "lesson": 62,
+  "status": "published",
+  "lesson_fields": {
+    "title": "Forces, Weight and Mass",
+    "title_fr": "Forces, poids et masse",
+    "summary": "What a force really is, everything a force can do, weigh what pulls you to the ground with W = m g, and stop mixing up mass and weight for good.",
+    "summary_fr": "Ce qu'est vraiment une force, tout ce qu'elle peut produire, comment calculer ce qui t'attire vers le sol avec W = m g, et cesser pour de bon de confondre masse et poids.",
+    "estimated_minutes": 28,
+    "is_public": true,
+    "objectives": [
+      "Name the effects a force can have: change of speed, direction or shape.",
+      "Measure forces in newtons (N) and use weights with a spring balance.",
+      "Calculate a weight with W = m g and separate masse from poids in every situation."
+    ],
+    "objectives_fr": [
+      "Nommer les effets possibles d'une force : changer la vitesse, la direction ou la forme.",
+      "Mesurer les forces en newtons (N) et exploiter le dynamomètre.",
+      "Calculer un poids avec W = m g et distinguer masse et poids dans toute situation."
+    ]
+  },
+  "steps": [
+    {
+      "kind": "concept",
+      "title": "What a force can do",
+      "title_fr": "Ce qu'une force peut faire",
+      "content": "A force is simply a push or a pull, but watch what it achieves around you. A force can start a motion, like your foot on a football; it can stop a car at a red light; it can make a bicycle speed up on the avenue or slow down at the junction; it can change the direction of a ball or pull on rubber to change its shape. Whenever you can see that a speed, a direction or a shape changed, a force was at work. Greeks said force equals magic, but physics gives it a size, and that is what we measure next.",
+      "content_fr": "Une force est simplement une poussée ou une traction, et regarde tout ce qu'elle accomplit autour de toi. Une force peut démarrer un mouvement, comme ton pied sur un ballon ; elle peut arrêter une voiture au feu rouge ; elle peut faire accélérer un vélo sur l'avenue ou ralentir au carrefour ; elle peut changer la direction d'un ballon ou tirer sur un élastique pour changer sa forme. Chaque fois qu'une vitesse, une direction ou une forme a changé, une force était à l'œuvre. La physique donne une taille à cette force, et c'est ce que nous mesurons ensuite.",
+      "xp": 10
+    },
+    {
+      "kind": "explain",
+      "title": "Measuring a force: the newton",
+      "title_fr": "Mesurer une force : le newton",
+      "content": "Forces are measured in newtons, written with a capital N, in honour of Isaac Newton. The instrument is a spring balance, also called a dynamometer or a newton-meter: the more you pull on the spring, the more it stretches, and a pointer reads the force. A newton is a modest size: the force needed to hold a 100 g yoghurt is about 1 N. Classroom balances go up to roughly 10 N, enough to weigh a school bag lifted slowly. On the dial, more stretch always means more force, nothing more exotic than that.",
+      "content_fr": "Les forces se mesurent en newtons, écrits avec un N majuscule, en l'honneur d'Isaac Newton. L'instrument est le dynamomètre : plus tu tires sur le ressort, plus il s'allonge, et une aiguille lit la force. Un newton est une taille modeste : la force pour tenir un yaourt de 100 g vaut environ 1 N. Les dynamomètres du laboratoire montent jusqu'à environ 10 N, ce qui suffit pour peser un sac d'écolier soulevé doucement. Sur le cadran, plus d'étirement signifie toujours plus de force, rien de plus exotique.",
+      "xp": 10
+    },
+    {
+      "kind": "example",
+      "title": "Worked example: how heavy is a cement bag?",
+      "title_fr": "Exemple résolu : quel poids pour un sac de ciment ?",
+      "content": "Ask a mason what 50 kg of cement weighs and he will answer in kilos, but physics answers in newtons. The weight of an object, the force with which the Earth pulls it down, is W = m times g, with g = 10 N/kg at our latitude. For the bag, W = 50 x 10 = 500 N. Next time you read kg on a pack, remember that kilograms belong to the mass, and that you multiply by 10 to obtain the force. The same rule holds for your own weight: a student of 45 kg is pulled by a weight of 450 N.",
+      "content_fr": "Demande à un maçon combien pèsent 50 kg de ciment et il répondra en kilos, mais la physique répond en newtons. Le poids d'un objet, la force avec laquelle la Terre l'attire vers le bas, vaut W = m fois g, avec g = 10 N/kg sous nos latitudes. Pour le sac, W = 50 x 10 = 500 N. La prochaine fois que tu liras kg sur un paquet, souviens-toi que les kilogrammes désignent la masse, et qu'il faut multiplier par 10 pour obtenir la force. La même règle vaut pour toi : un élève de 45 kg est tiré vers le bas par un poids de 450 N.",
+      "xp": 10
+    },
+    {
+      "kind": "practice",
+      "title": "Your turn: the rice sack",
+      "title_fr": "À toi : le sac de riz",
+      "content": "A big rice sack on the market stalls of Douala carries a mass of 25 kg. You are going to turn that mass into the force the ground must carry. Identify the mass in kilograms, remember the value of g that physicists use close to the equator and near the sea, and multiply them together for the weight in newtons. The answer is an everyday number: a quarter of the weight of the cement bag just computed. Write the number only, without the unit.",
+      "content_fr": "Un gros sac de riz sur les étals du marché de Douala porte une masse de 25 kg. Tu vas transformer cette masse en la force que le sol doit porter. Repère la masse en kilogrammes, souviens-toi de la valeur de g que les physiciens utilisent près de l'équateur et au bord de la mer, puis multiplie-les ensemble pour trouver le poids en newtons. La réponse est un nombre familier : le quart du poids du sac de ciment calculé à l'instant. Écris seulement le nombre, sans l'unité.",
+      "required": true,
+      "xp": 10,
+      "question": {
+        "kind": "numeric",
+        "difficulty": 1,
+        "text": "A sack of rice has a mass of 25 kg. Taking g = 10 N/kg, what is its weight, in newtons?",
+        "text_fr": "Un sac de riz a une masse de 25 kg. Avec g = 10 N/kg, quel est son poids, en newtons ?",
+        "explanation": "W = m g = 25 x 10 = 250 N.",
+        "explanation_fr": "W = m g = 25 x 10 = 250 N.",
+        "hint_prompt": "Which two numbers multiply, and why?",
+        "hint_prompt_fr": "Quels deux nombres se multiplient, et pourquoi ?",
+        "config": {"accepted": [250], "tolerance": 2},
+        "hints": [
+          {"text": "Weight = mass times g, so 25 x 10.", "text_fr": "Poids = masse fois g, donc 25 x 10."},
+          {"text": "25 x 10 = 250, so the weight is 250 N.", "text_fr": "25 x 10 = 250 : le poids vaut donc 250 N."}
+        ]
+      }
+    },
+    {
+      "kind": "explain",
+      "title": "Mass and weight are not twins",
+      "title_fr": "Masse et poids ne sont pas jumeaux",
+      "content": "Do not let mass and weight confuse you any longer; they differ in nature. Mass counts matter in kilograms, and it never changes: a 2 kg ball contains 2 kg on Earth, on the Moon, anywhere. Weight is a force in newtons, and it follows gravity: on the Moon g is only about 1.6 N/kg, so the same 2 kg ball weighs 3.2 N there instead of 20 N here. The mass meter never changes, the weight meter follows the planet. This pair occurs in exams every single year.",
+      "content_fr": "Ne laisse plus jamais la masse et le poids te troubler : ils diffèrent par nature. La masse compte la matière en kilogrammes, et elle ne change jamais : un ballon de 2 kg contient 2 kg sur Terre, sur la Lune, partout. Le poids est une force en newtons, et il suit la gravité : sur la Lune, g ne vaut qu'environ 1,6 N/kg, donc le même ballon de 2 kg y pèse 3,2 N au lieu de 20 N ici. Le compteur de masse ne bouge jamais, le compteur de poids suit la planète. Ce couple revient aux examens chaque année.",
+      "xp": 10
+    },
+    {
+      "kind": "question",
+      "title": "Check: welcome to the Moon",
+      "title_fr": "Vérification : bienvenue sur la Lune",
+      "content": "Finally put the distinction to work. An astronaut carries a toolbox of 6 kg from the Earth to the Moon, where g is about 1.6 N/kg. Before choosing, decide which quantity follows the toolbox unchanged, and which one must be recomputed with the new g. A useful check on your answer: in weaker gravity, things are easier to lift, so the weight must come out smaller than on Earth.",
+      "content_fr": "Mets enfin la distinction au travail. Un astronaute emporte une boîte à outils de 6 kg de la Terre vers la Lune, où g vaut environ 1,6 N/kg. Avant de choisir, décide quelle grandeur suit la boîte sans changer, et laquelle doit être recalculée avec le nouveau g. Un contrôle utile sur ta réponse : dans une gravité plus faible, les choses se soulèvent plus aisément, donc le poids doit ressortir plus petit que sur Terre.",
+      "required": true,
+      "xp": 10,
+      "question": {
+        "kind": "mcq",
+        "difficulty": 2,
+        "text": "A 6 kg toolbox is taken to the Moon, where g is 1.6 N/kg. Which pair is correct?",
+        "text_fr": "Une boîte à outils de 6 kg est emportée sur la Lune, où g vaut 1,6 N/kg. Quelle paire est correcte ?",
+        "explanation": "Mass never changes: 6 kg. Weight is recomputed: W = 6 x 1.6 = 9.6 N.",
+        "explanation_fr": "La masse ne change jamais : 6 kg. Le poids se recalcule : W = 6 x 1,6 = 9,6 N.",
+        "hint_prompt": "One of them follows the matter; the other follows the gravity.",
+        "hint_prompt_fr": "L'une suit la matière ; l'autre suit la gravité.",
+        "config": {},
+        "choices": [
+          {"text": "Mass 6 kg, weight 60 N", "text_fr": "Masse 6 kg, poids 60 N", "correct": false},
+          {"text": "Mass 9.6 kg, weight 6 N", "text_fr": "Masse 9,6 kg, poids 6 N", "correct": false},
+          {"text": "Mass 6 kg, weight 9.6 N", "text_fr": "Masse 6 kg, poids 9,6 N", "correct": true},
+          {"text": "Mass 0 kg, weight 0 N", "text_fr": "Masse 0 kg, poids 0 N", "correct": false}
+        ],
+        "hints": [
+          {"text": "The kilograms of matter did not budge; only the planet changed.", "text_fr": "Les kilogrammes de matière n'ont pas bougé ; seule la planète a changé."},
+          {"text": "W = m x g = 6 x 1.6.", "text_fr": "W = m x g = 6 x 1,6."}
+        ]
+      }
+    },
+    {
+      "kind": "summary",
+      "title": "Key takeaways",
+      "title_fr": "Les points clés",
+      "content": "Forget the table you had to learn and keep the logic: a force is a push or a pull that can start, stop, speed up, slow down, steer or deform. It is measured in newtons with a spring balance. The weight of any object follows W = m times g, with g = 10 N/kg near the Earth, and this one product tells you for example that a 25 kg sack presses down with 250 N. Finally, the mass in kilograms never changes, so it travels to the Moon with you, while the weight in newtons faithfully tracks the local gravity. Four relations, no memorisation needed.",
+      "content_fr": "Oublie le tableau qu'il fallait apprendre et garde la logique : une force est une poussée ou une traction qui peut démarrer, arrêter, accélérer, ralentir, diriger ou déformer. Elle se mesure en newtons au dynamomètre. Le poids d'un objet vaut W = m fois g, avec g = 10 N/kg près de la Terre, et ce seul produit te dit par exemple qu'un sac de 25 kg pousse le sol avec 250 N. Enfin, la masse en kilogrammes ne change jamais, elle te suit donc sur la Lune, tandis que le poids en newtons suit fidèlement la gravité locale. Quatre relations, aucun par-cœur nécessaire.",
+      "xp": 10
+    }
+  ],
+  "quiz": {
+    "title": "Quiz: Forces, Weight and Mass",
+    "title_fr": "Quiz : forces, poids et masse",
+    "pass_score": 60,
+    "questions": [
+      {
+        "kind": "mcq",
+        "difficulty": 1,
+        "text": "In which unit is a force measured?",
+        "text_fr": "Dans quelle unité se mesure une force ?",
+        "explanation": "Forces are measured in newtons, named after Isaac Newton.",
+        "explanation_fr": "Les forces se mesurent en newtons, nommés d'après Isaac Newton.",
+        "hint_prompt": "Think of the scientist under the apple tree.",
+        "hint_prompt_fr": "Pense au savant sous le pommier.",
+        "config": {},
+        "choices": [
+          {"text": "Kilogram", "text_fr": "Kilogramme", "correct": false},
+          {"text": "Joule", "text_fr": "Joule", "correct": false},
+          {"text": "Newton", "text_fr": "Newton", "correct": true},
+          {"text": "Metre per second", "text_fr": "Mètre par seconde", "correct": false}
+        ],
+        "hints": [
+          {"text": "The unit of force honours the man of gravity.", "text_fr": "L'unité de force rend hommage à l'homme de la gravité."}
+        ]
+      },
+      {
+        "kind": "mcq",
+        "difficulty": 1,
+        "text": "Which of these cannot be done by a force?",
+        "text_fr": "Laquelle de ces actions ne peut pas être produite par une force ?",
+        "explanation": "A force changes speed, direction or shape. It never changes the amount of matter, which is the mass.",
+        "explanation_fr": "Une force change une vitesse, une direction ou une forme. Elle ne change jamais la quantité de matière, c'est-à-dire la masse.",
+        "hint_prompt": "Three effects are famous; one is impossible.",
+        "hint_prompt_fr": "Trois effets sont célèbres ; l'un est impossible.",
+        "config": {},
+        "choices": [
+          {"text": "Slow down a moving ball", "text_fr": "Ralentir un ballon en mouvement", "correct": false},
+          {"text": "Change the direction of a car", "text_fr": "Changer la direction d'une voiture", "correct": false},
+          {"text": "Change the mass of an object", "text_fr": "Changer la masse d'un objet", "correct": true},
+          {"text": "Stretch a rubber band", "text_fr": "Étirer un élastique", "correct": false}
+        ],
+        "hints": [
+          {"text": "Speed, direction and shape are the three classics.", "text_fr": "Vitesse, direction et forme : voilà les trois classiques."}
+        ]
+      },
+      {
+        "kind": "mcq",
+        "difficulty": 1,
+        "text": "What is the name of the instrument that measures a force?",
+        "text_fr": "Comment s'appelle l'instrument qui mesure une force ?",
+        "explanation": "The spring balance, also called a dynamometer, stretches a spring and reads newtons.",
+        "explanation_fr": "Le dynamomètre étire un ressort et lit des newtons.",
+        "hint_prompt": "Something stretches inside it.",
+        "hint_prompt_fr": "Quelque chose s'étire à l'intérieur.",
+        "config": {},
+        "choices": [
+          {"text": "A thermometer", "text_fr": "Un thermomètre", "correct": false},
+          {"text": "A spring balance", "text_fr": "Un dynamomètre", "correct": true},
+          {"text": "An ammeter", "text_fr": "Un ampèremètre", "correct": false},
+          {"text": "A measuring cylinder", "text_fr": "Une éprouvette graduée", "correct": false}
+        ],
+        "hints": [
+          {"text": "More stretch means more force.", "text_fr": "Plus d'étirement signifie plus de force."}
+        ]
+      },
+      {
+        "kind": "mcq",
+        "difficulty": 2,
+        "text": "With g = 10 N/kg, what is the weight of a 2 kg school bag?",
+        "text_fr": "Avec g = 10 N/kg, quel est le poids d'un sac d'école de 2 kg ?",
+        "explanation": "W = m g = 2 x 10 = 20 N.",
+        "explanation_fr": "W = m g = 2 x 10 = 20 N.",
+        "hint_prompt": "Multiply the mass by g.",
+        "hint_prompt_fr": "Multiplie la masse par g.",
+        "config": {},
+        "choices": [
+          {"text": "2 N", "text_fr": "2 N", "correct": false},
+          {"text": "20 N", "text_fr": "20 N", "correct": true},
+          {"text": "200 N", "text_fr": "200 N", "correct": false},
+          {"text": "12 N", "text_fr": "12 N", "correct": false}
+        ],
+        "hints": [
+          {"text": "2 times 10 is your whole computation.", "text_fr": "2 fois 10 est tout ton calcul."}
+        ]
+      },
+      {
+        "kind": "mcq",
+        "difficulty": 3,
+        "text": "Your physics teacher travels to the Moon. What happens to her mass and her weight?",
+        "text_fr": "Ta prof de physique part sur la Lune. Qu'arrive-t-il à sa masse et à son poids ?",
+        "explanation": "Mass never changes; weight follows the weaker gravity and decreases.",
+        "explanation_fr": "La masse ne change jamais ; le poids suit la gravité plus faible et diminue.",
+        "hint_prompt": "Only one of the two is tied to gravity.",
+        "hint_prompt_fr": "Une seule des deux est liée à la gravité.",
+        "config": {},
+        "choices": [
+          {"text": "Both decrease", "text_fr": "Les deux diminuent", "correct": false},
+          {"text": "Mass stays, weight decreases", "text_fr": "La masse reste, le poids diminue", "correct": true},
+          {"text": "Both stay the same", "text_fr": "Les deux restent identiques", "correct": false},
+          {"text": "Mass decreases, weight stays", "text_fr": "La masse diminue, le poids reste", "correct": false}
+        ],
+        "hints": [
+          {"text": "The amount of matter travels unchanged; the pull of the Moon is weaker.", "text_fr": "La quantité de matière voyage sans changer ; l'attraction de la Lune est plus faible."}
+        ]
+      }
+    ]
+  }
+}

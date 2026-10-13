@@ -171,6 +171,46 @@ ACCEL = [
 ]
 
 
+# -------------------------------------------------------------- Forces / poids
+FORCES = [
+    dict(en="Exercise 1 - Everyday weights",
+         en_txt="A school bag has a mass of 3 kg. Using g = 10 N/kg, compute its weight in newtons.",
+         fr_txt="Un sac d'ecole a une masse de 3 kg. Avec g = 10 N/kg, calcule son poids en newtons.",
+         sol="Ex. 1 - W = m g = 3 x 10 = 30 N."),
+    dict(en="Exercise 2 - From weight back to mass",
+         en_txt="A crate on a stall is pulled down by a weight of 120 N (g = 10 N/kg). "
+                "What is its mass in kilograms?",
+         fr_txt="Une caisse sur un etal est attiree vers le bas par un poids de 120 N (g = 10 N/kg). "
+                "Quelle est sa masse en kilogrammes ?",
+         sol="Ex. 2 - m = W / g = 120 / 10 = 12 kg."),
+    dict(en="Exercise 3 - Trip to the Moon",
+         en_txt="The same 3 kg bag is carried to the Moon, where g = 1.6 N/kg. "
+                "What is its weight there? What is its mass there?",
+         fr_txt="Le meme sac de 3 kg est emporte sur la Lune, ou g = 1,6 N/kg. "
+                "Quel est son poids la-bas ? Et sa masse ?",
+         sol="Ex. 3 - Poids = 3 x 1,6 = 4,8 N. La masse reste inchangee : 3 kg."),
+    dict(en="Exercise 4 - Reading a spring balance",
+         en_txt="A dynamometer reads 4 N when a bag of fruit is hung on it (g = 10 N/kg). "
+                "What is the mass of the fruit, in kilograms and then in grams?",
+         fr_txt="Un dynamometre indique 4 N quand on y accroche un sachet de fruits (g = 10 N/kg). "
+                "Quelle est la masse des fruits, en kilogrammes puis en grammes ?",
+         sol="Ex. 4 - m = W / g = 4 / 10 = 0,4 kg = 400 g."),
+    dict(en="Exercise 5 - From grams to newtons",
+         en_txt="A textbook has a mass of 500 g. What force does the Earth apply to it "
+                "(g = 10 N/kg)? Watch the units first.",
+         fr_txt="Un manuel a une masse de 500 g. Quelle force la Terre exerce-t-elle sur lui "
+                "(g = 10 N/kg) ? Attention aux unites d'abord.",
+         sol="Ex. 5 - 500 g = 0,5 kg. W = 0,5 x 10 = 5 N."),
+    dict(en="Exercise 6 - Mission to Mars",
+         en_txt="A 70 kg astronaut lands on Mars, where g = 3.7 N/kg. "
+                "Compute his weight on Mars and compare with his weight on Earth (g = 10 N/kg).",
+         fr_txt="Un astronaute de 70 kg atterrit sur Mars, ou g = 3,7 N/kg. "
+                "Calcule son poids sur Mars et compare avec son poids sur Terre (g = 10 N/kg).",
+         sol="Ex. 6 - Mars : 70 x 3,7 = 259 N. Terre : 70 x 10 = 700 N. "
+             "Le poids martien vaut environ 37% du poids terrestre, la masse reste 70 kg."),
+]
+
+
 if __name__ == '__main__':
     build('speed-motion-exercices.pdf', 'Speed and Motion - Practice worksheet',
           'GCE Ordinary Level Physics - Vitesse et mouvement', SPEED['exos'], with_solutions=False)
@@ -180,3 +220,7 @@ if __name__ == '__main__':
           'GCE Ordinary Level Physics - L acceleration', ACCEL, with_solutions=False)
     build('acceleration-corrige.pdf', 'Acceleration - Answer key',
           'GCE Ordinary Level Physics - L acceleration - Corrige', ACCEL, with_solutions=True)
+    build('forces-exercices.pdf', 'Forces, Weight and Mass - Practice worksheet',
+          'GCE Ordinary Level Physics - Forces et poids', FORCES, with_solutions=False)
+    build('forces-corrige.pdf', 'Forces, Weight and Mass - Answer key',
+          'GCE Ordinary Level Physics - Forces et poids - Corrige', FORCES, with_solutions=True)
