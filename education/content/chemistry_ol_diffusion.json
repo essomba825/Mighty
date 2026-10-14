@@ -1,0 +1,229 @@
+{
+  "lesson": 65,
+  "status": "published",
+  "lesson_fields": {
+    "title": "Diffusion: Particles on the Move",
+    "title_fr": "Diffusion : les particules en mouvement",
+    "summary": "Why soup smell crosses the whole house without any fan: diffusion is the self-driven spreading of particles, faster in gases than in liquids, and faster again when it gets warmer.",
+    "summary_fr": "Pourquoi l'odeur de la soupe traverse toute la maison sans ventilateur : la diffusion est le déplacement autonome des particules, plus vite dans les gaz que dans les liquides, et plus vite encore quand il fait chaud.",
+    "estimated_minutes": 24,
+    "is_public": true,
+    "objectives": [
+      "Define diffusion and link it to the motion of particles, without any wind or stirring.",
+      "Know that diffusion is fastest in gases, slower in liquids, and almost absent in solids.",
+      "Predict how temperature changes the speed of diffusion, using kinetic theory."
+    ],
+    "objectives_fr": [
+      "Définir la diffusion et la relier au mouvement des particules, sans vent ni agitation.",
+      "Savoir que la diffusion est la plus rapide dans les gaz, plus lente dans les liquides, quasi nulle dans les solides.",
+      "Prédire comment la température change la vitesse de diffusion, avec la théorie cinétique."
+    ]
+  },
+  "steps": [
+    {
+      "kind": "concept",
+      "title": "The smell crosses the house on its own",
+      "title_fr": "L'odeur traverse la maison toute seule",
+      "content": "Someone opens a pot of pepper soup in the kitchen, and a little later everyone in the parlour smells it. No fan, no spoon stirring, nothing pushed the smell: the scent moved on its own. That journey is called diffusion. It is the signature of the particulate model you met in the atoms lesson: matter is particles, and particles are never at rest. Tiny random bumps send them from where they are many towards where they are few, until the whole room smells of soup.",
+      "content_fr": "Quelqu'un ouvre une marmite de soupe pimentée dans la cuisine, et un peu plus tard tout le salon la sent. Pas de ventilateur, pas de cuillère qui remue : l'odeur a voyagé toute seule. Ce voyage s'appelle la diffusion. Elle est la signature du modèle des particules vu à la leçon sur les atomes : la matière est faite de particules, et les particules ne sont jamais au repos. De petites collisions hasardeuses les poussent de là où elles sont nombreuses vers là où elles sont rares, jusqu'à ce que toute la pièce sente la soupe.",
+      "xp": 10
+    },
+    {
+      "kind": "explain",
+      "title": "One rule of traffic for particles",
+      "title_fr": "Une règle de trafic pour les particules",
+      "content": "Diffusion obeys one deep rule: particles move from a region where they are crowded towards one where they are few, until everything levels out. The motion speeds them on: at higher temperature they collide harder, so changes of place happen faster, and diffusion accelerates. In a gas, particles are free and far apart, so smells travel at walking pace. In a liquid, molecules shoulder each other, so colour spreads more slowly. In a solid the particles are locked in place, so a teabag sitting dry on the shelf never diffuses into the air.",
+      "content_fr": "La diffusion obéit à une règle profonde : les particules vont là où elles sont nombreuses vers là où elles sont rares, jusqu'à ce que tout s'égalise. Le mouvement les accélère : à plus haute température elles se bousculent avec plus d'énergie, donc les changements de place vont plus vite, et la diffusion accélère. Dans un gaz, les particules sont libres et écartées, donc les odeurs voyagent au pas de course. Dans un liquide, les molécules se bousculent, donc la couleur se répand plus lentement. Dans un solide, les particules sont bloquées en place, donc un sachet de thé sec sur l'étagère ne se diffuse jamais dans l'air.",
+      "xp": 10
+    },
+    {
+      "kind": "example",
+      "title": "Worked example: the purple crystal",
+      "title_fr": "Exemple résolu : le cristal violet",
+      "content": "The classic school-lab experiment makes everything visible. Drop a crystal of potassium permanganate into a glass of still water and do not touch the glass. It starts purple near the crystal, then slowly the colour spreads through the water like smoke, and after a day the whole glass is evenly pale purple. No stirring moved that dye: water molecules bumped into dye particles and took them away, thousands of billions of times per second. The same happens with perfume in the air, with salty taste spreading in soup, with chlorine added to a pool.",
+      "content_fr": "L'expérience classique du laboratoire rend tout visible. Lâche un cristal de permanganate de potassium dans un verre d'eau immobile et surtout ne touche pas le verre. Au début, le violet reste près du cristal, puis la couleur s'étale dans l'eau comme une fumée, et au bout d'une journée le verre entier est uniformément pâle. Rien n'a remué ce colorant : les molécules d'eau ont heurté les particules de permanganate et les ont emportées, des milliers de milliards de fois par seconde. C'est la même chose pour le parfum dans l'air, le goût salé qui prend possession de la soupe, le chlore qui gagne la piscine.",
+      "xp": 10
+    },
+    {
+      "kind": "practice",
+      "title": "Your turn: which glass blends first?",
+      "title_fr": "À toi : quel verre se mélange en premier ?",
+      "content": "Now a quick thought experiment to make the rule yours. Two identical glasses of water receive the same drop of ink. Glass A sits on the cold windowsill of the lab; glass B sits in the warm sun of July. Picture the particles inside each glass and the chaos in their individual collisions. Which drop of ink spreads fully first, and above all, why? The answer is one complete sentence with the particule rule driving the explanation, not just the word temperature dropped in isolation.",
+      "content_fr": "Une petite expérience de pensée pour t'approprier la règle. Deux verres d'eau identiques reçoivent la même goutte d'encre. Le verre A trône dans l'ombre froide du laboratoire ; le verre B chauffe au soleil de juillet. Imagine les particules à l'intérieur de chaque verre et le chaos de leurs collisions individuelles. Quelle goutte d'encre se répand en totalité la première, et surtout, pourquoi ? La bonne réponse tient en une phrase entière où la règle des particules mène l'explication, pas seulement le mot température lâché au milieu.",
+      "required": true,
+      "xp": 10,
+      "question": {
+        "kind": "mcq",
+        "difficulty": 2,
+        "text": "Which glass diffuses faster, and why?",
+        "text_fr": "Quel verre diffuse plus vite, et pourquoi ?",
+        "explanation": "Higher temperature means faster particle collisions: glass B (warm) diffuses first.",
+        "explanation_fr": "Une température plus haute signifie des collisions de particules plus rapides : le verre B (chaud) diffuse en premier.",
+        "hint_prompt": "What does temperature do to the particles?",
+        "hint_prompt_fr": "Que fait la température aux particules ?",
+        "config": {},
+        "choices": [
+          {"text": "Glass A, because cold molecules rest more", "text_fr": "Le verre A, car les molécules froides se reposent", "correct": false},
+          {"text": "Glass B, because hot particles collide harder", "text_fr": "Le verre B, car les particules chaudes se cognent plus fort", "correct": true},
+          {"text": "Both equally, ink moves at the same pace", "text_fr": "Les deux pareil, l'encre avance au même pas", "correct": false},
+          {"text": "Impossible to know without measuring", "text_fr": "Impossible à savoir sans mesurer", "correct": false}
+        ],
+        "hints": [
+          {"text": "Temperature is the speed of particle collisions inside.", "text_fr": "La température mesure la rapidité des collisions de particules à l'intérieur."}
+        ]
+      }
+    },
+    {
+      "kind": "explain",
+      "title": "So fast in gas, so slow in solid",
+      "title_fr": "Si vite dans le gaz, si lent dans le solide",
+      "content": "Diffusion is fastest in gases and slowest in solids, and the reason is geometric. In a gas, particles fly in between great empty spaces, so one perfume molecule can cross the whole room in seconds. In a liquid, neighbours jostle and slow the journey, dropping the same dye takes minutes to hours. In a solid like salt in salt, the neighbours are pinned in a lattice, and the process may take centuries, which is why old coins keep their colour under their crust. State of matter alone already predicts the timescale.",
+      "content_fr": "La diffusion est la plus rapide dans les gaz et la plus lente dans les solides, et la raison est géométrique. Dans un gaz, les particules volent entre de grands espaces vides, donc une molécule de parfum peut traverser la pièce en quelques secondes. Dans un liquide, les voisines se bousculent et ralentissent le voyage : la même teinture prend des minutes ou des heures. Dans un solide, les voisines sont clouées dans un réseau, et le processus peut durer des siècles — c'est pour ça que les vieilles pièces gardent leur couleur sous la patine. L'état de la matière, à lui seul, prédit déjà le temps qu'il faudra.",
+      "xp": 10
+    },
+    {
+      "kind": "question",
+      "title": "Check: the invisible letters in the air",
+      "title_fr": "Vérification : les traces invisibles dans l'air",
+      "content": "Please read the two scenarios carefully because one of them is a trap: a match struck on the balcony makes the whole staircase smell of sulfur within a minute, while sugar placed dry in a cupboard does not sweeten the cupboard air even after a year. Ask yourself which property of air versus solid packaging explains the difference — the answer shapes how scientists store food and design perfumes.",
+      "content_fr": "Lis bien les deux scénarios, car l'un est un piège : allumer une allumette sur le balcon embaume tout l'escalier en une minute, tandis qu'un paquet de sucre posé sec dans un placard ne parfume jamais l'air, même après un an. Demande-toi quelle propriété de l'air, comparée à l'emballage solide, explique cette différence — la réponse pilote comment les scientifiques conservent les aliments et dessinent les parfums.",
+      "required": true,
+      "xp": 10,
+      "question": {
+        "kind": "mcq",
+        "difficulty": 2,
+        "text": "Why does light sulfur from a struck match spread fast in the air of the staircase?",
+        "text_fr": "Pourquoi la légère odeur de soufre d'une allumette se répand-elle vite dans l'air ?",
+        "explanation": "Air is a gas: its particles are free to move far between collisions, so diffusion travels quickly.",
+        "explanation_fr": "L'air est un gaz : ses particules sont libres et parcourent de grandes distances entre les collisions, donc la diffusion avance vite.",
+        "hint_prompt": "In a gas the particles travel far between crashes.",
+        "hint_prompt_fr": "Dans un gaz, les particules voyagent loin entre deux collisions.",
+        "config": {},
+        "choices": [
+          {"text": "The match sends tiny sulfur letters by itself", "text_fr": "L'allumette envoie elle-même des lettres de soufre", "correct": false},
+          {"text": "Air particles carry the smell quickly because gases diffuse fast", "text_fr": "Les particules d'air portent l'odeur vite car les gaz diffusent rapidement", "correct": true},
+          {"text": "The match is hotter than the staircase so it explodes", "text_fr": "L'allumette est plus chaude que l'escalier donc elle explose", "correct": false},
+          {"text": "Staircases always smell of matches", "text_fr": "Les escaliers sentent toujours l'allumette", "correct": false}
+        ],
+        "hints": [
+          {"text": "Gas + freedom of particles = quick spread.", "text_fr": "Gaz + liberté des particules = diffusion rapide."}
+        ]
+      }
+    },
+    {
+      "kind": "summary",
+      "title": "Key takeaways",
+      "title_fr": "Les points clés",
+      "content": "Diffusion is the self-driven spreading of particles from where they crowd to where they are few, with no stirring, no wind and no pump. It travels in gases in seconds, in liquids in minutes or hours, and almost nowhere in solids. Temperature steers it: hotter particles collide harder and spread faster, which is why warm kitchens fill with smells and fridges keep food safer. One simple sentence now explains how smells travel, how dyes colour water and why chemists respect particle theory in homes, labs and industry.",
+      "content_fr": "La diffusion est l'étalement autonome des particules de là où elles sont nombreuses vers là où elles sont rares, sans cuillère, sans vent, sans pompe. Elle avance en secondes dans les gaz, en minutes ou heures dans les liquides, et presque nulle part dans les solides. La température la pilote : des particules plus chaudes se bousculent plus fort et s'étalent plus vite, c'est pourquoi les cuisines chaudes embaument et les frigos gardent la nourriture plus sûre. Une phrase simple explique désormais comment les odeurs voyagent, comment les colorants teintent l'eau, et pourquoi les chimistes font confiance à la théorie des particules dans les maisons, les laboratoires et l'industrie.",
+      "xp": 10
+    }
+  ],
+  "quiz": {
+    "title": "Quiz: Diffusion",
+    "title_fr": "Quiz : la diffusion",
+    "pass_score": 60,
+    "questions": [
+      {
+        "kind": "mcq",
+        "difficulty": 1,
+        "text": "Diffusion is best described as...",
+        "text_fr": "La diffusion se décrit le mieux comme…",
+        "explanation": "Particles spreading from crowded to sparse regions, all by themselves.",
+        "explanation_fr": "Des particules qui se déplacent d'où elles sont nombreuses vers où elles sont rares, toutes seules.",
+        "hint_prompt": "Think crowded versus rare.",
+        "hint_prompt_fr": "Pense nombreux contre rares.",
+        "config": {},
+        "choices": [
+          {"text": "particles pushed by wind or stirring", "text_fr": "des particules poussées par le vent ou l'agitation", "correct": false},
+          {"text": "particles spreading from crowded to sparse areas on their own", "text_fr": "des particules qui s'étendent des zones nombreuses aux zones rares d'elles-mêmes", "correct": true},
+          {"text": "water that turns into steam", "text_fr": "de l'eau qui devient de la vapeur", "correct": false},
+          {"text": "atoms that disappear when heated", "text_fr": "des atomes qui disparaissent quand il fait chaud", "correct": false}
+        ],
+        "hints": [
+          {"text": "No fan, no spoon, no bit of magic — just particles.", "text_fr": "Pas de ventilateur, pas de cuillère, pas de magie — juste des particules."}
+        ]
+      },
+      {
+        "kind": "mcq",
+        "difficulty": 1,
+        "text": "In which state does diffusion happen fastest?",
+        "text_fr": "Dans quel état la diffusion est-elle la plus rapide ?",
+        "explanation": "Gases: particles are free and spread far apart, so they travel quickly.",
+        "explanation_fr": "Les gaz : les particules sont libres et écartées, donc elles avancent vite.",
+        "hint_prompt": "Particles are... freer where?",
+        "hint_prompt_fr": "Les particules sont... plus libres où ?",
+        "config": {},
+        "choices": [
+          {"text": "in solids", "text_fr": "dans les solides", "correct": false},
+          {"text": "in liquids", "text_fr": "dans les liquides", "correct": false},
+          {"text": "in gases", "text_fr": "dans les gaz", "correct": true},
+          {"text": "same speed everywhere", "text_fr": "même vitesse partout", "correct": false}
+        ],
+        "hints": [
+          {"text": "Smell a match in the air, then try to smell it inside a brick.", "text_fr": "Sens une allumette dans l'air, puis essaie de la sentir à l'intérieur d'une brique."}
+        ]
+      },
+      {
+        "kind": "mcq",
+        "difficulty": 2,
+        "text": "How does warming up water change the diffusion of a tea drop?",
+        "text_fr": "Comment le réchauffage de l'eau change-t-il la diffusion d'une goutte de thé ?",
+        "explanation": "Hotter particles collide harder and spread dye faster, so diffusion accelerates.",
+        "explanation_fr": "Des particules plus chaudes se cognent plus fort et répandent le colorant plus vite, donc la diffusion accélère.",
+        "hint_prompt": "Heat gives particles more...",
+        "hint_prompt_fr": "La chaleur donne aux particules plus de…",
+        "config": {},
+        "choices": [
+          {"text": "Diffusion slows down", "text_fr": "La diffusion ralentit", "correct": false},
+          {"text": "Diffusion stays the same", "text_fr": "La diffusion reste la même", "correct": false},
+          {"text": "Diffusion speeds up", "text_fr": "La diffusion accélère", "correct": true},
+          {"text": "Diffusion stops entirely", "text_fr": "La diffusion s'arrête entièrement", "correct": false}
+        ],
+        "hints": [
+          {"text": "Temperature is the internal mess of particles at a faster pace.", "text_fr": "La température est le chaos interne des particules, à rythme accru."}
+        ]
+      },
+      {
+        "kind": "mcq",
+        "difficulty": 2,
+        "text": "A crystal of potassium permanganate lies in still water and the colour slowly spreads. What moves it?",
+        "text_fr": "Un cristal de permanganate de potassium pose dans de l'eau immobile et la couleur s'étale doucement. Qu'est-ce qui la déplace ?",
+        "explanation": "Water molecules collide with dye particles continually and carry them away, bump by bump.",
+        "explanation_fr": "Les molécules d'eau heurtent en permanence les particules de colorant et les emportent, collision après collision.",
+        "hint_prompt": "Invisible collisions do the work.",
+        "hint_prompt_fr": "Des collisions invisibles font le travail.",
+        "config": {},
+        "choices": [
+          {"text": "The dissolved salt pushes it", "text_fr": "Le sel dissous la pousse", "correct": false},
+          {"text": "Water molecules bump into the dye and carry it", "text_fr": "Les molécules d'eau bousculent le colorant et l'emportent", "correct": true},
+          {"text": "Gravity pulls the colour down", "text_fr": "La gravité tire la couleur vers le bas", "correct": false},
+          {"text": "The glass container attracts it", "text_fr": "Le récipient de verre l'attire", "correct": false}
+        ],
+        "hints": [
+          {"text": "Nothing stirs the glass — yet colour moves.", "text_fr": "Rien ne remue le verre — pourtant la couleur voyage."}
+        ]
+      },
+      {
+        "kind": "mcq",
+        "difficulty": 3,
+        "text": "Why does dry salt in a closed tin box not diffuse into the kitchen air?",
+        "text_fr": "Pourquoi le sel sec d'une boîte fermée ne se diffuse-t-il pas dans la cuisine ?",
+        "explanation": "Salt is a solid: its particles are locked in a lattice and barely move, so no diffusion into the air.",
+        "explanation_fr": "Le sel est un solide : ses particules sont bloquées dans un réseau et bougent à peine, donc pas de diffusion dans l'air.",
+        "hint_prompt": "Locked versus free particles.",
+        "hint_prompt_fr": "Particules bloquées contre particules libres.",
+        "config": {},
+        "choices": [
+          {"text": "It follows tin always", "text_fr": "Le sel suit toujours la boîte", "correct": false},
+          {"text": "Solids are locked in place, diffusion almost absent", "text_fr": "Les solides sont bloqués en place, la diffusion est quasi nulle", "correct": true},
+          {"text": "The lid is too heavy", "text_fr": "Le couvercle est trop lourd", "correct": false},
+          {"text": "Salt dislikes kitchens", "text_fr": "Le sel n'aime pas les cuisines", "correct": false}
+        ],
+        "hints": [
+          {"text": "Only free or loosely-bound particles can travel.", "text_fr": "Seules les particules libres ou peu liées voyagent."}
+        ]
+      }
+    ]
+  }
+}

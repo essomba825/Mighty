@@ -297,7 +297,50 @@ ATOMS = [
 ]
 
 
+# ------------------------------------------------------------- Chimie : diffusion
+DIFFUSION = [
+    dict(en="Exercise 1 - Spot the definition",
+         en_txt="Finish the sentence: diffusion is the spreading of particles "
+                "from a region where they are ... to a region where they are ... .",
+         fr_txt="Complete : la diffusion est l'etalement des particules "
+                "d'une region ou elles sont ... vers une region ou elles sont ... .",
+         sol="Ex. 1 - ... nombreuses ... vers ... rares (jusqu'a l'equilibre)."),
+    dict(en="Exercise 2 - Fast or slow",
+         en_txt="Rank from fastest to slowest diffusion: color in still water, perfume in air, salt inside a solid block.",
+         fr_txt="Classe de la plus rapide a la plus lente : couleur dans de l'eau immobile, parfum dans l'air, sel dans un bloc solide.",
+         sol="Ex. 2 - Parfum dans l'air (gaz) > couleur dans l'eau (liquide) > sel dans le bloc (solide, quasi nul)."),
+    dict(en="Exercise 3 - Turn the heat up",
+         en_txt="The same dye spreads in a glass of cold water and in a glass of warm water. "
+                "Where does it spread faster, and why (one sentence)?",
+         fr_txt="Le meme colorant s'etale dans un verre d'eau froide et dans un verre d'eau chaude. "
+                "Dans lequel va-t-il plus vite, et pourquoi (une phrase) ?",
+         sol="Ex. 3 - Dans l'eau chaude : les particules plus chaudes se bousculent plus fort."),
+    dict(en="Exercise 4 - The sealed cupboard",
+         en_txt="A sealed tin keeps dry biscuits in a cupboard. After one year, the cupboard air still has no biscuit smell. "
+                "Use particle ideas to explain why.",
+         fr_txt="Une boite fermee garde des biscuits au sec dans un placard. Apres un an, l'air du placard ne sent toujours rien. "
+                "Explique pourquoi avec l'idee des particules.",
+         sol="Ex. 4 - Les biscuits sont des solides : leurs particules sont bloquees en reseau, la diffusion vers l'air est quasi impossible."),
+    dict(en="Exercise 5 - Perfume at home",
+         en_txt="A perfume sprayed on the balcony reaches the stairs within a minute. "
+                "Which state of matter helps it so much, and how?",
+         fr_txt="Un parfum pulverise sur le balcon atteint l'escalier en une minute. "
+                "Quel etat de la matiere l'aide autant, et comment ?",
+         sol="Ex. 5 - Le gaz : les particules y sont libres et parcourent de grandes distances entre collisions."),
+    dict(en="Exercise 6 - Unfold the purple crystal",
+         en_txt="Describe what happens when a crystal of potassium permanganate is dropped into still water. "
+                "Say what actually moves the colour.",
+         fr_txt="Decris ce qui se passe quand un cristal de permanganate de potassium tombe dans de l'eau immobile. "
+                "Dis ce qui deplace vraiment la couleur.",
+         sol="Ex. 6 - La couleur s'etale doucement de proche en proche ; les molecules d'eau bousculent les particules de colorant et les emportent (diffusion)."),
+]
+
+
 if __name__ == '__main__':
+    build('diffusion-exercices.pdf', 'Diffusion - Practice worksheet',
+          'GCE Ordinary Level Chemistry - La diffusion', DIFFUSION, with_solutions=False)
+    build('diffusion-corrige.pdf', 'Diffusion - Answer key',
+          'GCE Ordinary Level Chemistry - La diffusion - Corrige', DIFFUSION, with_solutions=True)
     build('atoms-exercices.pdf', 'Atoms, Elements and Compounds - Practice worksheet',
           'GCE Ordinary Level Chemistry - Atomes, elements et composes', ATOMS, with_solutions=False)
     build('atoms-corrige.pdf', 'Atoms, Elements and Compounds - Answer key',
