@@ -336,7 +336,42 @@ DIFFUSION = [
 ]
 
 
+# ------------------------------------- Chimie AL : concentration molaire
+MOLAR = [
+    dict(en="Exercise 1 - Read the roles",
+         en_txt="Water + salt removed in a beaker: name the solute and the solvent.",
+         fr_txt="Eau + sel dissous dans un becher : nomme le solute et le solvant.",
+         sol="Ex. 1 - Soluté : le sel ; solvant : l'eau."),
+    dict(en="Exercise 2 - Grams to moles",
+         en_txt="Convert 5.85 g of NaCl into moles (M = 58.5 g/mol).",
+         fr_txt="Convertis 5,85 g de NaCl en moles (M = 58,5 g/mol).",
+         sol="Ex. 2 - n = m / M = 5,85 / 58,5 = 0,1 mol."),
+    dict(en="Exercise 3 - A saline stock",
+         en_txt="0.2 mol of NaCl is made up to 0.25 L. Compute the molarity.",
+         fr_txt="0,2 mol de NaCl est complété à 0,25 L. Calcule la molarité.",
+         sol="Ex. 3 - c = n / V = 0,2 / 0,25 = 0,8 mol/L."),
+    dict(en="Exercise 4 - From a bottle's label",
+         en_txt="A bottle reads 2.0 mol/L HCl. How many moles stand inside a 25 mL portion?",
+         fr_txt="Un flacon indique 2,0 mol/L de HCl. Combien de moles y a-t-il dans 25 mL ?",
+         sol="Ex. 4 - 25 mL = 0,025 L. n = c x V = 2,0 x 0,025 = 0,05 mol (50 mmol)."),
+    dict(en="Exercise 5 - Dilute to order",
+         en_txt="Take 10 mL of a 2 mol/L stock and add water up to 100 mL. What is the new concentration?",
+         fr_txt="On prend 10 mL d'un stock a 2 mol/L et on complete a 100 mL avec de l'eau. Quelle est la nouvelle concentration ?",
+         sol="Ex. 5 - C1V1 = C2V2 : 2 x 10 = C2 x 100, donc C2 = 0,2 mol/L."),
+    dict(en="Exercise 6 - All in one",
+         en_txt="Dissolve 4 g of NaOH (M = 40 g/mol) and top up to 500 mL. "
+                "Give the molarity of the final solution step by step.",
+         fr_txt="On dissout 4 g de NaOH (M = 40 g/mol) et on complete a 500 mL. "
+                "Donne la molarite de la solution finale, etape par etape.",
+         sol="Ex. 6 - n = 4 / 40 = 0,1 mol ; V = 0,500 L ; c = 0,1 / 0,500 = 0,2 mol/L."),
+]
+
+
 if __name__ == '__main__':
+    build('molar-exercices.pdf', 'Molar Concentration - Practice worksheet',
+          'GCE Advanced Level Chemistry - Concentration molaire', MOLAR, with_solutions=False)
+    build('molar-corrige.pdf', 'Molar Concentration - Answer key',
+          'GCE Advanced Level Chemistry - Concentration molaire - Corrige', MOLAR, with_solutions=True)
     build('diffusion-exercices.pdf', 'Diffusion - Practice worksheet',
           'GCE Ordinary Level Chemistry - La diffusion', DIFFUSION, with_solutions=False)
     build('diffusion-corrige.pdf', 'Diffusion - Answer key',
