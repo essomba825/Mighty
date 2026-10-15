@@ -1,0 +1,347 @@
+{
+  "lesson": 85,
+  "status": "published",
+  "lesson_fields": {
+    "title": "Rates of Reaction",
+    "title_fr": "Vitesse de reaction",
+    "summary": "The rate of a reaction measures how quickly reactants turn into products. Collision theory explains why concentration, temperature, surface area and catalysts change the rate.",
+    "summary_fr": "La vitesse d'une reaction mesure la rapidite avec laquelle les reactifs deviennent des produits. La theorie des collisions explique pourquoi la concentration, la temperature, la surface de contact et les catalyseurs changent cette vitesse.",
+    "content": "## Measuring a rate\n\nWe follow the amount of a reactant used up or a product formed over time. We can watch a gas volume, a loss in mass, or a colour change.\n\n## Collision theory\n\nParticles must collide with enough energy for a reaction to happen. More collisions, or harder collisions, mean a faster reaction.",
+    "content_fr": "## Mesurer une vitesse\n\nOn suit la quantite d'un reactif consomme ou d'un produit forme au cours du temps. On peut observer un volume de gaz, une perte de masse ou un changement de couleur.\n\n## Theorie des collisions\n\nLes particules doivent se heurter avec assez d'energie pour que la reaction ait lieu. Plus de chocs, ou des chocs plus violents, signifient une reaction plus rapide.",
+    "objectives": [
+      "Explain what the rate of a reaction measures",
+      "Use collision theory to explain the effect of temperature and concentration",
+      "Describe how a catalyst changes the rate"
+    ],
+    "objectives_fr": [
+      "Expliquer ce que mesure la vitesse d'une reaction",
+      "Utiliser la theorie des collisions pour expliquer l'effet de la temperature et de la concentration",
+      "Decrire comment un catalyseur change la vitesse"
+    ],
+    "estimated_minutes": 25
+  },
+  "steps": [
+    {
+      "kind": "concept",
+      "title": "What the rate means",
+      "title_fr": "Ce que signifie la vitesse",
+      "content": "The rate of a reaction is the change in amount over the change in time. A fast reaction uses up its reactants in seconds, a slow one may take hours or days.\n\nWe can measure the rate by collecting a gas and reading its volume, or by weighing the flask as a gas escapes.",
+      "content_fr": "La vitesse d'une reaction est la variation de quantite divisee par la variation de temps. Une reaction rapide consomme ses reactifs en quelques secondes, une reaction lente peut prendre des heures ou des jours.\n\nOn peut mesurer la vitesse en recueillant un gaz et en lisant son volume, ou en pesant le flacon lorsqu'un gaz s'echappe.",
+      "required": true,
+      "xp": 10,
+      "question": {
+        "kind": "mcq",
+        "text": "What does the rate of a reaction measure?",
+        "text_fr": "Que mesure la vitesse d'une reaction ?",
+        "explanation": "It measures how quickly reactants are used or products are formed.",
+        "explanation_fr": "Elle mesure la rapidite avec laquelle les reactifs sont consommes ou les produits formes.",
+        "hint_prompt": "It is about how fast, not how much in total.",
+        "hint_prompt_fr": "Il s'agit de la rapidite, pas de la quantite totale.",
+        "choices": [
+          {
+            "text": "How quickly the change happens",
+            "text_fr": "La rapidite avec laquelle la transformation a lieu",
+            "correct": true
+          },
+          {
+            "text": "The final colour",
+            "text_fr": "La couleur finale",
+            "correct": false
+          },
+          {
+            "text": "The cost of the chemicals",
+            "text_fr": "Le cout des produits chimiques",
+            "correct": false
+          }
+        ],
+        "hints": [
+          {
+            "text": "It involves time.",
+            "text_fr": "Cela fait intervenir le temps."
+          }
+        ]
+      }
+    },
+    {
+      "kind": "explain",
+      "title": "Collision theory and the factors",
+      "title_fr": "Theorie des collisions et les facteurs",
+      "content": "Particles react only when they collide with enough energy.\n\n- Higher temperature: particles move faster, so collisions are more frequent and harder\n- Higher concentration: more particles in the same space, so more collisions\n- Larger surface area: more particles exposed, so more collisions\n- A catalyst: gives a path that needs less energy",
+      "content_fr": "Les particules ne reagissent que lorsqu'elles se heurtent avec assez d'energie.\n\n- Temperature plus elevee : les particules bougent plus vite, les chocs sont donc plus frequents et plus violents\n- Concentration plus forte : plus de particules dans le meme volume, donc plus de chocs\n- Surface plus grande : plus de particules exposees, donc plus de chocs\n- Un catalyseur : offre un chemin qui demande moins d'energie",
+      "required": true,
+      "xp": 10
+    },
+    {
+      "kind": "example",
+      "title": "Worked example: heating the mixture",
+      "title_fr": "Exemple resolu : chauffer le melange",
+      "content": "A reaction at room temperature is slow. When warmed, the particles gain energy and move faster.\n\nThe collisions become more frequent and more energetic, so the rate rises. In many reactions a rise of ten degrees roughly doubles the rate.",
+      "content_fr": "Une reaction a temperature ambiante est lente. Quand on la chauffe, les particules gagnent de l'energie et se deplacent plus vite.\n\nLes chocs deviennent plus frequents et plus energiques, donc la vitesse augmente. Dans beaucoup de reactions, une hausse de dix degres double a peu pres la vitesse.",
+      "required": true,
+      "xp": 12
+    },
+    {
+      "kind": "practice",
+      "title": "Your turn: marble chips",
+      "title_fr": "A toi : les morceaux de marbre",
+      "content": "Two equal masses of marble chips react with acid. One sample is a single large lump, the other is crushed into powder. Decide which reacts faster.",
+      "content_fr": "Deux masses egales de morceaux de marbre reagissent avec un acide. Un echantillon est un seul gros bloc, l'autre est reduit en poudre. Determine lequel reagit le plus vite.",
+      "required": true,
+      "xp": 12,
+      "question": {
+        "kind": "mcq",
+        "text": "Which sample reacts faster with the acid?",
+        "text_fr": "Quel echantillon reagit le plus vite avec l'acide ?",
+        "explanation": "The powder has a far larger surface area, so more particles can collide at once.",
+        "explanation_fr": "La poudre a une surface beaucoup plus grande, donc plus de particules peuvent se heurter en meme temps.",
+        "hint_prompt": "Think about exposed surface.",
+        "hint_prompt_fr": "Pense a la surface exposee.",
+        "choices": [
+          {
+            "text": "The powder",
+            "text_fr": "La poudre",
+            "correct": true
+          },
+          {
+            "text": "The large lump",
+            "text_fr": "Le gros bloc",
+            "correct": false
+          },
+          {
+            "text": "Both react at the same rate",
+            "text_fr": "Les deux reagissent a la meme vitesse",
+            "correct": false
+          }
+        ],
+        "hints": [
+          {
+            "text": "Breaking a solid exposes more of it.",
+            "text_fr": "Briser un solide en expose davantage."
+          }
+        ]
+      }
+    },
+    {
+      "kind": "question",
+      "title": "Check: catalysts",
+      "title_fr": "Verification : les catalyseurs",
+      "content": "A catalyst speeds up a reaction by offering a path that needs less energy. It is not used up, so it can work again and again.",
+      "content_fr": "Un catalyseur accelere une reaction en offrant un chemin qui demande moins d'energie. Il n'est pas consomme, donc il peut agir encore et encore.",
+      "required": true,
+      "xp": 12,
+      "question": {
+        "kind": "mcq",
+        "text": "What happens to a catalyst during a reaction?",
+        "text_fr": "Que devient un catalyseur pendant une reaction ?",
+        "explanation": "A catalyst is not used up, so it is still present at the end.",
+        "explanation_fr": "Un catalyseur n'est pas consomme, il est donc encore present a la fin.",
+        "hint_prompt": "Can it be used more than once?",
+        "hint_prompt_fr": "Peut-il servir plusieurs fois ?",
+        "choices": [
+          {
+            "text": "It is unchanged at the end",
+            "text_fr": "Il reste inchange a la fin",
+            "correct": true
+          },
+          {
+            "text": "It is used up completely",
+            "text_fr": "Il est entierement consomme",
+            "correct": false
+          },
+          {
+            "text": "It becomes a product",
+            "text_fr": "Il devient un produit",
+            "correct": false
+          }
+        ],
+        "hints": [
+          {
+            "text": "Being reusable is the key property.",
+            "text_fr": "Pouvoir resservir est la propriete cle."
+          }
+        ]
+      }
+    },
+    {
+      "kind": "summary",
+      "title": "What to keep",
+      "title_fr": "A retenir",
+      "content": "The rate tells how fast reactants turn into products. Collision theory says particles must hit hard enough. Temperature, concentration and surface area raise the number of collisions, and a catalyst lowers the energy needed.",
+      "content_fr": "La vitesse indique la rapidite avec laquelle les reactifs deviennent des produits. La theorie des collisions dit que les particules doivent se heurter assez fort. La temperature, la concentration et la surface augmentent le nombre de chocs, et un catalyseur abaisse l'energie demandee.",
+      "required": false,
+      "xp": 5
+    }
+  ],
+  "quiz": {
+    "title": "Rates of Reaction",
+    "title_fr": "Vitesse de reaction",
+    "pass_score": 60,
+    "questions": [
+      {
+        "kind": "mcq",
+        "text": "Which change makes a reaction faster?",
+        "text_fr": "Quel changement rend une reaction plus rapide ?",
+        "explanation": "Heating gives the particles more energy, so they collide harder and more often.",
+        "explanation_fr": "Chauffer donne plus d'energie aux particules, elles se heurtent donc plus fort et plus souvent.",
+        "hint_prompt": "Which one gives the particles more energy?",
+        "hint_prompt_fr": "Lequel donne plus d'energie aux particules ?",
+        "choices": [
+          {
+            "text": "Warming the mixture",
+            "text_fr": "Chauffer le melange",
+            "correct": true
+          },
+          {
+            "text": "Cooling the mixture",
+            "text_fr": "Refroidir le melange",
+            "correct": false
+          },
+          {
+            "text": "Adding water only",
+            "text_fr": "Ajouter seulement de l'eau",
+            "correct": false
+          }
+        ],
+        "hints": [
+          {
+            "text": "Heat means faster particles.",
+            "text_fr": "Chaleur veut dire particules plus rapides."
+          }
+        ],
+        "difficulty": 1
+      },
+      {
+        "kind": "mcq",
+        "text": "Why does a higher concentration speed up a reaction?",
+        "text_fr": "Pourquoi une concentration plus forte accelere-t-elle une reaction ?",
+        "explanation": "More particles in the same space mean more collisions.",
+        "explanation_fr": "Plus de particules dans le meme volume signifient plus de chocs.",
+        "hint_prompt": "Think about how crowded the particles are.",
+        "hint_prompt_fr": "Pense a l'encombrement des particules.",
+        "choices": [
+          {
+            "text": "There are more collisions",
+            "text_fr": "Il y a plus de chocs",
+            "correct": true
+          },
+          {
+            "text": "The particles get heavier",
+            "text_fr": "Les particules deviennent plus lourdes",
+            "correct": false
+          },
+          {
+            "text": "The temperature drops",
+            "text_fr": "La temperature baisse",
+            "correct": false
+          }
+        ],
+        "hints": [
+          {
+            "text": "More particles, more meetings.",
+            "text_fr": "Plus de particules, plus de rencontres."
+          }
+        ],
+        "difficulty": 1
+      },
+      {
+        "kind": "mcq",
+        "text": "How does a catalyst speed up a reaction?",
+        "text_fr": "Comment un catalyseur accelere-t-il une reaction ?",
+        "explanation": "It offers a path that needs less energy.",
+        "explanation_fr": "Il offre un chemin qui demande moins d'energie.",
+        "hint_prompt": "It changes the energy needed, not the particles.",
+        "hint_prompt_fr": "Il change l'energie demandee, pas les particules.",
+        "choices": [
+          {
+            "text": "It lowers the energy needed",
+            "text_fr": "Il abaisse l'energie demandee",
+            "correct": true
+          },
+          {
+            "text": "It raises the temperature",
+            "text_fr": "Il eleve la temperature",
+            "correct": false
+          },
+          {
+            "text": "It adds more reactant",
+            "text_fr": "Il ajoute plus de reactif",
+            "correct": false
+          }
+        ],
+        "hints": [
+          {
+            "text": "Think of a lower hill to climb.",
+            "text_fr": "Pense a une colline plus basse a gravir."
+          }
+        ],
+        "difficulty": 1
+      },
+      {
+        "kind": "mcq",
+        "text": "Powder reacts faster than a lump of the same mass. Why?",
+        "text_fr": "La poudre reagit plus vite qu'un bloc de meme masse. Pourquoi ?",
+        "explanation": "The powder has a larger surface area, so more particles can collide.",
+        "explanation_fr": "La poudre a une surface plus grande, donc plus de particules peuvent se heurter.",
+        "hint_prompt": "Compare the exposed surface.",
+        "hint_prompt_fr": "Compare la surface exposee.",
+        "choices": [
+          {
+            "text": "It has a larger surface area",
+            "text_fr": "Elle a une surface plus grande",
+            "correct": true
+          },
+          {
+            "text": "It is a different substance",
+            "text_fr": "C'est une substance differente",
+            "correct": false
+          },
+          {
+            "text": "It is colder",
+            "text_fr": "Elle est plus froide",
+            "correct": false
+          }
+        ],
+        "hints": [
+          {
+            "text": "Small pieces expose more material.",
+            "text_fr": "Les petits morceaux exposent plus de matiere."
+          }
+        ],
+        "difficulty": 1
+      },
+      {
+        "kind": "mcq",
+        "text": "Which measurement could follow a reaction that gives off a gas?",
+        "text_fr": "Quelle mesure pourrait suivre une reaction qui degage un gaz ?",
+        "explanation": "Collecting the gas and reading its volume over time follows the rate.",
+        "explanation_fr": "Recueillir le gaz et lire son volume au cours du temps suit la vitesse.",
+        "hint_prompt": "The gas has to go somewhere.",
+        "hint_prompt_fr": "Le gaz doit bien aller quelque part.",
+        "choices": [
+          {
+            "text": "The volume of gas collected",
+            "text_fr": "Le volume de gaz recueilli",
+            "correct": true
+          },
+          {
+            "text": "The colour of the bench",
+            "text_fr": "La couleur de la paillasse",
+            "correct": false
+          },
+          {
+            "text": "The mass of the room",
+            "text_fr": "La masse de la salle",
+            "correct": false
+          }
+        ],
+        "hints": [
+          {
+            "text": "We collect the gas as it forms.",
+            "text_fr": "On recueille le gaz au fur et a mesure."
+          }
+        ],
+        "difficulty": 2
+      }
+    ]
+  }
+}
