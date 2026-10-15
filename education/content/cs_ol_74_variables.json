@@ -1,0 +1,341 @@
+{
+  "lesson": 74,
+  "status": "published",
+  "lesson_fields": {
+    "title": "Variables, Strings and Numbers",
+    "title_fr": "Variables, chaines et nombres",
+    "summary": "A variable is a named box that stores a value. Text is a string and arithmetic uses numbers, and the two types behave differently.",
+    "summary_fr": "Une variable est une boite nommee qui stocke une valeur. Le texte est une chaine et les calculs utilisent des nombres, et ces deux types se comportent differemment.",
+    "content": "## Variables\n\n`name = \"Ama\"` stores the text Ama in a variable called name.\n\n## Two types\n\n- `\"7\"` is a string (text)\n- `7` is a number (integer)",
+    "content_fr": "## Les variables\n\n`name = \"Ama\"` stocke le texte Ama dans une variable appelee name.\n\n## Deux types\n\n- `\"7\"` est une chaine (du texte)\n- `7` est un nombre (un entier)",
+    "objectives": [
+      "Store a value in a variable and read it back",
+      "Tell a string apart from a number",
+      "Predict the result of adding or joining values"
+    ],
+    "objectives_fr": [
+      "Stocker une valeur dans une variable et la relire",
+      "Distinguer une chaine d'un nombre",
+      "Prevoir le resultat d'une addition ou d'une concatenation"
+    ],
+    "estimated_minutes": 25
+  },
+  "steps": [
+    {
+      "kind": "concept",
+      "title": "A box with a name",
+      "title_fr": "Une boite avec un nom",
+      "content": "A **variable** is a named box that stores a value. We give it a value with the sign `=`.\n\n`x = 4` puts 4 in the box called x. Later, `x = x + 2` replaces the content with 6.",
+      "content_fr": "Une **variable** est une boite nommee qui stocke une valeur. On lui donne une valeur avec le signe `=`.\n\n`x = 4` place 4 dans la boite appelee x. Plus tard, `x = x + 2` remplace le contenu par 6.",
+      "required": true,
+      "xp": 10,
+      "question": {
+        "kind": "numeric",
+        "text": "After `x = 4` and then `x = x + 2`, what is the value of x?",
+        "text_fr": "Apres `x = 4` puis `x = x + 2`, quelle est la valeur de x ?",
+        "explanation": "x takes its old value plus 2: 4 + 2 = 6.",
+        "explanation_fr": "x prend son ancienne valeur plus 2 : 4 + 2 = 6.",
+        "hint_prompt": "Read the right-hand side first.",
+        "hint_prompt_fr": "Lis d'abord le membre de droite.",
+        "config": {
+          "accepted": [
+            "6"
+          ]
+        },
+        "hints": [
+          {
+            "text": "Start from the value already in the box.",
+            "text_fr": "Pars de la valeur deja presente dans la boite."
+          },
+          {
+            "text": "4 + 2 = 6.",
+            "text_fr": "4 + 2 = 6."
+          }
+        ]
+      }
+    },
+    {
+      "kind": "explain",
+      "title": "Strings and numbers are different",
+      "title_fr": "Les chaines et les nombres sont differents",
+      "content": "`\"5\"` is a **string** because it sits between quotes. `5` is a **number**. Adding numbers computes a total, but joining strings glues text together.\n\n`5 + 3` gives 8, while `\"5\" + \"3\"` gives \"53\".",
+      "content_fr": "`\"5\"` est une **chaine** car il se trouve entre guillemets. `5` est un **nombre**. Additionner des nombres calcule un total, mais joindre des chaines colle du texte.\n\n`5 + 3` donne 8, alors que `\"5\" + \"3\"` donne \"53\".",
+      "required": true,
+      "xp": 10,
+      "question": {
+        "kind": "mcq",
+        "text": "What does `\"5\" + \"3\"` produce?",
+        "text_fr": "Que produit `\"5\" + \"3\"` ?",
+        "explanation": "Both are strings, so Python joins them into the string 53.",
+        "explanation_fr": "Ce sont deux chaines, Python les joint donc en la chaine 53.",
+        "hint_prompt": "Are these values text or numbers?",
+        "hint_prompt_fr": "Ces valeurs sont-elles du texte ou des nombres ?",
+        "choices": [
+          {
+            "text": "The text 53",
+            "text_fr": "Le texte 53",
+            "correct": true
+          },
+          {
+            "text": "The number 8",
+            "text_fr": "Le nombre 8",
+            "correct": false
+          },
+          {
+            "text": "An error",
+            "text_fr": "Une erreur",
+            "correct": false
+          }
+        ],
+        "hints": [
+          {
+            "text": "Quotes mean text, so there is no real addition.",
+            "text_fr": "Les guillemets indiquent du texte, il n'y a donc pas de vraie addition."
+          }
+        ]
+      }
+    },
+    {
+      "kind": "example",
+      "title": "Worked example: name and age",
+      "title_fr": "Exemple resolu : nom et age",
+      "content": "Look at this short program:\n\n`name = \"Ama\"`\n`age = 16`\n`print(name)`\n`print(age)`\n\nThe first value is a string, the second is a number. On the screen we read Ama, then 16.",
+      "content_fr": "Voici un petit programme :\n\n`name = \"Ama\"`\n`age = 16`\n`print(name)`\n`print(age)`\n\nLa premiere valeur est une chaine, la deuxieme est un nombre. A l'ecran on lit Ama, puis 16.",
+      "required": true,
+      "xp": 12
+    },
+    {
+      "kind": "practice",
+      "title": "Your turn: joining text",
+      "title_fr": "A toi : joindre du texte",
+      "content": "Two strings are joined with the sign +. For example, `\"Hi\" + \"!\"` produces the text Hi!.",
+      "content_fr": "On joint deux chaines avec le signe +. Par exemple, `\"Hi\" + \"!\"` produit le texte Hi!.",
+      "required": true,
+      "xp": 12,
+      "question": {
+        "kind": "text",
+        "text": "What text does `print(\"Hi\" + \"!\")` display?",
+        "text_fr": "Quel texte `print(\"Hi\" + \"!\")` affiche-t-il ?",
+        "explanation": "The two strings are glued together, giving Hi!.",
+        "explanation_fr": "Les deux chaines sont collees, ce qui donne Hi!.",
+        "hint_prompt": "Join the two pieces of text.",
+        "hint_prompt_fr": "Joins les deux morceaux de texte.",
+        "config": {
+          "accepted": [
+            "Hi!",
+            "hi!"
+          ],
+          "case_sensitive": false
+        },
+        "hints": [
+          {
+            "text": "There is no space between them.",
+            "text_fr": "Il n'y a pas d'espace entre les deux."
+          }
+        ]
+      }
+    },
+    {
+      "kind": "question",
+      "title": "Check: turning text into a number",
+      "title_fr": "Verification : transformer du texte en nombre",
+      "content": "The function `int()` turns a string into a number. So `int(\"7\")` is the number 7 and can be used in arithmetic.",
+      "content_fr": "La fonction `int()` transforme une chaine en nombre. Ainsi `int(\"7\")` est le nombre 7 et peut servir aux calculs.",
+      "required": true,
+      "xp": 12,
+      "question": {
+        "kind": "numeric",
+        "text": "What is the value of `int(\"7\") + 1`?",
+        "text_fr": "Quelle est la valeur de `int(\"7\") + 1` ?",
+        "explanation": "int(\"7\") becomes the number 7, then 7 + 1 = 8.",
+        "explanation_fr": "int(\"7\") devient le nombre 7, puis 7 + 1 = 8.",
+        "hint_prompt": "Convert first, then add.",
+        "hint_prompt_fr": "Convertis d'abord, puis additionne.",
+        "config": {
+          "accepted": [
+            "8"
+          ]
+        },
+        "hints": [
+          {
+            "text": "int(\"7\") is the number 7.",
+            "text_fr": "int(\"7\") est le nombre 7."
+          },
+          {
+            "text": "7 + 1 = 8.",
+            "text_fr": "7 + 1 = 8."
+          }
+        ]
+      }
+    },
+    {
+      "kind": "summary",
+      "title": "What to keep",
+      "title_fr": "A retenir",
+      "content": "A variable is a named box storing a value. `\"7\"` is a string, `7` is a number. Adding numbers computes, joining strings glues text, and `int()` converts text into a number.",
+      "content_fr": "Une variable est une boite nommee qui stocke une valeur. `\"7\"` est une chaine, `7` est un nombre. Additionner des nombres calcule, joindre des chaines colle du texte, et `int()` convertit du texte en nombre.",
+      "required": false,
+      "xp": 5
+    }
+  ],
+  "quiz": {
+    "title": "Variables, Strings and Numbers",
+    "title_fr": "Variables, chaines et nombres",
+    "pass_score": 60,
+    "questions": [
+      {
+        "kind": "mcq",
+        "text": "What is a variable?",
+        "text_fr": "Qu'est-ce qu'une variable ?",
+        "explanation": "A variable is a named box that stores a value.",
+        "explanation_fr": "Une variable est une boite nommee qui stocke une valeur.",
+        "hint_prompt": "Think of a labelled box.",
+        "hint_prompt_fr": "Pense a une boite etiquetee.",
+        "choices": [
+          {
+            "text": "A named box that stores a value",
+            "text_fr": "Une boite nommee qui stocke une valeur",
+            "correct": true
+          },
+          {
+            "text": "A kind of keyboard",
+            "text_fr": "Un type de clavier",
+            "correct": false
+          },
+          {
+            "text": "A number that never changes",
+            "text_fr": "Un nombre qui ne change jamais",
+            "correct": false
+          }
+        ],
+        "hints": [
+          {
+            "text": "It has a name and holds something.",
+            "text_fr": "Elle a un nom et contient quelque chose."
+          }
+        ],
+        "difficulty": 1
+      },
+      {
+        "kind": "numeric",
+        "text": "After `x = 10` and then `x = x + 5`, what is x?",
+        "text_fr": "Apres `x = 10` puis `x = x + 5`, que vaut x ?",
+        "explanation": "10 + 5 = 15.",
+        "explanation_fr": "10 + 5 = 15.",
+        "hint_prompt": "Add the new amount to the old value.",
+        "hint_prompt_fr": "Ajoute la nouvelle quantite a l'ancienne valeur.",
+        "config": {
+          "accepted": [
+            "15"
+          ]
+        },
+        "hints": [
+          {
+            "text": "Start from 10.",
+            "text_fr": "Pars de 10."
+          }
+        ],
+        "difficulty": 1
+      },
+      {
+        "kind": "mcq",
+        "text": "What type is the value \"Hello\"?",
+        "text_fr": "Quel est le type de la valeur \"Hello\" ?",
+        "explanation": "Quotes make it text, that is a string.",
+        "explanation_fr": "Les guillemets en font du texte, c'est donc une chaine.",
+        "hint_prompt": "Is it between quotes?",
+        "hint_prompt_fr": "Est-elle entre guillemets ?",
+        "choices": [
+          {
+            "text": "A string",
+            "text_fr": "Une chaine",
+            "correct": true
+          },
+          {
+            "text": "A number",
+            "text_fr": "Un nombre",
+            "correct": false
+          },
+          {
+            "text": "A comment",
+            "text_fr": "Un commentaire",
+            "correct": false
+          }
+        ],
+        "hints": [
+          {
+            "text": "Quotes mean text.",
+            "text_fr": "Les guillemets indiquent du texte."
+          }
+        ],
+        "difficulty": 1
+      },
+      {
+        "kind": "mcq",
+        "text": "What does `str(5) + \"0\"` produce?",
+        "text_fr": "Que produit `str(5) + \"0\"` ?",
+        "explanation": "str(5) is the string 5, joined with 0 it gives the text 50.",
+        "explanation_fr": "str(5) est la chaine 5, jointe a 0 elle donne le texte 50.",
+        "hint_prompt": "str() turns a number into text first.",
+        "hint_prompt_fr": "str() transforme d'abord un nombre en texte.",
+        "choices": [
+          {
+            "text": "The text 50",
+            "text_fr": "Le texte 50",
+            "correct": true
+          },
+          {
+            "text": "The number 5",
+            "text_fr": "Le nombre 5",
+            "correct": false
+          },
+          {
+            "text": "An error",
+            "text_fr": "Une erreur",
+            "correct": false
+          }
+        ],
+        "hints": [
+          {
+            "text": "After str(5) everything is text.",
+            "text_fr": "Apres str(5), tout est du texte."
+          }
+        ],
+        "difficulty": 2
+      },
+      {
+        "kind": "mcq",
+        "text": "Which line stores the number 7 in a variable called score?",
+        "text_fr": "Quelle ligne stocke le nombre 7 dans une variable appelee score ?",
+        "explanation": "The name goes on the left and the value on the right: score = 7.",
+        "explanation_fr": "Le nom se place a gauche et la valeur a droite : score = 7.",
+        "hint_prompt": "The name is on the left of the sign =.",
+        "hint_prompt_fr": "Le nom se trouve a gauche du signe =.",
+        "choices": [
+          {
+            "text": "score = 7",
+            "text_fr": "score = 7",
+            "correct": true
+          },
+          {
+            "text": "7 = score",
+            "text_fr": "7 = score",
+            "correct": false
+          },
+          {
+            "text": "score == 7",
+            "text_fr": "score == 7",
+            "correct": false
+          }
+        ],
+        "hints": [
+          {
+            "text": "One sign = stores a value.",
+            "text_fr": "Un seul signe = stocke une valeur."
+          }
+        ],
+        "difficulty": 1
+      }
+    ]
+  }
+}

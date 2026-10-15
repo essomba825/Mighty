@@ -1,0 +1,178 @@
+{
+  "lesson": 37,
+  "status": "published",
+  "lesson_fields": {
+    "title": "Charts and Graphs for Data",
+    "title_fr": "Graphiques et diagrammes de données",
+    "summary": "Bar charts, pie charts, line graphs: read, interpret and draw basic forms.",
+    "summary_fr": "Diagrammes en bâtons, camemberts, graphiques linéaires : lire, interpréter et dessiner les formes de base.",
+    "content": "## Types\n\n1. Bar chart: compare categories.\n2. Pie chart: shows parts of a whole (angles sum 360°).\n3. Line graph: shows trends over time.",
+    "content_fr": "Types\n\n1. Diagramme en bâtons : comparer catégories.\n2. Diagramme circulaire (camembert) : parts d'un tout (angles 360°).\n3. Graphe linéaire : tendances dans le temps.",
+    "objectives": [
+      "Read bar chart",
+      "Interpret pie chart",
+      "Read line graph",
+      "Extract values correctly"
+    ],
+    "objectives_fr": [
+      "Lire diagramme bâtons",
+      "Interpréter camembert",
+      "Lire graphe linéaire",
+      "Extraire valeurs correctement"
+    ],
+    "estimated_minutes": 25
+  },
+  "steps": [
+    {
+      "kind": "concept",
+      "title": "Bar chart",
+      "title_fr": "Diagramme en bâtons",
+      "content": "Height/length of bar represents frequency or value.",
+      "content_fr": "Hauteur/longueur du bâton représente fréquence ou valeur.",
+      "required": true,
+      "xp": 10,
+      "question": {
+        "kind": "numeric",
+        "text": "Bar chart: Maths 40, English 30. Difference = ?",
+        "text_fr": "Diagramme bâtons : Maths 40, Anglais 30. Différence = ?",
+        "explanation": "10.",
+        "explanation_fr": "10.",
+        "hint_prompt": "Subtract.",
+        "hint_prompt_fr": "Soustraire.",
+        "config": {"accepted": ["10"]},
+        "hints": [
+          {"text": "40 - 30 = 10.", "text_fr": "40 - 30 = 10."}
+        ]
+      }
+    },
+    {
+      "kind": "explain",
+      "title": "Pie chart angles",
+      "title_fr": "Angles du camembert",
+      "content": "Angle for sector = (value / total) × 360°.",
+      "content_fr": "Angle secteur = (valeur / total) × 360°.",
+      "required": true,
+      "xp": 12,
+      "question": {
+        "kind": "numeric",
+        "text": "Value 50 out of 200. Angle in pie chart (degrees) = ?",
+        "text_fr": "Valeur 50 sur 200. Angle au camembert (degrés) = ?",
+        "explanation": "(50/200)×360 = 90°.",
+        "explanation_fr": "(50/200)×360 = 90°.",
+        "hint_prompt": "(50/200)×360.",
+        "hint_prompt_fr": "(50/200)×360.",
+        "config": {"accepted": ["90"]},
+        "hints": [
+          {"text": "0.25 × 360 = 90.", "text_fr": "0,25 × 360 = 90."}
+        ]
+      }
+    },
+    {
+      "kind": "explain",
+      "title": "Line graph",
+      "title_fr": "Graphe linéaire",
+      "content": "Points connected by straight lines show trend over time.",
+      "content_fr": "Points reliés montrent tendance dans le temps.",
+      "required": true,
+      "xp": 10,
+      "question": {
+        "kind": "numeric",
+        "text": "Line graph: value at time 1 is 20, time 2 is 40. Increase = ?",
+        "text_fr": "Graphe linéaire : temps 1 = 20, temps 2 = 40. Augmentation = ?",
+        "explanation": "20.",
+        "explanation_fr": "20.",
+        "hint_prompt": "Subtract.",
+        "hint_prompt_fr": "Soustraire.",
+        "config": {"accepted": ["20"]},
+        "hints": [
+          {"text": "40 - 20 = 20.", "text_fr": "40 - 20 = 20."}
+        ]
+      }
+    },
+    {
+      "kind": "practice",
+      "title": "Totals",
+      "title_fr": "Totaux",
+      "content": "Total in pie = 100% or 360°.",
+      "content_fr": "Total camembert = 100% ou 360°.",
+      "required": false,
+      "xp": 10
+    },
+    {
+      "kind": "summary",
+      "title": "What to keep",
+      "title_fr": "À retenir",
+      "content": "Bar for comparison, pie for parts, line for trends.",
+      "content_fr": "Bâtons comparaison, camembert parts, ligne tendance.",
+      "required": false,
+      "xp": 5
+    }
+  ],
+  "quiz": {
+    "title": "Charts and graphs",
+    "title_fr": "Graphiques et diagrammes",
+    "pass_score": 60,
+    "questions": [
+      {
+        "kind": "numeric",
+        "text": "Pie chart total degrees = ?",
+        "text_fr": "Camembert total degrés = ?",
+        "explanation": "360.",
+        "explanation_fr": "360.",
+        "config": {"accepted": ["360"]},
+        "hints": [
+          {"text": "360.", "text_fr": "360."}
+        ],
+        "difficulty": 1
+      },
+      {
+        "kind": "numeric",
+        "text": "Bar chart: A 50, B 30, difference = ?",
+        "text_fr": "Bâtons : A 50, B 30, différence = ?",
+        "explanation": "20.",
+        "explanation_fr": "20.",
+        "config": {"accepted": ["20"]},
+        "hints": [
+          {"text": "50-30=20.", "text_fr": "50-30=20."}
+        ],
+        "difficulty": 1
+      },
+      {
+        "kind": "numeric",
+        "text": "Value 25% of 360° = ? degrees.",
+        "text_fr": "Valeur 25% de 360° = ? degrés.",
+        "explanation": "90.",
+        "explanation_fr": "90.",
+        "config": {"accepted": ["90"]},
+        "hints": [
+          {"text": "25% of 360 = 90.", "text_fr": "25% de 360 = 90."}
+        ],
+        "difficulty": 1
+      },
+      {
+        "kind": "numeric",
+        "text": "Line graph: 10 to 15, increase = ?",
+        "text_fr": "Graphe linéaire : 10 à 15, augmentation = ?",
+        "explanation": "5.",
+        "explanation_fr": "5.",
+        "config": {"accepted": ["5"]},
+        "hints": [
+          {"text": "5.", "text_fr": "5."}
+        ],
+        "difficulty": 1
+      },
+      {
+        "kind": "numeric",
+        "text": "Value 1/4 of pie chart = ? degrees.",
+        "text_fr": "Valeur 1/4 du camembert = ? degrés.",
+        "explanation": "90.",
+        "explanation_fr": "90.",
+        "config": {"accepted": ["90"]},
+        "hints": [
+          {"text": "360/4 = 90.", "text_fr": "360/4 = 90."}
+        ],
+        "difficulty": 1
+      }
+    ]
+  }
+}

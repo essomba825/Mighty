@@ -1,0 +1,321 @@
+{
+  "lesson": 32,
+  "status": "published",
+  "lesson_fields": {
+    "title": "Circles — Circumference and Area",
+    "title_fr": "Cercles — circonférence et aire",
+    "summary": "Circumference C = πd = 2πr and area A = πr². Learn to choose the right formula and handle π ≈ 3.14.",
+    "summary_fr": "Circonférence C = πd = 2πr et aire A = πr². On apprend à choisir la bonne formule et à utiliser π ≈ 3,14.",
+    "content": "## The two rules\n\nCircumference: C = πd = 2πr.\nArea: A = πr².",
+    "content_fr": "## Les deux règles\n\nCirconférence : C = πd = 2πr.\nAire : A = πr².",
+    "objectives": [
+      "Know radius, diameter and chord vocabulary",
+      "Calculate the circumference from the radius or diameter",
+      "Calculate the area of a circle",
+      "Solve a two-step problem mixing both formulas"
+    ],
+    "objectives_fr": [
+      "Connaître le vocabulaire : rayon, diamètre, corde",
+      "Calculer la circonférence à partir du rayon ou du diamètre",
+      "Calculer l'aire d'un disque",
+      "Résoudre un problème à deux étapes mêlant les deux formules"
+    ],
+    "estimated_minutes": 25
+  },
+  "steps": [
+    {
+      "kind": "concept",
+      "title": "Radius and diameter",
+      "title_fr": "Rayon et diamètre",
+      "content": "The radius goes from the centre to the edge. The diameter crosses the whole circle: it is twice the radius, d = 2r.\n\n_Figure: Jleedev — Public domain, via Wikimedia Commons._",
+      "content_fr": "Le rayon va du centre au bord. Le diamètre traverse tout le cercle : c'est le double du rayon, d = 2r.\n\n_Figure : Jleedev — Public domain, via Wikimedia Commons._",
+      "required": true,
+      "xp": 10,
+      "question": {
+        "kind": "numeric",
+        "text": "A circle has radius 13 cm. What is its diameter in cm?",
+        "text_fr": "Un cercle a un rayon de 13 cm. Quel est son diamètre en cm ?",
+        "explanation": "d = 2 × 13 = 26.",
+        "explanation_fr": "d = 2 × 13 = 26.",
+        "hint_prompt": "The diameter is twice the radius.",
+        "hint_prompt_fr": "Le diamètre est le double du rayon.",
+        "config": {
+          "accepted": [
+            "26"
+          ]
+        },
+        "hints": [
+          {
+            "text": "d = 2 × r.",
+            "text_fr": "d = 2 × r."
+          },
+          {
+            "text": "2 × 13 = 26.",
+            "text_fr": "2 × 13 = 26."
+          }
+        ]
+      }
+    },
+    {
+      "kind": "explain",
+      "title": "Circumference: going around",
+      "title_fr": "La circonférence : faire le tour",
+      "content": "C = πd = 2πr. With π ≈ 3.14, a circle of diameter 10 m measures about 31.4 m around.",
+      "content_fr": "C = πd = 2πr. Avec π ≈ 3,14, un cercle de diamètre 10 m mesure environ 31,4 m de tour.",
+      "required": true,
+      "xp": 10,
+      "question": {
+        "kind": "numeric",
+        "text": "A circle has diameter 10 m. Take π ≈ 3.14 and give its circumference in metres.",
+        "text_fr": "Un cercle a un diamètre de 10 m. Prends π ≈ 3,14 et donne sa circonférence en mètres.",
+        "explanation": "C = πd = 3.14 × 10 = 31.4.",
+        "explanation_fr": "C = πd = 3,14 × 10 = 31,4.",
+        "hint_prompt": "Use C = πd.",
+        "hint_prompt_fr": "Utilise C = πd.",
+        "config": {
+          "accepted": [
+            "31.4"
+          ],
+          "tolerance": 0.01
+        },
+        "hints": [
+          {
+            "text": "C = 3.14 × 10.",
+            "text_fr": "C = 3,14 × 10."
+          },
+          {
+            "text": "C = 31.4 m.",
+            "text_fr": "C = 31,4 m."
+          }
+        ]
+      }
+    },
+    {
+      "kind": "example",
+      "title": "Worked example: the bicycle wheel",
+      "title_fr": "Exemple résolu : la roue de vélo",
+      "content": "A wheel has radius 35 cm. One full turn covers C = 2πr = 2 × 3.14 × 35 = 219.8 cm, about 2.2 m.",
+      "content_fr": "Une roue a un rayon de 35 cm. Un tour complet parcourt C = 2πr = 2 × 3,14 × 35 = 219,8 cm, soit environ 2,2 m.",
+      "required": true,
+      "xp": 12
+    },
+    {
+      "kind": "practice",
+      "title": "Your turn: area of a pizza",
+      "title_fr": "À toi : l'aire d'une pizza",
+      "content": "A pizza has radius 15 cm. Take π ≈ 3.14 and compute its area in cm².",
+      "content_fr": "Une pizza a un rayon de 15 cm. Prends π ≈ 3,14 et calcule son aire en cm².",
+      "required": true,
+      "xp": 12,
+      "question": {
+        "kind": "numeric",
+        "text": "Radius 15 cm, π ≈ 3.14. Area in cm²?",
+        "text_fr": "Rayon 15 cm, π ≈ 3,14. Aire en cm² ?",
+        "explanation": "r² = 225, then 3.14 × 225 = 706.5.",
+        "explanation_fr": "r² = 225, puis 3,14 × 225 = 706,5.",
+        "hint_prompt": "Square the radius first, then multiply by π.",
+        "hint_prompt_fr": "Carré du rayon d'abord, puis multiplie par π.",
+        "config": {
+          "accepted": [
+            "706.5"
+          ],
+          "tolerance": 0.1
+        },
+        "hints": [
+          {
+            "text": "15² = 225.",
+            "text_fr": "15² = 225."
+          },
+          {
+            "text": "3.14 × 225 = 706.5.",
+            "text_fr": "3,14 × 225 = 706,5."
+          }
+        ]
+      }
+    },
+    {
+      "kind": "question",
+      "title": "Check: which formula?",
+      "title_fr": "Vérification : quelle formule ?",
+      "content": "Fence around a pond or grass to cover the pond? The words around and cover decide the formula.",
+      "content_fr": "Clôture autour d'un étang ou gazon pour couvrir l'étang ? Les mots autour et couvrir décident de la formule.",
+      "required": true,
+      "xp": 12,
+      "question": {
+        "kind": "mcq",
+        "text": "You want the length of a rope going around a circular pool. Which formula?",
+        "text_fr": "Tu veux la longueur d'une corde qui fait le tour d'une piscine ronde. Quelle formule ?",
+        "explanation": "Around = perimeter of the circle = circumference.",
+        "explanation_fr": "Autour = périmètre du cercle = circonférence.",
+        "hint_prompt": "Around or covering?",
+        "hint_prompt_fr": "Autour ou recouvrir ?",
+        "choices": [
+          {
+            "text": "A = πr²",
+            "text_fr": "A = πr²",
+            "correct": false
+          },
+          {
+            "text": "C = 2πr",
+            "text_fr": "C = 2πr",
+            "correct": true
+          },
+          {
+            "text": "A = r × r",
+            "text_fr": "A = r × r",
+            "correct": false
+          }
+        ],
+        "hints": [
+          {
+            "text": "Thinking about going around means thinking length, not surface.",
+            "text_fr": "Penser au tour, c'est penser à une longueur, pas à une surface."
+          }
+        ]
+      }
+    },
+    {
+      "kind": "summary",
+      "title": "What to keep",
+      "title_fr": "À retenir",
+      "content": "Around: C = πd = 2πr. Inside: A = πr². Diameter is twice the radius.",
+      "content_fr": "Le tour : C = πd = 2πr. La surface : A = πr². Le diamètre est le double du rayon.",
+      "required": false,
+      "xp": 5
+    }
+  ],
+  "quiz": {
+    "title": "Circles: circumference and area",
+    "title_fr": "Cercles : circonférence et aire",
+    "pass_score": 60,
+    "questions": [
+      {
+        "kind": "numeric",
+        "text": "Radius = 4 cm. Diameter in cm?",
+        "text_fr": "Rayon = 4 cm. Diamètre en cm ?",
+        "explanation": "d = 2r = 8.",
+        "explanation_fr": "d = 2r = 8.",
+        "hint_prompt": "Double the radius.",
+        "hint_prompt_fr": "Double le rayon.",
+        "config": {
+          "accepted": [
+            "8"
+          ]
+        },
+        "hints": [
+          {
+            "text": "d = 2 × 4.",
+            "text_fr": "d = 2 × 4."
+          }
+        ],
+        "difficulty": 1
+      },
+      {
+        "kind": "numeric",
+        "text": "Radius = 2 m, π ≈ 3.14. Circumference in metres?",
+        "text_fr": "Rayon = 2 m, π ≈ 3,14. Circonférence en mètres ?",
+        "explanation": "C = 2πr = 2 × 3.14 × 2 = 12.56.",
+        "explanation_fr": "C = 2πr = 2 × 3,14 × 2 = 12,56.",
+        "hint_prompt": "Use C = 2πr.",
+        "hint_prompt_fr": "Utilise C = 2πr.",
+        "config": {
+          "accepted": [
+            "12.56"
+          ],
+          "tolerance": 0.01
+        },
+        "hints": [
+          {
+            "text": "2 × 3.14 = 6.28.",
+            "text_fr": "2 × 3,14 = 6,28."
+          },
+          {
+            "text": "6.28 × 2 = 12.56.",
+            "text_fr": "6,28 × 2 = 12,56."
+          }
+        ],
+        "difficulty": 2
+      },
+      {
+        "kind": "numeric",
+        "text": "Radius = 10 cm, π ≈ 3.14. Area in cm²?",
+        "text_fr": "Rayon = 10 cm, π ≈ 3,14. Aire en cm² ?",
+        "explanation": "10² = 100, so A = 3.14 × 100 = 314.",
+        "explanation_fr": "10² = 100, donc A = 3,14 × 100 = 314.",
+        "hint_prompt": "A = πr².",
+        "hint_prompt_fr": "A = πr².",
+        "config": {
+          "accepted": [
+            "314"
+          ]
+        },
+        "hints": [
+          {
+            "text": "r² = 100.",
+            "text_fr": "r² = 100."
+          }
+        ],
+        "difficulty": 2
+      },
+      {
+        "kind": "numeric",
+        "text": "A semicircle has radius 6 cm, π ≈ 3.14. Its area in cm²?",
+        "text_fr": "Un demi-disque a un rayon de 6 cm, π ≈ 3,14. Son aire en cm² ?",
+        "explanation": "Full disk: 3.14 × 36 = 113.04. Half: 113.04 ÷ 2 = 56.52.",
+        "explanation_fr": "Disque entier : 3,14 × 36 = 113,04. Moitié : 113,04 ÷ 2 = 56,52.",
+        "hint_prompt": "Find the area of the full disk, then halve it.",
+        "hint_prompt_fr": "Calcule l'aire du disque entier, puis divise par deux.",
+        "config": {
+          "accepted": [
+            "56.52"
+          ],
+          "tolerance": 0.01
+        },
+        "hints": [
+          {
+            "text": "6² = 36 and 3.14 × 36 = 113.04.",
+            "text_fr": "6² = 36 et 3,14 × 36 = 113,04."
+          },
+          {
+            "text": "113.04 ÷ 2 = 56.52.",
+            "text_fr": "113,04 ÷ 2 = 56,52."
+          }
+        ],
+        "difficulty": 3
+      },
+      {
+        "kind": "mcq",
+        "text": "If the radius doubles, the circumference is multiplied by…",
+        "text_fr": "Si le rayon double, la circonférence est multipliée par…",
+        "explanation": "C = 2πr is proportional to r, so doubling r doubles C.",
+        "explanation_fr": "C = 2πr est proportionnelle à r, donc doubler r double C.",
+        "hint_prompt": "Is circumference proportional to radius or to its square?",
+        "hint_prompt_fr": "La circonférence est-elle proportionnelle au rayon ou à son carré ?",
+        "choices": [
+          {
+            "text": "2",
+            "text_fr": "2",
+            "correct": true
+          },
+          {
+            "text": "4",
+            "text_fr": "4",
+            "correct": false
+          },
+          {
+            "text": "3.14",
+            "text_fr": "3.14",
+            "correct": false
+          }
+        ],
+        "hints": [
+          {
+            "text": "There is no square in C = 2πr.",
+            "text_fr": "Il n'y a pas de carré dans C = 2πr."
+          }
+        ],
+        "difficulty": 2
+      }
+    ]
+  }
+}

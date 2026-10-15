@@ -1,0 +1,302 @@
+{
+  "lesson": 66,
+  "status": "published",
+  "lesson_fields": {
+    "title": "Cells and Cell Structure",
+    "title_fr": "La cellule et sa structure",
+    "summary": "The cell as the unit of life: organelles, prokaryote versus eukaryote, and how each structure serves its function.",
+    "summary_fr": "La cellule comme unite du vivant : les organites, procaryote contre eucaryote, et comment chaque structure sert sa fonction.",
+    "objectives": [
+      "Describe the structure and function of the main cell organelles",
+      "Compare prokaryotic and eukaryotic cells",
+      "Explain how cell structure relates to function"
+    ],
+    "objectives_fr": [
+      "Decrire la structure et la fonction des principaux organites",
+      "Comparer les cellules procaryotes et eucaryotes",
+      "Expliquer le lien entre structure et fonction de la cellule"
+    ],
+    "estimated_minutes": 30
+  },
+  "steps": [
+    {
+      "kind": "concept",
+      "title": "The cell is the unit of life",
+      "title_fr": "La cellule est l unite du vivant",
+      "content": "Every living thing is built from cells. A cell is the smallest unit that can carry out all the activities of life: taking in nutrients, releasing energy, growing and responding. Some organisms are a single cell; others, like you, are made of thousands of billions of them.\n\nBecause a cell is the basic building block, cell structure is the foundation of all biology.",
+      "content_fr": "Tout etre vivant est construit a partir de cellules. La cellule est la plus petite unite capable d accomplir toutes les activites de la vie : absorber des nutriments, liberer de l energie, grandir et reagir. Certains organismes ne sont qu une seule cellule ; d autres, comme toi, en comptent des milliers de milliards.\n\nComme la cellule est l unite de base, sa structure est le fondement de toute la biologie.",
+      "required": true,
+      "xp": 10,
+      "question": {
+        "kind": "mcq",
+        "text": "What is the basic unit of structure and function in all living things?",
+        "text_fr": "Quelle est l unite de base de structure et de fonction de tout etre vivant ?",
+        "explanation": "The cell is the smallest unit that can perform all the activities of life.",
+        "explanation_fr": "La cellule est la plus petite unite capable d accomplir toutes les activites de la vie.",
+        "hint_prompt": "Think of the smallest thing that is still alive.",
+        "hint_prompt_fr": "Pense a la plus petite chose qui soit encore vivante.",
+        "choices": [
+          {"text": "The cell", "text_fr": "La cellule", "correct": true},
+          {"text": "The organ", "text_fr": "L organe"},
+          {"text": "The molecule", "text_fr": "La molecule"},
+          {"text": "The atom", "text_fr": "L atome"}
+        ],
+        "hints": [
+          {"text": "It is smaller than a tissue.", "text_fr": "C est plus petit qu un tissu."},
+          {"text": "All living things are made of it.", "text_fr": "Tous les etres vivants en sont faits."}
+        ]
+      }
+    },
+    {
+      "kind": "explain",
+      "title": "Two great cell types",
+      "title_fr": "Deux grands types de cellules",
+      "content": "Cells come in two families.\n\nA prokaryotic cell has no true nucleus and no membrane-bound organelles. The DNA floats freely in the cytoplasm. Bacteria are prokaryotes.\n\nA eukaryotic cell has a true nucleus that holds the DNA, and many membrane-bound organelles. Animal, plant and fungal cells are eukaryotes.",
+      "content_fr": "Les cellules se repartissent en deux familles.\n\nUne cellule procaryote n a pas de vrai noyau ni d organites limites par une membrane. L ADN flotte librement dans le cytoplasme. Les bacteries sont des procaryotes.\n\nUne cellule eucaryote possede un vrai noyau qui contient l ADN, et de nombreux organites entoures d une membrane. Les cellules animales, vegetales et fongiques sont des eucaryotes.",
+      "required": true,
+      "xp": 10,
+      "question": {
+        "kind": "mcq",
+        "text": "Which feature is found in a eukaryotic cell but never in a prokaryotic cell?",
+        "text_fr": "Quel element trouve-t-on dans une cellule eucaryote mais jamais dans une cellule procaryote ?",
+        "explanation": "Only eukaryotes have a true nucleus enclosed by a membrane.",
+        "explanation_fr": "Seuls les eucaryotes possedent un vrai noyau entoure d une membrane.",
+        "hint_prompt": "Think about where the DNA sits.",
+        "hint_prompt_fr": "Pense a l endroit ou se trouve l ADN.",
+        "choices": [
+          {"text": "A membrane-bound nucleus", "text_fr": "Un noyau limite par une membrane", "correct": true},
+          {"text": "A cell membrane", "text_fr": "Une membrane cellulaire"},
+          {"text": "Cytoplasm", "text_fr": "Le cytoplasme"},
+          {"text": "Ribosomes", "text_fr": "Les ribosomes"}
+        ],
+        "hints": [
+          {"text": "Bacteria are prokaryotes.", "text_fr": "Les bacteries sont des procaryotes."},
+          {"text": "The key word is the true, enclosed nucleus.", "text_fr": "Le mot cle est le vrai noyau, bien ferme."}
+        ]
+      }
+    },
+    {
+      "kind": "concept",
+      "title": "The organelles and their jobs",
+      "title_fr": "Les organites et leurs roles",
+      "content": "Each organelle is a small machine with one main job.\n\nThe nucleus stores the genetic code. The mitochondrion carries out respiration and releases energy. Ribosomes build proteins. The cytoplasm is the jelly where reactions happen. The cell membrane controls what enters and leaves.",
+      "content_fr": "Chaque organite est une petite machine avec un role principal.\n\nLe noyau conserve le code genetique. La mitochondrie realise la respiration et libere de l energie. Les ribosomes fabriquent les proteines. Le cytoplasme est la gelatine ou se deroulent les reactions. La membrane cellulaire controle les entrees et les sorties.",
+      "required": true,
+      "xp": 10,
+      "question": {
+        "kind": "mcq",
+        "text": "In which organelle is energy released from food by respiration?",
+        "text_fr": "Dans quel organite l energie est-elle liberee a partir des aliments par la respiration ?",
+        "explanation": "The mitochondrion is the site of respiration and energy release.",
+        "explanation_fr": "La mitochondrie est le lieu de la respiration et de la liberation d energie.",
+        "hint_prompt": "You can picture it as the power station.",
+        "hint_prompt_fr": "On peut l imaginer comme la centrale energetique.",
+        "choices": [
+          {"text": "The mitochondrion", "text_fr": "La mitochondrie", "correct": true},
+          {"text": "The nucleus", "text_fr": "Le noyau"},
+          {"text": "The ribosome", "text_fr": "Le ribosome"},
+          {"text": "The vacuole", "text_fr": "La vacuole"}
+        ],
+        "hints": [
+          {"text": "It is often called the powerhouse of the cell.", "text_fr": "On l appelle souvent la centrale de la cellule."},
+          {"text": "Respiration takes place there.", "text_fr": "La respiration y a lieu."}
+        ]
+      }
+    },
+    {
+      "kind": "example",
+      "title": "Animal cell versus plant cell",
+      "title_fr": "Cellule animale contre cellule vegetale",
+      "content": "Plant and animal cells share the nucleus, mitochondria, ribosomes and membrane. The plant cell adds three structures: a rigid cell wall of cellulose, chloroplasts for photosynthesis, and a large permanent vacuole filled with cell sap.\n\nSo a kitchen joke works: a carrot can stand upright because of its wall, while a piece of meat cannot.",
+      "content_fr": "Les cellules vegetales et animales partagent le noyau, les mitochondries, les ribosomes et la membrane. La cellule vegetale ajoute trois structures : une paroi rigide de cellulose, des chloroplastes pour la photosynthese, et une grande vacuole permanente remplie de seve.\n\nD ou une image simple : une carotte tient debout grace a sa paroi, alors qu un morceau de viande ne le peut pas.",
+      "required": true,
+      "xp": 10,
+      "question": {
+        "kind": "mcq",
+        "text": "Which structure is present in a plant cell but absent from an animal cell?",
+        "text_fr": "Quelle structure est presente dans une cellule vegetale mais absente d une cellule animale ?",
+        "explanation": "The cellulose cell wall is present in plant cells only.",
+        "explanation_fr": "La paroi de cellulose n existe que dans la cellule vegetale.",
+        "hint_prompt": "Think about what makes a plant rigid.",
+        "hint_prompt_fr": "Pense a ce qui rend la plante rigide.",
+        "choices": [
+          {"text": "A cellulose cell wall", "text_fr": "Une paroi de cellulose", "correct": true},
+          {"text": "A cell membrane", "text_fr": "Une membrane cellulaire"},
+          {"text": "A nucleus", "text_fr": "Un noyau"},
+          {"text": "Mitochondria", "text_fr": "Des mitochondries"}
+        ],
+        "hints": [
+          {"text": "It gives the cell a fixed shape.", "text_fr": "Elle donne a la cellule une forme fixe."},
+          {"text": "It is made of cellulose.", "text_fr": "Elle est faite de cellulose."}
+        ]
+      }
+    },
+    {
+      "kind": "explain",
+      "title": "Structure fits function",
+      "title_fr": "La structure sert la fonction",
+      "content": "A cell is shaped by the work it must do. A muscle cell is packed with mitochondria because it needs a lot of energy. A sperm cell has a tail to swim. A root-hair cell is long and thin to absorb water over a large surface.\n\nWhen you see a feature, ask which job it makes easier; that is the whole exam skill here.",
+      "content_fr": "Une cellule est faconnee par le travail qu elle doit faire. Une cellule musculaire est remplie de mitochondries car il lui faut beaucoup d energie. Un spermatozoide possede un flagelle pour nager. Une cellule a poil absorbant est longue et fine pour absorber l eau sur une grande surface.\n\nQuand tu vois une particularite, demande-toi quel travail elle rend plus facile : c est toute la competence attendue ici.",
+      "required": true,
+      "xp": 10,
+      "question": {
+        "kind": "mcq",
+        "text": "A cell that needs a very large amount of energy would contain many of which organelle?",
+        "text_fr": "Une cellule ayant besoin de beaucoup d energie contiendrait en grand nombre quel organite ?",
+        "explanation": "High energy demand means many mitochondria to release energy.",
+        "explanation_fr": "Un fort besoin d energie signifie beaucoup de mitochondries pour en liberer.",
+        "hint_prompt": "Link the demand to the power station of the cell.",
+        "hint_prompt_fr": "Relie la demande a la centrale de la cellule.",
+        "choices": [
+          {"text": "Mitochondria", "text_fr": "Des mitochondries", "correct": true},
+          {"text": "Cell walls", "text_fr": "Des parois cellulaires"},
+          {"text": "Vacuoles", "text_fr": "Des vacuoles"},
+          {"text": "Chloroplasts", "text_fr": "Des chloroplastes"}
+        ],
+        "hints": [
+          {"text": "Energy is released by respiration.", "text_fr": "L energie est liberee par la respiration."},
+          {"text": "Muscle cells are a good example.", "text_fr": "Les cellules musculaires sont un bon exemple."}
+        ]
+      }
+    },
+    {
+      "kind": "question",
+      "title": "Check: prokaryote or eukaryote?",
+      "title_fr": "Verification : procaryote ou eucaryote ?",
+      "content": "Always look for the nucleus first. If the DNA lies loose in the cytoplasm with no enclosing membrane, the cell is prokaryotic. If a true nucleus holds the DNA and there are membrane-bound organelles, it is eukaryotic.",
+      "content_fr": "Regarde toujours d abord le noyau. Si l ADN est libre dans le cytoplasme sans membrane qui l entoure, la cellule est procaryote. Si un vrai noyau contient l ADN et qu il y a des organites entoures de membranes, elle est eucaryote.",
+      "required": true,
+      "xp": 10,
+      "question": {
+        "kind": "mcq",
+        "text": "A student sees a cell with loose DNA in the cytoplasm and no membrane-bound organelles. What type is it?",
+        "text_fr": "Un eleve observe une cellule avec de l ADN libre dans le cytoplasme et sans organite entoure de membrane. Quel est son type ?",
+        "explanation": "No true nucleus and no membrane-bound organelles means prokaryotic.",
+        "explanation_fr": "Pas de vrai noyau ni d organite entoure de membrane : c est une cellule procaryote.",
+        "hint_prompt": "Is there a true nucleus?",
+        "hint_prompt_fr": "Y a-t-il un vrai noyau ?",
+        "choices": [
+          {"text": "Prokaryotic", "text_fr": "Procaryote", "correct": true},
+          {"text": "Eukaryotic", "text_fr": "Eucaryote"},
+          {"text": "Plant", "text_fr": "Vegetale"},
+          {"text": "Fungal", "text_fr": "Fongique"}
+        ],
+        "hints": [
+          {"text": "Focus on the nucleus.", "text_fr": "Concentre-toi sur le noyau."},
+          {"text": "Loose DNA without a nucleus is the clue.", "text_fr": "L ADN libre sans noyau est l indice."}
+        ]
+      }
+    },
+    {
+      "kind": "summary",
+      "title": "What to keep",
+      "title_fr": "A retenir",
+      "content": "A cell is the unit of life. Prokaryotes have no true nucleus; eukaryotes do and have membrane-bound organelles. Each organelle has one main job, and the whole cell is shaped by its function.",
+      "content_fr": "La cellule est l unite du vivant. Les procaryotes n ont pas de vrai noyau ; les eucaryotes en ont un et possedent des organites entoures de membranes. Chaque organite a un role principal, et la cellule entiere est faconnee par sa fonction.",
+      "required": false,
+      "xp": 5
+    }
+  ],
+  "quiz": {
+    "title": "Cells and Cell Structure: final check",
+    "title_fr": "Cellules et structure : bilan final",
+    "pass_score": 60,
+    "questions": [
+      {
+        "kind": "mcq",
+        "text": "What is the basic unit of life?",
+        "text_fr": "Quelle est l unite du vivant ?",
+        "explanation": "The cell carries out all the activities of life.",
+        "explanation_fr": "La cellule accomplit toutes les activites de la vie.",
+        "hint_prompt": "The smallest living unit.",
+        "hint_prompt_fr": "La plus petite unite vivante.",
+        "choices": [
+          {"text": "The cell", "text_fr": "La cellule", "correct": true},
+          {"text": "The organ", "text_fr": "L organe"},
+          {"text": "The tissue", "text_fr": "Le tissu"},
+          {"text": "The organelle", "text_fr": "L organite"}
+        ],
+        "hints": [
+          {"text": "Smaller than a tissue.", "text_fr": "Plus petite qu un tissu."},
+          {"text": "Every living thing is made of it.", "text_fr": "Tous les etres vivants en sont faits."}
+        ],
+        "difficulty": 1
+      },
+      {
+        "kind": "mcq",
+        "text": "Which organelle contains the genetic code?",
+        "text_fr": "Quel organite contient le code genetique ?",
+        "explanation": "The nucleus stores the DNA.",
+        "explanation_fr": "Le noyau conserve l ADN.",
+        "hint_prompt": "It is the control centre.",
+        "hint_prompt_fr": "C est le centre de controle.",
+        "choices": [
+          {"text": "The nucleus", "text_fr": "Le noyau", "correct": true},
+          {"text": "The mitochondrion", "text_fr": "La mitochondrie"},
+          {"text": "The ribosome", "text_fr": "Le ribosome"},
+          {"text": "The membrane", "text_fr": "La membrane"}
+        ],
+        "hints": [
+          {"text": "It holds the DNA.", "text_fr": "Il contient l ADN."},
+          {"text": "It is the control centre.", "text_fr": "C est le centre de controle."}
+        ],
+        "difficulty": 1
+      },
+      {
+        "kind": "mcq",
+        "text": "Which structure is present in plant cells but absent in animal cells?",
+        "text_fr": "Quelle structure est presente dans les cellules vegetales mais absente des cellules animales ?",
+        "explanation": "Only plant cells have a cellulose cell wall.",
+        "explanation_fr": "Seules les cellules vegetales ont une paroi de cellulose.",
+        "hint_prompt": "It gives a fixed shape.",
+        "hint_prompt_fr": "Elle donne une forme fixe.",
+        "choices": [
+          {"text": "Cell wall", "text_fr": "Paroi cellulaire", "correct": true},
+          {"text": "Cell membrane", "text_fr": "Membrane cellulaire"},
+          {"text": "Cytoplasm", "text_fr": "Cytoplasme"},
+          {"text": "Ribosome", "text_fr": "Ribosome"}
+        ],
+        "hints": [
+          {"text": "Made of cellulose.", "text_fr": "Faite de cellulose."},
+          {"text": "It supports the cell.", "text_fr": "Elle soutient la cellule."}
+        ],
+        "difficulty": 1
+      },
+      {
+        "kind": "mcq",
+        "text": "Bacteria are examples of which cell type?",
+        "text_fr": "Les bacteries sont des exemples de quel type de cellule ?",
+        "explanation": "Bacteria have no true nucleus: they are prokaryotes.",
+        "explanation_fr": "Les bacteries n ont pas de vrai noyau : ce sont des procaryotes.",
+        "hint_prompt": "Is there a true nucleus?",
+        "hint_prompt_fr": "Y a-t-il un vrai noyau ?",
+        "choices": [
+          {"text": "Prokaryotic", "text_fr": "Procaryote", "correct": true},
+          {"text": "Eukaryotic", "text_fr": "Eucaryote"},
+          {"text": "Plant", "text_fr": "Vegetale"},
+          {"text": "Animal", "text_fr": "Animale"}
+        ],
+        "hints": [
+          {"text": "No true nucleus.", "text_fr": "Pas de vrai noyau."},
+          {"text": "They are the oldest cells.", "text_fr": "Ce sont les cellules les plus anciennes."}
+        ],
+        "difficulty": 2
+      },
+      {
+        "kind": "numeric",
+        "text": "How many of these are found in plant cells but not animal cells: cell wall, chloroplast, large vacuole? Count them.",
+        "text_fr": "Combien de ces elements se trouvent dans les cellules vegetales mais pas animales : paroi, chloroplaste, grande vacuole ? Compte-les.",
+        "explanation": "All three (cell wall, chloroplast, large vacuole) are plant-only.",
+        "explanation_fr": "Les trois (paroi, chloroplaste, grande vacuole) sont propres aux vegetaux.",
+        "hint_prompt": "Consider each one in turn.",
+        "hint_prompt_fr": "Examine chacun a tour de role.",
+        "config": {"accepted": ["3"]},
+        "hints": [
+          {"text": "The cell wall counts.", "text_fr": "La paroi compte."},
+          {"text": "Chloroplast and vacuole also count.", "text_fr": "Le chloroplaste et la vacuole comptent aussi."}
+        ],
+        "difficulty": 2
+      }
+    ]
+  }
+}

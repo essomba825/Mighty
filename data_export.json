@@ -2790,7 +2790,7 @@
     "video_url": "",
     "estimated_minutes": 20,
     "status": "published",
-    "is_public": false,
+    "is_public": true,
     "teacher": [
       "admin@mightysixers.org"
     ],
@@ -2825,7 +2825,7 @@
     "video_url": "",
     "estimated_minutes": 20,
     "status": "published",
-    "is_public": false,
+    "is_public": true,
     "teacher": [
       "admin@mightysixers.org"
     ],
@@ -2860,7 +2860,7 @@
     "video_url": "",
     "estimated_minutes": 20,
     "status": "published",
-    "is_public": false,
+    "is_public": true,
     "teacher": [
       "admin@mightysixers.org"
     ],
@@ -2893,7 +2893,7 @@
     "video_url": "https://www.youtube.com/watch?v=ZKKDTfHcsG0",
     "estimated_minutes": 25,
     "status": "published",
-    "is_public": false,
+    "is_public": true,
     "teacher": null,
     "created_at": "2026-09-26T15:40:09.345Z"
   }
@@ -2924,7 +2924,7 @@
     "video_url": "https://www.youtube.com/watch?v=-gB1y-PMWfs",
     "estimated_minutes": 30,
     "status": "published",
-    "is_public": false,
+    "is_public": true,
     "teacher": null,
     "created_at": "2026-09-26T15:40:09.356Z"
   }
@@ -2955,7 +2955,7 @@
     "video_url": "https://www.youtube.com/watch?v=WfqgFBGet7s",
     "estimated_minutes": 25,
     "status": "published",
-    "is_public": false,
+    "is_public": true,
     "teacher": null,
     "created_at": "2026-09-26T15:40:09.366Z"
   }
@@ -2992,7 +2992,7 @@
     "video_url": "",
     "estimated_minutes": 20,
     "status": "published",
-    "is_public": false,
+    "is_public": true,
     "teacher": null,
     "created_at": "2026-09-26T15:40:09.376Z"
   }
@@ -3025,7 +3025,7 @@
     "video_url": "",
     "estimated_minutes": 25,
     "status": "published",
-    "is_public": false,
+    "is_public": true,
     "teacher": null,
     "created_at": "2026-09-26T15:40:09.394Z"
   }
@@ -3056,7 +3056,7 @@
     "video_url": "https://www.youtube.com/watch?v=trdbaV4TaAo",
     "estimated_minutes": 20,
     "status": "published",
-    "is_public": false,
+    "is_public": true,
     "teacher": null,
     "created_at": "2026-09-26T15:40:09.403Z"
   }
@@ -3089,7 +3089,7 @@
     "video_url": "",
     "estimated_minutes": 20,
     "status": "published",
-    "is_public": false,
+    "is_public": true,
     "teacher": null,
     "created_at": "2026-09-26T15:40:09.414Z"
   }
@@ -3122,7 +3122,7 @@
     "video_url": "",
     "estimated_minutes": 30,
     "status": "published",
-    "is_public": false,
+    "is_public": true,
     "teacher": null,
     "created_at": "2026-09-26T15:40:09.433Z"
   }
@@ -3526,7 +3526,7 @@
     "video_url": "",
     "estimated_minutes": 15,
     "status": "published",
-    "is_public": false,
+    "is_public": true,
     "teacher": [
       "prof@test.cm"
     ],
@@ -3584,7 +3584,7 @@
     "video_url": "",
     "estimated_minutes": 18,
     "status": "published",
-    "is_public": false,
+    "is_public": true,
     "teacher": null,
     "created_at": "2026-10-05T14:13:17.450Z"
   }

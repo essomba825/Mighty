@@ -1,0 +1,347 @@
+{
+  "lesson": 84,
+  "status": "published",
+  "lesson_fields": {
+    "title": "Enthalpy Changes",
+    "title_fr": "Variations d'enthalpie",
+    "summary": "Chemical reactions either release energy to the surroundings or take energy in. The energy change is called the enthalpy change and is shown on an energy level diagram.",
+    "summary_fr": "Les reactions chimiques soit liberent de l'energie vers le milieu, soit en absorbent. Cette variation d'energie s'appelle la variation d'enthalpie et se lit sur un diagramme energetique.",
+    "content": "## Energy going out or coming in\n\nAn exothermic reaction gives out energy and warms the surroundings. An endothermic reaction takes energy in and cools the surroundings.\n\n## Energy level diagrams\n\nWe draw the starting substances on the left and the products on the right. If the products sit lower, energy was released. The height difference is the enthalpy change.",
+    "content_fr": "## Energie sortante ou entrante\n\nUne reaction exothermique libere de l'energie et rechauffe le milieu. Une reaction endothermique absorbe de l'energie et refroidit le milieu.\n\n## Diagrammes energetiques\n\nOn place les substances de depart a gauche et les produits a droite. Si les produits sont plus bas, de l'energie a ete liberee. L'ecart de hauteur est la variation d'enthalpie.",
+    "objectives": [
+      "Tell exothermic reactions from endothermic reactions",
+      "Read an energy level diagram",
+      "Explain why bond breaking and bond making change the energy"
+    ],
+    "objectives_fr": [
+      "Distinguer les reactions exothermiques des reactions endothermiques",
+      "Lire un diagramme energetique",
+      "Expliquer pourquoi la rupture et la formation des liaisons changent l'energie"
+    ],
+    "estimated_minutes": 25
+  },
+  "steps": [
+    {
+      "kind": "concept",
+      "title": "Exothermic and endothermic",
+      "title_fr": "Exothermique et endothermique",
+      "content": "In an exothermic reaction, energy leaves the reaction and enters the surroundings, so the mixture gets warmer. Burning fuel is a clear case.\n\nIn an endothermic reaction, energy leaves the surroundings and enters the reaction, so the mixture gets colder. Thermal decomposition is a clear case.\n\nIf the products are lower in energy than the starting substances, the reaction gives out energy.",
+      "content_fr": "Dans une reaction exothermique, l'energie quitte la reaction et gagne le milieu, donc le melange se rechauffe. La combustion d'un carburant en est un exemple net.\n\nDans une reaction endothermique, l'energie quitte le milieu et entre dans la reaction, donc le melange se refroidit. La decomposition thermique en est un exemple net.\n\nSi les produits sont plus bas en energie que les substances de depart, la reaction libere de l'energie.",
+      "required": true,
+      "xp": 10,
+      "question": {
+        "kind": "mcq",
+        "text": "What happens to the surroundings in an exothermic reaction?",
+        "text_fr": "Que devient le milieu dans une reaction exothermique ?",
+        "explanation": "The reaction gives out energy, so the surroundings warm up.",
+        "explanation_fr": "La reaction libere de l'energie, donc le milieu se rechauffe.",
+        "hint_prompt": "The prefix exo means out.",
+        "hint_prompt_fr": "Le prefixe exo veut dire vers l'exterieur.",
+        "choices": [
+          {
+            "text": "They get warmer",
+            "text_fr": "Il se rechauffe",
+            "correct": true
+          },
+          {
+            "text": "They get colder",
+            "text_fr": "Il se refroidit",
+            "correct": false
+          },
+          {
+            "text": "They stay the same",
+            "text_fr": "Il reste identique",
+            "correct": false
+          }
+        ],
+        "hints": [
+          {
+            "text": "Energy leaves the reaction.",
+            "text_fr": "L'energie quitte la reaction."
+          }
+        ]
+      }
+    },
+    {
+      "kind": "explain",
+      "title": "Bond breaking and bond making",
+      "title_fr": "Rupture et formation des liaisons",
+      "content": "Breaking bonds takes energy in. Making bonds gives energy out.\n\nIf more energy is given out than taken in, the reaction is exothermic overall. If more is taken in, it is endothermic overall.\n\nThis is why we can predict the direction from the bonds alone.",
+      "content_fr": "Briser des liaisons demande de l'energie. Former des liaisons en libere.\n\nSi l'energie liberee depasse l'energie demandee, la reaction est globalement exothermique. Si l'energie demandee est plus grande, elle est globalement endothermique.\n\nC'est pourquoi on peut prevoir le sens a partir des seules liaisons.",
+      "required": true,
+      "xp": 10
+    },
+    {
+      "kind": "example",
+      "title": "Worked example: burning methane",
+      "title_fr": "Exemple resolu : la combustion du methane",
+      "content": "Methane burns in oxygen and gives carbon dioxide, water and a great deal of heat. The products lie lower on the diagram than the starting substances.\n\nThe enthalpy change is negative, which marks a release of energy.",
+      "content_fr": "Le methane brûle dans l'oxygene et donne du dioxyde de carbone, de l'eau et beaucoup de chaleur. Les produits se placent plus bas sur le diagramme que les substances de depart.\n\nLa variation d'enthalpie est negative, ce qui marque une liberation d'energie.",
+      "required": true,
+      "xp": 12
+    },
+    {
+      "kind": "practice",
+      "title": "Your turn: classify the change",
+      "title_fr": "A toi : classer la transformation",
+      "content": "When ammonium nitrate dissolves in water, the mixture becomes noticeably colder. Decide what kind of change this is.",
+      "content_fr": "Quand le nitrate d'ammonium se dissout dans l'eau, le melange devient nettement plus froid. Determine de quelle sorte de transformation il s'agit.",
+      "required": true,
+      "xp": 12,
+      "question": {
+        "kind": "mcq",
+        "text": "A mixture gets colder as a solid dissolves. What is this?",
+        "text_fr": "Un melange se refroidit quand un solide se dissout. De quoi s'agit-il ?",
+        "explanation": "The process takes energy from the surroundings, so it is endothermic.",
+        "explanation_fr": "La transformation prend de l'energie au milieu, elle est donc endothermique.",
+        "hint_prompt": "Which way is the energy moving?",
+        "hint_prompt_fr": "Dans quel sens va l'energie ?",
+        "choices": [
+          {
+            "text": "Endothermic",
+            "text_fr": "Endothermique",
+            "correct": true
+          },
+          {
+            "text": "Exothermic",
+            "text_fr": "Exothermique",
+            "correct": false
+          },
+          {
+            "text": "No energy change",
+            "text_fr": "Aucune variation d'energie",
+            "correct": false
+          }
+        ],
+        "hints": [
+          {
+            "text": "A colder mixture means energy was taken in.",
+            "text_fr": "Un melange plus froid veut dire que de l'energie a ete absorbee."
+          }
+        ]
+      }
+    },
+    {
+      "kind": "question",
+      "title": "Check: reading the diagram",
+      "title_fr": "Verification : lire le diagramme",
+      "content": "On an energy level diagram, we compare the height of the products with the height of the starting substances.",
+      "content_fr": "Sur un diagramme energetique, on compare la hauteur des produits avec la hauteur des substances de depart.",
+      "required": true,
+      "xp": 12,
+      "question": {
+        "kind": "mcq",
+        "text": "The products sit higher than the starting substances. What does this show?",
+        "text_fr": "Les produits sont plus haut que les substances de depart. Que montre ceci ?",
+        "explanation": "The reaction gained energy, which makes it endothermic.",
+        "explanation_fr": "La reaction a gagne de l'energie, elle est donc endothermique.",
+        "hint_prompt": "Higher products mean energy was absorbed.",
+        "hint_prompt_fr": "Des produits plus haut signifient que de l'energie a ete absorbee.",
+        "choices": [
+          {
+            "text": "The reaction is endothermic",
+            "text_fr": "La reaction est endothermique",
+            "correct": true
+          },
+          {
+            "text": "The reaction is exothermic",
+            "text_fr": "La reaction est exothermique",
+            "correct": false
+          },
+          {
+            "text": "No reaction happened",
+            "text_fr": "Aucune reaction n'a eu lieu",
+            "correct": false
+          }
+        ],
+        "hints": [
+          {
+            "text": "Energy had to be put in to reach the higher level.",
+            "text_fr": "Il a fallu fournir de l'energie pour atteindre ce niveau plus haut."
+          }
+        ]
+      }
+    },
+    {
+      "kind": "summary",
+      "title": "What to keep",
+      "title_fr": "A retenir",
+      "content": "Exothermic reactions give out energy and warm the surroundings. Endothermic reactions take energy in and cool them. On a diagram, lower products mean a release of energy.",
+      "content_fr": "Les reactions exothermiques liberent de l'energie et rechauffent le milieu. Les reactions endothermiques absorbent de l'energie et le refroidissent. Sur un diagramme, des produits plus bas signifient une liberation d'energie.",
+      "required": false,
+      "xp": 5
+    }
+  ],
+  "quiz": {
+    "title": "Enthalpy Changes",
+    "title_fr": "Variations d'enthalpie",
+    "pass_score": 60,
+    "questions": [
+      {
+        "kind": "mcq",
+        "text": "Which process is exothermic?",
+        "text_fr": "Quelle transformation est exothermique ?",
+        "explanation": "Combustion gives out heat, so it is exothermic.",
+        "explanation_fr": "La combustion libere de la chaleur, elle est donc exothermique.",
+        "hint_prompt": "Which one gives out heat?",
+        "hint_prompt_fr": "Laquelle libere de la chaleur ?",
+        "choices": [
+          {
+            "text": "Burning wood",
+            "text_fr": "Bruler du bois",
+            "correct": true
+          },
+          {
+            "text": "Melting ice",
+            "text_fr": "Faire fondre de la glace",
+            "correct": false
+          },
+          {
+            "text": "Boiling water",
+            "text_fr": "Faire bouillir de l'eau",
+            "correct": false
+          }
+        ],
+        "hints": [
+          {
+            "text": "A fire releases energy.",
+            "text_fr": "Un feu libere de l'energie."
+          }
+        ],
+        "difficulty": 1
+      },
+      {
+        "kind": "mcq",
+        "text": "Breaking a bond does what to the energy?",
+        "text_fr": "Que fait la rupture d'une liaison a l'energie ?",
+        "explanation": "Breaking bonds takes energy in.",
+        "explanation_fr": "Briser une liaison demande de l'energie.",
+        "hint_prompt": "You must do work to pull atoms apart.",
+        "hint_prompt_fr": "Il faut un effort pour separer les atomes.",
+        "choices": [
+          {
+            "text": "It takes energy in",
+            "text_fr": "Elle absorbe de l'energie",
+            "correct": true
+          },
+          {
+            "text": "It gives energy out",
+            "text_fr": "Elle libere de l'energie",
+            "correct": false
+          },
+          {
+            "text": "It changes nothing",
+            "text_fr": "Elle ne change rien",
+            "correct": false
+          }
+        ],
+        "hints": [
+          {
+            "text": "The opposite of making a bond.",
+            "text_fr": "Le contraire de former une liaison."
+          }
+        ],
+        "difficulty": 1
+      },
+      {
+        "kind": "mcq",
+        "text": "A reaction warms its container. Which word fits?",
+        "text_fr": "Une reaction rechauffe son recipient. Quel mot convient ?",
+        "explanation": "Warming the container means energy was released, so it is exothermic.",
+        "explanation_fr": "Rechauffer le recipient veut dire que de l'energie a ete liberee, donc c'est exothermique.",
+        "hint_prompt": "Energy left the reaction.",
+        "hint_prompt_fr": "L'energie a quitte la reaction.",
+        "choices": [
+          {
+            "text": "Exothermic",
+            "text_fr": "Exothermique",
+            "correct": true
+          },
+          {
+            "text": "Endothermic",
+            "text_fr": "Endothermique",
+            "correct": false
+          },
+          {
+            "text": "Neutral",
+            "text_fr": "Neutre",
+            "correct": false
+          }
+        ],
+        "hints": [
+          {
+            "text": "Heat given out means exo.",
+            "text_fr": "De la chaleur liberee veut dire exo."
+          }
+        ],
+        "difficulty": 1
+      },
+      {
+        "kind": "mcq",
+        "text": "What does a negative enthalpy change show?",
+        "text_fr": "Que montre une variation d'enthalpie negative ?",
+        "explanation": "A negative value means the reaction released energy.",
+        "explanation_fr": "Une valeur negative signifie que la reaction a libere de l'energie.",
+        "hint_prompt": "Think of the products being lower.",
+        "hint_prompt_fr": "Pense a des produits plus bas.",
+        "choices": [
+          {
+            "text": "Energy was given out",
+            "text_fr": "De l'energie a ete liberee",
+            "correct": true
+          },
+          {
+            "text": "Energy was taken in",
+            "text_fr": "De l'energie a ete absorbee",
+            "correct": false
+          },
+          {
+            "text": "Nothing happened",
+            "text_fr": "Rien ne s'est passe",
+            "correct": false
+          }
+        ],
+        "hints": [
+          {
+            "text": "Lower products give a negative value.",
+            "text_fr": "Des produits plus bas donnent une valeur negative."
+          }
+        ],
+        "difficulty": 2
+      },
+      {
+        "kind": "mcq",
+        "text": "Which statement about endothermic reactions is true?",
+        "text_fr": "Quelle affirmation sur les reactions endothermiques est vraie ?",
+        "explanation": "They absorb energy, so the surroundings cool down.",
+        "explanation_fr": "Elles absorbent de l'energie, donc le milieu se refroidit.",
+        "hint_prompt": "The surroundings lose energy.",
+        "hint_prompt_fr": "Le milieu perd de l'energie.",
+        "choices": [
+          {
+            "text": "They cool the surroundings",
+            "text_fr": "Elles refroidissent le milieu",
+            "correct": true
+          },
+          {
+            "text": "They warm the surroundings",
+            "text_fr": "Elles rechauffent le milieu",
+            "correct": false
+          },
+          {
+            "text": "They never happen",
+            "text_fr": "Elles n'ont jamais lieu",
+            "correct": false
+          }
+        ],
+        "hints": [
+          {
+            "text": "Energy goes into the reaction.",
+            "text_fr": "L'energie entre dans la reaction."
+          }
+        ],
+        "difficulty": 1
+      }
+    ]
+  }
+}

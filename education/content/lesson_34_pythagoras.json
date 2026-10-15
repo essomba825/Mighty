@@ -1,0 +1,323 @@
+{
+  "lesson": 34,
+  "status": "published",
+  "lesson_fields": {
+    "title": "Pythagoras' Theorem",
+    "title_fr": "Le théorème de Pythagore",
+    "summary": "In a right triangle, a² + b² = c². Find the hypotenuse or a missing leg, and check whether a triangle is right-angled.",
+    "summary_fr": "Dans un triangle rectangle, a² + b² = c². On calcule l'hypoténuse ou un côté manquant, et on vérifie si un triangle est rectangle.",
+    "content": "## The rule of the right angle\n\na² + b² = c², where c is the hypotenuse — the longest side, opposite the right angle.",
+    "content_fr": "## La règle de l'angle droit\n\na² + b² = c², où c est l'hypoténuse — le plus grand côté, en face de l'angle droit.",
+    "objectives": [
+      "Identify the hypotenuse in a right triangle",
+      "Find the hypotenuse from the two legs",
+      "Find a missing leg from the hypotenuse and one side",
+      "Use the converse to test if a triangle is right-angled"
+    ],
+    "objectives_fr": [
+      "Identifier l'hypoténuse dans un triangle rectangle",
+      "Trouver l'hypoténuse à partir des deux côtés",
+      "Trouver un côté manquant à partir de l'hypoténuse et d'un côté",
+      "Utiliser la réciproque pour tester si un triangle est rectangle"
+    ],
+    "estimated_minutes": 30
+  },
+  "steps": [
+    {
+      "kind": "concept",
+      "title": "The theorem in one line",
+      "title_fr": "Le théorème en une ligne",
+      "content": "In a right-angled triangle the two legs a and b satisfy a² + b² = c², where c is the side opposite the right angle: the hypotenuse.\n\n_Figure: Wapcaplet — CC BY-SA 3.0, via Wikimedia Commons._",
+      "content_fr": "Dans un triangle rectangle, les deux côtés de l'angle droit a et b vérifient a² + b² = c², où c est le côté opposé à l'angle droit : l'hypoténuse.\n\n_Figure : Wapcaplet — CC BY-SA 3.0, via Wikimedia Commons._",
+      "required": true,
+      "xp": 10,
+      "question": {
+        "kind": "numeric",
+        "text": "Legs 3 cm and 4 cm. How long is the hypotenuse in cm?",
+        "text_fr": "Côtés de l'angle droit : 3 cm et 4 cm. Combien mesure l'hypoténuse en cm ?",
+        "explanation": "9 + 16 = 25, and √25 = 5.",
+        "explanation_fr": "9 + 16 = 25, et √25 = 5.",
+        "hint_prompt": "Square each leg, add, then take the square root.",
+        "hint_prompt_fr": "Carré de chaque côté, additionne, puis racine carrée.",
+        "config": {
+          "accepted": [
+            "5"
+          ]
+        },
+        "hints": [
+          {
+            "text": "3² + 4² = 9 + 16 = 25.",
+            "text_fr": "3² + 4² = 9 + 16 = 25."
+          },
+          {
+            "text": "√25 = 5.",
+            "text_fr": "√25 = 5."
+          }
+        ]
+      }
+    },
+    {
+      "kind": "explain",
+      "title": "Finding the hypotenuse",
+      "title_fr": "Trouver l'hypoténuse",
+      "content": "Add the squares of the legs, then take the square root: c = √(a² + b²). With 6 and 8: 36 + 64 = 100, so c = 10.",
+      "content_fr": "On additionne les carrés des côtés, puis on prend la racine : c = √(a² + b²). Avec 6 et 8 : 36 + 64 = 100, donc c = 10.",
+      "required": true,
+      "xp": 10,
+      "question": {
+        "kind": "numeric",
+        "text": "Legs 6 cm and 8 cm. Hypotenuse in cm?",
+        "text_fr": "Côtés de l'angle droit : 6 cm et 8 cm. Hypoténuse en cm ?",
+        "explanation": "36 + 64 = 100, √100 = 10.",
+        "explanation_fr": "36 + 64 = 100, √100 = 10.",
+        "hint_prompt": "c² = a² + b².",
+        "hint_prompt_fr": "c² = a² + b².",
+        "config": {
+          "accepted": [
+            "10"
+          ]
+        },
+        "hints": [
+          {
+            "text": "6² + 8² = 100.",
+            "text_fr": "6² + 8² = 100."
+          },
+          {
+            "text": "√100 = 10.",
+            "text_fr": "√100 = 10."
+          }
+        ]
+      }
+    },
+    {
+      "kind": "example",
+      "title": "Worked example: the ladder",
+      "title_fr": "Exemple résolu : l'échelle",
+      "content": "A 5 m ladder its foot 3 m from a wall. The wall and the ground are perpendicular, so h² + 3² = 5², h² = 25 − 9 = 16 and h = 4 m.",
+      "content_fr": "Une échelle de 5 m, pose à 3 m du mur. Le mur et le sol sont perpendiculaires, donc h² + 3² = 5², h² = 25 − 9 = 16 et h = 4 m.",
+      "required": true,
+      "xp": 12
+    },
+    {
+      "kind": "practice",
+      "title": "Your turn: the missing leg",
+      "title_fr": "À toi : le côté manquant",
+      "content": "Hypotenuse 13 cm, one leg 5 cm. Find the other leg.",
+      "content_fr": "Hypoténuse 13 cm, un côté 5 cm. Trouve l'autre côté.",
+      "required": true,
+      "xp": 12,
+      "question": {
+        "kind": "numeric",
+        "text": "Hypotenuse 13, leg 5. Other leg in cm?",
+        "text_fr": "Hypoténuse 13, côté 5. Autre côté en cm ?",
+        "explanation": "169 − 25 = 144, √144 = 12.",
+        "explanation_fr": "169 − 25 = 144, √144 = 12.",
+        "hint_prompt": "Subtract this time: b² = c² − a².",
+        "hint_prompt_fr": "Cette fois on soustrait : b² = c² − a².",
+        "config": {
+          "accepted": [
+            "12"
+          ]
+        },
+        "hints": [
+          {
+            "text": "13² − 5² = 169 − 25 = 144.",
+            "text_fr": "13² − 5² = 169 − 25 = 144."
+          },
+          {
+            "text": "√144 = 12.",
+            "text_fr": "√144 = 12."
+          }
+        ]
+      }
+    },
+    {
+      "kind": "question",
+      "title": "Check: is it right-angled?",
+      "title_fr": "Vérification : est-il rectangle ?",
+      "content": "The converse: if the square of the longest side equals the sum of the squares of the other two, the triangle is right-angled.",
+      "content_fr": "La réciproque : si le carré du plus grand côté est égal à la somme des carrés des deux autres, le triangle est rectangle.",
+      "required": true,
+      "xp": 12,
+      "question": {
+        "kind": "mcq",
+        "text": "A triangle has sides 5 cm, 12 cm and 13 cm. Is it right-angled?",
+        "text_fr": "Un triangle a pour côtés 5 cm, 12 cm et 13 cm. Est-il rectangle ?",
+        "explanation": "5² + 12² = 25 + 144 = 169 = 13². Yes!",
+        "explanation_fr": "5² + 12² = 25 + 144 = 169 = 13². Oui !",
+        "hint_prompt": "Compare 5² + 12² with 13².",
+        "hint_prompt_fr": "Compare 5² + 12² avec 13².",
+        "choices": [
+          {
+            "text": "Yes",
+            "text_fr": "Oui",
+            "correct": true
+          },
+          {
+            "text": "No",
+            "text_fr": "Non",
+            "correct": false
+          }
+        ],
+        "hints": [
+          {
+            "text": "25 + 144 = 169.",
+            "text_fr": "25 + 144 = 169."
+          }
+        ]
+      }
+    },
+    {
+      "kind": "summary",
+      "title": "What to keep",
+      "title_fr": "À retenir",
+      "content": "a² + b² = c² with c opposite the right angle. Hypotenuse: add then root. Missing leg: subtract then root.",
+      "content_fr": "a² + b² = c² avec c en face de l'angle droit. Hypoténuse : on additionne puis racine. Côté manquant : on soustrait puis racine.",
+      "required": false,
+      "xp": 5
+    }
+  ],
+  "quiz": {
+    "title": "Pythagoras' theorem",
+    "title_fr": "Le théorème de Pythagore",
+    "pass_score": 60,
+    "questions": [
+      {
+        "kind": "numeric",
+        "text": "Legs 9 cm and 12 cm. Hypotenuse in cm?",
+        "text_fr": "Côtés de l'angle droit : 9 cm et 12 cm. Hypoténuse en cm ?",
+        "explanation": "81 + 144 = 225, √225 = 15.",
+        "explanation_fr": "81 + 144 = 225, √225 = 15.",
+        "hint_prompt": "c² = 9² + 12².",
+        "hint_prompt_fr": "c² = 9² + 12².",
+        "config": {
+          "accepted": [
+            "15"
+          ]
+        },
+        "hints": [
+          {
+            "text": "9² + 12² = 225.",
+            "text_fr": "9² + 12² = 225."
+          },
+          {
+            "text": "√225 = 15.",
+            "text_fr": "√225 = 15."
+          }
+        ],
+        "difficulty": 2
+      },
+      {
+        "kind": "numeric",
+        "text": "Hypotenuse 10 cm, one leg 8 cm. Other leg in cm?",
+        "text_fr": "Hypoténuse 10 cm, un côté 8 cm. Autre côté en cm ?",
+        "explanation": "100 − 64 = 36, √36 = 6.",
+        "explanation_fr": "100 − 64 = 36, √36 = 6.",
+        "hint_prompt": "b² = c² − a².",
+        "hint_prompt_fr": "b² = c² − a².",
+        "config": {
+          "accepted": [
+            "6"
+          ]
+        },
+        "hints": [
+          {
+            "text": "10² − 8² = 36.",
+            "text_fr": "10² − 8² = 36."
+          },
+          {
+            "text": "√36 = 6.",
+            "text_fr": "√36 = 6."
+          }
+        ],
+        "difficulty": 2
+      },
+      {
+        "kind": "mcq",
+        "text": "In the formula a² + b² = c², the hypotenuse is…",
+        "text_fr": "Dans la formule a² + b² = c², l'hypoténuse est…",
+        "explanation": "c is always the side opposite the right angle, the longest one.",
+        "explanation_fr": "c est toujours le côté opposé à l'angle droit, le plus long.",
+        "hint_prompt": "Which side squats opposite the right angle?",
+        "hint_prompt_fr": "Quel côté se trouve en face de l'angle droit ?",
+        "choices": [
+          {
+            "text": "a",
+            "text_fr": "a",
+            "correct": false
+          },
+          {
+            "text": "b",
+            "text_fr": "b",
+            "correct": false
+          },
+          {
+            "text": "c",
+            "text_fr": "c",
+            "correct": true
+          }
+        ],
+        "hints": [
+          {
+            "text": "It is the longest side.",
+            "text_fr": "C'est le plus grand côté."
+          }
+        ],
+        "difficulty": 1
+      },
+      {
+        "kind": "mcq",
+        "text": "A triangle has sides 7 cm, 24 cm and 25 cm. Right-angled or not?",
+        "text_fr": "Un triangle a pour côtés 7 cm, 24 cm et 25 cm. Rectangle ou pas ?",
+        "explanation": "49 + 576 = 625 = 25², so yes.",
+        "explanation_fr": "49 + 576 = 625 = 25², donc oui.",
+        "hint_prompt": "Compare 7² + 24² with 25².",
+        "hint_prompt_fr": "Compare 7² + 24² avec 25².",
+        "choices": [
+          {
+            "text": "Yes, right-angled",
+            "text_fr": "Oui, rectangle",
+            "correct": true
+          },
+          {
+            "text": "No, not right-angled",
+            "text_fr": "Non, pas rectangle",
+            "correct": false
+          }
+        ],
+        "hints": [
+          {
+            "text": "49 + 576 = 625.",
+            "text_fr": "49 + 576 = 625."
+          }
+        ],
+        "difficulty": 3
+      },
+      {
+        "kind": "numeric",
+        "text": "A diagonal path crosses a rectangular field 80 m by 60 m. Length of the diagonal in metres?",
+        "text_fr": "Un sentier en diagonale traverse un champ rectangulaire de 80 m sur 60 m. Longueur de la diagonale en mètres ?",
+        "explanation": "6400 + 3600 = 10000, √10000 = 100.",
+        "explanation_fr": "6400 + 3600 = 10000, √10000 = 100.",
+        "hint_prompt": "The diagonal is the hypotenuse of two right triangles.",
+        "hint_prompt_fr": "La diagonale est l'hypoténuse de deux triangles rectangles.",
+        "config": {
+          "accepted": [
+            "100"
+          ]
+        },
+        "hints": [
+          {
+            "text": "80² + 60² = 6400 + 3600 = 10000.",
+            "text_fr": "80² + 60² = 6400 + 3600 = 10000."
+          },
+          {
+            "text": "√10000 = 100.",
+            "text_fr": "√10000 = 100."
+          }
+        ],
+        "difficulty": 3
+      }
+    ]
+  }
+}

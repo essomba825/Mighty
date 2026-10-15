@@ -297,85 +297,133 @@ ATOMS = [
 ]
 
 
-# ------------------------------------------------------------- Chimie : diffusion
+# ------------------------------------------------------ Chimie OL : diffusion
 DIFFUSION = [
-    dict(en="Exercise 1 - Spot the definition",
-         en_txt="Finish the sentence: diffusion is the spreading of particles "
-                "from a region where they are ... to a region where they are ... .",
-         fr_txt="Complete : la diffusion est l'etalement des particules "
-                "d'une region ou elles sont ... vers une region ou elles sont ... .",
-         sol="Ex. 1 - ... nombreuses ... vers ... rares (jusqu'a l'equilibre)."),
-    dict(en="Exercise 2 - Fast or slow",
-         en_txt="Rank from fastest to slowest diffusion: color in still water, perfume in air, salt inside a solid block.",
-         fr_txt="Classe de la plus rapide a la plus lente : couleur dans de l'eau immobile, parfum dans l'air, sel dans un bloc solide.",
-         sol="Ex. 2 - Parfum dans l'air (gaz) > couleur dans l'eau (liquide) > sel dans le bloc (solide, quasi nul)."),
-    dict(en="Exercise 3 - Turn the heat up",
-         en_txt="The same dye spreads in a glass of cold water and in a glass of warm water. "
-                "Where does it spread faster, and why (one sentence)?",
-         fr_txt="Le meme colorant s'etale dans un verre d'eau froide et dans un verre d'eau chaude. "
-                "Dans lequel va-t-il plus vite, et pourquoi (une phrase) ?",
-         sol="Ex. 3 - Dans l'eau chaude : les particules plus chaudes se bousculent plus fort."),
-    dict(en="Exercise 4 - The sealed cupboard",
-         en_txt="A sealed tin keeps dry biscuits in a cupboard. After one year, the cupboard air still has no biscuit smell. "
-                "Use particle ideas to explain why.",
-         fr_txt="Une boite fermee garde des biscuits au sec dans un placard. Apres un an, l'air du placard ne sent toujours rien. "
-                "Explique pourquoi avec l'idee des particules.",
-         sol="Ex. 4 - Les biscuits sont des solides : leurs particules sont bloquees en reseau, la diffusion vers l'air est quasi impossible."),
-    dict(en="Exercise 5 - Perfume at home",
-         en_txt="A perfume sprayed on the balcony reaches the stairs within a minute. "
-                "Which state of matter helps it so much, and how?",
-         fr_txt="Un parfum pulverise sur le balcon atteint l'escalier en une minute. "
-                "Quel etat de la matiere l'aide autant, et comment ?",
-         sol="Ex. 5 - Le gaz : les particules y sont libres et parcourent de grandes distances entre collisions."),
-    dict(en="Exercise 6 - Unfold the purple crystal",
-         en_txt="Describe what happens when a crystal of potassium permanganate is dropped into still water. "
-                "Say what actually moves the colour.",
-         fr_txt="Decris ce qui se passe quand un cristal de permanganate de potassium tombe dans de l'eau immobile. "
-                "Dis ce qui deplace vraiment la couleur.",
-         sol="Ex. 6 - La couleur s'etale doucement de proche en proche ; les molecules d'eau bousculent les particules de colorant et les emportent (diffusion)."),
+    dict(en="Exercise 1 - The smell crosses the house",
+         en_txt="Someone opens a pot of pepper soup in the kitchen and a little "
+                "later everyone in the parlour smells it, with no fan and no "
+                "stirring. Explain, with the particulate model, how the smell "
+                "travelled.",
+         fr_txt="On ouvre une marmite de sauce poivree dans la cuisine et, peu "
+                "apres, tout le salon sent la meme odeur, sans ventilateur ni "
+                "brassage. Explique, avec le modele particulaire, comment "
+                "l'odeur s'est deplacee.",
+         sol="Ex. 1 - Les particules de gaz parfume se deplacent au hasard et "
+             "vont de la zone ou elles sont nombreuses (la cuisine) vers la "
+             "zone ou elles sont rares (le salon) : c'est la diffusion, sans "
+             "courant d'air ni brassage."),
+    dict(en="Exercise 2 - Which state is the fastest?",
+         en_txt="In which state - gas, liquid or solid - does diffusion happen "
+                "fastest? Explain using the spacing and the motion of the "
+                "particles.",
+         fr_txt="Dans quel etat - gaz, liquide ou solide - la diffusion "
+                "est-elle la plus rapide ? Explique avec l'espacement et le "
+                "mouvement des particules.",
+         sol="Ex. 2 - Dans les gaz : les particules sont tres eloignees et "
+             "libres, elles se croisent dans de grands espaces vides, donc le "
+             "deplacement est rapide. Dans un liquide elles se genent, et dans "
+             "un solide elles restent prisonnieres du reseau (diffusion quasi "
+             "nulle)."),
+    dict(en="Exercise 3 - Cold glass or warm glass?",
+         en_txt="Two identical glasses of water receive the same drop of ink. "
+                "Glass A is cold, glass B is warm. In which glass does the ink "
+                "spread fully first? Justify with particle collisions.",
+         fr_txt="Deux verres identiques d'eau recoivent la meme goutte d'encre. "
+                "Le verre A est froid, le verre B est tiede. Dans lequel "
+                "l'encre se repand-elle entierement en premier ? Justifie par "
+                "les chocs entre particules.",
+         sol="Ex. 3 - Dans le verre tiede : a temperature plus elevee, les "
+             "molecules d'eau se deplacent plus vite et frappent plus fort les "
+             "particules d'encre, qui migrent donc plus vite. La chaleur "
+             "accelere la diffusion."),
+    dict(en="Exercise 4 - The purple crystal",
+         en_txt="A crystal of potassium permanganate is dropped into a glass of "
+                "still water. After one day the whole glass is uniformly "
+                "purple, with no stirring. What moved the dye through the "
+                "water?",
+         fr_txt="On depose un cristal de permanganate de potassium dans un "
+                "verre d'eau immobile. Apres un jour, tout le verre est violet "
+                "uniforme, sans aucun brassage. Qu'est-ce qui a deplace le "
+                "colorant dans l'eau ?",
+         sol="Ex. 4 - Les molecules d'eau, en mouvement perpetuel, heurtent les "
+             "particules de colorant et les emportent peu a peu : le colorant "
+             "diffuse de la zone concentree vers le reste de l'eau jusqu'a "
+             "uniformiser la couleur."),
+    dict(en="Exercise 5 - Why the dry salt stays put",
+         en_txt="Dry salt kept in a closed tin in the kitchen does not salt the "
+                "air of the cupboard, even after a year, while a perfume fills "
+                "a room in seconds. Explain the difference.",
+         fr_txt="Le sel sec conserve dans une boite fermee n'impregne pas "
+                "l'air du placard, meme apres un an, alors qu'un parfum remplit "
+                "une piece en quelques secondes. Explique cette difference.",
+         sol="Ex. 5 - Dans le solide, les particules de sel sont fixees dans le "
+             "reseau et ne peuvent pas se deplacer : la diffusion y est quasi "
+             "nulle. Le parfum est un gaz : ses particules libres diffusent "
+             "vite dans l'air."),
+    dict(en="Exercise 6 - Predict the incense",
+         en_txt="A stick of incense is lit in one corner of a closed "
+                "classroom. Predict what its smell does after a few minutes, "
+                "and say how raising the room temperature would change the "
+                "timing.",
+         fr_txt="On fait bruler un baton d'encens dans un coin d'une salle "
+                "fermee. Prevois ce que fait son odeur apres quelques minutes, "
+                "et dis comment une hausse de la temperature changerait le "
+                "delai.",
+         sol="Ex. 6 - L'odeur se repand d'elle-meme dans toute la salle par "
+             "diffusion, jusqu'a devenir uniforme. Si la temperature monte, "
+             "les particules bougent plus vite et la diffusion est plus "
+             "rapide : l'odeur arrive plus tot."),
 ]
 
 
-# ------------------------------------- Chimie AL : concentration molaire
+# -------------------------------------------- Chimie AL : concentration molaire
 MOLAR = [
-    dict(en="Exercise 1 - Read the roles",
-         en_txt="Water + salt removed in a beaker: name the solute and the solvent.",
-         fr_txt="Eau + sel dissous dans un becher : nomme le solute et le solvant.",
-         sol="Ex. 1 - Soluté : le sel ; solvant : l'eau."),
-    dict(en="Exercise 2 - Grams to moles",
-         en_txt="Convert 5.85 g of NaCl into moles (M = 58.5 g/mol).",
-         fr_txt="Convertis 5,85 g de NaCl en moles (M = 58,5 g/mol).",
-         sol="Ex. 2 - n = m / M = 5,85 / 58,5 = 0,1 mol."),
-    dict(en="Exercise 3 - A saline stock",
-         en_txt="0.2 mol of NaCl is made up to 0.25 L. Compute the molarity.",
-         fr_txt="0,2 mol de NaCl est complété à 0,25 L. Calcule la molarité.",
-         sol="Ex. 3 - c = n / V = 0,2 / 0,25 = 0,8 mol/L."),
-    dict(en="Exercise 4 - From a bottle's label",
-         en_txt="A bottle reads 2.0 mol/L HCl. How many moles stand inside a 25 mL portion?",
-         fr_txt="Un flacon indique 2,0 mol/L de HCl. Combien de moles y a-t-il dans 25 mL ?",
-         sol="Ex. 4 - 25 mL = 0,025 L. n = c x V = 2,0 x 0,025 = 0,05 mol (50 mmol)."),
-    dict(en="Exercise 5 - Dilute to order",
-         en_txt="Take 10 mL of a 2 mol/L stock and add water up to 100 mL. What is the new concentration?",
-         fr_txt="On prend 10 mL d'un stock a 2 mol/L et on complete a 100 mL avec de l'eau. Quelle est la nouvelle concentration ?",
-         sol="Ex. 5 - C1V1 = C2V2 : 2 x 10 = C2 x 100, donc C2 = 0,2 mol/L."),
-    dict(en="Exercise 6 - All in one",
-         en_txt="Dissolve 4 g of NaOH (M = 40 g/mol) and top up to 500 mL. "
-                "Give the molarity of the final solution step by step.",
-         fr_txt="On dissout 4 g de NaOH (M = 40 g/mol) et on complete a 500 mL. "
-                "Donne la molarite de la solution finale, etape par etape.",
-         sol="Ex. 6 - n = 4 / 40 = 0,1 mol ; V = 0,500 L ; c = 0,1 / 0,500 = 0,2 mol/L."),
+    dict(en="Exercise 1 - From grams to moles",
+         en_txt="Calculate the number of moles in 10 g of calcium carbonate, "
+                "CaCO3 (M = 100 g/mol).",
+         fr_txt="Calcule le nombre de moles dans 10 g de carbonate de calcium, "
+                "CaCO3 (M = 100 g/mol).",
+         sol="Ex. 1 - n = m / M = 10 / 100 = 0,10 mol."),
+    dict(en="Exercise 2 - Concentration from moles",
+         en_txt="0.25 mol of solute is dissolved to make 0.50 L of solution. "
+                "Compute the molar concentration.",
+         fr_txt="On dissout 0,25 mol de solute pour obtenir 0,50 L de solution. "
+                "Calcule la concentration molaire.",
+         sol="Ex. 2 - c = n / V = 0,25 / 0,50 = 0,50 mol/L."),
+    dict(en="Exercise 3 - The full chain",
+         en_txt="5.85 g of sodium chloride, NaCl (M = 58.5 g/mol), are made up "
+                "to 0.50 L of solution. Find the molarity. (First grams to "
+                "moles, then divide.)",
+         fr_txt="On dissout 5,85 g de chlorure de sodium, NaCl (M = 58.5 "
+                "g/mol), pour obtenir 0,50 L de solution. Trouve la molarite. "
+                "(D'abord les grammes en moles, puis on divise.)",
+         sol="Ex. 3 - n = m / M = 5,85 / 58,5 = 0,10 mol. c = n / V = 0,10 / "
+             "0,50 = 0,20 mol/L."),
+    dict(en="Exercise 4 - Dilution keeps the moles",
+         en_txt="10 mL of a 2 mol/L stock solution is diluted to 100 mL. What "
+                "is the final concentration?",
+         fr_txt="On dilue 10 mL d'une solution mere a 2 mol/L jusqu'a 100 mL. "
+                "Quelle est la concentration finale ?",
+         sol="Ex. 4 - C1 V1 = C2 V2 : 2 x 10 = C2 x 100, d'ou C2 = 0,20 mol/L."),
+    dict(en="Exercise 5 - How much mass to weigh",
+         en_txt="What mass of glucose (M = 180 g/mol) is needed to prepare "
+                "0.250 L of a 0.20 mol/L glucose solution?",
+         fr_txt="Quelle masse de glucose (M = 180 g/mol) faut-il peser pour "
+                "preparer 0,250 L d'une solution de glucose a 0,20 mol/L ?",
+         sol="Ex. 5 - n = c V = 0,20 x 0,250 = 0,050 mol. m = n M = 0,050 x "
+             "180 = 9,0 g."),
+    dict(en="Exercise 6 - Read the bottle",
+         en_txt="A bottle is labelled 0.50 mol/L. How many moles of solute are "
+                "there in 250 mL taken from it? Watch the volume unit.",
+         fr_txt="Un flacon porte l'etiquette 0,50 mol/L. Combien de moles de "
+                "solute y a-t-il dans 250 mL preleves ? Attention a l'unite de "
+                "volume.",
+         sol="Ex. 6 - V = 250 mL = 0,250 L. n = c V = 0,50 x 0,250 = 0,125 "
+             "mol."),
 ]
 
 
 if __name__ == '__main__':
-    build('molar-exercices.pdf', 'Molar Concentration - Practice worksheet',
-          'GCE Advanced Level Chemistry - Concentration molaire', MOLAR, with_solutions=False)
-    build('molar-corrige.pdf', 'Molar Concentration - Answer key',
-          'GCE Advanced Level Chemistry - Concentration molaire - Corrige', MOLAR, with_solutions=True)
-    build('diffusion-exercices.pdf', 'Diffusion - Practice worksheet',
-          'GCE Ordinary Level Chemistry - La diffusion', DIFFUSION, with_solutions=False)
-    build('diffusion-corrige.pdf', 'Diffusion - Answer key',
-          'GCE Ordinary Level Chemistry - La diffusion - Corrige', DIFFUSION, with_solutions=True)
     build('atoms-exercices.pdf', 'Atoms, Elements and Compounds - Practice worksheet',
           'GCE Ordinary Level Chemistry - Atomes, elements et composes', ATOMS, with_solutions=False)
     build('atoms-corrige.pdf', 'Atoms, Elements and Compounds - Answer key',
@@ -396,3 +444,11 @@ if __name__ == '__main__':
           'GCE Ordinary Level Physics - Forces et poids', FORCES, with_solutions=False)
     build('forces-corrige.pdf', 'Forces, Weight and Mass - Answer key',
           'GCE Ordinary Level Physics - Forces et poids - Corrige', FORCES, with_solutions=True)
+    build('diffusion-exercices.pdf', 'Diffusion - Practice worksheet',
+          'GCE Ordinary Level Chemistry - Diffusion', DIFFUSION, with_solutions=False)
+    build('diffusion-corrige.pdf', 'Diffusion - Answer key',
+          'GCE Ordinary Level Chemistry - Diffusion - Corrige', DIFFUSION, with_solutions=True)
+    build('molar-exercices.pdf', 'Molar Concentration - Practice worksheet',
+          'GCE Advanced Level Chemistry - Concentration molaire', MOLAR, with_solutions=False)
+    build('molar-corrige.pdf', 'Molar Concentration - Answer key',
+          'GCE Advanced Level Chemistry - Concentration molaire - Corrige', MOLAR, with_solutions=True)

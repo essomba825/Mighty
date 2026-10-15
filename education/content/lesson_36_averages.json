@@ -1,0 +1,309 @@
+{
+  "lesson": 36,
+  "status": "published",
+  "lesson_fields": {
+    "title": "Mean, Median, Mode and Range",
+    "title_fr": "Moyenne, médiane, mode et étendue",
+    "summary": "Four ways to summarise a data set: mean, median, mode and range. Learn what each one answers and how to compute it.",
+    "summary_fr": "Quatre façons de résumer une série : moyenne, médiane, mode et étendue. On apprend ce que chacune répond et comment la calculer.",
+    "content": "## Four summaries\n\nMean = sum ÷ count. Median = middle value once sorted. Mode = most frequent value. Range = max − min.",
+    "content_fr": "## Quatre résumés\n\nMoyenne = somme ÷ effectif. Médiane = valeur du milieu après tri. Mode = valeur la plus fréquente. Étendue = max − min.",
+    "objectives": [
+      "Compute the mean of a short data set",
+      "Order data and read off the median",
+      "Spot the mode and understand zero mode cases",
+      "Compute the range and compare spreads"
+    ],
+    "objectives_fr": [
+      "Calculer la moyenne d'une petite série",
+      "Ordonner les données et lire la médiane",
+      "Identifier le mode et comprendre les cas sans mode",
+      "Calculer l'étendue et comparer les dispersions"
+    ],
+    "estimated_minutes": 25
+  },
+  "steps": [
+    {
+      "kind": "concept",
+      "title": "The mean: fair sharing",
+      "title_fr": "La moyenne : le partage équitable",
+      "content": "The mean answers: if everyone received the same amount, what would each get? Add all values and divide by how many there are.\n\n_Figure: Cmglee — CC BY-SA 3.0, via Wikimedia Commons._",
+      "content_fr": "La moyenne répond à cette question : si tout le monde recevait la même part, chacun aurait combien ? On additionne toutes les valeurs et on divise par leur nombre.\n\n_Figure : Cmglee — CC BY-SA 3.0, via Wikimedia Commons._",
+      "required": true,
+      "xp": 10,
+      "question": {
+        "kind": "numeric",
+        "text": "Marks: 8, 10, 12. What is the mean?",
+        "text_fr": "Notes : 8, 10, 12. Quelle est la moyenne ?",
+        "explanation": "Sum = 30, count = 3, mean = 30 ÷ 3 = 10.",
+        "explanation_fr": "Somme = 30, effectif = 3, moyenne = 30 ÷ 3 = 10.",
+        "hint_prompt": "Add, then divide by 3.",
+        "hint_prompt_fr": "Additionne, puis divise par 3.",
+        "config": {
+          "accepted": [
+            "10"
+          ]
+        },
+        "hints": [
+          {
+            "text": "8 + 10 + 12 = 30.",
+            "text_fr": "8 + 10 + 12 = 30."
+          },
+          {
+            "text": "30 ÷ 3 = 10.",
+            "text_fr": "30 ÷ 3 = 10."
+          }
+        ]
+      }
+    },
+    {
+      "kind": "explain",
+      "title": "The median: sort first",
+      "title_fr": "La médiane : d'abord trier",
+      "content": "Sort the values from smallest to largest. With an odd count the median is the middle value; with an even count, average the two central values.",
+      "content_fr": "On trie les valeurs de la plus petite à la plus grande. Avec un effectif impair, la médiane est la valeur du milieu ; avec un effectif pair, on fait la moyenne des deux valeurs centrales.",
+      "required": true,
+      "xp": 10,
+      "question": {
+        "kind": "numeric",
+        "text": "Heights in cm: 140, 150, 155. Median?",
+        "text_fr": "Tailles en cm : 140, 150, 155. Médiane ?",
+        "explanation": "Already sorted; three values, the middle one is 150.",
+        "explanation_fr": "Déjà triées ; trois valeurs, celle du milieu est 150.",
+        "hint_prompt": "Three values… which one is in the middle?",
+        "hint_prompt_fr": "Trois valeurs… laquelle est au milieu ?",
+        "config": {
+          "accepted": [
+            "150"
+          ]
+        },
+        "hints": [
+          {
+            "text": "Middle position = 2nd of 3.",
+            "text_fr": "Position centrale = 2e sur 3."
+          }
+        ]
+      }
+    },
+    {
+      "kind": "example",
+      "title": "Worked example: mode and range",
+      "title_fr": "Exemple résolu : mode et étendue",
+      "content": "Shoe sizes sold today: 40, 41, 41, 42, 45. Mode = 41 (appears twice). Range = 45 − 40 = 5.",
+      "content_fr": "Pointures vendues aujourd'hui : 40, 41, 41, 42, 45. Mode = 41 (deux fois). Étendue = 45 − 40 = 5.",
+      "required": true,
+      "xp": 12
+    },
+    {
+      "kind": "practice",
+      "title": "Your turn: the full set",
+      "title_fr": "À toi : les quatre en même temps",
+      "content": "Goals per match: 2, 0, 3, 1, 2. Find the mean.",
+      "content_fr": "Buts par match : 2, 0, 3, 1, 2. Trouve la moyenne.",
+      "required": true,
+      "xp": 12,
+      "question": {
+        "kind": "numeric",
+        "text": "Data: 2, 0, 3, 1, 2. Mean?",
+        "text_fr": "Données : 2, 0, 3, 1, 2. Moyenne ?",
+        "explanation": "Sum = 8, count = 5, 8 ÷ 5 = 1.6.",
+        "explanation_fr": "Somme = 8, effectif = 5, 8 ÷ 5 = 1,6.",
+        "hint_prompt": "A mean can be a decimal.",
+        "hint_prompt_fr": "Une moyenne peut être décimale.",
+        "config": {
+          "accepted": [
+            "1.6"
+          ]
+        },
+        "hints": [
+          {
+            "text": "2 + 0 + 3 + 1 + 2 = 8.",
+            "text_fr": "2 + 0 + 3 + 1 + 2 = 8."
+          },
+          {
+            "text": "8 ÷ 5 = 1.6.",
+            "text_fr": "8 ÷ 5 = 1,6."
+          }
+        ]
+      }
+    },
+    {
+      "kind": "question",
+      "title": "Check: median or mean?",
+      "title_fr": "Vérification : médiane ou moyenne ?",
+      "content": "One huge or tiny value pulls the mean hard. The median resists extreme values, which is why salaries are often given as medians.",
+      "content_fr": "Une valeur énorme ou minuscule tire fortement la moyenne. La médiane résiste aux valeurs extrêmes, c'est pourquoi les salaires s'expriment souvent en médiane.",
+      "required": true,
+      "xp": 12,
+      "question": {
+        "kind": "mcq",
+        "text": "Wages in a tiny company: 100, 110, 95, 4000. Which summary best represents a typical wage?",
+        "text_fr": "Salaires dans une petite entreprise : 100, 110, 95, 4000. Quel résumé représente le mieux un salaire typique ?",
+        "explanation": "The 4000 inflates the mean; the median ignores the extreme.",
+        "explanation_fr": "Le 4000 gonfle la moyenne ; la médiane ignore l'extrême.",
+        "hint_prompt": "Which one ignores extreme values?",
+        "hint_prompt_fr": "Laquelle ignore les valeurs extrêmes ?",
+        "choices": [
+          {
+            "text": "the mean",
+            "text_fr": "la moyenne",
+            "correct": false
+          },
+          {
+            "text": "the median",
+            "text_fr": "la médiane",
+            "correct": true
+          },
+          {
+            "text": "the range",
+            "text_fr": "l'étendue",
+            "correct": false
+          }
+        ],
+        "hints": [
+          {
+            "text": "4000 is far from the others.",
+            "text_fr": "4000 est loin des autres."
+          }
+        ]
+      }
+    },
+    {
+      "kind": "summary",
+      "title": "What to keep",
+      "title_fr": "À retenir",
+      "content": "Mean = sharing equally. Median = middle after sorting. Mode = most frequent. Range = biggest minus smallest.",
+      "content_fr": "Moyenne = partager également. Médiane = milieu après tri. Mode = plus fréquent. Étendue = plus grand moins plus petit.",
+      "required": false,
+      "xp": 5
+    }
+  ],
+  "quiz": {
+    "title": "Mean, median, mode and range",
+    "title_fr": "Moyenne, médiane, mode et étendue",
+    "pass_score": 60,
+    "questions": [
+      {
+        "kind": "numeric",
+        "text": "Values: 5, 7, 9. Mean?",
+        "text_fr": "Valeurs : 5, 7, 9. Moyenne ?",
+        "explanation": "21 ÷ 3 = 7.",
+        "explanation_fr": "21 ÷ 3 = 7.",
+        "hint_prompt": "Add then divide by three.",
+        "hint_prompt_fr": "Additionne puis divise par trois.",
+        "config": {
+          "accepted": [
+            "7"
+          ]
+        },
+        "hints": [
+          {
+            "text": "5 + 7 + 9 = 21.",
+            "text_fr": "5 + 7 + 9 = 21."
+          }
+        ],
+        "difficulty": 1
+      },
+      {
+        "kind": "numeric",
+        "text": "Data sorted: 3, 4, 7, 8, 10, 12. Median?",
+        "text_fr": "Données triées : 3, 4, 7, 8, 10, 12. Médiane ?",
+        "explanation": "Even count: average the two central ones, (7 + 8) ÷ 2 = 7.5.",
+        "explanation_fr": "Effectif pair : moyenne des deux centrales, (7 + 8) ÷ 2 = 7,5.",
+        "hint_prompt": "Six values, so take the 3rd and 4th.",
+        "hint_prompt_fr": "Six valeurs, donc on prend la 3e et la 4e.",
+        "config": {
+          "accepted": [
+            "7.5"
+          ]
+        },
+        "hints": [
+          {
+            "text": "Middle pair: 7 and 8.",
+            "text_fr": "Paire centrale : 7 et 8."
+          },
+          {
+            "text": "(7 + 8) ÷ 2.",
+            "text_fr": "(7 + 8) ÷ 2."
+          }
+        ],
+        "difficulty": 2
+      },
+      {
+        "kind": "numeric",
+        "text": "Goals: 1, 4, 1, 2, 1. What is the mode?",
+        "text_fr": "Buts : 1, 4, 1, 2, 1. Quel est le mode ?",
+        "explanation": "1 appears three times, more than any other.",
+        "explanation_fr": "1 apparaît trois fois, plus que tout autre.",
+        "hint_prompt": "Count how often each value appears.",
+        "hint_prompt_fr": "Compte les apparitions de chaque valeur.",
+        "config": {
+          "accepted": [
+            "1"
+          ]
+        },
+        "hints": [
+          {
+            "text": "1 appears three times.",
+            "text_fr": "1 apparaît trois fois."
+          }
+        ],
+        "difficulty": 1
+      },
+      {
+        "kind": "numeric",
+        "text": "Temperatures: 12°, 18°, 7°, 15°. Range in degrees?",
+        "text_fr": "Températures : 12°, 18°, 7°, 15°. Étendue en degrés ?",
+        "explanation": "max − min = 18 − 7 = 11.",
+        "explanation_fr": "max − min = 18 − 7 = 11.",
+        "hint_prompt": "Biggest minus smallest.",
+        "hint_prompt_fr": "Le plus grand moins le plus petit.",
+        "config": {
+          "accepted": [
+            "11"
+          ]
+        },
+        "hints": [
+          {
+            "text": "18 − 7 = 11.",
+            "text_fr": "18 − 7 = 11."
+          }
+        ],
+        "difficulty": 2
+      },
+      {
+        "kind": "mcq",
+        "text": "Data: 2, 2, 3, 4. The mean is…",
+        "text_fr": "Données : 2, 2, 3, 4. La moyenne est…",
+        "explanation": "Sum 11 ÷ 4 = 2.75, and a mean need not appear in the list.",
+        "explanation_fr": "Somme 11 ÷ 4 = 2,75, et une moyenne n'est pas obligée d'être dans la liste.",
+        "hint_prompt": "The mode here is 2, but the question is about the mean.",
+        "hint_prompt_fr": "Le mode ici est 2, mais la question porte sur la moyenne.",
+        "choices": [
+          {
+            "text": "2",
+            "text_fr": "2",
+            "correct": false
+          },
+          {
+            "text": "2.75",
+            "text_fr": "2,75",
+            "correct": true
+          },
+          {
+            "text": "3",
+            "text_fr": "3",
+            "correct": false
+          }
+        ],
+        "hints": [
+          {
+            "text": "11 ÷ 4.",
+            "text_fr": "11 ÷ 4."
+          }
+        ],
+        "difficulty": 2
+      }
+    ]
+  }
+}

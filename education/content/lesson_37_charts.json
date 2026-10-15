@@ -1,0 +1,321 @@
+{
+  "lesson": 37,
+  "status": "published",
+  "lesson_fields": {
+    "title": "Charts and Graphs for Data",
+    "title_fr": "Tableaux et graphiques de données",
+    "summary": "Read and build bar charts, pictograms, line graphs and pie charts; know which chart answers which question.",
+    "summary_fr": "Lire et construire des diagrammes en barres, pictogrammes, courbes et diagrammes circulaires ; savoir quel graphique répond à quelle question.",
+    "content": "## Choosing the picture\n\nBars compare categories, lines show change over time, pies show parts of a whole.",
+    "content_fr": "## Choisir le bon dessin\n\nLes barres comparent des catégories, les courbes suivent une évolution, les secteurs montrent les parts d'un tout.",
+    "objectives": [
+      "Read exact values from a bar chart or table",
+      "Follow how a value evolves on a line graph",
+      "Compute angles for a pie chart",
+      "Choose the right chart for a given question"
+    ],
+    "objectives_fr": [
+      "Lire des valeurs exactes sur un diagramme en barres ou un tableau",
+      "Suivre l'évolution d'une grandeur sur une courbe",
+      "Calculer les angles d'un diagramme circulaire",
+      "Choisir le bon graphique selon la question posée"
+    ],
+    "estimated_minutes": 25
+  },
+  "steps": [
+    {
+      "kind": "concept",
+      "title": "Bar charts: comparing categories",
+      "title_fr": "Les barres : comparer des catégories",
+      "content": "Each bar stands for a category; its height gives the quantity. Reading a bar chart means: name the category, then read the value on the axis.\n\n_Figure: Masur — Public domain, via Wikimedia Commons._",
+      "content_fr": "Chaque barre représente une catégorie ; sa hauteur donne la quantité. Lire un diagramme en barres, c'est : nommer la catégorie, puis lire la valeur sur l'axe.\n\n_Figure : Masur — Public domain, via Wikimedia Commons._",
+      "required": true,
+      "xp": 10,
+      "question": {
+        "kind": "numeric",
+        "text": "Books sold: Monday 4, Tuesday 7, Wednesday 3. Total over the three days?",
+        "text_fr": "Livres vendus : lundi 4, mardi 7, mercredi 3. Total sur les trois jours ?",
+        "explanation": "4 + 7 + 3 = 14.",
+        "explanation_fr": "4 + 7 + 3 = 14.",
+        "hint_prompt": "Add the three heights.",
+        "hint_prompt_fr": "Additionne les trois hauteurs.",
+        "config": {
+          "accepted": [
+            "14"
+          ]
+        },
+        "hints": [
+          {
+            "text": "4 + 7 = 11.",
+            "text_fr": "4 + 7 = 11."
+          },
+          {
+            "text": "11 + 3 = 14.",
+            "text_fr": "11 + 3 = 14."
+          }
+        ]
+      }
+    },
+    {
+      "kind": "explain",
+      "title": "Line graphs: watching change",
+      "title_fr": "Les courbes : suivre un changement",
+      "content": "A line graph joins values measured over time. Rising means increase, falling means decrease, flat means stable; the steeper, the faster the change.",
+      "content_fr": "Une courbe relie des valeurs mesurées dans le temps. Elle monte quand ça augmente, descend quand ça baisse, stagne quand c'est stable ; plus c'est raide, plus le changement est rapide.",
+      "required": true,
+      "xp": 10,
+      "question": {
+        "kind": "numeric",
+        "text": "Temperature at 8h: 15°, at 12h: 23°. By how many degrees did it rise?",
+        "text_fr": "Température à 8h : 15°, à 12h : 23°. De combien de degrés a-t-elle augmenté ?",
+        "explanation": "23 − 15 = 8.",
+        "explanation_fr": "23 − 15 = 8.",
+        "hint_prompt": "Final minus initial.",
+        "hint_prompt_fr": "Finale moins initiale.",
+        "config": {
+          "accepted": [
+            "8"
+          ]
+        },
+        "hints": [
+          {
+            "text": "23 − 15.",
+            "text_fr": "23 − 15."
+          }
+        ]
+      }
+    },
+    {
+      "kind": "example",
+      "title": "Worked example: the pie chart angle",
+      "title_fr": "Exemple résolu : l'angle du camembert",
+      "content": "30 students, 6 choose football. Each student is 360° ÷ 30 = 12°. Football gets 6 × 12 = 72°. A right angle marks a quarter, 180° a half.",
+      "content_fr": "30 élèves, 6 choisissent le football. Chaque élève vaut 360° ÷ 30 = 12°. Le football prend 6 × 12 = 72°. Un angle droit marque le quart, 180° la moitié.",
+      "required": true,
+      "xp": 12
+    },
+    {
+      "kind": "practice",
+      "title": "Your turn: fill the pie",
+      "title_fr": "À toi : remplis le camembert",
+      "content": "40 pupils, 10 prefer reading. What angle does the reading slice take?",
+      "content_fr": "40 élèves, 10 préfèrent la lecture. Quel angle occupe la part lecture ?",
+      "required": true,
+      "xp": 12,
+      "question": {
+        "kind": "numeric",
+        "text": "40 pupils, 10 for the category. Angle in degrees?",
+        "text_fr": "40 élèves, 10 pour la catégorie. Angle en degrés ?",
+        "explanation": "Fraction 10/40 = 1/4, and 360° ÷ 4 = 90°.",
+        "explanation_fr": "Fraction 10/40 = 1/4, et 360° ÷ 4 = 90°.",
+        "hint_prompt": "First find what one pupil is worth in degrees.",
+        "hint_prompt_fr": "Trouve d'abord ce que vaut un élève en degrés.",
+        "config": {
+          "accepted": [
+            "90"
+          ]
+        },
+        "hints": [
+          {
+            "text": "360 ÷ 40 = 9° per pupil.",
+            "text_fr": "360 ÷ 40 = 9° par élève."
+          },
+          {
+            "text": "10 × 9 = 90.",
+            "text_fr": "10 × 9 = 90."
+          }
+        ]
+      }
+    },
+    {
+      "kind": "question",
+      "title": "Check: the right chart",
+      "title_fr": "Vérification : le bon graphique",
+      "content": "Same data, different pictures. The question being asked decides which chart is honest and useful.",
+      "content_fr": "Mêmes données, dessins différents. La question posée décide quel graphique est honnête et utile.",
+      "required": true,
+      "xp": 12,
+      "question": {
+        "kind": "mcq",
+        "text": "You follow the price of maize month after month. Best chart?",
+        "text_fr": "Tu suis le prix du maïs mois après mois. Meilleur graphique ?",
+        "explanation": "Change over time is best drawn as a line graph.",
+        "explanation_fr": "Une évolution dans le temps se dessine mieux en courbe.",
+        "hint_prompt": "What changes over time?",
+        "hint_prompt_fr": "Qu'est-ce qui change avec le temps ?",
+        "choices": [
+          {
+            "text": "pie chart",
+            "text_fr": "diagramme circulaire",
+            "correct": false
+          },
+          {
+            "text": "line graph",
+            "text_fr": "courbe",
+            "correct": true
+          },
+          {
+            "text": "pictogram",
+            "text_fr": "pictogramme",
+            "correct": false
+          }
+        ],
+        "hints": [
+          {
+            "text": "Months are ordered in time.",
+            "text_fr": "Les mois s'ordonnent dans le temps."
+          }
+        ]
+      }
+    },
+    {
+      "kind": "summary",
+      "title": "What to keep",
+      "title_fr": "À retenir",
+      "content": "Bars compare, lines evolve, pies share. Pie angle = frequency × 360° ÷ total.",
+      "content_fr": "Les barres comparent, les courbes évoluent, les camemberts partagent. Angle = effectif × 360° ÷ total.",
+      "required": false,
+      "xp": 5
+    }
+  ],
+  "quiz": {
+    "title": "Charts and graphs",
+    "title_fr": "Tableaux et graphiques",
+    "pass_score": 60,
+    "questions": [
+      {
+        "kind": "numeric",
+        "text": "Revenue: week 1 = 50, week 2 = 80. Increase?",
+        "text_fr": "Recette : semaine 1 = 50, semaine 2 = 80. Augmentation ?",
+        "explanation": "80 − 50 = 30.",
+        "explanation_fr": "80 − 50 = 30.",
+        "hint_prompt": "Final minus initial.",
+        "hint_prompt_fr": "Finale moins initiale.",
+        "config": {
+          "accepted": [
+            "30"
+          ]
+        },
+        "hints": [
+          {
+            "text": "80 − 50.",
+            "text_fr": "80 − 50."
+          }
+        ],
+        "difficulty": 1
+      },
+      {
+        "kind": "numeric",
+        "text": "60 respondents, 15 say cocoa. Pie chart angle for cocoa in degrees?",
+        "text_fr": "60 personnes interrogées, 15 disent cacao. Angle du secteur cacao en degrés ?",
+        "explanation": "360 ÷ 60 = 6°, then 15 × 6 = 90°.",
+        "explanation_fr": "360 ÷ 60 = 6°, puis 15 × 6 = 90°.",
+        "hint_prompt": "One respondent = 360 ÷ 60 degrees.",
+        "hint_prompt_fr": "Une personne = 360 ÷ 60 degrés.",
+        "config": {
+          "accepted": [
+            "90"
+          ]
+        },
+        "hints": [
+          {
+            "text": "360 ÷ 60 = 6.",
+            "text_fr": "360 ÷ 60 = 6."
+          },
+          {
+            "text": "15 × 6 = 90.",
+            "text_fr": "15 × 6 = 90."
+          }
+        ],
+        "difficulty": 2
+      },
+      {
+        "kind": "mcq",
+        "text": "Sizes of shoe stock compared between four shops. Best chart?",
+        "text_fr": "Comparaison des stocks de chaussures entre quatre boutiques. Meilleur graphique ?",
+        "explanation": "Comparing categories side by side is the job of a bar chart.",
+        "explanation_fr": "Comparer des catégories côte à côte, c'est le rôle du diagramme en barres.",
+        "hint_prompt": "Four independent categories.",
+        "hint_prompt_fr": "Quatre catégories indépendantes.",
+        "choices": [
+          {
+            "text": "bar chart",
+            "text_fr": "diagramme en barres",
+            "correct": true
+          },
+          {
+            "text": "line graph",
+            "text_fr": "courbe",
+            "correct": false
+          },
+          {
+            "text": "pie chart",
+            "text_fr": "diagramme circulaire",
+            "correct": false
+          }
+        ],
+        "hints": [
+          {
+            "text": "No time order here.",
+            "text_fr": "Pas d'ordre temporel ici."
+          }
+        ],
+        "difficulty": 2
+      },
+      {
+        "kind": "numeric",
+        "text": "On a bar chart: A = 12, B = 9, C = 6. Mean of the three values?",
+        "text_fr": "Sur un diagramme en barres : A = 12, B = 9, C = 6. Moyenne des trois valeurs ?",
+        "explanation": "(12 + 9 + 6) ÷ 3 = 27 ÷ 3 = 9.",
+        "explanation_fr": "(12 + 9 + 6) ÷ 3 = 27 ÷ 3 = 9.",
+        "hint_prompt": "Sum, then divide by three.",
+        "hint_prompt_fr": "Somme, puis divisée par trois.",
+        "config": {
+          "accepted": [
+            "9"
+          ]
+        },
+        "hints": [
+          {
+            "text": "12 + 9 + 6 = 27.",
+            "text_fr": "12 + 9 + 6 = 27."
+          }
+        ],
+        "difficulty": 2
+      },
+      {
+        "kind": "mcq",
+        "text": "A pie slice is exactly 180°. The category represents…",
+        "text_fr": "Un secteur mesure exactement 180°. La catégorie représente…",
+        "explanation": "180° is half of 360°, so the category is half of the total.",
+        "explanation_fr": "180° est la moitié de 360°, donc la catégorie est la moitié du total.",
+        "hint_prompt": "180 is half of 360.",
+        "hint_prompt_fr": "180 est la moitié de 360.",
+        "choices": [
+          {
+            "text": "a quarter of the total",
+            "text_fr": "un quart du total",
+            "correct": false
+          },
+          {
+            "text": "half of the total",
+            "text_fr": "la moitié du total",
+            "correct": true
+          },
+          {
+            "text": "a third of the total",
+            "text_fr": "un tiers du total",
+            "correct": false
+          }
+        ],
+        "hints": [
+          {
+            "text": "180 / 360 = 1/2.",
+            "text_fr": "180 / 360 = 1/2."
+          }
+        ],
+        "difficulty": 3
+      }
+    ]
+  }
+}

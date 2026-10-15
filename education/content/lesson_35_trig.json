@@ -1,0 +1,330 @@
+{
+  "lesson": 35,
+  "status": "published",
+  "lesson_fields": {
+    "title": "SOH CAH TOA — Sine, Cosine and Tangent",
+    "title_fr": "SOH CAH TOA — sinus, cosinus et tangente",
+    "summary": "Sine, cosine and tangent link an angle to the sides of a right triangle. Learn to pick the right ratio and compute a missing side.",
+    "summary_fr": "Sinus, cosinus et tangente relient un angle aux côtés d'un triangle rectangle. On apprend à choisir le bon rapport et à calculer un côté manquant.",
+    "content": "## Three ratios\n\nsin = opposite / hypotenuse, cos = adjacent / hypotenuse, tan = opposite / adjacent.",
+    "content_fr": "## Trois rapports\n\nsin = opposé / hypoténuse, cos = adjacent / hypoténuse, tan = opposé / adjacent.",
+    "objectives": [
+      "Label hypotenuse, opposite and adjacent sides from a chosen angle",
+      "Choose between sine, cosine and tangent",
+      "Compute a missing side, given an angle and one side",
+      "Spot the two classic mistakes: wrong ratio and wrong angle"
+    ],
+    "objectives_fr": [
+      "Identifier l'hypoténuse, le côté opposé et le côté adjacent depuis l'angle choisi",
+      "Choisir entre sinus, cosinus et tangente",
+      "Calculer un côté manquant connaissant un angle et un côté",
+      "Repérer les deux erreurs classiques : mauvais rapport et mauvais angle"
+    ],
+    "estimated_minutes": 30
+  },
+  "steps": [
+    {
+      "kind": "concept",
+      "title": "Name the three sides",
+      "title_fr": "Nommer les trois côtés",
+      "content": "Face to a chosen angle: the hypotenuse is always opposite the right angle, the opposite side faces the chosen angle, and the adjacent side touches it.\n\n_Figure: James Hare — Public domain, via Wikimedia Commons._",
+      "content_fr": "Face à un angle choisi : l'hypoténuse est toujours en face de l'angle droit, le côté opposé fait face à l'angle choisi et le côté adjacent le touche.\n\n_Figure : James Hare — Public domain, via Wikimedia Commons._",
+      "required": true,
+      "xp": 10,
+      "question": {
+        "kind": "mcq",
+        "text": "From an angle θ, the side that touches θ without being the hypotenuse is the…",
+        "text_fr": "Depuis un angle θ, le côté qui touche θ sans être l'hypoténuse est le…",
+        "explanation": "It touches the angle and is not the hypotenuse: the adjacent side.",
+        "explanation_fr": "Il touche l'angle et n'est pas l'hypoténuse : c'est le côté adjacent.",
+        "hint_prompt": "Adjacent means next to.",
+        "hint_prompt_fr": "Adjacent veut dire à côté.",
+        "choices": [
+          {
+            "text": "opposite side",
+            "text_fr": "côté opposé",
+            "correct": false
+          },
+          {
+            "text": "adjacent side",
+            "text_fr": "côté adjacent",
+            "correct": true
+          },
+          {
+            "text": "hypotenuse",
+            "text_fr": "hypoténuse",
+            "correct": false
+          }
+        ],
+        "hints": [
+          {
+            "text": "It touches the angle.",
+            "text_fr": "Il touche l'angle."
+          }
+        ]
+      }
+    },
+    {
+      "kind": "explain",
+      "title": "SOH CAH TOA",
+      "title_fr": "SOH CAH TOA",
+      "content": "sin θ = O/H, cos θ = A/H, tan θ = O/A. The two sides written in the formula are exactly the two sides of your problem: the one you know and the one you want.",
+      "content_fr": "sin θ = O/H, cos θ = A/H, tan θ = O/A. Les deux côtés écrits dans la formule sont exactement ceux de ta situation : celui que tu connais et celui que tu cherches.",
+      "required": true,
+      "xp": 10,
+      "question": {
+        "kind": "mcq",
+        "text": "You know the angle and the opposite side, and you want the hypotenuse. Which ratio?",
+        "text_fr": "Tu connais l'angle et le côté opposé, et tu cherches l'hypoténuse. Quel rapport ?",
+        "explanation": "Opposite and hypotenuse together: that is sine.",
+        "explanation_fr": "Opposé et hypoténuse ensemble : c'est le sinus.",
+        "hint_prompt": "Which ratio mentions O and H?",
+        "hint_prompt_fr": "Quel rapport mentionne O et H ?",
+        "choices": [
+          {
+            "text": "sine",
+            "text_fr": "sinus",
+            "correct": true
+          },
+          {
+            "text": "cosine",
+            "text_fr": "cosinus",
+            "correct": false
+          },
+          {
+            "text": "tangent",
+            "text_fr": "tangente",
+            "correct": false
+          }
+        ],
+        "hints": [
+          {
+            "text": "SOH: sine = opposite / hypotenuse.",
+            "text_fr": "SOH : sinus = opposé / hypoténuse."
+          }
+        ]
+      }
+    },
+    {
+      "kind": "example",
+      "title": "Worked example: computing a side",
+      "title_fr": "Exemple résolu : calculer un côté",
+      "content": "Angle 30°, hypotenuse 10 m, opposite side wanted. sin 30° = 0.5, so opposite = h × sin 30° = 10 × 0.5 = 5 m.",
+      "content_fr": "Angle 30°, hypoténuse 10 m, côté opposé cherché. sin 30° = 0,5, donc opposé = h × sin 30° = 10 × 0,5 = 5 m.",
+      "required": true,
+      "xp": 12
+    },
+    {
+      "kind": "practice",
+      "title": "Your turn: the flagpole",
+      "title_fr": "À toi : le mât de drapeau",
+      "content": "The sun makes a 45° angle with the ground and the shadow is 8 m long. tan 45° = 1, so the height of the pole equals the length of the shadow.",
+      "content_fr": "Le soleil fait un angle de 45° avec le sol et l'ombre mesure 8 m. tan 45° = 1, donc la hauteur du mât est égale à la longueur de l'ombre.",
+      "required": true,
+      "xp": 12,
+      "question": {
+        "kind": "numeric",
+        "text": "Angle 45°, adjacent side (shadow) 8 m, tan 45° = 1. Height of the pole in metres?",
+        "text_fr": "Angle 45°, côté adjacent (ombre) 8 m, tan 45° = 1. Hauteur du mât en mètres ?",
+        "explanation": "height = 8 × tan 45° = 8 × 1 = 8.",
+        "explanation_fr": "hauteur = 8 × tan 45° = 8 × 1 = 8.",
+        "hint_prompt": "opposite = adjacent × tan(angle).",
+        "hint_prompt_fr": "opposé = adjacent × tan(angle).",
+        "config": {
+          "accepted": [
+            "8"
+          ]
+        },
+        "hints": [
+          {
+            "text": "tan 45° = 1.",
+            "text_fr": "tan 45° = 1."
+          },
+          {
+            "text": "8 × 1 = 8.",
+            "text_fr": "8 × 1 = 8."
+          }
+        ]
+      }
+    },
+    {
+      "kind": "question",
+      "title": "Check: the classic swap",
+      "title_fr": "Vérification : l'inversion classique",
+      "content": "To find a side that is in the numerator, multiply. To find a side that is in the denominator, divide.",
+      "content_fr": "Pour trouver un côté au numérateur, on multiplie. Pour trouver un côté au dénominateur, on divise.",
+      "required": true,
+      "xp": 12,
+      "question": {
+        "kind": "numeric",
+        "text": "Angle 30°, opposite side 12 m, sin 30° = 0.5. Hypotenuse in metres?",
+        "text_fr": "Angle 30°, côté opposé 12 m, sin 30° = 0,5. Hypoténuse en mètres ?",
+        "explanation": "hyp = opposite ÷ sin = 12 ÷ 0.5 = 24.",
+        "explanation_fr": "hyp = opposé ÷ sin = 12 ÷ 0,5 = 24.",
+        "hint_prompt": "The hypotenuse is under the fraction bar: divide this time.",
+        "hint_prompt_fr": "L'hypoténuse est sous la barre de fraction : on divise cette fois.",
+        "config": {
+          "accepted": [
+            "24"
+          ]
+        },
+        "hints": [
+          {
+            "text": "hyp = 12 ÷ 0.5.",
+            "text_fr": "hyp = 12 ÷ 0,5."
+          },
+          {
+            "text": "12 ÷ 0.5 = 24.",
+            "text_fr": "12 ÷ 0,5 = 24."
+          }
+        ]
+      }
+    },
+    {
+      "kind": "summary",
+      "title": "What to keep",
+      "title_fr": "À retenir",
+      "content": "SOH CAH TOA: sin = O/H, cos = A/H, tan = O/A. Pick the ratio whose two sides match the problem.",
+      "content_fr": "SOH CAH TOA : sin = O/H, cos = A/H, tan = O/A. On choisit le rapport dont les deux côtés correspondent à la situation.",
+      "required": false,
+      "xp": 5
+    }
+  ],
+  "quiz": {
+    "title": "Sine, cosine and tangent",
+    "title_fr": "Sinus, cosinus et tangente",
+    "pass_score": 60,
+    "questions": [
+      {
+        "kind": "mcq",
+        "text": "tan θ equals…",
+        "text_fr": "tan θ vaut…",
+        "explanation": "Tangent compares the two legs: opposite over adjacent.",
+        "explanation_fr": "La tangente compare les deux côtés de l'angle droit : opposé sur adjacent.",
+        "hint_prompt": "Tangent never uses the hypotenuse.",
+        "hint_prompt_fr": "La tangente n'utilise jamais l'hypoténuse.",
+        "choices": [
+          {
+            "text": "opposite / hypotenuse",
+            "text_fr": "opposé / hypoténuse",
+            "correct": false
+          },
+          {
+            "text": "adjacent / hypotenuse",
+            "text_fr": "adjacent / hypoténuse",
+            "correct": false
+          },
+          {
+            "text": "opposite / adjacent",
+            "text_fr": "opposé / adjacent",
+            "correct": true
+          }
+        ],
+        "hints": [
+          {
+            "text": "TOA: opposite over adjacent.",
+            "text_fr": "TOA : opposé sur adjacent."
+          }
+        ],
+        "difficulty": 1
+      },
+      {
+        "kind": "numeric",
+        "text": "Angle 30°, hypotenuse 8 cm, sin 30° = 0.5. Opposite side in cm?",
+        "text_fr": "Angle 30°, hypoténuse 8 cm, sin 30° = 0,5. Côté opposé en cm ?",
+        "explanation": "opposite = 8 × 0.5 = 4.",
+        "explanation_fr": "opposé = 8 × 0,5 = 4.",
+        "hint_prompt": "opposite = hypotenuse × sin.",
+        "hint_prompt_fr": "opposé = hypoténuse × sin.",
+        "config": {
+          "accepted": [
+            "4"
+          ]
+        },
+        "hints": [
+          {
+            "text": "8 × 0.5 = 4.",
+            "text_fr": "8 × 0,5 = 4."
+          }
+        ],
+        "difficulty": 2
+      },
+      {
+        "kind": "numeric",
+        "text": "Angle 60°, adjacent side 5 m, tan 60° ≈ 1.7. Opposite side in metres (to 1 decimal place)?",
+        "text_fr": "Angle 60°, côté adjacent 5 m, tan 60° ≈ 1,7. Côté opposé en mètres (à 0,1 près) ?",
+        "explanation": "opposite = 5 × 1.7 = 8.5.",
+        "explanation_fr": "opposé = 5 × 1,7 = 8,5.",
+        "hint_prompt": "opposite = adjacent × tan.",
+        "hint_prompt_fr": "opposé = adjacent × tan.",
+        "config": {
+          "accepted": [
+            "8.5"
+          ],
+          "tolerance": 0.05
+        },
+        "hints": [
+          {
+            "text": "5 × 1.7 = 8.5.",
+            "text_fr": "5 × 1,7 = 8,5."
+          }
+        ],
+        "difficulty": 2
+      },
+      {
+        "kind": "numeric",
+        "text": "Angle 30°, opposite side 9 km, sin 30° = 0.5. Hypotenuse in km?",
+        "text_fr": "Angle 30°, côté opposé 9 km, sin 30° = 0,5. Hypoténuse en km ?",
+        "explanation": "hyp = 9 ÷ 0.5 = 18.",
+        "explanation_fr": "hyp = 9 ÷ 0,5 = 18.",
+        "hint_prompt": "Divide: the hypotenuse is in the denominator.",
+        "hint_prompt_fr": "On divise : l'hypoténuse est au dénominateur.",
+        "config": {
+          "accepted": [
+            "18"
+          ]
+        },
+        "hints": [
+          {
+            "text": "9 ÷ 0.5 = 18.",
+            "text_fr": "9 ÷ 0,5 = 18."
+          }
+        ],
+        "difficulty": 3
+      },
+      {
+        "kind": "mcq",
+        "text": "You know the adjacent side and want the hypotenuse. Which ratio links them?",
+        "text_fr": "Tu connais le côté adjacent et tu cherches l'hypoténuse. Quel rapport les relie ?",
+        "explanation": "Adjacent and hypotenuse appear together in cosine: CAH.",
+        "explanation_fr": "Adjacent et hypoténuse apparaissent ensemble dans le cosinus : CAH.",
+        "hint_prompt": "Which of SOH, CAH, TOA contains A and H?",
+        "hint_prompt_fr": "Lequel de SOH, CAH, TOA contient A et H ?",
+        "choices": [
+          {
+            "text": "sine",
+            "text_fr": "sinus",
+            "correct": false
+          },
+          {
+            "text": "cosine",
+            "text_fr": "cosinus",
+            "correct": true
+          },
+          {
+            "text": "tangent",
+            "text_fr": "tangente",
+            "correct": false
+          }
+        ],
+        "hints": [
+          {
+            "text": "CAH: cos = A/H.",
+            "text_fr": "CAH : cos = A/H."
+          }
+        ],
+        "difficulty": 2
+      }
+    ]
+  }
+}

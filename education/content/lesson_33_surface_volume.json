@@ -1,0 +1,192 @@
+{
+  "lesson": 33,
+  "status": "published",
+  "lesson_fields": {
+    "title": "Surface Area and Volume of Solids",
+    "title_fr": "Aires et volumes des solides",
+    "summary": "Surface area and volume of cubes, cuboids, cylinders. Use π for circular cross-sections.",
+    "summary_fr": "Aire latérale/ totale et volume de cubes, parallélépipèdes, cylindres. Utiliser π pour les bases circulaires.",
+    "content": "## Key formulas\n\n1. Cube: SA = 6a², V = a³.\n2. Cuboid: SA = 2(lw + lh + wh), V = lwh.\n3. Cylinder: CSA = 2πrh, TSA = 2πr(h + r), V = πr²h.",
+    "content_fr": "Formules clés\n\n1. Cube : AT = 6a², V = a³.\n2. Parallélépipède : AT = 2(lw + lh + wh), V = lwh.\n3. Cylindre : AL = 2πrh, AT = 2πr(h + r), V = πr²h.",
+    "objectives": [
+      "Compute surface area",
+      "Compute volume",
+      "Use correct units",
+      "Apply to practical problems"
+    ],
+    "objectives_fr": [
+      "Calculer aire totale",
+      "Calculer volume",
+      "Utiliser unités correctes",
+      "Appliquer à problèmes pratiques"
+    ],
+    "estimated_minutes": 25
+  },
+  "steps": [
+    {
+      "kind": "concept",
+      "title": "Cube",
+      "title_fr": "Cube",
+      "content": "Cube side a: surface 6a², volume a³.",
+      "content_fr": "Cube côté a : aire 6a², volume a³.",
+      "required": true,
+      "xp": 10,
+      "question": {
+        "kind": "numeric",
+        "text": "Cube side 2 cm. Volume in cm³.",
+        "text_fr": "Cube côté 2 cm. Volume en cm³.",
+        "explanation": "2³ = 8.",
+        "explanation_fr": "2³ = 8.",
+        "hint_prompt": "a³.",
+        "hint_prompt_fr": "a³.",
+        "config": {"accepted": ["8"]},
+        "hints": [
+          {"text": "2³ = 8.", "text_fr": "2³ = 8."}
+        ]
+      }
+    },
+    {
+      "kind": "concept",
+      "title": "Cuboid",
+      "title_fr": "Parallélépipède",
+      "content": "V = l × w × h. SA = 2(lw + lh + wh).",
+      "content_fr": "V = l × L × h. AT = 2(lL + lh + Lh).",
+      "required": true,
+      "xp": 10,
+      "question": {
+        "kind": "numeric",
+        "text": "Cuboid 4 cm × 2 cm × 1 cm. Volume in cm³.",
+        "text_fr": "Parallélépipède 4 cm × 2 cm × 1 cm. Volume en cm³.",
+        "explanation": "4×2×1 = 8.",
+        "explanation_fr": "4×2×1 = 8.",
+        "hint_prompt": "l × w × h.",
+        "hint_prompt_fr": "l × L × h.",
+        "config": {"accepted": ["8"]},
+        "hints": [
+          {"text": "4×2×1 = 8.", "text_fr": "4×2×1 = 8."}
+        ]
+      }
+    },
+    {
+      "kind": "explain",
+      "title": "Cylinder volume",
+      "title_fr": "Volume du cylindre",
+      "content": "V = πr²h. Base area times height.",
+      "content_fr": "V = πr²h. Aire de base × hauteur.",
+      "required": true,
+      "xp": 12,
+      "question": {
+        "kind": "numeric",
+        "text": "Cylinder r = 7 cm, h = 10 cm, π = 22/7. Volume cm³.",
+        "text_fr": "Cylindre r = 7 cm, h = 10 cm, π = 22/7. Volume cm³.",
+        "explanation": "πr²h = (22/7) × 49 × 10 = 154 × 10 = 1540.",
+        "explanation_fr": "πr²h = (22/7) × 49 × 10 = 154 × 10 = 1540.",
+        "hint_prompt": "π × r² × h.",
+        "hint_prompt_fr": "π × r² × h.",
+        "config": {"accepted": ["1540"]},
+        "hints": [
+          {"text": "r² = 49, (22/7)×49 = 154.", "text_fr": "r² = 49, (22/7)×49 = 154."},
+          {"text": "154 × 10 = 1540.", "text_fr": "154 × 10 = 1540."}
+        ]
+      }
+    },
+    {
+      "kind": "explain",
+      "title": "Cylinder surface",
+      "title_fr": "Aire du cylindre",
+      "content": "Curved surface area 2πrh, total 2πr(h+r).",
+      "content_fr": "Aire latérale 2πrh, aire totale 2πr(h+r).",
+      "required": true,
+      "xp": 10,
+      "question": {
+        "kind": "numeric",
+        "text": "Cylinder r = 7 cm, h = 10 cm, π = 22/7. Curved surface area cm².",
+        "text_fr": "Cylindre r = 7 cm, h = 10 cm, π = 22/7. Aire latérale cm².",
+        "explanation": "2πrh = 2 × (22/7) × 7 × 10 = 2 × 22 × 10 = 440.",
+        "explanation_fr": "2πrh = 2 × (22/7) × 7 × 10 = 2 × 22 × 10 = 440.",
+        "hint_prompt": "2πrh.",
+        "hint_prompt_fr": "2πrh.",
+        "config": {"accepted": ["440"]},
+        "hints": [
+          {"text": "2 × (22/7) × 7 × 10 = 2 × 22 × 10 = 440.", "text_fr": "2 × (22/7) × 7 × 10 = 2 × 22 × 10 = 440."}
+        ]
+      }
+    },
+    {
+      "kind": "summary",
+      "title": "What to keep",
+      "title_fr": "À retenir",
+      "content": "Volume cm³, surface area cm². πr² for base.",
+      "content_fr": "Volume cm³, aire cm². πr² pour base.",
+      "required": false,
+      "xp": 5
+    }
+  ],
+  "quiz": {
+    "title": "Solids",
+    "title_fr": "Solides",
+    "pass_score": 60,
+    "questions": [
+      {
+        "kind": "numeric",
+        "text": "Cube side 3 cm, volume cm³.",
+        "text_fr": "Cube côté 3 cm, volume cm³.",
+        "explanation": "27.",
+        "explanation_fr": "27.",
+        "config": {"accepted": ["27"]},
+        "hints": [
+          {"text": "3³ = 27.", "text_fr": "3³ = 27."}
+        ],
+        "difficulty": 1
+      },
+      {
+        "kind": "numeric",
+        "text": "Cube side 3 cm, surface area cm².",
+        "text_fr": "Cube côté 3 cm, aire totale cm².",
+        "explanation": "6×9 = 54.",
+        "explanation_fr": "6×9 = 54.",
+        "config": {"accepted": ["54"]},
+        "hints": [
+          {"text": "6×3² = 6×9 = 54.", "text_fr": "6×3² = 6×9 = 54."}
+        ],
+        "difficulty": 1
+      },
+      {
+        "kind": "numeric",
+        "text": "Cuboid 5×2×3 cm, volume cm³.",
+        "text_fr": "Parallélépipède 5×2×3 cm, volume cm³.",
+        "explanation": "30.",
+        "explanation_fr": "30.",
+        "config": {"accepted": ["30"]},
+        "hints": [
+          {"text": "5×2×3 = 30.", "text_fr": "5×2×3 = 30."}
+        ],
+        "difficulty": 1
+      },
+      {
+        "kind": "numeric",
+        "text": "Cylinder r=7, h=5, π=22/7, volume cm³.",
+        "text_fr": "Cylindre r=7, h=5, π=22/7, volume cm³.",
+        "explanation": "(22/7)×49×5 = 154×5 = 770.",
+        "explanation_fr": "(22/7)×49×5 = 154×5 = 770.",
+        "config": {"accepted": ["770"]},
+        "hints": [
+          {"text": "154 × 5 = 770.", "text_fr": "154 × 5 = 770."}
+        ],
+        "difficulty": 2
+      },
+      {
+        "kind": "numeric",
+        "text": "Cylinder r=7, h=10, π=22/7, CSA cm².",
+        "text_fr": "Cylindre r=7, h=10, π=22/7, AL cm².",
+        "explanation": "440.",
+        "explanation_fr": "440.",
+        "config": {"accepted": ["440"]},
+        "hints": [
+          {"text": "2×(22/7)×7×10 = 440.", "text_fr": "2×(22/7)×7×10 = 440."}
+        ],
+        "difficulty": 2
+      }
+    ]
+  }
+}

@@ -1,0 +1,299 @@
+{
+  "lesson": 70,
+  "status": "published",
+  "lesson_fields": {
+    "title": "Cell Division: Mitosis and Meiosis",
+    "title_fr": "La division cellulaire : mitose et meiose",
+    "summary": "How cells divide: mitosis for growth and repair, meiosis for gametes and genetic variation.",
+    "summary_fr": "Comment les cellules se divisent : la mitose pour la croissance et la reparation, la meiose pour les gametes et la variation genetique.",
+    "objectives": [
+      "Describe why cells divide and what a chromosome is",
+      "Outline the stages of mitosis",
+      "Explain how meiosis produces gametes and variation",
+      "Compare mitosis and meiosis"
+    ],
+    "objectives_fr": [
+      "Expliquer pourquoi les cellules se divisent et ce qu est un chromosome",
+      "Decrire les etapes de la mitose",
+      "Expliquer comment la meiose produit les gametes et la variation",
+      "Comparer la mitose et la meiose"
+    ],
+    "estimated_minutes": 30
+  },
+  "steps": [
+    {
+      "kind": "concept",
+      "title": "Why cells divide",
+      "title_fr": "Pourquoi les cellules se divisent",
+      "content": "Cells divide for two main reasons. Mitosis produces identical cells for growth and for repairing damaged tissue. Meiosis produces gametes (sex cells) with half the normal number of chromosomes, for reproduction.\n\nOne process copies; the other halves and shuffles the genetic material.",
+      "content_fr": "Les cellules se divisent pour deux raisons principales. La mitose produit des cellules identiques pour la croissance et la reparation des tissus abimes. La meiose produit des gametes (cellules sexuelles) avec la moitie du nombre normal de chromosomes, pour la reproduction.\n\nUn processus copie ; l autre divise et melange le materiel genetique.",
+      "required": true,
+      "xp": 10,
+      "question": {
+        "kind": "mcq",
+        "text": "Which process produces gametes?",
+        "text_fr": "Quel processus produit les gametes ?",
+        "explanation": "Meiosis produces gametes such as sperm and egg cells.",
+        "explanation_fr": "La meiose produit les gametes comme les spermatozoides et les ovules.",
+        "hint_prompt": "It halves the chromosome number.",
+        "hint_prompt_fr": "Elle divise par deux le nombre de chromosomes.",
+        "choices": [
+          {"text": "Meiosis", "text_fr": "La meiose", "correct": true},
+          {"text": "Mitosis", "text_fr": "La mitose"},
+          {"text": "Diffusion", "text_fr": "La diffusion"},
+          {"text": "Osmosis", "text_fr": "L osmose"}
+        ],
+        "hints": [
+          {"text": "Sex cells are produced.", "text_fr": "Des cellules sexuelles sont produites."},
+          {"text": "It creates genetic variation.", "text_fr": "Elle cree de la variation genetique."}
+        ]
+      }
+    },
+    {
+      "kind": "explain",
+      "title": "Chromosomes and the cell cycle",
+      "title_fr": "Chromosomes et cycle cellulaire",
+      "content": "A chromosome is a long thread of DNA carrying many genes. Before a cell divides, it copies every chromosome so each new cell gets a full set. The cell then grows and prepares for division.\n\nIn humans body cells have 46 chromosomes (23 pairs). The number doubles to 92 during copying, then division returns each daughter cell to 46.",
+      "content_fr": "Un chromosome est un long filament d ADN portant de nombreux genes. Avant de se diviser, la cellule copie chaque chromosome afin que chaque nouvelle cellule recoive un jeu complet. La cellule grandit ensuite et se prepare a la division.\n\nChez l humain, les cellules du corps ont 46 chromosomes (23 paires). Ce nombre double a 92 pendant la copie, puis la division ramene chaque cellule fille a 46.",
+      "required": true,
+      "xp": 10,
+      "question": {
+        "kind": "numeric",
+        "text": "A human body cell has 46 chromosomes. How many chromosomes does each daughter cell have after mitosis? Give the number.",
+        "text_fr": "Une cellule humaine du corps a 46 chromosomes. Combien de chromosomes a chaque cellule fille apres la mitose ? Donne le nombre.",
+        "explanation": "Mitosis keeps the number the same: 46 in each daughter cell.",
+        "explanation_fr": "La mitose conserve le nombre : 46 dans chaque cellule fille.",
+        "hint_prompt": "Mitosis makes identical cells.",
+        "hint_prompt_fr": "La mitose produit des cellules identiques.",
+        "config": {"accepted": ["46"]},
+        "hints": [
+          {"text": "It copies exactly.", "text_fr": "Elle copie exactement."},
+          {"text": "Same number as the parent.", "text_fr": "Le meme nombre que la cellule mere."}
+        ]
+      }
+    },
+    {
+      "kind": "explain",
+      "title": "The stages of mitosis",
+      "title_fr": "Les etapes de la mitose",
+      "content": "Mitosis has four main stages. In prophase the chromosomes shorten and become visible. In metaphase they line up along the middle of the cell. In anaphase the two copies of each chromosome are pulled to opposite poles. In telophase the cell splits into two.\n\nThe result is two daughter cells that are genetically identical to the parent.",
+      "content_fr": "La mitose compte quatre etapes principales. En prophase, les chromosomes se raccourcissent et deviennent visibles. En metaphase, ils s alignent au milieu de la cellule. En anaphase, les deux copies de chaque chromosome sont tirees vers les poles opposes. En telophase, la cellule se divise en deux.\n\nLe resultat est deux cellules filles genetiquement identiques a la cellule mere.",
+      "required": true,
+      "xp": 10,
+      "question": {
+        "kind": "mcq",
+        "text": "At which stage of mitosis do the chromosomes line up along the middle of the cell?",
+        "text_fr": "A quelle etape de la mitose les chromosomes s alignent-ils au milieu de la cellule ?",
+        "explanation": "Metaphase is when chromosomes line up at the equator of the cell.",
+        "explanation_fr": "La metaphase est l etape ou les chromosomes s alignent a l equateur de la cellule.",
+        "hint_prompt": "The name means middle position.",
+        "hint_prompt_fr": "Le nom renvoie au milieu.",
+        "choices": [
+          {"text": "Metaphase", "text_fr": "La metaphase", "correct": true},
+          {"text": "Prophase", "text_fr": "La prophase"},
+          {"text": "Anaphase", "text_fr": "L anaphase"},
+          {"text": "Telophase", "text_fr": "La telophase"}
+        ],
+        "hints": [
+          {"text": "Middle of the cell.", "text_fr": "Au milieu de la cellule."},
+          {"text": "Before the copies are pulled apart.", "text_fr": "Avant que les copies soient separees."}
+        ]
+      }
+    },
+    {
+      "kind": "explain",
+      "title": "Meiosis and variation",
+      "title_fr": "Meiose et variation",
+      "content": "Meiosis involves two divisions and produces four gametes, each with half the chromosome number. In humans that is 23. When two gametes fuse at fertilisation, the full number 46 is restored.\n\nMeiosis also creates variation. Chromosomes are shuffled, and pieces swap between paired chromosomes in a process called crossing over. This is why siblings differ.",
+      "content_fr": "La meiose comporte deux divisions et produit quatre gametes, chacun avec la moitie du nombre de chromosomes. Chez l humain, cela fait 23. Quand deux gametes fusionnent a la fecondation, le nombre complet 46 est retabli.\n\nLa meiose cree aussi de la variation. Les chromosomes sont melanges et des morceaux s echangent entre chromosomes apparies, par un processus appele enjambement. C est pourquoi les freres et soeurs different.",
+      "required": true,
+      "xp": 10,
+      "question": {
+        "kind": "mcq",
+        "text": "How many chromosomes does a human gamete contain?",
+        "text_fr": "Combien de chromosomes contient un gamete humain ?",
+        "explanation": "A gamete has half the body-cell number, so 23.",
+        "explanation_fr": "Un gamete possede la moitie du nombre des cellules du corps, soit 23.",
+        "hint_prompt": "Half of 46.",
+        "hint_prompt_fr": "La moitie de 46.",
+        "choices": [
+          {"text": "23", "text_fr": "23", "correct": true},
+          {"text": "46", "text_fr": "46"},
+          {"text": "92", "text_fr": "92"},
+          {"text": "12", "text_fr": "12"}
+        ],
+        "hints": [
+          {"text": "Half the normal number.", "text_fr": "La moitie du nombre normal."},
+          {"text": "Two gametes make 46.", "text_fr": "Deux gametes font 46."}
+        ]
+      }
+    },
+    {
+      "kind": "example",
+      "title": "Comparing the two divisions",
+      "title_fr": "Comparer les deux divisions",
+      "content": "Mitosis: one division, two daughter cells, identical to the parent, full chromosome number, for growth and repair.\n\nMeiosis: two divisions, four gametes, genetically different, half the chromosome number, for reproduction. Keep this side-by-side and you can answer almost any comparison question.",
+      "content_fr": "Mitose : une division, deux cellules filles, identiques a la mere, nombre complet de chromosomes, pour la croissance et la reparation.\n\nMeiose : deux divisions, quatre gametes, genetiquement differents, moitie du nombre de chromosomes, pour la reproduction. Garde ce tableau cote a cote et tu repondras a presque toute question comparative.",
+      "required": true,
+      "xp": 10,
+      "question": {
+        "kind": "mcq",
+        "text": "Which statement is true of meiosis but not of mitosis?",
+        "text_fr": "Quelle affirmation est vraie pour la meiose mais pas pour la mitose ?",
+        "explanation": "Meiosis produces four genetically different gametes.",
+        "explanation_fr": "La meiose produit quatre gametes genetiquement differents.",
+        "hint_prompt": "Think about variation and number of cells.",
+        "hint_prompt_fr": "Pense a la variation et au nombre de cellules.",
+        "choices": [
+          {"text": "It produces four different gametes", "text_fr": "Elle produit quatre gametes differents", "correct": true},
+          {"text": "It produces two identical cells", "text_fr": "Elle produit deux cellules identiques"},
+          {"text": "It is used for growth", "text_fr": "Elle sert a la croissance"},
+          {"text": "It repairs damaged tissue", "text_fr": "Elle repare les tissus abimes"}
+        ],
+        "hints": [
+          {"text": "Four cells, not two.", "text_fr": "Quatre cellules, pas deux."},
+          {"text": "They differ from one another.", "text_fr": "Elles different les unes des autres."}
+        ]
+      }
+    },
+    {
+      "kind": "question",
+      "title": "Check: why variation matters",
+      "title_fr": "Verification : pourquoi la variation compte",
+      "content": "Because meiosis shuffles the genes, every gamete is unique. This variation is the raw material of natural selection: if the environment changes, some offspring may survive better than others.\n\nWithout meiosis and variation, a species would be far less able to adapt.",
+      "content_fr": "Comme la meiose melange les genes, chaque gamete est unique. Cette variation est la matiere premiere de la selection naturelle : si le milieu change, certains descendants peuvent mieux survivre que d autres.\n\nSans meiose ni variation, une espece serait bien moins capable de s adapter.",
+      "required": true,
+      "xp": 10,
+      "question": {
+        "kind": "mcq",
+        "text": "Why is the variation produced by meiosis important?",
+        "text_fr": "Pourquoi la variation produite par la meiose est-elle importante ?",
+        "explanation": "Variation allows a species to adapt to a changing environment.",
+        "explanation_fr": "La variation permet a une espece de s adapter a un milieu qui change.",
+        "hint_prompt": "Think about survival when conditions change.",
+        "hint_prompt_fr": "Pense a la survie quand le milieu change.",
+        "choices": [
+          {"text": "It helps the species adapt to change", "text_fr": "Elle aide l espece a s adapter", "correct": true},
+          {"text": "It makes all offspring identical", "text_fr": "Elle rend tous les descendants identiques"},
+          {"text": "It doubles the chromosome number", "text_fr": "Elle double le nombre de chromosomes"},
+          {"text": "It stops cell division", "text_fr": "Elle arrete la division cellulaire"}
+        ],
+        "hints": [
+          {"text": "Natural selection needs variety.", "text_fr": "La selection naturelle a besoin de variete."},
+          {"text": "Some offspring may do better.", "text_fr": "Certains descendants peuvent mieux reussir."}
+        ]
+      }
+    },
+    {
+      "kind": "summary",
+      "title": "What to keep",
+      "title_fr": "A retenir",
+      "content": "Mitosis: one division, two identical cells, full chromosome number, for growth and repair. Meiosis: two divisions, four gametes, half the chromosome number, and it creates variation. Chromosomes carry the genes and are copied before division.",
+      "content_fr": "Mitose : une division, deux cellules identiques, nombre complet de chromosomes, pour la croissance et la reparation. Meiose : deux divisions, quatre gametes, moitie du nombre de chromosomes, et elle cree de la variation. Les chromosomes portent les genes et sont copies avant la division.",
+      "required": false,
+      "xp": 5
+    }
+  ],
+  "quiz": {
+    "title": "Cell division: final check",
+    "title_fr": "Division cellulaire : bilan final",
+    "pass_score": 60,
+    "questions": [
+      {
+        "kind": "mcq",
+        "text": "Which process is used for growth and repair?",
+        "text_fr": "Quel processus sert a la croissance et a la reparation ?",
+        "explanation": "Mitosis produces identical cells for growth and repair.",
+        "explanation_fr": "La mitose produit des cellules identiques pour la croissance et la reparation.",
+        "hint_prompt": "It copies cells.",
+        "hint_prompt_fr": "Elle copie les cellules.",
+        "choices": [
+          {"text": "Mitosis", "text_fr": "La mitose", "correct": true},
+          {"text": "Meiosis", "text_fr": "La meiose"},
+          {"text": "Osmosis", "text_fr": "L osmose"},
+          {"text": "Diffusion", "text_fr": "La diffusion"}
+        ],
+        "hints": [
+          {"text": "Two identical cells.", "text_fr": "Deux cellules identiques."},
+          {"text": "It repairs tissue.", "text_fr": "Elle repare les tissus."}
+        ],
+        "difficulty": 1
+      },
+      {
+        "kind": "mcq",
+        "text": "How many cells does meiosis produce?",
+        "text_fr": "Combien de cellules la meiose produit-elle ?",
+        "explanation": "Meiosis produces four gametes.",
+        "explanation_fr": "La meiose produit quatre gametes.",
+        "hint_prompt": "Two divisions occur.",
+        "hint_prompt_fr": "Deux divisions ont lieu.",
+        "choices": [
+          {"text": "Four", "text_fr": "Quatre", "correct": true},
+          {"text": "Two", "text_fr": "Deux"},
+          {"text": "One", "text_fr": "Une"},
+          {"text": "Eight", "text_fr": "Huit"}
+        ],
+        "hints": [
+          {"text": "More than two.", "text_fr": "Plus de deux."},
+          {"text": "One division gives two; two divisions give more.", "text_fr": "Une division donne deux ; deux divisions donnent davantage."}
+        ],
+        "difficulty": 1
+      },
+      {
+        "kind": "mcq",
+        "text": "A human body cell has 46 chromosomes. How many does a gamete have?",
+        "text_fr": "Une cellule humaine a 46 chromosomes. Combien en a un gamete ?",
+        "explanation": "A gamete has half, so 23.",
+        "explanation_fr": "Un gamete en a la moitie, soit 23.",
+        "hint_prompt": "Half of 46.",
+        "hint_prompt_fr": "La moitie de 46.",
+        "choices": [
+          {"text": "23", "text_fr": "23", "correct": true},
+          {"text": "46", "text_fr": "46"},
+          {"text": "92", "text_fr": "92"},
+          {"text": "12", "text_fr": "12"}
+        ],
+        "hints": [
+          {"text": "Two gametes make 46.", "text_fr": "Deux gametes font 46."},
+          {"text": "It is halved.", "text_fr": "Il est divise par deux."}
+        ],
+        "difficulty": 1
+      },
+      {
+        "kind": "mcq",
+        "text": "During which stage of mitosis do the chromosomes line up in the middle?",
+        "text_fr": "Pendant quelle etape de la mitose les chromosomes s alignent-ils au milieu ?",
+        "explanation": "Metaphase.",
+        "explanation_fr": "La metaphase.",
+        "hint_prompt": "The middle stage.",
+        "hint_prompt_fr": "L etape du milieu.",
+        "choices": [
+          {"text": "Metaphase", "text_fr": "La metaphase", "correct": true},
+          {"text": "Prophase", "text_fr": "La prophase"},
+          {"text": "Anaphase", "text_fr": "L anaphase"},
+          {"text": "Telophase", "text_fr": "La telophase"}
+        ],
+        "hints": [
+          {"text": "Before the copies separate.", "text_fr": "Avant la separation des copies."},
+          {"text": "Middle.", "text_fr": "Milieu."}
+        ],
+        "difficulty": 2
+      },
+      {
+        "kind": "numeric",
+        "text": "How many divisions take place in meiosis? Give the number.",
+        "text_fr": "Combien de divisions ont lieu lors de la meiose ? Donne le nombre.",
+        "explanation": "Meiosis has two divisions.",
+        "explanation_fr": "La meiose comporte deux divisions.",
+        "hint_prompt": "It produces four cells from one.",
+        "hint_prompt_fr": "Elle produit quatre cellules a partir d une.",
+        "config": {"accepted": ["2"]},
+        "hints": [
+          {"text": "More than one.", "text_fr": "Plus d une."},
+          {"text": "The number of divisions matches the cell count logic.", "text_fr": "Le nombre de divisions suit la logique du nombre de cellules."}
+        ],
+        "difficulty": 2
+      }
+    ]
+  }
+}

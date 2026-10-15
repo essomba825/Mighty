@@ -1,0 +1,341 @@
+{
+  "lesson": 75,
+  "status": "published",
+  "lesson_fields": {
+    "title": "Operators and Boolean Logic",
+    "title_fr": "Operateurs et logique booleenne",
+    "summary": "Arithmetic operators compute values, comparison operators produce True or False, and and, or, not combine those truth values.",
+    "summary_fr": "Les operateurs arithmetiques calculent des valeurs, les operateurs de comparaison produisent True ou False, et and, or, not combinent ces valeurs de verite.",
+    "content": "## Arithmetic\n\n`+ - * / // % **` for addition, subtraction, multiplication, division, integer division, remainder and power.\n\n## Comparisons\n\n`== != < >` give a boolean: True or False.",
+    "content_fr": "## Arithmetique\n\n`+ - * / // % **` pour l'addition, la soustraction, la multiplication, la division, la division entiere, le reste et la puissance.\n\n## Comparaisons\n\n`== != < >` donnent un booleen : True ou False.",
+    "objectives": [
+      "Use the arithmetic operators of Python",
+      "Find the remainder and the integer division",
+      "Produce a True or False result with a comparison",
+      "Combine conditions with and, or and not"
+    ],
+    "objectives_fr": [
+      "Utiliser les operateurs arithmetiques de Python",
+      "Trouver le reste et la division entiere",
+      "Obtenir un resultat True ou False avec une comparaison",
+      "Combiner plusieurs conditions logiques"
+    ],
+    "estimated_minutes": 25
+  },
+  "steps": [
+    {
+      "kind": "concept",
+      "title": "Arithmetic operators",
+      "title_fr": "Les operateurs arithmetiques",
+      "content": "Python uses `+` `-` `*` `/` for the four operations. Two more are useful: `//` gives the integer division and `%` gives the remainder.\n\n`17 // 5` is 3 and `17 % 5` is 2, because 5 fits three times into 17 and leaves 2.",
+      "content_fr": "Python utilise `+` `-` `*` `/` pour les quatre operations. Deux autres sont utiles : `//` donne la division entiere et `%` donne le reste.\n\n`17 // 5` vaut 3 et `17 % 5` vaut 2, car 5 rentre trois fois dans 17 et laisse 2.",
+      "required": true,
+      "xp": 10,
+      "question": {
+        "kind": "numeric",
+        "text": "What is the value of `17 % 5`?",
+        "text_fr": "Quelle est la valeur de `17 % 5` ?",
+        "explanation": "5 fits three times into 17 (3 x 5 = 15) and the remainder is 17 - 15 = 2.",
+        "explanation_fr": "5 rentre trois fois dans 17 (3 x 5 = 15) et le reste vaut 17 - 15 = 2.",
+        "hint_prompt": "The sign % gives the remainder.",
+        "hint_prompt_fr": "Le signe % donne le reste.",
+        "config": {
+          "accepted": [
+            "2"
+          ]
+        },
+        "hints": [
+          {
+            "text": "3 x 5 = 15.",
+            "text_fr": "3 x 5 = 15."
+          },
+          {
+            "text": "17 - 15 = 2.",
+            "text_fr": "17 - 15 = 2."
+          }
+        ]
+      }
+    },
+    {
+      "kind": "explain",
+      "title": "Comparisons give True or False",
+      "title_fr": "Les comparaisons donnent True ou False",
+      "content": "A comparison tests two values and answers with a **boolean**: either True or False.\n\n`5 > 3` is True, `5 == 5` is True and `5 < 2` is False. The sign `==` tests equality, while `=` stores a value.",
+      "content_fr": "Une comparaison teste deux valeurs et repond par un **booleen** : soit True, soit False.\n\n`5 > 3` vaut True, `5 == 5` vaut True et `5 < 2` vaut False. Le signe `==` teste l'egalite, alors que `=` range une valeur.",
+      "required": true,
+      "xp": 10,
+      "question": {
+        "kind": "mcq",
+        "text": "What does the expression `10 < 4` produce?",
+        "text_fr": "Que produit l'expression `10 < 4` ?",
+        "explanation": "10 is not smaller than 4, so the comparison is False.",
+        "explanation_fr": "10 n'est pas plus petit que 4, la comparaison vaut donc False.",
+        "hint_prompt": "Is 10 really smaller than 4?",
+        "hint_prompt_fr": "10 est-il vraiment plus petit que 4 ?",
+        "choices": [
+          {
+            "text": "False",
+            "text_fr": "False",
+            "correct": true
+          },
+          {
+            "text": "True",
+            "text_fr": "True",
+            "correct": false
+          },
+          {
+            "text": "The number 4",
+            "text_fr": "Le nombre 4",
+            "correct": false
+          }
+        ],
+        "hints": [
+          {
+            "text": "A comparison answers only True or False.",
+            "text_fr": "Une comparaison repond seulement True ou False."
+          }
+        ]
+      }
+    },
+    {
+      "kind": "example",
+      "title": "Worked example: the average of three marks",
+      "title_fr": "Exemple resolu : la moyenne de trois notes",
+      "content": "Three marks are 12, 15 and 9. The sum is 12 + 15 + 9 = 36, and the average is 36 / 3 = 12.0.\n\nIn Python we could write `print((12 + 15 + 9) / 3)` and the screen shows 12.0.",
+      "content_fr": "Trois notes valent 12, 15 et 9. La somme vaut 12 + 15 + 9 = 36, et la moyenne vaut 36 / 3 = 12.0.\n\nEn Python on pourrait ecrire `print((12 + 15 + 9) / 3)` et l'ecran affiche 12.0.",
+      "required": true,
+      "xp": 12
+    },
+    {
+      "kind": "practice",
+      "title": "Your turn: integer division",
+      "title_fr": "A toi : la division entiere",
+      "content": "The sign `//` keeps only the whole part of a division. For instance, `9 // 2` is 4, because 9 divided by 2 is 4.5 and the whole part is 4.",
+      "content_fr": "Le signe `//` ne garde que la partie entiere d'une division. Par exemple, `9 // 2` vaut 4, car 9 divise par 2 donne 4,5 et la partie entiere vaut 4.",
+      "required": true,
+      "xp": 12,
+      "question": {
+        "kind": "numeric",
+        "text": "What is the value of `7 // 2`?",
+        "text_fr": "Quelle est la valeur de `7 // 2` ?",
+        "explanation": "7 divided by 2 is 3.5, and the whole part is 3.",
+        "explanation_fr": "7 divise par 2 donne 3,5, et la partie entiere vaut 3.",
+        "hint_prompt": "Keep only the whole part.",
+        "hint_prompt_fr": "Ne garde que la partie entiere.",
+        "config": {
+          "accepted": [
+            "3"
+          ]
+        },
+        "hints": [
+          {
+            "text": "7 / 2 = 3.5.",
+            "text_fr": "7 / 2 = 3,5."
+          },
+          {
+            "text": "Drop the part after the point.",
+            "text_fr": "Enleve la partie apres la virgule."
+          }
+        ]
+      }
+    },
+    {
+      "kind": "question",
+      "title": "Check: combining conditions",
+      "title_fr": "Verification : combiner des conditions",
+      "content": "The operator `and` is True only when both sides are True. The operator `or` is True when at least one side is True. The operator `not` flips a boolean.",
+      "content_fr": "L'operateur `and` vaut True seulement si les deux cotes valent True. L'operateur `or` vaut True des qu'un cote au moins vaut True. L'operateur `not` inverse un booleen.",
+      "required": true,
+      "xp": 12,
+      "question": {
+        "kind": "mcq",
+        "text": "What is the value of `True and False`?",
+        "text_fr": "Quelle est la valeur de `True and False` ?",
+        "explanation": "and needs both sides True, but one side is False, so the result is False.",
+        "explanation_fr": "and exige que les deux cotes soient True, or un cote vaut False, le resultat est donc False.",
+        "hint_prompt": "Does and accept a single False?",
+        "hint_prompt_fr": "and accepte-t-il un seul False ?",
+        "choices": [
+          {
+            "text": "False",
+            "text_fr": "False",
+            "correct": true
+          },
+          {
+            "text": "True",
+            "text_fr": "True",
+            "correct": false
+          },
+          {
+            "text": "An error",
+            "text_fr": "Une erreur",
+            "correct": false
+          }
+        ],
+        "hints": [
+          {
+            "text": "and is strict: both sides must be True.",
+            "text_fr": "and est exigeant : les deux cotes doivent valoir True."
+          }
+        ]
+      }
+    },
+    {
+      "kind": "summary",
+      "title": "What to keep",
+      "title_fr": "A retenir",
+      "content": "`+ - * /` compute, `//` keeps the whole part, `%` gives the remainder and `**` raises to a power. Comparisons produce True or False, and `and`, `or`, `not` combine them.",
+      "content_fr": "`+ - * /` calculent, `//` garde la partie entiere, `%` donne le reste et `**` eleve a une puissance. Les comparaisons produisent True ou False, et `and`, `or`, `not` les combinent.",
+      "required": false,
+      "xp": 5
+    }
+  ],
+  "quiz": {
+    "title": "Operators and Boolean Logic",
+    "title_fr": "Operateurs et logique booleenne",
+    "pass_score": 60,
+    "questions": [
+      {
+        "kind": "numeric",
+        "text": "What is the value of `9 % 4`?",
+        "text_fr": "Quelle est la valeur de `9 % 4` ?",
+        "explanation": "4 fits twice into 9 (2 x 4 = 8) and the remainder is 1.",
+        "explanation_fr": "4 rentre deux fois dans 9 (2 x 4 = 8) et le reste vaut 1.",
+        "hint_prompt": "The sign % gives the remainder.",
+        "hint_prompt_fr": "Le signe % donne le reste.",
+        "config": {
+          "accepted": [
+            "1"
+          ]
+        },
+        "hints": [
+          {
+            "text": "2 x 4 = 8.",
+            "text_fr": "2 x 4 = 8."
+          }
+        ],
+        "difficulty": 1
+      },
+      {
+        "kind": "numeric",
+        "text": "What is the value of `2 ** 4`?",
+        "text_fr": "Quelle est la valeur de `2 ** 4` ?",
+        "explanation": "2 to the power 4 is 2 x 2 x 2 x 2 = 16.",
+        "explanation_fr": "2 puissance 4 vaut 2 x 2 x 2 x 2 = 16.",
+        "hint_prompt": "The sign ** raises to a power.",
+        "hint_prompt_fr": "Le signe ** eleve a une puissance.",
+        "config": {
+          "accepted": [
+            "16"
+          ]
+        },
+        "hints": [
+          {
+            "text": "Multiply 2 by itself four times.",
+            "text_fr": "Multiplie 2 par lui-meme quatre fois."
+          }
+        ],
+        "difficulty": 2
+      },
+      {
+        "kind": "mcq",
+        "text": "Which operator gives the remainder of a division?",
+        "text_fr": "Quel operateur donne le reste d'une division ?",
+        "explanation": "The sign % gives the remainder, while // gives the whole part.",
+        "explanation_fr": "Le signe % donne le reste, alors que // donne la partie entiere.",
+        "hint_prompt": "It is not the same sign as the whole part.",
+        "hint_prompt_fr": "Ce n'est pas le meme signe que la partie entiere.",
+        "choices": [
+          {
+            "text": "%",
+            "text_fr": "%",
+            "correct": true
+          },
+          {
+            "text": "//",
+            "text_fr": "//",
+            "correct": false
+          },
+          {
+            "text": "/",
+            "text_fr": "/",
+            "correct": false
+          }
+        ],
+        "hints": [
+          {
+            "text": "It looks like a percentage sign.",
+            "text_fr": "Il ressemble au signe du pourcentage."
+          }
+        ],
+        "difficulty": 1
+      },
+      {
+        "kind": "mcq",
+        "text": "What is the value of `True or False`?",
+        "text_fr": "Quelle est la valeur de `True or False` ?",
+        "explanation": "or is True as soon as one side is True, so the result is True.",
+        "explanation_fr": "or vaut True des qu'un cote vaut True, le resultat est donc True.",
+        "hint_prompt": "How many sides must be True?",
+        "hint_prompt_fr": "Combien de cotes doivent valoir True ?",
+        "choices": [
+          {
+            "text": "True",
+            "text_fr": "True",
+            "correct": true
+          },
+          {
+            "text": "False",
+            "text_fr": "False",
+            "correct": false
+          },
+          {
+            "text": "An error",
+            "text_fr": "Une erreur",
+            "correct": false
+          }
+        ],
+        "hints": [
+          {
+            "text": "or is generous: one True is enough.",
+            "text_fr": "or est genereux : un seul True suffit."
+          }
+        ],
+        "difficulty": 1
+      },
+      {
+        "kind": "mcq",
+        "text": "What is the value of `10 / 2`?",
+        "text_fr": "Quelle est la valeur de `10 / 2` ?",
+        "explanation": "In Python the single sign / always gives a decimal number, so the result is 5.0.",
+        "explanation_fr": "En Python, le signe / donne toujours un nombre decimal, le resultat est donc 5.0.",
+        "hint_prompt": "Look at the sign, it is the single slash.",
+        "hint_prompt_fr": "Regarde le signe, c'est la barre oblique simple.",
+        "choices": [
+          {
+            "text": "5.0, a decimal number",
+            "text_fr": "5.0, un nombre decimal",
+            "correct": true
+          },
+          {
+            "text": "5, a whole number",
+            "text_fr": "5, un nombre entier",
+            "correct": false
+          },
+          {
+            "text": "An error",
+            "text_fr": "Une erreur",
+            "correct": false
+          }
+        ],
+        "hints": [
+          {
+            "text": "The single slash gives a decimal result.",
+            "text_fr": "La barre oblique simple donne un resultat decimal."
+          }
+        ],
+        "difficulty": 2
+      }
+    ]
+  }
+}

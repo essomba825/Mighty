@@ -1,0 +1,241 @@
+{
+  "lesson": 57,
+  "status": "published",
+  "lesson_fields": {
+    "title": "Momentum and Collisions",
+    "title_fr": "Quantité de mouvement et collisions",
+    "summary": "Momentum p = m × v is a vector quantity that measures how much motion an object carries; in a collision with no external force, total momentum is conserved.",
+    "summary_fr": "La quantité de mouvement p = m × v est une grandeur vectorielle qui mesure le mouvement d'un objet ; dans une collision sans forces extérieures, la quantité de mouvement totale se conserve.",
+    "objectives": [
+      "Define momentum as a vector quantity",
+      "Use the formula p = m × v and state correct units (kg·m/s)",
+      "Explain conservation of momentum for an isolated system",
+      "Solve problems for inelastic collisions (objects sticking together)",
+      "Explain recoil (explosions) using conservation of momentum"
+    ],
+    "objectives_fr": [
+      "Définir la quantité de mouvement comme grandeur vectorielle",
+      "Utiliser p = m × v et donner les unités (kg·m/s)",
+      "Expliquer la conservation de la quantité de mouvement (système isolé)",
+      "Résoudre des problèmes de collisions inélastiques (objets qui se collent)",
+      "Expliquer le recul (explosions) par la conservation"
+    ],
+    "estimated_minutes": 30
+  },
+  "steps": [
+    {
+      "kind": "concept",
+      "title": "What is momentum?",
+      "title_fr": "Qu'est-ce que la quantité de mouvement ?",
+      "content": "Momentum measures how difficult it is to stop a moving object. It depends on both mass and velocity. The formula is:\n\n**p = m × v**\n\n- p is momentum (kilogram metre per second, kg·m/s)\n- m is mass (kilograms, kg)\n- v is velocity (metres per second, m/s)\n\nA heavy lorry moving slowly can have more momentum than a light car moving fast.",
+      "content_fr": "La quantité de mouvement mesure la difficulté à arrêter un objet en mouvement. Elle dépend à la fois de la masse et de la vitesse. La formule est :\n\n**p = m × v**\n\n- p : quantité de mouvement (kg·m/s)\n- m : masse (kg)\n- v : vitesse (m/s)\n\nUn camion lourd qui roule lentement peut avoir plus de quantité de mouvement qu'une voiture légère qui roule vite.",
+      "required": true,
+      "xp": 10,
+      "question": {
+        "kind": "numeric",
+        "text": "What is the momentum of a 2 kg object moving at 3 m/s? (kg·m/s, number only)",
+        "text_fr": "Quelle est la quantité de mouvement d'un objet de 2 kg à 3 m/s ? (kg·m/s, nombre seul)",
+        "explanation": "p = m × v = 2 × 3 = 6 kg·m/s",
+        "explanation_fr": "p = m × v = 2 × 3 = 6 kg·m/s",
+        "hint_prompt": "Multiply mass by velocity.",
+        "hint_prompt_fr": "Multiplier la masse par la vitesse.",
+        "config": {"accepted": ["6"]},
+        "hints": [{"text": "2 × 3 = 6", "text_fr": "2 × 3 = 6"}]
+      }
+    },
+    {
+      "kind": "explain",
+      "title": "Momentum is a vector",
+      "title_fr": "La quantité de mouvement est une grandeur vectorielle",
+      "content": "Momentum has both magnitude and direction because velocity is a vector. If an object moves to the right, its momentum is to the right. If it moves to the left, we can give velocity a negative value and momentum becomes negative.\n\nTwo objects moving in opposite directions with equal and opposite momenta have a total momentum of zero.",
+      "content_fr": "La quantité de mouvement a une valeur et une direction, car la vitesse est un vecteur. Si un objet va vers la droite, sa quantité de mouvement est vers la droite. Si un objet va vers la gauche, on peut prendre une vitesse négative et la quantité de mouvement est négative.\n\nDeux objets se déplaçant en sens opposés avec des quantités de mouvement égales et opposées ont une quantité de mouvement totale nulle.",
+      "required": true,
+      "xp": 10,
+      "question": {
+        "kind": "mcq",
+        "text": "Which best describes momentum?",
+        "text_fr": "Quelle description est correcte pour la quantité de mouvement ?",
+        "explanation": "Momentum is a vector because it depends on velocity (magnitude + direction).",
+        "explanation_fr": "C'est une grandeur vectorielle car elle dépend de la vitesse (valeur + direction).",
+        "hint_prompt": "Think about velocity direction.",
+        "hint_prompt_fr": "Pense à la direction de la vitesse.",
+        "choices": [
+          {"text": "A vector quantity (has magnitude and direction)", "text_fr": "Une grandeur vectorielle (valeur et direction)", "correct": true},
+          {"text": "A scalar quantity (magnitude only)", "text_fr": "Une grandeur scalaire (valeur uniquement)"},
+          {"text": "Only mass matters", "text_fr": "Seule la masse compte"},
+          {"text": "Only speed matters", "text_fr": "Seule la vitesse compte"}
+        ],
+        "hints": [
+          {"text": "It includes direction from velocity.", "text_fr": "Elle inclut la direction de la vitesse."},
+          {"text": "Vectors have direction.", "text_fr": "Les vecteurs ont une direction."}
+        ]
+      }
+    },
+    {
+      "kind": "explain",
+      "title": "Conservation of momentum",
+      "title_fr": "Conservation de la quantité de mouvement",
+      "content": "In an **isolated system** (no external forces like friction or air resistance acting on the objects during the collision), the **total momentum before a collision = total momentum after the collision**.\n\nThis is called the principle of conservation of momentum.",
+      "content_fr": "Dans un **système isolé** (aucune force extérieure comme le frottement ou la résistance de l'air n'agit pendant la collision), la **quantité de mouvement totale avant la collision = quantité de mouvement totale après la collision**.\n\nC'est le principe de conservation de la quantité de mouvement.",
+      "required": true,
+      "xp": 10,
+      "question": {
+        "kind": "mcq",
+        "text": "In an isolated system with no external forces, total momentum...",
+        "text_fr": "Dans un système isolé sans forces extérieures, la quantité de mouvement totale...",
+        "explanation": "It is conserved (stays the same).",
+        "explanation_fr": "Elle se conserve (reste constante).",
+        "hint_prompt": "No external forces acting.",
+        "hint_prompt_fr": "Pas de forces extérieures.",
+        "choices": [
+          {"text": "Is conserved", "text_fr": "Se conserve", "correct": true},
+          {"text": "Increases", "text_fr": "Augmente"},
+          {"text": "Decreases", "text_fr": "Diminue"},
+          {"text": "Becomes zero", "text_fr": "Devient nulle"}
+        ],
+        "hints": [
+          {"text": "Conservation means it stays the same.", "text_fr": "Conserver = rester constant."},
+          {"text": "No external unbalanced forces.", "text_fr": "Pas de forces extérieures non équilibrées."}
+        ]
+      }
+    },
+    {
+      "kind": "example",
+      "title": "Worked example: objects stick together",
+      "title_fr": "Exemple résolu : objets qui se collent",
+      "content": "**Example:** Trolley A has mass 2 kg and velocity 3 m/s. It hits stationary trolley B (2 kg) and they stick together after collision.\n\nTotal momentum before = m₁u₁ + m₂u₂ = (2 × 3) + (2 × 0) = 6 kg·m/s\n\nAfter collision: total mass = 4 kg, velocity v: (m₁+m₂)v = 4v\n\nConservation: 4v = 6 → **v = 1.5 m/s**",
+      "content_fr": "**Exemple :** Un chariot A de 2 kg à 3 m/s heurte un chariot B au repos de 2 kg. Ils restent collés après la collision.\n\nQuantité de mouvement avant = m₁u₁ + m₂u₂ = (2 × 3) + (2 × 0) = 6 kg·m/s\n\nAprès collision : masse totale = 4 kg, vitesse v : (m₁+m₂)v = 4v\n\nConservation : 4v = 6 → **v = 1,5 m/s**",
+      "required": true,
+      "xp": 10,
+      "question": {
+        "kind": "numeric",
+        "text": "Glider A (4 kg, 6 m/s) hits stationary glider B (2 kg). They stick together. Find their common velocity (m/s, number only).",
+        "text_fr": "Glisseur A (4 kg, 6 m/s) heurte glisseur B au repos (2 kg). Ils se collent. Vitesse commune (m/s, nombre seul).",
+        "explanation": "Total p = 24. Total mass 6. v = 24/6 = 4 m/s",
+        "explanation_fr": "p totale = 24. Masse 6. v = 24/6 = 4 m/s",
+        "hint_prompt": "Total momentum before = (4×6)+0=24. Total mass after = 6.",
+        "hint_prompt_fr": "p avant = (4×6)+0=24. Masse après = 6.",
+        "config": {"accepted": ["4"]},
+        "hints": [
+          {"text": "24 ÷ 6 = 4", "text_fr": "24 ÷ 6 = 4"},
+          {"text": "Momentum conserved.", "text_fr": "Quantité de mouvement conservée."}
+        ]
+      }
+    },
+    {
+      "kind": "explain",
+      "title": "Recoil and explosions",
+      "title_fr": "Recul et explosions",
+      "content": "Explosions are the reverse of a collision. If the total momentum was zero before the explosion (objects at rest), it must be zero after.\n\n**Example:** A person at rest on ice throws a ball forward. The person moves backwards (recoils) so that total momentum remains zero.",
+      "content_fr": "Une explosion est l'inverse d'une collision. Si la quantité de mouvement totale était nulle avant l'explosion (objets au repos), elle doit rester nulle après.\n\n**Exemple :** Une personne au repos sur la glace lance une balle vers l'avant. Elle recule pour que la quantité de mouvement totale reste nulle.",
+      "required": true,
+      "xp": 10,
+      "question": {
+        "kind": "mcq",
+        "text": "A stationary skater throws a ball forward. What happens to the skater?",
+        "text_fr": "Un patineur au repos lance une balle vers l'avant. Que se passe-t-il ?",
+        "explanation": "Total momentum stays zero, so skater moves backwards (recoil).",
+        "explanation_fr": "La quantité de mouvement totale reste nulle, donc le patineur recule.",
+        "hint_prompt": "Think conservation of momentum (total zero).",
+        "hint_prompt_fr": "Pense à la conservation (total nul).",
+        "choices": [
+          {"text": "Moves backwards", "text_fr": "Recule", "correct": true},
+          {"text": "Moves forwards faster", "text_fr": "Va plus vite vers l'avant"},
+          {"text": "Stays still", "text_fr": "Reste immobile"},
+          {"text": "Moves upwards", "text_fr": "Monte"}
+        ],
+        "hints": [
+          {"text": "Opposite momentum to ball.", "text_fr": "Quantité de mouvement opposée à celle de la balle."},
+          {"text": "Total was zero.", "text_fr": "Le total était nul."}
+        ]
+      }
+    },
+    {
+      "kind": "summary",
+      "title": "Key points to remember",
+      "title_fr": "À retenir",
+      "content": "- Momentum p = m × v, units kg·m/s (vector).\n- Conservation: total momentum before = after if no external forces.\n- Inelastic (stick together): use (m₁+m₂)v after.\n- Explosions/recoil: total momentum remains zero if starting at rest.",
+      "content_fr": "- p = m × v, unité kg·m/s (grandeur vectorielle).\n- Conservation : p totale avant = après, sans forces extérieures.\n- Objets collés : (m₁+m₂)v après collision.\n- Explosions/recul : p totale reste nulle si au repos au départ.",
+      "required": false,
+      "xp": 5
+    }
+  ],
+  "quiz": {
+    "title": "Momentum and Collisions Quiz",
+    "title_fr": "Quiz : Quantité de mouvement et collisions",
+    "pass_score": 60,
+    "questions": [
+      {
+        "kind": "numeric",
+        "text": "A 3 kg object moves at 5 m/s. Calculate momentum in kg·m/s (number only).",
+        "text_fr": "Objet 3 kg à 5 m/s. Quantité de mouvement kg·m/s (nombre seul).",
+        "explanation": "15 kg·m/s.",
+        "explanation_fr": "15 kg·m/s.",
+        "hint_prompt": "p = m×v",
+        "hint_prompt_fr": "p = m×v",
+        "config": {"accepted": ["15"]},
+        "difficulty": 1,
+        "hints": [{"text": "3×5=15", "text_fr": "3×5=15"}]
+      },
+      {
+        "kind": "mcq",
+        "text": "Momentum is which type of quantity?",
+        "text_fr": "La quantité de mouvement est de quel type ?",
+        "explanation": "Vector (has magnitude and direction).",
+        "explanation_fr": "Vecteur (valeur et direction).",
+        "hint_prompt": "Depends on velocity.",
+        "hint_prompt_fr": "Dépend de la vitesse.",
+        "choices": [
+          {"text": "Vector", "text_fr": "Vecteur", "correct": true},
+          {"text": "Scalar", "text_fr": "Scalaire"}
+        ],
+        "difficulty": 1,
+        "hints": [{"text": "Velocity has direction.", "text_fr": "La vitesse a une direction."}]
+      },
+      {
+        "kind": "mcq",
+        "text": "When is total momentum conserved?",
+        "text_fr": "Quand se conserve la quantité de mouvement totale ?",
+        "explanation": "No external forces act.",
+        "explanation_fr": "Pas de forces extérieures.",
+        "hint_prompt": "Isolated system.",
+        "hint_prompt_fr": "Système isolé.",
+        "choices": [
+          {"text": "No external forces", "text_fr": "Pas de forces extérieures", "correct": true},
+          {"text": "With friction", "text_fr": "Avec frottement"},
+          {"text": "With air resistance", "text_fr": "Avec résistance de l'air"}
+        ],
+        "difficulty": 1,
+        "hints": [{"text": "Isolated system.", "text_fr": "Système isolé."}]
+      },
+      {
+        "kind": "numeric",
+        "text": "A 1 kg ball at 10 m/s hits a stationary 1 kg ball and they stick together. Common velocity (m/s)?",
+        "text_fr": "Balle 1 kg à 10 m/s heurte balle 1 kg au repos, elles se collent. Vitesse commune (m/s) ?",
+        "explanation": "Total p=10, mass 2, v=5.",
+        "explanation_fr": "p=10, masse 2, v=5.",
+        "hint_prompt": "10 ÷ 2 = ?",
+        "hint_prompt_fr": "10 ÷ 2 = ?",
+        "config": {"accepted": ["5"]},
+        "difficulty": 2,
+        "hints": [{"text": "Momentum splits between 2 kg.", "text_fr": "Partage entre 2 kg."}]
+      },
+      {
+        "kind": "mcq",
+        "text": "A stationary cannon fires a cannonball forward. The cannon...",
+        "text_fr": "Un canon au repos tire un boulet vers l'avant. Le canon...",
+        "explanation": "Recoils backwards (momentum conserved, total zero).",
+        "explanation_fr": "Recule (conservation, total nul).",
+        "hint_prompt": "Total momentum was zero.",
+        "hint_prompt_fr": "Quantité de mouvement totale nulle au départ.",
+        "choices": [
+          {"text": "Recoils backwards", "text_fr": "Recule", "correct": true},
+          {"text": "Moves forward", "text_fr": "Va vers l'avant"},
+          {"text": "Stays at rest", "text_fr": "Reste au repos"}
+        ],
+        "difficulty": 2,
+        "hints": [{"text": "Equal and opposite momentum.", "text_fr": "Quantité de mouvement opposée."}]
+      }
+    ]
+  }
+}

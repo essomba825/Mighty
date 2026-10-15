@@ -1,0 +1,254 @@
+{
+  "lesson": 24,
+  "status": "published",
+  "lesson_fields": {
+    "title": "Linear Inequalities and Number Lines",
+    "title_fr": "Inéquations du premier degré et droite graduée",
+    "summary": "Solve first-degree inequalities, respect the sign-flip rule, and show the answer on a number line.",
+    "summary_fr": "Résoudre des inéquations du premier degré, respecter la règle du changement de sens, et représenter la réponse sur une droite graduée.",
+    "content": "## From equations to inequalities\n\nAn equation asks for the one value that balances. An inequality asks for a whole family of values that stay on one side.\n\nEverything you do with equations still works, with one extra law: multiplying or dividing both sides by a negative number flips the sign.\n\n## The toolkit\n\n1. Add or subtract the same amount on both sides, sign unchanged.\n2. Multiply or divide by a positive number, sign unchanged.\n3. Multiply or divide by a negative number: flip the sign.\n4. Draw the answer on a number line: closed dot if included, open dot if excluded.",
+    "content_fr": "De l'équation à l'inéquation\n\nUne équation cherche la valeur unique qui équilibre. Une inéquation cherche toute une famille de valeurs qui restent d'un côté.\n\nTout ce qu'on fait avec les équations reste valable, avec une loi en plus : multiplier ou diviser les deux côtés par un nombre négatif renverse le signe.\n\nLa boîte à outils\n\n1. Ajouter ou soustraire la même quantité des deux côtés, sens inchangé.\n2. Multiplier ou diviser par un nombre positif, sens inchangé.\n3. Multiplier ou diviser par un nombre négatif : renverser le signe.\n4. Dessiner la réponse sur une droite graduée : point plein si incluse, point creux si exclue.",
+    "objectives": [
+      "Solve a first-degree inequality step by step",
+      "Apply the sign-flip rule when multiplying or dividing by a negative",
+      "Write the solution set correctly",
+      "Draw the solution on a number line with open and closed dots"
+    ],
+    "objectives_fr": [
+      "Résoudre une inéquation du premier degré étape par étape",
+      "Appliquer la règle du changement de sens quand on multiplie ou divise par un négatif",
+      "Écrire correctement l'ensemble des solutions",
+      "Représenter la solution sur une droite graduée avec points pleins et creux"
+    ],
+    "estimated_minutes": 25
+  },
+  "steps": [
+    {
+      "kind": "concept",
+      "title": "What an inequality asks",
+      "title_fr": "Ce que demande une inéquation",
+      "content": "The inequality 2x + 3 > 7 does not ask \"which x makes this equal\". It asks \"for which x does this stay above 7\".\n\nTry some values: x = 1 gives 5, too small. x = 2 gives 7, equal but not above. x = 3 gives 9, that works.\n\nThe answer turns out to be every number greater than 2. Instead of guessing values one by one, we solve exactly like an equation until x stands alone.",
+      "content_fr": "L'inéquation 2x + 3 > 7 ne demande pas « quel x rend ceci égal ». Elle demande « pour quels x cela reste-t-il au-dessus de 7 ».\n\nEssaie quelques valeurs : x = 1 donne 5, trop petit. x = 2 donne 7, égal mais pas au-dessus. x = 3 donne 9, ça marche.\n\nLa réponse est finalement tout nombre supérieur à 2. Au lieu de deviner valeur par valeur, on résout exactement comme une équation jusqu'à isoler x.",
+      "required": true,
+      "xp": 10,
+      "question": {
+        "kind": "mcq",
+        "text": "Solve 2x + 3 > 7.",
+        "text_fr": "Résous 2x + 3 > 7.",
+        "explanation": "Subtract 3 on both sides: 2x > 4. Divide by 2, which is positive, so the sign stays: x > 2.",
+        "explanation_fr": "Soustrais 3 des deux côtés : 2x > 4. Divise par 2, qui est positif, donc le sens ne change pas : x > 2.",
+        "hint_prompt": "Which value of x makes 2x + 3 exactly 7?",
+        "hint_prompt_fr": "Quelle valeur de x rend 2x + 3 exactement égal à 7 ?",
+        "choices": [
+          {"text": "x > 2", "text_fr": "x > 2", "correct": true},
+          {"text": "x < 2", "text_fr": "x < 2"},
+          {"text": "x > 5", "text_fr": "x > 5"},
+          {"text": "x = 2", "text_fr": "x = 2"}
+        ],
+        "hints": [
+          {"text": "Move the 3 first: what is 7 minus 3?", "text_fr": "Déplace d'abord le 3 : combien vaut 7 moins 3 ?"},
+          {"text": "You get 2x > 4; now divide by 2, a positive number.", "text_fr": "Tu obtiens 2x > 4 ; maintenant divise par 2, un nombre positif. La réponse est x > 2."}
+        ]
+      }
+    },
+    {
+      "kind": "explain",
+      "title": "The sign-flip law",
+      "title_fr": "La loi du renversement",
+      "content": "Take the true fact 4 > 2. Multiply both sides by -1 and you get -4 and -2. On the number line -4 sits to the left of -2, so -4 < -2. The sign flipped.\n\nThat is why the law exists: negative multiplication mirrors the line, and the mirror swaps bigger with smaller.\n\nAdditions and subtractions never flip. Positive multiplications never flip. Only negative multiplication or division flips.",
+      "content_fr": "Prenons le fait vrai 4 > 2. Multiplie les deux côtés par -1 : tu obtiens -4 et -2. Sur la droite graduée, -4 est à gauche de -2, donc -4 < -2. Le signe s'est renversé.\n\nVoilà pourquoi la loi existe : la multiplication négative est un miroir de la droite, et le miroir échange le plus grand avec le plus petit.\n\nAdditions et soustractions ne renversent jamais. Multiplications par un positif non plus. Seule la multiplication ou la division par un négatif renverse.",
+      "required": true,
+      "xp": 10,
+      "question": {
+        "kind": "mcq",
+        "text": "Solve -3x < 12.",
+        "text_fr": "Résous -3x < 12.",
+        "explanation": "Divide by -3. Dividing by a negative flips the sign: x > -4.",
+        "explanation_fr": "Divise par -3. Diviser par un négatif renverse le signe : x > -4.",
+        "hint_prompt": "The number you divide by is negative. What happens to the sign?",
+        "hint_prompt_fr": "Le nombre par lequel tu divises est négatif. Qu'arrive-t-il au signe ?",
+        "choices": [
+          {"text": "x > -4", "text_fr": "x > -4", "correct": true},
+          {"text": "x < -4", "text_fr": "x < -4"},
+          {"text": "x > 4", "text_fr": "x > 4"},
+          {"text": "x < 4", "text_fr": "x < 4"}
+        ],
+        "hints": [
+          {"text": "12 divided by -3 is -4.", "text_fr": "12 divisé par -3 donne -4."},
+          {"text": "Because you divided by a negative, < becomes >.", "text_fr": "Parce que tu as divisé par un négatif, < devient >. Réponse : x > -4."}
+        ]
+      }
+    },
+    {
+      "kind": "example",
+      "title": "Worked example, full chain",
+      "title_fr": "Exemple résolu, chaîne complète",
+      "content": "Solve 5 - 2x >= 13.\n\nSubtract 5: -2x >= 8.\nDivide by -2 and flip: x <= -4.\n\nCheck with x = -5: 5 - 2(-5) = 5 + 10 = 15, which is indeed at least 13. The chain worked.\n\nWriting the final set matters: x <= -4, not -4 >= x, so the reader sees x first.",
+      "content_fr": "Résous 5 - 2x >= 13.\n\nSoustrais 5 : -2x >= 8.\nDivise par -2 en renversant : x <= -4.\n\nVérifie avec x = -5 : 5 - 2(-5) = 5 + 10 = 15, qui est bien supérieur ou égal à 13. La chaîne a fonctionné.\n\nL'écriture finale compte : x <= -4, et non -4 >= x, pour que le lecteur voie x en premier.",
+      "required": true,
+      "xp": 12,
+      "question": {
+        "kind": "numeric",
+        "text": "Solve 4 - x > 7. Your answer is x < a. What is a?",
+        "text_fr": "Résous 4 - x > 7. La réponse est x < a. Que vaut a ?",
+        "explanation": "Subtract 4: -x > 3. Multiply by -1 and flip: x < -3. So a = -3.",
+        "explanation_fr": "Soustrais 4 : -x > 3. Multiplie par -1 en renversant : x < -3. Donc a = -3.",
+        "hint_prompt": "Get x alone, and remember the flip when you multiply by -1.",
+        "hint_prompt_fr": "Isole x, et n'oublie pas de renverser quand tu multiplies par -1.",
+        "config": {"accepted": ["-3"]},
+        "hints": [
+          {"text": "4 - x > 7 becomes -x > 3 after subtracting 4.", "text_fr": "4 - x > 7 devient -x > 3 après avoir soustrait 4."},
+          {"text": "Multiply by -1 and flip: x < -3.", "text_fr": "Multiplie par -1 en renversant : x < -3."}
+        ]
+      }
+    },
+    {
+      "kind": "concept",
+      "title": "Number-line pictures",
+      "title_fr": "Images sur la droite graduée",
+      "content": "A solution like x > 2 covers infinitely many points. The number line shows all of them at once.\n\nDraw the line, mark 2. Since 2 is not included, draw an open dot. Shade everything to the right.\n\nFor x <= -4, the dot at -4 is closed, because the boundary belongs to the family, and the shading goes to the left.",
+      "content_fr": "Une solution comme x > 2 couvre une infinité de points. La droite graduée les montre tous en un coup d'œil.\n\nTrace la droite, marque 2. Comme 2 n'est pas inclus, dessine un point creux. Hachure tout ce qui est à droite.\n\nPour x <= -4, le point en -4 est plein, parce que la frontière fait partie de la famille, et le hachurage part vers la gauche.",
+      "required": true,
+      "xp": 10,
+      "question": {
+        "kind": "mcq",
+        "text": "Which picture shows x >= -1 on a number line?",
+        "text_fr": "Quel dessin représente x >= -1 sur une droite graduée ?",
+        "explanation": "The sign >= means the boundary -1 is included (closed dot) and the values go upward (shade to the right).",
+        "explanation_fr": "Le signe >= signifie que la frontière -1 est incluse (point plein) et que les valeurs montent (hachures à droite).",
+        "hint_prompt": "Two questions: is -1 included? Which side is shaded?",
+        "hint_prompt_fr": "Deux questions : -1 est-il inclus ? De quel côté sont les hachures ?",
+        "choices": [
+          {"text": "Closed dot at -1, shaded to the right", "text_fr": "Point plein en -1, hachures à droite", "correct": true},
+          {"text": "Open dot at -1, shaded to the right", "text_fr": "Point creux en -1, hachures à droite"},
+          {"text": "Closed dot at -1, shaded to the left", "text_fr": "Point plein en -1, hachures à gauche"},
+          {"text": "Open dot at -1, shaded to the left", "text_fr": "Point creux en -1, hachures à gauche"}
+        ],
+        "hints": [
+          {"text": ">= includes the boundary: closed dot.", "text_fr": ">= inclut la frontière : point plein."},
+          {"text": "x greater than -1 lives to the right of -1.", "text_fr": "Les x plus grands que -1 sont à droite de -1."}
+        ]
+      }
+    },
+    {
+      "kind": "practice",
+      "title": "Watch the everyday trap",
+      "title_fr": "Le piège du quotidien",
+      "content": "A minibus driver in Yaoundé says: \"I need at least 15 passengers to cover fuel. Each place costs 500 FCFA; my fuel costs 7 500 FCFA.\"\n\nLet n be the number of passengers: 500n >= 7500, so n >= 15. At least 15 means 15 counts too, hence a closed dot and the sign >=.\n\nThe trap: \"at least\" and \"no more than\" hide the boundary inside the family. \"More than\" and \"less than\" push it out.",
+      "content_fr": "Un chauffeur de minibus à Yaoundé dit : « Il me faut au moins 15 passagers pour couvrir le carburant. Chaque place coûte 500 FCFA ; mon carburant coûte 7 500 FCFA. »\n\nSoit n le nombre de passagers : 500n >= 7500, donc n >= 15. « Au moins 15 » veut dire que 15 compte aussi, d'où le point plein et le signe >=.\n\nLe piège : « au moins » et « pas plus de » cachent la frontière dans la famille. « Plus de » et « moins de » l'en excluent.",
+      "required": false,
+      "xp": 12
+    },
+    {
+      "kind": "summary",
+      "title": "What to keep",
+      "title_fr": "À retenir",
+      "content": "Solve an inequality like an equation.\nFlip the sign only when you multiply or divide by a negative.\nOpen dot when the boundary is out, closed dot when it is in.\nCheck one value from your answer to be sure.",
+      "content_fr": "On résout une inéquation comme une équation.\nOn ne renverse le signe que lorsqu'on multiplie ou divise par un négatif.\nPoint creux quand la frontière est exclue, point plein quand elle est incluse.\nVérifie une valeur de ta réponse pour en être sûr.",
+      "required": false,
+      "xp": 5
+    }
+  ],
+  "quiz": {
+    "title": "Linear inequalities: final check",
+    "title_fr": "Inéquations : bilan final",
+    "pass_score": 60,
+    "questions": [
+      {
+        "kind": "mcq",
+        "text": "Solve 3x - 6 <= 9.",
+        "text_fr": "Résous 3x - 6 <= 9.",
+        "explanation": "Add 6: 3x <= 15. Divide by 3, positive, so no flip: x <= 5.",
+        "explanation_fr": "Ajoute 6 : 3x <= 15. Divise par 3, positif, donc pas de renversement : x <= 5.",
+        "hint_prompt": "Move the -6 first, then divide.",
+        "hint_prompt_fr": "Déplace d'abord le -6, puis divise.",
+        "choices": [
+          {"text": "x <= 5", "text_fr": "x <= 5", "correct": true},
+          {"text": "x <= 1", "text_fr": "x <= 1"},
+          {"text": "x >= 5", "text_fr": "x >= 5"},
+          {"text": "x < 5", "text_fr": "x < 5"}
+        ],
+        "hints": [
+          {"text": "3x - 6 <= 9 gives 3x <= 15.", "text_fr": "3x - 6 <= 9 donne 3x <= 15."},
+          {"text": "15 / 3 = 5 and the sign stays because 3 is positive.", "text_fr": "15 / 3 = 5 et le sens reste car 3 est positif."}
+        ],
+        "difficulty": 1
+      },
+      {
+        "kind": "mcq",
+        "text": "Solve -2x + 4 > 10.",
+        "text_fr": "Résous -2x + 4 > 10.",
+        "explanation": "Subtract 4: -2x > 6. Divide by -2 and flip: x < -3.",
+        "explanation_fr": "Soustrais 4 : -2x > 6. Divise par -2 en renversant : x < -3.",
+        "hint_prompt": "The division is by a negative. Flip!",
+        "hint_prompt_fr": "La division se fait par un négatif. Renverse !",
+        "choices": [
+          {"text": "x < -3", "text_fr": "x < -3", "correct": true},
+          {"text": "x > -3", "text_fr": "x > -3"},
+          {"text": "x < 3", "text_fr": "x < 3"},
+          {"text": "x > 3", "text_fr": "x > 3"}
+        ],
+        "hints": [
+          {"text": "-2x + 4 > 10 gives -2x > 6.", "text_fr": "-2x + 4 > 10 donne -2x > 6."},
+          {"text": "6 / (-2) = -3 and the sign flips.", "text_fr": "6 / (-2) = -3 et le signe se renverse."}
+        ],
+        "difficulty": 2
+      },
+      {
+        "kind": "mcq",
+        "text": "A number line shows a closed dot at 3 with shading to the left. Which inequality is this?",
+        "text_fr": "Une droite graduée montre un point plein en 3 avec des hachures à gauche. Quelle inéquation est-ce ?",
+        "explanation": "Closed dot means included, shading left means smaller: x <= 3.",
+        "explanation_fr": "Point plein signifie inclus, hachures à gauche signifient plus petit : x <= 3.",
+        "hint_prompt": "Two clues: full or empty dot, left or right shading.",
+        "hint_prompt_fr": "Deux indices : point plein ou creux, hachures à gauche ou à droite.",
+        "choices": [
+          {"text": "x <= 3", "text_fr": "x <= 3", "correct": true},
+          {"text": "x < 3", "text_fr": "x < 3"},
+          {"text": "x >= 3", "text_fr": "x >= 3"},
+          {"text": "x > 3", "text_fr": "x > 3"}
+        ],
+        "hints": [
+          {"text": "Closed dot = included, so the sign has = in it.", "text_fr": "Point plein = inclus, donc le signe contient =."},
+          {"text": "Shading to the left = smaller values.", "text_fr": "Hachures à gauche = valeurs plus petites. Réponse : x <= 3."}
+        ],
+        "difficulty": 1
+      },
+      {
+        "kind": "numeric",
+        "text": "Solve 7 - 2x >= 1. The answer is x <= a. What is a?",
+        "text_fr": "Résous 7 - 2x >= 1. La réponse est x <= a. Que vaut a ?",
+        "explanation": "Subtract 7: -2x >= -6. Divide by -2 and flip: x <= 3. So a = 3.",
+        "explanation_fr": "Soustrais 7 : -2x >= -6. Divise par -2 en renversant : x <= 3. Donc a = 3.",
+        "hint_prompt": "Isolate the x term, then mind the flip.",
+        "hint_prompt_fr": "Isole le terme en x, puis attention au renversement.",
+        "config": {"accepted": ["3"]},
+        "hints": [
+          {"text": "7 - 2x >= 1 gives -2x >= -6.", "text_fr": "7 - 2x >= 1 donne -2x >= -6."},
+          {"text": "Divide by -2, flip, and get x <= 3.", "text_fr": "Divise par -2, renverse, et obtiens x <= 3."}
+        ],
+        "difficulty": 2
+      },
+      {
+        "kind": "mcq",
+        "text": "A snack at brunch costs 200 FCFA. A pupil says: \"I can buy more than 8 with my money.\" If m is her money in FCFA, which inequality matches the words?",
+        "text_fr": "Un goûter coûte 200 FCFA. Une élève dit : « J'en achète plus de 8 avec mon argent. » Si m est son argent en FCFA, quelle inéquation correspond ?",
+        "explanation": "More than 8 snacks means cost above 8 x 200 = 1600 FCFA: m > 1600, strict because 8 exactly is not enough.",
+        "explanation_fr": "Plus de 8 goûters signifie un coût au-dessus de 8 x 200 = 1600 FCFA : m > 1600, strict car 8 exactement ne suffit pas.",
+        "hint_prompt": "Is 8 included or not? That picks the dot and the sign.",
+        "hint_prompt_fr": "8 est-il inclus ou non ? Cela choisit le point et le signe.",
+        "choices": [
+          {"text": "m > 1600", "text_fr": "m > 1600", "correct": true},
+          {"text": "m >= 1600", "text_fr": "m >= 1600"},
+          {"text": "m < 1600", "text_fr": "m < 1600"},
+          {"text": "m > 200", "text_fr": "m > 200"}
+        ],
+        "hints": [
+          {"text": "8 snacks cost 8 x 200 = 1600 FCFA.", "text_fr": "8 goûters coûtent 8 x 200 = 1600 FCFA."},
+          {"text": "\"More than 8\" excludes 8, so strict: m > 1600.", "text_fr": "« Plus de 8 » exclut 8, donc strict : m > 1600."}
+        ],
+        "difficulty": 3
+      }
+    ]
+  }
+}

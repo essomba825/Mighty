@@ -1,0 +1,318 @@
+{
+  "lesson": 33,
+  "status": "published",
+  "lesson_fields": {
+    "title": "Surface Area and Volume of Solids",
+    "title_fr": "Aires et volumes des solides",
+    "summary": "Volume of a cuboid or prism, surface area of a cuboid, and how units change from cm² to cm³.",
+    "summary_fr": "Volume d'un pavé ou d'un prisme, aire des faces d'un pavé, et le passage des cm² aux cm³.",
+    "content": "## Two different questions\n\nVolume asks how much space inside: V = l × w × h.\nSurface area asks how much material to cover the outside.",
+    "content_fr": "## Deux questions différentes\n\nLe volume mesure l'espace intérieur : V = l × w × h.\nL'aire totale mesure la matière pour couvrir l'extérieur.",
+    "objectives": [
+      "Calculate the volume of a cuboid",
+      "Calculate the surface area of a cuboid",
+      "Use the cross-section idea for prisms and cylinders",
+      "Choose the right unit: cm² or cm³"
+    ],
+    "objectives_fr": [
+      "Calculer le volume d'un pavé droit",
+      "Calculer l'aire totale des faces d'un pavé",
+      "Utiliser la section droite pour les prismes et les cylindres",
+      "Choisir la bonne unité : cm² ou cm³"
+    ],
+    "estimated_minutes": 30
+  },
+  "steps": [
+    {
+      "kind": "concept",
+      "title": "Volume: filling a box",
+      "title_fr": "Le volume : remplir une boîte",
+      "content": "A cuboid of length l, width w and height h holds V = l × w × h unit cubes. Volume is always in cubic units like cm³.\n\n_Figure: Д.Ильин — CC0, via Wikimedia Commons._",
+      "content_fr": "Un pavé de longueur l, largeur w et hauteur h contient V = l × w × h cubes unités. Le volume s'exprime toujours en unités cubes comme le cm³.\n\n_Figure : Д.Ильин — CC0, via Wikimedia Commons._",
+      "required": true,
+      "xp": 10,
+      "question": {
+        "kind": "numeric",
+        "text": "A box is 5 cm long, 3 cm wide and 2 cm high. Volume in cm³?",
+        "text_fr": "Une boîte mesure 5 cm de long, 3 cm de large et 2 cm de haut. Volume en cm³ ?",
+        "explanation": "5 × 3 = 15, then 15 × 2 = 30.",
+        "explanation_fr": "5 × 3 = 15, puis 15 × 2 = 30.",
+        "hint_prompt": "Multiply the three dimensions.",
+        "hint_prompt_fr": "Multiplie les trois dimensions.",
+        "config": {
+          "accepted": [
+            "30"
+          ]
+        },
+        "hints": [
+          {
+            "text": "5 × 3 × 2.",
+            "text_fr": "5 × 3 × 2."
+          },
+          {
+            "text": "V = 30 cm³.",
+            "text_fr": "V = 30 cm³."
+          }
+        ]
+      }
+    },
+    {
+      "kind": "explain",
+      "title": "Surface area: wrapping the box",
+      "title_fr": "L'aire totale : emballer la boîte",
+      "content": "A cuboid has three pairs of identical faces. Surface area = 2(lw + lh + wh). Give the answer in square units like cm².",
+      "content_fr": "Un pavé a trois paires de faces identiques. Aire totale = 2(lw + lh + wh). La réponse est en unités carrées comme le cm².",
+      "required": true,
+      "xp": 10,
+      "question": {
+        "kind": "numeric",
+        "text": "Cuboid 4 cm × 3 cm × 2 cm. Total surface area in cm²?",
+        "text_fr": "Pavé de 4 cm × 3 cm × 2 cm. Aire totale des faces en cm² ?",
+        "explanation": "12 + 8 + 6 = 26, then 2 × 26 = 52.",
+        "explanation_fr": "12 + 8 + 6 = 26, puis 2 × 26 = 52.",
+        "hint_prompt": "Each pair of faces appears twice.",
+        "hint_prompt_fr": "Chaque paire de faces apparaît deux fois.",
+        "config": {
+          "accepted": [
+            "52"
+          ]
+        },
+        "hints": [
+          {
+            "text": "Faces: 4×3 = 12, 4×2 = 8, 3×2 = 6.",
+            "text_fr": "Faces : 4×3 = 12, 4×2 = 8, 3×2 = 6."
+          },
+          {
+            "text": "2 × (12 + 8 + 6) = 52.",
+            "text_fr": "2 × (12 + 8 + 6) = 52."
+          }
+        ]
+      }
+    },
+    {
+      "kind": "example",
+      "title": "Worked example: the prism shortcut",
+      "title_fr": "Exemple résolu : le racourci du prisme",
+      "content": "A triangular prism has cross-section area 20 cm² and length 7 cm. Volume = cross-section area × length = 20 × 7 = 140 cm³. The same trick works for cylinders: πr² × h.",
+      "content_fr": "Un prisme triangulaire a une section droite de 20 cm² et une longueur de 7 cm. Volume = aire de la section × longueur = 20 × 7 = 140 cm³. Le même procédé marche pour les cylindres : πr² × h.",
+      "required": true,
+      "xp": 12
+    },
+    {
+      "kind": "practice",
+      "title": "Your turn: the water tank",
+      "title_fr": "À toi : le réservoir d'eau",
+      "content": "A cylindrical tank has radius 1 m and height 2 m. Take π ≈ 3.14 and compute its volume in m³.",
+      "content_fr": "Un réservoir cylindrique a un rayon de 1 m et une hauteur de 2 m. Prends π ≈ 3,14 et calcule son volume en m³.",
+      "required": true,
+      "xp": 12,
+      "question": {
+        "kind": "numeric",
+        "text": "Cylinder: r = 1 m, h = 2 m, π ≈ 3.14. Volume in m³?",
+        "text_fr": "Cylindre : r = 1 m, h = 2 m, π ≈ 3,14. Volume en m³ ?",
+        "explanation": "r² = 1, so V = 3.14 × 1 × 2 = 6.28.",
+        "explanation_fr": "r² = 1, donc V = 3,14 × 1 × 2 = 6,28.",
+        "hint_prompt": "Volume of a cylinder is cross-section area times height.",
+        "hint_prompt_fr": "Le volume d'un cylindre est l'aire du disque fois la hauteur.",
+        "config": {
+          "accepted": [
+            "6.28"
+          ],
+          "tolerance": 0.01
+        },
+        "hints": [
+          {
+            "text": "πr² = 3.14 × 1 = 3.14.",
+            "text_fr": "πr² = 3,14 × 1 = 3,14."
+          },
+          {
+            "text": "3.14 × 2 = 6.28.",
+            "text_fr": "3,14 × 2 = 6,28."
+          }
+        ]
+      }
+    },
+    {
+      "kind": "question",
+      "title": "Check: the unit trap",
+      "title_fr": "Vérification : le piège des unités",
+      "content": "Area lives in squared units, volume in cubed units. Mixing them up is the classic exam mistake.",
+      "content_fr": "L'aire s'exprime en unités carrées, le volume en unités cubes. Les mélanger est l'erreur classique aux examens.",
+      "required": true,
+      "xp": 12,
+      "question": {
+        "kind": "mcq",
+        "text": "You compute how much paint covers all faces of a chest. The answer should be in…",
+        "text_fr": "Tu calcules la peinture qu'il faut pour couvrir toutes les faces d'un coffre. La réponse s'écrit en…",
+        "explanation": "Covering a surface is an area, so square units.",
+        "explanation_fr": "Couvrir une surface, c'est une aire, donc des unités carrées.",
+        "hint_prompt": "Paint covers a surface, not a space.",
+        "hint_prompt_fr": "La peinture couvre une surface, pas un espace.",
+        "choices": [
+          {
+            "text": "cm",
+            "text_fr": "cm",
+            "correct": false
+          },
+          {
+            "text": "cm²",
+            "text_fr": "cm²",
+            "correct": true
+          },
+          {
+            "text": "cm³",
+            "text_fr": "cm³",
+            "correct": false
+          }
+        ],
+        "hints": [
+          {
+            "text": "Length, surface or space to fill?",
+            "text_fr": "Longueur, surface ou espace à remplir ?"
+          }
+        ]
+      }
+    },
+    {
+      "kind": "summary",
+      "title": "What to keep",
+      "title_fr": "À retenir",
+      "content": "Cuboid volume: l × w × h. Cuboid surface area: 2(lw + lh + wh). Prism or cylinder volume: cross-section area × length or height.",
+      "content_fr": "Volume du pavé : l × w × h. Aire totale du pavé : 2(lw + lh + wh). Volume d'un prisme ou d'un cylindre : aire de la section × longueur ou hauteur.",
+      "required": false,
+      "xp": 5
+    }
+  ],
+  "quiz": {
+    "title": "Surface area and volume",
+    "title_fr": "Aires et volumes",
+    "pass_score": 60,
+    "questions": [
+      {
+        "kind": "numeric",
+        "text": "Cuboid 2 cm × 2 cm × 5 cm. Volume in cm³?",
+        "text_fr": "Pavé de 2 cm × 2 cm × 5 cm. Volume en cm³ ?",
+        "explanation": "2 × 2 × 5 = 20.",
+        "explanation_fr": "2 × 2 × 5 = 20.",
+        "hint_prompt": "Multiply the three dimensions.",
+        "hint_prompt_fr": "Multiplie les trois dimensions.",
+        "config": {
+          "accepted": [
+            "20"
+          ]
+        },
+        "hints": [
+          {
+            "text": "2 × 2 = 4, then 4 × 5.",
+            "text_fr": "2 × 2 = 4, puis 4 × 5."
+          }
+        ],
+        "difficulty": 1
+      },
+      {
+        "kind": "numeric",
+        "text": "A cube has edge 3 cm. Total surface area in cm²?",
+        "text_fr": "Un cube a une arête de 3 cm. Aire totale des faces en cm² ?",
+        "explanation": "One face: 9 cm². Six faces: 6 × 9 = 54.",
+        "explanation_fr": "Une face : 9 cm². Six faces : 6 × 9 = 54.",
+        "hint_prompt": "A cube has six identical faces.",
+        "hint_prompt_fr": "Un cube a six faces identiques.",
+        "config": {
+          "accepted": [
+            "54"
+          ]
+        },
+        "hints": [
+          {
+            "text": "Face area: 3 × 3 = 9.",
+            "text_fr": "Aire d'une face : 3 × 3 = 9."
+          },
+          {
+            "text": "6 × 9 = 54.",
+            "text_fr": "6 × 9 = 54."
+          }
+        ],
+        "difficulty": 2
+      },
+      {
+        "kind": "numeric",
+        "text": "A prism has a cross-section of 15 cm² and length 4 cm. Volume in cm³?",
+        "text_fr": "Un prisme a une section droite de 15 cm² et une longueur de 4 cm. Volume en cm³ ?",
+        "explanation": "V = 15 × 4 = 60.",
+        "explanation_fr": "V = 15 × 4 = 60.",
+        "hint_prompt": "Cross-section area times length.",
+        "hint_prompt_fr": "Aire de la section fois la longueur.",
+        "config": {
+          "accepted": [
+            "60"
+          ]
+        },
+        "hints": [
+          {
+            "text": "15 × 4.",
+            "text_fr": "15 × 4."
+          }
+        ],
+        "difficulty": 2
+      },
+      {
+        "kind": "numeric",
+        "text": "Cylinder: r = 10 cm, h = 5 cm, π ≈ 3.14. Volume in cm³?",
+        "text_fr": "Cylindre : r = 10 cm, h = 5 cm, π ≈ 3,14. Volume en cm³ ?",
+        "explanation": "πr² = 3.14 × 100 = 314, then 314 × 5 = 1570.",
+        "explanation_fr": "πr² = 3,14 × 100 = 314, puis 314 × 5 = 1570.",
+        "hint_prompt": "Compute the disk area first.",
+        "hint_prompt_fr": "Calcule d'abord l'aire du disque.",
+        "config": {
+          "accepted": [
+            "1570"
+          ]
+        },
+        "hints": [
+          {
+            "text": "3.14 × 10² = 314.",
+            "text_fr": "3,14 × 10² = 314."
+          },
+          {
+            "text": "314 × 5 = 1570.",
+            "text_fr": "314 × 5 = 1570."
+          }
+        ],
+        "difficulty": 3
+      },
+      {
+        "kind": "mcq",
+        "text": "The capacity in litres of a bottle describes its…",
+        "text_fr": "La contenance en litres d'une bouteille décrit son…",
+        "explanation": "Litres measure how much space is inside: a volume.",
+        "explanation_fr": "Le litre mesure l'espace intérieur : c'est un volume.",
+        "hint_prompt": "Litres measure space inside.",
+        "hint_prompt_fr": "Le litre mesure l'espace à l'intérieur.",
+        "choices": [
+          {
+            "text": "surface area",
+            "text_fr": "aire totale",
+            "correct": false
+          },
+          {
+            "text": "volume",
+            "text_fr": "volume",
+            "correct": true
+          },
+          {
+            "text": "length",
+            "text_fr": "longueur",
+            "correct": false
+          }
+        ],
+        "hints": [
+          {
+            "text": "Space to fill, not surface to cover.",
+            "text_fr": "Un espace à remplir, pas une surface à couvrir."
+          }
+        ],
+        "difficulty": 1
+      }
+    ]
+  }
+}

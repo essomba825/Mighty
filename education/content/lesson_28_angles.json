@@ -1,0 +1,195 @@
+{
+  "lesson": 28,
+  "status": "published",
+  "lesson_fields": {
+    "title": "Angles at Points and on Lines",
+    "title_fr": "Angles autour d'un point et sur une droite",
+    "summary": "Angles on a straight line sum to 180°, vertically opposite angles are equal, angles at a point sum to 360°.",
+    "summary_fr": "Les angles sur une droite font 180°, les angles opposés par le sommet sont égaux, les angles autour d'un point font 360°.",
+    "content": "## Key rules\n\n1. Angles on a straight line: sum 180°.\n2. Vertically opposite angles: equal.\n3. Angles at a point: sum 360°.",
+    "content_fr": "Règles clés\n\n1. Angles sur une droite : somme 180°.\n2. Angles opposés par le sommet : égaux.\n3. Angles autour d'un point : somme 360°.",
+    "objectives": [
+      "Use angles on a straight line to find a missing angle",
+      "Recognise vertically opposite angles and use equality",
+      "Find missing angles at a point",
+      "Apply a mix of rules"
+    ],
+    "objectives_fr": [
+      "Utiliser les angles sur une droite pour trouver un angle manquant",
+      "Reconnaître les angles opposés par le sommet et utiliser leur égalité",
+      "Trouver des angles manquants autour d'un point",
+      "Appliquer un mélange de règles"
+    ],
+    "estimated_minutes": 25
+  },
+  "steps": [
+    {
+      "kind": "concept",
+      "title": "Angles on a straight line",
+      "title_fr": "Angles sur une droite",
+      "content": "Angles on a straight line add to 180°. If 40° is known, the other is 140°.",
+      "content_fr": "Les angles sur une droite additionnés donnent 180°. Si un angle vaut 40°, l'autre vaut 140°.",
+      "required": true,
+      "xp": 10,
+      "question": {
+        "kind": "numeric",
+        "text": "Two angles on a straight line are x° and 130°. Find x.",
+        "text_fr": "Deux angles sur une droite sont x° et 130°. Trouve x.",
+        "explanation": "x + 130 = 180 → x = 50.",
+        "explanation_fr": "x + 130 = 180 → x = 50.",
+        "hint_prompt": "Angles on straight line sum to 180.",
+        "hint_prompt_fr": "Les angles sur une droite font 180.",
+        "config": {"accepted": ["50"]},
+        "hints": [
+          {"text": "x = 180 - 130.", "text_fr": "x = 180 - 130."},
+          {"text": "x = 50.", "text_fr": "x = 50."}
+        ]
+      }
+    },
+    {
+      "kind": "concept",
+      "title": "Vertically opposite angles",
+      "title_fr": "Angles opposés par le sommet",
+      "content": "When two lines cross, vertically opposite angles are equal. Adjacent ones are supplementary.",
+      "content_fr": "Quand deux droites se croisent, les angles opposés par le sommet sont égaux. Les angles adjacents sont supplémentaires.",
+      "required": true,
+      "xp": 10,
+      "question": {
+        "kind": "numeric",
+        "text": "Two lines cross; one angle is 45°. What is its vertically opposite angle (in degrees)?",
+        "text_fr": "Deux droites se croisent ; un angle vaut 45°. Quel est l'angle opposé par le sommet (en degrés) ?",
+        "explanation": "Vertically opposite are equal: 45°.",
+        "explanation_fr": "Les angles opposés par le sommet sont égaux : 45°.",
+        "hint_prompt": "They are equal.",
+        "hint_prompt_fr": "Ils sont égaux.",
+        "config": {"accepted": ["45"]},
+        "hints": [
+          {"text": "Opposite = same size.", "text_fr": "Opposés = même mesure."},
+          {"text": "45°.", "text_fr": "45°."}
+        ]
+      }
+    },
+    {
+      "kind": "explain",
+      "title": "Angles at a point",
+      "title_fr": "Angles autour d'un point",
+      "content": "All angles around a point sum to 360°. Useful in many exam questions.",
+      "content_fr": "Tous les angles autour d'un point font 360°. Très utile aux examens.",
+      "required": true,
+      "xp": 12,
+      "question": {
+        "kind": "numeric",
+        "text": "Angles around a point: 90°, 120°, 100°, x°. Find x.",
+        "text_fr": "Angles autour d'un point : 90°, 120°, 100°, x°. Trouve x.",
+        "explanation": "90 + 120 + 100 + x = 310 + x = 360 → x = 50.",
+        "explanation_fr": "90 + 120 + 100 + x = 310 + x = 360 → x = 50.",
+        "hint_prompt": "Total 360.",
+        "hint_prompt_fr": "Total 360.",
+        "config": {"accepted": ["50"]},
+        "hints": [
+          {"text": "Add the known ones: 90 + 120 = 210; 210 + 100 = 310.", "text_fr": "Additionne : 90 + 120 = 210; 210 + 100 = 310."},
+          {"text": "360 - 310 = 50.", "text_fr": "360 - 310 = 50."}
+        ]
+      }
+    },
+    {
+      "kind": "practice",
+      "title": "Mixed case",
+      "title_fr": "Cas mélangé",
+      "content": "Apply all three rules as needed.",
+      "content_fr": "Applique les trois règles au besoin.",
+      "required": false,
+      "xp": 12
+    },
+    {
+      "kind": "summary",
+      "title": "What to keep",
+      "title_fr": "À retenir",
+      "content": "Straight line = 180°. Vertically opposite = equal. Point = 360°.",
+      "content_fr": "Droite = 180°. Opposés par le sommet = égaux. Point = 360°.",
+      "required": false,
+      "xp": 5
+    }
+  ],
+  "quiz": {
+    "title": "Angles at points and on lines",
+    "title_fr": "Angles autour d'un point et sur une droite",
+    "pass_score": 60,
+    "questions": [
+      {
+        "kind": "numeric",
+        "text": "x° and 40° are on a straight line. Find x.",
+        "text_fr": "x° et 40° sont sur une droite. Trouve x.",
+        "explanation": "x = 180 - 40 = 140.",
+        "explanation_fr": "x = 180 - 40 = 140.",
+        "hint_prompt": "Straight line sum 180.",
+        "hint_prompt_fr": "Droite = 180.",
+        "config": {"accepted": ["140"]},
+        "hints": [
+          {"text": "x = 180 - 40.", "text_fr": "x = 180 - 40."},
+          {"text": "x = 140.", "text_fr": "x = 140."}
+        ],
+        "difficulty": 1
+      },
+      {
+        "kind": "numeric",
+        "text": "Vertically opposite to 75° is y°. Find y.",
+        "text_fr": "L'angle opposé par le sommet à 75° est y°. Trouve y.",
+        "explanation": "Equal: 75°.",
+        "explanation_fr": "Égal : 75°.",
+        "hint_prompt": "Opposite angles are equal.",
+        "hint_prompt_fr": "Angles opposés par le sommet sont égaux.",
+        "config": {"accepted": ["75"]},
+        "hints": [
+          {"text": "y = 75.", "text_fr": "y = 75."}
+        ],
+        "difficulty": 1
+      },
+      {
+        "kind": "numeric",
+        "text": "Angles at point: 100°, 80°, 90°, z°. Find z.",
+        "text_fr": "Angles autour d'un point : 100°, 80°, 90°, z°. Trouve z.",
+        "explanation": "100 + 80 + 90 = 270, 360 - 270 = 90.",
+        "explanation_fr": "100 + 80 + 90 = 270, 360 - 270 = 90.",
+        "hint_prompt": "Sum to 360.",
+        "hint_prompt_fr": "Somme 360.",
+        "config": {"accepted": ["90"]},
+        "hints": [
+          {"text": "Sum known: 270.", "text_fr": "Somme connue : 270."},
+          {"text": "360 - 270 = 90.", "text_fr": "360 - 270 = 90."}
+        ],
+        "difficulty": 2
+      },
+      {
+        "kind": "numeric",
+        "text": "x° and x° and x° are on a straight line. Find x.",
+        "text_fr": "x°, x°, x° sont sur une droite. Trouve x.",
+        "explanation": "3x = 180 → x = 60.",
+        "explanation_fr": "3x = 180 → x = 60.",
+        "hint_prompt": "3x = 180.",
+        "hint_prompt_fr": "3x = 180.",
+        "config": {"accepted": ["60"]},
+        "hints": [
+          {"text": "3x = 180.", "text_fr": "3x = 180."},
+          {"text": "x = 60.", "text_fr": "x = 60."}
+        ],
+        "difficulty": 2
+      },
+      {
+        "kind": "numeric",
+        "text": "Four equal angles around a point. Find one in degrees.",
+        "text_fr": "Quatre angles égaux autour d'un point. Trouve un angle (en degrés).",
+        "explanation": "4x = 360 → x = 90.",
+        "explanation_fr": "4x = 360 → x = 90.",
+        "hint_prompt": "4x = 360.",
+        "hint_prompt_fr": "4x = 360.",
+        "config": {"accepted": ["90"]},
+        "hints": [
+          {"text": "4x = 360.", "text_fr": "4x = 360."},
+          {"text": "x = 90.", "text_fr": "x = 90."}
+        ],
+        "difficulty": 2
+      }
+    ]
+  }
+}

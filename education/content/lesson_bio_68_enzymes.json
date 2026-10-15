@@ -1,0 +1,302 @@
+{
+  "lesson": 68,
+  "status": "published",
+  "lesson_fields": {
+    "title": "Enzymes",
+    "title_fr": "Les enzymes",
+    "summary": "Biological catalysts: active site and specificity, and the factors that change the rate of an enzyme-controlled reaction.",
+    "summary_fr": "Les catalyseurs biologiques : site actif et specificite, et les facteurs qui modifient la vitesse d une reaction enzymatique.",
+    "objectives": [
+      "Explain what an enzyme is and how it works",
+      "Describe the active site and the lock-and-key model",
+      "Explain how temperature and pH affect enzyme activity"
+    ],
+    "objectives_fr": [
+      "Expliquer ce qu est une enzyme et son mode d action",
+      "Decrire le site actif et le modele cle-serrures",
+      "Expliquer l effet de la temperature et du pH sur l activite enzymatique"
+    ],
+    "estimated_minutes": 30
+  },
+  "steps": [
+    {
+      "kind": "concept",
+      "title": "Enzymes speed up reactions",
+      "title_fr": "Les enzymes accelerent les reactions",
+      "content": "An enzyme is a biological catalyst: a protein that speeds up a reaction without being used up itself. After the reaction the enzyme is free to work again on the next substrate.\n\nWithout enzymes, the chemical reactions of life would be far too slow to keep an organism alive at body temperature.",
+      "content_fr": "Une enzyme est un catalyseur biologique : une proteine qui accelere une reaction sans etre consommee. Apres la reaction, l enzyme reste disponible pour agir sur le substrat suivant.\n\nSans enzymes, les reactions chimiques de la vie seraient beaucoup trop lentes pour maintenir un organisme en vie a la temperature du corps.",
+      "required": true,
+      "xp": 10,
+      "question": {
+        "kind": "mcq",
+        "text": "What is an enzyme?",
+        "text_fr": "Qu est-ce qu une enzyme ?",
+        "explanation": "An enzyme is a protein that catalyses a reaction without being used up.",
+        "explanation_fr": "Une enzyme est une proteine qui catalyse une reaction sans etre consommee.",
+        "hint_prompt": "It makes reactions faster.",
+        "hint_prompt_fr": "Elle rend les reactions plus rapides.",
+        "choices": [
+          {"text": "A biological catalyst", "text_fr": "Un catalyseur biologique", "correct": true},
+          {"text": "A sugar", "text_fr": "Un sucre"},
+          {"text": "A lipid", "text_fr": "Un lipide"},
+          {"text": "A nucleotide", "text_fr": "Un nucleotide"}
+        ],
+        "hints": [
+          {"text": "It is not used up.", "text_fr": "Elle n est pas consommee."},
+          {"text": "It is a protein.", "text_fr": "C est une proteine."}
+        ]
+      }
+    },
+    {
+      "kind": "explain",
+      "title": "The active site and the lock-and-key model",
+      "title_fr": "Le site actif et le modele de la cle et de la serrure",
+      "content": "Every enzyme has a special pocket called the active site. The molecule it acts on, the substrate, fits into this pocket like a key into a lock. This is the lock-and-key model.\n\nOnce the substrate is bound, the reaction happens and the products are released. The enzyme keeps its shape and is ready again.",
+      "content_fr": "Chaque enzyme possede une poche speciale appelee site actif. La molecule sur laquelle elle agit, le substrat, s emboite dans cette poche comme une cle dans une serrure. C est le modele de la cle et de la serrure.\n\nUne fois le substrat fixe, la reaction se produit et les produits sont liberes. L enzyme garde sa forme et est de nouveau prete.",
+      "required": true,
+      "xp": 10,
+      "question": {
+        "kind": "mcq",
+        "text": "What is the name of the pocket where the substrate binds?",
+        "text_fr": "Comment s appelle la poche ou le substrat se fixe ?",
+        "explanation": "The substrate binds at the active site.",
+        "explanation_fr": "Le substrat se fixe au site actif.",
+        "hint_prompt": "It fits like a key.",
+        "hint_prompt_fr": "Il s emboite comme une cle.",
+        "choices": [
+          {"text": "The active site", "text_fr": "Le site actif", "correct": true},
+          {"text": "The nucleus", "text_fr": "Le noyau"},
+          {"text": "The membrane", "text_fr": "La membrane"},
+          {"text": "The product", "text_fr": "Le produit"}
+        ],
+        "hints": [
+          {"text": "It matches the substrate shape.", "text_fr": "Sa forme correspond a celle du substrat."},
+          {"text": "Key and lock.", "text_fr": "Cle et serrure."}
+        ]
+      }
+    },
+    {
+      "kind": "concept",
+      "title": "Specificity: one enzyme, one job",
+      "title_fr": "Specificite : une enzyme, une tache",
+      "content": "An enzyme usually acts on only one substrate. The shape of the active site must match the shape of the substrate, so a different substrate cannot fit.\n\nThis is why each reaction in a cell needs its own enzyme. Change the shape of the active site and the enzyme stops working.",
+      "content_fr": "Une enzyme agit generalement sur un seul substrat. La forme du site actif doit correspondre a celle du substrat, donc un autre substrat ne peut pas s y fixer.\n\nC est pourquoi chaque reaction d une cellule exige sa propre enzyme. Si la forme du site actif change, l enzyme cesse de fonctionner.",
+      "required": true,
+      "xp": 10,
+      "question": {
+        "kind": "mcq",
+        "text": "Why is an enzyme specific to one substrate?",
+        "text_fr": "Pourquoi une enzyme est-elle specifique d un seul substrat ?",
+        "explanation": "Only a substrate whose shape matches the active site can bind.",
+        "explanation_fr": "Seul un substrat dont la forme correspond au site actif peut s y fixer.",
+        "hint_prompt": "Think about shapes matching.",
+        "hint_prompt_fr": "Pense a des formes qui correspondent.",
+        "choices": [
+          {"text": "The active site shape matches one substrate", "text_fr": "La forme du site actif correspond a un seul substrat", "correct": true},
+          {"text": "It is made of sugar", "text_fr": "Elle est faite de sucre"},
+          {"text": "It has a nucleus", "text_fr": "Elle possede un noyau"},
+          {"text": "It is very large", "text_fr": "Elle est tres grande"}
+        ],
+        "hints": [
+          {"text": "Shape is the key idea.", "text_fr": "La forme est l idee cle."},
+          {"text": "A wrong shape cannot fit.", "text_fr": "Une mauvaise forme ne peut pas s emboiter."}
+        ]
+      }
+    },
+    {
+      "kind": "explain",
+      "title": "Temperature and the rate",
+      "title_fr": "La temperature et la vitesse",
+      "content": "As temperature rises, molecules move faster and collisions become more frequent, so the rate increases up to an optimum. Above the optimum the enzyme is denatured: its active site loses its shape, so the substrate no longer fits and the rate falls sharply.\n\nDenaturation is permanent, which is why a high fever is dangerous.",
+      "content_fr": "Quand la temperature augmente, les molecules bougent plus vite et les chocs deviennent plus frequents ; la vitesse augmente donc jusqu a un optimum. Au-dela de l optimum, l enzyme est denaturee : son site actif perd sa forme, le substrat ne s emboite plus et la vitesse chute fortement.\n\nLa denaturation est irreversible, c est pourquoi une forte fievre est dangereuse.",
+      "required": true,
+      "xp": 10,
+      "question": {
+        "kind": "mcq",
+        "text": "What has happened to an enzyme that has been heated well above its optimum?",
+        "text_fr": "Que s est-il passe pour une enzyme chauffee bien au-dela de son optimum ?",
+        "explanation": "It is denatured: the active site shape is destroyed.",
+        "explanation_fr": "Elle est denaturee : la forme du site actif est detruite.",
+        "hint_prompt": "The shape of the active site changes.",
+        "hint_prompt_fr": "La forme du site actif change.",
+        "choices": [
+          {"text": "It has been denatured", "text_fr": "Elle a ete denaturee", "correct": true},
+          {"text": "It has been used up", "text_fr": "Elle a ete consommee"},
+          {"text": "It has become faster", "text_fr": "Elle est devenue plus rapide"},
+          {"text": "It has become a product", "text_fr": "Elle est devenue un produit"}
+        ],
+        "hints": [
+          {"text": "The active site loses its shape.", "text_fr": "Le site actif perd sa forme."},
+          {"text": "The reaction stops.", "text_fr": "La reaction s arrete."}
+        ]
+      }
+    },
+    {
+      "kind": "example",
+      "title": "pH and the optimum",
+      "title_fr": "Le pH et l optimum",
+      "content": "Each enzyme also has an optimum pH where the active site shape is best. Most body enzymes work best around pH 7, near neutral.\n\nPepsin, an enzyme in the stomach, has an optimum near pH 2 because the stomach is acidic. Put it in the small intestine and it works poorly.",
+      "content_fr": "Chaque enzyme possede aussi un pH optimal ou la forme du site actif est la meilleure. La plupart des enzymes du corps travaillent autour de pH 7, proche du neutre.\n\nLa pepsine, une enzyme de l estomac, a un optimum proche de pH 2 car l estomac est acide. Placee dans l intestin grele, elle fonctionne mal.",
+      "required": true,
+      "xp": 10,
+      "question": {
+        "kind": "mcq",
+        "text": "At which pH does pepsin, which works in the stomach, act best?",
+        "text_fr": "A quel pH la pepsine, qui agit dans l estomac, est-elle la plus efficace ?",
+        "explanation": "Pepsin has an acidic optimum of about pH 2.",
+        "explanation_fr": "La pepsine a un optimum acide d environ pH 2.",
+        "hint_prompt": "The stomach is acidic.",
+        "hint_prompt_fr": "L estomac est acide.",
+        "choices": [
+          {"text": "About pH 2", "text_fr": "Environ pH 2", "correct": true},
+          {"text": "About pH 7", "text_fr": "Environ pH 7"},
+          {"text": "About pH 9", "text_fr": "Environ pH 9"},
+          {"text": "About pH 14", "text_fr": "Environ pH 14"}
+        ],
+        "hints": [
+          {"text": "It must match the stomach.", "text_fr": "Elle doit correspondre a l estomac."},
+          {"text": "That pH is very low.", "text_fr": "Ce pH est tres bas."}
+        ]
+      }
+    },
+    {
+      "kind": "question",
+      "title": "Check: what denaturation means",
+      "title_fr": "Verification : ce que signifie la denaturation",
+      "content": "Denaturation is a change in the shape of the protein, not in its chemical make-up at first. The active site is destroyed, so the substrate cannot bind. This is why an egg white turns solid when cooked: its proteins are denatured.",
+      "content_fr": "La denaturation est un changement de forme de la proteine, pas d abord de sa composition chimique. Le site actif est detruit, donc le substrat ne peut plus se fixer. C est pourquoi le blanc d oeuf se solidifie a la cuisson : ses proteines sont denaturees.",
+      "required": true,
+      "xp": 10,
+      "question": {
+        "kind": "mcq",
+        "text": "What is actually destroyed when an enzyme is denatured?",
+        "text_fr": "Qu est-ce qui est reellement detruit quand une enzyme est denaturee ?",
+        "explanation": "The shape of the active site is lost, so it can no longer bind the substrate.",
+        "explanation_fr": "La forme du site actif est perdue, il ne peut plus fixer le substrat.",
+        "hint_prompt": "It is about shape, not destruction of the molecule.",
+        "hint_prompt_fr": "Il s agit de forme, non de destruction de la molecule.",
+        "choices": [
+          {"text": "The shape of the active site", "text_fr": "La forme du site actif", "correct": true},
+          {"text": "The substrate", "text_fr": "Le substrat"},
+          {"text": "The products", "text_fr": "Les produits"},
+          {"text": "The water in the cell", "text_fr": "L eau de la cellule"}
+        ],
+        "hints": [
+          {"text": "The substrate no longer fits.", "text_fr": "Le substrat ne s emboite plus."},
+          {"text": "A cooked egg is a good example.", "text_fr": "Un oeuf cuit est un bon exemple."}
+        ]
+      }
+    },
+    {
+      "kind": "summary",
+      "title": "What to keep",
+      "title_fr": "A retenir",
+      "content": "Enzymes are protein catalysts that speed up reactions without being used up. The substrate binds to the active site (lock-and-key), which makes enzymes specific. Rate rises to an optimum with temperature and pH, then falls because the enzyme is denatured.",
+      "content_fr": "Les enzymes sont des proteines catalytiques qui accelerent les reactions sans etre consommees. Le substrat se fixe au site actif (cle et serrure), ce qui rend les enzymes specifiques. La vitesse augmente jusqu a un optimum avec la temperature et le pH, puis chute car l enzyme est denaturee.",
+      "required": false,
+      "xp": 5
+    }
+  ],
+  "quiz": {
+    "title": "Enzymes: final check",
+    "title_fr": "Enzymes : bilan final",
+    "pass_score": 60,
+    "questions": [
+      {
+        "kind": "mcq",
+        "text": "An enzyme is best described as which type of molecule?",
+        "text_fr": "Une enzyme est surtout decrite comme quel type de molecule ?",
+        "explanation": "Enzymes are proteins that act as catalysts.",
+        "explanation_fr": "Les enzymes sont des proteines qui agissent comme catalyseurs.",
+        "hint_prompt": "It is a protein.",
+        "hint_prompt_fr": "C est une proteine.",
+        "choices": [
+          {"text": "A protein catalyst", "text_fr": "Une proteine catalytique", "correct": true},
+          {"text": "A carbohydrate", "text_fr": "Un glucide"},
+          {"text": "A lipid", "text_fr": "Un lipide"},
+          {"text": "A nucleic acid", "text_fr": "Un acide nucleique"}
+        ],
+        "hints": [
+          {"text": "Made of amino acids.", "text_fr": "Faite d acides amines."},
+          {"text": "It speeds up reactions.", "text_fr": "Elle accelere les reactions."}
+        ],
+        "difficulty": 1
+      },
+      {
+        "kind": "mcq",
+        "text": "Where does the substrate bind on an enzyme?",
+        "text_fr": "Ou le substrat se fixe-t-il sur une enzyme ?",
+        "explanation": "The substrate binds at the active site.",
+        "explanation_fr": "Le substrat se fixe au site actif.",
+        "hint_prompt": "A special pocket.",
+        "hint_prompt_fr": "Une poche speciale.",
+        "choices": [
+          {"text": "The active site", "text_fr": "Le site actif", "correct": true},
+          {"text": "The cytoplasm", "text_fr": "Le cytoplasme"},
+          {"text": "The nucleus", "text_fr": "Le noyau"},
+          {"text": "The product", "text_fr": "Le produit"}
+        ],
+        "hints": [
+          {"text": "It matches the substrate shape.", "text_fr": "Sa forme correspond au substrat."},
+          {"text": "Key and lock.", "text_fr": "Cle et serrure."}
+        ],
+        "difficulty": 1
+      },
+      {
+        "kind": "mcq",
+        "text": "What happens to an enzyme at a temperature far above its optimum?",
+        "text_fr": "Que se passe-t-il pour une enzyme a une temperature bien au-dessus de son optimum ?",
+        "explanation": "It is denatured and the rate falls sharply.",
+        "explanation_fr": "Elle est denaturee et la vitesse chute fortement.",
+        "hint_prompt": "The active site loses its shape.",
+        "hint_prompt_fr": "Le site actif perd sa forme.",
+        "choices": [
+          {"text": "It is denatured", "text_fr": "Elle est denaturee", "correct": true},
+          {"text": "It works faster", "text_fr": "Elle travaille plus vite"},
+          {"text": "It is used up", "text_fr": "Elle est consommee"},
+          {"text": "It becomes a substrate", "text_fr": "Elle devient un substrat"}
+        ],
+        "hints": [
+          {"text": "Shape is lost.", "text_fr": "La forme est perdue."},
+          {"text": "It is permanent.", "text_fr": "C est irreversible."}
+        ],
+        "difficulty": 1
+      },
+      {
+        "kind": "mcq",
+        "text": "An enzyme that works best at pH 2 is likely found where?",
+        "text_fr": "Une enzyme qui agit le mieux a pH 2 se trouve probablement ou ?",
+        "explanation": "A low pH optimum fits an acidic place such as the stomach.",
+        "explanation_fr": "Un optimum a pH bas correspond a un milieu acide comme l estomac.",
+        "hint_prompt": "Which organ is very acidic?",
+        "hint_prompt_fr": "Quel organe est tres acide ?",
+        "choices": [
+          {"text": "The stomach", "text_fr": "L estomac", "correct": true},
+          {"text": "The blood", "text_fr": "Le sang"},
+          {"text": "The small intestine", "text_fr": "L intestin grele"},
+          {"text": "The nucleus", "text_fr": "Le noyau"}
+        ],
+        "hints": [
+          {"text": "Pepsin works there.", "text_fr": "La pepsine y agit."},
+          {"text": "It holds gastric acid.", "text_fr": "Il contient de l acide gastrique."}
+        ],
+        "difficulty": 2
+      },
+      {
+        "kind": "numeric",
+        "text": "An enzyme with a pH optimum of 7 is placed at pH 7. By how many whole pH units is it away from its optimum? Give the number.",
+        "text_fr": "Une enzyme dont l optimum de pH est 7 est placee a pH 7. De combien d unites de pH entieres est-elle eloignee de son optimum ? Donne le nombre.",
+        "explanation": "At pH 7 it is exactly at its optimum, so the distance is 0.",
+        "explanation_fr": "A pH 7 elle est exactement a son optimum, donc la distance est 0.",
+        "hint_prompt": "Compare the two values.",
+        "hint_prompt_fr": "Compare les deux valeurs.",
+        "config": {"accepted": ["0"]},
+        "hints": [
+          {"text": "They are equal.", "text_fr": "Elles sont egales."},
+          {"text": "The difference is nothing.", "text_fr": "La difference est nulle."}
+        ],
+        "difficulty": 2
+      }
+    ]
+  }
+}

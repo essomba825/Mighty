@@ -1,0 +1,216 @@
+{
+  "lesson": 35,
+  "status": "published",
+  "lesson_fields": {
+    "title": "SOH CAH TOA – Sine, Cosine and Tangent",
+    "title_fr": "Sinus, cosinus, tangente",
+    "summary": "Trigonometric ratios in right-angled triangle. Use SOH CAH TOA to find missing sides/angles.",
+    "summary_fr": "Rapports trigonométriques dans triangle rectangle. Utiliser SOH CAH TOA pour trouver côtés/angles.",
+    "content": "## SOH CAH TOA\n\nSine = Opposite/Hyp, Cosine = Adj/Hyp, Tan = Opp/Adj.",
+    "content_fr": "SOH CAH TOA\n\nSinus = Opposé/Hyp, Cosinus = Adj/Hyp, Tangente = Opp/Adj.",
+    "objectives": [
+      "Identify opposite/adjacent/hyp",
+      "Use sin/cos/tan",
+      "Find missing side",
+      "Find angle (intro)"
+    ],
+    "objectives_fr": [
+      "Identifier opposé/adjacent/hypoténuse",
+      "Utiliser sin/cos/tan",
+      "Trouver côté manquant",
+      "Trouver angle (intro)"
+    ],
+    "estimated_minutes": 25
+  },
+  "steps": [
+    {
+      "kind": "concept",
+      "title": "Parts of right-angled triangle",
+      "title_fr": "Parties du triangle rectangle",
+      "content": "Hyp = opposite right angle; opposite = across from angle; adjacent = next to angle.",
+      "content_fr": "Hyp = face à angle droit; opposé = en face de l'angle; adjacent = à côté.",
+      "required": true,
+      "xp": 10,
+      "question": {
+        "kind": "mcq",
+        "text": "Hypotenuse is opposite which angle?",
+        "text_fr": "Hypoténuse est face à quel angle ?",
+        "explanation": "Right angle (90°).",
+        "explanation_fr": "L'angle droit (90°).",
+        "hint_prompt": "It's the longest side.",
+        "hint_prompt_fr": "C'est le côté le plus long.",
+        "choices": [
+          {"text": "90°", "text_fr": "90°", "correct": true},
+          {"text": "30°", "text_fr": "30°"},
+          {"text": "60°", "text_fr": "60°"},
+          {"text": "45°", "text_fr": "45°"}
+        ],
+        "hints": [
+          {"text": "Opposite right angle.", "text_fr": "Face à angle droit."}
+        ]
+      }
+    },
+    {
+      "kind": "explain",
+      "title": "SOH CAH TOA",
+      "title_fr": "SOH CAH TOA",
+      "content": "Sin θ = O/H, Cos θ = A/H, Tan θ = O/A.",
+      "content_fr": "Sin θ = O/H, Cos θ = A/H, Tan θ = O/A.",
+      "required": true,
+      "xp": 10,
+      "question": {
+        "kind": "mcq",
+        "text": "Which ratio is Tan?",
+        "text_fr": "Quel rapport est tan ?",
+        "explanation": "Opposite/Adjacent.",
+        "explanation_fr": "Opposé/Adjacent.",
+        "hint_prompt": "TOA.",
+        "hint_prompt_fr": "TOA.",
+        "choices": [
+          {"text": "O/A", "text_fr": "O/A", "correct": true},
+          {"text": "O/H", "text_fr": "O/H"},
+          {"text": "A/H", "text_fr": "A/H"},
+          {"text": "H/O", "text_fr": "H/O"}
+        ],
+        "hints": [
+          {"text": "TOA means Tan = Opp/Adj.", "text_fr": "TOA veut dire Tan = Opp/Adj."}
+        ]
+      }
+    },
+    {
+      "kind": "explain",
+      "title": "Finding side",
+      "title_fr": "Trouver côté",
+      "content": "Opposite = Sin θ × Hyp.",
+      "content_fr": "Opposé = Sin θ × Hyp.",
+      "required": true,
+      "xp": 12,
+      "question": {
+        "kind": "numeric",
+        "text": "Angle 30°, hyp 10 cm, opposite a cm (sin 30° = 0.5). Find a.",
+        "text_fr": "Angle 30°, hyp 10 cm, opposé a cm (sin 30° = 0,5). Trouve a.",
+        "explanation": "sin 30° × 10 = 0.5 × 10 = 5.",
+        "explanation_fr": "sin 30° × 10 = 0,5 × 10 = 5.",
+        "hint_prompt": "O = sin θ × H.",
+        "hint_prompt_fr": "O = sin θ × H.",
+        "config": {"accepted": ["5"]},
+        "hints": [
+          {"text": "0.5 × 10 = 5.", "text_fr": "0,5 × 10 = 5."}
+        ]
+      }
+    },
+    {
+      "kind": "practice",
+      "title": "Cosine",
+      "title_fr": "Cosinus",
+      "content": "Adjacent = Cos θ × Hyp.",
+      "content_fr": "Adjacent = Cos θ × Hyp.",
+      "required": false,
+      "xp": 10,
+      "question": {
+        "kind": "numeric",
+        "text": "Angle 60°, hyp 10 cm, adjacent a cm (cos 60° = 0.5). Find a.",
+        "text_fr": "Angle 60°, hyp 10 cm, adjacent a cm (cos 60° = 0,5). Trouve a.",
+        "explanation": "0.5 × 10 = 5.",
+        "explanation_fr": "0,5 × 10 = 5.",
+        "hint_prompt": "A = cos θ × H.",
+        "hint_prompt_fr": "A = cos θ × H.",
+        "config": {"accepted": ["5"]},
+        "hints": [
+          {"text": "0.5 × 10 = 5.", "text_fr": "0,5 × 10 = 5."}
+        ]
+      }
+    },
+    {
+      "kind": "summary",
+      "title": "What to keep",
+      "title_fr": "À retenir",
+      "content": "SOH CAH TOA.",
+      "content_fr": "SOH CAH TOA.",
+      "required": false,
+      "xp": 5
+    }
+  ],
+  "quiz": {
+    "title": "SOH CAH TOA",
+    "title_fr": "Sinus, cosinus, tangente",
+    "pass_score": 60,
+    "questions": [
+      {
+        "kind": "mcq",
+        "text": "Sin = ?",
+        "text_fr": "Sin = ?",
+        "explanation": "O/H.",
+        "explanation_fr": "O/H.",
+        "choices": [
+          {"text": "O/H", "text_fr": "O/H", "correct": true},
+          {"text": "A/H", "text_fr": "A/H"},
+          {"text": "O/A", "text_fr": "O/A"},
+          {"text": "H/O", "text_fr": "H/O"}
+        ],
+        "hints": [
+          {"text": "Sine = Opp/Hyp.", "text_fr": "Sinus = Opp/Hyp."}
+        ],
+        "difficulty": 1
+      },
+      {
+        "kind": "mcq",
+        "text": "Cos = ?",
+        "text_fr": "Cos = ?",
+        "explanation": "A/H.",
+        "explanation_fr": "A/H.",
+        "choices": [
+          {"text": "A/H", "text_fr": "A/H", "correct": true},
+          {"text": "O/H", "text_fr": "O/H"},
+          {"text": "O/A", "text_fr": "O/A"},
+          {"text": "A/O", "text_fr": "A/O"}
+        ],
+        "hints": [
+          {"text": "Cos = Adj/Hyp.", "text_fr": "Cosinus = Adj/Hyp."}
+        ],
+        "difficulty": 1
+      },
+      {
+        "kind": "mcq",
+        "text": "Tan = ?",
+        "text_fr": "Tan = ?",
+        "explanation": "O/A.",
+        "explanation_fr": "O/A.",
+        "choices": [
+          {"text": "O/A", "text_fr": "O/A", "correct": true},
+          {"text": "O/H", "text_fr": "O/H"},
+          {"text": "A/H", "text_fr": "A/H"},
+          {"text": "A/O", "text_fr": "A/O"}
+        ],
+        "hints": [
+          {"text": "Tan = Opp/Adj.", "text_fr": "Tangente = Opp/Adj."}
+        ],
+        "difficulty": 1
+      },
+      {
+        "kind": "numeric",
+        "text": "Angle 30°, hyp 8 cm, opposite a (sin 30°=0.5). a = ?",
+        "text_fr": "Angle 30°, hyp 8 cm, opposé a (sin 30°=0,5). a = ?",
+        "explanation": "4.",
+        "explanation_fr": "4.",
+        "config": {"accepted": ["4"]},
+        "hints": [
+          {"text": "0.5 × 8 = 4.", "text_fr": "0,5 × 8 = 4."}
+        ],
+        "difficulty": 1
+      },
+      {
+        "kind": "numeric",
+        "text": "Angle 45°, hyp 10 cm, adjacent a (cos 45°≈0.707). a ≈ ? (1 decimal).",
+        "text_fr": "Angle 45°, hyp 10 cm, adjacent a (cos 45°≈0,707). a ≈ ? (1 décimale).",
+        "explanation": "7.07.",
+        "explanation_fr": "7.07.",
+        "config": {"accepted": ["7.07", "7.1"]},
+        "hints": [
+          {"text": "0.707 × 10 = 7.07.", "text_fr": "0,707 × 10 = 7,07."}
+        ],
+        "difficulty": 2
+      }
+    ]
+  }
+}

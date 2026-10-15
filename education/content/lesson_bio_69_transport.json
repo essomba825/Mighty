@@ -1,0 +1,302 @@
+{
+  "lesson": 69,
+  "status": "published",
+  "lesson_fields": {
+    "title": "Transport Across Cell Membranes",
+    "title_fr": "Le transport a travers les membranes cellulaires",
+    "summary": "Diffusion, osmosis and active transport: how substances move into and out of a cell across the partially permeable membrane.",
+    "summary_fr": "Diffusion, osmose et transport actif : comment les substances entrent et sortent de la cellule a travers la membrane partiellement permeable.",
+    "objectives": [
+      "Recall that the cell membrane is partially permeable",
+      "Explain diffusion and osmosis",
+      "Compare passive transport with active transport"
+    ],
+    "objectives_fr": [
+      "Rappeler que la membrane cellulaire est partiellement permeable",
+      "Expliquer la diffusion et l osmose",
+      "Comparer le transport passif et le transport actif"
+    ],
+    "estimated_minutes": 30
+  },
+  "steps": [
+    {
+      "kind": "concept",
+      "title": "A partially permeable barrier",
+      "title_fr": "Une barriere partiellement permeable",
+      "content": "The cell membrane surrounds the cell and controls what moves in and out. It is partially permeable, which means small molecules such as water and oxygen pass through easily, while larger molecules cannot.\n\nBecause of this barrier, substances move by three routes: diffusion, osmosis and active transport.",
+      "content_fr": "La membrane cellulaire entoure la cellule et controle les echanges. Elle est partiellement permeable : les petites molecules comme l eau et l oxygene la traversent facilement, alors que les grosses molecules ne le peuvent pas.\n\nGrace a cette barriere, les substances se deplacent par trois voies : diffusion, osmose et transport actif.",
+      "required": true,
+      "xp": 10,
+      "question": {
+        "kind": "mcq",
+        "text": "What does partially permeable mean for the cell membrane?",
+        "text_fr": "Que signifie permeable de facon partielle pour la membrane cellulaire ?",
+        "explanation": "Some substances pass through and others do not.",
+        "explanation_fr": "Certaines substances passent et d autres non.",
+        "hint_prompt": "Part of the word is permeable.",
+        "hint_prompt_fr": "Une partie du mot est permeable.",
+        "choices": [
+          {"text": "Some substances pass through and others do not", "text_fr": "Certaines substances passent et d autres non", "correct": true},
+          {"text": "Nothing can pass through it", "text_fr": "Rien ne peut la traverser"},
+          {"text": "Everything passes through freely", "text_fr": "Tout passe librement"},
+          {"text": "It lets through only large molecules", "text_fr": "Elle ne laisse passer que les grosses molecules"}
+        ],
+        "hints": [
+          {"text": "Water passes easily.", "text_fr": "L eau passe facilement."},
+          {"text": "Large molecules are held back.", "text_fr": "Les grosses molecules sont retenues."}
+        ]
+      }
+    },
+    {
+      "kind": "explain",
+      "title": "Diffusion: moving down the gradient",
+      "title_fr": "Diffusion : descendre le gradient",
+      "content": "Diffusion is the movement of particles from a region of high concentration to a region of low concentration, until the particles are evenly spread. It is passive: it needs no energy from the cell.\n\nOxygen enters a cell by diffusion because there is more oxygen outside than inside; carbon dioxide leaves the same way.",
+      "content_fr": "La diffusion est le deplacement de particules d une zone de forte concentration vers une zone de faible concentration, jusqu a une repartition uniforme. Elle est passive : elle ne consomme aucune energie de la cellule.\n\nL oxygene entre dans la cellule par diffusion car il y en a plus dehors que dedans ; le dioxyde de carbone sort de la meme facon.",
+      "required": true,
+      "xp": 10,
+      "question": {
+        "kind": "mcq",
+        "text": "In which direction do particles move during diffusion?",
+        "text_fr": "Dans quel sens les particules se deplacent-elles lors de la diffusion ?",
+        "explanation": "Particles move from high to low concentration.",
+        "explanation_fr": "Les particules vont de la concentration forte vers la faible.",
+        "hint_prompt": "They spread out.",
+        "hint_prompt_fr": "Elles se repartissent.",
+        "choices": [
+          {"text": "From high to low concentration", "text_fr": "De la concentration forte vers la faible", "correct": true},
+          {"text": "From low to high concentration", "text_fr": "De la concentration faible vers la forte"},
+          {"text": "Only upwards", "text_fr": "Toujours vers le haut"},
+          {"text": "Only from the nucleus outward", "text_fr": "Seulement du noyau vers l exterieur"}
+        ],
+        "hints": [
+          {"text": "Think of a scent spreading in a room.", "text_fr": "Pense a un parfum qui se repand dans une piece."},
+          {"text": "From crowded to empty.", "text_fr": "Du plein vers le vide."}
+        ]
+      }
+    },
+    {
+      "kind": "explain",
+      "title": "Osmosis: the diffusion of water",
+      "title_fr": "Osmose : la diffusion de l eau",
+      "content": "Osmosis is the diffusion of water across a partially permeable membrane, from a less concentrated solution to a more concentrated one. Like diffusion, it is passive.\n\nIf the fluid outside a cell is very concentrated, water leaves the cell; if it is very dilute, water enters the cell.",
+      "content_fr": "L osmose est la diffusion de l eau a travers une membrane partiellement permeable, d une solution peu concentree vers une solution concentree. Comme la diffusion, elle est passive.\n\nSi le liquide autour de la cellule est tres concentre, l eau quitte la cellule ; s il est tres dilue, l eau entre dans la cellule.",
+      "required": true,
+      "xp": 10,
+      "question": {
+        "kind": "mcq",
+        "text": "Osmosis is the diffusion of which substance?",
+        "text_fr": "L osmose est la diffusion de quelle substance ?",
+        "explanation": "Osmosis is the diffusion of water across a partially permeable membrane.",
+        "explanation_fr": "L osmose est la diffusion de l eau a travers une membrane partiellement permeable.",
+        "hint_prompt": "It is the liquid of life.",
+        "hint_prompt_fr": "C est le liquide de la vie.",
+        "choices": [
+          {"text": "Water", "text_fr": "L eau", "correct": true},
+          {"text": "Glucose", "text_fr": "Le glucose"},
+          {"text": "Protein", "text_fr": "La proteine"},
+          {"text": "Starch", "text_fr": "L amidon"}
+        ],
+        "hints": [
+          {"text": "H two O.", "text_fr": "H deux O."},
+          {"text": "It moves across the membrane.", "text_fr": "Elle traverse la membrane."}
+        ]
+      }
+    },
+    {
+      "kind": "example",
+      "title": "Turgid, flaccid and plasmolysed",
+      "title_fr": "Turgescente, flasque et plasmolisee",
+      "content": "Put a plant cell in pure water: water enters, the vacuole swells and pushes on the cell wall. The cell becomes turgid and the plant stands upright.\n\nPut the same cell in a strong salt solution: water leaves, the vacuole shrinks and the membrane pulls away from the wall. The cell is plasmolysed and the plant wilts.",
+      "content_fr": "Placons une cellule vegetale dans de l eau pure : l eau entre, la vacuole gonfle et pousse contre la paroi. La cellule devient turgescente et la plante se tient droite.\n\nPlacons la meme cellule dans une solution tres salee : l eau sort, la vacuole se contracte et la membrane se detache de la paroi. La cellule est plasmolysee et la plante fane.",
+      "required": true,
+      "xp": 10,
+      "question": {
+        "kind": "mcq",
+        "text": "What happens to a plant cell placed in pure water?",
+        "text_fr": "Que se passe-t-il pour une cellule vegetale placee dans de l eau pure ?",
+        "explanation": "Water enters by osmosis and the cell becomes turgid.",
+        "explanation_fr": "L eau entre par osmose et la cellule devient turgescente.",
+        "hint_prompt": "Water moves toward the more concentrated side.",
+        "hint_prompt_fr": "L eau va vers le milieu le plus concentre.",
+        "choices": [
+          {"text": "It becomes turgid", "text_fr": "Elle devient turgescente", "correct": true},
+          {"text": "It becomes plasmolysed", "text_fr": "Elle devient plasmolysee"},
+          {"text": "It shrinks and wilts", "text_fr": "Elle se contracte et fane"},
+          {"text": "Nothing happens", "text_fr": "Rien ne se passe"}
+        ],
+        "hints": [
+          {"text": "Pure water is dilute.", "text_fr": "L eau pure est diluee."},
+          {"text": "The cell fills with water.", "text_fr": "La cellule se remplit d eau."}
+        ]
+      }
+    },
+    {
+      "kind": "explain",
+      "title": "Active transport: against the gradient",
+      "title_fr": "Transport actif : contre le gradient",
+      "content": "Sometimes a cell must move a substance from low concentration to high concentration, the opposite of diffusion. This is active transport, and it requires energy from respiration.\n\nRoot-hair cells use active transport to absorb mineral ions from dilute soil. Carrier proteins in the membrane pump the ions in, using energy.",
+      "content_fr": "Parfois une cellule doit deplacer une substance d une faible concentration vers une forte, a l inverse de la diffusion. C est le transport actif, qui exige de l energie issue de la respiration.\n\nLes cellules a poil absorbant utilisent le transport actif pour absorber les ions mineraux d un sol dilue. Des proteines transporteuses de la membrane pompent les ions en consommant de l energie.",
+      "required": true,
+      "xp": 10,
+      "question": {
+        "kind": "mcq",
+        "text": "What does active transport require that diffusion does not?",
+        "text_fr": "De quoi le transport actif a-t-il besoin, contrairement a la diffusion ?",
+        "explanation": "Active transport needs energy from respiration.",
+        "explanation_fr": "Le transport actif a besoin d energie issue de la respiration.",
+        "hint_prompt": "It works against the gradient.",
+        "hint_prompt_fr": "Il agit contre le gradient.",
+        "choices": [
+          {"text": "Energy from respiration", "text_fr": "De l energie issue de la respiration", "correct": true},
+          {"text": "A higher concentration outside", "text_fr": "Une concentration plus forte dehors"},
+          {"text": "A nucleus", "text_fr": "Un noyau"},
+          {"text": "Light", "text_fr": "De la lumiere"}
+        ],
+        "hints": [
+          {"text": "It moves substances the wrong way.", "text_fr": "Il deplace les substances dans le sens inverse."},
+          {"text": "The energy comes from the cell.", "text_fr": "L energie vient de la cellule."}
+        ]
+      }
+    },
+    {
+      "kind": "question",
+      "title": "Check: passive or active?",
+      "title_fr": "Verification : passif ou actif ?",
+      "content": "Ask two questions. Which way does the substance move: down the gradient or against it? And does the cell spend energy?\n\nDown the gradient with no energy means diffusion or osmosis, both passive. Against the gradient with energy means active transport.",
+      "content_fr": "Pose deux questions. Dans quel sens la substance se deplace-t-elle : dans le sens du gradient ou contre lui ? Et la cellule depense-t-elle de l energie ?\n\nDans le sens du gradient sans energie, c est la diffusion ou l osmose, toutes deux passives. Contre le gradient avec de l energie, c est le transport actif.",
+      "required": true,
+      "xp": 10,
+      "question": {
+        "kind": "mcq",
+        "text": "A cell absorbs nitrate ions from a very dilute soil solution using energy. Which process is this?",
+        "text_fr": "Une cellule absorbe des ions nitrate d une solution de sol tres diluee en consommant de l energie. Quel processus est-ce ?",
+        "explanation": "Moving against the gradient with energy is active transport.",
+        "explanation_fr": "Aller contre le gradient en consommant de l energie est un transport actif.",
+        "hint_prompt": "It works against the gradient.",
+        "hint_prompt_fr": "Il agit contre le gradient.",
+        "choices": [
+          {"text": "Active transport", "text_fr": "Le transport actif", "correct": true},
+          {"text": "Diffusion", "text_fr": "La diffusion"},
+          {"text": "Osmosis", "text_fr": "L osmose"},
+          {"text": "Denaturation", "text_fr": "La denaturation"}
+        ],
+        "hints": [
+          {"text": "Energy is used.", "text_fr": "De l energie est utilisee."},
+          {"text": "The ions go from low to high.", "text_fr": "Les ions vont du faible vers le fort."}
+        ]
+      }
+    },
+    {
+      "kind": "summary",
+      "title": "What to keep",
+      "title_fr": "A retenir",
+      "content": "The membrane is partially permeable. Diffusion moves particles from high to low concentration, and osmosis is the diffusion of water; both are passive. Active transport moves substances against the gradient and needs energy from respiration.",
+      "content_fr": "La membrane est partiellement permeable. La diffusion deplace les particules du fort vers le faible, et l osmose est la diffusion de l eau ; toutes deux sont passives. Le transport actif deplace les substances contre le gradient et exige de l energie issue de la respiration.",
+      "required": false,
+      "xp": 5
+    }
+  ],
+  "quiz": {
+    "title": "Transport across membranes: final check",
+    "title_fr": "Transport membranaire : bilan final",
+    "pass_score": 60,
+    "questions": [
+      {
+        "kind": "mcq",
+        "text": "Diffusion moves particles in which direction?",
+        "text_fr": "La diffusion deplace les particules dans quel sens ?",
+        "explanation": "From high to low concentration.",
+        "explanation_fr": "De la concentration forte vers la faible.",
+        "hint_prompt": "Particles spread out.",
+        "hint_prompt_fr": "Les particules se repandent.",
+        "choices": [
+          {"text": "High to low concentration", "text_fr": "Du fort vers le faible", "correct": true},
+          {"text": "Low to high concentration", "text_fr": "Du faible vers le fort"},
+          {"text": "Only upward", "text_fr": "Seulement vers le haut"},
+          {"text": "Only into the nucleus", "text_fr": "Seulement vers le noyau"}
+        ],
+        "hints": [
+          {"text": "Passive movement.", "text_fr": "Mouvement passif."},
+          {"text": "Down the gradient.", "text_fr": "Le long du gradient."}
+        ],
+        "difficulty": 1
+      },
+      {
+        "kind": "mcq",
+        "text": "Osmosis is the diffusion of which molecule?",
+        "text_fr": "L osmose est la diffusion de quelle molecule ?",
+        "explanation": "Water moves by osmosis.",
+        "explanation_fr": "L eau se deplace par osmose.",
+        "hint_prompt": "The liquid of life.",
+        "hint_prompt_fr": "Le liquide de la vie.",
+        "choices": [
+          {"text": "Water", "text_fr": "L eau", "correct": true},
+          {"text": "Glucose", "text_fr": "Le glucose"},
+          {"text": "Protein", "text_fr": "La proteine"},
+          {"text": "Oxygen", "text_fr": "L oxygene"}
+        ],
+        "hints": [
+          {"text": "H two O.", "text_fr": "H deux O."},
+          {"text": "Across a partially permeable membrane.", "text_fr": "A travers une membrane partiellement permeable."}
+        ],
+        "difficulty": 1
+      },
+      {
+        "kind": "mcq",
+        "text": "Which process needs energy from respiration?",
+        "text_fr": "Quel processus a besoin d energie issue de la respiration ?",
+        "explanation": "Active transport requires energy.",
+        "explanation_fr": "Le transport actif exige de l energie.",
+        "hint_prompt": "It works against the gradient.",
+        "hint_prompt_fr": "Il agit contre le gradient.",
+        "choices": [
+          {"text": "Active transport", "text_fr": "Le transport actif", "correct": true},
+          {"text": "Diffusion", "text_fr": "La diffusion"},
+          {"text": "Osmosis", "text_fr": "L osmose"},
+          {"text": "Evaporation", "text_fr": "L evaporation"}
+        ],
+        "hints": [
+          {"text": "It pumps substances.", "text_fr": "Il pompe les substances."},
+          {"text": "The cell spends energy.", "text_fr": "La cellule depense de l energie."}
+        ],
+        "difficulty": 1
+      },
+      {
+        "kind": "mcq",
+        "text": "A plant cell placed in a strong salt solution becomes what?",
+        "text_fr": "Une cellule vegetale placee dans une solution tres salee devient quoi ?",
+        "explanation": "Water leaves the cell and it becomes plasmolysed.",
+        "explanation_fr": "L eau quitte la cellule et elle devient plasmolysee.",
+        "hint_prompt": "Water moves toward the more concentrated side.",
+        "hint_prompt_fr": "L eau va vers le milieu le plus concentre.",
+        "choices": [
+          {"text": "Plasmolysed", "text_fr": "Plasmolysee", "correct": true},
+          {"text": "Turgid", "text_fr": "Turgescente"},
+          {"text": "Fuller of water", "text_fr": "Plus remplie d eau"},
+          {"text": "Unchanged", "text_fr": "Inchangee"}
+        ],
+        "hints": [
+          {"text": "The salt solution is concentrated.", "text_fr": "La solution salee est concentree."},
+          {"text": "The plant wilts.", "text_fr": "La plante fane."}
+        ],
+        "difficulty": 2
+      },
+      {
+        "kind": "numeric",
+        "text": "How many of these three routes are passive: diffusion, osmosis, active transport? Give the number.",
+        "text_fr": "Combien de ces trois voies sont passives : diffusion, osmose, transport actif ? Donne le nombre.",
+        "explanation": "Two are passive: diffusion and osmosis.",
+        "explanation_fr": "Deux sont passives : la diffusion et l osmose.",
+        "hint_prompt": "Which one needs energy?",
+        "hint_prompt_fr": "Laquelle a besoin d energie ?",
+        "config": {"accepted": ["2"]},
+        "hints": [
+          {"text": "Active transport is not passive.", "text_fr": "Le transport actif n est pas passif."},
+          {"text": "Count the others.", "text_fr": "Compte les autres."}
+        ],
+        "difficulty": 2
+      }
+    ]
+  }
+}

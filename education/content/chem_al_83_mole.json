@@ -1,0 +1,300 @@
+{
+  "lesson": 83,
+  "status": "published",
+  "lesson_fields": {
+    "title": "Amounts of Substance and the Mole",
+    "title_fr": "Quantite de matiere et mole",
+    "summary": "Chemists count particles in moles. One mole holds Avogadro's number of particles, and the mass of a mole in grams is the relative formula mass of the substance.",
+    "summary_fr": "Les chimistes comptent les particules en moles. Une mole contient le nombre d'Avogadro de particules, et la masse d'une mole en grammes est la masse formulee relative de la substance.",
+    "content": "## Counting particles\n\nParticles are far too small to count one by one, so we count them in moles. One mole is 6.02 times ten to the power 23 particles.\n\n## From mass to moles\n\nThe mass of one mole in grams equals the relative formula mass. We use the formula amount equals mass divided by molar mass to move between the two.",
+    "content_fr": "## Compter les particules\n\nLes particules sont trop petites pour etre comptees une a une, donc on les compte en moles. Une mole vaut 6,02 fois dix puissance 23 particules.\n\n## De la masse aux moles\n\nLa masse d'une mole en grammes egale la masse formulee relative. On utilise la formule quantite egale masse divisee par masse molaire pour passer de l'une a l'autre.",
+    "objectives": [
+      "State what a mole measures and give the value of Avogadro's number",
+      "Use the formula to convert between mass and amount in moles",
+      "Find the relative formula mass of a compound"
+    ],
+    "objectives_fr": [
+      "Dire ce que mesure une mole et donner la valeur du nombre d'Avogadro",
+      "Utiliser la formule pour convertir entre masse et quantite en moles",
+      "Determiner la masse formulee relative d'un compose"
+    ],
+    "estimated_minutes": 25
+  },
+  "steps": [
+    {
+      "kind": "concept",
+      "title": "What a mole is",
+      "title_fr": "Ce qu'est une mole",
+      "content": "A mole is simply a fixed count, just as a dozen is twelve. One mole contains 6.02 times ten to the power 23 particles.\n\nThis number is called Avogadro's number. It lets us talk about atoms and molecules with ordinary arithmetic.",
+      "content_fr": "Une mole est simplement un compte fixe, comme une douzaine vaut douze. Une mole contient 6,02 fois dix puissance 23 particules.\n\nCe nombre s'appelle le nombre d'Avogadro. Il permet de parler des atomes et des molecules avec de l'arithmetique ordinaire.",
+      "required": true,
+      "xp": 10,
+      "question": {
+        "kind": "mcq",
+        "text": "How many particles are in one mole?",
+        "text_fr": "Combien de particules contient une mole ?",
+        "explanation": "One mole holds 6.02 times ten to the power 23 particles.",
+        "explanation_fr": "Une mole contient 6,02 fois dix puissance 23 particules.",
+        "hint_prompt": "It is Avogadro's number.",
+        "hint_prompt_fr": "C'est le nombre d'Avogadro.",
+        "choices": [
+          {
+            "text": "6.02 times ten to the power 23",
+            "text_fr": "6,02 fois dix puissance 23",
+            "correct": true
+          },
+          {
+            "text": "6.02 million",
+            "text_fr": "6,02 millions",
+            "correct": false
+          },
+          {
+            "text": "12",
+            "text_fr": "12",
+            "correct": false
+          }
+        ],
+        "hints": [
+          {
+            "text": "It is a very large count, written with a power of ten.",
+            "text_fr": "C'est un compte enorme, ecrit avec une puissance de dix."
+          }
+        ]
+      }
+    },
+    {
+      "kind": "explain",
+      "title": "Molar mass",
+      "title_fr": "La masse molaire",
+      "content": "The mass of one mole in grams equals the relative formula mass. For a compound we add the relative atomic masses of all its atoms.\n\nWater, H2O, has a molar mass of 18 grams per mole, since hydrogen is 1 and oxygen is 16 and there are two hydrogens.",
+      "content_fr": "La masse d'une mole en grammes egale la masse formulee relative. Pour un compose on additionne les masses atomiques relatives de tous ses atomes.\n\nL'eau, H2O, a une masse molaire de 18 grammes par mole, car l'hydrogene vaut 1 et l'oxygene vaut 16 et il y a deux hydrogenes.",
+      "required": true,
+      "xp": 10
+    },
+    {
+      "kind": "example",
+      "title": "Worked example: moles in 44 g of carbon dioxide",
+      "title_fr": "Exemple resolu : moles dans 44 g de dioxyde de carbone",
+      "content": "Carbon dioxide is CO2. Its molar mass is 12 plus 16 plus 16, which is 44 grams per mole.\n\nAmount equals mass divided by molar mass, so 44 divided by 44 gives 1 mole.",
+      "content_fr": "Le dioxyde de carbone est CO2. Sa masse molaire vaut 12 plus 16 plus 16, soit 44 grammes par mole.\n\nLa quantite egale la masse divisee par la masse molaire, donc 44 divise par 44 donne 1 mole.",
+      "required": true,
+      "xp": 12
+    },
+    {
+      "kind": "practice",
+      "title": "Your turn: moles in 20 g of calcium carbonate",
+      "title_fr": "A toi : moles dans 20 g de carbonate de calcium",
+      "content": "Calcium carbonate is CaCO3 and its molar mass is 100 grams per mole. Work out the amount in moles for 20 grams.",
+      "content_fr": "Le carbonate de calcium est CaCO3 et sa masse molaire vaut 100 grammes par mole. Calcule la quantite en moles pour 20 grammes.",
+      "required": true,
+      "xp": 12,
+      "question": {
+        "kind": "numeric",
+        "text": "How many moles are in 20 g of calcium carbonate?",
+        "text_fr": "Combien de moles y a-t-il dans 20 g de carbonate de calcium ?",
+        "explanation": "20 divided by 100 gives 0.2 moles.",
+        "explanation_fr": "20 divise par 100 donne 0,2 mole.",
+        "hint_prompt": "Divide the mass by the molar mass.",
+        "hint_prompt_fr": "Divise la masse par la masse molaire.",
+        "config": {
+          "accepted": [
+            "0.2",
+            "0,2"
+          ]
+        },
+        "hints": [
+          {
+            "text": "20 divided by 100.",
+            "text_fr": "20 divise par 100."
+          }
+        ]
+      }
+    },
+    {
+      "kind": "question",
+      "title": "Check: why the mole helps",
+      "title_fr": "Verification : pourquoi la mole aide",
+      "content": "Because one mole always holds the same count, we can compare amounts of different substances fairly. Equal moles of two gases hold equal numbers of particles.",
+      "content_fr": "Comme une mole contient toujours le meme compte, on peut comparer equitablement les quantites de substances differentes. Des moles egales de deux gaz contiennent le meme nombre de particules.",
+      "required": true,
+      "xp": 12,
+      "question": {
+        "kind": "mcq",
+        "text": "Two gases have the same amount in moles. What is equal?",
+        "text_fr": "Deux gaz ont la meme quantite en moles. Qu'est-ce qui est egal ?",
+        "explanation": "Equal amounts in moles mean equal numbers of particles.",
+        "explanation_fr": "Des quantites egales en moles signifient le meme nombre de particules.",
+        "hint_prompt": "One mole is one fixed count.",
+        "hint_prompt_fr": "Une mole est un compte fixe.",
+        "choices": [
+          {
+            "text": "The number of particles",
+            "text_fr": "Le nombre de particules",
+            "correct": true
+          },
+          {
+            "text": "The mass",
+            "text_fr": "La masse",
+            "correct": false
+          },
+          {
+            "text": "The volume at all temperatures",
+            "text_fr": "Le volume a toutes les temperatures",
+            "correct": false
+          }
+        ],
+        "hints": [
+          {
+            "text": "Moles count particles, not grams.",
+            "text_fr": "Les moles comptent les particules, pas les grammes."
+          }
+        ]
+      }
+    },
+    {
+      "kind": "summary",
+      "title": "What to keep",
+      "title_fr": "A retenir",
+      "content": "A mole is 6.02 times ten to the power 23 particles. The molar mass in grams equals the relative formula mass. Amount in moles equals mass divided by molar mass.",
+      "content_fr": "Une mole vaut 6,02 fois dix puissance 23 particules. La masse molaire en grammes egale la masse formulee relative. La quantite en moles egale la masse divisee par la masse molaire.",
+      "required": false,
+      "xp": 5
+    }
+  ],
+  "quiz": {
+    "title": "Amounts of Substance and the Mole",
+    "title_fr": "Quantite de matiere et mole",
+    "pass_score": 60,
+    "questions": [
+      {
+        "kind": "numeric",
+        "text": "What is the molar mass of O2, in grams per mole?",
+        "text_fr": "Quelle est la masse molaire de O2, en grammes par mole ?",
+        "explanation": "Each oxygen is 16, so O2 is 16 plus 16, which is 32.",
+        "explanation_fr": "Chaque oxygene vaut 16, donc O2 vaut 16 plus 16, soit 32.",
+        "hint_prompt": "There are two oxygen atoms.",
+        "hint_prompt_fr": "Il y a deux atomes d'oxygene.",
+        "config": {
+          "accepted": [
+            "32"
+          ]
+        },
+        "hints": [
+          {
+            "text": "16 plus 16.",
+            "text_fr": "16 plus 16."
+          }
+        ],
+        "difficulty": 1
+      },
+      {
+        "kind": "numeric",
+        "text": "How many moles are in 36 g of water, with a molar mass of 18?",
+        "text_fr": "Combien de moles y a-t-il dans 36 g d'eau, de masse molaire 18 ?",
+        "explanation": "36 divided by 18 gives 2 moles.",
+        "explanation_fr": "36 divise par 18 donne 2 moles.",
+        "hint_prompt": "Divide the mass by the molar mass.",
+        "hint_prompt_fr": "Divise la masse par la masse molaire.",
+        "config": {
+          "accepted": [
+            "2"
+          ]
+        },
+        "hints": [
+          {
+            "text": "36 divided by 18.",
+            "text_fr": "36 divise par 18."
+          }
+        ],
+        "difficulty": 1
+      },
+      {
+        "kind": "mcq",
+        "text": "Which value is Avogadro's number?",
+        "text_fr": "Quelle valeur est le nombre d'Avogadro ?",
+        "explanation": "Avogadro's number is 6.02 times ten to the power 23.",
+        "explanation_fr": "Le nombre d'Avogadro vaut 6,02 fois dix puissance 23.",
+        "hint_prompt": "It uses a power of ten.",
+        "hint_prompt_fr": "Il utilise une puissance de dix.",
+        "choices": [
+          {
+            "text": "6.02 times ten to the power 23",
+            "text_fr": "6,02 fois dix puissance 23",
+            "correct": true
+          },
+          {
+            "text": "6.02 times ten to the power 2",
+            "text_fr": "6,02 fois dix puissance 2",
+            "correct": false
+          },
+          {
+            "text": "1000",
+            "text_fr": "1000",
+            "correct": false
+          }
+        ],
+        "hints": [
+          {
+            "text": "The power is very large.",
+            "text_fr": "La puissance est tres grande."
+          }
+        ],
+        "difficulty": 1
+      },
+      {
+        "kind": "mcq",
+        "text": "What does the molar mass tell you?",
+        "text_fr": "Que donne la masse molaire ?",
+        "explanation": "It gives the mass of one mole in grams.",
+        "explanation_fr": "Elle donne la masse d'une mole en grammes.",
+        "hint_prompt": "It links grams to moles.",
+        "hint_prompt_fr": "Elle relie les grammes aux moles.",
+        "choices": [
+          {
+            "text": "The mass of one mole in grams",
+            "text_fr": "La masse d'une mole en grammes",
+            "correct": true
+          },
+          {
+            "text": "The number of particles",
+            "text_fr": "Le nombre de particules",
+            "correct": false
+          },
+          {
+            "text": "The temperature",
+            "text_fr": "La temperature",
+            "correct": false
+          }
+        ],
+        "hints": [
+          {
+            "text": "It is measured in grams per mole.",
+            "text_fr": "Elle se mesure en grammes par mole."
+          }
+        ],
+        "difficulty": 1
+      },
+      {
+        "kind": "numeric",
+        "text": "How many moles are in 4 g of helium, of molar mass 4?",
+        "text_fr": "Combien de moles y a-t-il dans 4 g d'helium, de masse molaire 4 ?",
+        "explanation": "4 divided by 4 gives 1 mole.",
+        "explanation_fr": "4 divise par 4 donne 1 mole.",
+        "hint_prompt": "Divide the mass by the molar mass.",
+        "hint_prompt_fr": "Divise la masse par la masse molaire.",
+        "config": {
+          "accepted": [
+            "1"
+          ]
+        },
+        "hints": [
+          {
+            "text": "4 divided by 4.",
+            "text_fr": "4 divise par 4."
+          }
+        ],
+        "difficulty": 1
+      }
+    ]
+  }
+}

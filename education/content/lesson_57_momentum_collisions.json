@@ -1,0 +1,184 @@
+{
+  "lesson": 57,
+  "status": "published",
+  "lesson_fields": {
+    "title": "Momentum and Collisions",
+    "title_fr": "Quantité de mouvement et collisions",
+    "summary": "Momentum p = mv, conservation of momentum in collisions (isolated system).",
+    "summary_fr": "Quantité de mouvement p = mv, conservation de la quantité de mouvement lors des collisions (système isolé).",
+    "content": "## Basics\n\nMomentum p = mass × velocity (kg·m/s). In an isolated system, total momentum before = after.",
+    "content_fr": "Bases\n\nQuantité de mouvement p = masse × vitesse (kg·m/s). Dans un système isolé, quantité de mouvement totale avant = après.",
+    "objectives": [
+      "Define momentum",
+      "Use p = mv",
+      "Apply conservation in collisions",
+      "Solve simple problems"
+    ],
+    "objectives_fr": [
+      "Définir quantité de mouvement",
+      "Utiliser p = mv",
+      "Appliquer conservation",
+      "Résoudre problèmes simples"
+    ],
+    "estimated_minutes": 25
+  },
+  "steps": [
+    {
+      "kind": "concept",
+      "title": "Definition",
+      "title_fr": "Définition",
+      "content": "Momentum is a vector quantity: p = mv. Units kg·m/s.",
+      "content_fr": "Grandeur vectorielle : p = mv. Unité kg·m/s.",
+      "required": true,
+      "xp": 10,
+      "question": {
+        "kind": "numeric",
+        "text": "Mass 2 kg, velocity 3 m/s. Momentum kg·m/s.",
+        "text_fr": "Masse 2 kg, vitesse 3 m/s. Quantité de mouvement kg·m/s.",
+        "explanation": "6 kg·m/s.",
+        "explanation_fr": "6 kg·m/s.",
+        "hint_prompt": "p = mv.",
+        "hint_prompt_fr": "p = mv.",
+        "config": {"accepted": ["6"]},
+        "hints": [
+          {"text": "2 × 3 = 6.", "text_fr": "2 × 3 = 6."}
+        ]
+      }
+    },
+    {
+      "kind": "explain",
+      "title": "Conservation",
+      "title_fr": "Conservation",
+      "content": "Total momentum before collision = total momentum after, no external forces.",
+      "content_fr": "Quantité de mouvement totale avant = après, sans forces extérieures.",
+      "required": true,
+      "xp": 10,
+      "question": {
+        "kind": "mcq",
+        "text": "In an isolated system, total momentum is...",
+        "text_fr": "Dans un système isolé, la quantité de mouvement totale est...",
+        "explanation": "Conserved.",
+        "explanation_fr": "Conservée.",
+        "hint_prompt": "No external forces.",
+        "hint_prompt_fr": "Pas de forces extérieures.",
+        "choices": [
+          {"text": "Conserved", "text_fr": "Conservée", "correct": true},
+          {"text": "Lost", "text_fr": "Perdue"},
+          {"text": "Gained", "text_fr": "Gagnée"},
+          {"text": "Doubled", "text_fr": "Doublée"}
+        ],
+        "hints": [
+          {"text": "Conserved.", "text_fr": "Conservée."}
+        ]
+      }
+    },
+    {
+      "kind": "explain",
+      "title": "Simple collision",
+      "title_fr": "Collision simple",
+      "content": "Two objects join: m1u1 + m2u2 = (m1+m2)v.",
+      "content_fr": "Deux objets se rejoignent : m1u1 + m2u2 = (m1+m2)v.",
+      "required": true,
+      "xp": 12,
+      "question": {
+        "kind": "numeric",
+        "text": "m1=1 kg u1=4 m/s, m2=1 kg u2=0. After stick together, v m/s = ?",
+        "text_fr": "m1=1 kg u1=4 m/s, m2=1 kg u2=0. Collés, v m/s = ?",
+        "explanation": "(4 + 0)/2 = 2 m/s.",
+        "explanation_fr": "(4 + 0)/2 = 2 m/s.",
+        "hint_prompt": "Total momentum / total mass.",
+        "hint_prompt_fr": "Quantité totale / masse totale.",
+        "config": {"accepted": ["2"]},
+        "hints": [
+          {"text": "4 = (2)v, v=2.", "text_fr": "4 = (2)v, v=2."}
+        ]
+      }
+    },
+    {
+      "kind": "summary",
+      "title": "What to keep",
+      "title_fr": "À retenir",
+      "content": "p = mv. Total momentum conserved if isolated.",
+      "content_fr": "p = mv. Quantité de mouvement totale conservée si isolé.",
+      "required": false,
+      "xp": 5
+    }
+  ],
+  "quiz": {
+    "title": "Momentum",
+    "title_fr": "Quantité de mouvement",
+    "pass_score": 60,
+    "questions": [
+      {
+        "kind": "numeric",
+        "text": "m=3 kg, v=2 m/s, p = ?",
+        "text_fr": "m=3 kg, v=2 m/s, p = ?",
+        "explanation": "6.",
+        "explanation_fr": "6.",
+        "config": {"accepted": ["6"]},
+        "hints": [
+          {"text": "3×2=6.", "text_fr": "3×2=6."}
+        ],
+        "difficulty": 1
+      },
+      {
+        "kind": "mcq",
+        "text": "Units of momentum are...",
+        "text_fr": "Unité de quantité de mouvement...",
+        "explanation": "kg·m/s.",
+        "explanation_fr": "kg·m/s.",
+        "choices": [
+          {"text": "kg·m/s", "text_fr": "kg·m/s", "correct": true},
+          {"text": "N", "text_fr": "N"},
+          {"text": "J", "text_fr": "J"},
+          {"text": "m/s", "text_fr": "m/s"}
+        ],
+        "hints": [
+          {"text": "p = mv → kg·m/s.", "text_fr": "p = mv → kg·m/s."}
+        ],
+        "difficulty": 1
+      },
+      {
+        "kind": "numeric",
+        "text": "m1=2, u1=3, m2=1, u2=0, stick together, v = ?",
+        "text_fr": "m1=2, u1=3, m2=1, u2=0, collés, v = ?",
+        "explanation": "(6)/(3)=2.",
+        "explanation_fr": "(6)/(3)=2.",
+        "config": {"accepted": ["2"]},
+        "hints": [
+          {"text": "6 = 3v, v=2.", "text_fr": "6 = 3v, v=2."}
+        ],
+        "difficulty": 2
+      },
+      {
+        "kind": "mcq",
+        "text": "In elastic collision (ideal) and no external forces, momentum is...",
+        "text_fr": "Dans collision sans forces extérieures, quantité de mouvement est...",
+        "explanation": "Conserved.",
+        "explanation_fr": "Conservée.",
+        "choices": [
+          {"text": "Conserved", "text_fr": "Conservée", "correct": true},
+          {"text": "Created", "text_fr": "Créée"},
+          {"text": "Destroyed", "text_fr": "Détruite"},
+          {"text": "Halved", "text_fr": "Divisée par 2"}
+        ],
+        "hints": [
+          {"text": "Principle of conservation.", "text_fr": "Principe de conservation."}
+        ],
+        "difficulty": 1
+      },
+      {
+        "kind": "numeric",
+        "text": "m=5 kg, v=1 m/s, p = ?",
+        "text_fr": "m=5 kg, v=1 m/s, p = ?",
+        "explanation": "5.",
+        "explanation_fr": "5.",
+        "config": {"accepted": ["5"]},
+        "hints": [
+          {"text": "5×1=5.", "text_fr": "5×1=5."}
+        ],
+        "difficulty": 1
+      }
+    ]
+  }
+}

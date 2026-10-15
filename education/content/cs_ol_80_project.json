@@ -1,0 +1,361 @@
+{
+  "lesson": 80,
+  "status": "published",
+  "lesson_fields": {
+    "title": "Mini-Project: Grade Calculator",
+    "title_fr": "Mini-projet : calculateur de notes",
+    "summary": "We now build a small program that reads several marks, computes the average, and uses conditions to print a grade. It combines variables, loops, lists and if statements.",
+    "summary_fr": "Nous construisons maintenant un petit programme qui lit plusieurs notes, calcule la moyenne et utilise des conditions pour afficher une appreciation. Il combine variables, boucles, listes et instructions conditionnelles.",
+    "content": "## Project goal\n\nRead the marks, find the average, then print the grade A, B or F.\n\n## Plan\n\n1. Store the marks in a list\n2. Add them with a loop\n3. Divide by the number of marks\n4. Choose the grade with if and elif",
+    "content_fr": "## Objectif du projet\n\nLire les notes, calculer la moyenne, puis afficher l'appreciation A, B ou F.\n\n## Plan\n\n1. Ranger les notes dans une liste\n2. Les additionner avec une boucle\n3. Diviser par le nombre de notes\n4. Choisir l'appreciation avec if et elif",
+    "objectives": [
+      "Combine a list, a loop and a condition in one program",
+      "Write a function that returns the average of a list",
+      "Turn an average into a grade with if, elif and else"
+    ],
+    "objectives_fr": [
+      "Combiner une liste, une boucle et une condition dans un seul programme",
+      "Ecrire une fonction qui renvoie la moyenne d'une liste",
+      "Transformer une moyenne en appreciation avec if, elif et else"
+    ],
+    "estimated_minutes": 30
+  },
+  "steps": [
+    {
+      "kind": "concept",
+      "title": "From a plan to a program",
+      "title_fr": "Du plan au programme",
+      "content": "A small project starts with a plain plan, then each line of the plan becomes code.\n\nOur three jobs are: collect the marks, compute the average, and choose a grade. We build the parts step by step and test each one.",
+      "content_fr": "Un petit projet commence par un plan simple, puis chaque ligne du plan devient du code.\n\nNos trois taches sont : rassembler les notes, calculer la moyenne et choisir une appreciation. On construit les parties une a une et on teste chacune.",
+      "required": true,
+      "xp": 10,
+      "question": {
+        "kind": "mcq",
+        "text": "Which three jobs does the plan describe?",
+        "text_fr": "Quelles trois taches le plan decrit-il ?",
+        "explanation": "Collect the marks, compute the average, then choose the grade.",
+        "explanation_fr": "Rassembler les notes, calculer la moyenne, puis choisir l'appreciation.",
+        "hint_prompt": "Read the plan again, it has three lines of work.",
+        "hint_prompt_fr": "Relis le plan, il comporte trois lignes de travail.",
+        "choices": [
+          {
+            "text": "Collect, compute, then choose",
+            "text_fr": "Rassembler, calculer, puis choisir",
+            "correct": true
+          },
+          {
+            "text": "Print, delete, then save",
+            "text_fr": "Afficher, supprimer, puis enregistrer",
+            "correct": false
+          },
+          {
+            "text": "Open, close, then restart",
+            "text_fr": "Ouvrir, fermer, puis redemarrer",
+            "correct": false
+          }
+        ],
+        "hints": [
+          {
+            "text": "Marks, average, grade.",
+            "text_fr": "Notes, moyenne, appreciation."
+          }
+        ]
+      }
+    },
+    {
+      "kind": "explain",
+      "title": "A function for the average",
+      "title_fr": "Une fonction pour la moyenne",
+      "content": "We wrap the average in a function so we can test it on its own.\n\n```python\ndef average(values):\n    total = 0\n    for v in values:\n        total = total + v\n    return total / len(values)\n```\n\nThe function adds every value, then divides by the count.",
+      "content_fr": "On enferme le calcul de la moyenne dans une fonction pour pouvoir la tester seule.\n\n```python\ndef average(values):\n    total = 0\n    for v in values:\n        total = total + v\n    return total / len(values)\n```\n\nLa fonction additionne chaque valeur, puis divise par le nombre d'elements.",
+      "required": true,
+      "xp": 10,
+      "question": {
+        "kind": "numeric",
+        "text": "What does `average([10, 20, 30])` return?",
+        "text_fr": "Que renvoie `average([10, 20, 30])` ?",
+        "explanation": "The total is 60 and there are three values, so 60 / 3 = 20.0.",
+        "explanation_fr": "Le total vaut 60 et il y a trois valeurs, donc 60 / 3 = 20.0.",
+        "hint_prompt": "Add the values, then divide by three.",
+        "hint_prompt_fr": "Additionne les valeurs, puis divise par trois.",
+        "config": {
+          "accepted": [
+            "20",
+            "20.0"
+          ]
+        },
+        "hints": [
+          {
+            "text": "10 + 20 + 30 = 60.",
+            "text_fr": "10 + 20 + 30 = 60."
+          },
+          {
+            "text": "60 / 3 = 20.",
+            "text_fr": "60 / 3 = 20."
+          }
+        ]
+      }
+    },
+    {
+      "kind": "example",
+      "title": "Worked example: choosing the grade",
+      "title_fr": "Exemple resolu : choisir l'appreciation",
+      "content": "```python\ndef grade(value):\n    if value >= 70:\n        return \"A\"\n    elif value >= 50:\n        return \"B\"\n    else:\n        return \"F\"\n\nprint(grade(average([12, 15, 9])))\n```\n\nThe average is 12.0, which is below 50, so the function returns F.",
+      "content_fr": "```python\ndef grade(value):\n    if value >= 70:\n        return \"A\"\n    elif value >= 50:\n        return \"B\"\n    else:\n        return \"F\"\n\nprint(grade(average([12, 15, 9])))\n```\n\nLa moyenne vaut 12.0, donc inferieure a 50, la fonction renvoie F.",
+      "required": true,
+      "xp": 12
+    },
+    {
+      "kind": "practice",
+      "title": "Your turn: put it together",
+      "title_fr": "A toi : assemble le tout",
+      "content": "The two functions are ready: average() computes the mean, grade() turns a value into a letter.\n\n```python\nmarks = [64, 72, 55]\nprint(grade(average(marks)))\n```",
+      "content_fr": "Les deux fonctions sont pretes : average() calcule la moyenne, grade() transforme une valeur en lettre.\n\n```python\nmarks = [64, 72, 55]\nprint(grade(average(marks)))\n```",
+      "required": true,
+      "xp": 12,
+      "question": {
+        "kind": "mcq",
+        "text": "The average is about 63.7. Which grade is printed?",
+        "text_fr": "La moyenne vaut environ 63,7. Quelle appreciation est affichee ?",
+        "explanation": "63.7 is 50 or more but below 70, so the grade is B.",
+        "explanation_fr": "63,7 est superieur ou egal a 50 mais inferieur a 70, l'appreciation est donc B.",
+        "hint_prompt": "Compare 63.7 with 50 and with 70.",
+        "hint_prompt_fr": "Compare 63,7 avec 50 et avec 70.",
+        "choices": [
+          {
+            "text": "B",
+            "text_fr": "B",
+            "correct": true
+          },
+          {
+            "text": "A",
+            "text_fr": "A",
+            "correct": false
+          },
+          {
+            "text": "F",
+            "text_fr": "F",
+            "correct": false
+          }
+        ],
+        "hints": [
+          {
+            "text": "It reaches 50 but not 70.",
+            "text_fr": "Elle atteint 50 mais pas 70."
+          }
+        ]
+      }
+    },
+    {
+      "kind": "question",
+      "title": "Check: testing your program",
+      "title_fr": "Verification : tester son programme",
+      "content": "Before trusting a program, we test it with values whose answer we already know. If average([0, 0, 0]) does not print 0.0, something is wrong.",
+      "content_fr": "Avant de faire confiance a un programme, on le teste avec des valeurs dont on connait deja le resultat. Si average([0, 0, 0]) n'affiche pas 0.0, c'est qu'il y a une erreur.",
+      "required": true,
+      "xp": 12,
+      "question": {
+        "kind": "mcq",
+        "text": "Why do we test a program with known values?",
+        "text_fr": "Pourquoi teste-t-on un programme avec des valeurs connues ?",
+        "explanation": "When we know the expected answer, we can tell whether the program is correct.",
+        "explanation_fr": "Quand on connait le resultat attendu, on peut verifier si le programme est correct.",
+        "hint_prompt": "How do you know the program is right?",
+        "hint_prompt_fr": "Comment savoir si le programme est correct ?",
+        "choices": [
+          {
+            "text": "To check the program gives the right answer",
+            "text_fr": "Pour verifier que le programme donne la bonne reponse",
+            "correct": true
+          },
+          {
+            "text": "To make the code longer",
+            "text_fr": "Pour rendre le code plus long",
+            "correct": false
+          },
+          {
+            "text": "To slow down the computer",
+            "text_fr": "Pour ralentir l'ordinateur",
+            "correct": false
+          }
+        ],
+        "hints": [
+          {
+            "text": "Known values give a known answer.",
+            "text_fr": "Des valeurs connues donnent un resultat connu."
+          }
+        ]
+      }
+    },
+    {
+      "kind": "summary",
+      "title": "What to keep",
+      "title_fr": "A retenir",
+      "content": "A project is built in small parts and tested as we go. Here a list holds the marks, a loop computes the average, and if, elif and else choose the grade.",
+      "content_fr": "Un projet se construit par petites parties et se teste au fur et a mesure. Ici une liste contient les notes, une boucle calcule la moyenne, et if, elif et else choisissent l'appreciation.",
+      "required": false,
+      "xp": 5
+    }
+  ],
+  "quiz": {
+    "title": "Mini-Project: Grade Calculator",
+    "title_fr": "Mini-projet : calculateur de notes",
+    "pass_score": 60,
+    "questions": [
+      {
+        "kind": "numeric",
+        "text": "What does `average([5, 10, 15])` return?",
+        "text_fr": "Que renvoie `average([5, 10, 15])` ?",
+        "explanation": "The total is 30 and there are three values, so 30 / 3 = 10.0.",
+        "explanation_fr": "Le total vaut 30 et il y a trois valeurs, donc 30 / 3 = 10.0.",
+        "hint_prompt": "Add the values, then divide by three.",
+        "hint_prompt_fr": "Additionne les valeurs, puis divise par trois.",
+        "config": {
+          "accepted": [
+            "10",
+            "10.0"
+          ]
+        },
+        "hints": [
+          {
+            "text": "5 + 10 + 15 = 30.",
+            "text_fr": "5 + 10 + 15 = 30."
+          }
+        ],
+        "difficulty": 1
+      },
+      {
+        "kind": "mcq",
+        "text": "An average of 70 gives which grade?",
+        "text_fr": "Une moyenne de 70 donne quelle appreciation ?",
+        "explanation": "The first test is value >= 70, and 70 passes it, so the grade is A.",
+        "explanation_fr": "Le premier test est value >= 70, et 70 le passe, l'appreciation est donc A.",
+        "hint_prompt": "Does the test >= accept equality?",
+        "hint_prompt_fr": "Le test >= accepte-t-il l'egalite ?",
+        "choices": [
+          {
+            "text": "A",
+            "text_fr": "A",
+            "correct": true
+          },
+          {
+            "text": "B",
+            "text_fr": "B",
+            "correct": false
+          },
+          {
+            "text": "F",
+            "text_fr": "F",
+            "correct": false
+          }
+        ],
+        "hints": [
+          {
+            "text": "70 is the boundary for A.",
+            "text_fr": "70 est la limite pour A."
+          }
+        ],
+        "difficulty": 1
+      },
+      {
+        "kind": "mcq",
+        "text": "Which structure chooses the grade from the average?",
+        "text_fr": "Quelle structure choisit l'appreciation a partir de la moyenne ?",
+        "explanation": "The if, elif and else branches choose the grade.",
+        "explanation_fr": "Les branches if, elif et else choisissent l'appreciation.",
+        "hint_prompt": "It is the branching statement.",
+        "hint_prompt_fr": "C'est l'instruction de branchement.",
+        "choices": [
+          {
+            "text": "if, elif and else",
+            "text_fr": "if, elif et else",
+            "correct": true
+          },
+          {
+            "text": "A single print",
+            "text_fr": "Un simple print",
+            "correct": false
+          },
+          {
+            "text": "A comment",
+            "text_fr": "Un commentaire",
+            "correct": false
+          }
+        ],
+        "hints": [
+          {
+            "text": "It compares the value with 70 and 50.",
+            "text_fr": "Elle compare la valeur avec 70 et 50."
+          }
+        ],
+        "difficulty": 1
+      },
+      {
+        "kind": "mcq",
+        "text": "An average of 40 gives which grade?",
+        "text_fr": "Une moyenne de 40 donne quelle appreciation ?",
+        "explanation": "40 is below 50, so it falls to the else branch and gives F.",
+        "explanation_fr": "40 est inferieur a 50, la branche else s'applique et donne F.",
+        "hint_prompt": "Check both tests before the else.",
+        "hint_prompt_fr": "Verifie les deux tests avant le else.",
+        "choices": [
+          {
+            "text": "F",
+            "text_fr": "F",
+            "correct": true
+          },
+          {
+            "text": "B",
+            "text_fr": "B",
+            "correct": false
+          },
+          {
+            "text": "A",
+            "text_fr": "A",
+            "correct": false
+          }
+        ],
+        "hints": [
+          {
+            "text": "Is 40 at least 50?",
+            "text_fr": "40 atteint-il 50 ?"
+          }
+        ],
+        "difficulty": 1
+      },
+      {
+        "kind": "mcq",
+        "text": "Why do we put the average in a function?",
+        "text_fr": "Pourquoi placer la moyenne dans une fonction ?",
+        "explanation": "A function can be tested on its own and reused easily.",
+        "explanation_fr": "Une fonction peut etre testee seule et reutilisee facilement.",
+        "hint_prompt": "Think about testing a small piece.",
+        "hint_prompt_fr": "Pense au test d'un petit morceau.",
+        "choices": [
+          {
+            "text": "It can be tested alone and reused",
+            "text_fr": "Elle peut etre testee seule et reutilisee",
+            "correct": true
+          },
+          {
+            "text": "It makes the program run faster",
+            "text_fr": "Elle rend le programme plus rapide",
+            "correct": false
+          },
+          {
+            "text": "It hides the code from the teacher",
+            "text_fr": "Elle cache le code au professeur",
+            "correct": false
+          }
+        ],
+        "hints": [
+          {
+            "text": "Small parts are easier to check.",
+            "text_fr": "Les petites parties sont plus faciles a verifier."
+          }
+        ],
+        "difficulty": 2
+      }
+    ]
+  }
+}

@@ -1,0 +1,381 @@
+{
+  "lesson": 76,
+  "status": "published",
+  "lesson_fields": {
+    "title": "If / Elif / Else",
+    "title_fr": "Si / Sinon si / Sinon",
+    "summary": "A condition decides which block of code runs. if tests a case, elif tests another one, else catches everything remaining, and indentation marks the block.",
+    "summary_fr": "Une condition choisit le bloc de code execute. if teste un cas, elif en teste un autre, else attrape tout le reste, et l'indentation marque le bloc.",
+    "content": "## Choose a branch\n\n```python\nif mark >= 70:\n    print(\"A\")\nelif mark >= 50:\n    print(\"B\")\nelse:\n    print(\"F\")\n```\n\nOnly the first branch whose condition is True runs.",
+    "content_fr": "## Choisir une branche\n\n```python\nif mark >= 70:\n    print(\"A\")\nelif mark >= 50:\n    print(\"B\")\nelse:\n    print(\"F\")\n```\n\nSeule la premiere branche dont la condition vaut True s'execute.",
+    "objectives": [
+      "Write a condition with if",
+      "Add an elif branch",
+      "Use else as the default branch",
+      "Read a condition and predict which branch runs"
+    ],
+    "objectives_fr": [
+      "Ecrire une condition avec if",
+      "Ajouter une branche elif",
+      "Utiliser else comme branche par defaut",
+      "Lire une condition et prevoir la branche executee"
+    ],
+    "estimated_minutes": 25
+  },
+  "steps": [
+    {
+      "kind": "concept",
+      "title": "Making a decision",
+      "title_fr": "Prendre une decision",
+      "content": "An **if** statement runs a block only when its condition is True.\n\n```python\nif age >= 18:\n    print(\"Adult\")\n```\n\nThe indented line belongs to the block. When the condition is False, Python skips it.",
+      "content_fr": "Une instruction **if** execute un bloc seulement si sa condition vaut True.\n\n```python\nif age >= 18:\n    print(\"Adult\")\n```\n\nLa ligne indentee appartient au bloc. Quand la condition vaut False, Python la saute.",
+      "required": true,
+      "xp": 10,
+      "question": {
+        "kind": "mcq",
+        "text": "When does the block inside an if run?",
+        "text_fr": "Quand le bloc place dans un if s'execute-t-il ?",
+        "explanation": "The block runs only when the condition is True.",
+        "explanation_fr": "Le bloc s'execute seulement si la condition vaut True.",
+        "hint_prompt": "What value must the condition have?",
+        "hint_prompt_fr": "Quelle valeur doit avoir la condition ?",
+        "choices": [
+          {
+            "text": "Only when the condition is True",
+            "text_fr": "Seulement quand la condition vaut True",
+            "correct": true
+          },
+          {
+            "text": "Always, whatever the condition",
+            "text_fr": "Toujours, quelle que soit la condition",
+            "correct": false
+          },
+          {
+            "text": "Only when the condition is False",
+            "text_fr": "Seulement quand la condition vaut False",
+            "correct": false
+          }
+        ],
+        "hints": [
+          {
+            "text": "The condition acts like a gate.",
+            "text_fr": "La condition agit comme un portail."
+          }
+        ]
+      }
+    },
+    {
+      "kind": "explain",
+      "title": "Elif and else",
+      "title_fr": "elif et else",
+      "content": "Use **elif** to test another condition when the first one is False, and **else** to catch every remaining case.\n\nOnly one branch runs: the first one whose condition is True. The else branch has no condition at all.",
+      "content_fr": "On utilise **elif** pour tester une autre condition quand la premiere vaut False, et **else** pour attraper tous les cas restants.\n\nUne seule branche s'execute : la premiere dont la condition vaut True. La branche else n'a aucune condition.",
+      "required": true,
+      "xp": 10,
+      "question": {
+        "kind": "mcq",
+        "text": "The if condition is False and an elif condition is True. What happens?",
+        "text_fr": "La condition du if vaut False et celle d'un elif vaut True. Que se passe-t-il ?",
+        "explanation": "Python skips the if and runs the first branch whose condition is True.",
+        "explanation_fr": "Python saute le if et execute la premiere branche dont la condition vaut True.",
+        "hint_prompt": "Which branch is tested second?",
+        "hint_prompt_fr": "Quelle branche est testee en second ?",
+        "choices": [
+          {
+            "text": "The elif block runs",
+            "text_fr": "Le bloc elif s'execute",
+            "correct": true
+          },
+          {
+            "text": "Both blocks run",
+            "text_fr": "Les deux blocs s'executent",
+            "correct": false
+          },
+          {
+            "text": "Nothing runs",
+            "text_fr": "Rien ne s'execute",
+            "correct": false
+          }
+        ],
+        "hints": [
+          {
+            "text": "Only the first True branch wins.",
+            "text_fr": "Seule la premiere branche vraie est retenue."
+          }
+        ]
+      }
+    },
+    {
+      "kind": "example",
+      "title": "Worked example: from marks to a grade",
+      "title_fr": "Exemple resolu : des notes a une appreciation",
+      "content": "A mark of 70 and above gives A, 50 to 69 gives B, and below 50 gives F.\n\n```python\nif mark >= 70:\n    grade = \"A\"\nelif mark >= 50:\n    grade = \"B\"\nelse:\n    grade = \"F\"\n```\n\nWith mark = 55 the first test fails, the second succeeds and grade becomes B.",
+      "content_fr": "Une note de 70 et plus donne A, de 50 a 69 donne B, et moins de 50 donne F.\n\n```python\nif mark >= 70:\n    grade = \"A\"\nelif mark >= 50:\n    grade = \"B\"\nelse:\n    grade = \"F\"\n```\n\nAvec mark = 55 le premier test echoue, le deuxieme reussit et grade vaut B.",
+      "required": true,
+      "xp": 12
+    },
+    {
+      "kind": "practice",
+      "title": "Your turn: read the grade",
+      "title_fr": "A toi : lis l'appreciation",
+      "content": "The same three-branch test is used, with a mark of 40.",
+      "content_fr": "On reprend le meme test a trois branches, avec une note de 40.",
+      "required": true,
+      "xp": 12,
+      "question": {
+        "kind": "mcq",
+        "text": "With mark = 40, which grade is stored?",
+        "text_fr": "Avec mark = 40, quelle appreciation est stockee ?",
+        "explanation": "40 is not 70 or more, and not 50 or more, so the else branch gives F.",
+        "explanation_fr": "40 n'atteint ni 70 ni 50, la branche else donne donc F.",
+        "hint_prompt": "Check both tests before the else.",
+        "hint_prompt_fr": "Verifie les deux tests avant le else.",
+        "choices": [
+          {
+            "text": "F",
+            "text_fr": "F",
+            "correct": true
+          },
+          {
+            "text": "B",
+            "text_fr": "B",
+            "correct": false
+          },
+          {
+            "text": "A",
+            "text_fr": "A",
+            "correct": false
+          }
+        ],
+        "hints": [
+          {
+            "text": "Is 40 greater than or equal to 50?",
+            "text_fr": "40 est-il superieur ou egal a 50 ?"
+          }
+        ]
+      }
+    },
+    {
+      "kind": "question",
+      "title": "Check: indentation matters",
+      "title_fr": "Verification : l'indentation compte",
+      "content": "The indentation shows which lines belong to a branch. If the spacing is wrong, Python reports an error and stops.",
+      "content_fr": "L'indentation montre quelles lignes appartiennent a une branche. Si les espaces sont mauvais, Python signale une erreur et s'arrete.",
+      "required": true,
+      "xp": 12,
+      "question": {
+        "kind": "mcq",
+        "text": "What happens if the indentation of a block is wrong?",
+        "text_fr": "Que se passe-t-il si l'indentation d'un bloc est incorrecte ?",
+        "explanation": "Wrong indentation makes the program invalid, so Python stops with an error.",
+        "explanation_fr": "Une mauvaise indentation rend le programme invalide, Python s'arrete donc avec une erreur.",
+        "hint_prompt": "Can Python read a block without clear spacing?",
+        "hint_prompt_fr": "Python peut-il lire un bloc sans espacement clair ?",
+        "choices": [
+          {
+            "text": "Python reports an error",
+            "text_fr": "Python signale une erreur",
+            "correct": true
+          },
+          {
+            "text": "It works anyway",
+            "text_fr": "Cela fonctionne quand meme",
+            "correct": false
+          },
+          {
+            "text": "The program prints twice",
+            "text_fr": "Le programme affiche deux fois",
+            "correct": false
+          }
+        ],
+        "hints": [
+          {
+            "text": "Indentation is part of the syntax.",
+            "text_fr": "L'indentation fait partie de la syntaxe."
+          }
+        ]
+      }
+    },
+    {
+      "kind": "summary",
+      "title": "What to keep",
+      "title_fr": "A retenir",
+      "content": "An if block runs when its condition is True. elif tests another case, else catches the rest, and only the first True branch runs. Indentation defines the block.",
+      "content_fr": "Un bloc if s'execute quand sa condition vaut True. elif teste un autre cas, else attrape le reste, et seule la premiere branche vraie s'execute. L'indentation definit le bloc.",
+      "required": false,
+      "xp": 5
+    }
+  ],
+  "quiz": {
+    "title": "If / Elif / Else",
+    "title_fr": "Si / Sinon si / Sinon",
+    "pass_score": 60,
+    "questions": [
+      {
+        "kind": "mcq",
+        "text": "Which keyword tests another condition after an if?",
+        "text_fr": "Quel mot-cle teste une autre condition apres un if ?",
+        "explanation": "elif tests a second condition after the first one fails.",
+        "explanation_fr": "elif teste une seconde condition apres l'echec de la premiere.",
+        "hint_prompt": "It is a short form of else if.",
+        "hint_prompt_fr": "C'est une forme courte de sinon si.",
+        "choices": [
+          {
+            "text": "elif",
+            "text_fr": "elif",
+            "correct": true
+          },
+          {
+            "text": "then",
+            "text_fr": "then",
+            "correct": false
+          },
+          {
+            "text": "repeat",
+            "text_fr": "repeat",
+            "correct": false
+          }
+        ],
+        "hints": [
+          {
+            "text": "It starts with the letters el.",
+            "text_fr": "Il commence par les lettres el."
+          }
+        ],
+        "difficulty": 1
+      },
+      {
+        "kind": "mcq",
+        "text": "With x = 7, what does `if x > 10: print(\"big\") else: print(\"small\")` display?",
+        "text_fr": "Avec x = 7, qu'affiche `if x > 10: print(\"big\") else: print(\"small\")` ?",
+        "explanation": "7 is not greater than 10, so the else branch prints small.",
+        "explanation_fr": "7 n'est pas superieur a 10, la branche else affiche donc small.",
+        "hint_prompt": "Test the condition with x = 7.",
+        "hint_prompt_fr": "Teste la condition avec x = 7.",
+        "choices": [
+          {
+            "text": "small",
+            "text_fr": "small",
+            "correct": true
+          },
+          {
+            "text": "big",
+            "text_fr": "big",
+            "correct": false
+          },
+          {
+            "text": "Nothing",
+            "text_fr": "Rien",
+            "correct": false
+          }
+        ],
+        "hints": [
+          {
+            "text": "7 > 10 is False.",
+            "text_fr": "7 > 10 vaut False."
+          }
+        ],
+        "difficulty": 2
+      },
+      {
+        "kind": "mcq",
+        "text": "When several branches are True, which one runs?",
+        "text_fr": "Quand plusieurs branches sont vraies, laquelle s'execute ?",
+        "explanation": "Python runs only the first branch whose condition is True and skips the others.",
+        "explanation_fr": "Python execute seulement la premiere branche vraie et ignore les autres.",
+        "hint_prompt": "Python reads the branches from the top.",
+        "hint_prompt_fr": "Python lit les branches du haut vers le bas.",
+        "choices": [
+          {
+            "text": "The first one whose condition is True",
+            "text_fr": "La premiere dont la condition vaut True",
+            "correct": true
+          },
+          {
+            "text": "All the True branches",
+            "text_fr": "Toutes les branches vraies",
+            "correct": false
+          },
+          {
+            "text": "The last one",
+            "text_fr": "La derniere",
+            "correct": false
+          }
+        ],
+        "hints": [
+          {
+            "text": "Only one branch is kept.",
+            "text_fr": "Une seule branche est retenue."
+          }
+        ],
+        "difficulty": 2
+      },
+      {
+        "kind": "mcq",
+        "text": "What is the role of indentation in a branch?",
+        "text_fr": "Quel est le role de l'indentation dans une branche ?",
+        "explanation": "Indentation shows which lines belong to the block.",
+        "explanation_fr": "L'indentation montre quelles lignes appartiennent au bloc.",
+        "hint_prompt": "Which lines are inside the block?",
+        "hint_prompt_fr": "Quelles lignes sont a l'interieur du bloc ?",
+        "choices": [
+          {
+            "text": "It shows which lines belong to the block",
+            "text_fr": "Elle montre quelles lignes appartiennent au bloc",
+            "correct": true
+          },
+          {
+            "text": "It changes the colour of the text",
+            "text_fr": "Elle change la couleur du texte",
+            "correct": false
+          },
+          {
+            "text": "It has no effect",
+            "text_fr": "Elle n'a aucun effet",
+            "correct": false
+          }
+        ],
+        "hints": [
+          {
+            "text": "The spaced lines form the block.",
+            "text_fr": "Les lignes decalees forment le bloc."
+          }
+        ],
+        "difficulty": 1
+      },
+      {
+        "kind": "mcq",
+        "text": "A mark of exactly 50 is tested with `mark >= 50`. Which grade follows from the lesson?",
+        "text_fr": "Une note de 50 est testee par `mark >= 50`. Quelle appreciation en decoule dans la lecon ?",
+        "explanation": "The sign >= includes equality, so 50 passes and the grade is B.",
+        "explanation_fr": "Le signe >= inclut l'egalite, 50 est donc accepte et la note vaut B.",
+        "hint_prompt": "Does >= accept equality?",
+        "hint_prompt_fr": "Le signe >= accepte-t-il l'egalite ?",
+        "choices": [
+          {
+            "text": "B",
+            "text_fr": "B",
+            "correct": true
+          },
+          {
+            "text": "F",
+            "text_fr": "F",
+            "correct": false
+          },
+          {
+            "text": "A",
+            "text_fr": "A",
+            "correct": false
+          }
+        ],
+        "hints": [
+          {
+            "text": "The sign >= means greater than or equal.",
+            "text_fr": "Le signe >= signifie superieur ou egal."
+          }
+        ],
+        "difficulty": 2
+      }
+    ]
+  }
+}

@@ -1,0 +1,184 @@
+{
+  "lesson": 58,
+  "status": "published",
+  "lesson_fields": {
+    "title": "Density and Pressure",
+    "title_fr": "Masse volumique et pression",
+    "summary": "Density ρ = m/V (kg/m³). Pressure P = F/A (Pa). Applications: floating, hydraulic systems.",
+    "summary_fr": "Masse volumique ρ = m/V (kg/m³). Pression P = F/A (Pa). Applications : flottabilité, systèmes hydrauliques.",
+    "content": "## Basics\n\nDensity ρ = mass / volume (kg/m³). Pressure P = force / area (N/m² = Pa).",
+    "content_fr": "Bases\n\nMasse volumique ρ = masse / volume (kg/m³). Pression P = force / surface (N/m² = Pa).",
+    "objectives": [
+      "Use ρ = m/V",
+      "Use P = F/A",
+      "Explain floating via density",
+      "Relate pressure to area"
+    ],
+    "objectives_fr": [
+      "Utiliser ρ = m/V",
+      "Utiliser P = F/A",
+      "Expliquer flottabilité",
+      "Relier pression et surface"
+    ],
+    "estimated_minutes": 25
+  },
+  "steps": [
+    {
+      "kind": "concept",
+      "title": "Density",
+      "title_fr": "Masse volumique",
+      "content": "ρ = m / V. Units kg/m³ or g/cm³.",
+      "content_fr": "ρ = m / V. Unités kg/m³ ou g/cm³.",
+      "required": true,
+      "xp": 10,
+      "question": {
+        "kind": "numeric",
+        "text": "Mass 6 kg, volume 2 m³. Density kg/m³ = ?",
+        "text_fr": "Masse 6 kg, volume 2 m³. Masse volumique kg/m³ = ?",
+        "explanation": "6/2 = 3.",
+        "explanation_fr": "6/2 = 3.",
+        "hint_prompt": "ρ = m/V.",
+        "hint_prompt_fr": "ρ = m/V.",
+        "config": {"accepted": ["3"]},
+        "hints": [
+          {"text": "6 / 2 = 3.", "text_fr": "6 / 2 = 3."}
+        ]
+      }
+    },
+    {
+      "kind": "explain",
+      "title": "Pressure",
+      "title_fr": "Pression",
+      "content": "P = F / A. Unit pascal (Pa) = N/m².",
+      "content_fr": "P = F / A. Unité pascal (Pa) = N/m².",
+      "required": true,
+      "xp": 10,
+      "question": {
+        "kind": "numeric",
+        "text": "Force 100 N on area 2 m². Pressure Pa = ?",
+        "text_fr": "Force 100 N sur surface 2 m². Pression Pa = ?",
+        "explanation": "100/2 = 50 Pa.",
+        "explanation_fr": "100/2 = 50 Pa.",
+        "hint_prompt": "P = F/A.",
+        "hint_prompt_fr": "P = F/A.",
+        "config": {"accepted": ["50"]},
+        "hints": [
+          {"text": "100 / 2 = 50.", "text_fr": "100 / 2 = 50."}
+        ]
+      }
+    },
+    {
+      "kind": "explain",
+      "title": "Floating",
+      "title_fr": "Flottabilité",
+      "content": "An object floats if its density < density of the fluid.",
+      "content_fr": "Un objet flotte si sa densité < densité du fluide.",
+      "required": true,
+      "xp": 10,
+      "question": {
+        "kind": "mcq",
+        "text": "Wood (ρ≈600 kg/m³) placed in water (ρ=1000 kg/m³) will...",
+        "text_fr": "Bois (ρ≈600 kg/m³) dans l'eau (ρ=1000 kg/m³) va...",
+        "explanation": "Float, since 600 < 1000.",
+        "explanation_fr": "Flotter, car 600 < 1000.",
+        "hint_prompt": "Compare densities.",
+        "hint_prompt_fr": "Comparer densités.",
+        "choices": [
+          {"text": "Float", "text_fr": "Flotter", "correct": true},
+          {"text": "Sink", "text_fr": "Couler"},
+          {"text": "Stay suspended", "text_fr": "Rester suspendu"},
+          {"text": "Dissolve", "text_fr": "Se dissoudre"}
+        ],
+        "hints": [
+          {"text": "Lower density floats.", "text_fr": "Densité plus faible flotte."}
+        ]
+      }
+    },
+    {
+      "kind": "summary",
+      "title": "What to keep",
+      "title_fr": "À retenir",
+      "content": "ρ = m/V. P = F/A. Smaller area, higher pressure.",
+      "content_fr": "ρ = m/V. P = F/A. Plus petite surface, plus grande pression.",
+      "required": false,
+      "xp": 5
+    }
+  ],
+  "quiz": {
+    "title": "Density and pressure",
+    "title_fr": "Masse volumique et pression",
+    "pass_score": 60,
+    "questions": [
+      {
+        "kind": "numeric",
+        "text": "m=10 kg, V=5 m³, ρ = ?",
+        "text_fr": "m=10 kg, V=5 m³, ρ = ?",
+        "explanation": "2.",
+        "explanation_fr": "2.",
+        "config": {"accepted": ["2"]},
+        "hints": [
+          {"text": "10/5=2.", "text_fr": "10/5=2."}
+        ],
+        "difficulty": 1
+      },
+      {
+        "kind": "numeric",
+        "text": "F=200 N, A=4 m², P = ? Pa.",
+        "text_fr": "F=200 N, A=4 m², P = ? Pa.",
+        "explanation": "50.",
+        "explanation_fr": "50.",
+        "config": {"accepted": ["50"]},
+        "hints": [
+          {"text": "200/4=50.", "text_fr": "200/4=50."}
+        ],
+        "difficulty": 1
+      },
+      {
+        "kind": "mcq",
+        "text": "Unit of pressure is...",
+        "text_fr": "Unité de pression...",
+        "explanation": "Pascal.",
+        "explanation_fr": "Pascal.",
+        "choices": [
+          {"text": "Pascal", "text_fr": "Pascal", "correct": true},
+          {"text": "Newton", "text_fr": "Newton"},
+          {"text": "Joule", "text_fr": "Joule"},
+          {"text": "kg/m³", "text_fr": "kg/m³"}
+        ],
+        "hints": [
+          {"text": "Pa = N/m².", "text_fr": "Pa = N/m²."}
+        ],
+        "difficulty": 1
+      },
+      {
+        "kind": "numeric",
+        "text": "Object ρ=1200 kg/m³ in water (1000). Density difference = ?",
+        "text_fr": "Objet ρ=1200 kg/m³ dans eau (1000). Différence = ?",
+        "explanation": "200.",
+        "explanation_fr": "200.",
+        "config": {"accepted": ["200"]},
+        "hints": [
+          {"text": "1200 - 1000 = 200.", "text_fr": "1200 - 1000 = 200."}
+        ],
+        "difficulty": 1
+      },
+      {
+        "kind": "mcq",
+        "text": "For same force, pressure increases when area...",
+        "text_fr": "À force égale, la pression augmente quand la surface...",
+        "explanation": "Decreases.",
+        "explanation_fr": "Diminue.",
+        "choices": [
+          {"text": "Decreases", "text_fr": "Diminue", "correct": true},
+          {"text": "Increases", "text_fr": "Augmente"},
+          {"text": "Stays same", "text_fr": "Reste identique"},
+          {"text": "Is zero", "text_fr": "Est nulle"}
+        ],
+        "hints": [
+          {"text": "P = F/A: smaller A, bigger P.", "text_fr": "P = F/A : petite A, grande P."}
+        ],
+        "difficulty": 1
+      }
+    ]
+  }
+}

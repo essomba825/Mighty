@@ -22,6 +22,8 @@ secrets*.json
 # Logs & temp text files
 *.log
 *.txt
+_*.py
+_*.txt
 media/
 !media/
 

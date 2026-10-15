@@ -1,0 +1,319 @@
+{
+  "lesson": 79,
+  "status": "published",
+  "lesson_fields": {
+    "title": "Lists, Tuples and Dictionaries",
+    "title_fr": "Listes, tuples et dictionnaires",
+    "summary": "A list holds several values in order, a tuple is a collection we cannot change, and a dictionary stores values under named keys.",
+    "summary_fr": "Une liste contient plusieurs valeurs dans l'ordre, un tuple est une collection que l'on ne peut pas modifier, et un dictionnaire stocke des valeurs sous des cles nommees.",
+    "content": "## Three containers\n\n- `[12, 15, 9]` a list\n- `(3, 5)` a tuple\n- `{\"Ama\": 16}` a dictionary",
+    "content_fr": "## Trois conteneurs\n\n- `[12, 15, 9]` une liste\n- `(3, 5)` un tuple\n- `{\"Ama\": 16}` un dictionnaire",
+    "objectives": [
+      "Create and read a list",
+      "Tell a list from a tuple",
+      "Read a value from a dictionary by its key"
+    ],
+    "objectives_fr": [
+      "Creer et lire une liste",
+      "Distinguer une liste d'un tuple",
+      "Lire une valeur d'un dictionnaire par sa cle"
+    ],
+    "estimated_minutes": 25
+  },
+  "steps": [
+    {
+      "kind": "concept",
+      "title": "Lists hold many values",
+      "title_fr": "Les listes contiennent plusieurs valeurs",
+      "content": "A **list** holds several values in order, written between square brackets. The first value has index 0.\n\n```python\nmarks = [12, 15, 9]\nprint(marks[0])\n```\n\nmarks[0] is 12, marks[2] is 9, and len(marks) is 3.",
+      "content_fr": "Une **liste** contient plusieurs valeurs dans l'ordre, ecrites entre crochets. La premiere valeur a l'indice 0.\n\n```python\nmarks = [12, 15, 9]\nprint(marks[0])\n```\n\nmarks[0] vaut 12, marks[2] vaut 9, et len(marks) vaut 3.",
+      "required": true,
+      "xp": 10,
+      "question": {
+        "kind": "numeric",
+        "text": "With `marks = [12, 15, 9]`, what is `marks[1]`?",
+        "text_fr": "Avec `marks = [12, 15, 9]`, que vaut `marks[1]` ?",
+        "explanation": "Counting starts at 0, so index 1 is the second value, 15.",
+        "explanation_fr": "Le comptage part de 0, l'indice 1 correspond donc a la deuxieme valeur, 15.",
+        "hint_prompt": "The first value is at index 0.",
+        "hint_prompt_fr": "La premiere valeur est a l'indice 0.",
+        "config": {
+          "accepted": [
+            "15"
+          ]
+        },
+        "hints": [
+          {
+            "text": "Index 0 is 12, so index 1 is the next one.",
+            "text_fr": "L'indice 0 vaut 12, l'indice 1 est donc la suivante."
+          }
+        ]
+      }
+    },
+    {
+      "kind": "explain",
+      "title": "Tuples and dictionaries",
+      "title_fr": "Tuples et dictionnaires",
+      "content": "A **tuple** is like a list but it cannot be changed; it uses round brackets. A **dictionary** stores values under named **keys**.\n\n```python\npoint = (3, 5)\nage = {\"Ama\": 16, \"Bob\": 17}\nprint(age[\"Ama\"])\n```\n\nage[\"Ama\"] is 16, found by the key \"Ama\".",
+      "content_fr": "Un **tuple** ressemble a une liste mais ne peut pas etre modifie ; il utilise des parentheses. Un **dictionnaire** stocke des valeurs sous des **cles** nommees.\n\n```python\npoint = (3, 5)\nage = {\"Ama\": 16, \"Bob\": 17}\nprint(age[\"Ama\"])\n```\n\nage[\"Ama\"] vaut 16, trouve par la cle \"Ama\".",
+      "required": true,
+      "xp": 10,
+      "question": {
+        "kind": "mcq",
+        "text": "How do we read the value stored under a key in a dictionary?",
+        "text_fr": "Comment lire la valeur stockee sous une cle dans un dictionnaire ?",
+        "explanation": "We use the key in square brackets, for instance d[\"x\"].",
+        "explanation_fr": "On utilise la cle entre crochets, par exemple d[\"x\"].",
+        "hint_prompt": "Which name identifies the value?",
+        "hint_prompt_fr": "Quel nom identifie la valeur ?",
+        "choices": [
+          {
+            "text": "With the key in square brackets",
+            "text_fr": "Avec la cle entre crochets",
+            "correct": true
+          },
+          {
+            "text": "With the fixed index 0",
+            "text_fr": "Avec l'indice fixe 0",
+            "correct": false
+          },
+          {
+            "text": "It is not possible",
+            "text_fr": "Ce n'est pas possible",
+            "correct": false
+          }
+        ],
+        "hints": [
+          {
+            "text": "A dictionary is read by name, not by position.",
+            "text_fr": "Un dictionnaire se lit par nom, pas par position."
+          }
+        ]
+      }
+    },
+    {
+      "kind": "example",
+      "title": "Worked example: the average of a list",
+      "title_fr": "Exemple resolu : la moyenne d'une liste",
+      "content": "```python\nmarks = [12, 15, 9]\ntotal = 0\nfor m in marks:\n    total = total + m\nprint(total / len(marks))\n```\n\nThe loop adds every mark, so total is 36. Since len(marks) is 3, the screen shows 12.0.",
+      "content_fr": "```python\nmarks = [12, 15, 9]\ntotal = 0\nfor m in marks:\n    total = total + m\nprint(total / len(marks))\n```\n\nLa boucle additionne chaque note, total vaut donc 36. Comme len(marks) vaut 3, l'ecran affiche 12.0.",
+      "required": true,
+      "xp": 12
+    },
+    {
+      "kind": "practice",
+      "title": "Your turn: count the items",
+      "title_fr": "A toi : compte les elements",
+      "content": "The function len() gives the number of values stored in a list.",
+      "content_fr": "La fonction len() donne le nombre de valeurs stockees dans une liste.",
+      "required": true,
+      "xp": 12,
+      "question": {
+        "kind": "numeric",
+        "text": "What is `len([4, 8, 15, 16])`?",
+        "text_fr": "Que vaut `len([4, 8, 15, 16])` ?",
+        "explanation": "The list holds four values, so len gives 4.",
+        "explanation_fr": "La liste contient quatre valeurs, len donne donc 4.",
+        "hint_prompt": "Count the values in the brackets.",
+        "hint_prompt_fr": "Compte les valeurs entre crochets.",
+        "config": {
+          "accepted": [
+            "4"
+          ]
+        },
+        "hints": [
+          {
+            "text": "There are four numbers.",
+            "text_fr": "Il y a quatre nombres."
+          }
+        ]
+      }
+    },
+    {
+      "kind": "question",
+      "title": "Check: out of range",
+      "title_fr": "Verification : indice hors limites",
+      "content": "A list of three values has indices 0, 1 and 2. Asking for index 3 is out of range and Python reports an error.",
+      "content_fr": "Une liste de trois valeurs possede les indices 0, 1 et 2. Demander l'indice 3 sort des limites et Python signale une erreur.",
+      "required": true,
+      "xp": 12,
+      "question": {
+        "kind": "mcq",
+        "text": "What happens for `marks[3]` on a list of three values?",
+        "text_fr": "Que se passe-t-il pour `marks[3]` sur une liste de trois valeurs ?",
+        "explanation": "The highest valid index is 2, so index 3 is out of range and Python stops with an error.",
+        "explanation_fr": "L'indice valide le plus grand est 2, l'indice 3 sort donc des limites et Python s'arrete avec une erreur.",
+        "hint_prompt": "Which indices exist for three values?",
+        "hint_prompt_fr": "Quels indices existent pour trois valeurs ?",
+        "choices": [
+          {
+            "text": "An error, the index is out of range",
+            "text_fr": "Une erreur, l'indice sort des limites",
+            "correct": true
+          },
+          {
+            "text": "It gives the last value",
+            "text_fr": "Cela donne la derniere valeur",
+            "correct": false
+          },
+          {
+            "text": "It gives the number 0",
+            "text_fr": "Cela donne le nombre 0",
+            "correct": false
+          }
+        ],
+        "hints": [
+          {
+            "text": "Only index values 0, 1 and 2 exist.",
+            "text_fr": "Les indices sont seulement 0, 1 et 2."
+          }
+        ]
+      }
+    },
+    {
+      "kind": "summary",
+      "title": "What to keep",
+      "title_fr": "A retenir",
+      "content": "A list is ordered and starts at index 0. A tuple cannot be changed. A dictionary stores values under named keys and is read by key.",
+      "content_fr": "Une liste est ordonnee et commence a l'indice 0. Un tuple ne peut pas etre modifie. Un dictionnaire stocke des valeurs sous des cles nommees et se lit par cle.",
+      "required": false,
+      "xp": 5
+    }
+  ],
+  "quiz": {
+    "title": "Lists, Tuples and Dictionaries",
+    "title_fr": "Listes, tuples et dictionnaires",
+    "pass_score": 60,
+    "questions": [
+      {
+        "kind": "numeric",
+        "text": "With `lst = [10, 20, 30]`, what is `lst[0]`?",
+        "text_fr": "Avec `lst = [10, 20, 30]`, que vaut `lst[0]` ?",
+        "explanation": "The first value is at index 0, so it is 10.",
+        "explanation_fr": "La premiere valeur est a l'indice 0, c'est donc 10.",
+        "hint_prompt": "Which value comes first?",
+        "hint_prompt_fr": "Quelle valeur vient en premier ?",
+        "config": {
+          "accepted": [
+            "10"
+          ]
+        },
+        "hints": [
+          {
+            "text": "Index 0 is the first item.",
+            "text_fr": "L'indice 0 est le premier element."
+          }
+        ],
+        "difficulty": 1
+      },
+      {
+        "kind": "mcq",
+        "text": "Which brackets are used to write a list?",
+        "text_fr": "Quels crochets utilise-t-on pour ecrire une liste ?",
+        "explanation": "A list uses square brackets [ ].",
+        "explanation_fr": "Une liste utilise des crochets [ ].",
+        "hint_prompt": "It is the pair used for indexing too.",
+        "hint_prompt_fr": "C'est la paire utilisee aussi pour les indices.",
+        "choices": [
+          {
+            "text": "Square brackets [ ]",
+            "text_fr": "Les crochets [ ]",
+            "correct": true
+          },
+          {
+            "text": "Round brackets ( )",
+            "text_fr": "Les parentheses ( )",
+            "correct": false
+          },
+          {
+            "text": "Curly braces { }",
+            "text_fr": "Les accolades { }",
+            "correct": false
+          }
+        ],
+        "hints": [
+          {
+            "text": "Round brackets belong to tuples.",
+            "text_fr": "Les parentheses appartiennent aux tuples."
+          }
+        ],
+        "difficulty": 1
+      },
+      {
+        "kind": "mcq",
+        "text": "What is a tuple?",
+        "text_fr": "Qu'est-ce qu'un tuple ?",
+        "explanation": "A tuple is like a list but it cannot be changed.",
+        "explanation_fr": "Un tuple ressemble a une liste mais ne peut pas etre modifie.",
+        "hint_prompt": "Think about something you cannot modify.",
+        "hint_prompt_fr": "Pense a quelque chose que l'on ne peut pas modifier.",
+        "choices": [
+          {
+            "text": "A collection that cannot be changed",
+            "text_fr": "Une collection que l'on ne peut pas modifier",
+            "correct": true
+          },
+          {
+            "text": "A number with a point",
+            "text_fr": "Un nombre a virgule",
+            "correct": false
+          },
+          {
+            "text": "A kind of function",
+            "text_fr": "Un type de fonction",
+            "correct": false
+          }
+        ],
+        "hints": [
+          {
+            "text": "It is fixed once created.",
+            "text_fr": "Il est fige une fois cree."
+          }
+        ],
+        "difficulty": 1
+      },
+      {
+        "kind": "numeric",
+        "text": "With `d = {\"x\": 1}`, what is `d[\"x\"]`?",
+        "text_fr": "Avec `d = {\"x\": 1}`, que vaut `d[\"x\"]` ?",
+        "explanation": "The key \"x\" maps to the value 1.",
+        "explanation_fr": "La cle \"x\" correspond a la valeur 1.",
+        "hint_prompt": "Read the value stored under that key.",
+        "hint_prompt_fr": "Lis la valeur stockee sous cette cle.",
+        "config": {
+          "accepted": [
+            "1"
+          ]
+        },
+        "hints": [
+          {
+            "text": "The value sits after the colon.",
+            "text_fr": "La valeur se trouve apres les deux points."
+          }
+        ],
+        "difficulty": 2
+      },
+      {
+        "kind": "numeric",
+        "text": "What is `len([1, 2, 3, 4, 5])`?",
+        "text_fr": "Que vaut `len([1, 2, 3, 4, 5])` ?",
+        "explanation": "There are five values, so len gives 5.",
+        "explanation_fr": "Il y a cinq valeurs, len donne donc 5.",
+        "hint_prompt": "Count the values.",
+        "hint_prompt_fr": "Compte les valeurs.",
+        "config": {
+          "accepted": [
+            "5"
+          ]
+        },
+        "hints": [
+          {
+            "text": "Count from 1 to 5.",
+            "text_fr": "Compte de 1 a 5."
+          }
+        ],
+        "difficulty": 1
+      }
+    ]
+  }
+}

@@ -1,0 +1,210 @@
+{
+  "lesson": 58,
+  "status": "published",
+  "lesson_fields": {
+    "title": "Density and Pressure",
+    "title_fr": "Densité et pression",
+    "summary": "Density ρ = m ÷ V tells if a body sinks or floats, and pressure p = F ÷ A shows why area changes everything.",
+    "summary_fr": "La densité ρ = m ÷ V dit si un corps coule ou flotte, et la pression p = F ÷ A montre pourquoi la surface change tout.",
+    "content": "## Two ratios to master\n\nDensity: ρ = m / V in g/cm³ or kg/m³. Pressure: p = F / A in pascals (N/m²).",
+    "content_fr": "## Deux rapports à maîtriser\n\nDensité : ρ = m / V en g/cm³ ou kg/m³. Pression : p = F / A en pascals (N/m²).",
+    "objectives": [
+      "Compute density from mass and volume",
+      "Predict floating or sinking by comparing with water",
+      "Compute pressure as force over area",
+      "Explain why a larger area reduces pressure"
+    ],
+    "objectives_fr": [
+      "Calculer la densité à partir de la masse et du volume",
+      "Prédire si un corps flotte en comparant à l'eau",
+      "Calculer la pression comme force sur surface",
+      "Expliquer pourquoi une surface plus grande réduit la pression"
+    ],
+    "estimated_minutes": 30
+  },
+  "steps": [
+    {
+      "kind": "concept",
+      "title": "Density: mass packed per volume",
+      "title_fr": "La densité : la masse rangée par volume",
+      "content": "Density ρ = m ÷ V. A kilogram of iron and a kilogram of feathers have the same mass, but iron packs it into a much smaller volume: it is denser.",
+      "content_fr": "Densité ρ = m ÷ V. Un kilo de fer et un kilo de plumes ont la même masse, mais le fer la concentre dans un volume bien plus petit : il est plus dense.",
+      "required": true,
+      "xp": 10,
+      "question": {
+        "kind": "numeric",
+        "text": "Mass 200 g, volume 50 cm³. Density in g/cm³?",
+        "text_fr": "Masse 200 g, volume 50 cm³. Densité en g/cm³ ?",
+        "explanation": "200 ÷ 50 = 4.",
+        "explanation_fr": "200 ÷ 50 = 4.",
+        "hint_prompt": "Divide mass by volume.",
+        "hint_prompt_fr": "Divise la masse par le volume.",
+        "config": {"accepted": ["4"]},
+        "hints": [{"text": "200 ÷ 50 = 4.", "text_fr": "200 ÷ 50 = 4."}]
+      }
+    },
+    {
+      "kind": "explain",
+      "title": "Sink or float? Compare with water",
+      "title_fr": "Coule ou flotte ? On compare à l'eau",
+      "content": "Water has density about 1 g/cm³. A body denser than water sinks, a body less dense floats. Wood at 0.6 g/cm³ floats; iron at 7.8 g/cm³ sinks.",
+      "content_fr": "L'eau a une densité d'environ 1 g/cm³. Un corps plus dense que l'eau coule, un corps moins dense flotte. Le bois à 0,6 g/cm³ flotte ; le fer à 7,8 g/cm³ coule.",
+      "required": true,
+      "xp": 10,
+      "question": {
+        "kind": "mcq",
+        "text": "A rock sample has density 3 g/cm³. In water, it…",
+        "text_fr": "Un échantillon de roche a une densité de 3 g/cm³. Dans l'eau, il…",
+        "explanation": "3 > 1, denser than water: it sinks.",
+        "explanation_fr": "3 > 1, plus dense que l'eau : il coule.",
+        "hint_prompt": "Water = 1 g/cm³.",
+        "hint_prompt_fr": "L'eau = 1 g/cm³.",
+        "choices": [
+          {"text": "sinks", "text_fr": "coule", "correct": true},
+          {"text": "floats", "text_fr": "flotte", "correct": false},
+          {"text": "stays in the middle", "text_fr": "reste au milieu", "correct": false}
+        ],
+        "hints": [{"text": "Compare 3 with 1.", "text_fr": "Compare 3 avec 1."}]
+      }
+    },
+    {
+      "kind": "example",
+      "title": "Worked example: pressure and snowshoes",
+      "title_fr": "Exemple résolu : la pression et les raquettes",
+      "content": "A walker of 600 N stands on 0.04 m² of shoes: p = 600 ÷ 0.04 = 15000 Pa. With snowshoes of 0.2 m²: p = 600 ÷ 0.2 = 3000 Pa. Same force, five times less pressure — no more sinking.",
+      "content_fr": "Un marcheur de 600 N tient sur 0,04 m² de chaussures : p = 600 ÷ 0,04 = 15000 Pa. Avec des raquettes de 0,2 m² : p = 600 ÷ 0,2 = 3000 Pa. Même force, cinq fois moins de pression — on ne s'enfonce plus.",
+      "required": true,
+      "xp": 12
+    },
+    {
+      "kind": "practice",
+      "title": "Your turn: the crate on the floor",
+      "title_fr": "À toi : la caisse au sol",
+      "content": "A crate pushes on the ground with 300 N over an area of 0.5 m². Compute the pressure in pascals.",
+      "content_fr": "Une caisse appuie au sol avec 300 N sur une surface de 0,5 m². Calcule la pression en pascals.",
+      "required": true,
+      "xp": 12,
+      "question": {
+        "kind": "numeric",
+        "text": "Force 300 N, area 0.5 m². Pressure in Pa?",
+        "text_fr": "Force 300 N, surface 0,5 m². Pression en Pa ?",
+        "explanation": "p = 300 ÷ 0.5 = 600.",
+        "explanation_fr": "p = 300 ÷ 0,5 = 600.",
+        "hint_prompt": "p = F ÷ A.",
+        "hint_prompt_fr": "p = F ÷ A.",
+        "config": {"accepted": ["600"]},
+        "hints": [
+          {"text": "300 ÷ 0.5.", "text_fr": "300 ÷ 0,5."},
+          {"text": "= 600.", "text_fr": "= 600."}
+        ]
+      }
+    },
+    {
+      "kind": "question",
+      "title": "Check: sharper means smaller",
+      "title_fr": "Vérification : plus fin, plus piquant",
+      "content": "A sharp knife cuts because the force is squeezed into a tiny area: pressure explodes. Blunting the blade spreads the force and lowers the pressure.",
+      "content_fr": "Un couteau affûté coupe parce que la force se concentre sur une toute petite surface : la pression explose. Une lame émoussée répartit la force et fait baisser la pression.",
+      "required": true,
+      "xp": 12,
+      "question": {
+        "kind": "mcq",
+        "text": "Keeping the same force, doubling the contact area…",
+        "text_fr": "À force identique, doubler la surface de contact…",
+        "explanation": "p = F ÷ A: if A doubles, the pressure is halved.",
+        "explanation_fr": "p = F ÷ A : si A double, la pression est divisée par deux.",
+        "hint_prompt": "F is fixed and A is under the fraction bar.",
+        "hint_prompt_fr": "F est fixe et A est sous la barre de fraction.",
+        "choices": [
+          {"text": "doubles the pressure", "text_fr": "double la pression", "correct": false},
+          {"text": "halves the pressure", "text_fr": "divise la pression par deux", "correct": true},
+          {"text": "changes nothing", "text_fr": "ne change rien", "correct": false}
+        ],
+        "hints": [{"text": "300 ÷ 0.5 then 300 ÷ 1.", "text_fr": "300 ÷ 0,5 puis 300 ÷ 1."}]
+      }
+    },
+    {
+      "kind": "summary",
+      "title": "What to keep",
+      "title_fr": "À retenir",
+      "content": "ρ = m / V, water = 1 g/cm³, denser sinks. p = F / A in pascals: same force on a bigger area means lower pressure.",
+      "content_fr": "ρ = m / V, l'eau = 1 g/cm³, plus dense coule. p = F / A en pascals : à force égale, une surface plus grande donne une pression moindre.",
+      "required": false,
+      "xp": 5
+    }
+  ],
+  "quiz": {
+    "title": "Density and pressure",
+    "title_fr": "Densité et pression",
+    "pass_score": 60,
+    "questions": [
+      {
+        "kind": "numeric",
+        "text": "Mass 400 g, volume 100 cm³. Density in g/cm³?",
+        "text_fr": "Masse 400 g, volume 100 cm³. Densité en g/cm³ ?",
+        "explanation": "400 ÷ 100 = 4.",
+        "explanation_fr": "400 ÷ 100 = 4.",
+        "hint_prompt": "ρ = m ÷ V.",
+        "hint_prompt_fr": "ρ = m ÷ V.",
+        "config": {"accepted": ["4"]},
+        "hints": [{"text": "400 ÷ 100.", "text_fr": "400 ÷ 100."}],
+        "difficulty": 1
+      },
+      {
+        "kind": "mcq",
+        "text": "A piece of cork has density 0.24 g/cm³. In water, it…",
+        "text_fr": "Un morceau de liège a une densité de 0,24 g/cm³. Dans l'eau, il…",
+        "explanation": "0.24 < 1, less dense than water: it floats.",
+        "explanation_fr": "0,24 < 1, moins dense que l'eau : il flotte.",
+        "hint_prompt": "Compare with 1 g/cm³.",
+        "hint_prompt_fr": "Compare avec 1 g/cm³.",
+        "choices": [
+          {"text": "sinks", "text_fr": "coule", "correct": false},
+          {"text": "floats", "text_fr": "flotte", "correct": true}
+        ],
+        "hints": [{"text": "Less dense bodies float.", "text_fr": "Les corps moins denses flottent."}],
+        "difficulty": 1
+      },
+      {
+        "kind": "numeric",
+        "text": "A force of 100 N acts on an area of 4 m². Pressure in Pa?",
+        "text_fr": "Une force de 100 N agit sur une surface de 4 m². Pression en Pa ?",
+        "explanation": "100 ÷ 4 = 25.",
+        "explanation_fr": "100 ÷ 4 = 25.",
+        "hint_prompt": "p = F ÷ A.",
+        "hint_prompt_fr": "p = F ÷ A.",
+        "config": {"accepted": ["25"]},
+        "hints": [{"text": "100 ÷ 4.", "text_fr": "100 ÷ 4."}],
+        "difficulty": 1
+      },
+      {
+        "kind": "numeric",
+        "text": "A block pushes 240 N on 1.2 m². Pressure in Pa?",
+        "text_fr": "Un bloc appuie 240 N sur 1,2 m². Pression en Pa ?",
+        "explanation": "240 ÷ 1.2 = 200.",
+        "explanation_fr": "240 ÷ 1,2 = 200.",
+        "hint_prompt": "Divide the force by the area.",
+        "hint_prompt_fr": "Divise la force par la surface.",
+        "config": {"accepted": ["200"]},
+        "hints": [{"text": "240 ÷ 1.2 = 200.", "text_fr": "240 ÷ 1,2 = 200."}],
+        "difficulty": 2
+      },
+      {
+        "kind": "mcq",
+        "text": "One pascal is one…",
+        "text_fr": "Un pascal, c'est un…",
+        "explanation": "The pascal is the newton per square metre.",
+        "explanation_fr": "Le pascal est le newton par mètre carré.",
+        "hint_prompt": "Pressure = force per unit area.",
+        "hint_prompt_fr": "Pression = force par unité de surface.",
+        "choices": [
+          {"text": "newton per square metre", "text_fr": "newton par mètre carré", "correct": true},
+          {"text": "kilogram per cubic metre", "text_fr": "kilogramme par mètre cube", "correct": false},
+          {"text": "joule per second", "text_fr": "joule par seconde", "correct": false}
+        ],
+        "hints": [{"text": "Think newton and square metre together.", "text_fr": "Pense newton et mètre carré ensemble."}],
+        "difficulty": 2
+      }
+    ]
+  }
+}

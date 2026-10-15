@@ -1,0 +1,339 @@
+{
+  "lesson": 77,
+  "status": "published",
+  "lesson_fields": {
+    "title": "For and While Loops",
+    "title_fr": "Les boucles de repetition",
+    "summary": "A for loop repeats a block once per value of a sequence, while a while loop repeats it as long as its condition stays True.",
+    "summary_fr": "Une boucle for repete un bloc une fois par valeur d'une sequence, alors qu'une boucle while repete le bloc tant que sa condition reste vraie.",
+    "content": "## Repeating instructions\n\n```python\nfor i in range(3):\n    print(i)\n```\n\nThis prints 0, 1 and 2: the block runs three times.",
+    "content_fr": "## Repeter des instructions\n\n```python\nfor i in range(3):\n    print(i)\n```\n\nCela affiche 0, 1 et 2 : le bloc s'execute trois fois.",
+    "objectives": [
+      "Repeat instructions with a for loop",
+      "Repeat instructions with a while loop",
+      "Predict how many times a loop runs"
+    ],
+    "objectives_fr": [
+      "Repeter des instructions avec une boucle for",
+      "Repeter des instructions avec une boucle while",
+      "Prevoir combien de fois une boucle s'execute"
+    ],
+    "estimated_minutes": 25
+  },
+  "steps": [
+    {
+      "kind": "concept",
+      "title": "Repeating with a for loop",
+      "title_fr": "Repeter avec une boucle for",
+      "content": "A **for** loop repeats a block once for each value of a sequence.\n\n```python\nfor i in range(3):\n    print(i)\n```\n\nrange(3) produces 0, 1 and 2, so the block runs three times and prints the three values.",
+      "content_fr": "Une boucle **for** repete un bloc une fois par valeur d'une sequence.\n\n```python\nfor i in range(3):\n    print(i)\n```\n\nrange(3) produit 0, 1 et 2, le bloc s'execute donc trois fois et affiche ces trois valeurs.",
+      "required": true,
+      "xp": 10,
+      "question": {
+        "kind": "numeric",
+        "text": "How many times does the block of `for i in range(4):` run?",
+        "text_fr": "Combien de fois le bloc de `for i in range(4):` s'execute-t-il ?",
+        "explanation": "range(4) gives 0, 1, 2 and 3: that is four values, so four runs.",
+        "explanation_fr": "range(4) donne 0, 1, 2 et 3 : cela fait quatre valeurs, donc quatre executions.",
+        "hint_prompt": "Count the values produced by range.",
+        "hint_prompt_fr": "Compte les valeurs produites par range.",
+        "config": {
+          "accepted": [
+            "4"
+          ]
+        },
+        "hints": [
+          {
+            "text": "range(4) starts at 0 and stops before 4.",
+            "text_fr": "range(4) part de 0 et s'arrete avant 4."
+          },
+          {
+            "text": "0, 1, 2, 3.",
+            "text_fr": "0, 1, 2, 3."
+          }
+        ]
+      }
+    },
+    {
+      "kind": "explain",
+      "title": "The while loop",
+      "title_fr": "La boucle while",
+      "content": "A **while** loop repeats a block as long as its condition stays True. It is useful when the number of repetitions is not known in advance.\n\n```python\nn = 3\nwhile n > 0:\n    print(n)\n    n = n - 1\n```\n\nIt prints 3, then 2, then 1, and stops when n reaches 0.",
+      "content_fr": "Une boucle **while** repete un bloc tant que sa condition reste vraie. Elle est utile quand le nombre de repetitions n'est pas connu a l'avance.\n\n```python\nn = 3\nwhile n > 0:\n    print(n)\n    n = n - 1\n```\n\nElle affiche 3, puis 2, puis 1, et s'arrete quand n atteint 0.",
+      "required": true,
+      "xp": 10,
+      "question": {
+        "kind": "mcq",
+        "text": "When does a while loop stop?",
+        "text_fr": "Quand une boucle while s'arrete-t-elle ?",
+        "explanation": "It stops as soon as its condition becomes False.",
+        "explanation_fr": "Elle s'arrete des que sa condition devient fausse.",
+        "hint_prompt": "Watch the condition each turn.",
+        "hint_prompt_fr": "Observe la condition a chaque tour.",
+        "choices": [
+          {
+            "text": "When its condition becomes False",
+            "text_fr": "Quand sa condition devient fausse",
+            "correct": true
+          },
+          {
+            "text": "After exactly ten steps",
+            "text_fr": "Apres exactement dix etapes",
+            "correct": false
+          },
+          {
+            "text": "It never stops",
+            "text_fr": "Elle ne s'arrete jamais",
+            "correct": false
+          }
+        ],
+        "hints": [
+          {
+            "text": "A False condition ends the loop.",
+            "text_fr": "Une condition fausse met fin a la boucle."
+          }
+        ]
+      }
+    },
+    {
+      "kind": "example",
+      "title": "Worked example: the sum of 1 to 5",
+      "title_fr": "Exemple resolu : la somme de 1 a 5",
+      "content": "We want the sum 1 + 2 + 3 + 4 + 5.\n\n```python\ntotal = 0\nfor i in range(1, 6):\n    total = total + i\nprint(total)\n```\n\nrange(1, 6) gives 1, 2, 3, 4 and 5, so total ends at 15 and the screen shows 15.",
+      "content_fr": "On veut la somme 1 + 2 + 3 + 4 + 5.\n\n```python\ntotal = 0\nfor i in range(1, 6):\n    total = total + i\nprint(total)\n```\n\nrange(1, 6) donne 1, 2, 3, 4 et 5, total finit donc a 15 et l'ecran affiche 15.",
+      "required": true,
+      "xp": 12
+    },
+    {
+      "kind": "practice",
+      "title": "Your turn: counting the turns",
+      "title_fr": "A toi : compter les tours",
+      "content": "Start at 2 and stop before 7: the call `range(2, 7)` produces the values 2, 3, 4, 5 and 6.",
+      "content_fr": "On part de 2 et on s'arrete avant 7 : l'appel `range(2, 7)` produit les valeurs 2, 3, 4, 5 et 6.",
+      "required": true,
+      "xp": 12,
+      "question": {
+        "kind": "numeric",
+        "text": "How many times does the block of `for i in range(2, 7):` run?",
+        "text_fr": "Combien de fois le bloc de `for i in range(2, 7):` s'execute-t-il ?",
+        "explanation": "The values are 2, 3, 4, 5 and 6: five values, so five runs.",
+        "explanation_fr": "Les valeurs sont 2, 3, 4, 5 et 6 : cinq valeurs, donc cinq executions.",
+        "hint_prompt": "The end value is not included.",
+        "hint_prompt_fr": "La valeur de fin n'est pas incluse.",
+        "config": {
+          "accepted": [
+            "5"
+          ]
+        },
+        "hints": [
+          {
+            "text": "Count from 2 up to 6.",
+            "text_fr": "Compte de 2 jusqu'a 6."
+          },
+          {
+            "text": "2, 3, 4, 5, 6.",
+            "text_fr": "2, 3, 4, 5, 6."
+          }
+        ]
+      }
+    },
+    {
+      "kind": "question",
+      "title": "Check: the infinite loop",
+      "title_fr": "Verification : la boucle infinie",
+      "content": "Every loop must be able to finish. If the condition of a while loop never becomes False, the program runs forever: this is an **infinite loop**.",
+      "content_fr": "Toute boucle doit pouvoir se terminer. Si la condition d'une boucle while ne devient jamais fausse, le programme tourne sans fin : c'est une **boucle infinie**.",
+      "required": true,
+      "xp": 12,
+      "question": {
+        "kind": "mcq",
+        "text": "What causes an infinite loop?",
+        "text_fr": "Qu'est-ce qui provoque une boucle infinie ?",
+        "explanation": "If the condition never becomes False, the loop never stops.",
+        "explanation_fr": "Si la condition ne devient jamais fausse, la boucle ne s'arrete jamais.",
+        "hint_prompt": "Think about a condition that stays True.",
+        "hint_prompt_fr": "Pense a une condition qui reste vraie.",
+        "choices": [
+          {
+            "text": "A condition that never becomes False",
+            "text_fr": "Une condition qui ne devient jamais fausse",
+            "correct": true
+          },
+          {
+            "text": "Using range in a for loop",
+            "text_fr": "L'usage de range dans une boucle for",
+            "correct": false
+          },
+          {
+            "text": "Forgetting a print",
+            "text_fr": "Un oubli de print",
+            "correct": false
+          }
+        ],
+        "hints": [
+          {
+            "text": "The condition must be able to turn False.",
+            "text_fr": "La condition doit pouvoir devenir fausse."
+          }
+        ]
+      }
+    },
+    {
+      "kind": "summary",
+      "title": "What to keep",
+      "title_fr": "A retenir",
+      "content": "A for loop repeats over a sequence, a while loop repeats while a condition is True, range(a, b) stops before b, and every loop must be able to finish.",
+      "content_fr": "Une boucle for repete sur une sequence, une boucle while repete tant qu'une condition est vraie, range(a, b) s'arrete avant b, et toute boucle doit pouvoir se terminer.",
+      "required": false,
+      "xp": 5
+    }
+  ],
+  "quiz": {
+    "title": "For and While Loops",
+    "title_fr": "Les boucles de repetition",
+    "pass_score": 60,
+    "questions": [
+      {
+        "kind": "numeric",
+        "text": "How many times does `for i in range(5):` run its block?",
+        "text_fr": "Combien de fois `for i in range(5):` execute-t-il son bloc ?",
+        "explanation": "range(5) gives 0, 1, 2, 3 and 4: five values, so five runs.",
+        "explanation_fr": "range(5) donne 0, 1, 2, 3 et 4 : cinq valeurs, donc cinq executions.",
+        "hint_prompt": "Count the values produced by range.",
+        "hint_prompt_fr": "Compte les valeurs produites par range.",
+        "config": {
+          "accepted": [
+            "5"
+          ]
+        },
+        "hints": [
+          {
+            "text": "It starts at 0 and stops before 5.",
+            "text_fr": "Cela part de 0 et s'arrete avant 5."
+          }
+        ],
+        "difficulty": 1
+      },
+      {
+        "kind": "numeric",
+        "text": "What is total after `total = 0` then `for i in range(3): total = total + i`?",
+        "text_fr": "Que vaut total apres `total = 0` puis `for i in range(3): total = total + i` ?",
+        "explanation": "The values 0, 1 and 2 are added: 0 + 1 + 2 = 3.",
+        "explanation_fr": "On additionne les valeurs 0, 1 et 2 : 0 + 1 + 2 = 3.",
+        "hint_prompt": "Add the values produced by range(3).",
+        "hint_prompt_fr": "Additionne les valeurs produites par range(3).",
+        "config": {
+          "accepted": [
+            "3"
+          ]
+        },
+        "hints": [
+          {
+            "text": "range(3) gives 0, 1, 2.",
+            "text_fr": "range(3) donne 0, 1, 2."
+          }
+        ],
+        "difficulty": 2
+      },
+      {
+        "kind": "mcq",
+        "text": "Which loop is best when the number of repetitions is unknown?",
+        "text_fr": "Quelle boucle convient quand le nombre de repetitions est inconnu ?",
+        "explanation": "A while loop repeats until a condition is False, so it fits an unknown count.",
+        "explanation_fr": "Une boucle while repete jusqu'a ce qu'une condition soit fausse, elle convient donc a un nombre inconnu.",
+        "hint_prompt": "Which loop depends on a condition rather than a count?",
+        "hint_prompt_fr": "Quelle boucle depend d'une condition plutot que d'un compte ?",
+        "choices": [
+          {
+            "text": "The while loop",
+            "text_fr": "La boucle while",
+            "correct": true
+          },
+          {
+            "text": "The for loop",
+            "text_fr": "La boucle for",
+            "correct": false
+          },
+          {
+            "text": "Neither of them",
+            "text_fr": "Aucune des deux",
+            "correct": false
+          }
+        ],
+        "hints": [
+          {
+            "text": "It repeats while a condition holds.",
+            "text_fr": "Elle repete tant qu'une condition est vraie."
+          }
+        ],
+        "difficulty": 1
+      },
+      {
+        "kind": "mcq",
+        "text": "Which values does `range(1, 4)` produce?",
+        "text_fr": "Quelles valeurs `range(1, 4)` produit-il ?",
+        "explanation": "It starts at 1 and stops before 4, so it gives 1, 2 and 3.",
+        "explanation_fr": "Cela part de 1 et s'arrete avant 4, ce qui donne 1, 2 et 3.",
+        "hint_prompt": "The last value is not included.",
+        "hint_prompt_fr": "La derniere valeur n'est pas incluse.",
+        "choices": [
+          {
+            "text": "1, 2, 3",
+            "text_fr": "1, 2, 3",
+            "correct": true
+          },
+          {
+            "text": "1, 2, 3, 4",
+            "text_fr": "1, 2, 3, 4",
+            "correct": false
+          },
+          {
+            "text": "0, 1, 2",
+            "text_fr": "0, 1, 2",
+            "correct": false
+          }
+        ],
+        "hints": [
+          {
+            "text": "range(a, b) stops just before b.",
+            "text_fr": "range(a, b) s'arrete juste avant b."
+          }
+        ],
+        "difficulty": 2
+      },
+      {
+        "kind": "mcq",
+        "text": "How do we end a while loop on purpose?",
+        "text_fr": "Comment terminer volontairement une boucle while ?",
+        "explanation": "We must change the values so that the condition finally becomes False.",
+        "explanation_fr": "Il faut faire evoluer les valeurs pour que la condition devienne enfin fausse.",
+        "hint_prompt": "The condition depends on some values.",
+        "hint_prompt_fr": "La condition depend de certaines valeurs.",
+        "choices": [
+          {
+            "text": "Make the condition become False",
+            "text_fr": "Faire en sorte que la condition devienne fausse",
+            "correct": true
+          },
+          {
+            "text": "Add a print inside the block",
+            "text_fr": "Ajouter un print dans le bloc",
+            "correct": false
+          },
+          {
+            "text": "Use a larger range",
+            "text_fr": "Utiliser un range plus grand",
+            "correct": false
+          }
+        ],
+        "hints": [
+          {
+            "text": "The loop ends when the condition is False.",
+            "text_fr": "La boucle se termine quand la condition est fausse."
+          }
+        ],
+        "difficulty": 2
+      }
+    ]
+  }
+}

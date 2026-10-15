@@ -1,0 +1,226 @@
+{
+  "lesson": 27,
+  "status": "published",
+  "lesson_fields": {
+    "title": "Simultaneous Equations",
+    "title_fr": "Systèmes de deux équations à deux inconnues",
+    "summary": "Solve two equations at once by substitution and by elimination.",
+    "summary_fr": "Résoudre deux équations à la fois par substitution et par élimination.",
+    "content": "## Two unknowns need two equations\n\nWith one equation you get a line of solutions. With two, their intersection gives a unique pair (x, y).\n\n## Two methods\n\n1. Substitution: solve for one variable, substitute.\n2. Elimination: add/subtract equations to cancel one variable.",
+    "content_fr": "Deux inconnues nécessitent deux équations\n\nAvec une seule équation on obtient une ligne de solutions. Avec deux, leur intersection donne un couple unique (x, y).\n\nDeux méthodes\n\n1. Substitution : exprimer une inconnue, remplacer.\n2. Élimination : additionner ou soustraire pour annuler une inconnue.",
+    "objectives": [
+      "Solve by substitution",
+      "Solve by elimination",
+      "Check the solution in both equations",
+      "Choose the easier method"
+    ],
+    "objectives_fr": [
+      "Résoudre par substitution",
+      "Résoudre par élimination",
+      "Vérifier la solution dans les deux équations",
+      "Choisir la méthode la plus simple"
+    ],
+    "estimated_minutes": 30
+  },
+  "steps": [
+    {
+      "kind": "concept",
+      "title": "Substitution method",
+      "title_fr": "Méthode de substitution",
+      "content": "Example: y = x + 2 and 2x + y = 8. Substitute y: 2x + (x + 2) = 8 → 3x + 2 = 8 → 3x = 6 → x = 2. Then y = 4.",
+      "content_fr": "Exemple : y = x + 2 et 2x + y = 8. On remplace y : 2x + (x + 2) = 8 → 3x + 2 = 8 → 3x = 6 → x = 2. Donc y = 4.",
+      "required": true,
+      "xp": 10,
+      "question": {
+        "kind": "mcq",
+        "text": "Solve y = x + 1 and 3x + y = 9.",
+        "text_fr": "Résous y = x + 1 et 3x + y = 9.",
+        "explanation": "Substitute: 3x + (x + 1) = 9 → 4x = 8 → x = 2, y = 3.",
+        "explanation_fr": "Remplace : 3x + (x + 1) = 9 → 4x = 8 → x = 2, y = 3.",
+        "hint_prompt": "Replace y in the second equation.",
+        "hint_prompt_fr": "Remplace y dans la deuxième équation.",
+        "choices": [
+          {"text": "x = 2, y = 3", "text_fr": "x = 2, y = 3", "correct": true},
+          {"text": "x = 1, y = 2", "text_fr": "x = 1, y = 2"},
+          {"text": "x = 3, y = 4", "text_fr": "x = 3, y = 4"},
+          {"text": "x = 2, y = 2", "text_fr": "x = 2, y = 2"}
+        ],
+        "hints": [
+          {"text": "3x + (x + 1) = 4x + 1 = 9.", "text_fr": "3x + (x + 1) = 4x + 1 = 9."},
+          {"text": "4x = 8, x = 2, y = 3.", "text_fr": "4x = 8, x = 2, y = 3."}
+        ]
+      }
+    },
+    {
+      "kind": "explain",
+      "title": "Elimination method",
+      "title_fr": "Méthode d'élimination",
+      "content": "x + y = 5, x - y = 1. Add: 2x = 6 → x = 3, y = 2.",
+      "content_fr": "x + y = 5, x - y = 1. Additionne : 2x = 6 → x = 3, y = 2.",
+      "required": true,
+      "xp": 12,
+      "question": {
+        "kind": "mcq",
+        "text": "Solve x + y = 6, x - y = 2 by elimination.",
+        "text_fr": "Résous x + y = 6, x - y = 2 par élimination.",
+        "explanation": "Add: 2x = 8 → x = 4, y = 2.",
+        "explanation_fr": "Additionne : 2x = 8 → x = 4, y = 2.",
+        "hint_prompt": "Add the two equations together.",
+        "hint_prompt_fr": "Additionne les deux équations.",
+        "choices": [
+          {"text": "x = 4, y = 2", "text_fr": "x = 4, y = 2", "correct": true},
+          {"text": "x = 3, y = 3", "text_fr": "x = 3, y = 3"},
+          {"text": "x = 4, y = 1", "text_fr": "x = 4, y = 1"},
+          {"text": "x = 2, y = 4", "text_fr": "x = 2, y = 4"}
+        ],
+        "hints": [
+          {"text": "(x+y) + (x-y) = 2x, 6+2 = 8.", "text_fr": "(x+y) + (x-y) = 2x, 6+2 = 8."},
+          {"text": "2x = 8, x = 4, substitute back: y = 2.", "text_fr": "2x = 8, x = 4, remplace : y = 2."}
+        ]
+      }
+    },
+    {
+      "kind": "practice",
+      "title": "Multiply to align",
+      "title_fr": "Multiplier pour aligner",
+      "content": "2x + y = 7, x + 3y = 11. Multiply second by 2 to align x: 2x + 6y = 22. Subtract first: 5y = 15 → y = 3, x = 2.",
+      "content_fr": "2x + y = 7, x + 3y = 11. Multiplie la seconde par 2 pour aligner x : 2x + 6y = 22. Soustrais la première : 5y = 15 → y = 3, x = 2.",
+      "required": true,
+      "xp": 12,
+      "question": {
+        "kind": "mcq",
+        "text": "Solve 2x + y = 10, x + 2y = 8.",
+        "text_fr": "Résous 2x + y = 10, x + 2y = 8.",
+        "explanation": "Multiply second by 2: 2x + 4y = 16. Subtract first: 3y = 6 → y = 2, x = 4.",
+        "explanation_fr": "Multiplie la seconde par 2 : 2x + 4y = 16. Soustrais la première : 3y = 6 → y = 2, x = 4.",
+        "hint_prompt": "Align x coefficients by multiplying the second equation.",
+        "hint_prompt_fr": "Aligne les coefficients de x en multipliant la deuxième équation.",
+        "choices": [
+          {"text": "x = 4, y = 2", "text_fr": "x = 4, y = 2", "correct": true},
+          {"text": "x = 2, y = 4", "text_fr": "x = 2, y = 4"},
+          {"text": "x = 3, y = 4", "text_fr": "x = 3, y = 4"},
+          {"text": "x = 4, y = 3", "text_fr": "x = 4, y = 3"}
+        ],
+        "hints": [
+          {"text": "2x + 4y = 16, minus (2x + y)=10 gives 3y = 6.", "text_fr": "2x + 4y = 16, moins (2x + y)=10 donne 3y = 6."},
+          {"text": "y = 2, x = 4.", "text_fr": "y = 2, x = 4."}
+        ]
+      }
+    },
+    {
+      "kind": "practice",
+      "title": "Verify",
+      "title_fr": "Vérifier",
+      "content": "Check solution x=4, y=2 in first equation: 8+2=10 OK. Second: 4+4=8 OK.",
+      "content_fr": "Vérifie x=4, y=2 dans première : 8+2=10 OK. Deuxième : 4+4=8 OK.",
+      "required": true,
+      "xp": 10
+    },
+    {
+      "kind": "summary",
+      "title": "What to keep",
+      "title_fr": "À retenir",
+      "content": "Substitution is easy when one variable is already isolated. Elimination is easy when coefficients align.",
+      "content_fr": "Substitution facile si une inconnue est déjà isolée. Élimination facile si coefficients alignés.",
+      "required": false,
+      "xp": 5
+    }
+  ],
+  "quiz": {
+    "title": "Simultaneous: final check",
+    "title_fr": "Systèmes : bilan final",
+    "pass_score": 60,
+    "questions": [
+      {
+        "kind": "mcq",
+        "text": "Solve y = x + 2, x + y = 8.",
+        "text_fr": "Résous y = x + 2, x + y = 8.",
+        "explanation": "x + (x+2)=8 → 2x=6 → x=3, y=5.",
+        "explanation_fr": "x + (x+2)=8 → 2x=6 → x=3, y=5.",
+        "hint_prompt": "Substitute y.",
+        "hint_prompt_fr": "Remplace y.",
+        "choices": [
+          {"text": "x = 3, y = 5", "text_fr": "x = 3, y = 5", "correct": true},
+          {"text": "x = 2, y = 4", "text_fr": "x = 2, y = 4"},
+          {"text": "x = 5, y = 7", "text_fr": "x = 5, y = 7"},
+          {"text": "x = 4, y = 6", "text_fr": "x = 4, y = 6"}
+        ],
+        "hints": [
+          {"text": "2x + 2 = 8.", "text_fr": "2x + 2 = 8."},
+          {"text": "2x = 6, x = 3.", "text_fr": "2x = 6, x = 3."}
+        ],
+        "difficulty": 1
+      },
+      {
+        "kind": "mcq",
+        "text": "Solve x + y = 7, x - y = 3.",
+        "text_fr": "Résous x + y = 7, x - y = 3.",
+        "explanation": "Add: 2x=10 → x=5, y=2.",
+        "explanation_fr": "Additionne : 2x=10 → x=5, y=2.",
+        "hint_prompt": "Elimination by adding.",
+        "hint_prompt_fr": "Élimination par addition.",
+        "choices": [
+          {"text": "x = 5, y = 2", "text_fr": "x = 5, y = 2", "correct": true},
+          {"text": "x = 4, y = 3", "text_fr": "x = 4, y = 3"},
+          {"text": "x = 3, y = 4", "text_fr": "x = 3, y = 4"},
+          {"text": "x = 2, y = 5", "text_fr": "x = 2, y = 5"}
+        ],
+        "hints": [
+          {"text": "2x = 10.", "text_fr": "2x = 10."},
+          {"text": "x = 5, y = 2.", "text_fr": "x = 5, y = 2."}
+        ],
+        "difficulty": 1
+      },
+      {
+        "kind": "mcq",
+        "text": "Solve 2x + y = 11, x - y = 1.",
+        "text_fr": "Résous 2x + y = 11, x - y = 1.",
+        "explanation": "Add: 3x=12 → x=4, y=3.",
+        "explanation_fr": "Additionne : 3x=12 → x=4, y=3.",
+        "hint_prompt": "Add the equations.",
+        "hint_prompt_fr": "Additionne les équations.",
+        "choices": [
+          {"text": "x = 4, y = 3", "text_fr": "x = 4, y = 3", "correct": true},
+          {"text": "x = 3, y = 2", "text_fr": "x = 3, y = 2"},
+          {"text": "x = 5, y = 1", "text_fr": "x = 5, y = 1"},
+          {"text": "x = 4, y = 2", "text_fr": "x = 4, y = 2"}
+        ],
+        "hints": [
+          {"text": "2x + x = 3x, y + (-y)=0, 11+1=12.", "text_fr": "2x + x = 3x, y + (-y)=0, 11+1=12."},
+          {"text": "x=4, substitute: 4-y=1 → y=3.", "text_fr": "x=4, remplace : 4-y=1 → y=3."}
+        ],
+        "difficulty": 2
+      },
+      {
+        "kind": "numeric",
+        "text": "Solve x + y = 5, 2x - y = 1. The value of x is a. Find a.",
+        "text_fr": "Résous x + y = 5, 2x - y = 1. La valeur de x est a. Trouve a.",
+        "explanation": "Add: 3x = 6 → x = 2, y = 3.",
+        "explanation_fr": "Additionne : 3x = 6 → x = 2, y = 3.",
+        "hint_prompt": "Add equations.",
+        "hint_prompt_fr": "Additionne les équations.",
+        "config": {"accepted": ["2"]},
+        "hints": [
+          {"text": "3x = 6.", "text_fr": "3x = 6."},
+          {"text": "x = 2.", "text_fr": "x = 2."}
+        ],
+        "difficulty": 2
+      },
+      {
+        "kind": "numeric",
+        "text": "Solve y = 2x + 1, x + y = 10. The value of y is a. Find a.",
+        "text_fr": "Résous y = 2x + 1, x + y = 10. La valeur de y est a. Trouve a.",
+        "explanation": "Substitute: x + 2x + 1 = 10 → 3x = 9 → x = 3, y = 7.",
+        "explanation_fr": "Remplace : x + 2x + 1 = 10 → 3x = 9 → x = 3, y = 7.",
+        "hint_prompt": "Substitute y = 2x + 1 into second equation.",
+        "hint_prompt_fr": "Remplace y = 2x + 1 dans la deuxième équation.",
+        "config": {"accepted": ["7"]},
+        "hints": [
+          {"text": "3x + 1 = 10 → 3x = 9.", "text_fr": "3x + 1 = 10 → 3x = 9."},
+          {"text": "x = 3, y = 7.", "text_fr": "x = 3, y = 7."}
+        ],
+        "difficulty": 2
+      }
+    ]
+  }
+}

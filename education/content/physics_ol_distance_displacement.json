@@ -24,8 +24,8 @@
       "kind": "concept",
       "title": "Distance or displacement?",
       "title_fr": "Distance ou déplacement ?",
-      "content": "When an object moves, two different quantities describe where it goes. The distance travelled is the full length of the path that was actually followed, kilometre after kilometre. The displacement is much shorter to state: it is the straight line from the start point to the end point, together with the direction. A runner who completes one full lap of a 400 m track has covered a distance of 400 m, but his displacement is zero, because he finishes exactly where he started.",
-      "content_fr": "Quand un objet se déplace, deux grandeurs différentes décrivent son trajet. La distance parcourue est la longueur totale du chemin réellement suivi, kilomètre après kilomètre. Le déplacement est plus court à exprimer : c'est la droite qui joint le point de départ au point d'arrivée, avec le sens du parcours. Un coureur qui fait un tour complet d'une piste de 400 m a parcouru 400 m, mais son déplacement est nul, car il termine exactement là où il est parti.",
+      "content": "When an object moves, two different quantities describe where it goes. The distance travelled is the full length of the path that was actually followed, kilometre after kilometre. The displacement is much shorter to state: it is the straight line from the start point to the end point, together with the direction. A runner who completes one full lap of a 400 m track has covered a distance of 400 m, but his displacement is zero, because he finishes exactly where he started.\n\n_Figure: User:Stannered — CC BY-SA 3.0, via Wikimedia Commons._",
+      "content_fr": "Quand un objet se déplace, deux grandeurs différentes décrivent son trajet. La distance parcourue est la longueur totale du chemin réellement suivi, kilomètre après kilomètre. Le déplacement est plus court à exprimer : c'est la droite qui joint le point de départ au point d'arrivée, avec le sens du parcours. Un coureur qui fait un tour complet d'une piste de 400 m a parcouru 400 m, mais son déplacement est nul, car il termine exactement là où il est parti.\n\n_Figure : User:Stannered — CC BY-SA 3.0, via Wikimedia Commons._",
       "xp": 10
     },
     {
@@ -61,10 +61,20 @@
         "explanation_fr": "Le départ et l'arrivée coincident : le déplacement en ligne droite vaut donc 0 m, même si la distance parcourue vaut 500 m.",
         "hint_prompt": "Think of the straight line between the start and the finish.",
         "hint_prompt_fr": "Pense à la droite entre le départ et l'arrivée.",
-        "config": {"accepted": [0]},
+        "config": {
+          "accepted": [
+            0
+          ]
+        },
         "hints": [
-          {"text": "Ask yourself how far apart the start point and the end point really are.", "text_fr": "Demande-toi à quelle distance se trouvent réellement le point de départ et le point d'arrivée."},
-          {"text": "They are the same point, so the displacement is 0 m.", "text_fr": "C'est le même point : le déplacement vaut donc 0 m."}
+          {
+            "text": "Ask yourself how far apart the start point and the end point really are.",
+            "text_fr": "Demande-toi à quelle distance se trouvent réellement le point de départ et le point d'arrivée."
+          },
+          {
+            "text": "They are the same point, so the displacement is 0 m.",
+            "text_fr": "C'est le même point : le déplacement vaut donc 0 m."
+          }
         ]
       }
     },
@@ -95,13 +105,32 @@
         "hint_prompt_fr": "Un vecteur a une valeur et une direction.",
         "config": {},
         "choices": [
-          {"text": "The total length of the path travelled", "text_fr": "La longueur totale du chemin parcouru", "correct": false},
-          {"text": "The speed multiplied by the time", "text_fr": "La vitesse multipliée par le temps", "correct": false},
-          {"text": "The straight-line change of position, with a direction", "text_fr": "Le changement de position en ligne droite, avec une direction", "correct": true},
-          {"text": "The distance travelled divided by 1000", "text_fr": "La distance parcourue divisée par 1000", "correct": false}
+          {
+            "text": "The total length of the path travelled",
+            "text_fr": "La longueur totale du chemin parcouru",
+            "correct": false
+          },
+          {
+            "text": "The speed multiplied by the time",
+            "text_fr": "La vitesse multipliée par le temps",
+            "correct": false
+          },
+          {
+            "text": "The straight-line change of position, with a direction",
+            "text_fr": "Le changement de position en ligne droite, avec une direction",
+            "correct": true
+          },
+          {
+            "text": "The distance travelled divided by 1000",
+            "text_fr": "La distance parcourue divisée par 1000",
+            "correct": false
+          }
         ],
         "hints": [
-          {"text": "Option 1 describes the distance travelled, not the displacement.", "text_fr": "L'option 1 décrit la distance parcourue, pas le déplacement."}
+          {
+            "text": "Option 1 describes the distance travelled, not the displacement.",
+            "text_fr": "L'option 1 décrit la distance parcourue, pas le déplacement."
+          }
         ]
       }
     },
@@ -130,13 +159,32 @@
         "hint_prompt_fr": "C'est l'unité de la hauteur d'une porte.",
         "config": {},
         "choices": [
-          {"text": "Centimetre", "text_fr": "Centimètre", "correct": false},
-          {"text": "Metre", "text_fr": "Mètre", "correct": true},
-          {"text": "Kilometre", "text_fr": "Kilomètre", "correct": false},
-          {"text": "Mile", "text_fr": "Mile", "correct": false}
+          {
+            "text": "Centimetre",
+            "text_fr": "Centimètre",
+            "correct": false
+          },
+          {
+            "text": "Metre",
+            "text_fr": "Mètre",
+            "correct": true
+          },
+          {
+            "text": "Kilometre",
+            "text_fr": "Kilomètre",
+            "correct": false
+          },
+          {
+            "text": "Mile",
+            "text_fr": "Mile",
+            "correct": false
+          }
         ],
         "hints": [
-          {"text": "University labs everywhere express lengths first in this unit.", "text_fr": "Les laboratoires du monde entier expriment les longueurs d'abord dans cette unité."}
+          {
+            "text": "University labs everywhere express lengths first in this unit.",
+            "text_fr": "Les laboratoires du monde entier expriment les longueurs d'abord dans cette unité."
+          }
         ]
       },
       {
@@ -150,13 +198,32 @@
         "hint_prompt_fr": "1 km = 1000 m. Faut-il multiplier ou diviser ?",
         "config": {},
         "choices": [
-          {"text": "25 km", "text_fr": "25 km", "correct": false},
-          {"text": "2.5 km", "text_fr": "2,5 km", "correct": true},
-          {"text": "0.25 km", "text_fr": "0,25 km", "correct": false},
-          {"text": "2 500 000 km", "text_fr": "2 500 000 km", "correct": false}
+          {
+            "text": "25 km",
+            "text_fr": "25 km",
+            "correct": false
+          },
+          {
+            "text": "2.5 km",
+            "text_fr": "2,5 km",
+            "correct": true
+          },
+          {
+            "text": "0.25 km",
+            "text_fr": "0,25 km",
+            "correct": false
+          },
+          {
+            "text": "2 500 000 km",
+            "text_fr": "2 500 000 km",
+            "correct": false
+          }
         ],
         "hints": [
-          {"text": "Metres are the smaller unit, so the number of kilometres must be smaller: 2500 / 1000.", "text_fr": "Le mètre est l'unité la plus petite, donc le nombre de kilomètres doit être plus petit : 2500 / 1000."}
+          {
+            "text": "Metres are the smaller unit, so the number of kilometres must be smaller: 2500 / 1000.",
+            "text_fr": "Le mètre est l'unité la plus petite, donc le nombre de kilomètres doit être plus petit : 2500 / 1000."
+          }
         ]
       },
       {
@@ -170,13 +237,32 @@
         "hint_prompt_fr": "Ajoute les morceaux du chemin pour l'une, compare départ et arrivée pour l'autre.",
         "config": {},
         "choices": [
-          {"text": "Distance 6 km, displacement 6 km east", "text_fr": "Distance 6 km, déplacement 6 km vers l'est", "correct": false},
-          {"text": "Distance 0 km, displacement 0 km", "text_fr": "Distance 0 km, déplacement 0 km", "correct": false},
-          {"text": "Distance 6 km, displacement 0 km", "text_fr": "Distance 6 km, déplacement 0 km", "correct": true},
-          {"text": "Distance 3 km, displacement 3 km west", "text_fr": "Distance 3 km, déplacement 3 km vers l'ouest", "correct": false}
+          {
+            "text": "Distance 6 km, displacement 6 km east",
+            "text_fr": "Distance 6 km, déplacement 6 km vers l'est",
+            "correct": false
+          },
+          {
+            "text": "Distance 0 km, displacement 0 km",
+            "text_fr": "Distance 0 km, déplacement 0 km",
+            "correct": false
+          },
+          {
+            "text": "Distance 6 km, displacement 0 km",
+            "text_fr": "Distance 6 km, déplacement 0 km",
+            "correct": true
+          },
+          {
+            "text": "Distance 3 km, displacement 3 km west",
+            "text_fr": "Distance 3 km, déplacement 3 km vers l'ouest",
+            "correct": false
+          }
         ],
         "hints": [
-          {"text": "The walker ends up where he started.", "text_fr": "Le marcheur finit là où il est parti."}
+          {
+            "text": "The walker ends up where he started.",
+            "text_fr": "Le marcheur finit là où il est parti."
+          }
         ]
       },
       {
@@ -190,13 +276,32 @@
         "hint_prompt_fr": "Laquelle a besoin d'une direction pour être complète ?",
         "config": {},
         "choices": [
-          {"text": "Distance travelled", "text_fr": "La distance parcourue", "correct": false},
-          {"text": "Displacement", "text_fr": "Le déplacement", "correct": true},
-          {"text": "Time", "text_fr": "Le temps", "correct": false},
-          {"text": "Speed", "text_fr": "La vitesse", "correct": false}
+          {
+            "text": "Distance travelled",
+            "text_fr": "La distance parcourue",
+            "correct": false
+          },
+          {
+            "text": "Displacement",
+            "text_fr": "Le déplacement",
+            "correct": true
+          },
+          {
+            "text": "Time",
+            "text_fr": "Le temps",
+            "correct": false
+          },
+          {
+            "text": "Speed",
+            "text_fr": "La vitesse",
+            "correct": false
+          }
         ],
         "hints": [
-          {"text": "Think of the straight line from the start to the finish.", "text_fr": "Pense à la droite du départ vers l'arrivée."}
+          {
+            "text": "Think of the straight line from the start to the finish.",
+            "text_fr": "Pense à la droite du départ vers l'arrivée."
+          }
         ]
       },
       {
@@ -210,13 +315,32 @@
         "hint_prompt_fr": "Quelle grandeur ignore les virages de la route ?",
         "config": {},
         "choices": [
-          {"text": "the distance travelled", "text_fr": "la distance parcourue", "correct": false},
-          {"text": "the displacement", "text_fr": "le déplacement", "correct": true},
-          {"text": "the average speed", "text_fr": "la vitesse moyenne", "correct": false},
-          {"text": "the time of the journey", "text_fr": "la durée du trajet", "correct": false}
+          {
+            "text": "the distance travelled",
+            "text_fr": "la distance parcourue",
+            "correct": false
+          },
+          {
+            "text": "the displacement",
+            "text_fr": "le déplacement",
+            "correct": true
+          },
+          {
+            "text": "the average speed",
+            "text_fr": "la vitesse moyenne",
+            "correct": false
+          },
+          {
+            "text": "the time of the journey",
+            "text_fr": "la durée du trajet",
+            "correct": false
+          }
         ],
         "hints": [
-          {"text": "Roads bend; the direct line does not.", "text_fr": "La route fait des virages ; la ligne directe, non."}
+          {
+            "text": "Roads bend; the direct line does not.",
+            "text_fr": "La route fait des virages ; la ligne directe, non."
+          }
         ]
       }
     ]

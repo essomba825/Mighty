@@ -1,0 +1,304 @@
+{
+  "lesson": 71,
+  "status": "published",
+  "lesson_fields": {
+    "title": "DNA and Protein Synthesis",
+    "title_fr": "L ADN et la synthese des proteines",
+    "summary": "The structure of DNA, semi-conservative replication, and how the genetic code is read by transcription and translation.",
+    "summary_fr": "La structure de l ADN, la replication semi-conservative, et la lecture du code genetique par transcription et traduction.",
+    "objectives": [
+      "Describe the structure of DNA",
+      "Explain semi-conservative replication",
+      "Outline transcription and translation",
+      "Relate the base sequence to the protein made"
+    ],
+    "objectives_fr": [
+      "Decrire la structure de l ADN",
+      "Expliquer la replication semi-conservative",
+      "Resumer la transcription et la traduction",
+      "Relier la sequence des bases a la proteine produite"
+    ],
+    "estimated_minutes": 30
+  },
+  "steps": [
+    {
+      "kind": "concept",
+      "title": "DNA: the double helix",
+      "title_fr": "L ADN : la double helice",
+      "content": "DNA is a polymer of nucleotides, each made of a phosphate, a sugar called deoxyribose, and one of four bases: adenine (A), thymine (T), cytosine (C) and guanine (G).\n\nTwo strands wind around each other to form a double helix, held together by bonds between the bases. The order of bases along a strand carries the genetic code.",
+      "content_fr": "L ADN est un polymere de nucleotides, chacun forme d un phosphate, d un sucre appele desoxyribose, et d une des quatre bases : adenine (A), thymine (T), cytosine (C) et guanine (G).\n\nDeux brins s enroulent l un autour de l autre pour former une double helice, maintenue par des liaisons entre les bases. L ordre des bases le long d un brin porte le code genetique.",
+      "required": true,
+      "xp": 10,
+      "question": {
+        "kind": "mcq",
+        "text": "What is the overall shape of a DNA molecule?",
+        "text_fr": "Quelle est la forme generale d une molecule d ADN ?",
+        "explanation": "Two strands twist into a double helix.",
+        "explanation_fr": "Deux brins s enroulent en une double helice.",
+        "hint_prompt": "A twisted ladder.",
+        "hint_prompt_fr": "Une echelle tordue.",
+        "choices": [
+          {"text": "A double helix", "text_fr": "Une double helice", "correct": true},
+          {"text": "A single straight line", "text_fr": "Une simple ligne droite"},
+          {"text": "A sphere", "text_fr": "Une sphere"},
+          {"text": "A ring", "text_fr": "Un anneau"}
+        ],
+        "hints": [
+          {"text": "It has two strands.", "text_fr": "Elle a deux brins."},
+          {"text": "Twisted like a spiral staircase.", "text_fr": "Tordue comme un escalier en spirale."}
+        ]
+      }
+    },
+    {
+      "kind": "explain",
+      "title": "Complementary base pairing",
+      "title_fr": "L appariement complementaire des bases",
+      "content": "The two strands are held together by base pairing, and pairing is always the same. Adenine always pairs with thymine (A with T), and cytosine always pairs with guanine (C with G).\n\nBecause of this rule, one strand can act as a template to build the other. If you know one strand, you can work out the other.",
+      "content_fr": "Les deux brins sont maintenus par l appariement des bases, et cet appariement est toujours le meme. L adenine s apparie toujours avec la thymine (A avec T), et la cytosine s apparie toujours avec la guanine (C avec G).\n\nGrace a cette regle, un brin peut servir de matrice pour construire l autre. Si tu connais un brin, tu peux deduire l autre.",
+      "required": true,
+      "xp": 10,
+      "question": {
+        "kind": "mcq",
+        "text": "In DNA, adenine always pairs with which base?",
+        "text_fr": "Dans l ADN, l adenine s apparie toujours avec quelle base ?",
+        "explanation": "A pairs with T, and C pairs with G.",
+        "explanation_fr": "A s apparie avec T, et C avec G.",
+        "hint_prompt": "It is not C or G.",
+        "hint_prompt_fr": "Ce n est ni C ni G.",
+        "choices": [
+          {"text": "Thymine", "text_fr": "La thymine", "correct": true},
+          {"text": "Guanine", "text_fr": "La guanine"},
+          {"text": "Cytosine", "text_fr": "La cytosine"},
+          {"text": "Adenine", "text_fr": "L adenine"}
+        ],
+        "hints": [
+          {"text": "A with T.", "text_fr": "A avec T."},
+          {"text": "The other pair is C with G.", "text_fr": "L autre paire est C avec G."}
+        ]
+      }
+    },
+    {
+      "kind": "explain",
+      "title": "Semi-conservative replication",
+      "title_fr": "La replication semi-conservative",
+      "content": "Before a cell divides, DNA is copied in a process called replication. The double helix unzips, and each strand acts as a template to build a new partner strand.\n\nThe process is called semi-conservative because each new DNA molecule keeps one old strand and one new strand. The result is two identical DNA molecules.",
+      "content_fr": "Avant qu une cellule se divise, l ADN est copie lors d un processus appele replication. La double helice s ouvre et chaque brin sert de matrice pour construire un nouveau brin partenaire.\n\nLe processus est dit semi-conservatif car chaque nouvelle molecule d ADN conserve un brin ancien et un brin nouveau. Le resultat est deux molecules d ADN identiques.",
+      "required": true,
+      "xp": 10,
+      "question": {
+        "kind": "mcq",
+        "text": "Why is DNA replication described as semi-conservative?",
+        "text_fr": "Pourquoi la replication de l ADN est-elle dite semi-conservative ?",
+        "explanation": "Each new molecule keeps one original strand and one new strand.",
+        "explanation_fr": "Chaque nouvelle molecule conserve un brin d origine et un brin nouveau.",
+        "hint_prompt": "Think about half of each molecule being kept.",
+        "hint_prompt_fr": "Pense au fait qu on conserve la moitie de chaque molecule.",
+        "choices": [
+          {"text": "Each new molecule keeps one old strand", "text_fr": "Chaque nouvelle molecule garde un brin ancien", "correct": true},
+          {"text": "Both strands of each molecule are new", "text_fr": "Les deux brins de chaque molecule sont neufs"},
+          {"text": "Only half the bases are copied", "text_fr": "Seule la moitie des bases est copiee"},
+          {"text": "It halves the chromosome number", "text_fr": "Elle divise par deux le nombre de chromosomes"}
+        ],
+        "hints": [
+          {"text": "One strand is conserved.", "text_fr": "Un brin est conserve."},
+          {"text": "Semi means half.", "text_fr": "Semi signifie moitie."}
+        ]
+      }
+    },
+    {
+      "kind": "explain",
+      "title": "Transcription: DNA to messenger RNA",
+      "title_fr": "Transcription : de l ADN a l ARN messager",
+      "content": "A gene is a section of DNA that codes for one protein. In the nucleus, the DNA unzips and a copy of the gene is made as messenger RNA (mRNA). This copying is transcription.\n\nIn RNA, thymine is replaced by uracil (U). The mRNA then leaves the nucleus and carries the message to a ribosome.",
+      "content_fr": "Un gene est une portion d ADN qui code pour une proteine. Dans le noyau, l ADN s ouvre et une copie du gene est fabriquee sous forme d ARN messager (ARNm). Cette copie est la transcription.\n\nDans l ARN, la thymine est remplacee par l uracile (U). L ARNm quitte alors le noyau et porte le message jusqu a un ribosome.",
+      "required": true,
+      "xp": 10,
+      "question": {
+        "kind": "mcq",
+        "text": "Which base replaces thymine in RNA?",
+        "text_fr": "Quelle base remplace la thymine dans l ARN ?",
+        "explanation": "RNA uses uracil instead of thymine.",
+        "explanation_fr": "L ARN utilise l uracile au lieu de la thymine.",
+        "hint_prompt": "A letter U.",
+        "hint_prompt_fr": "Une lettre U.",
+        "choices": [
+          {"text": "Uracil", "text_fr": "L uracile", "correct": true},
+          {"text": "Adenine", "text_fr": "L adenine"},
+          {"text": "Guanine", "text_fr": "La guanine"},
+          {"text": "Cytosine", "text_fr": "La cytosine"}
+        ],
+        "hints": [
+          {"text": "It is found only in RNA.", "text_fr": "On ne la trouve que dans l ARN."},
+          {"text": "It pairs with adenine.", "text_fr": "Elle s apparie avec l adenine."}
+        ]
+      }
+    },
+    {
+      "kind": "explain",
+      "title": "Translation: building the protein",
+      "title_fr": "Traduction : construire la proteine",
+      "content": "At the ribosome, the mRNA is read three bases at a time. Each group of three bases is a codon, and each codon codes for one amino acid.\n\nAmino acids are joined in the order given by the codons to build the protein. This step is translation. Three bases, one amino acid: that is the heart of the genetic code.",
+      "content_fr": "Au niveau du ribosome, l ARNm est lu par groupes de trois bases. Chaque groupe de trois bases est un codon, et chaque codon code pour un acide amine.\n\nLes acides amines sont assembles dans l ordre donne par les codons pour construire la proteine. Cette etape est la traduction. Trois bases, un acide amine : c est le coeur du code genetique.",
+      "required": true,
+      "xp": 10,
+      "question": {
+        "kind": "mcq",
+        "text": "How many bases make up one codon?",
+        "text_fr": "Combien de bases composent un codon ?",
+        "explanation": "A codon is three bases and codes for one amino acid.",
+        "explanation_fr": "Un codon est compose de trois bases et code pour un acide amine.",
+        "hint_prompt": "A small odd number.",
+        "hint_prompt_fr": "Un petit nombre impair.",
+        "choices": [
+          {"text": "Three", "text_fr": "Trois", "correct": true},
+          {"text": "One", "text_fr": "Une"},
+          {"text": "Two", "text_fr": "Deux"},
+          {"text": "Four", "text_fr": "Quatre"}
+        ],
+        "hints": [
+          {"text": "One codon, one amino acid.", "text_fr": "Un codon, un acide amine."},
+          {"text": "It is a triplet.", "text_fr": "C est un triplet."}
+        ]
+      }
+    },
+    {
+      "kind": "question",
+      "title": "Check: from gene to protein",
+      "title_fr": "Verification : du gene a la proteine",
+      "content": "Put the story in order. DNA holds the gene. In the nucleus, transcription makes mRNA. The mRNA travels to a ribosome, where translation reads the codons and joins amino acids into a protein.\n\nA change in the base sequence (a mutation) can change a codon, and so change the amino acid and the protein.",
+      "content_fr": "Mets l histoire dans l ordre. L ADN contient le gene. Dans le noyau, la transcription fabrique l ARNm. L ARNm gagne un ribosome ou la traduction lit les codons et assemble les acides amines en proteine.\n\nUn changement dans la sequence des bases (une mutation) peut modifier un codon, donc un acide amine, et donc la proteine.",
+      "required": true,
+      "xp": 10,
+      "question": {
+        "kind": "mcq",
+        "text": "Where in the cell does translation take place?",
+        "text_fr": "Ou, dans la cellule, la traduction a-t-elle lieu ?",
+        "explanation": "Translation happens at the ribosome.",
+        "explanation_fr": "La traduction se déroule au niveau du ribosome.",
+        "hint_prompt": "It is where proteins are built.",
+        "hint_prompt_fr": "C est la ou les proteines sont fabriquees.",
+        "choices": [
+          {"text": "At the ribosome", "text_fr": "Au niveau du ribosome", "correct": true},
+          {"text": "In the nucleus", "text_fr": "Dans le noyau"},
+          {"text": "In the vacuole", "text_fr": "Dans la vacuole"},
+          {"text": "In the cell wall", "text_fr": "Dans la paroi cellulaire"}
+        ],
+        "hints": [
+          {"text": "It is the protein factory.", "text_fr": "C est l usine a proteines."},
+          {"text": "The mRNA travels to it.", "text_fr": "L ARNm se rend jusqu a lui."}
+        ]
+      }
+    },
+    {
+      "kind": "summary",
+      "title": "What to keep",
+      "title_fr": "A retenir",
+      "content": "DNA is a double helix of nucleotides with base pairing A-T and C-G. It replicates semi-conservatively, keeping one old strand. Transcription copies a gene into mRNA in the nucleus; translation reads codons three at a time at the ribosome to build a protein.",
+      "content_fr": "L ADN est une double helice de nucleotides avec l appariement A-T et C-G. Il se replique de facon semi-conservative, en gardant un brin ancien. La transcription copie un gene en ARNm dans le noyau ; la traduction lit les codons par groupes de trois au niveau du ribosome pour construire une proteine.",
+      "required": false,
+      "xp": 5
+    }
+  ],
+  "quiz": {
+    "title": "DNA and protein synthesis: final check",
+    "title_fr": "ADN et synthese des proteines : bilan final",
+    "pass_score": 60,
+    "questions": [
+      {
+        "kind": "mcq",
+        "text": "What is the shape of DNA?",
+        "text_fr": "Quelle est la forme de l ADN ?",
+        "explanation": "A double helix.",
+        "explanation_fr": "Une double helice.",
+        "hint_prompt": "Twisted ladder.",
+        "hint_prompt_fr": "Echelle tordue.",
+        "choices": [
+          {"text": "Double helix", "text_fr": "Double helice", "correct": true},
+          {"text": "Single line", "text_fr": "Ligne simple"},
+          {"text": "Sphere", "text_fr": "Sphere"},
+          {"text": "Ring", "text_fr": "Anneau"}
+        ],
+        "hints": [
+          {"text": "Two strands.", "text_fr": "Deux brins."},
+          {"text": "A spiral.", "text_fr": "Une spirale."}
+        ],
+        "difficulty": 1
+      },
+      {
+        "kind": "mcq",
+        "text": "In DNA, cytosine always pairs with which base?",
+        "text_fr": "Dans l ADN, la cytosine s apparie toujours avec quelle base ?",
+        "explanation": "C pairs with G.",
+        "explanation_fr": "C s apparie avec G.",
+        "hint_prompt": "The other pair is A with T.",
+        "hint_prompt_fr": "L autre paire est A avec T.",
+        "choices": [
+          {"text": "Guanine", "text_fr": "La guanine", "correct": true},
+          {"text": "Thymine", "text_fr": "La thymine"},
+          {"text": "Adenine", "text_fr": "L adenine"},
+          {"text": "Uracil", "text_fr": "L uracile"}
+        ],
+        "hints": [
+          {"text": "C with G.", "text_fr": "C avec G."},
+          {"text": "Not thymine.", "text_fr": "Pas la thymine."}
+        ],
+        "difficulty": 1
+      },
+      {
+        "kind": "mcq",
+        "text": "Which process copies a gene into mRNA?",
+        "text_fr": "Quel processus copie un gene en ARNm ?",
+        "explanation": "Transcription copies DNA into mRNA.",
+        "explanation_fr": "La transcription copie l ADN en ARNm.",
+        "hint_prompt": "It happens in the nucleus.",
+        "hint_prompt_fr": "Elle a lieu dans le noyau.",
+        "choices": [
+          {"text": "Transcription", "text_fr": "La transcription", "correct": true},
+          {"text": "Translation", "text_fr": "La traduction"},
+          {"text": "Replication", "text_fr": "La replication"},
+          {"text": "Diffusion", "text_fr": "La diffusion"}
+        ],
+        "hints": [
+          {"text": "Writing a copy of a gene.", "text_fr": "Copier un gene."},
+          {"text": "It makes mRNA.", "text_fr": "Elle fabrique l ARNm."}
+        ],
+        "difficulty": 1
+      },
+      {
+        "kind": "mcq",
+        "text": "How many bases code for one amino acid?",
+        "text_fr": "Combien de bases codent pour un acide amine ?",
+        "explanation": "A codon of three bases codes for one amino acid.",
+        "explanation_fr": "Un codon de trois bases code pour un acide amine.",
+        "hint_prompt": "A small odd number.",
+        "hint_prompt_fr": "Un petit nombre impair.",
+        "choices": [
+          {"text": "Three", "text_fr": "Trois", "correct": true},
+          {"text": "One", "text_fr": "Une"},
+          {"text": "Two", "text_fr": "Deux"},
+          {"text": "Four", "text_fr": "Quatre"}
+        ],
+        "hints": [
+          {"text": "Called a codon.", "text_fr": "Appele codon."},
+          {"text": "Three bases.", "text_fr": "Trois bases."}
+        ],
+        "difficulty": 1
+      },
+      {
+        "kind": "numeric",
+        "text": "A DNA strand reads A T G. How many bases are in one codon? Give the number.",
+        "text_fr": "Un brin d ADN indique A T G. Combien de bases compte un codon ? Donne le nombre.",
+        "explanation": "A codon is three bases, as in ATG.",
+        "explanation_fr": "Un codon compte trois bases, comme dans ATG.",
+        "hint_prompt": "Count the letters shown.",
+        "hint_prompt_fr": "Compte les lettres montrees.",
+        "config": {"accepted": ["3"]},
+        "hints": [
+          {"text": "Count A, T and G.", "text_fr": "Compte A, T et G."},
+          {"text": "One codon, one amino acid.", "text_fr": "Un codon, un acide amine."}
+        ],
+        "difficulty": 2
+      }
+    ]
+  }
+}

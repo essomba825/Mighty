@@ -1,0 +1,335 @@
+{
+  "lesson": 81,
+  "status": "published",
+  "lesson_fields": {
+    "title": "Atomic Structure and the Periodic Table",
+    "title_fr": "Structure atomique et tableau periodique",
+    "summary": "Atoms are built from protons, neutrons and electrons. The number of protons sets the element, and the way electrons fill the shells explains the layout of the periodic table.",
+    "summary_fr": "Les atomes sont formes de protons, de neutrons et d'electrons. Le nombre de protons fixe l'element, et la facon dont les electrons remplissent les couches explique la disposition du tableau periodique.",
+    "content": "## Inside the atom\n\nEvery atom has a tiny nucleus of protons and neutrons, surrounded by electrons. The number of protons decides which element it is.\n\n## Why the table has its shape\n\nElectrons sit in shells. The outer shell controls how the element behaves, so elements with the same number of outer electrons fall into the same group.",
+    "content_fr": "## A l'interieur de l'atome\n\nTout atome possede un noyau minuscule de protons et de neutrons, entoure d'electrons. Le nombre de protons decide quel element il s'agit.\n\n## Pourquoi le tableau a cette forme\n\nLes electrons se placent dans des couches. La couche externe commande le comportement de l'element, donc les elements qui ont le meme nombre d'electrons externes appartiennent au meme groupe.",
+    "objectives": [
+      "Describe the particles inside an atom and their charges",
+      "Work out the electron arrangement of the first twenty elements",
+      "Relate group and period to the electron shell of an atom"
+    ],
+    "objectives_fr": [
+      "Decrire les particules d'un atome et leurs charges",
+      "Determiner la repartition des electrons des vingt premiers elements",
+      "Relier le groupe et la periode a la couche electronique d'un atome"
+    ],
+    "estimated_minutes": 25
+  },
+  "steps": [
+    {
+      "kind": "concept",
+      "title": "Three kinds of particle",
+      "title_fr": "Trois sortes de particules",
+      "content": "An atom holds three particles:\n\n- Protons: positive charge, found in the nucleus\n- Neutrons: no charge, also in the nucleus\n- Electrons: negative charge, in shells around the nucleus\n\nThe atomic number Z counts the protons. The mass number A counts protons plus neutrons.",
+      "content_fr": "Un atome contient trois particules :\n\n- Les protons : charge positive, dans le noyau\n- Les neutrons : charge nulle, aussi dans le noyau\n- Les electrons : charge negative, dans les couches autour du noyau\n\nLe numero atomique Z compte les protons. Le nombre de masse A compte les protons et les neutrons.",
+      "required": true,
+      "xp": 10,
+      "question": {
+        "kind": "mcq",
+        "text": "Which particle carries a negative charge?",
+        "text_fr": "Quelle particule porte une charge negative ?",
+        "explanation": "Electrons are negative, protons are positive and neutrons are neutral.",
+        "explanation_fr": "Les electrons sont negatifs, les protons sont positifs et les neutrons sont neutres.",
+        "hint_prompt": "It moves around the nucleus in shells.",
+        "hint_prompt_fr": "Elle tourne autour du noyau dans des couches.",
+        "choices": [
+          {
+            "text": "The electron",
+            "text_fr": "L'electron",
+            "correct": true
+          },
+          {
+            "text": "The proton",
+            "text_fr": "Le proton",
+            "correct": false
+          },
+          {
+            "text": "The neutron",
+            "text_fr": "Le neutron",
+            "correct": false
+          }
+        ],
+        "hints": [
+          {
+            "text": "Look at the charge on each particle.",
+            "text_fr": "Regarde la charge de chaque particule."
+          }
+        ]
+      }
+    },
+    {
+      "kind": "explain",
+      "title": "Filling the shells",
+      "title_fr": "Remplir les couches",
+      "content": "Electrons fill the shells from the inside out. The first shell holds up to two electrons, the second up to eight, and the third up to eight before the pattern repeats.\n\nWe write the arrangement as a short list, for example 2, 8, 1 for sodium.",
+      "content_fr": "Les electrons remplissent les couches de l'interieur vers l'exterieur. La premiere couche en contient deux au plus, la deuxieme huit au plus, et la troisieme huit au plus avant que le schema se repete.\n\nOn ecrit la repartition sous forme de petite liste, par exemple 2, 8, 1 pour le sodium.",
+      "required": true,
+      "xp": 10
+    },
+    {
+      "kind": "example",
+      "title": "Worked example: sodium and chlorine",
+      "title_fr": "Exemple resolu : sodium et chlore",
+      "content": "Sodium has 11 electrons: 2, 8, 1. It has one electron in its outer shell.\n\nChlorine has 17 electrons: 2, 8, 7. Its outer shell holds seven electrons.\n\nSodium sits in group 1 because of that single outer electron, chlorine in group 7 because of its seven.",
+      "content_fr": "Le sodium a 11 electrons : 2, 8, 1. Il possede un electron sur sa couche externe.\n\nLe chlore a 17 electrons : 2, 8, 7. Sa couche externe contient sept electrons.\n\nLe sodium est dans le groupe 1 a cause de cet electron unique, le chlore dans le groupe 7 a cause de ses sept electrons.",
+      "required": true,
+      "xp": 12
+    },
+    {
+      "kind": "practice",
+      "title": "Your turn: magnesium",
+      "title_fr": "A toi : le magnesium",
+      "content": "Magnesium has 12 electrons. Write the arrangement, then decide which group it belongs to.",
+      "content_fr": "Le magnesium a 12 electrons. Ecris la repartition, puis determine a quel groupe il appartient.",
+      "required": true,
+      "xp": 12,
+      "question": {
+        "kind": "mcq",
+        "text": "Which group holds magnesium, with 12 electrons?",
+        "text_fr": "Dans quel groupe se trouve le magnesium, qui a 12 electrons ?",
+        "explanation": "12 electrons give 2, 8, 2. The two outer electrons place it in group 2.",
+        "explanation_fr": "12 electrons donnent 2, 8, 2. Les deux electrons externes le placent dans le groupe 2.",
+        "hint_prompt": "Fill the shells first, then count the outer electrons.",
+        "hint_prompt_fr": "Remplis d'abord les couches, puis compte les electrons externes.",
+        "choices": [
+          {
+            "text": "Group 2",
+            "text_fr": "Groupe 2",
+            "correct": true
+          },
+          {
+            "text": "Group 12",
+            "text_fr": "Groupe 12",
+            "correct": false
+          },
+          {
+            "text": "Group 8",
+            "text_fr": "Groupe 8",
+            "correct": false
+          }
+        ],
+        "hints": [
+          {
+            "text": "The number of outer electrons is the group number.",
+            "text_fr": "Le nombre d'electrons externes donne le numero du groupe."
+          }
+        ]
+      }
+    },
+    {
+      "kind": "question",
+      "title": "Check: isotopes",
+      "title_fr": "Verification : les isotopes",
+      "content": "Isotopes are atoms of the same element with different numbers of neutrons. They have the same atomic number but different mass numbers.",
+      "content_fr": "Les isotopes sont des atomes d'un meme element qui different par leur nombre de neutrons. Ils ont le meme numero atomique mais des nombres de masse differents.",
+      "required": true,
+      "xp": 12,
+      "question": {
+        "kind": "mcq",
+        "text": "What is different between two isotopes of carbon?",
+        "text_fr": "Qu'est-ce qui differe entre deux isotopes du carbone ?",
+        "explanation": "Isotopes share the proton count but have different neutron counts, so their mass numbers differ.",
+        "explanation_fr": "Les isotopes partagent le nombre de protons mais ont un nombre de neutrons different, donc leurs nombres de masse diffèrent.",
+        "hint_prompt": "Which particle changes, protons or neutrons?",
+        "hint_prompt_fr": "Quelle particule change, les protons ou les neutrons ?",
+        "choices": [
+          {
+            "text": "The number of neutrons",
+            "text_fr": "Le nombre de neutrons",
+            "correct": true
+          },
+          {
+            "text": "The number of protons",
+            "text_fr": "Le nombre de protons",
+            "correct": false
+          },
+          {
+            "text": "The charge of the electron",
+            "text_fr": "La charge de l'electron",
+            "correct": false
+          }
+        ],
+        "hints": [
+          {
+            "text": "The element stays the same, so the protons stay the same.",
+            "text_fr": "L'element reste le meme, donc les protons restent les memes."
+          }
+        ]
+      }
+    },
+    {
+      "kind": "summary",
+      "title": "What to keep",
+      "title_fr": "A retenir",
+      "content": "Protons and neutrons sit in the nucleus, electrons fill the shells. Atomic number counts protons, mass number counts protons and neutrons. The outer electrons set the group, the shell count sets the period.",
+      "content_fr": "Les protons et les neutrons sont dans le noyau, les electrons remplissent les couches. Le numero atomique compte les protons, le nombre de masse compte les protons et les neutrons. Les electrons externes fixent le groupe, le nombre de couches fixe la periode.",
+      "required": false,
+      "xp": 5
+    }
+  ],
+  "quiz": {
+    "title": "Atomic Structure and the Periodic Table",
+    "title_fr": "Structure atomique et tableau periodique",
+    "pass_score": 60,
+    "questions": [
+      {
+        "kind": "numeric",
+        "text": "How many electrons fill the second shell?",
+        "text_fr": "Combien d'electrons remplissent la deuxieme couche ?",
+        "explanation": "The second shell holds up to eight electrons.",
+        "explanation_fr": "La deuxieme couche contient jusqu'a huit electrons.",
+        "hint_prompt": "Recall the 2, 8, 8 pattern.",
+        "hint_prompt_fr": "Rappelle-toi le schema 2, 8, 8.",
+        "config": {
+          "accepted": [
+            "8"
+          ]
+        },
+        "hints": [
+          {
+            "text": "First shell two, second shell eight.",
+            "text_fr": "Premiere couche deux, deuxieme couche huit."
+          }
+        ],
+        "difficulty": 1
+      },
+      {
+        "kind": "mcq",
+        "text": "An atom has 9 electrons. Which arrangement is correct?",
+        "text_fr": "Un atome a 9 electrons. Quelle repartition est juste ?",
+        "explanation": "Two in the first shell and seven in the second give 2, 7.",
+        "explanation_fr": "Deux dans la premiere couche et sept dans la deuxieme donnent 2, 7.",
+        "hint_prompt": "Fill the first shell before the second.",
+        "hint_prompt_fr": "Remplis la premiere couche avant la deuxieme.",
+        "choices": [
+          {
+            "text": "2, 7",
+            "text_fr": "2, 7",
+            "correct": true
+          },
+          {
+            "text": "7, 2",
+            "text_fr": "7, 2",
+            "correct": false
+          },
+          {
+            "text": "9",
+            "text_fr": "9",
+            "correct": false
+          }
+        ],
+        "hints": [
+          {
+            "text": "Nine minus two leaves the rest for shell two.",
+            "text_fr": "Neuf moins deux laisse le reste pour la deuxieme couche."
+          }
+        ],
+        "difficulty": 1
+      },
+      {
+        "kind": "mcq",
+        "text": "Which particle has no charge?",
+        "text_fr": "Quelle particule n'a pas de charge ?",
+        "explanation": "Neutrons are neutral, so they carry no charge.",
+        "explanation_fr": "Les neutrons sont neutres, ils ne portent aucune charge.",
+        "hint_prompt": "Its name is close to neutral.",
+        "hint_prompt_fr": "Son nom est proche de neutre.",
+        "choices": [
+          {
+            "text": "The neutron",
+            "text_fr": "Le neutron",
+            "correct": true
+          },
+          {
+            "text": "The electron",
+            "text_fr": "L'electron",
+            "correct": false
+          },
+          {
+            "text": "The proton",
+            "text_fr": "Le proton",
+            "correct": false
+          }
+        ],
+        "hints": [
+          {
+            "text": "Only one of the three is neutral.",
+            "text_fr": "Une seule des trois est neutre."
+          }
+        ],
+        "difficulty": 1
+      },
+      {
+        "kind": "mcq",
+        "text": "An element sits in group 1. How many outer electrons does it have?",
+        "text_fr": "Un element est dans le groupe 1. Combien d'electrons externes a-t-il ?",
+        "explanation": "The group number matches the number of outer electrons, so group 1 means one.",
+        "explanation_fr": "Le numero du groupe correspond au nombre d'electrons externes, donc groupe 1 veut dire un.",
+        "hint_prompt": "Group number equals outer electrons.",
+        "hint_prompt_fr": "Le numero du groupe egale les electrons externes.",
+        "choices": [
+          {
+            "text": "One",
+            "text_fr": "Un",
+            "correct": true
+          },
+          {
+            "text": "Two",
+            "text_fr": "Deux",
+            "correct": false
+          },
+          {
+            "text": "Seven",
+            "text_fr": "Sept",
+            "correct": false
+          }
+        ],
+        "hints": [
+          {
+            "text": "Look at the group number.",
+            "text_fr": "Regarde le numero du groupe."
+          }
+        ],
+        "difficulty": 1
+      },
+      {
+        "kind": "mcq",
+        "text": "What does the mass number count?",
+        "text_fr": "Que compte le nombre de masse ?",
+        "explanation": "Mass number adds protons and neutrons, the particles in the nucleus.",
+        "explanation_fr": "Le nombre de masse additionne les protons et les neutrons, les particules du noyau.",
+        "hint_prompt": "It includes the heavy particles only.",
+        "hint_prompt_fr": "Il ne compte que les particules lourdes.",
+        "choices": [
+          {
+            "text": "Protons plus neutrons",
+            "text_fr": "Les protons et les neutrons",
+            "correct": true
+          },
+          {
+            "text": "Electrons only",
+            "text_fr": "Les electrons seulement",
+            "correct": false
+          },
+          {
+            "text": "Protons only",
+            "text_fr": "Les protons seulement",
+            "correct": false
+          }
+        ],
+        "hints": [
+          {
+            "text": "Electrons are far too light to change the mass much.",
+            "text_fr": "Les electrons sont trop legers pour changer vraiment la masse."
+          }
+        ],
+        "difficulty": 2
+      }
+    ]
+  }
+}

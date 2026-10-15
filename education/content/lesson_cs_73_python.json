@@ -1,0 +1,251 @@
+{
+  "lesson": 73,
+  "status": "published",
+  "lesson_fields": {
+    "title": "Your First Python Program",
+    "title_fr": "Votre premier programme Python",
+    "summary": "Write, run and understand your first Python program. Learn print, input, comments and basic syntax.",
+    "summary_fr": "Écrire, exécuter et comprendre son premier programme Python. Découvrir print, input, commentaires et syntaxe de base.",
+    "objectives": [
+      "Run Python interactively and from a file",
+      "Use print() to display output",
+      "Use input() to read user input",
+      "Write comments to explain code"
+    ],
+    "objectives_fr": [
+      "Exécuter Python en interactif et depuis un fichier",
+      "Utiliser print() pour afficher du texte",
+      "Utiliser input() pour lire une saisie",
+      "Écrire des commentaires pour expliquer le code"
+    ],
+    "estimated_minutes": 25
+  },
+  "steps": [
+    {
+      "kind": "concept",
+      "title": "Running Python",
+      "title_fr": "Exécuter Python",
+      "content": "Python can run in interactive mode (REPL) or by running a .py file. Interactive is great to test; files are better for saving programs.",
+      "content_fr": "Python s'exécute en mode interactif (REPL) ou en lançant un fichier .py. L'interactif sert aux tests, le fichier pour sauvegarder.",
+      "required": true,
+      "xp": 10,
+      "question": {
+        "kind": "mcq",
+        "text": "Which is best for saving a program?",
+        "text_fr": "Lequel est le meilleur pour sauvegarder un programme ?",
+        "explanation": "A .py file preserves code.",
+        "explanation_fr": "Un fichier .py conserve le code.",
+        "hint_prompt": "Save to disk.",
+        "hint_prompt_fr": "Sauvegarder sur disque.",
+        "choices": [
+          {"text": "A .py file", "text_fr": "Un fichier .py", "correct": true},
+          {"text": "REPL only", "text_fr": "Uniquement REPL"},
+          {"text": "Calculator", "text_fr": "Calculatrice"}
+        ],
+        "hints": [
+          {"text": "Files persist.", "text_fr": "Les fichiers restent."},
+          {"text": "REPL forgets on exit.", "text_fr": "REPL oublie à la fermeture."}
+        ]
+      }
+    },
+    {
+      "kind": "example",
+      "title": "print()",
+      "title_fr": "print()",
+      "content": "print('Hello, World!') displays text. Strings use quotes. You can print numbers and expressions.",
+      "content_fr": "print('Bonjour !') affiche du texte. Les chaînes utilisent des guillemets. On peut afficher nombres et calculs.",
+      "required": true,
+      "xp": 10,
+      "question": {
+        "kind": "mcq",
+        "text": "What does print('Hi') output?",
+        "text_fr": "Que produit print('Hi') ?",
+        "explanation": "Displays Hi.",
+        "explanation_fr": "Affiche Hi.",
+        "hint_prompt": "Text output.",
+        "hint_prompt_fr": "Sortie texte.",
+        "choices": [
+          {"text": "Hi", "text_fr": "Hi", "correct": true},
+          {"text": "'Hi'", "text_fr": "'Hi'"},
+          {"text": "Nothing", "text_fr": "Rien"}
+        ],
+        "hints": [
+          {"text": "No quotes in output.", "text_fr": "Pas de guillemets affichés."},
+          {"text": "print shows content.", "text_fr": "print montre le contenu."}
+        ]
+      }
+    },
+    {
+      "kind": "example",
+      "title": "input()",
+      "title_fr": "input()",
+      "content": "name = input('Name: ') reads user input as a string. Convert with int() if needed for numbers.",
+      "content_fr": "nom = input('Nom : ') lit une saisie sous forme de chaîne. Convertir avec int() pour les nombres.",
+      "required": true,
+      "xp": 10,
+      "question": {
+        "kind": "mcq",
+        "text": "input() returns...",
+        "text_fr": "input() retourne...",
+        "explanation": "A string.",
+        "explanation_fr": "Une chaîne de caractères.",
+        "hint_prompt": "Type of input.",
+        "hint_prompt_fr": "Type de saisie.",
+        "choices": [
+          {"text": "A string", "text_fr": "Une chaîne", "correct": true},
+          {"text": "An integer", "text_fr": "Un entier"},
+          {"text": "A list", "text_fr": "Une liste"}
+        ],
+        "hints": [
+          {"text": "Always text first.", "text_fr": "Toujours du texte au départ."},
+          {"text": "Use int() to convert.", "text_fr": "Utiliser int() pour convertir."}
+        ]
+      }
+    },
+    {
+      "kind": "example",
+      "title": "Comments",
+      "title_fr": "Commentaires",
+      "content": "# This is a comment. Comments explain code and are ignored by Python.",
+      "content_fr": "# Ceci est un commentaire. Ignoré par Python, sert à expliquer.",
+      "required": true,
+      "xp": 10,
+      "question":       {
+        "kind": "mcq",
+        "text": "What happens to a line starting with #?",
+        "text_fr": "Qu'arrive-t-il à une ligne commençant par # ?",
+        "explanation": "Ignored by Python.",
+        "explanation_fr": "Ignoré par Python.",
+        "hint_prompt": "Not executed.",
+        "hint_prompt_fr": "Non exécuté.",
+        "choices": [
+          {"text": "Ignored", "text_fr": "Ignoré", "correct": true},
+          {"text": "Causes error", "text_fr": "Erreur"},
+          {"text": "Runs twice", "text_fr": "Exécuté deux fois"}
+        ],
+        "hints": [
+          {"text": "For humans.", "text_fr": "Pour les humains."},
+          {"text": "Helps readability.", "text_fr": "Améliore la lisibilité."}
+        ]
+      }
+    },
+    {
+      "kind": "example",
+      "title": "First program",
+      "title_fr": "Premier programme",
+      "content": "```python\nname = input('What is your name? ')\nprint('Hello, ' + name + '!')\n```",
+      "content_fr": "```python\nnom = input('Quel est ton nom ? ')\nprint('Bonjour, ' + nom + '!')\n```",
+      "required": true,
+      "xp": 10,
+      "question": {
+        "kind": "mcq",
+        "text": "This program greets the user by...",
+        "text_fr": "Ce programme salue l'utilisateur en...",
+        "explanation": "Combining input with print.",
+        "explanation_fr": "Combinant saisie et affichage.",
+        "hint_prompt": "Uses input and print.",
+        "hint_prompt_fr": "Utilise input et print.",
+        "choices": [
+          {"text": "Using input() then print()", "text_fr": "input() puis print()", "correct": true},
+          {"text": "Only print()", "text_fr": "Uniquement print()"},
+          {"text": "Only input()", "text_fr": "Uniquement input()"}
+        ],
+        "hints": [
+          {"text": "Reads name, prints greeting.", "text_fr": "Lit nom, affiche salut."},
+          {"text": "String concatenation used.", "text_fr": "Concaténation de chaînes."}
+        ]
+      }
+    },
+    {
+      "kind": "summary",
+      "title": "Key points",
+      "title_fr": "À retenir",
+      "content": "Run with python file.py. print() outputs, input() reads strings. Use # for comments.",
+      "content_fr": "Exécuter avec python fichier.py. print() affiche, input() lit chaînes. # pour commentaires.",
+      "required": false,
+      "xp": 5
+    }
+  ],
+  "quiz": {
+    "title": "First Python Program Quiz",
+    "title_fr": "Quiz premier programme Python",
+    "pass_score": 60,
+    "questions": [
+      {
+        "kind": "mcq",
+        "text": "Best way to save code?",
+        "text_fr": "Meilleur moyen de sauvegarder ?",
+        "explanation": ".py file.",
+        "explanation_fr": "Fichier .py.",
+        "hint_prompt": "File extension.",
+        "hint_prompt_fr": "Extension fichier.",
+        "choices": [
+          {"text": ".py file", "text_fr": ".py", "correct": true},
+          {"text": "REPL", "text_fr": "REPL"}
+        ],
+        "difficulty": 1,
+        "hints": [{"text": "Persists.", "text_fr": "Persiste."}]
+      },
+      {
+        "kind": "mcq",
+        "text": "print('Hi') shows?",
+        "text_fr": "print('Hi') affiche ?",
+        "explanation": "Hi",
+        "explanation_fr": "Hi",
+        "hint_prompt": "Content.",
+        "hint_prompt_fr": "Contenu.",
+        "choices": [
+          {"text": "Hi", "text_fr": "Hi", "correct": true},
+          {"text": "'Hi'", "text_fr": "'Hi'"}
+        ],
+        "difficulty": 1,
+        "hints": [{"text": "No quotes.", "text_fr": "Pas de guillemets."}]
+      },
+      {
+        "kind": "mcq",
+        "text": "input() returns type?",
+        "text_fr": "Type retourné par input() ?",
+        "explanation": "str",
+        "explanation_fr": "str",
+        "hint_prompt": "Text.",
+        "hint_prompt_fr": "Texte.",
+        "choices": [
+          {"text": "str", "text_fr": "str", "correct": true},
+          {"text": "int", "text_fr": "int"}
+        ],
+        "difficulty": 1,
+        "hints": [{"text": "String.", "text_fr": "Chaîne."}]
+      },
+      {
+        "kind": "mcq",
+        "text": "# comment is...",
+        "text_fr": "# commentaire est...",
+        "explanation": "Ignored.",
+        "explanation_fr": "Ignoré.",
+        "hint_prompt": "Not run.",
+        "hint_prompt_fr": "Pas exécuté.",
+        "choices": [
+          {"text": "Ignored", "text_fr": "Ignoré", "correct": true},
+          {"text": "Executed", "text_fr": "Exécuté"}
+        ],
+        "difficulty": 1,
+        "hints": [{"text": "For humans.", "text_fr": "Pour humains."}]
+      },
+      {
+        "kind": "mcq",
+        "text": "To greet user by name use...",
+        "text_fr": "Pour saluer avec nom utiliser...",
+        "explanation": "input() + print()",
+        "explanation_fr": "input() + print()",
+        "hint_prompt": "Read then show.",
+        "hint_prompt_fr": "Lire puis afficher.",
+        "choices": [
+          {"text": "input() then print()", "text_fr": "input() puis print()", "correct": true},
+          {"text": "print() only", "text_fr": "print() seul"}
+        ],
+        "difficulty": 2,
+        "hints": [{"text": "Needs input.", "text_fr": "Besoin saisie."}]
+      }
+    ]
+  }
+}

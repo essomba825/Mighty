@@ -1,0 +1,214 @@
+{
+  "lesson": 57,
+  "status": "published",
+  "lesson_fields": {
+    "title": "Momentum and Collisions",
+    "title_fr": "Quantité de mouvement et collisions",
+    "summary": "Momentum p = m × v measures how much motion an object carries, and in a collision with no external force the total momentum is conserved.",
+    "summary_fr": "La quantité de mouvement p = m × v mesure le mouvement porté par un objet, et lors d'une collision sans force extérieure la quantité totale se conserve.",
+    "content": "## Mass in motion\n\np = m × v (kg·m/s). In collisions without external forces, total momentum before = total momentum after.",
+    "content_fr": "## La masse en mouvement\n\np = m × v (kg·m/s). Dans une collision sans force extérieure, quantité totale avant = quantité totale après.",
+    "objectives": [
+      "Compute momentum as p = m × v",
+      "State the conservation of momentum",
+      "Apply conservation to a collision where bodies stick together",
+      "Give the unit of momentum"
+    ],
+    "objectives_fr": [
+      "Calculer la quantité de mouvement p = m × v",
+      "Énoncer la conservation de la quantité de mouvement",
+      "Appliquer la conservation à une collision où les corps restent collés",
+      "Donner l'unité de la quantité de mouvement"
+    ],
+    "estimated_minutes": 30
+  },
+  "steps": [
+    {
+      "kind": "concept",
+      "title": "What momentum measures",
+      "title_fr": "Ce que mesure la quantité de mouvement",
+      "content": "A heavy car rolling slowly can be harder to stop than a light bicycle going fast. Momentum p = m × v captures both the mass and the speed in a single number.",
+      "content_fr": "Une voiture lourde qui roule doucement peut être plus dure à arrêter qu'un vélo léger lancé vite. La quantité de mouvement p = m × v rassemble la masse et la vitesse en un seul nombre.",
+      "required": true,
+      "xp": 10,
+      "question": {
+        "kind": "numeric",
+        "text": "Mass 2 kg, velocity 5 m/s. Momentum in kg·m/s?",
+        "text_fr": "Masse 2 kg, vitesse 5 m/s. Quantité de mouvement en kg·m/s ?",
+        "explanation": "p = 2 × 5 = 10.",
+        "explanation_fr": "p = 2 × 5 = 10.",
+        "hint_prompt": "Multiply mass and velocity.",
+        "hint_prompt_fr": "Multiplie masse et vitesse.",
+        "config": {"accepted": ["10"]},
+        "hints": [{"text": "2 × 5 = 10.", "text_fr": "2 × 5 = 10."}]
+      }
+    },
+    {
+      "kind": "explain",
+      "title": "Momentum is a vector",
+      "title_fr": "Une grandeur qui a un sens",
+      "content": "Momentum points the way the object moves. Two objects with equal and opposite momenta cancel each other: the total is zero.",
+      "content_fr": "La quantité de mouvement pointe le sens du mouvement. Deux objets aux quantités égales et opposées s'annulent : le total est nul.",
+      "required": true,
+      "xp": 10,
+      "question": {
+        "kind": "mcq",
+        "text": "Momentum is a vector. This means it has…",
+        "text_fr": "La quantité de mouvement est un vecteur. Cela signifie qu'elle possède…",
+        "explanation": "A vector always carries a magnitude and a direction.",
+        "explanation_fr": "Un vecteur porte toujours une valeur et une direction.",
+        "hint_prompt": "Think of an arrow.",
+        "hint_prompt_fr": "Pense à une flèche.",
+        "choices": [
+          {"text": "only a magnitude", "text_fr": "seulement une valeur", "correct": false},
+          {"text": "only a direction", "text_fr": "seulement une direction", "correct": false},
+          {"text": "both a magnitude and a direction", "text_fr": "une valeur et une direction", "correct": true}
+        ],
+        "hints": [{"text": "An arrow has a length and points somewhere.", "text_fr": "Une flèche a une longueur et pointe quelque part."}]
+      }
+    },
+    {
+      "kind": "example",
+      "title": "Worked example: the sticky collision",
+      "title_fr": "Exemple résolu : la collision qui colle",
+      "content": "Trolley A (2 kg, 3 m/s) hits stationary B (2 kg) and both stick together. Total momentum before = 2 × 3 = 6. Combined mass 4 kg must carry the same 6, so v = 6 ÷ 4 = 1.5 m/s.",
+      "content_fr": "Le chariot A (2 kg, 3 m/s) percute B (2 kg) à l'arrêt et ils restent collés. Quantité totale avant = 2 × 3 = 6. La masse combinée de 4 kg doit porter les mêmes 6, donc v = 6 ÷ 4 = 1,5 m/s.",
+      "required": true,
+      "xp": 12
+    },
+    {
+      "kind": "practice",
+      "title": "Your turn: the gliders stick",
+      "title_fr": "À toi : les glisseurs collés",
+      "content": "Glider A of 4 kg at 6 m/s hits glider B of 2 kg at rest, and they stick. Use conservation to find their common speed in m/s.",
+      "content_fr": "Un glisseur A de 4 kg à 6 m/s percute un glisseur B de 2 kg au repos, et ils restent collés. Utilise la conservation pour trouver leur vitesse commune en m/s.",
+      "required": true,
+      "xp": 12,
+      "question": {
+        "kind": "numeric",
+        "text": "4 kg at 6 m/s hits a stationary 2 kg and they stick. Speed after collision in m/s?",
+        "text_fr": "4 kg à 6 m/s percute 2 kg à l'arrêt et ils se collent. Vitesse après la collision en m/s ?",
+        "explanation": "Total before = 4 × 6 = 24. After: (4 + 2) × v = 24, so v = 4.",
+        "explanation_fr": "Total avant = 4 × 6 = 24. Après : (4 + 2) × v = 24, donc v = 4.",
+        "hint_prompt": "Momentum after = momentum before.",
+        "hint_prompt_fr": "Quantité après = quantité avant.",
+        "config": {"accepted": ["4"]},
+        "hints": [
+          {"text": "Before: 4 × 6 = 24.", "text_fr": "Avant : 4 × 6 = 24."},
+          {"text": "24 ÷ 6 = 4.", "text_fr": "24 ÷ 6 = 4."}
+        ]
+      }
+    },
+    {
+      "kind": "question",
+      "title": "Check: recoil backwards",
+      "title_fr": "Vérification : le recul",
+      "content": "A skater at rest throws a ball forward. Total momentum was zero, so after the throw it must still be zero: the skater slides backwards.",
+      "content_fr": "Un patineur à l'arrêt lance une balle vers l'avant. La quantité totale valait zéro, elle doit rester nulle : le patineur glisse vers l'arrière.",
+      "required": true,
+      "xp": 12,
+      "question": {
+        "kind": "mcq",
+        "text": "A stationary cannon fires a ball to the right. By conservation of momentum the cannon moves…",
+        "text_fr": "Un canon à l'arrêt tire un boulet vers la droite. Par conservation, le canon se déplace…",
+        "explanation": "Total momentum stays zero, so the cannon recoils to the left.",
+        "explanation_fr": "La quantité totale reste nulle, donc le canon recule vers la gauche.",
+        "hint_prompt": "Balancing the ball's forward momentum.",
+        "hint_prompt_fr": "Il faut équilibrer la quantité de mouvement du boulet.",
+        "choices": [
+          {"text": "to the right too", "text_fr": "vers la droite aussi", "correct": false},
+          {"text": "to the left", "text_fr": "vers la gauche", "correct": true},
+          {"text": "it does not move", "text_fr": "il ne bouge pas", "correct": false}
+        ],
+        "hints": [{"text": "Total momentum was zero before the shot.", "text_fr": "La quantité totale était nulle avant le tir."}]
+      }
+    },
+    {
+      "kind": "summary",
+      "title": "What to keep",
+      "title_fr": "À retenir",
+      "content": "p = m × v in kg·m/s. In a collision, total momentum before = total momentum after.",
+      "content_fr": "p = m × v en kg·m/s. Dans une collision, quantité totale avant = quantité totale après.",
+      "required": false,
+      "xp": 5
+    }
+  ],
+  "quiz": {
+    "title": "Momentum and collisions",
+    "title_fr": "Quantité de mouvement et collisions",
+    "pass_score": 60,
+    "questions": [
+      {
+        "kind": "numeric",
+        "text": "Mass 60 kg, velocity 2 m/s. Momentum in kg·m/s?",
+        "text_fr": "Masse 60 kg, vitesse 2 m/s. Quantité de mouvement en kg·m/s ?",
+        "explanation": "60 × 2 = 120.",
+        "explanation_fr": "60 × 2 = 120.",
+        "hint_prompt": "p = m × v.",
+        "hint_prompt_fr": "p = m × v.",
+        "config": {"accepted": ["120"]},
+        "hints": [{"text": "60 × 2.", "text_fr": "60 × 2."}],
+        "difficulty": 1
+      },
+      {
+        "kind": "numeric",
+        "text": "A 3 kg trolley at 4 m/s hits a stationary 1 kg trolley and they stick. Common speed in m/s?",
+        "text_fr": "Un chariot de 3 kg à 4 m/s percute un chariot de 1 kg à l'arrêt et ils se collent. Vitesse commune en m/s ?",
+        "explanation": "Before: 12. After: (3 + 1) × v = 12 → v = 3.",
+        "explanation_fr": "Avant : 12. Après : (3 + 1) × v = 12 → v = 3.",
+        "hint_prompt": "Total momentum is preserved.",
+        "hint_prompt_fr": "La quantité totale se conserve.",
+        "config": {"accepted": ["3"]},
+        "hints": [
+          {"text": "3 × 4 = 12.", "text_fr": "3 × 4 = 12."},
+          {"text": "12 ÷ 4 = 3.", "text_fr": "12 ÷ 4 = 3."}
+        ],
+        "difficulty": 2
+      },
+      {
+        "kind": "mcq",
+        "text": "The unit of momentum can be written…",
+        "text_fr": "L'unité de la quantité de mouvement s'écrit…",
+        "explanation": "Mass × velocity gives kg·m/s, which is also one newton-second.",
+        "explanation_fr": "Masse × vitesse donne des kg·m/s, ce qui équivaut au newton-seconde.",
+        "hint_prompt": "Put together the units of mass and velocity.",
+        "hint_prompt_fr": "Assemble les unités de la masse et de la vitesse.",
+        "choices": [
+          {"text": "kg·m/s", "text_fr": "kg·m/s", "correct": true},
+          {"text": "kg·m/s²", "text_fr": "kg·m/s²", "correct": false},
+          {"text": "J/kg", "text_fr": "J/kg", "correct": false}
+        ],
+        "hints": [{"text": "kg times m/s.", "text_fr": "kg fois m/s."}],
+        "difficulty": 1
+      },
+      {
+        "kind": "numeric",
+        "text": "Two identical skaters push apart: one leaves at 1.5 m/s. The other (same mass) moves at how many m/s? Give the value.",
+        "text_fr": "Deux patineurs identiques se poussent : l'un part à 1,5 m/s. L'autre (même masse) recule à combien de m/s ? Donne la valeur.",
+        "explanation": "Momenta are equal and opposite: 1.5.",
+        "explanation_fr": "Les quantités sont égales et opposées : 1,5.",
+        "hint_prompt": "Same mass, momenta must cancel.",
+        "hint_prompt_fr": "Même masse, les quantités doivent s'annuler.",
+        "config": {"accepted": ["1.5"]},
+        "hints": [{"text": "m × v₁ = m × v₂.", "text_fr": "m × v₁ = m × v₂."}],
+        "difficulty": 2
+      },
+      {
+        "kind": "mcq",
+        "text": "Momentum is conserved in a collision provided that…",
+        "text_fr": "La quantité de mouvement se conserve dans une collision à condition que…",
+        "explanation": "Only when no external force acts is total momentum truly constant.",
+        "explanation_fr": "Seulement sans force extérieure la quantité totale reste vraiment constante.",
+        "hint_prompt": "What if friction or a wall intervenes?",
+        "hint_prompt_fr": "Et si le frottement ou un mur intervient ?",
+        "choices": [
+          {"text": "the collision is very fast", "text_fr": "la collision est très rapide", "correct": false},
+          {"text": "no external force acts", "text_fr": "aucune force extérieure n'agit", "correct": true},
+          {"text": "the masses are equal", "text_fr": "les masses sont égales", "correct": false}
+        ],
+        "hints": [{"text": "External pushes change the total.", "text_fr": "Les poussées extérieures changent le total."}],
+        "difficulty": 3
+      }
+    ]
+  }
+}

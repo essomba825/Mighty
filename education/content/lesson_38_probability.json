@@ -1,0 +1,329 @@
+{
+  "lesson": 38,
+  "status": "published",
+  "lesson_fields": {
+    "title": "Introduction to Probability",
+    "title_fr": "Introduction aux probabilités",
+    "summary": "Probability measures chance between 0 and 1. Count favourable outcomes over total outcomes and use scales from impossible to certain.",
+    "summary_fr": "La probabilité mesure la chance entre 0 et 1. On compte les cas favorables sur le total et on situe les événements entre impossible et certain.",
+    "content": "## One simple fraction\n\nP(event) = number of favourable outcomes ÷ number of equally likely outcomes.",
+    "content_fr": "## Une fraction simple\n\nP(événement) = nombre de cas favorables ÷ nombre de cas possibles de même chance.",
+    "objectives": [
+      "Place an event on the scale from impossible to certain",
+      "Compute a probability as a fraction of favourable over total",
+      "Simplify a probability fraction",
+      "Use P(not A) = 1 − P(A)"
+    ],
+    "objectives_fr": [
+      "Placer un événement sur l'échelle d'impossible à certain",
+      "Calculer une probabilité comme fraction de favorables sur total",
+      "Simplifier une fraction de probabilité",
+      "Utiliser P(non A) = 1 − P(A)"
+    ],
+    "estimated_minutes": 25
+  },
+  "steps": [
+    {
+      "kind": "concept",
+      "title": "From impossible to certain",
+      "title_fr": "D'impossible à certain",
+      "content": "Probability sits between 0 (impossible) and 1 (certain). Tossing a fair coin: P(heads) = 0.5, exactly in the middle.\n\n_Figure: Tim Stellmach — Public domain, via Wikimedia Commons._",
+      "content_fr": "La probabilité se situe entre 0 (impossible) et 1 (certain). Avec une pièce équilibrée : P(pile) = 0,5, exactement au milieu.\n\n_Figure : Tim Stellmach — Public domain, via Wikimedia Commons._",
+      "required": true,
+      "xp": 10,
+      "question": {
+        "kind": "mcq",
+        "text": "Which of these numbers can be a probability?",
+        "text_fr": "Lequel de ces nombres peut être une probabilité ?",
+        "explanation": "A probability always lies between 0 and 1; 1.4 is too big and −0.2 is negative.",
+        "explanation_fr": "Une probabilité reste toujours entre 0 et 1 ; 1,4 dépasse et −0,2 est négatif.",
+        "hint_prompt": "Remember the scale from 0 to 1.",
+        "hint_prompt_fr": "Souviens-toi de l'échelle de 0 à 1.",
+        "choices": [
+          {
+            "text": "0.75",
+            "text_fr": "0,75",
+            "correct": true
+          },
+          {
+            "text": "1.4",
+            "text_fr": "1,4",
+            "correct": false
+          },
+          {
+            "text": "-0.2",
+            "text_fr": "-0,2",
+            "correct": false
+          }
+        ],
+        "hints": [
+          {
+            "text": "It must lie between 0 and 1 inclusive.",
+            "text_fr": "Il doit se situer entre 0 et 1 inclus."
+          }
+        ]
+      }
+    },
+    {
+      "kind": "explain",
+      "title": "The fraction of chance",
+      "title_fr": "La fraction de chance",
+      "content": "With equally likely outcomes, P = favourable ÷ total. A die: P(6) = 1/6, P(even) = 3/6 = 1/2 because 2, 4 and 6 are favourable.",
+      "content_fr": "Avec des cas de même chance, P = favorables ÷ total. Un dé : P(6) = 1/6, P(pair) = 3/6 = 1/2 car 2, 4 et 6 sont favorables.",
+      "required": true,
+      "xp": 10,
+      "question": {
+        "kind": "numeric",
+        "text": "A bag has 3 red and 2 blue balls. Compute 100 × P(red). Answer as a number.",
+        "text_fr": "Un sac contient 3 boules rouges et 2 bleues. Calcule 100 × P(rouge). Réponds par un nombre.",
+        "explanation": "P(red) = 3/5 = 0.6, so 100 × 0.6 = 60.",
+        "explanation_fr": "P(rouge) = 3/5 = 0,6, donc 100 × 0,6 = 60.",
+        "hint_prompt": "Favourable over total.",
+        "hint_prompt_fr": "Favorables sur total.",
+        "config": {
+          "accepted": [
+            "60"
+          ]
+        },
+        "hints": [
+          {
+            "text": "3 red out of 5 → 0.6.",
+            "text_fr": "3 rouges sur 5 → 0,6."
+          },
+          {
+            "text": "100 × 0.6 = 60.",
+            "text_fr": "100 × 0,6 = 60."
+          }
+        ]
+      }
+    },
+    {
+      "kind": "example",
+      "title": "Worked example: cards",
+      "title_fr": "Exemple résolu : les cartes",
+      "content": "A full deck has 52 cards with 4 aces. P(ace) = 4/52 = 1/13. Always simplify the fraction so the chance is easy to compare.",
+      "content_fr": "Un jeu complet a 52 cartes avec 4 as. P(as) = 4/52 = 1/13. On simplifie toujours la fraction pour comparer facilement les chances.",
+      "required": true,
+      "xp": 12
+    },
+    {
+      "kind": "practice",
+      "title": "Your turn: the complementary rule",
+      "title_fr": "À toi : la règle du complément",
+      "content": "If it rains with probability 0.3, then no rain happens with probability 1 − 0.3 = 0.7.",
+      "content_fr": "S'il pleut avec une probabilité de 0,3, alors pas de pluie arrive avec une probabilité de 1 − 0,3 = 0,7.",
+      "required": true,
+      "xp": 12,
+      "question": {
+        "kind": "numeric",
+        "text": "P(win) = 0.2. Compute 100 × P(lose). Answer as a number.",
+        "text_fr": "P(gagner) = 0,2. Calcule 100 × P(perdre). Réponds par un nombre.",
+        "explanation": "P(lose) = 1 − 0.2 = 0.8, times 100 = 80.",
+        "explanation_fr": "P(perdre) = 1 − 0,2 = 0,8, fois 100 = 80.",
+        "hint_prompt": "Win and lose together make 1.",
+        "hint_prompt_fr": "Gagner et perdre font 1 ensemble.",
+        "config": {
+          "accepted": [
+            "80"
+          ]
+        },
+        "hints": [
+          {
+            "text": "1 − 0.2 = 0.8.",
+            "text_fr": "1 − 0,2 = 0,8."
+          },
+          {
+            "text": "0.8 × 100 = 80.",
+            "text_fr": "0,8 × 100 = 80."
+          }
+        ]
+      }
+    },
+    {
+      "kind": "question",
+      "title": "Check: a trap word",
+      "title_fr": "Vérification : un mot piège",
+      "content": "Fifty-fifty, one out of two, equally likely, 0.5: all four say exactly the same thing.",
+      "content_fr": "« Une chance sur deux », « équiprobable », 0,5 : ces formulations disent exactement la même chose.",
+      "required": true,
+      "xp": 12,
+      "question": {
+        "kind": "mcq",
+        "text": "A spinner lands on red with probability 3/8. What is P(not red)?",
+        "text_fr": "Une roulette tombe sur rouge avec probabilité 3/8. Que vaut P(pas rouge) ?",
+        "explanation": "8/8 − 3/8 = 5/8.",
+        "explanation_fr": "8/8 − 3/8 = 5/8.",
+        "hint_prompt": "Together they total 1, which is 8/8 here.",
+        "hint_prompt_fr": "Ensemble elles totalisent 1, c'est-à-dire 8/8 ici.",
+        "choices": [
+          {
+            "text": "5/8",
+            "text_fr": "5/8",
+            "correct": true
+          },
+          {
+            "text": "3/8",
+            "text_fr": "3/8",
+            "correct": false
+          },
+          {
+            "text": "8/3",
+            "text_fr": "8/3",
+            "correct": false
+          }
+        ],
+        "hints": [
+          {
+            "text": "1 = 8/8.",
+            "text_fr": "1 = 8/8."
+          }
+        ]
+      }
+    },
+    {
+      "kind": "summary",
+      "title": "What to keep",
+      "title_fr": "À retenir",
+      "content": "P = favourable ÷ total, always between 0 and 1. P(not A) = 1 − P(A).",
+      "content_fr": "P = favorables ÷ total, toujours entre 0 et 1. P(non A) = 1 − P(A).",
+      "required": false,
+      "xp": 5
+    }
+  ],
+  "quiz": {
+    "title": "Probability basics",
+    "title_fr": "Bases des probabilités",
+    "pass_score": 60,
+    "questions": [
+      {
+        "kind": "numeric",
+        "text": "A fair die is rolled. Compute 6 × P(rolling a 3). Answer as a number.",
+        "text_fr": "On lance un dé équilibré. Calcule 6 × P(obtenir 3). Réponds par un nombre.",
+        "explanation": "P = 1/6, and 6 × (1/6) = 1.",
+        "explanation_fr": "P = 1/6, et 6 × (1/6) = 1.",
+        "hint_prompt": "One favourable outcome out of six.",
+        "hint_prompt_fr": "Un cas favorable sur six.",
+        "config": {
+          "accepted": [
+            "1"
+          ]
+        },
+        "hints": [
+          {
+            "text": "6 × 1/6 = 1.",
+            "text_fr": "6 × 1/6 = 1."
+          }
+        ],
+        "difficulty": 1
+      },
+      {
+        "kind": "numeric",
+        "text": "Bag: 5 green, 5 yellow balls. Compute 100 × P(yellow).",
+        "text_fr": "Sac : 5 boules vertes, 5 jaunes. Calcule 100 × P(jaune).",
+        "explanation": "5/10 = 0.5, times 100 = 50.",
+        "explanation_fr": "5/10 = 0,5, fois 100 = 50.",
+        "hint_prompt": "Half and half.",
+        "hint_prompt_fr": "Moitié-moitié.",
+        "config": {
+          "accepted": [
+            "50"
+          ]
+        },
+        "hints": [
+          {
+            "text": "5/10 = 0.5.",
+            "text_fr": "5/10 = 0,5."
+          }
+        ],
+        "difficulty": 1
+      },
+      {
+        "kind": "mcq",
+        "text": "4/12 written as a simplified probability fraction is…",
+        "text_fr": "4/12 écrit en probabilité simplifiée vaut…",
+        "explanation": "Divide top and bottom by 4: 1/3.",
+        "explanation_fr": "On divise haut et bas par 4 : 1/3.",
+        "hint_prompt": "Divide numerator and denominator by 4.",
+        "hint_prompt_fr": "Divise numérateur et dénominateur par 4.",
+        "choices": [
+          {
+            "text": "1/3",
+            "text_fr": "1/3",
+            "correct": true
+          },
+          {
+            "text": "1/4",
+            "text_fr": "1/4",
+            "correct": false
+          },
+          {
+            "text": "4/8",
+            "text_fr": "4/8",
+            "correct": false
+          }
+        ],
+        "hints": [
+          {
+            "text": "12 ÷ 4 = 3.",
+            "text_fr": "12 ÷ 4 = 3."
+          }
+        ],
+        "difficulty": 2
+      },
+      {
+        "kind": "numeric",
+        "text": "P(bus late) = 0.25. Compute 100 × P(bus on time).",
+        "text_fr": "P(bus en retard) = 0,25. Calcule 100 × P(bus à l'heure).",
+        "explanation": "1 − 0.25 = 0.75, times 100 = 75.",
+        "explanation_fr": "1 − 0,25 = 0,75, fois 100 = 75.",
+        "hint_prompt": "Use the complement rule.",
+        "hint_prompt_fr": "Utilise la règle du complément.",
+        "config": {
+          "accepted": [
+            "75"
+          ]
+        },
+        "hints": [
+          {
+            "text": "1 − 0.25 = 0.75.",
+            "text_fr": "1 − 0,25 = 0,75."
+          }
+        ],
+        "difficulty": 2
+      },
+      {
+        "kind": "mcq",
+        "text": "An event has probability 0. Which statement is true?",
+        "text_fr": "Un événement a une probabilité de 0. Quelle phrase est vraie ?",
+        "explanation": "Zero probability means the event cannot happen at all.",
+        "explanation_fr": "Une probabilité nulle signifie que l'événement ne peut pas arriver.",
+        "hint_prompt": "Zero favourable outcomes.",
+        "hint_prompt_fr": "Zéro cas favorable.",
+        "choices": [
+          {
+            "text": "it is impossible",
+            "text_fr": "il est impossible",
+            "correct": true
+          },
+          {
+            "text": "it is certain",
+            "text_fr": "il est certain",
+            "correct": false
+          },
+          {
+            "text": "it happens half the time",
+            "text_fr": "il arrive une fois sur deux",
+            "correct": false
+          }
+        ],
+        "hints": [
+          {
+            "text": "0 means no chance.",
+            "text_fr": "0 signifie aucune chance."
+          }
+        ],
+        "difficulty": 1
+      }
+    ]
+  }
+}

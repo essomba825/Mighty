@@ -1,0 +1,3 @@
+<svg width="210mm" height="130mm" version="1.1" viewBox="0 0 210 130" xmlns="http://www.w3.org/2000/svg"><rect width="210" height="130" fill="#fff"/>
+ <g stroke="#000" fill="none"><path d="m78 96-71 19m197-19h-126v-81" stroke-dasharray="2"/><path d="m133 115v-81h-126l71-19h126v81zm71-100-71 19m0 81h-126v-81"/><path d="m204 15-197 100" stroke-dasharray="3 1"/></g>
+ <g font-family="Times" font-size="14px"><text x="2" y="127">A</text><text x="128" y="127">B</text><text x="199" y="108">C</text><text x="198" y="12">G</text><text x="127" y="30">F</text><text x="74" y="11">H</text><text x="2" y="31">E</text><text x="74" y="108">D</text><text x="66" y="127" font-style="italic">a<tspan x="167" y="118">b</tspan><tspan x="92" y="66">a</tspan></text></g></svg>

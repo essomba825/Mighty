@@ -1,0 +1,191 @@
+{
+  "lesson": 36,
+  "status": "published",
+  "lesson_fields": {
+    "title": "Mean, Median, Mode and Range",
+    "title_fr": "Moyenne, médiane, mode et étendue",
+    "summary": "Measures of central tendency and spread: mean, median, mode, range.",
+    "summary_fr": "Mesures de tendance centrale et de dispersion : moyenne, médiane, mode, étendue.",
+    "content": "## Definitions\n\n1. Mean = sum / count.\n2. Median = middle value when ordered.\n3. Mode = most frequent.\n4. Range = highest - lowest.",
+    "content_fr": "Définitions\n\n1. Moyenne = somme / nombre.\n2. Médiane = valeur médiane après classement.\n3. Mode = valeur la plus fréquente.\n4. Étendue = maximum - minimum.",
+    "objectives": [
+      "Compute mean",
+      "Find median",
+      "Find mode",
+      "Compute range"
+    ],
+    "objectives_fr": [
+      "Calculer moyenne",
+      "Trouver médiane",
+      "Trouver mode",
+      "Calculer étendue"
+    ],
+    "estimated_minutes": 25
+  },
+  "steps": [
+    {
+      "kind": "concept",
+      "title": "Mean",
+      "title_fr": "Moyenne",
+      "content": "Mean = sum of values / number of values.",
+      "content_fr": "Moyenne = somme / nombre de valeurs.",
+      "required": true,
+      "xp": 10,
+      "question": {
+        "kind": "numeric",
+        "text": "Data 2, 4, 6. Mean = ?",
+        "text_fr": "Données 2, 4, 6. Moyenne = ?",
+        "explanation": "(2+4+6)/3 = 4.",
+        "explanation_fr": "(2+4+6)/3 = 4.",
+        "hint_prompt": "Sum then divide.",
+        "hint_prompt_fr": "Somme puis diviser.",
+        "config": {"accepted": ["4"]},
+        "hints": [
+          {"text": "12 / 3 = 4.", "text_fr": "12 / 3 = 4."}
+        ]
+      }
+    },
+    {
+      "kind": "explain",
+      "title": "Median",
+      "title_fr": "Médiane",
+      "content": "Order data. Odd count: middle. Even: mean of two middle values.",
+      "content_fr": "Classer données. Nombre impair : milieu. Pair : moyenne des deux milieux.",
+      "required": true,
+      "xp": 12,
+      "question": {
+        "kind": "numeric",
+        "text": "Data 1, 3, 5. Median = ?",
+        "text_fr": "Données 1, 3, 5. Médiane = ?",
+        "explanation": "3.",
+        "explanation_fr": "3.",
+        "hint_prompt": "Middle.",
+        "hint_prompt_fr": "Valeur du milieu.",
+        "config": {"accepted": ["3"]},
+        "hints": [
+          {"text": "Middle value is 3.", "text_fr": "Valeur centrale 3."}
+        ]
+      }
+    },
+    {
+      "kind": "explain",
+      "title": "Mode",
+      "title_fr": "Mode",
+      "content": "Most frequent value.",
+      "content_fr": "Valeur la plus fréquente.",
+      "required": true,
+      "xp": 10,
+      "question": {
+        "kind": "numeric",
+        "text": "Data 2, 2, 5, 6. Mode = ?",
+        "text_fr": "Données 2, 2, 5, 6. Mode = ?",
+        "explanation": "2.",
+        "explanation_fr": "2.",
+        "hint_prompt": "Most frequent.",
+        "hint_prompt_fr": "Plus fréquente.",
+        "config": {"accepted": ["2"]},
+        "hints": [
+          {"text": "2 appears twice.", "text_fr": "2 apparaît deux fois."}
+        ]
+      }
+    },
+    {
+      "kind": "explain",
+      "title": "Range",
+      "title_fr": "Étendue",
+      "content": "Range = max - min.",
+      "content_fr": "Étendue = maximum - minimum.",
+      "required": true,
+      "xp": 10,
+      "question": {
+        "kind": "numeric",
+        "text": "Data 1, 5, 9. Range = ?",
+        "text_fr": "Données 1, 5, 9. Étendue = ?",
+        "explanation": "9 - 1 = 8.",
+        "explanation_fr": "9 - 1 = 8.",
+        "hint_prompt": "Max minus min.",
+        "hint_prompt_fr": "Max moins min.",
+        "config": {"accepted": ["8"]},
+        "hints": [
+          {"text": "9 - 1 = 8.", "text_fr": "9 - 1 = 8."}
+        ]
+      }
+    },
+    {
+      "kind": "summary",
+      "title": "What to keep",
+      "title_fr": "À retenir",
+      "content": "Mean average; median middle; mode frequent; range spread.",
+      "content_fr": "Moyenne moyenne; médiane milieu; mode fréquent; étendue dispersion.",
+      "required": false,
+      "xp": 5
+    }
+  ],
+  "quiz": {
+    "title": "Mean, median, mode, range",
+    "title_fr": "Moyenne, médiane, mode, étendue",
+    "pass_score": 60,
+    "questions": [
+      {
+        "kind": "numeric",
+        "text": "1,3,8. Mean = ?",
+        "text_fr": "1,3,8. Moyenne = ?",
+        "explanation": "(1+3+8)/3 = 4.",
+        "explanation_fr": "(1+3+8)/3 = 4.",
+        "config": {"accepted": ["4"]},
+        "hints": [
+          {"text": "12/3 = 4.", "text_fr": "12/3 = 4."}
+        ],
+        "difficulty": 1
+      },
+      {
+        "kind": "numeric",
+        "text": "1,2,3,4. Median = ?",
+        "text_fr": "1,2,3,4. Médiane = ?",
+        "explanation": "(2+3)/2 = 2.5.",
+        "explanation_fr": "(2+3)/2 = 2,5.",
+        "config": {"accepted": ["2.5"]},
+        "hints": [
+          {"text": "Middle two: 2 and 3, mean 2.5.", "text_fr": "Deux milieux : 2 et 3, moyenne 2,5."}
+        ],
+        "difficulty": 1
+      },
+      {
+        "kind": "numeric",
+        "text": "5,5,7. Mode = ?",
+        "text_fr": "5,5,7. Mode = ?",
+        "explanation": "5.",
+        "explanation_fr": "5.",
+        "config": {"accepted": ["5"]},
+        "hints": [
+          {"text": "Most frequent is 5.", "text_fr": "Plus fréquent 5."}
+        ],
+        "difficulty": 1
+      },
+      {
+        "kind": "numeric",
+        "text": "10, 2, 8. Range = ?",
+        "text_fr": "10, 2, 8. Étendue = ?",
+        "explanation": "10 - 2 = 8.",
+        "explanation_fr": "10 - 2 = 8.",
+        "config": {"accepted": ["8"]},
+        "hints": [
+          {"text": "Max 10, min 2.", "text_fr": "Max 10, min 2."}
+        ],
+        "difficulty": 1
+      },
+      {
+        "kind": "numeric",
+        "text": "1,1,2,2,2,3. Mode = ?",
+        "text_fr": "1,1,2,2,2,3. Mode = ?",
+        "explanation": "2.",
+        "explanation_fr": "2.",
+        "config": {"accepted": ["2"]},
+        "hints": [
+          {"text": "2 appears 3 times.", "text_fr": "2 apparaît 3 fois."}
+        ],
+        "difficulty": 1
+      }
+    ]
+  }
+}

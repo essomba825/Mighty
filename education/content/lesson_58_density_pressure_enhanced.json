@@ -1,0 +1,229 @@
+{
+  "lesson": 58,
+  "status": "published",
+  "lesson_fields": {
+    "title": "Density and Pressure",
+    "title_fr": "Masse volumique et pression",
+    "summary": "Density ρ = m/V tells us if an object sinks or floats. Pressure P = F/A shows why spreading force over a larger area reduces pressure.",
+    "summary_fr": "La masse volumique ρ = m/V permet de savoir si un objet flotte ou coule. La pression P = F/A explique pourquoi étaler une force sur une plus grande surface diminue la pression.",
+    "objectives": [
+      "Define density and give its units (kg/m³, g/cm³)",
+      "Use the formula ρ = m ÷ V",
+      "Predict whether objects float or sink by comparing densities",
+      "Define pressure and give the SI unit (pascal, Pa)",
+      "Use the formula P = F ÷ A and explain real-life applications"
+    ],
+    "objectives_fr": [
+      "Définir la masse volumique et ses unités (kg/m³, g/cm³)",
+      "Utiliser la formule ρ = m ÷ V",
+      "Prédire si un objet flotte ou coule en comparant les masses volumiques",
+      "Définir la pression et son unité SI (pascal, Pa)",
+      "Utiliser P = F ÷ A et expliquer des applications concrètes"
+    ],
+    "estimated_minutes": 30
+  },
+  "steps": [
+    {
+      "kind": "concept",
+      "title": "What is density?",
+      "title_fr": "Qu'est-ce que la masse volumique ?",
+      "content": "Density is how much mass is packed into a given volume. Two objects can have the same mass but different densities.\n\n**Formula:** ρ = m ÷ V\n\n- ρ (rho) = density (kg/m³ in SI)\n- m = mass (kg)\n- V = volume (m³)\n\nCommon units: kg/m³ or g/cm³ (1 g/cm³ = 1000 kg/m³).",
+      "content_fr": "La masse volumique indique combien de masse est contenue dans un volume donné. Deux objets peuvent avoir la même masse mais des masses volumiques différentes.\n\n**Formule :** ρ = m ÷ V\n\n- ρ = masse volumique (kg/m³ en SI)\n- m = masse (kg)\n- V = volume (m³)\n\nUnités courantes : kg/m³ ou g/cm³ (1 g/cm³ = 1000 kg/m³).",
+      "required": true,
+      "xp": 10,
+      "question": {
+        "kind": "numeric",
+        "text": "Mass 6 kg, volume 2 m³. Density (kg/m³, number only)?",
+        "text_fr": "Masse 6 kg, volume 2 m³. Masse volumique (kg/m³, nombre seul) ?",
+        "explanation": "ρ = 6 ÷ 2 = 3 kg/m³",
+        "explanation_fr": "ρ = 6 ÷ 2 = 3 kg/m³",
+        "hint_prompt": "Divide mass by volume.",
+        "hint_prompt_fr": "Diviser la masse par le volume.",
+        "config": {"accepted": ["3"]},
+        "hints": [{"text": "6 ÷ 2 = 3", "text_fr": "6 ÷ 2 = 3"}]
+      }
+    },
+    {
+      "kind": "explain",
+      "title": "Why do some things float or sink?",
+      "title_fr": "Pourquoi certains objets flottent-ils ou coulent-ils ?",
+      "content": "An object floats in a liquid if its density is **less than** the density of the liquid. It sinks if its density is **greater than** the density of the liquid.\n\nWater has density ≈ 1000 kg/m³ (or 1 g/cm³).\n\n- Wood (≈600 kg/m³) < water → floats\n- Iron (≈7800 kg/m³) > water → sinks",
+      "content_fr": "Un objet flotte dans un liquide si sa masse volumique est **inférieure** à celle du liquide. Il coule si sa masse volumique est **supérieure** à celle du liquide.\n\nEau : ≈ 1000 kg/m³ (ou 1 g/cm³).\n\n- Bois (≈600 kg/m³) < eau → flotte\n- Fer (≈7800 kg/m³) > eau → coule",
+      "required": true,
+      "xp": 10,
+      "question": {
+        "kind": "mcq",
+        "text": "Wood (ρ ≈ 600 kg/m³) placed in water (ρ = 1000 kg/m³) will...",
+        "text_fr": "Du bois (ρ ≈ 600 kg/m³) placé dans l'eau (ρ = 1000 kg/m³)...",
+        "explanation": "Less dense than water → floats.",
+        "explanation_fr": "Moins dense que l'eau → flotte.",
+        "hint_prompt": "Compare densities.",
+        "hint_prompt_fr": "Compare les masses volumiques.",
+        "choices": [
+          {"text": "Float", "text_fr": "Flotte", "correct": true},
+          {"text": "Sink", "text_fr": "Coule"},
+          {"text": "Stay suspended", "text_fr": "Reste en suspension"}
+        ],
+        "hints": [
+          {"text": "600 < 1000", "text_fr": "600 < 1000"},
+          {"text": "Less dense floats.", "text_fr": "Moins dense flotte."}
+        ]
+      }
+    },
+    {
+      "kind": "concept",
+      "title": "What is pressure?",
+      "title_fr": "Qu'est-ce que la pression ?",
+      "content": "Pressure is the force acting per unit area. The same force can create high or low pressure depending on the area it acts over.\n\n**Formula:** P = F ÷ A\n\n- P = pressure (pascals, Pa)\n- F = force (newtons, N)\n- A = area (square metres, m²)\n\n1 pascal (Pa) = 1 N/m²",
+      "content_fr": "La pression est la force exercée par unité de surface. Une même force peut produire une forte ou une faible pression selon la surface sur laquelle elle s'exerce.\n\n**Formule :** P = F ÷ A\n\n- P = pression (pascals, Pa)\n- F = force (newtons, N)\n- A = surface (m²)\n\n1 pascal (Pa) = 1 N/m²",
+      "required": true,
+      "xp": 10,
+      "question": {
+        "kind": "numeric",
+        "text": "Force 100 N acts on area 2 m². Pressure (Pa, number only)?",
+        "text_fr": "Force 100 N sur surface 2 m². Pression (Pa, nombre seul) ?",
+        "explanation": "P = 100 ÷ 2 = 50 Pa",
+        "explanation_fr": "P = 100 ÷ 2 = 50 Pa",
+        "hint_prompt": "Divide force by area.",
+        "hint_prompt_fr": "Diviser la force par la surface.",
+        "config": {"accepted": ["50"]},
+        "hints": [{"text": "100 ÷ 2 = 50", "text_fr": "100 ÷ 2 = 50"}]
+      }
+    },
+    {
+      "kind": "example",
+      "title": "Real-life application: snowshoes",
+      "title_fr": "Application concrète : raquettes à neige",
+      "content": "A person weighing 600 N stands on shoes with area 0.04 m²: P = 600 ÷ 0.04 = 15 000 Pa.\n\nWith snowshoes of area 0.20 m²: P = 600 ÷ 0.20 = 3 000 Pa.\n\nSame force, larger area → much lower pressure, so they don't sink into soft snow.",
+      "content_fr": "Une personne de 600 N porte des chaussures d'aire 0,04 m² : P = 600 ÷ 0,04 = 15 000 Pa.\n\nAvec des raquettes d'aire 0,20 m² : P = 600 ÷ 0,20 = 3 000 Pa.\n\nMême force, plus grande surface → pression beaucoup plus faible, donc pas d'enfoncement dans la neige molle.",
+      "required": true,
+      "xp": 10,
+      "question": {
+        "kind": "numeric",
+        "text": "A crate exerts 300 N over area 0.5 m². Pressure (Pa, number only)?",
+        "text_fr": "Une caisse exerce 300 N sur 0,5 m². Pression (Pa, nombre seul) ?",
+        "explanation": "300 ÷ 0.5 = 600 Pa",
+        "explanation_fr": "300 ÷ 0,5 = 600 Pa",
+        "hint_prompt": "P = F/A = 300 ÷ 0.5",
+        "hint_prompt_fr": "P = F/A = 300 ÷ 0,5",
+        "config": {"accepted": ["600"]},
+        "hints": [{"text": "300÷0.5=600", "text_fr": "300÷0,5=600"}]
+      }
+    },
+    {
+      "kind": "explain",
+      "title": "Sharp vs blunt",
+      "title_fr": "Tranchant ou émoussé",
+      "content": "A sharp knife has a very small cutting area. For the same force, this gives a very large pressure — so it cuts easily.\n\nA blunt knife spreads the force over a larger area, giving lower pressure — harder to cut.",
+      "content_fr": "Un couteau tranchant a une surface de coupe très petite. Pour la même force, cela donne une très forte pression → il coupe facilement.\n\nUn couteau émoussé répartit la force sur une plus grande surface → pression plus faible → coupe plus difficilement.",
+      "required": true,
+      "xp": 10,
+      "question": {
+        "kind": "mcq",
+        "text": "Why does a sharp knife cut better than a blunt one?",
+        "text_fr": "Pourquoi un couteau tranchant coupe-t-il mieux qu'un couteau émoussé ?",
+        "explanation": "Smaller area → larger pressure for same force.",
+        "explanation_fr": "Plus petite surface → plus grande pression pour même force.",
+        "hint_prompt": "Think P = F/A.",
+        "hint_prompt_fr": "Pense à P = F/A.",
+        "choices": [
+          {"text": "Smaller area gives higher pressure", "text_fr": "Surface plus petite → pression plus forte", "correct": true},
+          {"text": "Larger area gives higher pressure", "text_fr": "Surface plus grande → pression plus forte"},
+          {"text": "It has more force", "text_fr": "Il exerce plus de force"},
+          {"text": "It weighs more", "text_fr": "Il est plus lourd"}
+        ],
+        "hints": [
+          {"text": "Pressure increases as area decreases.", "text_fr": "Pression augmente si surface diminue."},
+          {"text": "Same force applied.", "text_fr": "Même force appliquée."}
+        ]
+      }
+    },
+    {
+      "kind": "summary",
+      "title": "Key points to remember",
+      "title_fr": "À retenir",
+      "content": "- Density ρ = m ÷ V. Units kg/m³ or g/cm³.\n- Float if ρ < fluid density, sink if ρ > fluid density (water 1000 kg/m³).\n- Pressure P = F ÷ A. SI unit pascal (Pa = N/m²).\n- Larger area → lower pressure for same force (snowshoes, wide tyres).\n- Smaller area → higher pressure (knife, nails).",
+      "content_fr": "- Masse volumique ρ = m ÷ V. Unités kg/m³ ou g/cm³.\n- Flotte si ρ < densité fluide, coule si ρ > densité fluide (eau 1000 kg/m³).\n- Pression P = F ÷ A. Unité SI : pascal (Pa = N/m²).\n- Plus grande surface → pression plus faible (raquettes, pneus larges).\n- Plus petite surface → pression plus forte (couteau, clous).",
+      "required": false,
+      "xp": 5
+    }
+  ],
+  "quiz": {
+    "title": "Density and Pressure Quiz",
+    "title_fr": "Quiz : Masse volumique et pression",
+    "pass_score": 60,
+    "questions": [
+      {
+        "kind": "numeric",
+        "text": "Mass 10 kg, volume 5 m³. Density (kg/m³)?",
+        "text_fr": "Masse 10 kg, volume 5 m³. Masse volumique (kg/m³) ?",
+        "explanation": "2 kg/m³",
+        "explanation_fr": "2 kg/m³",
+        "hint_prompt": "10÷5",
+        "hint_prompt_fr": "10÷5",
+        "config": {"accepted": ["2"]},
+        "difficulty": 1,
+        "hints": [{"text": "10÷5=2", "text_fr": "10÷5=2"}]
+      },
+      {
+        "kind": "mcq",
+        "text": "An object with density less than water will...",
+        "text_fr": "Un objet moins dense que l'eau...",
+        "explanation": "Floats.",
+        "explanation_fr": "Flotte.",
+        "hint_prompt": "Compare to 1000 kg/m³.",
+        "hint_prompt_fr": "Comparer à 1000 kg/m³.",
+        "choices": [
+          {"text": "Float", "text_fr": "Flotte", "correct": true},
+          {"text": "Sink", "text_fr": "Coule"}
+        ],
+        "difficulty": 1,
+        "hints": [{"text": "Less dense = floats.", "text_fr": "Moins dense = flotte."}]
+      },
+      {
+        "kind": "mcq",
+        "text": "The SI unit of pressure is the...",
+        "text_fr": "L'unité SI de la pression est...",
+        "explanation": "Pascal (Pa).",
+        "explanation_fr": "Pascal (Pa).",
+        "hint_prompt": "Pa = N/m²",
+        "hint_prompt_fr": "Pa = N/m²",
+        "choices": [
+          {"text": "Pascal (Pa)", "text_fr": "Pascal (Pa)", "correct": true},
+          {"text": "Newton (N)", "text_fr": "Newton (N)"},
+          {"text": "Joule (J)", "text_fr": "Joule (J)"}
+        ],
+        "difficulty": 1,
+        "hints": [{"text": "1 Pa = 1 N/m².", "text_fr": "1 Pa = 1 N/m²."}]
+      },
+      {
+        "kind": "numeric",
+        "text": "Force 400 N over 0.1 m². Pressure (Pa)?",
+        "text_fr": "Force 400 N sur 0,1 m². Pression (Pa) ?",
+        "explanation": "4000 Pa",
+        "explanation_fr": "4000 Pa",
+        "hint_prompt": "400 ÷ 0.1 = ?",
+        "hint_prompt_fr": "400 ÷ 0,1 = ?",
+        "config": {"accepted": ["4000"]},
+        "difficulty": 2,
+        "hints": [{"text": "Dividing by 0.1 multiplies by 10.", "text_fr": "Diviser par 0,1 = ×10."}]
+      },
+      {
+        "kind": "mcq",
+        "text": "Snowshoes prevent sinking because they...",
+        "text_fr": "Les raquettes empêchent l'enfoncement car elles...",
+        "explanation": "Increase area → decrease pressure.",
+        "explanation_fr": "Augmentent la surface → diminuent la pression.",
+        "hint_prompt": "P = F/A",
+        "hint_prompt_fr": "P = F/A",
+        "choices": [
+          {"text": "Increase area, reduce pressure", "text_fr": "Augmentent surface, réduisent pression", "correct": true},
+          {"text": "Decrease area, increase pressure", "text_fr": "Diminuent surface, augmentent pression"},
+          {"text": "Reduce weight", "text_fr": "Réduisent le poids"}
+        ],
+        "difficulty": 2,
+        "hints": [{"text": "Same force, larger area.", "text_fr": "Même force, plus grande surface."}]
+      }
+    ]
+  }
+}

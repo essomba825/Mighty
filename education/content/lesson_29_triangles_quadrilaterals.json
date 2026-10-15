@@ -1,0 +1,193 @@
+{
+  "lesson": 29,
+  "status": "published",
+  "lesson_fields": {
+    "title": "Triangles and Quadrilaterals",
+    "title_fr": "Triangles et quadrilatères",
+    "summary": "Angle sum of triangle = 180°, quadrilateral = 360°. Properties of isosceles, equilateral, parallelogram.",
+    "summary_fr": "Somme des angles d'un triangle = 180°, d'un quadrilatère = 360°. Propriétés d'un triangle isocèle, équilatéral, parallélogramme.",
+    "content": "## Key facts\n\n1. Triangle: angles sum to 180°.\n2. Equilateral: all angles 60°. Isosceles: two equal angles.\n3. Quadrilateral: angles sum to 360°.\n4. Parallelogram: opposite angles equal, adjacent supplementary.",
+    "content_fr": "Faits clés\n\n1. Triangle : somme des angles = 180°.\n2. Équilatéral : tous angles 60°. Isocèle : deux angles égaux.\n3. Quadrilatère : somme des angles = 360°.\n4. Parallélogramme : angles opposés égaux, angles adjacents supplémentaires.",
+    "objectives": [
+      "Use triangle angle sum",
+      "Identify isosceles/equilateral",
+      "Use quadrilateral angle sum",
+      "Apply parallelogram properties"
+    ],
+    "objectives_fr": [
+      "Utiliser la somme des angles d'un triangle",
+      "Identifier un triangle isocèle ou équilatéral",
+      "Utiliser la somme des angles d'un quadrilatère",
+      "Appliquer les propriétés d'un parallélogramme"
+    ],
+    "estimated_minutes": 25
+  },
+  "steps": [
+    {
+      "kind": "concept",
+      "title": "Triangle angles",
+      "title_fr": "Angles d'un triangle",
+      "content": "Angles in a triangle add to 180°. Find third angle: 180 - sum of two.",
+      "content_fr": "Les angles d'un triangle additionnés font 180°. Pour trouver le troisième : 180 - somme des deux.",
+      "required": true,
+      "xp": 10,
+      "question": {
+        "kind": "numeric",
+        "text": "Triangle angles 50°, 60°, x°. Find x.",
+        "text_fr": "Angles d'un triangle : 50°, 60°, x°. Trouve x.",
+        "explanation": "50 + 60 + x = 180 → x = 70.",
+        "explanation_fr": "50 + 60 + x = 180 → x = 70.",
+        "hint_prompt": "Sum 180.",
+        "hint_prompt_fr": "Somme 180.",
+        "config": {"accepted": ["70"]},
+        "hints": [
+          {"text": "50 + 60 = 110, 180 - 110 = 70.", "text_fr": "50 + 60 = 110, 180 - 110 = 70."}
+        ]
+      }
+    },
+    {
+      "kind": "concept",
+      "title": "Equilateral and isosceles",
+      "title_fr": "Équilatéral et isocèle",
+      "content": "Equilateral: all angles 60°, all sides equal. Isosceles: two equal angles, two equal sides.",
+      "content_fr": "Équilatéral : tous les angles à 60°, tous les côtés égaux. Isocèle : deux angles égaux, deux côtés égaux.",
+      "required": true,
+      "xp": 10,
+      "question": {
+        "kind": "numeric",
+        "text": "An equilateral triangle: each angle is x°. Find x.",
+        "text_fr": "Un triangle équilatéral : chaque angle vaut x°. Trouve x.",
+        "explanation": "180 / 3 = 60.",
+        "explanation_fr": "180 / 3 = 60.",
+        "hint_prompt": "180 divided by 3.",
+        "hint_prompt_fr": "180 divisé par 3.",
+        "config": {"accepted": ["60"]},
+        "hints": [
+          {"text": "180/3 = 60.", "text_fr": "180/3 = 60."}
+        ]
+      }
+    },
+    {
+      "kind": "explain",
+      "title": "Quadrilateral angles",
+      "title_fr": "Angles d'un quadrilatère",
+      "content": "Quadrilateral angles sum to 360°. Find missing: 360 minus sum of others.",
+      "content_fr": "Les angles d'un quadrilatère font 360°. Angle manquant = 360 - somme des autres.",
+      "required": true,
+      "xp": 12,
+      "question": {
+        "kind": "numeric",
+        "text": "Quadrilateral: 90°, 80°, 70°, x°. Find x.",
+        "text_fr": "Quadrilatère : 90°, 80°, 70°, x°. Trouve x.",
+        "explanation": "90 + 80 + 70 = 240, 360 - 240 = 120.",
+        "explanation_fr": "90 + 80 + 70 = 240, 360 - 240 = 120.",
+        "hint_prompt": "Sum to 360.",
+        "hint_prompt_fr": "Somme 360.",
+        "config": {"accepted": ["120"]},
+        "hints": [
+          {"text": "240 + x = 360.", "text_fr": "240 + x = 360."},
+          {"text": "x = 120.", "text_fr": "x = 120."}
+        ]
+      }
+    },
+    {
+      "kind": "explain",
+      "title": "Parallelogram",
+      "title_fr": "Parallélogramme",
+      "content": "Opposite angles equal, adjacent angles supplementary (sum 180°).",
+      "content_fr": "Angles opposés égaux, angles adjacents supplémentaires (180°).",
+      "required": true,
+      "xp": 10,
+      "question": {
+        "kind": "numeric",
+        "text": "Parallelogram: one angle is 70°. What is its adjacent angle in degrees?",
+        "text_fr": "Parallélogramme : un angle vaut 70°. Quel est l'angle adjacent (en degrés) ?",
+        "explanation": "Adjacent supplementary: 180 - 70 = 110.",
+        "explanation_fr": "Adjacent supplémentaire : 180 - 70 = 110.",
+        "hint_prompt": "Adjacent sum to 180.",
+        "hint_prompt_fr": "Angles adjacents font 180.",
+        "config": {"accepted": ["110"]},
+        "hints": [
+          {"text": "180 - 70 = 110.", "text_fr": "180 - 70 = 110."}
+        ]
+      }
+    },
+    {
+      "kind": "summary",
+      "title": "What to keep",
+      "title_fr": "À retenir",
+      "content": "Triangle 180°. Quadrilateral 360°. Isosceles = two equal angles. Parallelogram: opposite equal, adjacent sum 180°.",
+      "content_fr": "Triangle 180°. Quadrilatère 360°. Isocèle = deux angles égaux. Parallélogramme : opposés égaux, adjacents font 180°.",
+      "required": false,
+      "xp": 5
+    }
+  ],
+  "quiz": {
+    "title": "Triangles and quadrilaterals",
+    "title_fr": "Triangles et quadrilatères",
+    "pass_score": 60,
+    "questions": [
+      {
+        "kind": "numeric",
+        "text": "Triangle: 40°, 70°, x°. Find x.",
+        "text_fr": "Triangle : 40°, 70°, x°. Trouve x.",
+        "explanation": "180 - 110 = 70.",
+        "explanation_fr": "180 - 110 = 70.",
+        "config": {"accepted": ["70"]},
+        "hints": [
+          {"text": "110 + x = 180.", "text_fr": "110 + x = 180."}
+        ],
+        "difficulty": 1
+      },
+      {
+        "kind": "numeric",
+        "text": "Equilateral: each angle is x°. x = ?",
+        "text_fr": "Équilatéral : chaque angle vaut x°. x = ?",
+        "explanation": "60.",
+        "explanation_fr": "60.",
+        "config": {"accepted": ["60"]},
+        "hints": [
+          {"text": "180/3.", "text_fr": "180/3."}
+        ],
+        "difficulty": 1
+      },
+      {
+        "kind": "numeric",
+        "text": "Quadrilateral: four angles equal. Find each in degrees.",
+        "text_fr": "Quadrilatère à quatre angles égaux. Trouve chaque angle (en degrés).",
+        "explanation": "360/4 = 90.",
+        "explanation_fr": "360/4 = 90.",
+        "config": {"accepted": ["90"]},
+        "hints": [
+          {"text": "360/4.", "text_fr": "360/4."}
+        ],
+        "difficulty": 1
+      },
+      {
+        "kind": "numeric",
+        "text": "Parallelogram: one angle 50°, adjacent is x°. x = ?",
+        "text_fr": "Parallélogramme : un angle 50°, angle adjacent x°. x = ?",
+        "explanation": "180 - 50 = 130.",
+        "explanation_fr": "180 - 50 = 130.",
+        "config": {"accepted": ["130"]},
+        "hints": [
+          {"text": "180 - 50.", "text_fr": "180 - 50."}
+        ],
+        "difficulty": 2
+      },
+      {
+        "kind": "numeric",
+        "text": "Triangle: angles x°, x°, 40°. Find x.",
+        "text_fr": "Triangle : angles x°, x°, 40°. Trouve x.",
+        "explanation": "2x = 140 → x = 70.",
+        "explanation_fr": "2x = 140 → x = 70.",
+        "config": {"accepted": ["70"]},
+        "hints": [
+          {"text": "2x + 40 = 180.", "text_fr": "2x + 40 = 180."},
+          {"text": "2x = 140, x = 70.", "text_fr": "2x = 140, x = 70."}
+        ],
+        "difficulty": 2
+      }
+    ]
+  }
+}

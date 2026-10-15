@@ -1,0 +1,255 @@
+{
+  "lesson": 72,
+  "status": "published",
+  "lesson_fields": {
+    "title": "What Is an Algorithm?",
+    "title_fr": "Qu'est-ce qu'un algorithme ?",
+    "summary": "An algorithm is a sequence of clear, unambiguous instructions to solve a problem. Learn how to describe algorithms using flowcharts and pseudocode.",
+    "summary_fr": "Un algorithme est une suite d'instructions claires et non ambiguës pour résoudre un problème. Apprendre à le décrire avec des organigrammes et du pseudo-code.",
+    "objectives": [
+      "Define an algorithm and give examples",
+      "Explain why algorithms must be clear and unambiguous",
+      "Describe algorithms using flowcharts",
+      "Write simple pseudocode"
+    ],
+    "objectives_fr": [
+      "Définir un algorithme et donner des exemples",
+      "Expliquer pourquoi un algorithme doit être clair et non ambigu",
+      "Décrire un algorithme avec un organigramme",
+      "Écrire du pseudo-code simple"
+    ],
+    "estimated_minutes": 25
+  },
+  "steps": [
+    {
+      "kind": "concept",
+      "title": "What is an algorithm?",
+      "title_fr": "Qu'est-ce qu'un algorithme ?",
+      "content": "An algorithm is a step-by-step set of instructions to solve a problem or complete a task. Recipes, directions and computer programs all use algorithms. A good algorithm is clear, unambiguous, finite and effective.",
+      "content_fr": "Un algorithme est une suite d'étapes pour résoudre un problème ou accomplir une tâche. Recettes, itinéraires et programmes informatiques utilisent des algorithmes. Un bon algorithme est clair, non ambigu, fini et efficace.",
+      "required": true,
+      "xp": 10,
+      "question": {
+        "kind": "mcq",
+        "text": "Which best describes an algorithm?",
+        "text_fr": "Quelle est la meilleure description d'un algorithme ?",
+        "explanation": "A sequence of clear instructions to solve a problem.",
+        "explanation_fr": "Une suite d'instructions claires pour résoudre un problème.",
+        "hint_prompt": "Step by step instructions.",
+        "hint_prompt_fr": "Instructions étape par étape.",
+        "choices": [
+          {"text": "A sequence of clear instructions", "text_fr": "Une suite d'instructions claires", "correct": true},
+          {"text": "A random guess", "text_fr": "Un hasard"},
+          {"text": "A picture", "text_fr": "Une image"},
+          {"text": "A single number", "text_fr": "Un seul nombre"}
+        ],
+        "hints": [
+          {"text": "Like a recipe.", "text_fr": "Comme une recette."},
+          {"text": "Must be unambiguous.", "text_fr": "Doit être non ambigu."}
+        ]
+      }
+    },
+    {
+      "kind": "explain",
+      "title": "Characteristics of a good algorithm",
+      "title_fr": "Caractéristiques d'un bon algorithme",
+      "content": "A good algorithm must be: clear and unambiguous (no confusion), finite (ends eventually), effective (solves the problem), and have well-defined inputs/outputs.",
+      "content_fr": "Un bon algorithme doit être : clair et non ambigu, fini (se termine), efficace (résout le problème), avec des entrées et sorties bien définies.",
+      "required": true,
+      "xp": 10,
+      "question": {
+        "kind": "mcq",
+        "text": "A good algorithm must be...",
+        "text_fr": "Un bon algorithme doit être...",
+        "explanation": "Finite (must eventually stop).",
+        "explanation_fr": "Fini (il doit se terminer).",
+        "hint_prompt": "Should not loop forever?",
+        "hint_prompt_fr": "Ne doit pas boucler indéfiniment.",
+        "choices": [
+          {"text": "Finite (ends eventually)", "text_fr": "Fini (se termine)", "correct": true},
+          {"text": "Infinite by design", "text_fr": "Infini volontairement"},
+          {"text": "Ambiguous", "text_fr": "Ambigu"},
+          {"text": "Unclear", "text_fr": "Peu clair"}
+        ],
+        "hints": [
+          {"text": "Must terminate.", "text_fr": "Doit se terminer."},
+          {"text": "No endless loops.", "text_fr": "Pas de boucles infinies."}
+        ]
+      }
+    },
+    {
+      "kind": "example",
+      "title": "Flowcharts",
+      "title_fr": "Organigrammes",
+      "content": "Flowcharts use shapes: oval (start/end), parallelogram (input/output), diamond (decision/if), rectangle (process). Arrows show flow.",
+      "content_fr": "Les organigrammes utilisent des formes : ovale (début/fin), parallélogramme (entrée/sortie), losange (condition/si), rectangle (traitement). Les flèches indiquent le flux.",
+      "required": true,
+      "xp": 10,
+      "question": {
+        "kind": "mcq",
+        "text": "In a flowchart, a diamond shape represents...",
+        "text_fr": "Dans un organigramme, le losange représente...",
+        "explanation": "A decision (yes/no).",
+        "explanation_fr": "Une condition (oui/non).",
+        "hint_prompt": "Branching question.",
+        "hint_prompt_fr": "Question avec choix.",
+        "choices": [
+          {"text": "A decision", "text_fr": "Une condition", "correct": true},
+          {"text": "Input", "text_fr": "Une entrée"},
+          {"text": "Output", "text_fr": "Une sortie"},
+          {"text": "Start", "text_fr": "Début"}
+        ],
+        "hints": [
+          {"text": "If-then-else.", "text_fr": "Si-alors-sinon."},
+          {"text": "Yes/no branch.", "text_fr": "Branchement oui/non."}
+        ]
+      }
+    },
+    {
+      "kind": "example",
+      "title": "Pseudocode",
+      "title_fr": "Pseudo-code",
+      "content": "Pseudocode is structured English for algorithms. Example: input age; if age >= 18 print 'Adult' else print 'Minor'.",
+      "content_fr": "Le pseudo-code est un langage structuré proche de l'anglais pour décrire un algorithme. Exemple : lire age ; si age >= 18 afficher 'Adulte' sinon afficher 'Mineur'.",
+      "required": true,
+      "xp": 10,
+      "question": {
+        "kind": "mcq",
+        "text": "Pseudocode is used to...",
+        "text_fr": "Le pseudo-code sert à...",
+        "explanation": "Plan an algorithm in plain language.",
+        "explanation_fr": "Planifier un algorithme dans un langage simple.",
+        "hint_prompt": "Before writing code.",
+        "hint_prompt_fr": "Avant d'écrire le programme.",
+        "choices": [
+          {"text": "Plan an algorithm", "text_fr": "Planifier un algorithme", "correct": true},
+          {"text": "Run the program", "text_fr": "Exécuter le programme"},
+          {"text": "Store data", "text_fr": "Stocker des données"},
+          {"text": "Print hardware", "text_fr": "Imprimer du matériel"}
+        ],
+        "hints": [
+          {"text": "Human-readable plan.", "text_fr": "Plan lisible."},
+          {"text": "Language-independent.", "text_fr": "Indépendant du langage."}
+        ]
+      }
+    },
+    {
+      "kind": "example",
+      "title": "Example algorithm: Find maximum",
+      "title_fr": "Exemple : trouver le maximum",
+      "content": "Input two numbers A, B. If A > B output A, else output B. This is a simple, clear algorithm.",
+      "content_fr": "Lire deux nombres A, B. Si A > B afficher A, sinon afficher B. C'est un algorithme simple et clair.",
+      "required": true,
+      "xp": 10,
+      "question": {
+        "kind": "mcq",
+        "text": "For numbers 5 and 10, this algorithm returns...",
+        "text_fr": "Pour 5 et 10, cet algorithme retourne...",
+        "explanation": "10 since 10 > 5.",
+        "explanation_fr": "10 car 10 > 5.",
+        "hint_prompt": "Compare 5 and 10.",
+        "hint_prompt_fr": "Comparer 5 et 10.",
+        "choices": [
+          {"text": "10", "text_fr": "10", "correct": true},
+          {"text": "5", "text_fr": "5"},
+          {"text": "15", "text_fr": "15"},
+          {"text": "0", "text_fr": "0"}
+        ],
+        "hints": [
+          {"text": "Takes larger.", "text_fr": "Prend le plus grand."},
+          {"text": "Else branch when not greater.", "text_fr": "Sinon quand pas plus grand."}
+        ]
+      }
+    },
+    {
+      "kind": "summary",
+      "title": "Key points",
+      "title_fr": "À retenir",
+      "content": "An algorithm = clear, finite steps to solve a problem. Flowcharts show logic visually. Pseudocode plans before coding.",
+      "content_fr": "Algorithme = suite d'étapes claires et finies. Organigramme = représentation graphique. Pseudo-code = plan avant programmation.",
+      "required": false,
+      "xp": 5
+    }
+  ],
+  "quiz": {
+    "title": "Algorithms Quiz",
+    "title_fr": "Quiz sur les algorithmes",
+    "pass_score": 60,
+    "questions": [
+      {
+        "kind": "mcq",
+        "text": "An algorithm must be...",
+        "text_fr": "Un algorithme doit être...",
+        "explanation": "Unambiguous and finite.",
+        "explanation_fr": "Non ambigu et fini.",
+        "hint_prompt": "Clear, ends.",
+        "hint_prompt_fr": "Clair, se termine.",
+        "choices": [
+          {"text": "Clear and finite", "text_fr": "Clair et fini", "correct": true},
+          {"text": "Vague and endless", "text_fr": "Flou et infini"},
+          {"text": "Random", "text_fr": "Aléatoire"}
+        ],
+        "difficulty": 1,
+        "hints": [{"text": "No confusion.", "text_fr": "Pas de confusion."}]
+      },
+      {
+        "kind": "mcq",
+        "text": "Diamond in flowchart means?",
+        "text_fr": "Losange = ?",
+        "explanation": "Decision.",
+        "explanation_fr": "Condition/décision.",
+        "hint_prompt": "Yes/no.",
+        "hint_prompt_fr": "Oui/non.",
+        "choices": [
+          {"text": "Decision", "text_fr": "Décision", "correct": true},
+          {"text": "Start", "text_fr": "Début"},
+          {"text": "Process", "text_fr": "Traitement"}
+        ],
+        "difficulty": 1,
+        "hints": [{"text": "Branching.", "text_fr": "Branchement."}]
+      },
+      {
+        "kind": "mcq",
+        "text": "Pseudocode is...",
+        "text_fr": "Le pseudo-code est...",
+        "explanation": "Plain language plan.",
+        "explanation_fr": "Plan en langage simple.",
+        "hint_prompt": "Before code.",
+        "hint_prompt_fr": "Avant code.",
+        "choices": [
+          {"text": "Algorithm description in plain language", "text_fr": "Description d'algorithme en langage simple", "correct": true},
+          {"text": "Executable program", "text_fr": "Programme exécutable"}
+        ],
+        "difficulty": 1,
+        "hints": [{"text": "Planning tool.", "text_fr": "Outil de planification."}]
+      },
+      {
+        "kind": "numeric",
+        "text": "Max of 7 and 3 is?",
+        "text_fr": "Maximum de 7 et 3 ?",
+        "explanation": "7",
+        "explanation_fr": "7",
+        "hint_prompt": "Larger.",
+        "hint_prompt_fr": "Plus grand.",
+        "config": {"accepted": ["7"]},
+        "difficulty": 1,
+        "hints": [{"text": "7>3.", "text_fr": "7>3."}]
+      },
+      {
+        "kind": "mcq",
+        "text": "Algorithm must eventually...",
+        "text_fr": "Un algorithme doit...",
+        "explanation": "Terminate.",
+        "explanation_fr": "Se terminer.",
+        "hint_prompt": "Not infinite.",
+        "hint_prompt_fr": "Pas infini.",
+        "choices": [
+          {"text": "Terminate", "text_fr": "Se terminer", "correct": true},
+          {"text": "Run forever", "text_fr": "Tourner indéfiniment"}
+        ],
+        "difficulty": 2,
+        "hints": [{"text": "Finite.", "text_fr": "Fini."}]
+      }
+    ]
+  }
+}

@@ -1,0 +1,354 @@
+{
+  "lesson": 72,
+  "status": "published",
+  "lesson_fields": {
+    "title": "What Is an Algorithm?",
+    "title_fr": "Qu'est-ce qu'un algorithme ?",
+    "summary": "An algorithm is a finite, ordered list of precise steps that solves a problem. We design it in plain language and flowcharts before writing any code.",
+    "summary_fr": "Un algorithme est une suite finie et ordonnee d'etapes precises qui resout un probleme. On le concoit en langage naturel et en organigramme avant d'ecrire du code.",
+    "content": "## Definition\n\nAn **algorithm** is a finite, ordered list of clear steps that solves a problem.\n\n## The three parts\n\n- **Input**: the data received\n- **Process**: the steps that transform the data\n- **Output**: the result",
+    "content_fr": "## Definition\n\nUn **algorithme** est une suite finie et ordonnee d'etapes claires qui resout un probleme.\n\n## Les trois parties\n\n- **Entree** : les donnees recues\n- **Traitement** : les etapes qui transforment ces donnees\n- **Sortie** : le resultat",
+    "objectives": [
+      "Define an algorithm in your own words",
+      "Identify input, process and output in a simple task",
+      "Order the steps of an everyday task correctly"
+    ],
+    "objectives_fr": [
+      "Definir un algorithme avec ses propres mots",
+      "Identifier l'entree, le traitement et la sortie d'une tache simple",
+      "Ordonner correctement les etapes d'une tache de la vie courante"
+    ],
+    "estimated_minutes": 25
+  },
+  "steps": [
+    {
+      "kind": "concept",
+      "title": "A recipe for the computer",
+      "title_fr": "Une recette pour l'ordinateur",
+      "content": "An **algorithm** is a finite, ordered list of clear steps that solves a problem. The same algorithm can be written in any language, or even carried out by a person.\n\nExample: to make tea we boil water, add a tea bag, pour the water, wait three minutes, then remove the bag.",
+      "content_fr": "Un **algorithme** est une suite finie et ordonnee d'etapes claires qui resout un probleme. Le meme algorithme peut s'ecrire dans n'importe quel langage, ou meme etre execute par une personne.\n\nExemple : pour preparer du the, on fait bouillir l'eau, on ajoute un sachet, on verse l'eau, on attend trois minutes, puis on retire le sachet.",
+      "required": true,
+      "xp": 10,
+      "question": {
+        "kind": "mcq",
+        "text": "Which of these is a set of steps that solves a problem?",
+        "text_fr": "Lequel de ces elements est un ensemble d'etapes qui resout un probleme ?",
+        "explanation": "That is the definition of an algorithm.",
+        "explanation_fr": "C'est la definition d'un algorithme.",
+        "hint_prompt": "Which word means a step-by-step method?",
+        "hint_prompt_fr": "Quel mot designe une methode pas a pas ?",
+        "choices": [
+          {
+            "text": "An algorithm",
+            "text_fr": "Un algorithme",
+            "correct": true
+          },
+          {
+            "text": "A computer",
+            "text_fr": "Un ordinateur",
+            "correct": false
+          },
+          {
+            "text": "A keyboard",
+            "text_fr": "Un clavier",
+            "correct": false
+          }
+        ],
+        "hints": [
+          {
+            "text": "It is the list of instructions, not the machine.",
+            "text_fr": "C'est la liste d'instructions, pas la machine."
+          }
+        ]
+      }
+    },
+    {
+      "kind": "explain",
+      "title": "Input, process, output",
+      "title_fr": "Entree, traitement, sortie",
+      "content": "Every algorithm has three parts. **Input** is the data it receives. **Process** is the set of steps that transform the data. **Output** is the result produced.\n\nFor instance, an algorithm takes two numbers as input, adds them during the process, and outputs the sum.",
+      "content_fr": "Tout algorithme a trois parties. L'**entree** est la donnee recue. Le **traitement** est l'ensemble des etapes qui transforment cette donnee. La **sortie** est le resultat produit.\n\nPar exemple, un algorithme recoit deux nombres en entree, les additionne pendant le traitement, et fournit la somme en sortie.",
+      "required": true,
+      "xp": 10,
+      "question": {
+        "kind": "mcq",
+        "text": "In 'add two numbers and show the sum', what is the input?",
+        "text_fr": "Dans « additionner deux nombres et afficher la somme », quelle est l'entree ?",
+        "explanation": "The input is the data given to the algorithm at the start.",
+        "explanation_fr": "L'entree est la donnee fournie a l'algorithme au depart.",
+        "hint_prompt": "What data does the algorithm start with?",
+        "hint_prompt_fr": "Avec quelle donnee l'algorithme commence-t-il ?",
+        "choices": [
+          {
+            "text": "The two numbers",
+            "text_fr": "Les deux nombres",
+            "correct": true
+          },
+          {
+            "text": "The sum",
+            "text_fr": "La somme",
+            "correct": false
+          },
+          {
+            "text": "The screen",
+            "text_fr": "L'ecran",
+            "correct": false
+          }
+        ],
+        "hints": [
+          {
+            "text": "The sum appears only at the end.",
+            "text_fr": "La somme n'apparait qu'a la fin."
+          }
+        ]
+      }
+    },
+    {
+      "kind": "example",
+      "title": "Worked example: preparing tea",
+      "title_fr": "Exemple resolu : preparer du the",
+      "content": "Problem: prepare a cup of tea.\n\nSteps: 1) boil water, 2) put a tea bag in the cup, 3) pour the hot water, 4) wait three minutes, 5) remove the bag.\n\nThe order matters: drinking before adding water fails.",
+      "content_fr": "Probleme : preparer une tasse de the.\n\nEtapes : 1) faire bouillir l'eau, 2) mettre un sachet dans la tasse, 3) verser l'eau chaude, 4) attendre trois minutes, 5) retirer le sachet.\n\nL'ordre compte : boire avant d'ajouter l'eau ne fonctionne pas.",
+      "required": true,
+      "xp": 12
+    },
+    {
+      "kind": "practice",
+      "title": "Your turn: put the steps in order",
+      "title_fr": "A toi : remets les etapes en ordre",
+      "content": "Reorder the steps of making a phone call so that a sensible order is produced.",
+      "content_fr": "Remets dans un ordre logique les etapes necessaires pour passer un appel telephonique.",
+      "required": true,
+      "xp": 12,
+      "question": {
+        "kind": "ordered",
+        "text": "Put the steps of making a phone call in the correct order.",
+        "text_fr": "Place les etapes pour passer un appel telephonique dans le bon ordre.",
+        "explanation": "You pick up the phone first, dial, wait for the answer, then talk.",
+        "explanation_fr": "On decroche d'abord, on compose le numero, on attend la reponse, puis on parle.",
+        "hint_prompt": "What must happen before you can speak?",
+        "hint_prompt_fr": "Que doit-il se passer avant de pouvoir parler ?",
+        "config": {
+          "items": [
+            "Pick up the phone",
+            "Dial the number",
+            "Wait for the answer",
+            "Talk"
+          ],
+          "items_fr": [
+            "Decrocher le telephone",
+            "Composer le numero",
+            "Attendre la reponse",
+            "Parler"
+          ]
+        },
+        "hints": [
+          {
+            "text": "You cannot talk before the call is answered.",
+            "text_fr": "On ne parle pas avant que l'appel soit repondu."
+          }
+        ]
+      }
+    },
+    {
+      "kind": "question",
+      "title": "Check: not every list is an algorithm",
+      "title_fr": "Verification : toute liste n'est pas un algorithme",
+      "content": "A shopping list has items but no logic and no fixed order, so it is not an algorithm. An algorithm must be precise and it must finish.",
+      "content_fr": "Une liste de courses contient des elements mais aucune logique ni ordre fixe : ce n'est donc pas un algorithme. Un algorithme doit etre precis et il doit se terminer.",
+      "required": true,
+      "xp": 12,
+      "question": {
+        "kind": "mcq",
+        "text": "Why is a shopping list not an algorithm?",
+        "text_fr": "Pourquoi une liste de courses n'est-elle pas un algorithme ?",
+        "explanation": "A list without order or logic is not a method that solves a problem.",
+        "explanation_fr": "Une liste sans ordre ni logique n'est pas une methode qui resout un probleme.",
+        "hint_prompt": "Compare a list of words with a method.",
+        "hint_prompt_fr": "Compare une liste de mots avec une methode.",
+        "choices": [
+          {
+            "text": "It has no order or logic",
+            "text_fr": "Elle n'a ni ordre ni logique",
+            "correct": true
+          },
+          {
+            "text": "It is written in English",
+            "text_fr": "Elle est ecrite en anglais",
+            "correct": false
+          },
+          {
+            "text": "It contains too many words",
+            "text_fr": "Elle contient trop de mots",
+            "correct": false
+          }
+        ],
+        "hints": [
+          {
+            "text": "An algorithm must be ordered.",
+            "text_fr": "Un algorithme doit etre ordonne."
+          }
+        ]
+      }
+    },
+    {
+      "kind": "summary",
+      "title": "What to keep",
+      "title_fr": "A retenir",
+      "content": "An algorithm is a finite, ordered and precise list of steps. It always has input, process and output, and it must end.",
+      "content_fr": "Un algorithme est une liste finie, ordonnee et precise d'etapes. Il possede toujours une entree, un traitement et une sortie, et il doit se terminer.",
+      "required": false,
+      "xp": 5
+    }
+  ],
+  "quiz": {
+    "title": "What Is an Algorithm?",
+    "title_fr": "Qu'est-ce qu'un algorithme ?",
+    "pass_score": 60,
+    "questions": [
+      {
+        "kind": "mcq",
+        "text": "Which part of an algorithm transforms the data?",
+        "text_fr": "Quelle partie d'un algorithme transforme la donnee ?",
+        "explanation": "The process is the set of steps that transforms the input.",
+        "explanation_fr": "Le traitement est l'ensemble des etapes qui transforme l'entree.",
+        "hint_prompt": "Three parts: input, process, output.",
+        "hint_prompt_fr": "Trois parties : entree, traitement, sortie.",
+        "choices": [
+          {
+            "text": "The process",
+            "text_fr": "Le traitement",
+            "correct": true
+          },
+          {
+            "text": "The input",
+            "text_fr": "L'entree",
+            "correct": false
+          },
+          {
+            "text": "The output",
+            "text_fr": "La sortie",
+            "correct": false
+          }
+        ],
+        "hints": [
+          {
+            "text": "It comes between the input and the output.",
+            "text_fr": "Il se situe entre l'entree et la sortie."
+          }
+        ],
+        "difficulty": 1
+      },
+      {
+        "kind": "mcq",
+        "text": "Which is the best definition of an algorithm?",
+        "text_fr": "Quelle est la meilleure definition d'un algorithme ?",
+        "explanation": "It must be finite, ordered and solve a problem.",
+        "explanation_fr": "Il doit etre fini, ordonne et resoudre un probleme.",
+        "hint_prompt": "Look for finite, ordered and precise.",
+        "hint_prompt_fr": "Cherche fini, ordonne et precis.",
+        "choices": [
+          {
+            "text": "A finite, ordered list of steps that solves a problem",
+            "text_fr": "Une suite finie et ordonnee d'etapes qui resout un probleme",
+            "correct": true
+          },
+          {
+            "text": "Any list of words",
+            "text_fr": "N'importe quelle liste de mots",
+            "correct": false
+          },
+          {
+            "text": "A type of computer",
+            "text_fr": "Un type d'ordinateur",
+            "correct": false
+          }
+        ],
+        "hints": [
+          {
+            "text": "The definition mentions order and a solution.",
+            "text_fr": "La definition parle d'ordre et de solution."
+          }
+        ],
+        "difficulty": 1
+      },
+      {
+        "kind": "numeric",
+        "text": "The tea algorithm has how many steps?",
+        "text_fr": "Combien d'etapes comporte l'algorithme du the ?",
+        "explanation": "Boil, add bag, pour, wait, remove: that is five steps.",
+        "explanation_fr": "Bouillir, ajouter, verser, attendre, retirer : cela fait cinq etapes.",
+        "hint_prompt": "Count the actions listed in the example.",
+        "hint_prompt_fr": "Compte les actions listees dans l'exemple.",
+        "config": {
+          "accepted": [
+            "5"
+          ]
+        },
+        "hints": [
+          {
+            "text": "One action per step.",
+            "text_fr": "Une action par etape."
+          }
+        ],
+        "difficulty": 1
+      },
+      {
+        "kind": "mcq",
+        "text": "Why does the order of the steps matter?",
+        "text_fr": "Pourquoi l'ordre des etapes est-il important ?",
+        "explanation": "A different order can give a wrong result or make the task impossible.",
+        "explanation_fr": "Un autre ordre peut donner un mauvais resultat ou rendre la tache impossible.",
+        "hint_prompt": "Think about drinking the tea before adding water.",
+        "hint_prompt_fr": "Pense a boire le the avant d'ajouter l'eau.",
+        "choices": [
+          {
+            "text": "A different order can give a wrong result",
+            "text_fr": "Un autre ordre peut donner un mauvais resultat",
+            "correct": true
+          },
+          {
+            "text": "It changes the colour of the screen",
+            "text_fr": "Cela change la couleur de l'ecran",
+            "correct": false
+          },
+          {
+            "text": "It makes the algorithm shorter",
+            "text_fr": "Cela rend l'algorithme plus court",
+            "correct": false
+          }
+        ],
+        "hints": [
+          {
+            "text": "Correct results depend on the right sequence.",
+            "text_fr": "Un bon resultat depend d'un bon enchainement."
+          }
+        ],
+        "difficulty": 2
+      },
+      {
+        "kind": "text",
+        "text": "Type the word for the data an algorithm receives.",
+        "text_fr": "Ecris le mot qui designe la donnee recue par un algorithme.",
+        "explanation": "The data received at the start is the input.",
+        "explanation_fr": "La donnee recue au depart est l'entree.",
+        "hint_prompt": "Three parts: input, process, output.",
+        "hint_prompt_fr": "Trois parties : entree, traitement, sortie.",
+        "config": {
+          "accepted": [
+            "input",
+            "entree"
+          ],
+          "case_sensitive": false
+        },
+        "hints": [
+          {
+            "text": "It is the opposite of the output.",
+            "text_fr": "C'est le contraire de la sortie."
+          }
+        ],
+        "difficulty": 1
+      }
+    ]
+  }
+}

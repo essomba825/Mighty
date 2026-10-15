@@ -1,0 +1,302 @@
+{
+  "lesson": 67,
+  "status": "published",
+  "lesson_fields": {
+    "title": "Biological Molecules",
+    "title_fr": "Les molecules biologiques",
+    "summary": "Carbohydrates, proteins, lipids and nucleic acids: their building blocks, their bonds and their roles in the cell.",
+    "summary_fr": "Glucides, proteines, lipides et acides nucleiques : leurs elements de base, leurs liaisons et leurs roles dans la cellule.",
+    "objectives": [
+      "Identify the four main classes of biological molecules",
+      "Name the monomers and polymers of each class",
+      "Relate the structure of each class to its role"
+    ],
+    "objectives_fr": [
+      "Identifier les quatre grandes classes de molecules biologiques",
+      "Nommer les monomeres et polymeres de chaque classe",
+      "Relier la structure de chaque classe a son role"
+    ],
+    "estimated_minutes": 30
+  },
+  "steps": [
+    {
+      "kind": "concept",
+      "title": "Four families build every cell",
+      "title_fr": "Quatre familles construisent toute cellule",
+      "content": "Almost everything in a cell is made from four families of molecules: carbohydrates, proteins, lipids and nucleic acids.\n\nEach family is a big molecule (a polymer) built by joining many small units (monomers) together, like beads on a string. Learn the monomer and you unlock the whole family.",
+      "content_fr": "Presque tout dans une cellule est fait de quatre familles de molecules : les glucides, les proteines, les lipides et les acides nucleiques.\n\nChaque famille est une grande molecule (un polymere) formee en assemblant de petites unites (monomeres), comme des perles sur un fil. Connaitre le monomere, c est comprendre toute la famille.",
+      "required": true,
+      "xp": 10,
+      "question": {
+        "kind": "mcq",
+        "text": "Which family is the main immediate source of energy for a cell?",
+        "text_fr": "Quelle famille est la principale source immediate d energie pour une cellule ?",
+        "explanation": "Carbohydrates such as glucose are the quickest source of energy.",
+        "explanation_fr": "Les glucides comme le glucose sont la source d energie la plus rapide.",
+        "hint_prompt": "Think of sugar.",
+        "hint_prompt_fr": "Pense au sucre.",
+        "choices": [
+          {"text": "Carbohydrates", "text_fr": "Les glucides", "correct": true},
+          {"text": "Proteins", "text_fr": "Les proteines"},
+          {"text": "Lipids", "text_fr": "Les lipides"},
+          {"text": "Nucleic acids", "text_fr": "Les acides nucleiques"}
+        ],
+        "hints": [
+          {"text": "Glucose belongs to this family.", "text_fr": "Le glucose appartient a cette famille."},
+          {"text": "Sugar and starch.", "text_fr": "Sucre et amidon."}
+        ]
+      }
+    },
+    {
+      "kind": "explain",
+      "title": "Carbohydrates: sugar and starch",
+      "title_fr": "Glucides : sucre et amidon",
+      "content": "The monomer of a carbohydrate is a monosaccharide, such as glucose. Two monosaccharides join to form a disaccharide, for example sucrose. Many joined together form a polysaccharide, such as starch in plants or glycogen in animals.\n\nCarbohydrates are built from carbon, hydrogen and oxygen, and they store and release energy quickly.",
+      "content_fr": "Le monomere d un glucide est un monosaccharide, comme le glucose. Deux monosaccharides s unissent pour former un disaccharide, par exemple le saccharose. Beaucoup unis ensemble forment un polysaccharide, comme l amidon chez les vegetaux ou le glycogene chez les animaux.\n\nLes glucides sont formes de carbone, d hydrogene et d oxygene, et ils stockent et liberent l energie rapidement.",
+      "required": true,
+      "xp": 10,
+      "question": {
+        "kind": "mcq",
+        "text": "What is the monomer of the carbohydrate polymer starch?",
+        "text_fr": "Quel est le monomere du glucide polymere qu est l amidon ?",
+        "explanation": "Starch is a polysaccharide built from many glucose units.",
+        "explanation_fr": "L amidon est un polysaccharide forme de nombreuses molecules de glucose.",
+        "hint_prompt": "Which simple sugar do you know?",
+        "hint_prompt_fr": "Quel sucre simple connais-tu ?",
+        "choices": [
+          {"text": "Glucose", "text_fr": "Le glucose", "correct": true},
+          {"text": "Glycerol", "text_fr": "Le glycerol"},
+          {"text": "Amino acid", "text_fr": "Un acide amine"},
+          {"text": "Nucleotide", "text_fr": "Un nucleotide"}
+        ],
+        "hints": [
+          {"text": "It is a monosaccharide.", "text_fr": "C est un monosaccharide."},
+          {"text": "The body controls it in the blood.", "text_fr": "Le corps le controle dans le sang."}
+        ]
+      }
+    },
+    {
+      "kind": "explain",
+      "title": "Proteins: chains of amino acids",
+      "title_fr": "Proteines : des chaines d acides amines",
+      "content": "The monomer of a protein is an amino acid. Amino acids join in a long chain by peptide bonds, and the chain folds into a precise shape.\n\nThat shape decides the job. Proteins act as enzymes, build muscle and skin, carry oxygen and defend the body. Structure and function are tightly linked.",
+      "content_fr": "Le monomere d une proteine est un acide amine. Les acides amines s enchainent par des liaisons peptidiques, et la chaine se replie en une forme precise.\n\nCette forme determine le role. Les proteines servent d enzymes, construisent les muscles et la peau, transportent l oxygene et defendent le corps. Structure et fonction sont etroitement liees.",
+      "required": true,
+      "xp": 10,
+      "question": {
+        "kind": "mcq",
+        "text": "Proteins are polymers of which monomer?",
+        "text_fr": "Les proteines sont des polymeres de quel monomere ?",
+        "explanation": "Amino acids are the monomers of proteins.",
+        "explanation_fr": "Les acides amines sont les monomeres des proteines.",
+        "hint_prompt": "Peptide bonds join them.",
+        "hint_prompt_fr": "Des liaisons peptidiques les unissent.",
+        "choices": [
+          {"text": "Amino acids", "text_fr": "Des acides amines", "correct": true},
+          {"text": "Glucose units", "text_fr": "Des unites de glucose"},
+          {"text": "Fatty acids", "text_fr": "Des acides gras"},
+          {"text": "Nucleotides", "text_fr": "Des nucleotides"}
+        ],
+        "hints": [
+          {"text": "There are about twenty kinds of them.", "text_fr": "Il en existe environ vingt sortes."},
+          {"text": "They contain an amine group.", "text_fr": "Ils contiennent un groupe amine."}
+        ]
+      }
+    },
+    {
+      "kind": "concept",
+      "title": "Lipids: fats and oils",
+      "title_fr": "Lipides : graisses et huiles",
+      "content": "A lipid is built from one glycerol joined to fatty acids. Unlike carbohydrates and proteins, lipids are not chains of identical monomers; they are a family of water-hating molecules.\n\nLipids store energy for the long term, insulate the body against cold and form the membranes that surround every cell.",
+      "content_fr": "Un lipide est forme d un glycerol uni a des acides gras. Contrairement aux glucides et aux proteines, les lipides ne sont pas des chaines de monomeres identiques ; ils forment une famille de molecules qui fuient l eau.\n\nLes lipides stockent l energie a long terme, isolent le corps contre le froid et forment les membranes qui entourent chaque cellule.",
+      "required": true,
+      "xp": 10,
+      "question": {
+        "kind": "mcq",
+        "text": "Which two parts are joined to make a lipid?",
+        "text_fr": "Quelles deux parties s unissent pour former un lipide ?",
+        "explanation": "A lipid is glycerol linked to fatty acids.",
+        "explanation_fr": "Un lipide est un glycerol lie a des acides gras.",
+        "hint_prompt": "One part is glycerol.",
+        "hint_prompt_fr": "Une partie est le glycerol.",
+        "choices": [
+          {"text": "Glycerol and fatty acids", "text_fr": "Glycerol et acides gras", "correct": true},
+          {"text": "Two glucose units", "text_fr": "Deux unites de glucose"},
+          {"text": "Amino acids and peptides", "text_fr": "Des acides amines et des peptides"},
+          {"text": "Two nucleotides", "text_fr": "Deux nucleotides"}
+        ],
+        "hints": [
+          {"text": "Oils and fats belong here.", "text_fr": "Les huiles et les graisses en font partie."},
+          {"text": "One partner is an acid.", "text_fr": "Un partenaire est un acide."}
+        ]
+      }
+    },
+    {
+      "kind": "example",
+      "title": "Nucleic acids: DNA and RNA",
+      "title_fr": "Acides nucleiques : ADN et ARN",
+      "content": "The monomer of a nucleic acid is a nucleotide, made of a phosphate, a sugar and a base. Nucleotides join into long chains to form DNA and RNA.\n\nDNA stores the genetic code; RNA carries and uses that code to build proteins. This is the family you meet again in the lesson on DNA and protein synthesis.",
+      "content_fr": "Le monomere d un acide nucleique est un nucleotide, forme d un phosphate, d un sucre et d une base. Les nucleotides s enchainent pour former l ADN et l ARN.\n\nL ADN conserve le code genetique ; l ARN transporte et utilise ce code pour fabriquer les proteines. C est la famille que tu retrouveras dans la lecon sur l ADN et la synthese des proteines.",
+      "required": true,
+      "xp": 10,
+      "question": {
+        "kind": "mcq",
+        "text": "What is the monomer of DNA?",
+        "text_fr": "Quel est le monomere de l ADN ?",
+        "explanation": "DNA is a polymer of nucleotides.",
+        "explanation_fr": "L ADN est un polymere de nucleotides.",
+        "hint_prompt": "It contains a base, a sugar and a phosphate.",
+        "hint_prompt_fr": "Il contient une base, un sucre et un phosphate.",
+        "choices": [
+          {"text": "A nucleotide", "text_fr": "Un nucleotide", "correct": true},
+          {"text": "An amino acid", "text_fr": "Un acide amine"},
+          {"text": "A monosaccharide", "text_fr": "Un monosaccharide"},
+          {"text": "A fatty acid", "text_fr": "Un acide gras"}
+        ],
+        "hints": [
+          {"text": "It has three parts.", "text_fr": "Il a trois parties."},
+          {"text": "It carries a base (A, T, C or G).", "text_fr": "Il porte une base (A, T, C ou G)."}
+        ]
+      }
+    },
+    {
+      "kind": "question",
+      "title": "Check: match the family to its test",
+      "title_fr": "Verification : associe la famille a son test",
+      "content": "In the laboratory each family can be detected. Iodine turns blue-black with starch (a carbohydrate). The biuret test turns purple with protein. Emulsion tests detect lipids.\n\nRecognising the molecule behind a test is a standard exam item.",
+      "content_fr": "Au laboratoire, chaque famille peut etre detectee. L iode devient bleu-noir avec l amidon (un glucide). Le test du biuret devient violet avec une proteine. Les tests d emulsion revelent les lipides.\n\nReconnaitre la molecule derriere un test est une question d examen classique.",
+      "required": true,
+      "xp": 10,
+      "question": {
+        "kind": "mcq",
+        "text": "Iodine turns blue-black when it meets which molecule?",
+        "text_fr": "L iode devient bleu-noir au contact de quelle molecule ?",
+        "explanation": "Iodine detects starch, a carbohydrate.",
+        "explanation_fr": "L iode detecte l amidon, un glucide.",
+        "hint_prompt": "It is a carbohydrate stored in plants.",
+        "hint_prompt_fr": "C est un glucide stocke dans les vegetaux.",
+        "choices": [
+          {"text": "Starch", "text_fr": "L amidon", "correct": true},
+          {"text": "Protein", "text_fr": "La proteine"},
+          {"text": "Lipid", "text_fr": "Le lipide"},
+          {"text": "DNA", "text_fr": "L ADN"}
+        ],
+        "hints": [
+          {"text": "Found in potatoes.", "text_fr": "On en trouve dans les pommes de terre."},
+          {"text": "It is a polysaccharide.", "text_fr": "C est un polysaccharide."}
+        ]
+      }
+    },
+    {
+      "kind": "summary",
+      "title": "What to keep",
+      "title_fr": "A retenir",
+      "content": "Four families build the cell. Carbohydrates (monomer: monosaccharide) give quick energy. Proteins (monomer: amino acid) carry out functions. Lipids (glycerol plus fatty acids) store energy and build membranes. Nucleic acids (monomer: nucleotide) store and carry the genetic code.",
+      "content_fr": "Quatre familles construisent la cellule. Les glucides (monomere : monosaccharide) donnent l energie rapide. Les proteines (monomere : acide amine) assurent les fonctions. Les lipides (glycerol et acides gras) stockent l energie et forment les membranes. Les acides nucleiques (monomere : nucleotide) conservent et transportent le code genetique.",
+      "required": false,
+      "xp": 5
+    }
+  ],
+  "quiz": {
+    "title": "Biological molecules: final check",
+    "title_fr": "Molecules biologiques : bilan final",
+    "pass_score": 60,
+    "questions": [
+      {
+        "kind": "mcq",
+        "text": "Which is the monomer of proteins?",
+        "text_fr": "Quel est le monomere des proteines ?",
+        "explanation": "Proteins are polymers of amino acids.",
+        "explanation_fr": "Les proteines sont des polymeres d acides amines.",
+        "hint_prompt": "Joined by peptide bonds.",
+        "hint_prompt_fr": "Unis par des liaisons peptidiques.",
+        "choices": [
+          {"text": "Amino acid", "text_fr": "Acide amine", "correct": true},
+          {"text": "Glucose", "text_fr": "Glucose"},
+          {"text": "Nucleotide", "text_fr": "Nucleotide"},
+          {"text": "Glycerol", "text_fr": "Glycerol"}
+        ],
+        "hints": [
+          {"text": "There are about twenty types.", "text_fr": "Il en existe environ vingt types."},
+          {"text": "They contain an amine group.", "text_fr": "Ils contiennent un groupe amine."}
+        ],
+        "difficulty": 1
+      },
+      {
+        "kind": "mcq",
+        "text": "Which molecule is the immediate energy source for cells?",
+        "text_fr": "Quelle molecule est la source immediate d energie des cellules ?",
+        "explanation": "Glucose, a carbohydrate, is used first for energy.",
+        "explanation_fr": "Le glucose, un glucide, est utilise d abord pour l energie.",
+        "hint_prompt": "It is a sugar.",
+        "hint_prompt_fr": "C est un sucre.",
+        "choices": [
+          {"text": "Glucose", "text_fr": "Le glucose", "correct": true},
+          {"text": "DNA", "text_fr": "L ADN"},
+          {"text": "Amino acid", "text_fr": "Un acide amine"},
+          {"text": "Fatty acid", "text_fr": "Un acide gras"}
+        ],
+        "hints": [
+          {"text": "A monosaccharide.", "text_fr": "Un monosaccharide."},
+          {"text": "Controlled in the blood.", "text_fr": "Controle dans le sang."}
+        ],
+        "difficulty": 1
+      },
+      {
+        "kind": "mcq",
+        "text": "Nucleotides are the monomers of which family?",
+        "text_fr": "Les nucleotides sont les monomeres de quelle famille ?",
+        "explanation": "Nucleotides build nucleic acids such as DNA and RNA.",
+        "explanation_fr": "Les nucleotides forment les acides nucleiques comme l ADN et l ARN.",
+        "hint_prompt": "DNA belongs to it.",
+        "hint_prompt_fr": "L ADN en fait partie.",
+        "choices": [
+          {"text": "Nucleic acids", "text_fr": "Les acides nucleiques", "correct": true},
+          {"text": "Carbohydrates", "text_fr": "Les glucides"},
+          {"text": "Proteins", "text_fr": "Les proteines"},
+          {"text": "Lipids", "text_fr": "Les lipides"}
+        ],
+        "hints": [
+          {"text": "It stores the genetic code.", "text_fr": "Elle conserve le code genetique."},
+          {"text": "DNA and RNA.", "text_fr": "ADN et ARN."}
+        ],
+        "difficulty": 1
+      },
+      {
+        "kind": "mcq",
+        "text": "A lipid is made from glycerol joined to which partner?",
+        "text_fr": "Un lipide est fait de glycerol uni a quel partenaire ?",
+        "explanation": "Glycerol plus fatty acids form a lipid.",
+        "explanation_fr": "Le glycerol et les acides gras forment un lipide.",
+        "hint_prompt": "Oils and fats belong here.",
+        "hint_prompt_fr": "Les huiles et graisses en font partie.",
+        "choices": [
+          {"text": "Fatty acids", "text_fr": "Des acides gras", "correct": true},
+          {"text": "Amino acids", "text_fr": "Des acides amines"},
+          {"text": "Nucleotides", "text_fr": "Des nucleotides"},
+          {"text": "Glucose units", "text_fr": "Des unites de glucose"}
+        ],
+        "hints": [
+          {"text": "An acidic partner.", "text_fr": "Un partenaire acide."},
+          {"text": "Butter and oil are examples.", "text_fr": "Le beurre et l huile en sont des exemples."}
+        ],
+        "difficulty": 2
+      },
+      {
+        "kind": "numeric",
+        "text": "How many families of biological molecules are described in this lesson? Give the number.",
+        "text_fr": "Combien de familles de molecules biologiques sont decrites dans cette lecon ? Donne le nombre.",
+        "explanation": "Four: carbohydrates, proteins, lipids and nucleic acids.",
+        "explanation_fr": "Quatre : glucides, proteines, lipides et acides nucleiques.",
+        "hint_prompt": "Count the main groups.",
+        "hint_prompt_fr": "Compte les grands groupes.",
+        "config": {"accepted": ["4"]},
+        "hints": [
+          {"text": "One of them is nucleic acids.", "text_fr": "L une d elles est les acides nucleiques."},
+          {"text": "Carbs, proteins, lipids and one more.", "text_fr": "Glucides, proteines, lipides et encore une."}
+        ],
+        "difficulty": 1
+      }
+    ]
+  }
+}

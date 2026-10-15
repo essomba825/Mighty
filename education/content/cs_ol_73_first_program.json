@@ -1,0 +1,360 @@
+{
+  "lesson": 73,
+  "status": "published",
+  "lesson_fields": {
+    "title": "Your First Python Program",
+    "title_fr": "Ton premier programme Python",
+    "summary": "A Python program is a list of instructions read from top to bottom. Use print() to show text, # for comments, and watch out for missing quotes.",
+    "summary_fr": "Un programme Python est une liste d'instructions lues de haut en bas. On utilise print() pour afficher du texte, # pour les commentaires, et il faut faire attention aux guillemets manquants.",
+    "content": "## A program is a list of instructions\n\nPython reads a program from top to bottom.\n\n```python\n# My first program\nprint(\"Hello, world!\")\n```",
+    "content_fr": "## Un programme est une liste d'instructions\n\nPython lit un programme de haut en bas.\n\n```python\n# Mon premier programme\nprint(\"Bonjour le monde !\")\n```",
+    "objectives": [
+      "Explain how Python runs the lines of a program",
+      "Use print() to display text on the screen",
+      "Recognise a comment written with #",
+      "Spot a missing quote error"
+    ],
+    "objectives_fr": [
+      "Expliquer comment Python execute les lignes d'un programme",
+      "Utiliser print() pour afficher du texte a l'ecran",
+      "Reconnaitre un commentaire ecrit avec #",
+      "Reperer une erreur de guillemet manquant"
+    ],
+    "estimated_minutes": 25
+  },
+  "steps": [
+    {
+      "kind": "concept",
+      "title": "Talking to the computer",
+      "title_fr": "Parler a l'ordinateur",
+      "content": "A program is a set of instructions written in a programming language. Python reads the instructions from top to bottom and carries them out one by one.\n\nWe write a program inside a file, then we run that file.",
+      "content_fr": "Un programme est un ensemble d'instructions ecrites dans un langage de programmation. Python lit les instructions de haut en bas et les execute une par une.\n\nOn ecrit un programme dans un fichier, puis on execute ce fichier.",
+      "required": true,
+      "xp": 10,
+      "question": {
+        "kind": "mcq",
+        "text": "In which order does Python run the instructions?",
+        "text_fr": "Dans quel ordre Python execute-t-il les instructions ?",
+        "explanation": "Python runs the first line, then the second, and so on.",
+        "explanation_fr": "Python execute la premiere ligne, puis la deuxieme, et ainsi de suite.",
+        "hint_prompt": "Which line is read first?",
+        "hint_prompt_fr": "Quelle ligne est lue en premier ?",
+        "choices": [
+          {
+            "text": "From top to bottom",
+            "text_fr": "De haut en bas",
+            "correct": true
+          },
+          {
+            "text": "In a random order",
+            "text_fr": "Dans un ordre aleatoire",
+            "correct": false
+          },
+          {
+            "text": "From bottom to top",
+            "text_fr": "De bas en haut",
+            "correct": false
+          }
+        ],
+        "hints": [
+          {
+            "text": "The first line is the one at the top.",
+            "text_fr": "La premiere ligne est celle du haut."
+          }
+        ]
+      }
+    },
+    {
+      "kind": "explain",
+      "title": "print(): showing text",
+      "title_fr": "print() : afficher du texte",
+      "content": "The function `print()` displays text on the screen. The text sits between quotes and is called a **string**.\n\n`print(\"Hello\")` shows Hello on the screen.",
+      "content_fr": "La fonction `print()` affiche du texte a l'ecran. Le texte se place entre guillemets et s'appelle une **chaine de caracteres**.\n\n`print(\"Hello\")` affiche Hello a l'ecran.",
+      "required": true,
+      "xp": 10,
+      "question": {
+        "kind": "mcq",
+        "text": "What does `print(\"Hi\")` do?",
+        "text_fr": "Que fait `print(\"Hi\")` ?",
+        "explanation": "print() shows the text placed between the quotes.",
+        "explanation_fr": "print() affiche le texte place entre les guillemets.",
+        "hint_prompt": "The word print means to display.",
+        "hint_prompt_fr": "Le mot print signifie afficher.",
+        "choices": [
+          {
+            "text": "It displays the text Hi",
+            "text_fr": "Il affiche le texte Hi",
+            "correct": true
+          },
+          {
+            "text": "It adds two numbers",
+            "text_fr": "Il additionne deux nombres",
+            "correct": false
+          },
+          {
+            "text": "It saves a file",
+            "text_fr": "Il enregistre un fichier",
+            "correct": false
+          }
+        ],
+        "hints": [
+          {
+            "text": "Look at the word inside the quotes.",
+            "text_fr": "Regarde le mot place entre les guillemets."
+          }
+        ]
+      }
+    },
+    {
+      "kind": "example",
+      "title": "Worked example: your first program",
+      "title_fr": "Exemple resolu : ton premier programme",
+      "content": "Here is a complete program of three lines:\n\n`# My first program`\n`print(\"Hello, world!\")`\n`print(\"This is Python.\")`\n\nWhen we run it, the two printed lines appear in order. The line starting with # is a comment, and Python ignores it.",
+      "content_fr": "Voici un programme complet de trois lignes :\n\n`# Mon premier programme`\n`print(\"Hello, world!\")`\n`print(\"This is Python.\")`\n\nQuand on l'execute, les deux lignes affichees apparaissent dans l'ordre. La ligne qui commence par # est un commentaire, et Python l'ignore.",
+      "required": true,
+      "xp": 12
+    },
+    {
+      "kind": "practice",
+      "title": "Your turn: what appears on screen?",
+      "title_fr": "A toi : qu'affiche l'ecran ?",
+      "content": "Look at these two instructions:\n\n`print(\"A\")`\n`print(\"B\")`\n\nThey run one after the other, from top to bottom.",
+      "content_fr": "Observe ces deux instructions :\n\n`print(\"A\")`\n`print(\"B\")`\n\nElles s'executent l'une apres l'autre, de haut en bas.",
+      "required": true,
+      "xp": 12,
+      "question": {
+        "kind": "text",
+        "text": "Type the two letters that appear, in order, with no space.",
+        "text_fr": "Ecris les deux lettres affichees, dans l'ordre, sans espace.",
+        "explanation": "The first line prints A, then the second prints B, so we read AB.",
+        "explanation_fr": "La premiere ligne affiche A, puis la deuxieme affiche B, on lit donc AB.",
+        "hint_prompt": "Read the lines from top to bottom.",
+        "hint_prompt_fr": "Lis les lignes de haut en bas.",
+        "config": {
+          "accepted": [
+            "AB"
+          ],
+          "case_sensitive": false
+        },
+        "hints": [
+          {
+            "text": "The top line is printed first.",
+            "text_fr": "La ligne du haut est affichee en premier."
+          }
+        ]
+      }
+    },
+    {
+      "kind": "question",
+      "title": "Check: comments and errors",
+      "title_fr": "Verification : commentaires et erreurs",
+      "content": "A comment starts with # and Python ignores it. If a closing quote is missing, Python reports an error and stops.",
+      "content_fr": "Un commentaire commence par # et Python l'ignore. Si un guillemet fermant manque, Python signale une erreur et s'arrete.",
+      "required": true,
+      "xp": 12,
+      "question": {
+        "kind": "mcq",
+        "text": "What does Python do with a line that starts with #?",
+        "text_fr": "Que fait Python d'une ligne qui commence par # ?",
+        "explanation": "A line starting with # is a comment, so Python ignores it.",
+        "explanation_fr": "Une ligne qui commence par # est un commentaire, Python l'ignore donc.",
+        "hint_prompt": "A comment is a note for humans.",
+        "hint_prompt_fr": "Un commentaire est une note destinee aux humains.",
+        "choices": [
+          {
+            "text": "It ignores the line",
+            "text_fr": "Il ignore la ligne",
+            "correct": true
+          },
+          {
+            "text": "It prints the line",
+            "text_fr": "Il affiche la ligne",
+            "correct": false
+          },
+          {
+            "text": "It deletes the file",
+            "text_fr": "Il supprime le fichier",
+            "correct": false
+          }
+        ],
+        "hints": [
+          {
+            "text": "Comments never appear on the screen.",
+            "text_fr": "Les commentaires n'apparaissent jamais a l'ecran."
+          }
+        ]
+      }
+    },
+    {
+      "kind": "summary",
+      "title": "What to keep",
+      "title_fr": "A retenir",
+      "content": "A Python program runs from top to bottom. `print()` shows text placed between quotes. A comment starts with # and is ignored. A missing quote stops the program with an error.",
+      "content_fr": "Un programme Python s'execute de haut en bas. `print()` affiche le texte place entre guillemets. Un commentaire commence par # et est ignore. Un guillemet manquant arrete le programme avec une erreur.",
+      "required": false,
+      "xp": 5
+    }
+  ],
+  "quiz": {
+    "title": "Your First Python Program",
+    "title_fr": "Ton premier programme Python",
+    "pass_score": 60,
+    "questions": [
+      {
+        "kind": "text",
+        "text": "Type the function used to display text on the screen.",
+        "text_fr": "Ecris la fonction qui permet d'afficher du texte a l'ecran.",
+        "explanation": "The function print() displays text.",
+        "explanation_fr": "La fonction print() affiche du texte.",
+        "hint_prompt": "It is a short English verb.",
+        "hint_prompt_fr": "C'est un court verbe anglais.",
+        "config": {
+          "accepted": [
+            "print",
+            "print()"
+          ],
+          "case_sensitive": false
+        },
+        "hints": [
+          {
+            "text": "It means to display or show.",
+            "text_fr": "Cela veut dire afficher ou montrer."
+          }
+        ],
+        "difficulty": 1
+      },
+      {
+        "kind": "mcq",
+        "text": "Which symbol starts a comment in Python?",
+        "text_fr": "Quel symbole commence un commentaire en Python ?",
+        "explanation": "A comment starts with the hash symbol #.",
+        "explanation_fr": "Un commentaire commence par le diese #.",
+        "hint_prompt": "It is on the same key as the number 3.",
+        "hint_prompt_fr": "Il se trouve sur la meme touche que le chiffre 3.",
+        "choices": [
+          {
+            "text": "#",
+            "text_fr": "#",
+            "correct": true
+          },
+          {
+            "text": "//",
+            "text_fr": "//",
+            "correct": false
+          },
+          {
+            "text": "**",
+            "text_fr": "**",
+            "correct": false
+          }
+        ],
+        "hints": [
+          {
+            "text": "It is called the hash symbol.",
+            "text_fr": "On l'appelle le diese."
+          }
+        ],
+        "difficulty": 1
+      },
+      {
+        "kind": "mcq",
+        "text": "What is the output of `print(\"2+3\")`?",
+        "text_fr": "Quel est l'affichage de `print(\"2+3\")` ?",
+        "explanation": "The quotes make it a string, so the text 2+3 is printed as it is.",
+        "explanation_fr": "Les guillemets en font une chaine, le texte 2+3 est donc affiche tel quel.",
+        "hint_prompt": "Are the characters between quotes computed?",
+        "hint_prompt_fr": "Les caracteres entre guillemets sont-ils calcules ?",
+        "choices": [
+          {
+            "text": "2+3",
+            "text_fr": "2+3",
+            "correct": true
+          },
+          {
+            "text": "5",
+            "text_fr": "5",
+            "correct": false
+          },
+          {
+            "text": "An error",
+            "text_fr": "Une erreur",
+            "correct": false
+          }
+        ],
+        "hints": [
+          {
+            "text": "Quotes turn characters into text, not arithmetic.",
+            "text_fr": "Les guillemets transforment les caracteres en texte, pas en calcul."
+          }
+        ],
+        "difficulty": 2
+      },
+      {
+        "kind": "mcq",
+        "text": "If a string is missing its closing quote, what happens?",
+        "text_fr": "S'il manque le guillemet fermant d'une chaine, que se passe-t-il ?",
+        "explanation": "Python cannot read the string and stops with an error.",
+        "explanation_fr": "Python ne peut pas lire la chaine et s'arrete avec une erreur.",
+        "hint_prompt": "Is the string complete?",
+        "hint_prompt_fr": "La chaine est-elle complete ?",
+        "choices": [
+          {
+            "text": "Python stops with an error",
+            "text_fr": "Python s'arrete avec une erreur",
+            "correct": true
+          },
+          {
+            "text": "Nothing happens",
+            "text_fr": "Rien ne se passe",
+            "correct": false
+          },
+          {
+            "text": "It prints twice",
+            "text_fr": "Cela affiche deux fois",
+            "correct": false
+          }
+        ],
+        "hints": [
+          {
+            "text": "Strings must be closed on both sides.",
+            "text_fr": "Une chaine doit etre fermee des deux cotes."
+          }
+        ],
+        "difficulty": 2
+      },
+      {
+        "kind": "mcq",
+        "text": "Given `print(\"one\")` then `print(\"two\")`, what is displayed first?",
+        "text_fr": "Avec `print(\"one\")` puis `print(\"two\")`, qu'est-ce qui est affiche en premier ?",
+        "explanation": "Lines run from top to bottom, so one appears first.",
+        "explanation_fr": "Les lignes s'executent de haut en bas, one apparait donc en premier.",
+        "hint_prompt": "Which line is written first?",
+        "hint_prompt_fr": "Quelle ligne est ecrite en premier ?",
+        "choices": [
+          {
+            "text": "one",
+            "text_fr": "one",
+            "correct": true
+          },
+          {
+            "text": "two",
+            "text_fr": "two",
+            "correct": false
+          },
+          {
+            "text": "Both at the same time",
+            "text_fr": "Les deux en meme temps",
+            "correct": false
+          }
+        ],
+        "hints": [
+          {
+            "text": "The first line is carried out first.",
+            "text_fr": "La premiere ligne est executee en premier."
+          }
+        ],
+        "difficulty": 1
+      }
+    ]
+  }
+}

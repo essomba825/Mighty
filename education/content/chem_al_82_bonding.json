@@ -1,0 +1,335 @@
+{
+  "lesson": 82,
+  "status": "published",
+  "lesson_fields": {
+    "title": "Chemical Bonding and Structure",
+    "title_fr": "Liaison chimique et structure",
+    "summary": "Atoms join to reach a stable outer shell. Metals give electrons away to form ionic bonds, while non-metals share electrons in covalent bonds. The type of bond shapes the properties of the substance.",
+    "summary_fr": "Les atomes s'unissent pour atteindre une couche externe stable. Les metaux cedent des electrons et forment des liaisons ioniques, alors que les non-metaux partagent des electrons dans des liaisons covalentes. Le type de liaison determine les proprietes de la substance.",
+    "content": "## Why atoms bond\n\nAn atom with a full outer shell is stable. Atoms with a few outer electrons lose them, atoms with many gain or share them.\n\n## Two main bonds\n\nIonic bonds transfer electrons and give charged particles. Covalent bonds share electrons and give molecules. The structure that follows controls melting point, hardness and whether the substance conducts.",
+    "content_fr": "## Pourquoi les atomes s'unissent\n\nUn atome dont la couche externe est pleine est stable. Les atomes qui ont peu d'electrons externes les perdent, ceux qui en ont beaucoup en gagnent ou en partagent.\n\n## Deux grandes liaisons\n\nLa liaison ionique transfere des electrons et donne des particules chargees. La liaison covalente partage des electrons et donne des molecules. La structure qui en resulte commande la temperature de fusion, la durete et la conduite du courant.",
+    "objectives": [
+      "Explain why atoms form bonds",
+      "Distinguish ionic bonding from covalent bonding",
+      "Link the structure of a substance to its properties"
+    ],
+    "objectives_fr": [
+      "Expliquer pourquoi les atomes forment des liaisons",
+      "Distinguer la liaison ionique de la liaison covalente",
+      "Relier la structure d'une substance a ses proprietes"
+    ],
+    "estimated_minutes": 25
+  },
+  "steps": [
+    {
+      "kind": "concept",
+      "title": "Ionic bonding",
+      "title_fr": "La liaison ionique",
+      "content": "An ionic bond forms when a metal gives electrons to a non-metal.\n\nSodium loses one electron to become a positive ion. Chlorine gains that electron to become a negative ion. The opposite charges attract and lock into a giant lattice.\n\nIonic compounds have high melting points because the lattice is hard to break.",
+      "content_fr": "Une liaison ionique se forme quand un metal cede des electrons a un non-metal.\n\nLe sodium perd un electron et devient un ion positif. Le chlore gagne cet electron et devient un ion negatif. Les charges opposees s'attirent et forment un immense reseau.\n\nLes composes ioniques ont une temperature de fusion elevee car le reseau est difficile a briser.",
+      "required": true,
+      "xp": 10,
+      "question": {
+        "kind": "mcq",
+        "text": "What happens to the electrons in an ionic bond?",
+        "text_fr": "Que deviennent les electrons dans une liaison ionique ?",
+        "explanation": "One atom gives electrons and the other takes them, making oppositely charged ions.",
+        "explanation_fr": "Un atome cede des electrons et l'autre les prend, ce qui donne des ions de charges opposees.",
+        "hint_prompt": "Think about giving rather than sharing.",
+        "hint_prompt_fr": "Pense a un don plutot qu'a un partage.",
+        "choices": [
+          {
+            "text": "They are transferred between atoms",
+            "text_fr": "Ils sont transferes entre les atomes",
+            "correct": true
+          },
+          {
+            "text": "They are shared equally",
+            "text_fr": "Ils sont partages de facon egale",
+            "correct": false
+          },
+          {
+            "text": "They disappear",
+            "text_fr": "Ils disparaissent",
+            "correct": false
+          }
+        ],
+        "hints": [
+          {
+            "text": "A metal and a non-metal are involved.",
+            "text_fr": "Un metal et un non-metal sont concernes."
+          }
+        ]
+      }
+    },
+    {
+      "kind": "explain",
+      "title": "Covalent bonding",
+      "title_fr": "La liaison covalente",
+      "content": "A covalent bond forms when two non-metals share a pair of electrons. Each atom feels it has a fuller outer shell.\n\nHydrogen shares one pair to form H2. Oxygen shares two pairs to form O2. The shared pairs hold the atoms together as a molecule.\n\nSimple molecules have weak forces between them, so they melt and boil at low temperatures.",
+      "content_fr": "Une liaison covalente se forme quand deux non-metaux partagent une paire d'electrons. Chaque atome croit avoir une couche externe plus pleine.\n\nL'hydrogene partage une paire pour donner H2. L'oxygene partage deux paires pour donner O2. Les paires partagees tiennent les atomes ensemble sous forme de molecule.\n\nLes molecules simples ont des forces faibles entre elles, donc elles fondent et bouillent a basse temperature.",
+      "required": true,
+      "xp": 10
+    },
+    {
+      "kind": "example",
+      "title": "Worked example: salt and water",
+      "title_fr": "Exemple resolu : sel et eau",
+      "content": "Salt, NaCl, is ionic. Sodium gives its outer electron to chlorine, and the ions pack into a lattice. Salt melts at about 800 degrees and conducts when melted.\n\nWater, H2O, is covalent. Oxygen shares electrons with two hydrogen atoms. Water is a small molecule that boils at 100 degrees.",
+      "content_fr": "Le sel, NaCl, est ionique. Le sodium cede son electron externe au chlore, et les ions s'empilent en reseau. Le sel fond vers 800 degres et conduit quand il est fondu.\n\nL'eau, H2O, est covalente. L'oxygene partage des electrons avec deux atomes d'hydrogene. L'eau est une petite molecule qui bout a 100 degres.",
+      "required": true,
+      "xp": 12
+    },
+    {
+      "kind": "practice",
+      "title": "Your turn: magnesium oxide",
+      "title_fr": "A toi : l'oxyde de magnesium",
+      "content": "Magnesium is a metal and oxygen is a non-metal. Decide what kind of bond forms between them.",
+      "content_fr": "Le magnesium est un metal et l'oxygene est un non-metal. Determine quelle sorte de liaison se forme entre eux.",
+      "required": true,
+      "xp": 12,
+      "question": {
+        "kind": "mcq",
+        "text": "Which bond forms between magnesium and oxygen?",
+        "text_fr": "Quelle liaison se forme entre le magnesium et l'oxygene ?",
+        "explanation": "A metal with a non-metal gives an ionic bond, so magnesium transfers electrons to oxygen.",
+        "explanation_fr": "Un metal avec un non-metal donne une liaison ionique, donc le magnesium transfere des electrons a l'oxygene.",
+        "hint_prompt": "Check whether the two atoms are metals or non-metals.",
+        "hint_prompt_fr": "Regarde si les deux atomes sont des metaux ou des non-metaux.",
+        "choices": [
+          {
+            "text": "Ionic",
+            "text_fr": "Ionique",
+            "correct": true
+          },
+          {
+            "text": "Covalent",
+            "text_fr": "Covalente",
+            "correct": false
+          },
+          {
+            "text": "No bond at all",
+            "text_fr": "Aucune liaison",
+            "correct": false
+          }
+        ],
+        "hints": [
+          {
+            "text": "Metal plus non-metal points to one answer.",
+            "text_fr": "Metal plus non-metal indique une seule reponse."
+          }
+        ]
+      }
+    },
+    {
+      "kind": "question",
+      "title": "Check: conducting electricity",
+      "title_fr": "Verification : conduire le courant",
+      "content": "Ionic compounds conduct only when melted or dissolved, because the ions must be free to move. Solid ionic lattices do not conduct.",
+      "content_fr": "Les composes ioniques conduisent seulement lorsqu'ils sont fondus ou dissous, car les ions doivent etre libres de se deplacer. Les reseaux ioniques solides ne conduisent pas.",
+      "required": true,
+      "xp": 12,
+      "question": {
+        "kind": "mcq",
+        "text": "When does a solid ionic compound conduct electricity?",
+        "text_fr": "Quand un compose ionique conduit-il le courant ?",
+        "explanation": "The ions must be mobile, which happens when the compound is melted or dissolved, not when it is a solid.",
+        "explanation_fr": "Les ions doivent etre mobiles, ce qui arrive quand le compose est fondu ou dissous, pas lorsqu'il est solide.",
+        "hint_prompt": "What must be free to move?",
+        "hint_prompt_fr": "Que doit etre libre de se deplacer ?",
+        "choices": [
+          {
+            "text": "Only when melted or dissolved",
+            "text_fr": "Seulement quand il est fondu ou dissous",
+            "correct": true
+          },
+          {
+            "text": "Always, even as a solid",
+            "text_fr": "Toujours, meme a l'etat solide",
+            "correct": false
+          },
+          {
+            "text": "Never",
+            "text_fr": "Jamais",
+            "correct": false
+          }
+        ],
+        "hints": [
+          {
+            "text": "Free ions carry the current.",
+            "text_fr": "Les ions libres transportent le courant."
+          }
+        ]
+      }
+    },
+    {
+      "kind": "summary",
+      "title": "What to keep",
+      "title_fr": "A retenir",
+      "content": "Ionic bonds transfer electrons between a metal and a non-metal and give a lattice with high melting points. Covalent bonds share electrons between non-metals and give molecules with low melting points.",
+      "content_fr": "Les liaisons ioniques transferent des electrons entre un metal et un non-metal et donnent un reseau a fusion elevee. Les liaisons covalentes partagent des electrons entre non-metaux et donnent des molecules a fusion basse.",
+      "required": false,
+      "xp": 5
+    }
+  ],
+  "quiz": {
+    "title": "Chemical Bonding and Structure",
+    "title_fr": "Liaison chimique et structure",
+    "pass_score": 60,
+    "questions": [
+      {
+        "kind": "mcq",
+        "text": "Which pair is most likely to form an ionic bond?",
+        "text_fr": "Quel couple forme le plus probablement une liaison ionique ?",
+        "explanation": "A metal and a non-metal, such as sodium and chlorine, form ionic bonds.",
+        "explanation_fr": "Un metal et un non-metal, comme le sodium et le chlore, forment des liaisons ioniques.",
+        "hint_prompt": "Look for a metal together with a non-metal.",
+        "hint_prompt_fr": "Cherche un metal avec un non-metal.",
+        "choices": [
+          {
+            "text": "Sodium and chlorine",
+            "text_fr": "Sodium et chlore",
+            "correct": true
+          },
+          {
+            "text": "Hydrogen and oxygen",
+            "text_fr": "Hydrogene et oxygene",
+            "correct": false
+          },
+          {
+            "text": "Oxygen and oxygen",
+            "text_fr": "Oxygene et oxygene",
+            "correct": false
+          }
+        ],
+        "hints": [
+          {
+            "text": "One atom must give, the other must take.",
+            "text_fr": "Un atome doit donner, l'autre doit prendre."
+          }
+        ],
+        "difficulty": 1
+      },
+      {
+        "kind": "numeric",
+        "text": "How many pairs of electrons does oxygen share in an O2 molecule?",
+        "text_fr": "Combien de paires d'electrons l'oxygene partage-t-il dans une molecule O2 ?",
+        "explanation": "Oxygen forms a double bond, which means two shared pairs.",
+        "explanation_fr": "L'oxygene forme une double liaison, soit deux paires partagees.",
+        "hint_prompt": "It is a double bond.",
+        "hint_prompt_fr": "C'est une double liaison.",
+        "config": {
+          "accepted": [
+            "2"
+          ]
+        },
+        "hints": [
+          {
+            "text": "A single bond is one pair, a double bond is two.",
+            "text_fr": "Une liaison simple est une paire, une double liaison en a deux."
+          }
+        ],
+        "difficulty": 1
+      },
+      {
+        "kind": "mcq",
+        "text": "Why do simple covalent molecules melt at low temperatures?",
+        "text_fr": "Pourquoi les molecules covalentes simples fondent-elles a basse temperature ?",
+        "explanation": "The forces between the molecules are weak, so little energy is needed to separate them.",
+        "explanation_fr": "Les forces entre les molecules sont faibles, donc peu d'energie suffit pour les separer.",
+        "hint_prompt": "Think about the forces between molecules, not inside them.",
+        "hint_prompt_fr": "Pense aux forces entre les molecules, pas a l'interieur.",
+        "choices": [
+          {
+            "text": "The forces between molecules are weak",
+            "text_fr": "Les forces entre les molecules sont faibles",
+            "correct": true
+          },
+          {
+            "text": "The covalent bonds are weak",
+            "text_fr": "Les liaisons covalentes sont faibles",
+            "correct": false
+          },
+          {
+            "text": "The molecules are very heavy",
+            "text_fr": "Les molecules sont tres lourdes",
+            "correct": false
+          }
+        ],
+        "hints": [
+          {
+            "text": "Melting breaks the forces between molecules.",
+            "text_fr": "La fusion brise les forces entre les molecules."
+          }
+        ],
+        "difficulty": 2
+      },
+      {
+        "kind": "mcq",
+        "text": "An ionic solid is tested with a circuit. What is seen?",
+        "text_fr": "On teste un solide ionique avec un circuit. Que voit-on ?",
+        "explanation": "The ions are locked in the lattice, so the solid does not conduct.",
+        "explanation_fr": "Les ions sont bloques dans le reseau, donc le solide ne conduit pas.",
+        "hint_prompt": "Can the ions move inside a solid?",
+        "hint_prompt_fr": "Les ions peuvent-ils bouger dans un solide ?",
+        "choices": [
+          {
+            "text": "No current flows",
+            "text_fr": "Aucun courant ne passe",
+            "correct": true
+          },
+          {
+            "text": "A strong current flows",
+            "text_fr": "Un courant fort passe",
+            "correct": false
+          },
+          {
+            "text": "The solid melts",
+            "text_fr": "Le solide fond",
+            "correct": false
+          }
+        ],
+        "hints": [
+          {
+            "text": "Fixed ions cannot carry charge.",
+            "text_fr": "Des ions fixes ne transportent pas de charge."
+          }
+        ],
+        "difficulty": 2
+      },
+      {
+        "kind": "mcq",
+        "text": "Which statement about covalent bonds is true?",
+        "text_fr": "Quelle affirmation sur les liaisons covalentes est vraie ?",
+        "explanation": "Covalent bonds share electrons between non-metal atoms.",
+        "explanation_fr": "Les liaisons covalentes partagent des electrons entre des atomes non metalliques.",
+        "hint_prompt": "Sharing, not giving, is the key word.",
+        "hint_prompt_fr": "Le mot cle est partage, pas don.",
+        "choices": [
+          {
+            "text": "They share electrons between non-metals",
+            "text_fr": "Elles partagent des electrons entre non-metaux",
+            "correct": true
+          },
+          {
+            "text": "They transfer electrons from metals",
+            "text_fr": "Elles transferent des electrons a partir des metaux",
+            "correct": false
+          },
+          {
+            "text": "They only happen in metals",
+            "text_fr": "Elles n'ont lieu que dans les metaux",
+            "correct": false
+          }
+        ],
+        "hints": [
+          {
+            "text": "Two non-metals share a pair.",
+            "text_fr": "Deux non-metaux partagent une paire."
+          }
+        ],
+        "difficulty": 1
+      }
+    ]
+  }
+}

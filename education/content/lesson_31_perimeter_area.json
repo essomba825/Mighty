@@ -1,0 +1,178 @@
+{
+  "lesson": 31,
+  "status": "published",
+  "lesson_fields": {
+    "title": "Perimeter and Area of 2D Shapes",
+    "title_fr": "Périmètres et aires des figures planes",
+    "summary": "Compute perimeters and areas of rectangles, triangles, parallelograms, trapeziums and circles.",
+    "summary_fr": "Calculer périmètres et aires de rectangles, triangles, parallélogrammes, trapèzes et cercles.",
+    "content": "## Basics\n\n1. Perimeter = total length around.\n2. Area = surface covered.\n3. Circle: C = πd or 2πr, A = πr².",
+    "content_fr": "Notions de base\n\n1. Périmètre = longueur totale autour.\n2. Aire = surface occupée.\n3. Cercle : C = πd ou 2πr, A = πr².",
+    "objectives": [
+      "Find perimeters",
+      "Compute areas of common shapes",
+      "Use circle formulas",
+      "Solve word problems"
+    ],
+    "objectives_fr": [
+      "Trouver des périmètres",
+      "Calculer aires de figures usuelles",
+      "Utiliser formules du cercle",
+      "Résoudre des problèmes de mot"
+    ],
+    "estimated_minutes": 25
+  },
+  "steps": [
+    {
+      "kind": "concept",
+      "title": "Rectangles and squares",
+      "title_fr": "Rectangles et carrés",
+      "content": "Rectangle: P = 2(l + w), A = lw. Square: P = 4s, A = s².",
+      "content_fr": "Rectangle : P = 2(l + w), A = l × w. Carré : P = 4c, A = c².",
+      "required": true,
+      "xp": 10,
+      "question": {
+        "kind": "numeric",
+        "text": "Rectangle 6 cm × 4 cm. Area in cm².",
+        "text_fr": "Rectangle 6 cm × 4 cm. Aire en cm².",
+        "explanation": "6 × 4 = 24 cm².",
+        "explanation_fr": "6 × 4 = 24 cm².",
+        "hint_prompt": "Area = length × width.",
+        "hint_prompt_fr": "Aire = longueur × largeur.",
+        "config": {"accepted": ["24"]},
+        "hints": [
+          {"text": "6 × 4 = 24.", "text_fr": "6 × 4 = 24."}
+        ]
+      }
+    },
+    {
+      "kind": "concept",
+      "title": "Triangle",
+      "title_fr": "Triangle",
+      "content": "A = (base × height) / 2.",
+      "content_fr": "A = (base × hauteur) / 2.",
+      "required": true,
+      "xp": 10,
+      "question": {
+        "kind": "numeric",
+        "text": "Triangle base 10 cm, height 6 cm. Area in cm².",
+        "text_fr": "Triangle base 10 cm, hauteur 6 cm. Aire en cm².",
+        "explanation": "(10 × 6)/2 = 30.",
+        "explanation_fr": "(10 × 6)/2 = 30.",
+        "hint_prompt": "(b × h)/2.",
+        "hint_prompt_fr": "(b × h)/2.",
+        "config": {"accepted": ["30"]},
+        "hints": [
+          {"text": "60 / 2 = 30.", "text_fr": "60 / 2 = 30."}
+        ]
+      }
+    },
+    {
+      "kind": "explain",
+      "title": "Circle",
+      "title_fr": "Cercle",
+      "content": "C = 2πr or πd, A = πr². Use π ≈ 3.14 or 22/7 as instructed.",
+      "content_fr": "C = 2πr ou πd, A = πr². Utiliser π ≈ 3,14 ou 22/7 selon consigne.",
+      "required": true,
+      "xp": 12,
+      "question": {
+        "kind": "numeric",
+        "text": "Circle radius 7 cm, use π = 22/7. Area in cm².",
+        "text_fr": "Cercle rayon 7 cm, π = 22/7. Aire en cm².",
+        "explanation": "πr² = (22/7) × 49 = 22 × 7 = 154.",
+        "explanation_fr": "πr² = (22/7) × 49 = 22 × 7 = 154.",
+        "hint_prompt": "r² = 49.",
+        "hint_prompt_fr": "r² = 49.",
+        "config": {"accepted": ["154"]},
+        "hints": [
+          {"text": "(22/7) × 49 = 154.", "text_fr": "(22/7) × 49 = 154."}
+        ]
+      }
+    },
+    {
+      "kind": "practice",
+      "title": "Others",
+      "title_fr": "Autres figures",
+      "content": "Parallelogram A = base × height. Trapezium A = (a+b)/2 × height.",
+      "content_fr": "Parallélogramme A = base × hauteur. Trapèze A = (a+b)/2 × hauteur.",
+      "required": false,
+      "xp": 10
+    },
+    {
+      "kind": "summary",
+      "title": "What to keep",
+      "title_fr": "À retenir",
+      "content": "Keep units consistent. Area units squared.",
+      "content_fr": "Garder unités cohérentes. Aires en unités².",
+      "required": false,
+      "xp": 5
+    }
+  ],
+  "quiz": {
+    "title": "Perimeter and area",
+    "title_fr": "Périmètre et aire",
+    "pass_score": 60,
+    "questions": [
+      {
+        "kind": "numeric",
+        "text": "Square side 5 cm, perimeter cm.",
+        "text_fr": "Carré côté 5 cm, périmètre cm.",
+        "explanation": "4 × 5 = 20.",
+        "explanation_fr": "4 × 5 = 20.",
+        "config": {"accepted": ["20"]},
+        "hints": [
+          {"text": "4×5=20.", "text_fr": "4×5=20."}
+        ],
+        "difficulty": 1
+      },
+      {
+        "kind": "numeric",
+        "text": "Triangle base 8 cm, height 5 cm, area cm².",
+        "text_fr": "Triangle base 8 cm, hauteur 5 cm, aire cm².",
+        "explanation": "(8×5)/2 = 20.",
+        "explanation_fr": "(8×5)/2 = 20.",
+        "config": {"accepted": ["20"]},
+        "hints": [
+          {"text": "40/2=20.", "text_fr": "40/2=20."}
+        ],
+        "difficulty": 1
+      },
+      {
+        "kind": "numeric",
+        "text": "Circle radius 3 cm, π=3.14, area cm².",
+        "text_fr": "Cercle rayon 3 cm, π=3.14, aire cm².",
+        "explanation": "3.14 × 9 = 28.26.",
+        "explanation_fr": "3.14 × 9 = 28.26.",
+        "config": {"accepted": ["28.26"]},
+        "hints": [
+          {"text": "9 × 3.14 = 28.26.", "text_fr": "9 × 3.14 = 28.26."}
+        ],
+        "difficulty": 1
+      },
+      {
+        "kind": "numeric",
+        "text": "Parallelogram base 12 cm, height 4 cm, area cm².",
+        "text_fr": "Parallélogramme base 12 cm, hauteur 4 cm, aire cm².",
+        "explanation": "12 × 4 = 48.",
+        "explanation_fr": "12 × 4 = 48.",
+        "config": {"accepted": ["48"]},
+        "hints": [
+          {"text": "12×4=48.", "text_fr": "12×4=48."}
+        ],
+        "difficulty": 1
+      },
+      {
+        "kind": "numeric",
+        "text": "Circle diameter 14 cm, π=22/7, circumference cm.",
+        "text_fr": "Cercle diamètre 14 cm, π=22/7, circonférence cm.",
+        "explanation": "πd = (22/7) × 14 = 44.",
+        "explanation_fr": "πd = (22/7) × 14 = 44.",
+        "config": {"accepted": ["44"]},
+        "hints": [
+          {"text": "(22/7) × 14 = 44.", "text_fr": "(22/7) × 14 = 44."}
+        ],
+        "difficulty": 2
+      }
+    ]
+  }
+}

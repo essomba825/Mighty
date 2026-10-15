@@ -1,0 +1,343 @@
+{
+  "lesson": 78,
+  "status": "published",
+  "lesson_fields": {
+    "title": "Defining and Calling Functions",
+    "title_fr": "Definir et appeler des fonctions",
+    "summary": "A function is a named block of code defined once with def and called as often as we like, and it can receive parameters and give back a result.",
+    "summary_fr": "Une fonction est un bloc de code nomme que l'on definit une fois avec def et que l'on appelle autant de fois que voulu, et elle peut recevoir des parametres et renvoyer un resultat.",
+    "content": "## A function in one line\n\n```python\ndef double(x):\n    return 2 * x\n\nprint(double(5))\n```\n\nThe call double(5) returns 10.",
+    "content_fr": "## Une fonction en une ligne\n\n```python\ndef double(x):\n    return 2 * x\n\nprint(double(5))\n```\n\nL'appel double(5) renvoie 10.",
+    "objectives": [
+      "Define a function with def",
+      "Call a function and use its result",
+      "Pass values to a function through parameters"
+    ],
+    "objectives_fr": [
+      "Definir une fonction avec def",
+      "Appeler une fonction et utiliser son resultat",
+      "Transmettre des valeurs a une fonction par ses parametres"
+    ],
+    "estimated_minutes": 25
+  },
+  "steps": [
+    {
+      "kind": "concept",
+      "title": "A named block of code",
+      "title_fr": "Un bloc de code nomme",
+      "content": "A **function** is a named block of code that carries out one task. We define it once with **def** and then call it just by writing its name.\n\n```python\ndef greet():\n    print(\"Hello\")\n\ngreet()\n```\n\nDefining the function does nothing by itself: the block runs only when we call it.",
+      "content_fr": "Une **fonction** est un bloc de code nomme qui realise une tache. On la definit une fois avec **def**, puis on l'appelle simplement en ecrivant son nom.\n\n```python\ndef greet():\n    print(\"Hello\")\n\ngreet()\n```\n\nDefinir la fonction ne fait rien en soi : le bloc s'execute seulement quand on l'appelle.",
+      "required": true,
+      "xp": 10,
+      "question": {
+        "kind": "mcq",
+        "text": "When does the body of a function run?",
+        "text_fr": "Quand le corps d'une fonction s'execute-t-il ?",
+        "explanation": "Writing def only prepares the function; the body runs when we call it.",
+        "explanation_fr": "Ecrire def prepare seulement la fonction ; le corps s'execute quand on l'appelle.",
+        "hint_prompt": "Writing def is only a preparation.",
+        "hint_prompt_fr": "Ecrire def n'est qu'une preparation.",
+        "choices": [
+          {
+            "text": "When we call it",
+            "text_fr": "Quand on l'appelle",
+            "correct": true
+          },
+          {
+            "text": "When we define it",
+            "text_fr": "Quand on la definit",
+            "correct": false
+          },
+          {
+            "text": "It never runs",
+            "text_fr": "Elle ne s'execute jamais",
+            "correct": false
+          }
+        ],
+        "hints": [
+          {
+            "text": "The call is the line with the name and brackets.",
+            "text_fr": "L'appel est la ligne avec le nom et les parentheses."
+          }
+        ]
+      }
+    },
+    {
+      "kind": "explain",
+      "title": "Parameters and return",
+      "title_fr": "Parametres et valeur de retour",
+      "content": "A function can receive **parameters** and give back a value with **return**.\n\n```python\ndef double(x):\n    return 2 * x\n\nprint(double(5))\n```\n\nThe call double(5) returns 10. A function without any return gives back None.",
+      "content_fr": "Une fonction peut recevoir des **parametres** et renvoyer une valeur avec **return**.\n\n```python\ndef double(x):\n    return 2 * x\n\nprint(double(5))\n```\n\nL'appel double(5) renvoie 10. Une fonction sans return renvoie None.",
+      "required": true,
+      "xp": 10,
+      "question": {
+        "kind": "mcq",
+        "text": "What does a function give back if it has no return statement?",
+        "text_fr": "Que renvoie une fonction qui n'a pas de return ?",
+        "explanation": "Without return, Python gives back the special value None.",
+        "explanation_fr": "Sans return, Python renvoie la valeur speciale None.",
+        "hint_prompt": "It is a special empty value.",
+        "hint_prompt_fr": "C'est une valeur vide speciale.",
+        "choices": [
+          {
+            "text": "None",
+            "text_fr": "None",
+            "correct": true
+          },
+          {
+            "text": "The number 0",
+            "text_fr": "Le nombre 0",
+            "correct": false
+          },
+          {
+            "text": "An error",
+            "text_fr": "Une erreur",
+            "correct": false
+          }
+        ],
+        "hints": [
+          {
+            "text": "It means there is no value.",
+            "text_fr": "Cela signifie qu'il n'y a pas de valeur."
+          }
+        ]
+      }
+    },
+    {
+      "kind": "example",
+      "title": "Worked example: the area of a rectangle",
+      "title_fr": "Exemple resolu : l'aire d'un rectangle",
+      "content": "```python\ndef area(width, height):\n    return width * height\n\nprint(area(4, 3))\n```\n\nThe call area(4, 3) passes 4 and 3 as parameters. The function returns 4 * 3 = 12, so the screen shows 12.",
+      "content_fr": "```python\ndef area(width, height):\n    return width * height\n\nprint(area(4, 3))\n```\n\nL'appel area(4, 3) transmet 4 et 3 comme parametres. La fonction renvoie 4 * 3 = 12, l'ecran affiche donc 12.",
+      "required": true,
+      "xp": 12
+    },
+    {
+      "kind": "practice",
+      "title": "Your turn: call the function",
+      "title_fr": "A toi : appelle la fonction",
+      "content": "Consider this function:\n\n```python\ndef triple(x):\n    return 3 * x\n```",
+      "content_fr": "Considere cette fonction :\n\n```python\ndef triple(x):\n    return 3 * x\n```",
+      "required": true,
+      "xp": 12,
+      "question": {
+        "kind": "numeric",
+        "text": "What does `triple(7)` return?",
+        "text_fr": "Que renvoie `triple(7)` ?",
+        "explanation": "3 * 7 = 21.",
+        "explanation_fr": "3 * 7 = 21.",
+        "hint_prompt": "Replace x with the value given.",
+        "hint_prompt_fr": "Remplace x par la valeur donnee.",
+        "config": {
+          "accepted": [
+            "21"
+          ]
+        },
+        "hints": [
+          {
+            "text": "Compute 3 * 7.",
+            "text_fr": "Calcule 3 * 7."
+          }
+        ]
+      }
+    },
+    {
+      "kind": "question",
+      "title": "Check: why use functions",
+      "title_fr": "Verification : pourquoi utiliser des fonctions",
+      "content": "A function is written once and called many times. This avoids repeating the same code and makes the program easier to read.",
+      "content_fr": "Une fonction est ecrite une fois et appelee plusieurs fois. Cela evite de repeter le meme code et rend le programme plus facile a lire.",
+      "required": true,
+      "xp": 12,
+      "question": {
+        "kind": "mcq",
+        "text": "Why do we use functions?",
+        "text_fr": "Pourquoi utilise-t-on des fonctions ?",
+        "explanation": "Functions let us reuse a block of code instead of rewriting it.",
+        "explanation_fr": "Les fonctions permettent de reutiliser un bloc de code au lieu de le reecrire.",
+        "hint_prompt": "Think about writing the same code many times.",
+        "hint_prompt_fr": "Pense a reecrire le meme code plusieurs fois.",
+        "choices": [
+          {
+            "text": "To reuse code and avoid repetition",
+            "text_fr": "Pour reutiliser le code et eviter les repetitions",
+            "correct": true
+          },
+          {
+            "text": "To make the program slower",
+            "text_fr": "Pour rendre le programme plus lent",
+            "correct": false
+          },
+          {
+            "text": "To print more text",
+            "text_fr": "Pour afficher plus de texte",
+            "correct": false
+          }
+        ],
+        "hints": [
+          {
+            "text": "One definition, many calls.",
+            "text_fr": "Une seule definition, plusieurs appels."
+          }
+        ]
+      }
+    },
+    {
+      "kind": "summary",
+      "title": "What to keep",
+      "title_fr": "A retenir",
+      "content": "A function is defined with def and called by its name. Parameters pass values in, return sends a value back, and a function without return gives back None.",
+      "content_fr": "Une fonction se definit avec def et s'appelle par son nom. Les parametres transmettent des valeurs, return renvoie une valeur, et une fonction sans return renvoie None.",
+      "required": false,
+      "xp": 5
+    }
+  ],
+  "quiz": {
+    "title": "Defining and Calling Functions",
+    "title_fr": "Definir et appeler des fonctions",
+    "pass_score": 60,
+    "questions": [
+      {
+        "kind": "mcq",
+        "text": "Which keyword defines a function in Python?",
+        "text_fr": "Quel mot-cle definit une fonction en Python ?",
+        "explanation": "The keyword def introduces a function definition.",
+        "explanation_fr": "Le mot-cle def introduit la definition d'une fonction.",
+        "hint_prompt": "It is a short three-letter word.",
+        "hint_prompt_fr": "C'est un petit mot de trois lettres.",
+        "choices": [
+          {
+            "text": "def",
+            "text_fr": "def",
+            "correct": true
+          },
+          {
+            "text": "func",
+            "text_fr": "func",
+            "correct": false
+          },
+          {
+            "text": "define",
+            "text_fr": "define",
+            "correct": false
+          }
+        ],
+        "hints": [
+          {
+            "text": "It starts with the letters de.",
+            "text_fr": "Il commence par les lettres de."
+          }
+        ],
+        "difficulty": 1
+      },
+      {
+        "kind": "numeric",
+        "text": "Given `def square(x): return x * x`, what does `square(6)` return?",
+        "text_fr": "Avec `def square(x): return x * x`, que renvoie `square(6)` ?",
+        "explanation": "6 * 6 = 36.",
+        "explanation_fr": "6 * 6 = 36.",
+        "hint_prompt": "Multiply the value by itself.",
+        "hint_prompt_fr": "Multiplie la valeur par elle-meme.",
+        "config": {
+          "accepted": [
+            "36"
+          ]
+        },
+        "hints": [
+          {
+            "text": "Compute 6 * 6.",
+            "text_fr": "Calcule 6 * 6."
+          }
+        ],
+        "difficulty": 1
+      },
+      {
+        "kind": "mcq",
+        "text": "What does the statement return do?",
+        "text_fr": "Que fait l'instruction return ?",
+        "explanation": "It sends a value back to the place where the function was called.",
+        "explanation_fr": "Elle renvoie une valeur a l'endroit ou la fonction a ete appelee.",
+        "hint_prompt": "Think about the value the caller receives.",
+        "hint_prompt_fr": "Pense a la valeur que recoit celui qui appelle.",
+        "choices": [
+          {
+            "text": "It sends a value back to the caller",
+            "text_fr": "Elle renvoie une valeur a l'appelant",
+            "correct": true
+          },
+          {
+            "text": "It prints a value on the screen",
+            "text_fr": "Elle affiche une valeur a l'ecran",
+            "correct": false
+          },
+          {
+            "text": "It deletes the function",
+            "text_fr": "Elle supprime la fonction",
+            "correct": false
+          }
+        ],
+        "hints": [
+          {
+            "text": "It is not the same as print.",
+            "text_fr": "Ce n'est pas la meme chose que print."
+          }
+        ],
+        "difficulty": 2
+      },
+      {
+        "kind": "numeric",
+        "text": "Given `def add(a, b): return a + b`, what does `add(2, 3)` return?",
+        "text_fr": "Avec `def add(a, b): return a + b`, que renvoie `add(2, 3)` ?",
+        "explanation": "2 + 3 = 5.",
+        "explanation_fr": "2 + 3 = 5.",
+        "hint_prompt": "Add the two numbers passed in.",
+        "hint_prompt_fr": "Additionne les deux nombres transmis.",
+        "config": {
+          "accepted": [
+            "5"
+          ]
+        },
+        "hints": [
+          {
+            "text": "Compute 2 + 3.",
+            "text_fr": "Calcule 2 + 3."
+          }
+        ],
+        "difficulty": 1
+      },
+      {
+        "kind": "mcq",
+        "text": "How many parameters does `def area(width, height)` receive?",
+        "text_fr": "Combien de parametres `def area(width, height)` recoit-elle ?",
+        "explanation": "The brackets list two names, so there are two parameters.",
+        "explanation_fr": "Les parentheses contiennent deux noms, il y a donc deux parametres.",
+        "hint_prompt": "Count the names inside the brackets.",
+        "hint_prompt_fr": "Compte les noms entre les parentheses.",
+        "choices": [
+          {
+            "text": "Two",
+            "text_fr": "Deux",
+            "correct": true
+          },
+          {
+            "text": "One",
+            "text_fr": "Un",
+            "correct": false
+          },
+          {
+            "text": "Three",
+            "text_fr": "Trois",
+            "correct": false
+          }
+        ],
+        "hints": [
+          {
+            "text": "width and height are separate names.",
+            "text_fr": "width et height sont deux noms distincts."
+          }
+        ],
+        "difficulty": 1
+      }
+    ]
+  }
+}

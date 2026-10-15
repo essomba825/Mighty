@@ -1,0 +1,278 @@
+{
+  "lesson": 25,
+  "status": "published",
+  "lesson_fields": {
+    "title": "Factorising Quadratic Expressions",
+    "title_fr": "Factoriser les expressions du second degré",
+    "summary": "Break a quadratic into a product of two brackets by hunting for the right number pair.",
+    "summary_fr": "Décomposer un trinôme en produit de deux parenthèses en traquant la bonne paire de nombres.",
+    "content": "## Why factorise\n\nA product is only zero when one of its factors is zero. Factorising turns a hard equation into two easy ones.\n\n## The three tools\n\n1. Common factor: ax + ay = a(x + y).\n2. Double brackets: x² + bx + c = (x + p)(x + q) where p + q = b and pq = c.\n3. Difference of squares: a² - b² = (a - b)(a + b).",
+    "content_fr": "Pourquoi factoriser\n\nUn produit n'est nul que si l'un de ses facteurs est nul. Factoriser transforme une équation difficile en deux équations faciles.\n\nLes trois outils\n\n1. Facteur commun : ax + ay = a(x + y).\n2. Deux parenthèses : x² + bx + c = (x + p)(x + q) où p + q = b et pq = c.\n3. Différence de carrés : a² - b² = (a - b)(a + b).",
+    "objectives": [
+      "Take out a common factor from two terms",
+      "Factorise x² + bx + c using the p + q and pq clues",
+      "Factorise a difference of two squares",
+      "Check a factorisation by expanding back"
+    ],
+    "objectives_fr": [
+      "Mettre en évidence un facteur commun dans deux termes",
+      "Factoriser x² + bx + c grâce aux indices p + q et pq",
+      "Factoriser une différence de deux carrés",
+      "Vérifier une factorisation en développant à nouveau"
+    ],
+    "estimated_minutes": 30
+  },
+  "steps": [
+    {
+      "kind": "concept",
+      "title": "The common factor",
+      "title_fr": "Le facteur commun",
+      "content": "In 6x + 9, both terms contain 3. Pull it out: 6x + 9 = 3(2x + 3).\n\nPulling out undoes distribution, so expanding your answer must give back the original. If it does not, the factorisation is wrong.\n\nWith letters it works the same: 4x² + 8x = 4x(x + 2). Both the number 4 and the letter x were common.",
+      "content_fr": "Dans 6x + 9, les deux termes contiennent 3. On le sort : 6x + 9 = 3(2x + 3).\n\nMettre en évidence défait la distributivité, donc développer ta réponse doit redonner l'original. Sinon la factorisation est fausse.\n\nAvec les lettres, pareil : 4x² + 8x = 4x(x + 2). Le nombre 4 et la lettre x étaient communs.",
+      "required": true,
+      "xp": 10,
+      "question": {
+        "kind": "mcq",
+        "text": "Factorise 5x² + 15x.",
+        "text_fr": "Factorise 5x² + 15x.",
+        "explanation": "Both terms share 5 and x: 5x(x + 3). Expanding: 5x·x + 5x·3 = 5x² + 15x, correct.",
+        "explanation_fr": "Les deux termes partagent 5 et x : 5x(x + 3). En développant : 5x·x + 5x·3 = 5x² + 15x, correct.",
+        "hint_prompt": "What divides both 5 and 15? Which letter is in both terms?",
+        "hint_prompt_fr": "Qu'est-ce qui divise à la fois 5 et 15 ? Quelle lettre est dans les deux termes ?",
+        "choices": [
+          {"text": "5x(x + 3)", "text_fr": "5x(x + 3)", "correct": true},
+          {"text": "5(x² + 3x)", "text_fr": "5(x² + 3x)"},
+          {"text": "x(5x + 15)", "text_fr": "x(5x + 15)"},
+          {"text": "(5x + 1)(x + 15)", "text_fr": "(5x + 1)(x + 15)"}
+        ],
+        "hints": [
+          {"text": "5 divides both coefficients, and x divides both terms.", "text_fr": "5 divise les deux coefficients, et x divise les deux termes."},
+          {"text": "Take out 5x : what stays inside is x + 3.", "text_fr": "Sors 5x : ce qui reste à l'intérieur est x + 3."}
+        ]
+      }
+    },
+    {
+      "kind": "explain",
+      "title": "The two-number hunt: x² + bx + c",
+      "title_fr": "La chasse aux deux nombres : x² + bx + c",
+      "content": "To factorise x² + 7x + 12, expand the target first: (x + p)(x + q) = x² + (p + q)x + pq.\n\nSo hunt two numbers with product 12 and sum 7. Pairs with product 12: (1,12), (2,6), (3,4). Only 3 + 4 = 7.\n\nHence x² + 7x + 12 = (x + 3)(x + 4).\n\nWith negatives the signs tell the story: negative product, opposite signs; positive product, same sign as the sum.",
+      "content_fr": "Pour factoriser x² + 7x + 12, développe d'abord la cible : (x + p)(x + q) = x² + (p + q)x + pq.\n\nCherche donc deux nombres dont le produit vaut 12 et la somme 7. Paires de produit 12 : (1,12), (2,6), (3,4). Seuls 3 + 4 = 7.\n\nDonc x² + 7x + 12 = (x + 3)(x + 4).\n\nAvec des négatifs, les signes racontent tout : produit négatif, signes contraires ; produit positif, même signe que la somme.",
+      "required": true,
+      "xp": 12,
+      "question": {
+        "kind": "mcq",
+        "text": "Factorise x² + 8x + 15.",
+        "text_fr": "Factorise x² + 8x + 15.",
+        "explanation": "Find p and q with pq = 15 and p + q = 8. The pair (3, 5) works: 3 x 5 = 15 and 3 + 5 = 8. So (x + 3)(x + 5).",
+        "explanation_fr": "Cherche p et q avec pq = 15 et p + q = 8. La paire (3, 5) convient : 3 x 5 = 15 et 3 + 5 = 8. Donc (x + 3)(x + 5).",
+        "hint_prompt": "List the factor pairs of 15 and add each pair.",
+        "hint_prompt_fr": "Liste les paires de facteurs de 15 et additionne chaque paire.",
+        "choices": [
+          {"text": "(x + 3)(x + 5)", "text_fr": "(x + 3)(x + 5)", "correct": true},
+          {"text": "(x + 1)(x + 15)", "text_fr": "(x + 1)(x + 15)"},
+          {"text": "(x + 8)(x + 15)", "text_fr": "(x + 8)(x + 15)"},
+          {"text": "(x - 3)(x - 5)", "text_fr": "(x - 3)(x - 5)"}
+        ],
+        "hints": [
+          {"text": "Factor pairs of 15: (1,15) and (3,5).", "text_fr": "Paires de facteurs de 15 : (1,15) et (3,5)."},
+          {"text": "1 + 15 = 16, but 3 + 5 = 8.", "text_fr": "1 + 15 = 16, mais 3 + 5 = 8."}
+        ]
+      }
+    },
+    {
+      "kind": "practice",
+      "title": "Signs under control",
+      "title_fr": "Les signes maîtrisés",
+      "content": "Products and sums whisper the signs.\n\nx² - 5x + 6 : product +6, sum -5, so both negative: -2 and -3. Factorisation: (x - 2)(x - 3).\n\nx² + 2x - 8 : product -8, opposite signs; the bigger absolute value takes the sign of +2 : +4 and -2. Factorisation: (x + 4)(x - 2).",
+      "content_fr": "Produit et somme chuchotent les signes.\n\nx² - 5x + 6 : produit +6, somme -5, donc les deux négatifs : -2 et -3. Factorisation : (x - 2)(x - 3).\n\nx² + 2x - 8 : produit -8, signes contraires ; la plus grande valeur absolue prend le signe de +2 : +4 et -2. Factorisation : (x + 4)(x - 2).",
+      "required": true,
+      "xp": 12,
+      "question": {
+        "kind": "mcq",
+        "text": "Factorise x² - x - 12.",
+        "text_fr": "Factorise x² - x - 12.",
+        "explanation": "Product -12, opposite signs; sum -1 so the bigger one is negative: 3 and -4? 3 + (-4) = -1 and 3 x (-4) = -12. So (x + 3)(x - 4).",
+        "explanation_fr": "Produit -12, signes contraires ; somme -1 donc le plus grand est négatif : 3 et -4 car 3 + (-4) = -1 et 3 x (-4) = -12. Donc (x + 3)(x - 4).",
+        "hint_prompt": "Which pair multiplies to -12 and adds to -1?",
+        "hint_prompt_fr": "Quelle paire a pour produit -12 et pour somme -1 ?",
+        "choices": [
+          {"text": "(x + 3)(x - 4)", "text_fr": "(x + 3)(x - 4)", "correct": true},
+          {"text": "(x - 3)(x + 4)", "text_fr": "(x - 3)(x + 4)"},
+          {"text": "(x - 6)(x + 2)", "text_fr": "(x - 6)(x + 2)"},
+          {"text": "(x + 6)(x - 2)", "text_fr": "(x + 6)(x - 2)"}
+        ],
+        "hints": [
+          {"text": "Pairs for 12: (1,12), (2,6), (3,4). One must be negative.", "text_fr": "Paires pour 12 : (1,12), (2,6), (3,4). L'un doit être négatif."},
+          {"text": "Try 3 and -4 : sum -1, product -12. Correct.", "text_fr": "Essaie 3 et -4 : somme -1, produit -12. Correct."}
+        ]
+      }
+    },
+    {
+      "kind": "concept",
+      "title": "The difference of squares",
+      "title_fr": "La différence de carrés",
+      "content": "x² - 9 looks incomplete: where is the x term? Its coefficient is 0, so the two numbers must cancel: p + q = 0, so q = -p, and pq = -9 gives p = 3, q = -3.\n\nResult: x² - 9 = (x - 3)(x + 3).\n\nThe pattern pays off: a² - b² always splits into (a - b)(a + b). Memorise it as a whole; it appears constantly.",
+      "content_fr": "x² - 9 semble incomplet : où est le terme en x ? Son coefficient vaut 0, donc les deux nombres s'annulent : p + q = 0, d'où q = -p, et pq = -9 donne p = 3, q = -3.\n\nRésultat : x² - 9 = (x - 3)(x + 3).\n\nLe motif est rentable : a² - b² se casse toujours en (a - b)(a + b). Retiens-le entier ; il revient sans cesse.",
+      "required": true,
+      "xp": 10,
+      "question": {
+        "kind": "mcq",
+        "text": "Factorise x² - 49.",
+        "text_fr": "Factorise x² - 49.",
+        "explanation": "49 = 7² so this is a² - b² with b = 7 : (x - 7)(x + 7). The middle terms -7x + 7x cancel.",
+        "explanation_fr": "49 = 7² donc c'est a² - b² avec b = 7 : (x - 7)(x + 7). Les termes du milieu -7x + 7x s'annulent.",
+        "hint_prompt": "What number squared gives 49?",
+        "hint_prompt_fr": "Quel nombre au carré donne 49 ?",
+        "choices": [
+          {"text": "(x - 7)(x + 7)", "text_fr": "(x - 7)(x + 7)", "correct": true},
+          {"text": "(x - 7)(x - 7)", "text_fr": "(x - 7)"},
+          {"text": "(x + 7)(x + 7)", "text_fr": "(x + 7)(x + 7)"},
+          {"text": "(x - 49)(x + 1)", "text_fr": "(x - 49)(x + 1)"}
+        ],
+        "hints": [
+          {"text": "49 is 7 squared.", "text_fr": "49 est 7 au carré."},
+          {"text": "Difference of squares: (x - 7)(x + 7).", "text_fr": "Différence de carrés : (x - 7)(x + 7)."}
+        ]
+      }
+    },
+    {
+      "kind": "practice",
+      "title": "Mix the three tools",
+      "title_fr": "Mélange les trois outils",
+      "content": "Real exercises mix tools. Factorise 2x² - 8.\n\nFirst, common factor 2: 2(x² - 4). Then notice the difference of squares inside: x² - 4 = (x - 2)(x + 2).\n\nFinal answer: 2(x - 2)(x + 2).",
+      "content_fr": "Les vrais exercices mélangent les outils. Factorise 2x² - 8.\n\nD'abord, facteur commun 2 : 2(x² - 4). Puis repère la différence de carrés à l'intérieur : x² - 4 = (x - 2)(x + 2).\n\nRéponse finale : 2(x - 2)(x + 2).",
+      "required": false,
+      "xp": 12,
+      "question": {
+        "kind": "mcq",
+        "text": "Factorise 3x² - 27 completely.",
+        "text_fr": "Factorise 3x² - 27 complètement.",
+        "explanation": "Common factor 3 first: 3(x² - 9). Then difference of squares: 3(x - 3)(x + 3).",
+        "explanation_fr": "Facteur commun 3 d'abord : 3(x² - 9). Puis différence de carrés : 3(x - 3)(x + 3).",
+        "hint_prompt": "Two steps: common factor, then the square pattern.",
+        "hint_prompt_fr": "Deux étapes : facteur commun, puis le motif des carrés.",
+        "choices": [
+          {"text": "3(x - 3)(x + 3)", "text_fr": "3(x - 3)(x + 3)", "correct": true},
+          {"text": "(3x - 9)(x + 3)", "text_fr": "(3x - 9)(x + 3)"},
+          {"text": "3(x² - 9)", "text_fr": "3(x² - 9)"},
+          {"text": "(3x - 3)(x + 9)", "text_fr": "(3x - 3)(x + 9)"}
+        ],
+        "hints": [
+          {"text": "Both 3 and 27 share 3: start there.", "text_fr": "3 et 27 partagent 3 : commence par là."},
+          {"text": "x² - 9 is a difference of squares.", "text_fr": "x² - 9 est une différence de carrés."}
+        ]
+      }
+    },
+    {
+      "kind": "summary",
+      "title": "What to keep",
+      "title_fr": "À retenir",
+      "content": "Always check for a common factor first.\nFor x² + bx + c, hunt the pair: product c, sum b.\nFor a² - b², write (a - b)(a + b) directly.\nAlways check by expanding back.",
+      "content_fr": "Commence toujours par chercher un facteur commun.\nPour x² + bx + c, traque la paire : produit c, somme b.\nPour a² - b², écris (a - b)(a + b) directement.\nVérifie toujours en développant.",
+      "required": false,
+      "xp": 5
+    }
+  ],
+  "quiz": {
+    "title": "Factorising: final check",
+    "title_fr": "Factorisation : bilan final",
+    "pass_score": 60,
+    "questions": [
+      {
+        "kind": "mcq",
+        "text": "Factorise x² + 9x + 20.",
+        "text_fr": "Factorise x² + 9x + 20.",
+        "explanation": "Need product 20, sum 9: 4 and 5. So (x + 4)(x + 5).",
+        "explanation_fr": "Il faut produit 20, somme 9 : 4 et 5. Donc (x + 4)(x + 5).",
+        "hint_prompt": "List factor pairs of 20.",
+        "hint_prompt_fr": "Liste les paires de facteurs de 20.",
+        "choices": [
+          {"text": "(x + 4)(x + 5)", "text_fr": "(x + 4)(x + 5)", "correct": true},
+          {"text": "(x + 2)(x + 10)", "text_fr": "(x + 2)(x + 10)"},
+          {"text": "(x + 1)(x + 20)", "text_fr": "(x + 1)(x + 20)"},
+          {"text": "(x - 4)(x - 5)", "text_fr": "(x - 4)(x - 5)"}
+        ],
+        "hints": [
+          {"text": "Pairs of 20: (1,20), (2,10), (4,5).", "text_fr": "Paires de 20 : (1,20), (2,10), (4,5)."},
+          {"text": "4 + 5 = 9.", "text_fr": "4 + 5 = 9."}
+        ],
+        "difficulty": 1
+      },
+      {
+        "kind": "mcq",
+        "text": "Factorise x² - 7x + 12.",
+        "text_fr": "Factorise x² - 7x + 12.",
+        "explanation": "Product +12, sum -7, both negative: -3 and -4. So (x - 3)(x - 4).",
+        "explanation_fr": "Produit +12, somme -7, les deux négatifs : -3 et -4. Donc (x - 3)(x - 4).",
+        "hint_prompt": "Positive product with negative sum means two negatives.",
+        "hint_prompt_fr": "Produit positif avec somme négative signifie deux négatifs.",
+        "choices": [
+          {"text": "(x - 3)(x - 4)", "text_fr": "(x - 3)(x - 4)", "correct": true},
+          {"text": "(x + 3)(x + 4)", "text_fr": "(x + 3)(x + 4)"},
+          {"text": "(x - 6)(x - 2)", "text_fr": "(x - 6)(x - 2)"},
+          {"text": "(x - 12)(x - 1)", "text_fr": "(x - 12)(x - 1)"}
+        ],
+        "hints": [
+          {"text": "Pairs of 12 with negative sum: (-3,-4), (-2,-6), (-1,-12).", "text_fr": "Paires de 12 à somme négative : (-3,-4), (-2,-6), (-1,-12)."},
+          {"text": "-3 + (-4) = -7.", "text_fr": "-3 + (-4) = -7."}
+        ],
+        "difficulty": 2
+      },
+      {
+        "kind": "mcq",
+        "text": "Factorise x² - 25.",
+        "text_fr": "Factorise x² - 25.",
+        "explanation": "25 = 5², so difference of squares: (x - 5)(x + 5).",
+        "explanation_fr": "25 = 5², donc différence de carrés : (x - 5)(x + 5).",
+        "hint_prompt": "Which two numbers with opposite signs multiply to -25 and add to 0?",
+        "hint_prompt_fr": "Quels deux nombres de signes contraires ont pour produit -25 et pour somme 0 ?",
+        "choices": [
+          {"text": "(x - 5)(x + 5)", "text_fr": "(x - 5)(x + 5)", "correct": true},
+          {"text": "(x - 5)(x - 5)", "text_fr": "(x - 5)"},
+          {"text": "(x + 5)(x + 5)", "text_fr": "(x + 5)(x + 5)"},
+          {"text": "(x - 25)(x + 1)", "text_fr": "(x - 25)(x + 1)"}
+        ],
+        "hints": [
+          {"text": "25 is 5 squared.", "text_fr": "25 est 5 au carré."},
+          {"text": "Answer: (x - 5)(x + 5).", "text_fr": "Réponse : (x - 5)(x + 5)."}
+        ],
+        "difficulty": 1
+      },
+      {
+        "kind": "numeric",
+        "text": "x² + 11x + 28 = (x + p)(x + q) with p < q. What is q?",
+        "text_fr": "x² + 11x + 28 = (x + p)(x + q) avec p < q. Que vaut q ?",
+        "explanation": "Product 28, sum 11: 4 and 7. p = 4, q = 7.",
+        "explanation_fr": "Produit 28, somme 11 : 4 et 7. p = 4, q = 7.",
+        "hint_prompt": "Which pair multiplies to 28 and adds to 11?",
+        "hint_prompt_fr": "Quelle paire a pour produit 28 et pour somme 11 ?",
+        "config": {"accepted": ["7"]},
+        "hints": [
+          {"text": "Pairs of 28: (1,28), (2,14), (4,7).", "text_fr": "Paires de 28 : (1,28), (2,14), (4,7)."},
+          {"text": "4 + 7 = 11, so q = 7.", "text_fr": "4 + 7 = 11, donc q = 7."}
+        ],
+        "difficulty": 2
+      },
+      {
+        "kind": "mcq",
+        "text": "Factorise 4x² - 36 completely.",
+        "text_fr": "Factorise 4x² - 36 complètement.",
+        "explanation": "Common factor 4: 4(x² - 9). Then difference of squares: 4(x - 3)(x + 3).",
+        "explanation_fr": "Facteur commun 4 : 4(x² - 9). Puis différence de carrés : 4(x - 3)(x + 3).",
+        "hint_prompt": "Two steps, like the practice step.",
+        "hint_prompt_fr": "Deux étapes, comme à l'étape d'entraînement.",
+        "choices": [
+          {"text": "4(x - 3)(x + 3)", "text_fr": "4(x - 3)(x + 3)", "correct": true},
+          {"text": "(4x - 12)(x + 3)", "text_fr": "(4x - 12)(x + 3)"},
+          {"text": "4(x² - 9)", "text_fr": "4(x² - 9)"},
+          {"text": "(2x - 6)(2x + 6)", "text_fr": "(2x - 6)(2x + 6)"}
+        ],
+        "hints": [
+          {"text": "Start with the common factor 4.", "text_fr": "Commence par le facteur commun 4."},
+          {"text": "Then x² - 9 = (x - 3)(x + 3).", "text_fr": "Puis x² - 9 = (x - 3)(x + 3)."}
+        ],
+        "difficulty": 3
+      }
+    ]
+  }
+}
