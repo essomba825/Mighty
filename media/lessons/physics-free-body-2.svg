@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="200px" height="400px" version="1.1" viewBox="0 0 200 400" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<title>Free body diagram of block on ramp</title>
+<defs>
+	<marker id="EA" viewBox="0 0 10 10" refX="8" refY="5" markerUnits="strokeWidth" orient="auto" markerWidth="7" markerHeight="7">
+		<polyline points="10,5 0,10 2,5 0,0 10,5" fill="black"/>
+	</marker>
+</defs>
+<g stroke="black" stroke-width="2">
+	<path d="M20,150 h160 l-160,-92.376z" fill="#CCFFCC"/>
+	<rect id="box" x="60" y="63.812" width="60" height="40" transform="rotate(30,100,103.812)" fill="#F4A460" />
+	<use xlink:href="#box" y="250"/>
+	<g stroke-width="1" marker-end="url(#EA)">
+		<path d="M160,300 h25"/><path d="M160,300 v-20"/><path d="M100,285 V332.812"/>
+		<path d="M120,370 h-60" transform="rotate(30,120,360)"/>
+		<path d="M100,400 v-47.188" transform="rotate(30,100,332.812)"/>
+	</g>
+</g>
+<g fill="black" font-family="New Century Schoolbook" text-anchor="middle">
+<text font-size="20">
+	<tspan x="100" y="20">A block on a ramp</tspan><tspan x="100" y="240">Free body diagram</tspan><tspan x="100" y="260">of just the block</tspan>
+</text>
+<text font-size="12" font-style="italic">
+	<tspan x="100" y="83.812">m</tspan><tspan x="88" y="320">mg</tspan>
+	<tspan x="180" y="315">i&#x0302;</tspan><tspan x="150" y="290">j&#x0302;</tspan>
+	<tspan x="55" y="350">F</tspan><tspan dy="5" font-size="10">f</tspan>
+	<tspan x="85" y="380">N</tspan>
+</text>
+</g>
+</svg>
