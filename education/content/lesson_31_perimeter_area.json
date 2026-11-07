@@ -3,98 +3,128 @@
   "status": "published",
   "lesson_fields": {
     "title": "Perimeter and Area of 2D Shapes",
-    "title_fr": "Périmètres et aires des figures planes",
-    "summary": "Compute perimeters and areas of rectangles, triangles, parallelograms, trapeziums and circles.",
-    "summary_fr": "Calculer périmètres et aires de rectangles, triangles, parallélogrammes, trapèzes et cercles.",
-    "content": "## Basics\n\n1. Perimeter = total length around.\n2. Area = surface covered.\n3. Circle: C = πd or 2πr, A = πr².",
-    "content_fr": "Notions de base\n\n1. Périmètre = longueur totale autour.\n2. Aire = surface occupée.\n3. Cercle : C = πd ou 2πr, A = πr².",
+    "title_fr": "Périmètre et aire des figures planes",
+    "summary": "Calculate the perimeter and area of rectangles, triangles, parallelograms, trapeziums and circles using the correct formulas.",
+    "summary_fr": "Calcule le périmètre et l'aire des rectangles, des triangles, des parallélogrammes, des trapèzes et des cercles à l'aide des bonnes formules.",
+    "content": "## Perimeter and area\n\nPerimeter is the total distance around the outside of a shape; add up the lengths of all the sides (or use the circle formula).\n\nArea is the amount of surface inside the shape, measured in square units. Each shape has its own formula. Always write the correct unit: cm for perimeter, cm squared for area.",
+    "content_fr": "## Périmètre et aire\n\nLe périmètre est la longueur totale du contour d'une figure : additionne les longueurs de tous les côtés (ou utilise la formule du cercle).\n\nL'aire est la surface à l'intérieur de la figure, mesurée en unités carrées. Chaque figure a sa propre formule. Écris toujours la bonne unité : cm pour le périmètre, cm carré pour l'aire.",
     "objectives": [
-      "Find perimeters",
-      "Compute areas of common shapes",
-      "Use circle formulas",
-      "Solve word problems"
+      "Find the perimeter of rectilinear shapes",
+      "Use the area formula for rectangles and triangles",
+      "Use the area formula for parallelograms and trapeziums",
+      "Find the circumference and area of a circle"
     ],
     "objectives_fr": [
-      "Trouver des périmètres",
-      "Calculer aires de figures usuelles",
-      "Utiliser formules du cercle",
-      "Résoudre des problèmes de mot"
+      "Calculer le périmètre de figures rectilignes",
+      "Utiliser la formule de l'aire des rectangles et des triangles",
+      "Utiliser la formule de l'aire des parallélogrammes et des trapèzes",
+      "Calculer la circonférence et l'aire d'un cercle"
     ],
-    "estimated_minutes": 25
+    "estimated_minutes": 30
   },
   "steps": [
     {
       "kind": "concept",
-      "title": "Rectangles and squares",
-      "title_fr": "Rectangles et carrés",
-      "content": "Rectangle: P = 2(l + w), A = lw. Square: P = 4s, A = s².",
-      "content_fr": "Rectangle : P = 2(l + w), A = l × w. Carré : P = 4c, A = c².",
+      "title": "Perimeter",
+      "title_fr": "Périmètre",
+      "content": "The perimeter is the distance all the way around the outside of a shape. For a rectilinear shape, add the lengths of every side.\n\nWorked example: a rectangle is 7 cm long and 3 cm wide. It has two lengths and two widths, so the perimeter is 7 + 3 + 7 + 3 = 20 cm.\n\nDo not confuse perimeter with area: perimeter is a length, area is a surface.",
+      "content_fr": "Le périmètre est la distance qui fait tout le tour d'une figure. Pour une figure rectiligne, additionne les longueurs de tous les côtés.\n\nExemple rédigé : un rectangle mesure 7 cm de long et 3 cm de large. Il a deux longueurs et deux largeurs, donc le périmètre vaut 7 + 3 + 7 + 3 = 20 cm.\n\nNe confonds pas périmètre et aire : le périmètre est une longueur, l'aire est une surface.",
       "required": true,
       "xp": 10,
       "question": {
         "kind": "numeric",
-        "text": "Rectangle 6 cm × 4 cm. Area in cm².",
-        "text_fr": "Rectangle 6 cm × 4 cm. Aire en cm².",
-        "explanation": "6 × 4 = 24 cm².",
-        "explanation_fr": "6 × 4 = 24 cm².",
-        "hint_prompt": "Area = length × width.",
-        "hint_prompt_fr": "Aire = longueur × largeur.",
-        "config": {"accepted": ["24"]},
+        "difficulty": 1,
+        "text": "A rectangle is 8 cm by 5 cm. Find its perimeter in cm.",
+        "text_fr": "Un rectangle mesure 8 cm sur 5 cm. Trouve son périmètre en cm.",
+        "explanation": "The perimeter is 8 + 5 + 8 + 5 = 26 cm.",
+        "explanation_fr": "Le périmètre vaut 8 + 5 + 8 + 5 = 26 cm.",
+        "hint_prompt": "Add all four sides.",
+        "hint_prompt_fr": "Additionne les quatre côtés.",
+        "config": {"accepted": [26]},
         "hints": [
-          {"text": "6 × 4 = 24.", "text_fr": "6 × 4 = 24."}
+          {"text": "Two sides of 8 and two of 5.", "text_fr": "Deux côtés de 8 et deux de 5."},
+          {"text": "8 + 5 + 8 + 5 = 26.", "text_fr": "8 + 5 + 8 + 5 = 26."}
         ]
       }
     },
     {
       "kind": "concept",
-      "title": "Triangle",
-      "title_fr": "Triangle",
-      "content": "A = (base × height) / 2.",
-      "content_fr": "A = (base × hauteur) / 2.",
+      "title": "Area of rectangles and triangles",
+      "title_fr": "Aire des rectangles et des triangles",
+      "content": "The area of a rectangle is length times width: A = l x w.\n\nA triangle is half of a rectangle with the same base and height, so its area is A = (base x height) / 2. The height must be measured perpendicular to the base.\n\nWorked example: a triangle has base 10 cm and height 6 cm. Its area is (10 x 6) / 2 = 30 cm squared.",
+      "content_fr": "L'aire d'un rectangle vaut longueur fois largeur : A = L x l.\n\nUn triangle est la moitié d'un rectangle de même base et de même hauteur, donc son aire vaut A = (base x hauteur) / 2. La hauteur se mesure perpendiculairement à la base.\n\nExemple rédigé : un triangle a une base de 10 cm et une hauteur de 6 cm. Son aire vaut (10 x 6) / 2 = 30 cm carré.",
       "required": true,
       "xp": 10,
       "question": {
         "kind": "numeric",
-        "text": "Triangle base 10 cm, height 6 cm. Area in cm².",
-        "text_fr": "Triangle base 10 cm, hauteur 6 cm. Aire en cm².",
-        "explanation": "(10 × 6)/2 = 30.",
-        "explanation_fr": "(10 × 6)/2 = 30.",
-        "hint_prompt": "(b × h)/2.",
-        "hint_prompt_fr": "(b × h)/2.",
-        "config": {"accepted": ["30"]},
+        "difficulty": 2,
+        "text": "A triangle has base 12 cm and height 5 cm. Find its area in cm squared.",
+        "text_fr": "Un triangle a une base de 12 cm et une hauteur de 5 cm. Trouve son aire en cm carré.",
+        "explanation": "The area is (12 x 5) / 2 = 60 / 2 = 30 cm squared.",
+        "explanation_fr": "L'aire vaut (12 x 5) / 2 = 60 / 2 = 30 cm carré.",
+        "hint_prompt": "Multiply base by height, then halve.",
+        "hint_prompt_fr": "Multiplie la base par la hauteur, puis divise par deux.",
+        "config": {"accepted": [30]},
         "hints": [
+          {"text": "12 x 5 = 60.", "text_fr": "12 x 5 = 60."},
           {"text": "60 / 2 = 30.", "text_fr": "60 / 2 = 30."}
         ]
       }
     },
     {
-      "kind": "explain",
-      "title": "Circle",
-      "title_fr": "Cercle",
-      "content": "C = 2πr or πd, A = πr². Use π ≈ 3.14 or 22/7 as instructed.",
-      "content_fr": "C = 2πr ou πd, A = πr². Utiliser π ≈ 3,14 ou 22/7 selon consigne.",
+      "kind": "concept",
+      "title": "Area of parallelograms and trapeziums",
+      "title_fr": "Aire des parallélogrammes et des trapèzes",
+      "content": "The area of a parallelogram is base times perpendicular height: A = b x h.\n\nA trapezium has one pair of parallel sides. Its area is the average of the two parallel sides multiplied by the perpendicular height: A = ((a + b) / 2) x h.\n\nWorked example: a trapezium has parallel sides 6 cm and 10 cm and height 4 cm. Its area is ((6 + 10) / 2) x 4 = 8 x 4 = 32 cm squared.",
+      "content_fr": "L'aire d'un parallélogramme vaut base fois hauteur perpendiculaire : A = b x h.\n\nUn trapèze a une paire de côtés parallèles. Son aire vaut la moyenne des deux côtés parallèles multipliée par la hauteur perpendiculaire : A = ((a + b) / 2) x h.\n\nExemple rédigé : un trapèze a des côtés parallèles de 6 cm et 10 cm et une hauteur de 4 cm. Son aire vaut ((6 + 10) / 2) x 4 = 8 x 4 = 32 cm carré.",
       "required": true,
       "xp": 12,
       "question": {
         "kind": "numeric",
-        "text": "Circle radius 7 cm, use π = 22/7. Area in cm².",
-        "text_fr": "Cercle rayon 7 cm, π = 22/7. Aire en cm².",
-        "explanation": "πr² = (22/7) × 49 = 22 × 7 = 154.",
-        "explanation_fr": "πr² = (22/7) × 49 = 22 × 7 = 154.",
-        "hint_prompt": "r² = 49.",
-        "hint_prompt_fr": "r² = 49.",
-        "config": {"accepted": ["154"]},
+        "difficulty": 2,
+        "text": "A trapezium has parallel sides 8 cm and 12 cm and height 5 cm. Find its area in cm squared.",
+        "text_fr": "Un trapèze a des côtés parallèles de 8 cm et 12 cm et une hauteur de 5 cm. Trouve son aire en cm carré.",
+        "explanation": "The average of the parallel sides is (8 + 12) / 2 = 10, so the area is 10 x 5 = 50 cm squared.",
+        "explanation_fr": "La moyenne des côtés parallèles vaut (8 + 12) / 2 = 10, donc l'aire vaut 10 x 5 = 50 cm carré.",
+        "hint_prompt": "Average the parallel sides, then multiply by the height.",
+        "hint_prompt_fr": "Fais la moyenne des côtés parallèles, puis multiplie par la hauteur.",
+        "config": {"accepted": [50]},
         "hints": [
-          {"text": "(22/7) × 49 = 154.", "text_fr": "(22/7) × 49 = 154."}
+          {"text": "(8 + 12) / 2 = 10.", "text_fr": "(8 + 12) / 2 = 10."},
+          {"text": "10 x 5 = 50.", "text_fr": "10 x 5 = 50."}
         ]
       }
     },
     {
-      "kind": "practice",
-      "title": "Others",
-      "title_fr": "Autres figures",
-      "content": "Parallelogram A = base × height. Trapezium A = (a+b)/2 × height.",
-      "content_fr": "Parallélogramme A = base × hauteur. Trapèze A = (a+b)/2 × hauteur.",
+      "kind": "concept",
+      "title": "Circles: circumference and area",
+      "title_fr": "Cercles : circonférence et aire",
+      "content": "The circumference (perimeter) of a circle is C = 2 x pi x r, where r is the radius. The area is A = pi x r squared.\n\nUse pi = 3.14 or pi = 22 / 7 unless the question tells you otherwise.\n\nWorked example: a circle has radius 5 cm. Its area is pi x 5 x 5 = 3.14 x 25 = 78.5 cm squared.",
+      "content_fr": "La circonférence (périmètre) d'un cercle vaut C = 2 x pi x r, où r est le rayon. L'aire vaut A = pi x r au carré.\n\nUtilise pi = 3,14 ou pi = 22 / 7, sauf indication contraire de l'énoncé.\n\nExemple rédigé : un cercle a un rayon de 5 cm. Son aire vaut pi x 5 x 5 = 3,14 x 25 = 78,5 cm carré.",
+      "required": true,
+      "xp": 12,
+      "question": {
+        "kind": "numeric",
+        "difficulty": 2,
+        "text": "A circle has radius 7 cm. Using pi = 22 / 7, find its circumference in cm.",
+        "text_fr": "Un cercle a un rayon de 7 cm. Avec pi = 22 / 7, trouve sa circonférence en cm.",
+        "explanation": "C = 2 x (22 / 7) x 7 = 2 x 22 = 44 cm.",
+        "explanation_fr": "C = 2 x (22 / 7) x 7 = 2 x 22 = 44 cm.",
+        "hint_prompt": "Use C = 2 x pi x r.",
+        "hint_prompt_fr": "Utilise C = 2 x pi x r.",
+        "config": {"accepted": [44]},
+        "hints": [
+          {"text": "(22 / 7) x 7 = 22.", "text_fr": "(22 / 7) x 7 = 22."},
+          {"text": "2 x 22 = 44.", "text_fr": "2 x 22 = 44."}
+        ]
+      }
+    },
+    {
+      "kind": "example",
+      "title": "Combining shapes",
+      "title_fr": "Combiner des figures",
+      "content": "Worked example: a shape is a rectangle 10 cm by 4 cm with a triangle on top of base 10 cm and height 3 cm. The rectangle area is 10 x 4 = 40. The triangle area is (10 x 3) / 2 = 15. Total area = 40 + 15 = 55 cm squared.\n\nStrategy: split a compound shape into simple shapes, find each area, then add or subtract as needed.",
+      "content_fr": "Exemple rédigé : une figure est un rectangle de 10 cm sur 4 cm surmonté d'un triangle de base 10 cm et de hauteur 3 cm. L'aire du rectangle vaut 10 x 4 = 40. L'aire du triangle vaut (10 x 3) / 2 = 15. L'aire totale vaut 40 + 15 = 55 cm carré.\n\nStratégie : découpe une figure composée en figures simples, calcule chaque aire, puis additionne ou soustrais.",
       "required": false,
       "xp": 10
     },
@@ -102,76 +132,96 @@
       "kind": "summary",
       "title": "What to keep",
       "title_fr": "À retenir",
-      "content": "Keep units consistent. Area units squared.",
-      "content_fr": "Garder unités cohérentes. Aires en unités².",
+      "content": "Rectangle: A = l x w. Triangle: A = (b x h) / 2. Parallelogram: A = b x h. Trapezium: A = ((a + b) / 2) x h. Circle: C = 2 x pi x r and A = pi x r squared. Perimeter adds the sides; area uses square units.",
+      "content_fr": "Rectangle : A = L x l. Triangle : A = (b x h) / 2. Parallélogramme : A = b x h. Trapèze : A = ((a + b) / 2) x h. Cercle : C = 2 x pi x r et A = pi x r au carré. Le périmètre additionne les côtés ; l'aire s'exprime en unités carrées.",
       "required": false,
       "xp": 5
     }
   ],
   "quiz": {
-    "title": "Perimeter and area",
-    "title_fr": "Périmètre et aire",
+    "title": "Quiz - Perimeter and area",
+    "title_fr": "Quiz - Périmètre et aire",
     "pass_score": 60,
     "questions": [
       {
         "kind": "numeric",
-        "text": "Square side 5 cm, perimeter cm.",
-        "text_fr": "Carré côté 5 cm, périmètre cm.",
-        "explanation": "4 × 5 = 20.",
-        "explanation_fr": "4 × 5 = 20.",
-        "config": {"accepted": ["20"]},
+        "difficulty": 1,
+        "text": "A square has side 9 cm. Find its perimeter in cm.",
+        "text_fr": "Un carré a un côté de 9 cm. Trouve son périmètre en cm.",
+        "explanation": "A square has four equal sides, so the perimeter is 4 x 9 = 36 cm.",
+        "explanation_fr": "Un carré a quatre côtés égaux, donc le périmètre vaut 4 x 9 = 36 cm.",
+        "hint_prompt": "Four equal sides.",
+        "hint_prompt_fr": "Quatre côtés égaux.",
+        "config": {"accepted": [36]},
         "hints": [
-          {"text": "4×5=20.", "text_fr": "4×5=20."}
-        ],
-        "difficulty": 1
+          {"text": "4 x 9.", "text_fr": "4 x 9."},
+          {"text": "= 36.", "text_fr": "= 36."}
+        ]
       },
       {
         "kind": "numeric",
-        "text": "Triangle base 8 cm, height 5 cm, area cm².",
-        "text_fr": "Triangle base 8 cm, hauteur 5 cm, aire cm².",
-        "explanation": "(8×5)/2 = 20.",
-        "explanation_fr": "(8×5)/2 = 20.",
-        "config": {"accepted": ["20"]},
+        "difficulty": 2,
+        "text": "A rectangle is 11 cm by 4 cm. Find its area in cm squared.",
+        "text_fr": "Un rectangle mesure 11 cm sur 4 cm. Trouve son aire en cm carré.",
+        "explanation": "The area is 11 x 4 = 44 cm squared.",
+        "explanation_fr": "L'aire vaut 11 x 4 = 44 cm carré.",
+        "hint_prompt": "Multiply length by width.",
+        "hint_prompt_fr": "Multiplie la longueur par la largeur.",
+        "config": {"accepted": [44]},
         "hints": [
-          {"text": "40/2=20.", "text_fr": "40/2=20."}
-        ],
-        "difficulty": 1
+          {"text": "11 x 4.", "text_fr": "11 x 4."},
+          {"text": "= 44.", "text_fr": "= 44."}
+        ]
       },
       {
         "kind": "numeric",
-        "text": "Circle radius 3 cm, π=3.14, area cm².",
-        "text_fr": "Cercle rayon 3 cm, π=3.14, aire cm².",
-        "explanation": "3.14 × 9 = 28.26.",
-        "explanation_fr": "3.14 × 9 = 28.26.",
-        "config": {"accepted": ["28.26"]},
+        "difficulty": 2,
+        "text": "A triangle has base 14 cm and height 3 cm. Find its area in cm squared.",
+        "text_fr": "Un triangle a une base de 14 cm et une hauteur de 3 cm. Trouve son aire en cm carré.",
+        "explanation": "The area is (14 x 3) / 2 = 42 / 2 = 21 cm squared.",
+        "explanation_fr": "L'aire vaut (14 x 3) / 2 = 42 / 2 = 21 cm carré.",
+        "hint_prompt": "Base times height, then halve.",
+        "hint_prompt_fr": "Base fois hauteur, puis divise par deux.",
+        "config": {"accepted": [21]},
         "hints": [
-          {"text": "9 × 3.14 = 28.26.", "text_fr": "9 × 3.14 = 28.26."}
-        ],
-        "difficulty": 1
+          {"text": "14 x 3 = 42.", "text_fr": "14 x 3 = 42."},
+          {"text": "42 / 2 = 21.", "text_fr": "42 / 2 = 21."}
+        ]
       },
       {
         "kind": "numeric",
-        "text": "Parallelogram base 12 cm, height 4 cm, area cm².",
-        "text_fr": "Parallélogramme base 12 cm, hauteur 4 cm, aire cm².",
-        "explanation": "12 × 4 = 48.",
-        "explanation_fr": "12 × 4 = 48.",
-        "config": {"accepted": ["48"]},
+        "difficulty": 2,
+        "text": "A circle has radius 10 cm. Using pi = 3.14, find its area in cm squared.",
+        "text_fr": "Un cercle a un rayon de 10 cm. Avec pi = 3,14, trouve son aire en cm carré.",
+        "explanation": "A = pi x r squared = 3.14 x 100 = 314 cm squared.",
+        "explanation_fr": "A = pi x r au carré = 3,14 x 100 = 314 cm carré.",
+        "hint_prompt": "Use A = pi x r squared.",
+        "hint_prompt_fr": "Utilise A = pi x r au carré.",
+        "config": {"accepted": [314]},
         "hints": [
-          {"text": "12×4=48.", "text_fr": "12×4=48."}
-        ],
-        "difficulty": 1
+          {"text": "r squared = 100.", "text_fr": "r au carré = 100."},
+          {"text": "3.14 x 100 = 314.", "text_fr": "3,14 x 100 = 314."}
+        ]
       },
       {
-        "kind": "numeric",
-        "text": "Circle diameter 14 cm, π=22/7, circumference cm.",
-        "text_fr": "Cercle diamètre 14 cm, π=22/7, circonférence cm.",
-        "explanation": "πd = (22/7) × 14 = 44.",
-        "explanation_fr": "πd = (22/7) × 14 = 44.",
-        "config": {"accepted": ["44"]},
-        "hints": [
-          {"text": "(22/7) × 14 = 44.", "text_fr": "(22/7) × 14 = 44."}
+        "kind": "mcq",
+        "difficulty": 2,
+        "text": "Which formula gives the area of a parallelogram?",
+        "text_fr": "Quelle formule donne l'aire d'un parallélogramme ?",
+        "explanation": "The area of a parallelogram is base times perpendicular height: A = b x h.",
+        "explanation_fr": "L'aire d'un parallélogramme vaut base fois hauteur perpendiculaire : A = b x h.",
+        "hint_prompt": "It is like the rectangle formula.",
+        "hint_prompt_fr": "C'est comme la formule du rectangle.",
+        "choices": [
+          {"text": "A = b x h", "text_fr": "A = b x h", "correct": true},
+          {"text": "A = (b x h) / 2", "text_fr": "A = (b x h) / 2", "correct": false},
+          {"text": "A = 2 x pi x r", "text_fr": "A = 2 x pi x r", "correct": false},
+          {"text": "A = ((a + b) / 2) x h", "text_fr": "A = ((a + b) / 2) x h", "correct": false}
         ],
-        "difficulty": 2
+        "hints": [
+          {"text": "No halving is needed.", "text_fr": "On ne divise pas par deux."},
+          {"text": "A = b x h.", "text_fr": "A = b x h."}
+        ]
       }
     ]
   }

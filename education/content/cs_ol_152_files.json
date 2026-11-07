@@ -1,0 +1,303 @@
+{
+  "lesson": 152,
+  "status": "published",
+  "lesson_fields": {
+    "title": "Reading and Writing Files",
+    "title_fr": "Lire et ecrire des fichiers",
+    "summary": "Files let a program keep data after it stops running. Python can read from and write to files with a few simple lines.",
+    "summary_fr": "Les fichiers permettent a un programme de conserver des donnees apres son arret. Python peut lire et ecrire dans des fichiers en quelques lignes simples.",
+    "content": "## Why files matter\n\nVariables live only while a program runs. A file stores data on disk so it lasts. Python opens a file, reads or writes it, then closes it.\n\n```python\nwith open(\"data.txt\") as f:\n    text = f.read()\n```\n\nThe mode decides what you can do. Read mode reads only, write mode replaces the contents, and append mode adds to the end.",
+    "content_fr": "## Pourquoi les fichiers comptent\n\nLes variables n'existent que pendant l'execution d'un programme. Un fichier stocke les donnees sur le disque pour qu'elles durent. Python ouvre un fichier, le lit ou y ecrit, puis le ferme.\n\nLe mode determine ce que l'on peut faire. Le mode lecture lit seulement, le mode ecriture remplace le contenu, et le mode ajout ajoute a la fin.",
+    "objectives": [
+      "Open a file in Python",
+      "Read text from a file",
+      "Write and append data to a file"
+    ],
+    "objectives_fr": [
+      "Ouvrir un fichier en Python",
+      "Lire du texte dans un fichier",
+      "Ecrire et ajouter des donnees dans un fichier"
+    ],
+    "estimated_minutes": 25
+  },
+  "steps": [
+    {
+      "kind": "concept",
+      "title": "Files store data",
+      "title_fr": "Les fichiers stockent des donnees",
+      "content": "A program's variables disappear when it stops. A file keeps data on disk. This is how programs remember settings, scores and results between runs.",
+      "content_fr": "Les variables d'un programme disparaissent quand il s'arrete. Un fichier conserve les donnees sur le disque. C'est ainsi qu'un programme retient les reglages, les scores et les resultats entre deux executions.",
+      "required": true,
+      "xp": 10,
+      "question": {
+        "kind": "mcq",
+        "text": "What is the main advantage of a file over a variable?",
+        "text_fr": "Quel est le principal avantage d'un fichier par rapport a une variable ?",
+        "explanation": "It keeps data after the program stops.",
+        "explanation_fr": "Il conserve les donnees apres l'arret du programme.",
+        "choices": [
+          {
+            "text": "It keeps data after the program stops",
+            "text_fr": "Il conserve les donnees apres l'arret du programme",
+            "correct": true
+          },
+          {
+            "text": "It runs faster",
+            "text_fr": "Il s'execute plus vite",
+            "correct": false
+          },
+          {
+            "text": "It uses no memory",
+            "text_fr": "Il n'utilise pas de memoire",
+            "correct": false
+          }
+        ],
+        "hints": [
+          {
+            "text": "Think about what happens when the program ends.",
+            "text_fr": "Pense a ce qui se passe a la fin du programme."
+          }
+        ],
+        "difficulty": 1
+      }
+    },
+    {
+      "kind": "explain",
+      "title": "Opening and modes",
+      "title_fr": "Ouverture et modes",
+      "content": "The open function takes the file name and a mode. Read mode reads, write mode replaces the whole file, and append mode adds to the end. Closing the file saves the changes.",
+      "content_fr": "La fonction open prend le nom du fichier et un mode. Le mode lecture lit, le mode ecriture remplace tout le fichier, et le mode ajout ajoute a la fin. Fermer le fichier enregistre les modifications.",
+      "required": true,
+      "xp": 10
+    },
+    {
+      "kind": "example",
+      "title": "Read a whole file",
+      "title_fr": "Lire tout un fichier",
+      "content": "This opens a file and reads all of its text into a variable.\n\n```python\nwith open(\"notes.txt\") as f:\n    text = f.read()\nprint(text)\n```\n\nThe keyword with closes the file automatically when the block ends.",
+      "content_fr": "Voici comment ouvrir un fichier et lire tout son texte dans une variable.\n\n```python\nwith open(\"notes.txt\") as f:\n    text = f.read()\nprint(text)\n```\n\nLe mot-cle with ferme le fichier automatiquement a la fin du bloc.",
+      "required": true,
+      "xp": 12
+    },
+    {
+      "kind": "practice",
+      "title": "Your turn: writing",
+      "title_fr": "A toi : l'ecriture",
+      "content": "To save new text to a file, which mode should you use?",
+      "content_fr": "Pour enregistrer un nouveau texte dans un fichier, quel mode faut-il utiliser ?",
+      "required": true,
+      "xp": 12,
+      "question": {
+        "kind": "mcq",
+        "text": "Which mode writes data to a file?",
+        "text_fr": "Quel mode ecrit des donnees dans un fichier ?",
+        "explanation": "The write mode.",
+        "explanation_fr": "Le mode ecriture.",
+        "choices": [
+          {
+            "text": "Write",
+            "text_fr": "Le mode ecriture",
+            "correct": true
+          },
+          {
+            "text": "Read",
+            "text_fr": "Le mode lecture",
+            "correct": false
+          },
+          {
+            "text": "Append",
+            "text_fr": "Le mode ajout",
+            "correct": false
+          }
+        ],
+        "hints": [
+          {
+            "text": "Think about creating a fresh file.",
+            "text_fr": "Pense a creer un fichier neuf."
+          }
+        ],
+        "difficulty": 1
+      }
+    },
+    {
+      "kind": "question",
+      "title": "Check: append",
+      "title_fr": "Verification : le mode ajout",
+      "content": "Append mode adds new data to the end without deleting what is already there. Write mode would replace the whole file.",
+      "content_fr": "Le mode ajout ajoute de nouvelles donnees a la fin sans effacer ce qui existe deja. Le mode ecriture remplacerait tout le fichier.",
+      "required": true,
+      "xp": 12,
+      "question": {
+        "kind": "mcq",
+        "text": "Which mode keeps the old data and adds new data?",
+        "text_fr": "Quel mode conserve les anciennes donnees et en ajoute de nouvelles ?",
+        "explanation": "Append.",
+        "explanation_fr": "Le mode ajout.",
+        "choices": [
+          {
+            "text": "Append",
+            "text_fr": "Le mode ajout",
+            "correct": true
+          },
+          {
+            "text": "Write",
+            "text_fr": "Le mode ecriture",
+            "correct": false
+          },
+          {
+            "text": "Read",
+            "text_fr": "Le mode lecture",
+            "correct": false
+          }
+        ],
+        "hints": [
+          {
+            "text": "It adds at the end.",
+            "text_fr": "Il ajoute a la fin."
+          }
+        ],
+        "difficulty": 1
+      }
+    },
+    {
+      "kind": "summary",
+      "title": "What to keep",
+      "title_fr": "A retenir",
+      "content": "Files save data beyond one run. Use open with a mode to read, write or append. The keyword with closes the file safely.",
+      "content_fr": "Les fichiers conservent les donnees au-dela d'une execution. Utilise open avec un mode pour lire, ecrire ou ajouter. Le mot-cle with ferme le fichier de facon sure.",
+      "required": false,
+      "xp": 5
+    }
+  ],
+  "quiz": {
+    "title": "Reading and Writing Files",
+    "title_fr": "Lire et ecrire des fichiers",
+    "pass_score": 60,
+    "questions": [
+      {
+        "kind": "mcq",
+        "text": "Which function opens a file in Python?",
+        "text_fr": "Quelle fonction ouvre un fichier en Python ?",
+        "explanation": "open",
+        "explanation_fr": "open",
+        "choices": [
+          {
+            "text": "open",
+            "text_fr": "open",
+            "correct": true
+          },
+          {
+            "text": "read",
+            "text_fr": "read",
+            "correct": false
+          },
+          {
+            "text": "print",
+            "text_fr": "print",
+            "correct": false
+          }
+        ],
+        "hints": [
+          {
+            "text": "Its name says what it does.",
+            "text_fr": "Son nom indique ce qu'elle fait."
+          }
+        ],
+        "difficulty": 1
+      },
+      {
+        "kind": "mcq",
+        "text": "Which mode replaces the contents of a file?",
+        "text_fr": "Quel mode remplace le contenu d'un fichier ?",
+        "explanation": "Write mode",
+        "explanation_fr": "Le mode ecriture",
+        "choices": [
+          {
+            "text": "Write",
+            "text_fr": "Le mode ecriture",
+            "correct": true
+          },
+          {
+            "text": "Append",
+            "text_fr": "Le mode ajout",
+            "correct": false
+          },
+          {
+            "text": "Read",
+            "text_fr": "Le mode lecture",
+            "correct": false
+          }
+        ],
+        "hints": [
+          {
+            "text": "It creates a fresh file.",
+            "text_fr": "Il cree un fichier neuf."
+          }
+        ],
+        "difficulty": 1
+      },
+      {
+        "kind": "mcq",
+        "text": "What does the keyword with do?",
+        "text_fr": "Que fait le mot-cle with ?",
+        "explanation": "It closes the file automatically.",
+        "explanation_fr": "Il ferme le fichier automatiquement.",
+        "choices": [
+          {
+            "text": "Closes the file automatically",
+            "text_fr": "Ferme le fichier automatiquement",
+            "correct": true
+          },
+          {
+            "text": "Deletes the file",
+            "text_fr": "Supprime le fichier",
+            "correct": false
+          },
+          {
+            "text": "Prints the file",
+            "text_fr": "Affiche le fichier",
+            "correct": false
+          }
+        ],
+        "hints": [
+          {
+            "text": "It cleans up for you.",
+            "text_fr": "Il nettoie tout seul."
+          }
+        ],
+        "difficulty": 1
+      },
+      {
+        "kind": "mcq",
+        "text": "Which mode adds data to the end of a file?",
+        "text_fr": "Quel mode ajoute des donnees a la fin d'un fichier ?",
+        "explanation": "Append",
+        "explanation_fr": "Le mode ajout",
+        "choices": [
+          {
+            "text": "Append",
+            "text_fr": "Le mode ajout",
+            "correct": true
+          },
+          {
+            "text": "Write",
+            "text_fr": "Le mode ecriture",
+            "correct": false
+          },
+          {
+            "text": "Read",
+            "text_fr": "Le mode lecture",
+            "correct": false
+          }
+        ],
+        "hints": [
+          {
+            "text": "It keeps the old content.",
+            "text_fr": "Il conserve l'ancien contenu."
+          }
+        ],
+        "difficulty": 1
+      }
+    ]
+  }
+}

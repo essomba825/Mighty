@@ -1,0 +1,347 @@
+{
+  "lesson": 98,
+  "status": "published",
+  "lesson_fields": {
+    "title": "Temperature and Heat Transfer",
+    "title_fr": "Temperature et transfert de chaleur",
+    "summary": "Temperature measures how hot a substance is. Heat flows from a hotter body to a colder one by conduction, convection or radiation.",
+    "summary_fr": "La temperature mesure le degre de chaleur d'une substance. La chaleur passe d'un corps chaud a un corps froid par conduction, convection ou rayonnement.",
+    "content": "## Temperature\n\nTemperature is a measure of the average energy of the particles in a substance. It is measured in degrees Celsius or kelvin.\n\n## Three ways heat moves\n\nConduction passes heat through solids by vibrating particles. Convection moves heat through liquids and gases by the rise of warm, less dense material. Radiation needs no medium at all.",
+    "content_fr": "## Temperature\n\nLa temperature mesure l'energie moyenne des particules d'une substance. Elle se mesure en degres Celsius ou en kelvins.\n\n## Trois manieres dont la chaleur se transmet\n\nLa conduction transmet la chaleur dans les solides par des particules qui vibrent. La convection deplace la chaleur dans les liquides et les gaz par la montee du material chaud, moins dense. Le rayonnement n'a besoin d'aucun milieu.",
+    "objectives": [
+      "Explain what temperature measures",
+      "Describe conduction, convection and radiation",
+      "Say when each method of heat transfer happens"
+    ],
+    "objectives_fr": [
+      "Expliquer ce que mesure la temperature",
+      "Decrire la conduction, la convection et le rayonnement",
+      "Dire quand chaque methode de transfert de chaleur a lieu"
+    ],
+    "estimated_minutes": 25
+  },
+  "steps": [
+    {
+      "kind": "concept",
+      "title": "What temperature measures",
+      "title_fr": "Ce que mesure la temperature",
+      "content": "Temperature measures the average kinetic energy of the particles in a substance. Higher temperature means faster moving particles on average.\n\nWe measure temperature with a thermometer in degrees Celsius or in kelvin. At minus two hundred and seventy three degrees Celsius, particles have almost no energy left.",
+      "content_fr": "La temperature mesure l'energie cinetique moyenne des particules d'une substance. Une temperature plus elevee signifie que les particules se deplacent en moyenne plus vite.\n\nOn mesure la temperature avec un thermometre en degres Celsius ou en kelvins. A moins deux cent soixante treize degres Celsius, les particules ont presque plus d'energie.",
+      "required": true,
+      "xp": 10,
+      "question": {
+        "kind": "mcq",
+        "text": "What does temperature measure?",
+        "text_fr": "Que mesure la temperature ?",
+        "explanation": "It measures the average kinetic energy of the particles.",
+        "explanation_fr": "Elle mesure l'energie cinetique moyenne des particules.",
+        "hint_prompt": "Think about how the particles move.",
+        "hint_prompt_fr": "Pense a la façon dont les particules se deplacent.",
+        "choices": [
+          {
+            "text": "The average energy of the particles",
+            "text_fr": "L'energie moyenne des particules",
+            "correct": true
+          },
+          {
+            "text": "The total number of particles",
+            "text_fr": "Le nombre total de particules",
+            "correct": false
+          },
+          {
+            "text": "The colour of the substance",
+            "text_fr": "La couleur de la substance",
+            "correct": false
+          }
+        ],
+        "hints": [
+          {
+            "text": "Higher temperature means faster particles.",
+            "text_fr": "Temperature plus elevee signifie particules plus rapides."
+          }
+        ]
+      }
+    },
+    {
+      "kind": "explain",
+      "title": "Conduction and convection",
+      "title_fr": "Conduction et convection",
+      "content": "Conduction passes heat through a solid. The vibrating particles pass energy to their neighbours, layer by layer. Metals are good conductors because they have free electrons that carry energy quickly.\n\nConvection happens in liquids and gases. Warm, less dense material rises and cooler, denser material takes its place. This forms a convection current.",
+      "content_fr": "La conduction transmet la chaleur dans un solide. Les particules qui vibrent transmettent l'energie a leurs voisines, couche apres couche. Les metaux sont de bons conducteurs car ils ont des electrons libres qui transportent vite l'energie.\n\nLa convection a lieu dans les liquides et les gaz. Le material chaud, moins dense, monte et le material plus froid, plus dense, prend sa place. Cela forme un courant de convection.",
+      "required": true,
+      "xp": 10
+    },
+    {
+      "kind": "example",
+      "title": "Worked example: heating water",
+      "title_fr": "Exemple resolu : chauffer de l'eau",
+      "content": "When water is heated from below, the lower layer warms up and expands. It becomes less dense and rises, while cooler water sinks to take its place.\n\nThis circular movement is a convection current, and it is how the whole pot of water warms evenly.",
+      "content_fr": "Quand on chauffe de l'eau par le bas, la couche inferieure s'echauffe et se dilate. Elle devient moins dense et monte, tandis que l'eau plus froide descend pour prendre sa place.\n\nCe mouvement circulaire est un courant de convection, et c'est ainsi que tout le chaudron d'eau s'echauffe de facon homogene.",
+      "required": true,
+      "xp": 12
+    },
+    {
+      "kind": "practice",
+      "title": "Your turn: which method",
+      "title_fr": "A toi : quelle methode",
+      "content": "Identify the main method of heat transfer in each case: the sun warming the earth, a metal pan heating on a stove, warm air rising from a heater.",
+      "content_fr": "Identifie la methode principale de transfert de chaleur dans chaque cas : le soleil qui rechauffe la terre, une casserole en metal qui chauffe sur le feu, l'air chaud qui monte d'un radiateur.",
+      "required": true,
+      "xp": 12,
+      "question": {
+        "kind": "mcq",
+        "text": "How does the sun warm the earth?",
+        "text_fr": "Comment le soleil rechauffe-t-il la terre ?",
+        "explanation": "The sun warms the earth by radiation, which needs no medium.",
+        "explanation_fr": "Le soleil rechauffe la terre par rayonnement, qui n'a besoin d'aucun milieu.",
+        "hint_prompt": "The heat crosses empty space.",
+        "hint_prompt_fr": "La chaleur traverse le vide.",
+        "choices": [
+          {
+            "text": "Radiation",
+            "text_fr": "Rayonnement",
+            "correct": true
+          },
+          {
+            "text": "Convection",
+            "text_fr": "Convection",
+            "correct": false
+          },
+          {
+            "text": "Conduction",
+            "text_fr": "Conduction",
+            "correct": false
+          }
+        ],
+        "hints": [
+          {
+            "text": "There is nothing between the sun and the earth.",
+            "text_fr": "Il n'y a rien entre le soleil et la terre."
+          }
+        ]
+      }
+    },
+    {
+      "kind": "question",
+      "title": "Check: convection currents",
+      "title_fr": "Verification : courants de convection",
+      "content": "Convection needs a liquid or a gas, because the material itself has to move. Warm, less dense fluid rises and cooler, denser fluid sinks, forming a circulating current.",
+      "content_fr": "La convection exige un liquide ou un gaz, car le material lui-meme doit se deplacer. Le fluide chaud, moins dense, monte et le fluide plus froid, plus dense, descend, ce qui forme un courant circulatoire.",
+      "required": true,
+      "xp": 12,
+      "question": {
+        "kind": "mcq",
+        "text": "Why does warm air rise?",
+        "text_fr": "Pourquoi l'air chaud monte-t-il ?",
+        "explanation": "Warm air expands and becomes less dense than the cooler air around it, so it rises.",
+        "explanation_fr": "L'air chaud se dilate et devient moins dense que l'air plus froid qui l'entoure, donc il monte.",
+        "hint_prompt": "Think about density.",
+        "hint_prompt_fr": "Pense a la masse volumique.",
+        "choices": [
+          {
+            "text": "It becomes less dense",
+            "text_fr": "Il devient moins dense",
+            "correct": true
+          },
+          {
+            "text": "It becomes heavier",
+            "text_fr": "Il devient plus lourd",
+            "correct": false
+          },
+          {
+            "text": "It gets colder",
+            "text_fr": "Il se refroidit",
+            "correct": false
+          }
+        ],
+        "hints": [
+          {
+            "text": "Less dense material floats up.",
+            "text_fr": "Le material moins dense monte."
+          }
+        ]
+      }
+    },
+    {
+      "kind": "summary",
+      "title": "What to keep",
+      "title_fr": "A retenir",
+      "content": "Temperature is the average energy of the particles. Conduction happens in solids, convection in liquids and gases, and radiation needs no medium at all.",
+      "content_fr": "La temperature est l'energie moyenne des particules. La conduction a lieu dans les solides, la convection dans les liquides et les gaz, et le rayonnement n'a besoin d'aucun milieu.",
+      "required": false,
+      "xp": 5
+    }
+  ],
+  "quiz": {
+    "title": "Temperature and Heat Transfer",
+    "title_fr": "Temperature et transfert de chaleur",
+    "pass_score": 60,
+    "questions": [
+      {
+        "kind": "mcq",
+        "text": "Which method does not need a material to move through?",
+        "text_fr": "Quelle methode n'a pas besoin de material pour se propager ?",
+        "explanation": "Radiation can travel through empty space.",
+        "explanation_fr": "Le rayonnement peut se propager dans le vide.",
+        "hint_prompt": "It works across the gap to the earth.",
+        "hint_prompt_fr": "Il fonctionne a travers l'espace jusqu'a la terre.",
+        "choices": [
+          {
+            "text": "Radiation",
+            "text_fr": "Rayonnement",
+            "correct": true
+          },
+          {
+            "text": "Convection",
+            "text_fr": "Convection",
+            "correct": false
+          },
+          {
+            "text": "Conduction",
+            "text_fr": "Conduction",
+            "correct": false
+          }
+        ],
+        "hints": [
+          {
+            "text": "It is how the sun warms the earth.",
+            "text_fr": "C'est ainsi que le soleil rechauffe la terre."
+          }
+        ],
+        "difficulty": 1
+      },
+      {
+        "kind": "mcq",
+        "text": "In which state of matter is conduction the main method?",
+        "text_fr": "Dans quel etat de la matiere la conduction est-elle la methode principale ?",
+        "explanation": "Solids have fixed particles that vibrate and pass energy along.",
+        "explanation_fr": "Les solides ont des particules fixes qui vibrent et transmettent l'energie.",
+        "hint_prompt": "Particles are close and fixed.",
+        "hint_prompt_fr": "Les particules sont proches et fixes.",
+        "choices": [
+          {
+            "text": "Solids",
+            "text_fr": "Les solides",
+            "correct": true
+          },
+          {
+            "text": "Liquids",
+            "text_fr": "Les liquides",
+            "correct": false
+          },
+          {
+            "text": "Gases",
+            "text_fr": "Les gaz",
+            "correct": false
+          }
+        ],
+        "hints": [
+          {
+            "text": "Metal pans heat through conduction.",
+            "text_fr": "Les casseroles en metal chauffent par conduction."
+          }
+        ],
+        "difficulty": 1
+      },
+      {
+        "kind": "mcq",
+        "text": "Why do metals conduct heat so well?",
+        "text_fr": "Pourquoi les metaux conduisent-ils si bien la chaleur ?",
+        "explanation": "They have free electrons that carry energy quickly through the metal.",
+        "explanation_fr": "Ils ont des electrons libres qui transportent vite l'energie a travers le metal.",
+        "hint_prompt": "Look for the special particles.",
+        "hint_prompt_fr": "Cherche les particules particulieres.",
+        "choices": [
+          {
+            "text": "They have free electrons",
+            "text_fr": "Ils ont des electrons libres",
+            "correct": true
+          },
+          {
+            "text": "They are always cold",
+            "text_fr": "Ils sont toujours froids",
+            "correct": false
+          },
+          {
+            "text": "They are very heavy",
+            "text_fr": "Ils sont tres lourds",
+            "correct": false
+          }
+        ],
+        "hints": [
+          {
+            "text": "These particles also carry electric current.",
+            "text_fr": "Ces particules transportent aussi le courant electrique."
+          }
+        ],
+        "difficulty": 1
+      },
+      {
+        "kind": "mcq",
+        "text": "What is the name of the circular flow of fluid in heating?",
+        "text_fr": "Comment appelle-t-on le flux circulaire d'un fluide qui chauffe ?",
+        "explanation": "It is a convection current.",
+        "explanation_fr": "C'est un courant de convection.",
+        "hint_prompt": "Warm rises, cool sinks.",
+        "hint_prompt_fr": "Le chaud monte, le froid descend.",
+        "choices": [
+          {
+            "text": "A convection current",
+            "text_fr": "Un courant de convection",
+            "correct": true
+          },
+          {
+            "text": "A magnetic field",
+            "text_fr": "Un champ magnetique",
+            "correct": false
+          },
+          {
+            "text": "A pressure wave",
+            "text_fr": "Une onde de pression",
+            "correct": false
+          }
+        ],
+        "hints": [
+          {
+            "text": "It is named after the transfer method.",
+            "text_fr": "Il porte le nom de la methode de transfert."
+          }
+        ],
+        "difficulty": 1
+      },
+      {
+        "kind": "mcq",
+        "text": "What is absolute zero?",
+        "text_fr": "Qu'est-ce que le zero absolu ?",
+        "explanation": "It is minus 273 degrees Celsius, where particles have almost no energy left.",
+        "explanation_fr": "C'est moins 273 degres Celsius, ou les particules n'ont presque plus d'energie.",
+        "hint_prompt": "It is the coldest possible temperature.",
+        "hint_prompt_fr": "C'est la temperature la plus froide possible.",
+        "choices": [
+          {
+            "text": "Minus 273 degrees Celsius",
+            "text_fr": "Moins 273 degres Celsius",
+            "correct": true
+          },
+          {
+            "text": "Zero degrees Celsius",
+            "text_fr": "Zero degre Celsius",
+            "correct": false
+          },
+          {
+            "text": "Minus 100 degrees Celsius",
+            "text_fr": "Moins 100 degres Celsius",
+            "correct": false
+          }
+        ],
+        "hints": [
+          {
+            "text": "The particles almost stop.",
+            "text_fr": "Les particules s'arretent presque."
+          }
+        ],
+        "difficulty": 1
+      }
+    ]
+  }
+}

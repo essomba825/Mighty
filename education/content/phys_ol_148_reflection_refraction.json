@@ -1,0 +1,303 @@
+{
+  "lesson": 148,
+  "status": "published",
+  "lesson_fields": {
+    "title": "Reflection and Refraction",
+    "title_fr": "Reflexion et refraction",
+    "summary": "Light bounces off surfaces in reflection and bends when it changes medium in refraction. These effects explain mirrors and everyday images.",
+    "summary_fr": "La lumiere rebondit sur les surfaces par reflexion et se courbe en changeant de milieu par refraction. Ces effets expliquent les miroirs et les images du quotidien.",
+    "content": "## Reflection\n\nWhen light hits a mirror it reflects. The angle of incidence equals the angle of reflection, both measured from the normal. A plane mirror forms an image that is virtual, upright and the same size.\n\n## Refraction\n\nWhen light passes from one medium to another, it changes speed and bends. Going into glass or water it slows and bends toward the normal. Going out it speeds up and bends away.",
+    "content_fr": "## La reflexion\n\nQuand la lumiere frappe un miroir, elle se reflechit. L'angle d'incidence egale l'angle de reflexion, tous deux mesures par rapport a la normale. Un miroir plan forme une image virtuelle, droite et de meme taille.\n\n## La refraction\n\nQuand la lumiere passe d'un milieu a un autre, elle change de vitesse et se courbe. En entrant dans le verre ou l'eau, elle ralentit et se courbe vers la normale. En sortant, elle accelere et s'ecarte.",
+    "objectives": [
+      "State the law of reflection",
+      "Describe how light refracts between media",
+      "Draw ray diagrams for mirrors and refraction"
+    ],
+    "objectives_fr": [
+      "Enoncer la loi de la reflexion",
+      "Decrire la refraction de la lumiere entre les milieux",
+      "Tracer des schemas de rayons pour les miroirs et la refraction"
+    ],
+    "estimated_minutes": 25
+  },
+  "steps": [
+    {
+      "kind": "concept",
+      "title": "Law of reflection",
+      "title_fr": "Loi de la reflexion",
+      "content": "Light reflects off a surface. The angle of incidence equals the angle of reflection. Both angles are measured from the normal, a line at right angles to the surface.",
+      "content_fr": "La lumiere se reflechit sur une surface. L'angle d'incidence egale l'angle de reflexion. Les deux angles sont mesures par rapport a la normale, une droite perpendiculaire a la surface.",
+      "required": true,
+      "xp": 10,
+      "question": {
+        "kind": "mcq",
+        "text": "The angle of incidence equals the angle of...",
+        "text_fr": "L'angle d'incidence egale l'angle de...",
+        "explanation": "Reflection.",
+        "explanation_fr": "Reflexion.",
+        "choices": [
+          {
+            "text": "Reflection",
+            "text_fr": "Reflexion",
+            "correct": true
+          },
+          {
+            "text": "Refraction",
+            "text_fr": "Refraction",
+            "correct": false
+          },
+          {
+            "text": "Incidence",
+            "text_fr": "Incidence",
+            "correct": false
+          }
+        ],
+        "hints": [
+          {
+            "text": "It bounces back.",
+            "text_fr": "Elle rebondit."
+          }
+        ],
+        "difficulty": 1
+      }
+    },
+    {
+      "kind": "explain",
+      "title": "Refraction bends light",
+      "title_fr": "La refraction courbe la lumiere",
+      "content": "Light changes speed when it enters a new medium. Entering a denser medium such as glass it slows and bends toward the normal. Leaving it, it speeds up and bends away.",
+      "content_fr": "La lumiere change de vitesse en entrant dans un nouveau milieu. En entrant dans un milieu plus dense comme le verre, elle ralentit et se courbe vers la normale. En sortant, elle accelere et s'ecarte.",
+      "required": true,
+      "xp": 10
+    },
+    {
+      "kind": "example",
+      "title": "A straw in water",
+      "title_fr": "Une paille dans l'eau",
+      "content": "A straw in a glass of water looks bent at the surface. This is refraction, as light from the straw bends on leaving the water.",
+      "content_fr": "Une paille dans un verre d'eau parait pliee a la surface. C'est la refraction : la lumiere venant de la paille se courbe en quittant l'eau.",
+      "required": true,
+      "xp": 12
+    },
+    {
+      "kind": "practice",
+      "title": "Your turn: image",
+      "title_fr": "A toi : l'image",
+      "content": "In a plane mirror, what kind of image is formed?",
+      "content_fr": "Dans un miroir plan, quel type d'image se forme ?",
+      "required": true,
+      "xp": 12,
+      "question": {
+        "kind": "mcq",
+        "text": "What image does a plane mirror form?",
+        "text_fr": "Quelle image forme un miroir plan ?",
+        "explanation": "Virtual, upright, same size.",
+        "explanation_fr": "Virtuelle, droite, de meme taille.",
+        "choices": [
+          {
+            "text": "Virtual and upright",
+            "text_fr": "Virtuelle et droite",
+            "correct": true
+          },
+          {
+            "text": "Real and inverted",
+            "text_fr": "Reelle et inversee",
+            "correct": false
+          },
+          {
+            "text": "Magnified",
+            "text_fr": "Agrandie",
+            "correct": false
+          }
+        ],
+        "hints": [
+          {
+            "text": "It cannot be captured on a screen.",
+            "text_fr": "Elle ne peut pas etre recueillie sur un ecran."
+          }
+        ],
+        "difficulty": 1
+      }
+    },
+    {
+      "kind": "question",
+      "title": "Check: toward the normal",
+      "title_fr": "Verification : vers la normale",
+      "content": "When light slows on entering glass, it bends toward the normal. When it speeds up on leaving, it bends away from the normal.",
+      "content_fr": "Quand la lumiere ralentit en entrant dans le verre, elle se courbe vers la normale. Quand elle accelere en sortant, elle s'ecarte de la normale.",
+      "required": true,
+      "xp": 12,
+      "question": {
+        "kind": "mcq",
+        "text": "Light entering glass bends which way?",
+        "text_fr": "La lumiere entrant dans le verre se courbe dans quel sens ?",
+        "explanation": "Toward the normal.",
+        "explanation_fr": "Vers la normale.",
+        "choices": [
+          {
+            "text": "Toward the normal",
+            "text_fr": "Vers la normale",
+            "correct": true
+          },
+          {
+            "text": "Away from the normal",
+            "text_fr": "En s'ecartant de la normale",
+            "correct": false
+          },
+          {
+            "text": "It does not bend",
+            "text_fr": "Elle ne se courbe pas",
+            "correct": false
+          }
+        ],
+        "hints": [
+          {
+            "text": "It slows down.",
+            "text_fr": "Elle ralentit."
+          }
+        ],
+        "difficulty": 1
+      }
+    },
+    {
+      "kind": "summary",
+      "title": "What to keep",
+      "title_fr": "A retenir",
+      "content": "Reflection: angle of incidence equals angle of reflection, and a plane mirror forms a virtual, upright image. Refraction: light bends as it changes speed between media.",
+      "content_fr": "Reflexion : l'angle d'incidence egale l'angle de reflexion, et un miroir plan forme une image virtuelle et droite. Refraction : la lumiere se courbe en changeant de vitesse entre les milieux.",
+      "required": false,
+      "xp": 5
+    }
+  ],
+  "quiz": {
+    "title": "Reflection and Refraction",
+    "title_fr": "Reflexion et refraction",
+    "pass_score": 60,
+    "questions": [
+      {
+        "kind": "mcq",
+        "text": "What is the angle of reflection equal to?",
+        "text_fr": "A quoi egale l'angle de reflexion ?",
+        "explanation": "The angle of incidence.",
+        "explanation_fr": "A l'angle d'incidence.",
+        "choices": [
+          {
+            "text": "Angle of incidence",
+            "text_fr": "L'angle d'incidence",
+            "correct": true
+          },
+          {
+            "text": "Angle of refraction",
+            "text_fr": "L'angle de refraction",
+            "correct": false
+          },
+          {
+            "text": "90 degrees",
+            "text_fr": "A 90 degres",
+            "correct": false
+          }
+        ],
+        "hints": [
+          {
+            "text": "They are measured from the normal.",
+            "text_fr": "Ils se mesurent par rapport a la normale."
+          }
+        ],
+        "difficulty": 1
+      },
+      {
+        "kind": "mcq",
+        "text": "What causes light to refract?",
+        "text_fr": "Qu'est-ce qui fait refracter la lumiere ?",
+        "explanation": "A change in speed between media.",
+        "explanation_fr": "Un changement de vitesse entre les milieux.",
+        "choices": [
+          {
+            "text": "A change of speed",
+            "text_fr": "Un changement de vitesse",
+            "correct": true
+          },
+          {
+            "text": "A change of colour",
+            "text_fr": "Un changement de couleur",
+            "correct": false
+          },
+          {
+            "text": "A change of mass",
+            "text_fr": "Un changement de masse",
+            "correct": false
+          }
+        ],
+        "hints": [
+          {
+            "text": "It depends on the medium.",
+            "text_fr": "Cela depend du milieu."
+          }
+        ],
+        "difficulty": 1
+      },
+      {
+        "kind": "mcq",
+        "text": "A plane mirror image is...",
+        "text_fr": "L'image d'un miroir plan est...",
+        "explanation": "Virtual and upright.",
+        "explanation_fr": "Virtuelle et droite.",
+        "choices": [
+          {
+            "text": "Virtual and upright",
+            "text_fr": "Virtuelle et droite",
+            "correct": true
+          },
+          {
+            "text": "Real and inverted",
+            "text_fr": "Reelle et inversee",
+            "correct": false
+          },
+          {
+            "text": "Always blurry",
+            "text_fr": "Toujours floue",
+            "correct": false
+          }
+        ],
+        "hints": [
+          {
+            "text": "It is behind the mirror.",
+            "text_fr": "Elle est derriere le miroir."
+          }
+        ],
+        "difficulty": 1
+      },
+      {
+        "kind": "mcq",
+        "text": "Light entering a denser medium bends...",
+        "text_fr": "La lumiere entrant dans un milieu plus dense se courbe...",
+        "explanation": "Toward the normal.",
+        "explanation_fr": "Vers la normale.",
+        "choices": [
+          {
+            "text": "Toward the normal",
+            "text_fr": "Vers la normale",
+            "correct": true
+          },
+          {
+            "text": "Away from the normal",
+            "text_fr": "En s'ecartant de la normale",
+            "correct": false
+          },
+          {
+            "text": "Not at all",
+            "text_fr": "Pas du tout",
+            "correct": false
+          }
+        ],
+        "hints": [
+          {
+            "text": "It slows down.",
+            "text_fr": "Elle ralentit."
+          }
+        ],
+        "difficulty": 1
+      }
+    ]
+  }
+}

@@ -1,0 +1,303 @@
+{
+  "lesson": 138,
+  "status": "published",
+  "lesson_fields": {
+    "title": "Classification of Living Things",
+    "title_fr": "Classification des etres vivants",
+    "summary": "Living things are grouped into kingdoms and smaller groups. Classification uses shared features to organise the huge variety of life.",
+    "summary_fr": "Les etres vivants sont regroupes en regnes et en groupes plus petits. La classification utilise des caracteristiques communes pour organiser l'immense variete du vivant.",
+    "content": "## The main groups\n\nThe five kingdoms are animals, plants, fungi, protoctists and prokaryotes. Within the animal kingdom, animals are grouped into vertebrates and invertebrates.\n\n## Vertebrates\n\nVertebrates have a backbone and are split into five groups: fish, amphibians, reptiles, birds and mammals.",
+    "content_fr": "## Les grands groupes\n\nLes cinq regnes sont les animaux, les plantes, les champignons, les protoctistes et les procaryotes. Dans le regne animal, les animaux sont groupes en vertebres et invertebres.\n\n## Les vertebres\n\nLes vertebres ont une colonne vertebrale et se divisent en cinq groupes : poissons, amphibiens, reptiles, oiseaux et mammiferes.",
+    "objectives": [
+      "Name the five kingdoms",
+      "List the five vertebrate groups",
+      "Use shared features to classify an organism"
+    ],
+    "objectives_fr": [
+      "Nommer les cinq regnes",
+      "Citer les cinq groupes de vertebres",
+      "Utiliser des caracteristiques communes pour classer un organisme"
+    ],
+    "estimated_minutes": 25
+  },
+  "steps": [
+    {
+      "kind": "concept",
+      "title": "Why classify",
+      "title_fr": "Pourquoi classer",
+      "content": "There are millions of species. Classification groups organisms by shared features so that they can be studied and identified. The five kingdoms are a main level of grouping.",
+      "content_fr": "Il existe des millions d'especes. La classification regroupe les organismes selon des caracteristiques communes pour pouvoir les etudier et les identifier. Les cinq regnes forment un niveau principal de regroupement.",
+      "required": true,
+      "xp": 10,
+      "question": {
+        "kind": "mcq",
+        "text": "Why do we classify living things?",
+        "text_fr": "Pourquoi classons-nous les etres vivants ?",
+        "explanation": "To group them by shared features.",
+        "explanation_fr": "Pour les regrouper selon des caracteristiques communes.",
+        "choices": [
+          {
+            "text": "To group by shared features",
+            "text_fr": "Pour regrouper par caracteres communs",
+            "correct": true
+          },
+          {
+            "text": "To make them bigger",
+            "text_fr": "Pour les agrandir",
+            "correct": false
+          },
+          {
+            "text": "To stop them moving",
+            "text_fr": "Pour les empecher de bouger",
+            "correct": false
+          }
+        ],
+        "hints": [
+          {
+            "text": "Shared features help organisation.",
+            "text_fr": "Des caracteres communs aident a organiser."
+          }
+        ],
+        "difficulty": 1
+      }
+    },
+    {
+      "kind": "explain",
+      "title": "Vertebrate groups",
+      "title_fr": "Les groupes de vertebres",
+      "content": "Fish live in water and have scales and gills. Amphibians live in water and on land. Reptiles have dry scaly skin. Birds have feathers. Mammals have fur or hair and feed their young milk.",
+      "content_fr": "Les poissons vivent dans l'eau et ont des ecailles et des branchies. Les amphibiens vivent dans l'eau et sur terre. Les reptiles ont une peau seche et ecailleuse. Les oiseaux ont des plumes. Les mammiferes ont des poils et allaitent leurs petits.",
+      "required": true,
+      "xp": 10
+    },
+    {
+      "kind": "example",
+      "title": "Classifying an animal",
+      "title_fr": "Classer un animal",
+      "content": "A dog has fur, gives birth to live young and feeds them milk. These features show it is a mammal, which is a group of vertebrates.",
+      "content_fr": "Un chien a des poils, met bas des petits vivants et les nourrit de lait. Ces caracteristiques montrent qu'il est un mammifere, un groupe de vertebres.",
+      "required": true,
+      "xp": 12
+    },
+    {
+      "kind": "practice",
+      "title": "Your turn: which group",
+      "title_fr": "A toi : quel groupe",
+      "content": "An animal has feathers. Which vertebrate group is it in?",
+      "content_fr": "Un animal a des plumes. A quel groupe de vertebres appartient-il ?",
+      "required": true,
+      "xp": 12,
+      "question": {
+        "kind": "mcq",
+        "text": "Which group has feathers?",
+        "text_fr": "Quel groupe a des plumes ?",
+        "explanation": "Birds.",
+        "explanation_fr": "Les oiseaux.",
+        "choices": [
+          {
+            "text": "Birds",
+            "text_fr": "Les oiseaux",
+            "correct": true
+          },
+          {
+            "text": "Mammals",
+            "text_fr": "Les mammiferes",
+            "correct": false
+          },
+          {
+            "text": "Reptiles",
+            "text_fr": "Les reptiles",
+            "correct": false
+          }
+        ],
+        "hints": [
+          {
+            "text": "Only one group has feathers.",
+            "text_fr": "Un seul groupe a des plumes."
+          }
+        ],
+        "difficulty": 1
+      }
+    },
+    {
+      "kind": "question",
+      "title": "Check: kingdoms",
+      "title_fr": "Verification : regnes",
+      "content": "The five kingdoms are animals, plants, fungi, protoctists and prokaryotes. Fungi feed on dead material, while plants make their own food.",
+      "content_fr": "Les cinq regnes sont les animaux, les plantes, les champignons, les protoctistes et les procaryotes. Les champignons se nourrissent de matiere morte, tandis que les plantes fabriquent leur propre nourriture.",
+      "required": true,
+      "xp": 12,
+      "question": {
+        "kind": "mcq",
+        "text": "Which kingdom makes its own food?",
+        "text_fr": "Quel regne fabrique sa propre nourriture ?",
+        "explanation": "Plants.",
+        "explanation_fr": "Les plantes.",
+        "choices": [
+          {
+            "text": "Plants",
+            "text_fr": "Les plantes",
+            "correct": true
+          },
+          {
+            "text": "Fungi",
+            "text_fr": "Les champignons",
+            "correct": false
+          },
+          {
+            "text": "Animals",
+            "text_fr": "Les animaux",
+            "correct": false
+          }
+        ],
+        "hints": [
+          {
+            "text": "They use photosynthesis.",
+            "text_fr": "Elles utilisent la photosynthese."
+          }
+        ],
+        "difficulty": 1
+      }
+    },
+    {
+      "kind": "summary",
+      "title": "What to keep",
+      "title_fr": "A toretir",
+      "content": "Organisms are classified by shared features. The five kingdoms are animals, plants, fungi, protoctists and prokaryotes. Vertebrates split into fish, amphibians, reptiles, birds and mammals.",
+      "content_fr": "Les organismes sont classes selon des caracteristiques communes. Les cinq regnes sont les animaux, les plantes, les champignons, les protoctistes et les procaryotes. Les vertebres se divisent en poissons, amphibiens, reptiles, oiseaux et mammiferes.",
+      "required": false,
+      "xp": 5
+    }
+  ],
+  "quiz": {
+    "title": "Classification of Living Things",
+    "title_fr": "Classification des etres vivants",
+    "pass_score": 60,
+    "questions": [
+      {
+        "kind": "mcq",
+        "text": "How many vertebrate groups are there?",
+        "text_fr": "Combien de groupes de vertebres existe-t-il ?",
+        "explanation": "Five.",
+        "explanation_fr": "Cinq.",
+        "choices": [
+          {
+            "text": "Five",
+            "text_fr": "Cinq",
+            "correct": true
+          },
+          {
+            "text": "Three",
+            "text_fr": "Trois",
+            "correct": false
+          },
+          {
+            "text": "Ten",
+            "text_fr": "Dix",
+            "correct": false
+          }
+        ],
+        "hints": [
+          {
+            "text": "Fish, amphibians, reptiles, birds, mammals.",
+            "text_fr": "Poissons, amphibiens, reptiles, oiseaux, mammiferes."
+          }
+        ],
+        "difficulty": 1
+      },
+      {
+        "kind": "mcq",
+        "text": "Which group has feathers?",
+        "text_fr": "Quel groupe a des plumes ?",
+        "explanation": "Birds.",
+        "explanation_fr": "Les oiseaux.",
+        "choices": [
+          {
+            "text": "Birds",
+            "text_fr": "Les oiseaux",
+            "correct": true
+          },
+          {
+            "text": "Fish",
+            "text_fr": "Les poissons",
+            "correct": false
+          },
+          {
+            "text": "Reptiles",
+            "text_fr": "Les reptiles",
+            "correct": false
+          }
+        ],
+        "hints": [
+          {
+            "text": "They also lay eggs.",
+            "text_fr": "Ils pondent aussi des oeufs."
+          }
+        ],
+        "difficulty": 1
+      },
+      {
+        "kind": "mcq",
+        "text": "Which group feeds its young on milk?",
+        "text_fr": "Quel groupe nourrit ses petits de lait ?",
+        "explanation": "Mammals.",
+        "explanation_fr": "Les mammiferes.",
+        "choices": [
+          {
+            "text": "Mammals",
+            "text_fr": "Les mammiferes",
+            "correct": true
+          },
+          {
+            "text": "Birds",
+            "text_fr": "Les oiseaux",
+            "correct": false
+          },
+          {
+            "text": "Fish",
+            "text_fr": "Les poissons",
+            "correct": false
+          }
+        ],
+        "hints": [
+          {
+            "text": "They have fur or hair.",
+            "text_fr": "Ils ont des poils."
+          }
+        ],
+        "difficulty": 1
+      },
+      {
+        "kind": "mcq",
+        "text": "Which feature do all vertebrates share?",
+        "text_fr": "Quelle caracteristique tous les vertebres partagent-ils ?",
+        "explanation": "A backbone.",
+        "explanation_fr": "Une colonne vertebrale.",
+        "choices": [
+          {
+            "text": "A backbone",
+            "text_fr": "Une colonne vertebrale",
+            "correct": true
+          },
+          {
+            "text": "Feathers",
+            "text_fr": "Des plumes",
+            "correct": false
+          },
+          {
+            "text": "Gills",
+            "text_fr": "Des branchies",
+            "correct": false
+          }
+        ],
+        "hints": [
+          {
+            "text": "The name gives a clue.",
+            "text_fr": "Le nom donne un indice."
+          }
+        ],
+        "difficulty": 1
+      }
+    ]
+  }
+}

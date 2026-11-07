@@ -1,0 +1,291 @@
+{
+  "lesson": 147,
+  "status": "published",
+  "lesson_fields": {
+    "title": "Series and Parallel Circuits",
+    "title_fr": "Circuits en serie et en parallele",
+    "summary": "Components can be joined in series, one path, or in parallel, many paths. Each arrangement shares current and voltage differently.",
+    "summary_fr": "Les composants peuvent etre montes en serie, un seul chemin, ou en parallele, plusieurs chemins. Chaque montage partage le courant et la tension differemment.",
+    "content": "## Series circuits\n\nIn a series circuit there is one path. The current is the same everywhere. The voltages across components add up to the supply voltage. If one lamp breaks, the circuit stops.\n\n## Parallel circuits\n\nIn a parallel circuit there are several paths. The voltage across each branch is the same. The currents in the branches add up to the total current. If one branch breaks, the others keep working.",
+    "content_fr": "## Circuits en serie\n\nDans un circuit en serie, il y a un seul chemin. Le courant est le meme partout. Les tensions aux bornes des composants s'additionnent pour donner la tension d'alimentation. Si une lampe grille, le circuit s'arrete.\n\n## Circuits en parallele\n\nDans un circuit en parallele, il y a plusieurs chemins. La tension aux bornes de chaque branche est la meme. Les courants des branches s'additionnent pour donner le courant total. Si une branche grille, les autres continuent de fonctionner.",
+    "objectives": [
+      "Compare series and parallel circuits",
+      "Describe how current and voltage behave in each",
+      "Relate the arrangement to everyday circuits"
+    ],
+    "objectives_fr": [
+      "Comparer les circuits en serie et en parallele",
+      "Decrire le courant et la tension dans chacun",
+      "Relier le montage aux circuits de la vie courante"
+    ],
+    "estimated_minutes": 25
+  },
+  "steps": [
+    {
+      "kind": "concept",
+      "title": "Series: one path",
+      "title_fr": "Serie : un seul chemin",
+      "content": "In series, components are joined end to end. There is one path, so the same current flows through every component. The supply voltage is shared between them.",
+      "content_fr": "En serie, les composants sont relies bout a bout. Il y a un seul chemin, donc le meme courant traverse chaque composant. La tension d'alimentation est partagee entre eux.",
+      "required": true,
+      "xp": 10,
+      "question": {
+        "kind": "mcq",
+        "text": "In a series circuit, the current is...",
+        "text_fr": "Dans un circuit en serie, le courant est...",
+        "explanation": "The same everywhere.",
+        "explanation_fr": "Le meme partout.",
+        "choices": [
+          {
+            "text": "The same everywhere",
+            "text_fr": "Le meme partout",
+            "correct": true
+          },
+          {
+            "text": "Different in each part",
+            "text_fr": "Different dans chaque partie",
+            "correct": false
+          },
+          {
+            "text": "Zero",
+            "text_fr": "Nul",
+            "correct": false
+          }
+        ],
+        "hints": [
+          {
+            "text": "There is only one path.",
+            "text_fr": "Il n'y a qu'un seul chemin."
+          }
+        ],
+        "difficulty": 1
+      }
+    },
+    {
+      "kind": "explain",
+      "title": "Parallel: many paths",
+      "title_fr": "Parallele : plusieurs chemins",
+      "content": "In parallel, components are joined side by side. Each branch gets the full supply voltage. The branch currents add up to the total current.",
+      "content_fr": "En parallele, les composants sont relies cote a cote. Chaque branche recoit toute la tension d'alimentation. Les courants des branches s'additionnent pour donner le courant total.",
+      "required": true,
+      "xp": 10
+    },
+    {
+      "kind": "example",
+      "title": "Home wiring",
+      "title_fr": "Le cablage domestique",
+      "content": "Lamps and sockets at home are wired in parallel. Each device gets the full voltage, and switching one off does not affect the others.",
+      "content_fr": "A la maison, les lampes et les prises sont cablees en parallele. Chaque appareil recoit toute la tension, et eteindre l'un n'affecte pas les autres.",
+      "required": true,
+      "xp": 12
+    },
+    {
+      "kind": "practice",
+      "title": "Your turn: branch current",
+      "title_fr": "A toi : courant de branche",
+      "content": "Two identical branches are joined in parallel. The total current is 4 amperes. What current flows in each branch, in amperes?",
+      "content_fr": "Deux branches identiques sont montees en parallele. Le courant total est de 4 amperes. Quel courant circule dans chaque branche, en amperes ?",
+      "required": true,
+      "xp": 12,
+      "question": {
+        "kind": "numeric",
+        "text": "Current per branch in amperes?",
+        "text_fr": "Courant par branche en amperes ?",
+        "explanation": "Identical branches share the current equally: 4 divided by 2 is 2 amperes.",
+        "explanation_fr": "Des branches identiques partagent le courant a egalite : 4 divise par 2 vaut 2 amperes.",
+        "config": {
+          "accepted": [
+            "2"
+          ]
+        },
+        "hints": [
+          {
+            "text": "Split the total equally.",
+            "text_fr": "Partage le total a egalite."
+          }
+        ],
+        "difficulty": 1
+      }
+    },
+    {
+      "kind": "question",
+      "title": "Check: broken lamp",
+      "title_fr": "Verification : lampe grillee",
+      "content": "In a series circuit, one broken lamp stops the current in the whole circuit. In a parallel circuit, the other branches keep working.",
+      "content_fr": "Dans un circuit en serie, une lampe grillee arrete le courant dans tout le circuit. Dans un circuit en parallele, les autres branches continuent de fonctionner.",
+      "required": true,
+      "xp": 12,
+      "question": {
+        "kind": "mcq",
+        "text": "If one lamp breaks in a parallel circuit, what happens?",
+        "text_fr": "Si une lampe grille dans un circuit en parallele, que se passe-t-il ?",
+        "explanation": "The other lamps stay on.",
+        "explanation_fr": "Les autres lampes restent allumees.",
+        "choices": [
+          {
+            "text": "The others stay on",
+            "text_fr": "Les autres restent allumees",
+            "correct": true
+          },
+          {
+            "text": "All go out",
+            "text_fr": "Toutes s'eteignent",
+            "correct": false
+          },
+          {
+            "text": "They get brighter",
+            "text_fr": "Elles brillent plus",
+            "correct": false
+          }
+        ],
+        "hints": [
+          {
+            "text": "Each branch is independent.",
+            "text_fr": "Chaque branche est independante."
+          }
+        ],
+        "difficulty": 1
+      }
+    },
+    {
+      "kind": "summary",
+      "title": "What to keep",
+      "title_fr": "A retenir",
+      "content": "Series has one path, equal currents and shared voltage. Parallel has several paths, equal voltage and shared current. Homes use parallel wiring.",
+      "content_fr": "La serie a un seul chemin, des courants egaux et une tension partagee. Le parallele a plusieurs chemins, une tension egale et un courant partage. Les maisons utilisent le cablage en parallele.",
+      "required": false,
+      "xp": 5
+    }
+  ],
+  "quiz": {
+    "title": "Series and Parallel Circuits",
+    "title_fr": "Circuits en serie et en parallele",
+    "pass_score": 60,
+    "questions": [
+      {
+        "kind": "mcq",
+        "text": "In a parallel circuit, what is the same in each branch?",
+        "text_fr": "Dans un circuit en parallele, qu'est-ce qui est le meme dans chaque branche ?",
+        "explanation": "The voltage.",
+        "explanation_fr": "La tension.",
+        "choices": [
+          {
+            "text": "Voltage",
+            "text_fr": "La tension",
+            "correct": true
+          },
+          {
+            "text": "Current",
+            "text_fr": "Le courant",
+            "correct": false
+          },
+          {
+            "text": "Resistance",
+            "text_fr": "La resistance",
+            "correct": false
+          }
+        ],
+        "hints": [
+          {
+            "text": "Each branch connects across the supply.",
+            "text_fr": "Chaque branche est reliee a l'alimentation."
+          }
+        ],
+        "difficulty": 1
+      },
+      {
+        "kind": "mcq",
+        "text": "In a series circuit, the voltages across components...",
+        "text_fr": "Dans un circuit en serie, les tensions aux bornes des composants...",
+        "explanation": "Add up to the supply voltage.",
+        "explanation_fr": "S'additionnent pour donner la tension d'alimentation.",
+        "choices": [
+          {
+            "text": "Add up to the supply",
+            "text_fr": "S'additionnent pour donner l'alimentation",
+            "correct": true
+          },
+          {
+            "text": "Are all zero",
+            "text_fr": "Sont toutes nulles",
+            "correct": false
+          },
+          {
+            "text": "Are all equal to the supply",
+            "text_fr": "Sont toutes egales a l'alimentation",
+            "correct": false
+          }
+        ],
+        "hints": [
+          {
+            "text": "They share the supply.",
+            "text_fr": "Elles se partagent l'alimentation."
+          }
+        ],
+        "difficulty": 1
+      },
+      {
+        "kind": "mcq",
+        "text": "Which wiring do homes usually use?",
+        "text_fr": "Quel cablage utilise-t-on generalement dans les maisons ?",
+        "explanation": "Parallel.",
+        "explanation_fr": "En parallele.",
+        "choices": [
+          {
+            "text": "Parallel",
+            "text_fr": "En parallele",
+            "correct": true
+          },
+          {
+            "text": "Series",
+            "text_fr": "En serie",
+            "correct": false
+          },
+          {
+            "text": "Mixed",
+            "text_fr": "Mixte",
+            "correct": false
+          }
+        ],
+        "hints": [
+          {
+            "text": "Devices work independently.",
+            "text_fr": "Les appareils fonctionnent independamment."
+          }
+        ],
+        "difficulty": 1
+      },
+      {
+        "kind": "mcq",
+        "text": "What happens in a series circuit if one lamp breaks?",
+        "text_fr": "Que se passe-t-il dans un circuit en serie si une lampe grille ?",
+        "explanation": "The whole circuit stops.",
+        "explanation_fr": "Tout le circuit s'arrete.",
+        "choices": [
+          {
+            "text": "The circuit stops",
+            "text_fr": "Le circuit s'arrete",
+            "correct": true
+          },
+          {
+            "text": "The others stay on",
+            "text_fr": "Les autres restent allumees",
+            "correct": false
+          },
+          {
+            "text": "Current doubles",
+            "text_fr": "Le courant double",
+            "correct": false
+          }
+        ],
+        "hints": [
+          {
+            "text": "There is only one path.",
+            "text_fr": "Il n'y a qu'un seul chemin."
+          }
+        ],
+        "difficulty": 1
+      }
+    ]
+  }
+}

@@ -1,0 +1,291 @@
+{
+  "lesson": 156,
+  "status": "published",
+  "lesson_fields": {
+    "title": "Exponential Functions",
+    "title_fr": "Fonctions exponentielles",
+    "summary": "An exponential function grows or shrinks by a constant factor. Its graph rises or falls faster and faster and never crosses the x-axis.",
+    "summary_fr": "Une fonction exponentielle croit ou decroit selon un facteur constant. Sa courbe monte ou descend de plus en plus vite et ne coupe jamais l'axe des abscisses.",
+    "content": "## Growth and decay\n\nAn exponential function has the form y equals a times b to the power x, where b is positive and not equal to one. If b is greater than one the function grows; if b is between zero and one it decays. The number e, about 2.718, is a special base used in science.\n\n## Key features\n\nThe graph always passes through the point with coordinates zero and a. It never touches the x-axis, and it grows very quickly for large x.",
+    "content_fr": "## Croissance et decroissance\n\nUne fonction exponentielle a la forme y egale a fois b puissance x, ou b est positif et different de un. Si b est plus grand que un, la fonction croit ; si b est entre zero et un, elle decroit. Le nombre e, environ 2,718, est une base speciale utilisee en sciences.\n\n## Caracteristiques cles\n\nLa courbe passe toujours par le point de coordonnees zero et a. Elle ne touche jamais l'axe des abscisses et croit tres vite pour x grand.",
+    "objectives": [
+      "Identify exponential growth and decay",
+      "Sketch an exponential graph",
+      "Evaluate simple exponential expressions"
+    ],
+    "objectives_fr": [
+      "Reconnaitre la croissance et la decroissance exponentielles",
+      "Tracer la courbe d'une fonction exponentielle",
+      "Calculer des expressions exponentielles simples"
+    ],
+    "estimated_minutes": 25
+  },
+  "steps": [
+    {
+      "kind": "concept",
+      "title": "The shape",
+      "title_fr": "La forme",
+      "content": "An exponential function is written y equals a times b to the power x. The base b is positive and not one. If b is greater than one, the values grow as x increases.",
+      "content_fr": "Une fonction exponentielle s'ecrit y egale a fois b puissance x. La base b est positive et differente de un. Si b est plus grand que un, les valeurs croissent quand x augmente.",
+      "required": true,
+      "xp": 10,
+      "question": {
+        "kind": "mcq",
+        "text": "For growth, the base b must be...",
+        "text_fr": "Pour une croissance, la base b doit etre...",
+        "explanation": "Greater than one.",
+        "explanation_fr": "Plus grande que un.",
+        "choices": [
+          {
+            "text": "Greater than one",
+            "text_fr": "Plus grande que un",
+            "correct": true
+          },
+          {
+            "text": "Between zero and one",
+            "text_fr": "Entre zero et un",
+            "correct": false
+          },
+          {
+            "text": "Equal to one",
+            "text_fr": "Egal a un",
+            "correct": false
+          }
+        ],
+        "hints": [
+          {
+            "text": "Think of doubling.",
+            "text_fr": "Pense au doublement."
+          }
+        ],
+        "difficulty": 1
+      }
+    },
+    {
+      "kind": "explain",
+      "title": "Growth and decay",
+      "title_fr": "Croissance et decroissance",
+      "content": "If b is greater than one the function grows and the graph rises. If b is between zero and one the function decays and the graph falls. Both curves are always above the x-axis.",
+      "content_fr": "Si b est plus grand que un, la fonction croit et la courbe monte. Si b est entre zero et un, la fonction decroit et la courbe descend. Les deux courbes restent toujours au-dessus de l'axe des abscisses.",
+      "required": true,
+      "xp": 10
+    },
+    {
+      "kind": "example",
+      "title": "Evaluating a value",
+      "title_fr": "Calculer une valeur",
+      "content": "Take y equals 2 to the power x. When x is 3, y equals 2 times 2 times 2, which is 8. When x is 0, y equals 1.",
+      "content_fr": "Prenons y egale 2 puissance x. Quand x vaut 3, y egale 2 fois 2 fois 2, soit 8. Quand x vaut 0, y egale 1.",
+      "required": true,
+      "xp": 12
+    },
+    {
+      "kind": "practice",
+      "title": "Your turn: evaluate",
+      "title_fr": "A toi : calculer",
+      "content": "For y equals 3 to the power x, what is y when x is 2?",
+      "content_fr": "Pour y egale 3 puissance x, que vaut y quand x vaut 2 ?",
+      "required": true,
+      "xp": 12,
+      "question": {
+        "kind": "numeric",
+        "text": "Value of y when x equals 2?",
+        "text_fr": "Valeur de y quand x vaut 2 ?",
+        "explanation": "3 to the power 2 is 3 times 3, which is 9.",
+        "explanation_fr": "3 puissance 2 vaut 3 fois 3, soit 9.",
+        "config": {
+          "accepted": [
+            "9"
+          ]
+        },
+        "hints": [
+          {
+            "text": "Multiply the base by itself.",
+            "text_fr": "Multiplie la base par elle-meme."
+          }
+        ],
+        "difficulty": 1
+      }
+    },
+    {
+      "kind": "question",
+      "title": "Check: the axis",
+      "title_fr": "Verification : l'axe",
+      "content": "An exponential curve never crosses the x-axis. It gets very close but stays above it, because a positive base raised to any power is positive.",
+      "content_fr": "Une courbe exponentielle ne coupe jamais l'axe des abscisses. Elle s'en approche beaucoup mais reste au-dessus, car une base positive elevee a une puissance est toujours positive.",
+      "required": true,
+      "xp": 12,
+      "question": {
+        "kind": "mcq",
+        "text": "Does an exponential curve cross the x-axis?",
+        "text_fr": "Une courbe exponentielle coupe-t-elle l'axe des abscisses ?",
+        "explanation": "No, it stays above.",
+        "explanation_fr": "Non, elle reste au-dessus.",
+        "choices": [
+          {
+            "text": "No, it stays above",
+            "text_fr": "Non, elle reste au-dessus",
+            "correct": true
+          },
+          {
+            "text": "Yes, once",
+            "text_fr": "Oui, une fois",
+            "correct": false
+          },
+          {
+            "text": "Yes, twice",
+            "text_fr": "Oui, deux fois",
+            "correct": false
+          }
+        ],
+        "hints": [
+          {
+            "text": "A positive number stays positive.",
+            "text_fr": "Un nombre positif reste positif."
+          }
+        ],
+        "difficulty": 1
+      }
+    },
+    {
+      "kind": "summary",
+      "title": "What to keep",
+      "title_fr": "A retenir",
+      "content": "Exponential functions have the form a times b to the power x. A base above one gives growth, a base between zero and one gives decay. The curve never crosses the x-axis.",
+      "content_fr": "Les fonctions exponentielles ont la forme a fois b puissance x. Une base superieure a un donne une croissance, une base entre zero et un donne une decroissance. La courbe ne coupe jamais l'axe des abscisses.",
+      "required": false,
+      "xp": 5
+    }
+  ],
+  "quiz": {
+    "title": "Exponential Functions",
+    "title_fr": "Fonctions exponentielles",
+    "pass_score": 60,
+    "questions": [
+      {
+        "kind": "mcq",
+        "text": "Which base gives exponential growth?",
+        "text_fr": "Quelle base donne une croissance exponentielle ?",
+        "explanation": "A base greater than one",
+        "explanation_fr": "Une base plus grande que un",
+        "choices": [
+          {
+            "text": "Greater than one",
+            "text_fr": "Plus grande que un",
+            "correct": true
+          },
+          {
+            "text": "Between zero and one",
+            "text_fr": "Entre zero et un",
+            "correct": false
+          },
+          {
+            "text": "Zero",
+            "text_fr": "Zero",
+            "correct": false
+          }
+        ],
+        "hints": [
+          {
+            "text": "Think of numbers getting bigger.",
+            "text_fr": "Pense a des nombres qui grandissent."
+          }
+        ],
+        "difficulty": 1
+      },
+      {
+        "kind": "mcq",
+        "text": "What is 2 to the power 4?",
+        "text_fr": "Combien vaut 2 puissance 4 ?",
+        "explanation": "16",
+        "explanation_fr": "16",
+        "choices": [
+          {
+            "text": "16",
+            "text_fr": "16",
+            "correct": true
+          },
+          {
+            "text": "8",
+            "text_fr": "8",
+            "correct": false
+          },
+          {
+            "text": "24",
+            "text_fr": "24",
+            "correct": false
+          }
+        ],
+        "hints": [
+          {
+            "text": "Multiply 2 four times.",
+            "text_fr": "Multiplie 2 quatre fois."
+          }
+        ],
+        "difficulty": 1
+      },
+      {
+        "kind": "mcq",
+        "text": "Which base gives exponential decay?",
+        "text_fr": "Quelle base donne une decroissance exponentielle ?",
+        "explanation": "A base between zero and one",
+        "explanation_fr": "Une base entre zero et un",
+        "choices": [
+          {
+            "text": "Between zero and one",
+            "text_fr": "Entre zero et un",
+            "correct": true
+          },
+          {
+            "text": "Greater than one",
+            "text_fr": "Plus grande que un",
+            "correct": false
+          },
+          {
+            "text": "Equal to two",
+            "text_fr": "Egal a deux",
+            "correct": false
+          }
+        ],
+        "hints": [
+          {
+            "text": "The values get smaller.",
+            "text_fr": "Les valeurs diminuent."
+          }
+        ],
+        "difficulty": 1
+      },
+      {
+        "kind": "mcq",
+        "text": "What number is the special base e close to?",
+        "text_fr": "A quel nombre la base speciale e est-elle proche ?",
+        "explanation": "About 2.718",
+        "explanation_fr": "Environ 2,718",
+        "choices": [
+          {
+            "text": "About 2.718",
+            "text_fr": "Environ 2,718",
+            "correct": true
+          },
+          {
+            "text": "Exactly 3",
+            "text_fr": "Exactement 3",
+            "correct": false
+          },
+          {
+            "text": "About 1.5",
+            "text_fr": "Environ 1,5",
+            "correct": false
+          }
+        ],
+        "hints": [
+          {
+            "text": "It is between 2 and 3.",
+            "text_fr": "Il est entre 2 et 3."
+          }
+        ],
+        "difficulty": 1
+      }
+    ]
+  }
+}

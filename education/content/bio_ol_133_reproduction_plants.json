@@ -1,0 +1,303 @@
+{
+  "lesson": 133,
+  "status": "published",
+  "lesson_fields": {
+    "title": "Reproduction in Plants",
+    "title_fr": "Reproduction chez les plantes",
+    "summary": "Flowering plants reproduce sexually. Pollination moves pollen to the egg, fertilisation forms seeds, and seeds are dispersed to new places.",
+    "summary_fr": "Les plantes a fleurs se reproduisent de facon sexuee. La pollinisation transporte le pollen jusqu'a l'ovule, la fecondation forme les graines, et les graines sont dispersees vers de nouveaux endroits.",
+    "content": "## Pollination\n\nPollination is the transfer of pollen from the anther to the stigma. It can happen by wind or by insects. Insect-pollinated flowers are often brightly coloured and scented.\n\n## Fertilisation and dispersal\n\nAfter fertilisation a seed forms. Seeds are dispersed by wind, water or animals so that young plants do not compete with the parent.",
+    "content_fr": "## La pollinisation\n\nLa pollinisation est le transfert du pollen de l'anthre au stigmate. Elle peut se faire par le vent ou par les insectes. Les fleurs pollinisees par les insectes sont souvent colorees et parfumees.\n\n## Fecondation et dispersion\n\nApres la fecondation, une graine se forme. Les graines sont dispersees par le vent, l'eau ou les animaux pour que les jeunes plantes n'entrent pas en concurrence avec la plante mere.",
+    "objectives": [
+      "Describe pollination and fertilisation",
+      "Compare wind and insect pollination",
+      "Explain why seed dispersal is important"
+    ],
+    "objectives_fr": [
+      "Decrire la pollinisation et la fecondation",
+      "Comparer la pollinisation par le vent et par les insectes",
+      "Expliquer pourquoi la dispersion des graines est importante"
+    ],
+    "estimated_minutes": 25
+  },
+  "steps": [
+    {
+      "kind": "concept",
+      "title": "Flower parts",
+      "title_fr": "Les parties de la fleur",
+      "content": "The male part is the stamen, made of the anther and filament. The female part is the carpel, made of the stigma, style and ovary. The anther makes pollen.",
+      "content_fr": "La partie male est l'etamine, forme de l'anthre et du filet. La partie femelle est le pistil, forme du stigmate, du style et de l'ovaire. L'anthre fabrique le pollen.",
+      "required": true,
+      "xp": 10,
+      "question": {
+        "kind": "mcq",
+        "text": "Which part makes pollen?",
+        "text_fr": "Quelle partie fabrique le pollen ?",
+        "explanation": "The anther makes pollen.",
+        "explanation_fr": "L'anthre fabrique le pollen.",
+        "choices": [
+          {
+            "text": "The anther",
+            "text_fr": "L'anthre",
+            "correct": true
+          },
+          {
+            "text": "The stigma",
+            "text_fr": "Le stigmate",
+            "correct": false
+          },
+          {
+            "text": "The ovary",
+            "text_fr": "L'ovaire",
+            "correct": false
+          }
+        ],
+        "hints": [
+          {
+            "text": "It is the male part.",
+            "text_fr": "C'est la partie male."
+          }
+        ],
+        "difficulty": 1
+      }
+    },
+    {
+      "kind": "explain",
+      "title": "Pollination",
+      "title_fr": "La pollinisation",
+      "content": "Pollination is the transfer of pollen from the anther to the stigma. Wind-pollinated flowers make lots of light pollen. Insect-pollinated flowers have sticky pollen and attract insects.",
+      "content_fr": "La pollinisation est le transfert du pollen de l'anthre au stigmate. Les fleurs pollinisees par le vent produisent beaucoup de pollen leger. Les fleurs pollinisees par les insectes ont un pollen collant et attirent les insectes.",
+      "required": true,
+      "xp": 10
+    },
+    {
+      "kind": "example",
+      "title": "From pollen to seed",
+      "title_fr": "Du pollen a la graine",
+      "content": "After pollination a pollen tube grows down the style to the ovary. The male cell joins the egg cell in fertilisation. The ovule becomes a seed.",
+      "content_fr": "Apres la pollinisation, un tube pollinique pousse le long du style jusqu'a l'ovaire. La cellule male s'unit a la cellule oeuf lors de la fecondation. L'ovule devient une graine.",
+      "required": true,
+      "xp": 12
+    },
+    {
+      "kind": "practice",
+      "title": "Your turn: wind flowers",
+      "title_fr": "A toi : fleurs anemophiles",
+      "content": "Which feature suggests a flower is pollinated by wind?",
+      "content_fr": "Quelle caracteristique suggere qu'une fleur est pollinisee par le vent ?",
+      "required": true,
+      "xp": 12,
+      "question": {
+        "kind": "mcq",
+        "text": "Which suggests wind pollination?",
+        "text_fr": "Qu'est-ce qui indique une pollinisation par le vent ?",
+        "explanation": "Small dull flowers with lots of light pollen.",
+        "explanation_fr": "De petites fleurs ternes avec beaucoup de pollen leger.",
+        "choices": [
+          {
+            "text": "Lots of light pollen",
+            "text_fr": "Beaucoup de pollen leger",
+            "correct": true
+          },
+          {
+            "text": "Bright petals and scent",
+            "text_fr": "Des petales vifs et du parfum",
+            "correct": false
+          },
+          {
+            "text": "Sticky pollen",
+            "text_fr": "Un pollen collant",
+            "correct": false
+          }
+        ],
+        "hints": [
+          {
+            "text": "No need to attract insects.",
+            "text_fr": "Pas besoin d'attirer les insectes."
+          }
+        ],
+        "difficulty": 1
+      }
+    },
+    {
+      "kind": "question",
+      "title": "Check: dispersal",
+      "title_fr": "Verification : dispersion",
+      "content": "Seeds are dispersed by wind, water or animals. Dispersal reduces competition between the young plant and its parent for light, water and space.",
+      "content_fr": "Les graines sont dispersees par le vent, l'eau ou les animaux. La dispersion reduit la concurrence entre la jeune plante et sa mere pour la lumiere, l'eau et l'espace.",
+      "required": true,
+      "xp": 12,
+      "question": {
+        "kind": "mcq",
+        "text": "Why is seed dispersal useful?",
+        "text_fr": "Pourquoi la dispersion des graines est-elle utile ?",
+        "explanation": "It reduces competition.",
+        "explanation_fr": "Elle reduit la concurrence.",
+        "choices": [
+          {
+            "text": "It reduces competition",
+            "text_fr": "Elle reduit la concurrence",
+            "correct": true
+          },
+          {
+            "text": "It makes more pollen",
+            "text_fr": "Elle fabrique plus de pollen",
+            "correct": false
+          },
+          {
+            "text": "It makes flowers bigger",
+            "text_fr": "Elle agrandit les fleurs",
+            "correct": false
+          }
+        ],
+        "hints": [
+          {
+            "text": "Avoid competing with the parent.",
+            "text_fr": "Eviter la concurrence avec la plante mere."
+          }
+        ],
+        "difficulty": 1
+      }
+    },
+    {
+      "kind": "summary",
+      "title": "What to keep",
+      "title_fr": "A retenir",
+      "content": "Pollination moves pollen to the stigma. Fertilisation forms seeds. Dispersal by wind, water or animals reduces competition and spreads the species.",
+      "content_fr": "La pollinisation transporte le pollen jusqu'au stigmate. La fecondation forme les graines. La dispersion par le vent, l'eau ou les animaux reduit la concurrence et repand l'espece.",
+      "required": false,
+      "xp": 5
+    }
+  ],
+  "quiz": {
+    "title": "Reproduction in Plants",
+    "title_fr": "Reproduction chez les plantes",
+    "pass_score": 60,
+    "questions": [
+      {
+        "kind": "mcq",
+        "text": "What is pollination?",
+        "text_fr": "Qu'est-ce que la pollinisation ?",
+        "explanation": "The transfer of pollen to the stigma.",
+        "explanation_fr": "Le transfert du pollen au stigmate.",
+        "choices": [
+          {
+            "text": "Transfer of pollen to the stigma",
+            "text_fr": "Le transfert du pollen au stigmate",
+            "correct": true
+          },
+          {
+            "text": "Joining of egg and pollen cell",
+            "text_fr": "L'union de l'oeuf et de la cellule male",
+            "correct": false
+          },
+          {
+            "text": "Seed dispersal",
+            "text_fr": "La dispersion des graines",
+            "correct": false
+          }
+        ],
+        "hints": [
+          {
+            "text": "It happens before fertilisation.",
+            "text_fr": "Elle se produit avant la fecondation."
+          }
+        ],
+        "difficulty": 1
+      },
+      {
+        "kind": "mcq",
+        "text": "Which flower is likely insect-pollinated?",
+        "text_fr": "Quelle fleur est probablement pollinisee par les insectes ?",
+        "explanation": "Bright, scented flowers.",
+        "explanation_fr": "Des fleurs vives et parfumees.",
+        "choices": [
+          {
+            "text": "Bright and scented",
+            "text_fr": "Vives et parfumee",
+            "correct": true
+          },
+          {
+            "text": "Small and dull",
+            "text_fr": "Petites et ternes",
+            "correct": false
+          },
+          {
+            "text": "With no petals",
+            "text_fr": "Sans petales",
+            "correct": false
+          }
+        ],
+        "hints": [
+          {
+            "text": "Insects are attracted by colour.",
+            "text_fr": "Les insectes sont attires par la couleur."
+          }
+        ],
+        "difficulty": 1
+      },
+      {
+        "kind": "mcq",
+        "text": "What does an ovule become after fertilisation?",
+        "text_fr": "Que devient l'ovule apres la fecondation ?",
+        "explanation": "A seed.",
+        "explanation_fr": "Une graine.",
+        "choices": [
+          {
+            "text": "A seed",
+            "text_fr": "Une graine",
+            "correct": true
+          },
+          {
+            "text": "A flower",
+            "text_fr": "Une fleur",
+            "correct": false
+          },
+          {
+            "text": "A fruit only",
+            "text_fr": "Seulement un fruit",
+            "correct": false
+          }
+        ],
+        "hints": [
+          {
+            "text": "Seeds contain the young plant.",
+            "text_fr": "Les graines contiennent la jeune plante."
+          }
+        ],
+        "difficulty": 1
+      },
+      {
+        "kind": "mcq",
+        "text": "Why do plants disperse their seeds?",
+        "text_fr": "Pourquoi les plantes dispersent-elles leurs graines ?",
+        "explanation": "To reduce competition.",
+        "explanation_fr": "Pour reduire la concurrence.",
+        "choices": [
+          {
+            "text": "To reduce competition",
+            "text_fr": "Pour reduire la concurrence",
+            "correct": true
+          },
+          {
+            "text": "To make more pollen",
+            "text_fr": "Pour fabriquer plus de pollen",
+            "correct": false
+          },
+          {
+            "text": "To grow faster",
+            "text_fr": "Pour pousser plus vite",
+            "correct": false
+          }
+        ],
+        "hints": [
+          {
+            "text": "Space and light are limited.",
+            "text_fr": "L'espace et la lumiere sont limites."
+          }
+        ],
+        "difficulty": 1
+      }
+    ]
+  }
+}

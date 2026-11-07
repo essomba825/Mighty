@@ -1,0 +1,244 @@
+{
+  "lesson": 94,
+  "status": "published",
+  "lesson_fields": {
+    "title": "Introduction to Differentiation",
+    "title_fr": "Introduction a la derivation",
+    "summary": "Find the gradient of a curve from first principles and use the power rule to differentiate polynomials.",
+    "summary_fr": "Trouver la pente d une courbe a partir des principes premiers et utiliser la regle de puissance pour deriver des polynomes.",
+    "content": "The **derivative** of a function gives the gradient of its curve at any point. It is defined as a limit of gradients of chords, but in practice we use the **power rule**: the derivative of `x^n` is `n x^(n-1)`.",
+    "content_fr": "La **derivee** d une fonction donne la pente de sa courbe en tout point. Elle se definit comme une limite de pentes de cordes, mais en pratique on utilise la **regle de puissance** : la derivee de `x^n` est `n x^(n-1)`.",
+    "objectives": [
+      "Interpret the derivative as a gradient",
+      "Differentiate from first principles",
+      "Apply the power rule to polynomials"
+    ],
+    "objectives_fr": [
+      "Interpreter la derivee comme une pente",
+      "Deriver a partir des principes premiers",
+      "Appliquer la regle de puissance aux polynomes"
+    ]
+  },
+  "steps": [
+    {
+      "kind": "concept",
+      "title": "Gradient of a curve",
+      "title_fr": "La pente d une courbe",
+      "content": "For a straight line the gradient is constant. For a curve the gradient **changes** from point to point.\n\nThe gradient at a point is the gradient of the **tangent** line that just touches the curve there. Differentiation gives a formula for this gradient at any `x`.",
+      "content_fr": "Pour une droite, la pente est constante. Pour une courbe, la pente **change** d un point a l autre.\n\nLa pente en un point est celle de la **tangente**, la droite qui touche la courbe en ce point. La derivation fournit une formule donnant cette pente pour tout `x`.",
+      "required": false,
+      "xp": 10
+    },
+    {
+      "kind": "explain",
+      "title": "From first principles",
+      "title_fr": "A partir des principes premiers",
+      "content": "Take two nearby points on the curve and the gradient of the chord between them:\n\n    (f(x + h) - f(x)) / h\n\nAs `h` shrinks towards zero, the chord becomes the tangent. The derivative is the limit of that fraction:\n\n    f'(x) = limit as h tends to 0 of (f(x + h) - f(x)) / h\n\nThe notation `f'(x)` (read \"f prime of x\") means the derivative.",
+      "content_fr": "Prends deux points proches sur la courbe et la pente de la corde qui les relie :\n\n    (f(x + h) - f(x)) / h\n\nLorsque `h` tend vers zero, la corde devient la tangente. La derivee est la limite de cette fraction :\n\n    f'(x) = limite quand h tend vers 0 de (f(x + h) - f(x)) / h\n\nLa notation `f'(x)` se lit \"f prime de x\" et designe la derivee.",
+      "required": false,
+      "xp": 10
+    },
+    {
+      "kind": "explain",
+      "title": "The power rule",
+      "title_fr": "La regle de puissance",
+      "content": "Instead of a limit each time, use the power rule:\n\n    if f(x) = x^n  then  f'(x) = n x^(n-1)\n\nMultiply by the old power, then drop the power by one.\n\nExamples:\n\n    x^3   -> 3x^2\n    x^5   -> 5x^4\n    x     -> 1\n    constant -> 0\n\nFor a sum, differentiate each term separately.",
+      "content_fr": "Au lieu de calculer une limite a chaque fois, utilise la regle de puissance :\n\n    si f(x) = x^n  alors  f'(x) = n x^(n-1)\n\nMultiplie par l ancien exposant, puis diminue l exposant de un.\n\nExemples :\n\n    x^3   -> 3x^2\n    x^5   -> 5x^4\n    x     -> 1\n    constante -> 0\n\nPour une somme, on derive chaque terme separement.",
+      "required": false,
+      "xp": 10
+    },
+    {
+      "kind": "question",
+      "title": "Differentiate a power",
+      "title_fr": "Deriver une puissance",
+      "content": "Multiply by the power and subtract one from the exponent.",
+      "content_fr": "Multiplie par l exposant et retranche un a l exposant.",
+      "required": true,
+      "xp": 20,
+      "question": {
+        "kind": "mcq",
+        "difficulty": 1,
+        "text": "Differentiate f(x) = x^4.",
+        "text_fr": "Derive f(x) = x^4.",
+        "explanation": "By the power rule, f'(x) = 4x^3.",
+        "explanation_fr": "Par la regle de puissance, f'(x) = 4x^3.",
+        "hint_prompt": "Bring down the 4, then reduce the exponent.",
+        "hint_prompt_fr": "Abaisse le 4, puis reduis l exposant.",
+        "choices": [
+          {"text": "4x^3", "text_fr": "4x^3", "correct": true},
+          {"text": "4x^4", "text_fr": "4x^4", "correct": false},
+          {"text": "x^3", "text_fr": "x^3", "correct": false},
+          {"text": "3x^4", "text_fr": "3x^4", "correct": false}
+        ],
+        "hints": [
+          {"text": "Multiply by the exponent 4.", "text_fr": "Multiplie par l exposant 4."},
+          {"text": "Reduce 4 to 3 in the new exponent.", "text_fr": "Reduis 4 en 3 dans le nouvel exposant."}
+        ]
+      }
+    },
+    {
+      "kind": "question",
+      "title": "Gradient at a point",
+      "title_fr": "Pente en un point",
+      "content": "Differentiate first, then substitute the value of x.",
+      "content_fr": "Derive d abord, puis remplace x par sa valeur.",
+      "required": true,
+      "xp": 20,
+      "question": {
+        "kind": "numeric",
+        "difficulty": 2,
+        "text": "For f(x) = x^2, find the gradient at x = 3, that is the value of f'(3).",
+        "text_fr": "Pour f(x) = x^2, trouve la pente en x = 3, c est-a-dire la valeur de f'(3).",
+        "explanation": "f'(x) = 2x, so f'(3) = 6.",
+        "explanation_fr": "f'(x) = 2x, donc f'(3) = 6.",
+        "hint_prompt": "The derivative of x^2 is 2x.",
+        "hint_prompt_fr": "La derivee de x^2 est 2x.",
+        "config": {"accepted": [6]},
+        "hints": [
+          {"text": "f'(x) = 2x.", "text_fr": "f'(x) = 2x."},
+          {"text": "Substitute x = 3: 2 x 3 = 6.", "text_fr": "Remplace x par 3 : 2 x 3 = 6."}
+        ]
+      }
+    },
+    {
+      "kind": "question",
+      "title": "Differentiate a polynomial",
+      "title_fr": "Deriver un polynome",
+      "content": "Differentiate each term of the sum separately.",
+      "content_fr": "Derive chaque terme de la somme separement.",
+      "required": true,
+      "xp": 25,
+      "question": {
+        "kind": "mcq",
+        "difficulty": 2,
+        "text": "Differentiate f(x) = 3x^2 + 5x + 7.",
+        "text_fr": "Derive f(x) = 3x^2 + 5x + 7.",
+        "explanation": "Differentiate term by term: 3x^2 gives 6x, 5x gives 5, and the constant 7 gives 0. So f'(x) = 6x + 5.",
+        "explanation_fr": "On derive terme par terme : 3x^2 donne 6x, 5x donne 5, et la constante 7 donne 0. Donc f'(x) = 6x + 5.",
+        "hint_prompt": "The derivative of a constant is zero.",
+        "hint_prompt_fr": "La derivee d une constante est nulle.",
+        "choices": [
+          {"text": "6x + 5", "text_fr": "6x + 5", "correct": true},
+          {"text": "6x + 5 + 7", "text_fr": "6x + 5 + 7", "correct": false},
+          {"text": "3x + 5", "text_fr": "3x + 5", "correct": false},
+          {"text": "6x + 12", "text_fr": "6x + 12", "correct": false}
+        ],
+        "hints": [
+          {"text": "3x^2 differentiates to 6x.", "text_fr": "3x^2 se derive en 6x."},
+          {"text": "5x gives 5 and 7 gives 0.", "text_fr": "5x donne 5 et 7 donne 0."}
+        ]
+      }
+    },
+    {
+      "kind": "summary",
+      "title": "Key ideas",
+      "title_fr": "Points cles",
+      "content": "The derivative `f'(x)` is the gradient of the curve at `x`.\n\nFirst principles: `f'(x)` is the limit of `(f(x + h) - f(x)) / h` as `h` tends to 0.\n\nPower rule: `x^n` differentiates to `n x^(n-1)`. Differentiate sums term by term; constants give zero.",
+      "content_fr": "La derivee `f'(x)` est la pente de la courbe au point d abscisse `x`.\n\nPrincipes premiers : `f'(x)` est la limite de `(f(x + h) - f(x)) / h` quand `h` tend vers 0.\n\nRegle de puissance : `x^n` se derive en `n x^(n-1)`. On derive une somme terme par terme et une constante donne zero.",
+      "required": false,
+      "xp": 10
+    }
+  ],
+  "quiz": {
+    "title": "Quiz - Introduction to differentiation",
+    "title_fr": "Quiz - Introduction a la derivation",
+    "pass_score": 60,
+    "questions": [
+      {
+        "kind": "mcq",
+        "difficulty": 1,
+        "text": "Differentiate f(x) = x^6.",
+        "text_fr": "Derive f(x) = x^6.",
+        "explanation": "By the power rule, f'(x) = 6x^5.",
+        "explanation_fr": "Par la regle de puissance, f'(x) = 6x^5.",
+        "hint_prompt": "Multiply by 6 and reduce the exponent by one.",
+        "hint_prompt_fr": "Multiplie par 6 et reduis l exposant de un.",
+        "choices": [
+          {"text": "6x^5", "text_fr": "6x^5", "correct": true},
+          {"text": "6x^6", "text_fr": "6x^6", "correct": false},
+          {"text": "5x^6", "text_fr": "5x^6", "correct": false},
+          {"text": "x^5", "text_fr": "x^5", "correct": false}
+        ],
+        "hints": [
+          {"text": "Bring down the exponent.", "text_fr": "Abaisse l exposant."},
+          {"text": "The new exponent is 5.", "text_fr": "Le nouvel exposant est 5."}
+        ]
+      },
+      {
+        "kind": "numeric",
+        "difficulty": 2,
+        "text": "For f(x) = x^3, find the gradient at x = 2, that is f'(2).",
+        "text_fr": "Pour f(x) = x^3, trouve la pente en x = 2, c est-a-dire f'(2).",
+        "explanation": "f'(x) = 3x^2, so f'(2) = 3 x 4 = 12.",
+        "explanation_fr": "f'(x) = 3x^2, donc f'(2) = 3 x 4 = 12.",
+        "hint_prompt": "Differentiate, then substitute x = 2.",
+        "hint_prompt_fr": "Derive, puis remplace x par 2.",
+        "config": {"accepted": [12]},
+        "hints": [
+          {"text": "f'(x) = 3x^2.", "text_fr": "f'(x) = 3x^2."},
+          {"text": "3 x 2^2 = 3 x 4 = 12.", "text_fr": "3 x 2^2 = 3 x 4 = 12."}
+        ]
+      },
+      {
+        "kind": "mcq",
+        "difficulty": 2,
+        "text": "Differentiate f(x) = x^2 + 4x + 1.",
+        "text_fr": "Derive f(x) = x^2 + 4x + 1.",
+        "explanation": "Term by term: x^2 gives 2x, 4x gives 4, and 1 gives 0. So f'(x) = 2x + 4.",
+        "explanation_fr": "Terme par terme : x^2 donne 2x, 4x donne 4, et 1 donne 0. Donc f'(x) = 2x + 4.",
+        "hint_prompt": "Differentiate each term on its own.",
+        "hint_prompt_fr": "Derive chaque terme separement.",
+        "choices": [
+          {"text": "2x + 4", "text_fr": "2x + 4", "correct": true},
+          {"text": "2x + 4 + 1", "text_fr": "2x + 4 + 1", "correct": false},
+          {"text": "2x + 1", "text_fr": "2x + 1", "correct": false},
+          {"text": "x + 4", "text_fr": "x + 4", "correct": false}
+        ],
+        "hints": [
+          {"text": "The constant term vanishes.", "text_fr": "Le terme constant disparait."},
+          {"text": "4x differentiates to 4.", "text_fr": "4x se derive en 4."}
+        ]
+      },
+      {
+        "kind": "mcq",
+        "difficulty": 2,
+        "text": "In first principles, what does the chord gradient fraction approximate as h gets very small?",
+        "text_fr": "Dans les principes premiers, que devient la fraction de la pente de la corde lorsque h devient tres petit ?",
+        "explanation": "As h tends to zero the chord becomes the tangent, so the fraction tends to the gradient of the curve at that point.",
+        "explanation_fr": "Quand h tend vers zero, la corde devient la tangente : la fraction tend vers la pente de la courbe en ce point.",
+        "hint_prompt": "The chord becomes a tangent in the limit.",
+        "hint_prompt_fr": "A la limite, la corde devient une tangente.",
+        "choices": [
+          {"text": "The gradient of the tangent, that is the derivative", "text_fr": "La pente de la tangente, c est-a-dire la derivee", "correct": true},
+          {"text": "Zero for every function", "text_fr": "Zero pour toutes les fonctions", "correct": false},
+          {"text": "The value of f(x) itself", "text_fr": "La valeur de f(x) elle-meme", "correct": false},
+          {"text": "The y-intercept", "text_fr": "L ordonnee a l origine", "correct": false}
+        ],
+        "hints": [
+          {"text": "The chord shrinks onto the curve.", "text_fr": "La corde se resserre sur la courbe."},
+          {"text": "Its limit is the tangent gradient.", "text_fr": "Sa limite est la pente de la tangente."}
+        ]
+      },
+      {
+        "kind": "mcq",
+        "difficulty": 3,
+        "text": "What is the derivative of f(x) = 7 (a constant function)?",
+        "text_fr": "Quelle est la derivee de f(x) = 7 (fonction constante) ?",
+        "explanation": "A constant function has a horizontal graph, so its gradient is zero everywhere. The derivative is 0.",
+        "explanation_fr": "Une fonction constante a une courbe horizontale : sa pente est nulle partout. La derivee vaut 0.",
+        "hint_prompt": "The graph of f(x) = 7 is a horizontal line.",
+        "hint_prompt_fr": "La courbe de f(x) = 7 est une droite horizontale.",
+        "choices": [
+          {"text": "0", "text_fr": "0", "correct": true},
+          {"text": "7", "text_fr": "7", "correct": false},
+          {"text": "1", "text_fr": "1", "correct": false},
+          {"text": "7x", "text_fr": "7x", "correct": false}
+        ],
+        "hints": [
+          {"text": "A horizontal line has gradient 0.", "text_fr": "Une droite horizontale a une pente nulle."},
+          {"text": "So the derivative of a constant is 0.", "text_fr": "La derivee d une constante vaut donc 0."}
+        ]
+      }
+    ]
+  }
+}

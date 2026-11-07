@@ -1,0 +1,291 @@
+{
+  "lesson": 154,
+  "status": "published",
+  "lesson_fields": {
+    "title": "Searching Algorithms",
+    "title_fr": "Algorithmes de recherche",
+    "summary": "Searching means finding a value in a list. Linear search checks each item, while binary search halves the list each time but needs the list sorted.",
+    "summary_fr": "Rechercher signifie trouver une valeur dans une liste. La recherche lineaire verifie chaque element, tandis que la recherche binaire divise la liste en deux a chaque etape mais exige une liste triee.",
+    "content": "## Linear search\n\nLinear search looks at each item from the start until it finds the target or reaches the end. It works on any list, sorted or not, but can be slow for long lists.\n\n## Binary search\n\nBinary search works only on a sorted list. It checks the middle item, then discards the half that cannot contain the target. Each step halves the search, so it is very fast.",
+    "content_fr": "## La recherche lineaire\n\nLa recherche lineaire examine chaque element depuis le debut jusqu'a trouver la cible ou atteindre la fin. Elle fonctionne sur toute liste, triee ou non, mais peut etre lente pour de longues listes.\n\n## La recherche binaire\n\nLa recherche binaire ne fonctionne que sur une liste triee. Elle verifie l'element du milieu, puis ecarte la moitie qui ne peut pas contenir la cible. Chaque etape divise la recherche, donc elle est tres rapide.",
+    "objectives": [
+      "Describe linear search",
+      "Describe binary search",
+      "Explain when binary search can be used"
+    ],
+    "objectives_fr": [
+      "Decrire la recherche lineaire",
+      "Decrire la recherche binaire",
+      "Expliquer quand la recherche binaire est utilisable"
+    ],
+    "estimated_minutes": 25
+  },
+  "steps": [
+    {
+      "kind": "concept",
+      "title": "Linear search",
+      "title_fr": "La recherche lineaire",
+      "content": "Linear search starts at the first item and checks each one until it finds the target. If it reaches the end without a match, the item is not present.",
+      "content_fr": "La recherche lineaire part du premier element et verifie chacun jusqu'a trouver la cible. S'il atteint la fin sans correspondance, l'element est absent.",
+      "required": true,
+      "xp": 10,
+      "question": {
+        "kind": "mcq",
+        "text": "Does linear search need a sorted list?",
+        "text_fr": "La recherche lineaire a-t-elle besoin d'une liste triee ?",
+        "explanation": "No, it works on any list.",
+        "explanation_fr": "Non, elle marche sur toute liste.",
+        "choices": [
+          {
+            "text": "No, any list works",
+            "text_fr": "Non, toute liste convient",
+            "correct": true
+          },
+          {
+            "text": "Yes, it must be sorted",
+            "text_fr": "Oui, elle doit etre triee",
+            "correct": false
+          },
+          {
+            "text": "Only on numbers",
+            "text_fr": "Seulement sur des nombres",
+            "correct": false
+          }
+        ],
+        "hints": [
+          {
+            "text": "It simply checks one by one.",
+            "text_fr": "Elle verifie simplement un par un."
+          }
+        ],
+        "difficulty": 1
+      }
+    },
+    {
+      "kind": "explain",
+      "title": "Binary search",
+      "title_fr": "La recherche binaire",
+      "content": "Binary search checks the middle item first. If the target is smaller, it looks in the left half; if larger, in the right half. It repeats until the target is found or the range is empty.",
+      "content_fr": "La recherche binaire verifie d'abord l'element du milieu. Si la cible est plus petite, elle cherche dans la moitie gauche ; si elle est plus grande, dans la moitie droite. Elle repete jusqu'a trouver la cible ou vider l'intervalle.",
+      "required": true,
+      "xp": 10
+    },
+    {
+      "kind": "example",
+      "title": "Halving the list",
+      "title_fr": "Diviser la liste en deux",
+      "content": "In a sorted list of 100 items, linear search may need up to 100 checks. Binary search needs at most about 7 checks, because 100 halves down to 1 in 7 steps.",
+      "content_fr": "Dans une liste triee de 100 elements, la recherche lineaire peut demander jusqu'a 100 verifications. La recherche binaire demande au plus environ 7 verifications, car 100 se reduit a 1 en 7 etapes.",
+      "required": true,
+      "xp": 12
+    },
+    {
+      "kind": "practice",
+      "title": "Your turn: first step",
+      "title_fr": "A toi : la premiere etape",
+      "content": "A sorted list has 16 items. You use binary search. How many items remain to consider after the first check?",
+      "content_fr": "Une liste triee contient 16 elements. Tu utilises la recherche binaire. Combien d'elements restent a examiner apres la premiere verification ?",
+      "required": true,
+      "xp": 12,
+      "question": {
+        "kind": "numeric",
+        "text": "Items remaining after the first check?",
+        "text_fr": "Elements restants apres la premiere verification ?",
+        "explanation": "Binary search keeps one half: 16 divided by 2 is 8.",
+        "explanation_fr": "La recherche binaire garde une moitie : 16 divise par 2 vaut 8.",
+        "config": {
+          "accepted": [
+            "8"
+          ]
+        },
+        "hints": [
+          {
+            "text": "It keeps half of the list.",
+            "text_fr": "Elle garde la moitie de la liste."
+          }
+        ],
+        "difficulty": 1
+      }
+    },
+    {
+      "kind": "question",
+      "title": "Check: requirement",
+      "title_fr": "Verification : la condition",
+      "content": "Binary search needs the list to be sorted. If the list is not sorted, the halving rule does not work and the result may be wrong.",
+      "content_fr": "La recherche binaire exige une liste triee. Si la liste n'est pas triee, la regle de division ne marche pas et le resultat peut etre faux.",
+      "required": true,
+      "xp": 12,
+      "question": {
+        "kind": "mcq",
+        "text": "What must be true before binary search?",
+        "text_fr": "Que doit-on avoir avant la recherche binaire ?",
+        "explanation": "The list must be sorted.",
+        "explanation_fr": "La liste doit etre triee.",
+        "choices": [
+          {
+            "text": "The list is sorted",
+            "text_fr": "La liste est triee",
+            "correct": true
+          },
+          {
+            "text": "The list is empty",
+            "text_fr": "La liste est vide",
+            "correct": false
+          },
+          {
+            "text": "The list has one item",
+            "text_fr": "La liste a un seul element",
+            "correct": false
+          }
+        ],
+        "hints": [
+          {
+            "text": "Order matters for halving.",
+            "text_fr": "L'ordre compte pour diviser."
+          }
+        ],
+        "difficulty": 1
+      }
+    },
+    {
+      "kind": "summary",
+      "title": "What to keep",
+      "title_fr": "A retenir",
+      "content": "Linear search checks each item and works on any list. Binary search halves the list each step, is much faster, but needs a sorted list.",
+      "content_fr": "La recherche lineaire verifie chaque element et marche sur toute liste. La recherche binaire divise la liste a chaque etape, est bien plus rapide, mais exige une liste triee.",
+      "required": false,
+      "xp": 5
+    }
+  ],
+  "quiz": {
+    "title": "Searching Algorithms",
+    "title_fr": "Algorithmes de recherche",
+    "pass_score": 60,
+    "questions": [
+      {
+        "kind": "mcq",
+        "text": "Which search works on any list?",
+        "text_fr": "Quelle recherche marche sur toute liste ?",
+        "explanation": "Linear",
+        "explanation_fr": "Lineaire",
+        "choices": [
+          {
+            "text": "Linear",
+            "text_fr": "Lineaire",
+            "correct": true
+          },
+          {
+            "text": "Binary",
+            "text_fr": "Binaire",
+            "correct": false
+          },
+          {
+            "text": "Neither",
+            "text_fr": "Aucune",
+            "correct": false
+          }
+        ],
+        "hints": [
+          {
+            "text": "It checks one by one.",
+            "text_fr": "Elle verifie un par un."
+          }
+        ],
+        "difficulty": 1
+      },
+      {
+        "kind": "mcq",
+        "text": "Which search needs a sorted list?",
+        "text_fr": "Quelle recherche exige une liste triee ?",
+        "explanation": "Binary",
+        "explanation_fr": "Binaire",
+        "choices": [
+          {
+            "text": "Binary",
+            "text_fr": "Binaire",
+            "correct": true
+          },
+          {
+            "text": "Linear",
+            "text_fr": "Lineaire",
+            "correct": false
+          },
+          {
+            "text": "Both",
+            "text_fr": "Les deux",
+            "correct": false
+          }
+        ],
+        "hints": [
+          {
+            "text": "It halves each step.",
+            "text_fr": "Elle divise a chaque etape."
+          }
+        ],
+        "difficulty": 1
+      },
+      {
+        "kind": "mcq",
+        "text": "Binary search on 16 items keeps how many after one step?",
+        "text_fr": "La recherche binaire sur 16 elements en garde combien apres une etape ?",
+        "explanation": "8",
+        "explanation_fr": "8",
+        "choices": [
+          {
+            "text": "8",
+            "text_fr": "8",
+            "correct": true
+          },
+          {
+            "text": "4",
+            "text_fr": "4",
+            "correct": false
+          },
+          {
+            "text": "15",
+            "text_fr": "15",
+            "correct": false
+          }
+        ],
+        "hints": [
+          {
+            "text": "It keeps one half.",
+            "text_fr": "Elle garde une moitie."
+          }
+        ],
+        "difficulty": 1
+      },
+      {
+        "kind": "mcq",
+        "text": "Which is usually faster on a big sorted list?",
+        "text_fr": "Laquelle est generalement plus rapide sur une grande liste triee ?",
+        "explanation": "Binary",
+        "explanation_fr": "Binaire",
+        "choices": [
+          {
+            "text": "Binary",
+            "text_fr": "Binaire",
+            "correct": true
+          },
+          {
+            "text": "Linear",
+            "text_fr": "Lineaire",
+            "correct": false
+          },
+          {
+            "text": "They are equal",
+            "text_fr": "Elles sont egales",
+            "correct": false
+          }
+        ],
+        "hints": [
+          {
+            "text": "Fewer checks are needed.",
+            "text_fr": "Il faut moins de verifications."
+          }
+        ],
+        "difficulty": 1
+      }
+    ]
+  }
+}

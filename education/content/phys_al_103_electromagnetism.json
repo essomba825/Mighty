@@ -1,0 +1,346 @@
+{
+  "lesson": 103,
+  "status": "published",
+  "lesson_fields": {
+    "title": "Electromagnetism",
+    "title_fr": "Electromagnetisme",
+    "summary": "A current in a wire produces a magnetic field around it. When a wire carrying a current sits in an external magnetic field, the two fields interact and the wire feels a force.",
+    "summary_fr": "Un courant dans un fil produit un champ magnetique autour de lui. Quand un fil parcouru par un courant se trouve dans un champ magnetique exterieur, les deux champs interagissent et le fil ressent une force.",
+    "content": "## The magnetic field of a current\n\nA straight wire carrying a current makes circular magnetic field lines around it. Increasing the current makes the field stronger.\n\n## Force on a current-carrying wire\n\nA wire with a current in an external magnetic field feels a force. This is the motor effect. Reversing either the current or the field reverses the force.",
+    "content_fr": "## Le champ magnetique d'un courant\n\nUn fil parcouru par un courant cree des lignes de champ magnetique circulaires autour de lui. Augmenter le courant rend le champ plus fort.\n\n## Force sur un fil parcouru par un courant\n\nUn fil avec un courant dans un champ magnetique exterieur ressent une force. C'est l'effet moteur. Inverser le courant ou le champ inverse la force.",
+    "objectives": [
+      "Describe the magnetic field around a current-carrying wire",
+      "Explain the motor effect",
+      "Say how to reverse the direction of the force"
+    ],
+    "objectives_fr": [
+      "Decrire le champ magnetique autour d'un fil parcouru par un courant",
+      "Expliquer l'effet moteur",
+      "Dire comment inverser le sens de la force"
+    ],
+    "estimated_minutes": 25
+  },
+  "steps": [
+    {
+      "kind": "concept",
+      "title": "A current makes a field",
+      "title_fr": "Un courant cree un champ",
+      "content": "Whenever an electric current flows, it creates a magnetic field around the wire.\n\nFor a straight wire the field lines form circles around the wire. Increasing the current makes the field stronger, and reversing the current reverses the direction of the field.",
+      "content_fr": "Chaque fois qu'un courant electrique circule, il cree un champ magnetique autour du fil.\n\nPour un fil droit, les lignes de champ forment des cercles autour du fil. Augmenter le courant rend le champ plus fort, et inverser le courant inverse le sens du champ.",
+      "required": true,
+      "xp": 10,
+      "question": {
+        "kind": "mcq",
+        "text": "What happens around a wire when a current flows through it?",
+        "text_fr": "Que se passe-t-il autour d'un fil quand un courant le traverse ?",
+        "explanation": "A magnetic field is produced around the wire.",
+        "explanation_fr": "Un champ magnetique est produit autour du fil.",
+        "hint_prompt": "Current and magnetism are linked.",
+        "hint_prompt_fr": "Courant et magnetisme sont lies.",
+        "choices": [
+          {
+            "text": "A magnetic field appears",
+            "text_fr": "Un champ magnetique apparait",
+            "correct": true
+          },
+          {
+            "text": "The wire becomes colder",
+            "text_fr": "Le fil devient plus froid",
+            "correct": false
+          },
+          {
+            "text": "Nothing happens",
+            "text_fr": "Rien ne se passe",
+            "correct": false
+          }
+        ],
+        "hints": [
+          {
+            "text_fr": "C'est le principe d'un electro-aimant."
+          }
+        ]
+      }
+    },
+    {
+      "kind": "explain",
+      "title": "The motor effect",
+      "title_fr": "L'effet moteur",
+      "content": "When a wire carrying a current is placed in an external magnetic field, the two magnetic fields interact and the wire feels a force.\n\nThis is called the motor effect. It is what makes electric motors turn. The force is largest when the wire is at right angles to the field.",
+      "content_fr": "Quand un fil parcouru par un courant est place dans un champ magnetique exterieur, les deux champs interagissent et le fil ressent une force.\n\nC'est ce qu'on appelle l'effet moteur. C'est ce qui fait tourner les moteurs electriques. La force est maximale quand le fil est perpendiculaire au champ.",
+      "required": true,
+      "xp": 10
+    },
+    {
+      "kind": "example",
+      "title": "Worked example: reversing the force",
+      "title_fr": "Exemple resolu : inverser la force",
+      "content": "A wire sits in a magnetic field and feels a force to the left.\n\nIf we reverse the current, the force now acts to the right. If instead we reverse the field, the force also acts to the right. Reversing both leaves the force to the left.",
+      "content_fr": "Un fil se trouve dans un champ magnetique et ressent une force vers la gauche.\n\nSi l'on inverse le courant, la force agit des lors vers la droite. Si l'on inverse le champ, la force agit egalement vers la droite. Inverser les deux laisse la force vers la gauche.",
+      "required": true,
+      "xp": 12
+    },
+    {
+      "kind": "practice",
+      "title": "Your turn: stronger field",
+      "title_fr": "A toi : champ plus fort",
+      "content": "Two changes can make the force on a current-carrying wire larger: increasing the current, or using a stronger external magnetic field. Decide which change increases the force.",
+      "content_fr": "Deux changements peuvent augmenter la force sur un fil parcouru par un courant : augmenter le courant, ou utiliser un champ magnetique exterieur plus fort. Determine quel changement augmente la force.",
+      "required": true,
+      "xp": 12,
+      "question": {
+        "kind": "mcq",
+        "text": "Which change increases the force on the wire?",
+        "text_fr": "Quel changement augmente la force sur le fil ?",
+        "explanation": "Both a larger current and a stronger field give a larger force.",
+        "explanation_fr": "Un courant plus fort et un champ plus fort donnent une force plus grande.",
+        "hint_prompt": "Think about what makes the fields stronger.",
+        "hint_prompt_fr": "Pense a ce qui rend les champs plus forts.",
+        "choices": [
+          {
+            "text": "Increasing the current",
+            "text_fr": "Augmenter le courant",
+            "correct": true
+          },
+          {
+            "text": "Reducing the current",
+            "text_fr": "Reduire le courant",
+            "correct": false
+          },
+          {
+            "text": "Removing the field",
+            "text_fr": "Retirer le champ",
+            "correct": false
+          }
+        ],
+        "hints": [
+          {
+            "text": "Stronger fields give stronger forces.",
+            "text_fr": "Des champs plus forts donnent des forces plus grandes."
+          }
+        ]
+      }
+    },
+    {
+      "kind": "question",
+      "title": "Check: electric motors",
+      "title_fr": "Verification : moteurs electriques",
+      "content": "An electric motor uses the motor effect. A coil of wire with a current sits between the poles of a magnet. The forces on opposite sides of the coil make it spin.",
+      "content_fr": "Un moteur electrique utilise l'effet moteur. Une bobine de fil parcourue par un courant se place entre les poles d'un aimant. Les forces sur les cotes opposes de la bobine la font tourner.",
+      "required": true,
+      "xp": 12,
+      "question": {
+        "kind": "mcq",
+        "text": "What makes a simple electric motor spin?",
+        "text_fr": "Qu'est-ce qui fait tourner un moteur electrique simple ?",
+        "explanation": "Forces on opposite sides of the current-carrying coil act in opposite directions, so the coil turns.",
+        "explanation_fr": "Les forces sur les cotes opposes de la bobine agissent en sens opposes, donc la bobine tourne.",
+        "hint_prompt": "Think about the two sides of the coil.",
+        "hint_prompt_fr": "Pense aux deux cotes de la bobine.",
+        "choices": [
+          {
+            "text": "Forces on opposite sides of the coil",
+            "text_fr": "Les forces sur les cotes opposes de la bobine",
+            "correct": true
+          },
+          {
+            "text": "Gravity on the coil",
+            "text_fr": "La gravite sur la bobine",
+            "correct": false
+          },
+          {
+            "text": "Heat expanding the wire",
+            "text_fr": "La chaleur qui dilate le fil",
+            "correct": false
+          }
+        ],
+        "hints": [
+          {
+            "text": "One side is pushed up and the other down.",
+            "text_fr": "Un cote est pousse vers le haut et l'autre vers le bas."
+          }
+        ]
+      }
+    },
+    {
+      "kind": "summary",
+      "title": "What to keep",
+      "title_fr": "A retenir",
+      "content": "A current in a wire makes a magnetic field around it. A current-carrying wire in an external field feels a force, which is the motor effect. Reversing the current or the field reverses the force.",
+      "content_fr": "Un courant dans un fil cree un champ magnetique autour de lui. Un fil parcouru par un courant dans un champ exterieur ressent une force, c'est l'effet moteur. Inverser le courant ou le champ inverse la force.",
+      "required": false,
+      "xp": 5
+    }
+  ],
+  "quiz": {
+    "title": "Electromagnetism",
+    "title_fr": "Electromagnetisme",
+    "pass_score": 60,
+    "questions": [
+      {
+        "kind": "mcq",
+        "text": "What surrounds a wire when a current flows through it?",
+        "text_fr": "Qu'entoure un fil quand un courant le traverse ?",
+        "explanation": "A magnetic field is produced around the wire.",
+        "explanation_fr": "Un champ magnetique est produit autour du fil.",
+        "hint_prompt": "It is a magnetic effect.",
+        "hint_prompt_fr": "C'est un effet magnetique.",
+        "choices": [
+          {
+            "text": "A magnetic field",
+            "text_fr": "Un champ magnetique",
+            "correct": true
+          },
+          {
+            "text": "An electric field only",
+            "text_fr": "Un seul champ electrique",
+            "correct": false
+          },
+          {
+            "text": "A gravitational field only",
+            "text_fr": "Un seul champ gravitationnel",
+            "correct": false
+          }
+        ],
+        "hints": [
+          {
+            "text": "Current and magnetism are linked.",
+            "text_fr": "Courant et magnetisme sont lies."
+          }
+        ],
+        "difficulty": 1
+      },
+      {
+        "kind": "mcq",
+        "text": "The force on a current-carrying wire in a field is called what?",
+        "text_fr": "Comment appelle-t-on la force sur un fil parcouru par un courant dans un champ ?",
+        "explanation": "It is called the motor effect.",
+        "explanation_fr": "On appelle cela l'effet moteur.",
+        "hint_prompt": "It is used in electric motors.",
+        "hint_prompt_fr": "Il est utilise dans les moteurs electriques.",
+        "choices": [
+          {
+            "text": "The motor effect",
+            "text_fr": "L'effet moteur",
+            "correct": true
+          },
+          {
+            "text": "The heating effect",
+            "text_fr": "L'effet thermique",
+            "correct": false
+          },
+          {
+            "text": "The photoelectric effect",
+            "text_fr": "L'effet photoelectrique",
+            "correct": false
+          }
+        ],
+        "hints": [
+          {
+            "text": "It makes things turn.",
+            "text_fr": "Il fait tourner les choses."
+          }
+        ],
+        "difficulty": 1
+      },
+      {
+        "kind": "mcq",
+        "text": "Which change reverses the direction of the force on the wire?",
+        "text_fr": "Quel changement inverse le sens de la force sur le fil ?",
+        "explanation": "Reversing either the current or the magnetic field reverses the force.",
+        "explanation_fr": "Inverser le courant ou le champ magnetique inverse la force.",
+        "hint_prompt": "Either one is enough.",
+        "hint_prompt_fr": "L'un ou l'autre suffit.",
+        "choices": [
+          {
+            "text": "Reversing the current",
+            "text_fr": "Inverser le courant",
+            "correct": true
+          },
+          {
+            "text": "Doubling the current only",
+            "text_fr": "Doubler seulement le courant",
+            "correct": false
+          },
+          {
+            "text": "Heating the wire only",
+            "text_fr": "Chauffer seulement le fil",
+            "correct": false
+          }
+        ],
+        "hints": [
+          {
+            "text": "Direction is the key word.",
+            "text_fr": "Le mot cle est le sens."
+          }
+        ],
+        "difficulty": 1
+      },
+      {
+        "kind": "mcq",
+        "text": "When is the force on the wire largest?",
+        "text_fr": "Quand la force sur le fil est-elle maximale ?",
+        "explanation": "The force is largest when the wire is at right angles to the field.",
+        "explanation_fr": "La force est maximale quand le fil est perpendiculaire au champ.",
+        "hint_prompt": "Think about the angle.",
+        "hint_prompt_fr": "Pense a l'angle.",
+        "choices": [
+          {
+            "text": "When the wire is at right angles to the field",
+            "text_fr": "Quand le fil est perpendiculaire au champ",
+            "correct": true
+          },
+          {
+            "text": "When the wire is parallel to the field",
+            "text_fr": "Quand le fil est parallele au champ",
+            "correct": false
+          },
+          {
+            "text": "When there is no field",
+            "text_fr": "Quand il n'y a pas de champ",
+            "correct": false
+          }
+        ],
+        "hints": [
+          {
+            "text": "The fields interact most strongly at 90 degrees.",
+            "text_fr": "Les champs interagissent le plus fortement a 90 degres."
+          }
+        ],
+        "difficulty": 2
+      },
+      {
+        "kind": "mcq",
+        "text": "What does an electric motor use?",
+        "text_fr": "Qu'utilise un moteur electrique ?",
+        "explanation": "It uses the motor effect: forces on a current-carrying coil in a magnetic field.",
+        "explanation_fr": "Il utilise l'effet moteur : des forces sur une bobine parcourue par un courant dans un champ magnetique.",
+        "hint_prompt": "It turns electrical energy into movement.",
+        "hint_prompt_fr": "Il transforme l'energie electrique en mouvement.",
+        "choices": [
+          {
+            "text": "The motor effect",
+            "text_fr": "L'effet moteur",
+            "correct": true
+          },
+          {
+            "text": "The heating effect",
+            "text_fr": "L'effet thermique",
+            "correct": false
+          },
+          {
+            "text": "The magnetic effect of the earth only",
+            "text_fr": "Seulement l'effet magnetique terrestre",
+            "correct": false
+          }
+        ],
+        "hints": [
+          {
+            "text": "A coil turns between magnet poles.",
+            "text_fr": "Une bobine tourne entre des poles d'aimant."
+          }
+        ],
+        "difficulty": 1
+      }
+    ]
+  }
+}

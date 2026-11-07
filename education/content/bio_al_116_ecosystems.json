@@ -1,0 +1,217 @@
+{
+  "lesson": 116,
+  "status": "published",
+  "lesson_fields": {
+    "title": "Ecosystems and Food Chains",
+    "title_fr": "Ecosystemes et chaines alimentaires",
+    "summary": "An ecosystem is made of living organisms and their environment. Energy flows through food chains and food webs from producers to consumers.",
+    "summary_fr": "Un ecosysteme est compose d'organismes vivants et de leur environnement. L'energie circule dans les chaines et les reseaux alimentaires, des producteurs aux consommateurs.",
+    "content": "## What is an ecosystem\n\nAn ecosystem includes all living things in an area and the non-living factors that affect them, such as light, water and temperature.\n\n## Food chains and webs\n\nProducers make their own food. Consumers eat other organisms. Energy flows from producers to primary consumers, then to secondary consumers and tertiary consumers.",
+    "content_fr": "## Qu'est-ce qu'un ecosysteme\n\nUn ecosysteme comprend tous les etres vivants d'une region et les elements non vivants qui les influencent, comme la lumiere, l'eau et la temperature.\n\n## Chaines et reseaux alimentaires\n\nLes producteurs fabriquent leur propre nourriture. Les consommateurs mangent d'autres organismes. L'energie va des producteurs aux consommateurs primaires, puis aux consommateurs secondaires et tertiaires.",
+    "objectives": [
+      "Define an ecosystem",
+      "Identify producers and consumers in a food chain",
+      "Explain how energy flows through a food web"
+    ],
+    "objectives_fr": [
+      "Definir un ecosysteme",
+      "Identifier les producteurs et les consommateurs dans une chaine alimentaire",
+      "Expliquer comment l'energie circule dans un reseau alimentaire"
+    ],
+    "estimated_minutes": 25
+  },
+  "steps": [
+    {
+      "kind": "concept",
+      "title": "Living and non-living",
+      "title_fr": "Le vivant et le non-vivant",
+      "content": "Living organisms are called biotic factors. Non-living things like light, temperature, water and soil are called abiotic factors. Both affect life in an ecosystem.",
+      "content_fr": "Les etres vivants sont appelés facteurs biotiques. Les elements non vivants comme la lumiere, la temperature, l'eau et le sol sont appelés facteurs abiotiques. Tous deux influencent la vie dans un ecosysteme.",
+      "required": true,
+      "xp": 10,
+      "question": {
+        "kind": "mcq",
+        "text": "Which is an abiotic factor?",
+        "text_fr": "Lequel est un facteur abiotique ?",
+        "explanation": "Temperature is non-living.",
+        "explanation_fr": "La temperature est un element non vivant.",
+        "hint_prompt": "Living or non-living?",
+        "hint_prompt_fr": "Vivant ou non-vivant ?",
+        "choices": [
+          {"text": "Temperature", "text_fr": "La temperature", "correct": true},
+          {"text": "A rabbit", "text_fr": "Un lapin", "correct": false},
+          {"text": "Grass", "text_fr": "L'herbe", "correct": false}
+        ],
+        "hints": [
+          {"text": "Non-living means not an organism.", "text_fr": "Non-vivant signifie pas un organisme."}
+        ]
+      }
+    },
+    {
+      "kind": "explain",
+      "title": "Producers and consumers",
+      "title_fr": "Producteurs et consommateurs",
+      "content": "Plants are producers because they make food by photosynthesis. Animals are consumers because they eat other organisms. Primary consumers eat plants, secondary consumers eat primary consumers.",
+      "content_fr": "Les plantes sont des producteurs car elles fabriquent de la nourriture par photosynthese. Les animaux sont des consommateurs car ils mangent d'autres organismes. Les consommateurs primaires mangent des plantes, les consommateurs secondaires mangent des consommateurs primaires.",
+      "required": true,
+      "xp": 10
+    },
+    {
+      "kind": "example",
+      "title": "A simple food chain",
+      "title_fr": "Une chaine alimentaire simple",
+      "content": "Grass is eaten by a rabbit. The rabbit is eaten by a fox. This is a food chain: Grass -> Rabbit -> Fox. Grass is the producer, rabbit is primary consumer, fox is secondary consumer.",
+      "content_fr": "L'herbe est mangee par un lapin. Le lapin est mange par un renard. C'est une chaine alimentaire : Herbe -> Lapin -> Renard. L'herbe est le producteur, le lapin est le consommateur primaire, le renard est le consommateur secondaire.",
+      "required": true,
+      "xp": 12
+    },
+    {
+      "kind": "practice",
+      "title": "Your turn: identify roles",
+      "title_fr": "A toi : identifier les roles",
+      "content": "In the chain Grass -> Rabbit -> Fox, which organism is the primary consumer?",
+      "content_fr": "Dans la chaine Herbe -> Lapin -> Renard, quel organisme est le consommateur primaire ?",
+      "required": true,
+      "xp": 12,
+      "question": {
+        "kind": "mcq",
+        "text": "Who is the primary consumer?",
+        "text_fr": "Qui est le consommateur primaire ?",
+        "explanation": "The rabbit eats the plant, so it is the primary consumer.",
+        "explanation_fr": "Le lapin mange la plante, donc c'est le consommateur primaire.",
+        "hint_prompt": "Who eats the producer?",
+        "hint_prompt_fr": "Qui mange le producteur ?",
+        "choices": [
+          {"text": "Rabbit", "text_fr": "Le lapin", "correct": true},
+          {"text": "Grass", "text_fr": "L'herbe", "correct": false},
+          {"text": "Fox", "text_fr": "Le renard", "correct": false}
+        ],
+        "hints": [
+          {"text": "Primary means first consumer.", "text_fr": "Primaire signifie premier consommateur."}
+        ]
+      }
+    },
+    {
+      "kind": "question",
+      "title": "Check: food web",
+      "title_fr": "Verification : reseau alimentaire",
+      "content": "Most animals eat more than one type of food. Food chains link together to form a food web, which shows how energy flows in an ecosystem.",
+      "content_fr": "La plupart des animaux mangent plus d'un type de nourriture. Les chaines alimentaires se relient pour former un reseau alimentaire, qui montre comment l'energie circule dans un ecosysteme.",
+      "required": true,
+      "xp": 12,
+      "question": {
+        "kind": "mcq",
+        "text": "What is a food web?",
+        "text_fr": "Qu'est-ce qu'un reseau alimentaire ?",
+        "explanation": "It is many food chains linked together.",
+        "explanation_fr": "C'est plusieurs chaines alimentaires reliees entre elles.",
+        "hint_prompt": "More complex than a single chain.",
+        "hint_prompt_fr": "Plus complexe qu'une seule chaine.",
+        "choices": [
+          {"text": "Many food chains linked together", "text_fr": "Plusieurs chaines reliees", "correct": true},
+          {"text": "A single path of energy", "text_fr": "Un seul chemin d'energie", "correct": false},
+          {"text": "Only producers", "text_fr": "Seulement des producteurs", "correct": false}
+        ],
+        "hints": [
+          {"text": "Real ecosystems have many connections.", "text_fr": "Les vrais ecosystemes ont beaucoup de connexions."}
+        ]
+      }
+    },
+    {
+      "kind": "summary",
+      "title": "What to keep",
+      "title_fr": "A retenir",
+      "content": "An ecosystem is made of biotic and abiotic factors. Producers make food, consumers eat others. Food chains show energy flow; food webs link many chains.",
+      "content_fr": "Un ecosysteme est compose de facteurs biotiques et abiotiques. Les producteurs fabriquent de la nourriture, les consommateurs en mangent d'autres. Les chaines alimentaires montrent le flux d'energie ; les reseaux relient plusieurs chaines.",
+      "required": false,
+      "xp": 5
+    }
+  ],
+  "quiz": {
+    "title": "Ecosystems and Food Chains",
+    "title_fr": "Ecosystemes et chaines alimentaires",
+    "pass_score": 60,
+    "questions": [
+      {
+        "kind": "mcq",
+        "text": "Which of these is a biotic factor?",
+        "text_fr": "Lequel est un facteur biotique ?",
+        "explanation": "A fox is a living organism.",
+        "explanation_fr": "Un renard est un etre vivant.",
+        "choices": [
+          {"text": "A fox", "text_fr": "Un renard", "correct": true},
+          {"text": "Rainfall", "text_fr": "La pluie", "correct": false},
+          {"text": "Soil pH", "text_fr": "Le pH du sol", "correct": false}
+        ],
+        "hints": [
+          {"text": "Biotic means living.", "text_fr": "Biotique signifie vivant."}
+        ],
+        "difficulty": 1
+      },
+      {
+        "kind": "mcq",
+        "text": "What do producers do?",
+        "text_fr": "Que font les producteurs ?",
+        "explanation": "They make their own food by photosynthesis.",
+        "explanation_fr": "Ils fabriquent leur propre nourriture par photosynthese.",
+        "choices": [
+          {"text": "Make their own food", "text_fr": "Fabriquent leur propre nourriture", "correct": true},
+          {"text": "Eat other animals", "text_fr": "Mangent d'autres animaux", "correct": false},
+          {"text": "Break down dead things only", "text_fr": "Decomposent seulement des morts", "correct": false}
+        ],
+        "hints": [
+          {"text": "Plants are producers.", "text_fr": "Les plantes sont des producteurs."}
+        ],
+        "difficulty": 1
+      },
+      {
+        "kind": "mcq",
+        "text": "In Grass -> Rabbit -> Fox, the fox is a:",
+        "text_fr": "Dans Herbe -> Lapin -> Renard, le renard est un :",
+        "explanation": "It eats the primary consumer, so it is a secondary consumer.",
+        "explanation_fr": "Il mange le consommateur primaire, donc c'est un consommateur secondaire.",
+        "choices": [
+          {"text": "Secondary consumer", "text_fr": "Consommateur secondaire", "correct": true},
+          {"text": "Producer", "text_fr": "Producteur", "correct": false},
+          {"text": "Primary consumer", "text_fr": "Consommateur primaire", "correct": false}
+        ],
+        "hints": [
+          {"text": "Count steps from producer.", "text_fr": "Compte les etapes depuis le producteur."}
+        ],
+        "difficulty": 1
+      },
+      {
+        "kind": "mcq",
+        "text": "Why are food webs more realistic than food chains?",
+        "text_fr": "Pourquoi les reseaux alimentaires sont-ils plus realistes que les chaines ?",
+        "explanation": "Animals usually eat a variety of foods, not just one.",
+        "explanation_fr": "Les animaux mangent generalement plusieurs types de nourriture, pas une seule.",
+        "choices": [
+          {"text": "Most animals eat more than one food", "text_fr": "La plupart mangent plusieurs aliments", "correct": true},
+          {"text": "They are shorter", "text_fr": "Ils sont plus courts", "correct": false},
+          {"text": "They have no consumers", "text_fr": "Ils n'ont pas de consommateurs", "correct": false}
+        ],
+        "hints": [
+          {"text": "Real life is more complex.", "text_fr": "La realite est plus complexe."}
+        ],
+        "difficulty": 2
+      },
+      {
+        "kind": "mcq",
+        "text": "Which is the correct order of energy flow?",
+        "text_fr": "Quel est l'ordre correct du flux d'energie ?",
+        "explanation": "Energy flows from producer to primary consumer to secondary consumer.",
+        "explanation_fr": "L'energie va du producteur au consommateur primaire puis au consommateur secondaire.",
+        "choices": [
+          {"text": "Producer -> Primary consumer -> Secondary consumer", "text_fr": "Producteur -> Consommateur primaire -> Consommateur secondaire", "correct": true},
+          {"text": "Secondary consumer -> Primary consumer -> Producer", "text_fr": "Secondaire -> Primaire -> Producteur", "correct": false},
+          {"text": "Consumer -> Producer -> Consumer", "text_fr": "Consommateur -> Producteur -> Consommateur", "correct": false}
+        ],
+        "hints": [
+          {"text": "Producers start the chain.", "text_fr": "Les producteurs commencent la chaine."}
+        ],
+        "difficulty": 1
+      }
+    ]
+  }
+}

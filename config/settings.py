@@ -119,6 +119,7 @@ INSTALLED_APPS = [
     'donations',
     'notifications',
     'education',
+      'exams',
     'payments',
     'mentorship',
     'contact',

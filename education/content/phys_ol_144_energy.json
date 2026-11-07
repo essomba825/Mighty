@@ -1,0 +1,303 @@
+{
+  "lesson": 144,
+  "status": "published",
+  "lesson_fields": {
+    "title": "Energy Stores and Transfers",
+    "title_fr": "Reservoirs et transferts d'energie",
+    "summary": "Energy cannot be created or destroyed, only transferred or stored. It comes in different stores and is measured in joules.",
+    "summary_fr": "L'energie ne peut etre ni creee ni detruite, seulement transferee ou stockee. Elle prend differentes formes et se mesure en joules.",
+    "content": "## Energy stores\n\nEnergy can be stored in several ways, including kinetic, gravitational potential, elastic potential, thermal, chemical and nuclear stores.\n\n## Conservation of energy\n\nEnergy cannot be created or destroyed. It is only transferred from one store to another. In every transfer, some energy is lost as heat to the surroundings.",
+    "content_fr": "## Les reservoirs d'energie\n\nL'energie peut etre stockee de plusieurs facons : energie cinetique, potentielle de pesanteur, potentielle elastique, thermique, chimique et nucleaire.\n\n## Conservation de l'energie\n\nL'energie ne peut etre ni creee ni detruite. Elle est seulement transferee d'un reservoir a un autre. Dans chaque transfert, une partie de l'energie est perdue sous forme de chaleur dans l'environnement.",
+    "objectives": [
+      "Name the main energy stores",
+      "State the law of conservation of energy",
+      "Give examples of energy transfers"
+    ],
+    "objectives_fr": [
+      "Nommer les principaux reservoirs d'energie",
+      "Enoncer la loi de conservation de l'energie",
+      "Donner des exemples de transferts d'energie"
+    ],
+    "estimated_minutes": 25
+  },
+  "steps": [
+    {
+      "kind": "concept",
+      "title": "Different stores",
+      "title_fr": "Differents reservoirs",
+      "content": "Energy is stored as kinetic (moving), gravitational potential (raised), elastic potential (stretched), thermal (hot), chemical (food, fuel, batteries) and nuclear.",
+      "content_fr": "L'energie est stockee sous forme cinetique (mouvement), potentielle de pesanteur (eleve), potentielle elastique (etire), thermique (chaud), chimique (nourriture, carburant, piles) et nucleaire.",
+      "required": true,
+      "xp": 10,
+      "question": {
+        "kind": "mcq",
+        "text": "In which store is energy held in a moving object?",
+        "text_fr": "Dans quel reservoir l'energie d'un objet en mouvement est-elle stockee ?",
+        "explanation": "Kinetic energy.",
+        "explanation_fr": "L'energie cinetique.",
+        "choices": [
+          {
+            "text": "Kinetic",
+            "text_fr": "Cinetique",
+            "correct": true
+          },
+          {
+            "text": "Chemical",
+            "text_fr": "Chimique",
+            "correct": false
+          },
+          {
+            "text": "Nuclear",
+            "text_fr": "Nucleaire",
+            "correct": false
+          }
+        ],
+        "hints": [
+          {
+            "text": "Moving objects have it.",
+            "text_fr": "Les objets en mouvement la possedent."
+          }
+        ],
+        "difficulty": 1
+      }
+    },
+    {
+      "kind": "explain",
+      "title": "Conservation",
+      "title_fr": "La conservation",
+      "content": "Energy cannot be created or destroyed. It is only transferred between stores. The total amount of energy stays the same.",
+      "content_fr": "L'energie ne peut etre ni creee ni detruite. Elle est seulement transferee entre reservoirs. La quantite totale d'energie reste la meme.",
+      "required": true,
+      "xp": 10
+    },
+    {
+      "kind": "example",
+      "title": "A falling ball",
+      "title_fr": "Une balle qui tombe",
+      "content": "A ball held high has gravitational potential energy. As it falls, this is transferred to kinetic energy. When it hits the ground, some energy becomes thermal and sound.",
+      "content_fr": "Une balle tenue en hauteur possede de l'energie potentielle de pesanteur. En tombant, celle-ci est transferee en energie cinetique. Quand elle touche le sol, une partie devient thermique et sonore.",
+      "required": true,
+      "xp": 12
+    },
+    {
+      "kind": "practice",
+      "title": "Your turn: transfers",
+      "title_fr": "A toi : les transferts",
+      "content": "When a battery lights a lamp, chemical energy is transferred to which store?",
+      "content_fr": "Quand une pile allume une lampe, l'energie chimique est transferee vers quel reservoir ?",
+      "required": true,
+      "xp": 12,
+      "question": {
+        "kind": "mcq",
+        "text": "Chemical energy in a battery becomes which energy in a lamp?",
+        "text_fr": "L'energie chimique d'une pile devient quelle energie dans une lampe ?",
+        "explanation": "It becomes light and thermal energy.",
+        "explanation_fr": "Elle devient lumiere et chaleur.",
+        "choices": [
+          {
+            "text": "Light and thermal",
+            "text_fr": "Lumiere et chaleur",
+            "correct": true
+          },
+          {
+            "text": "Nuclear",
+            "text_fr": "Nucleaire",
+            "correct": false
+          },
+          {
+            "text": "Elastic",
+            "text_fr": "Elastique",
+            "correct": false
+          }
+        ],
+        "hints": [
+          {
+            "text": "Lamps get warm and glow.",
+            "text_fr": "Les lampes chauffent et brillent."
+          }
+        ],
+        "difficulty": 1
+      }
+    },
+    {
+      "kind": "question",
+      "title": "Check: lost energy",
+      "title_fr": "Verification : energie perdue",
+      "content": "In a transfer, some energy spreads out as heat to the surroundings. This energy is not destroyed; it is just less useful.",
+      "content_fr": "Lors d'un transfert, une partie de l'energie se disperse en chaleur dans l'environnement. Elle n'est pas detruite ; elle est simplement moins utile.",
+      "required": true,
+      "xp": 12,
+      "question": {
+        "kind": "mcq",
+        "text": "What often happens to 'wasted' energy?",
+        "text_fr": "Que devient souvent l'energie 'perdue' ?",
+        "explanation": "It spreads as heat to the surroundings.",
+        "explanation_fr": "Elle se disperse en chaleur dans l'environnement.",
+        "choices": [
+          {
+            "text": "It spreads as heat",
+            "text_fr": "Elle se disperse en chaleur",
+            "correct": true
+          },
+          {
+            "text": "It disappears",
+            "text_fr": "Elle disparait",
+            "correct": false
+          },
+          {
+            "text": "It becomes mass",
+            "text_fr": "Elle devient masse",
+            "correct": false
+          }
+        ],
+        "hints": [
+          {
+            "text": "Things get warm.",
+            "text_fr": "Les choses se rechauffent."
+          }
+        ],
+        "difficulty": 1
+      }
+    },
+    {
+      "kind": "summary",
+      "title": "What to keep",
+      "title_fr": "A retenir",
+      "content": "Energy is stored in kinetic, potential, thermal, chemical and nuclear stores. It is conserved, and transfers usually lose some energy as heat.",
+      "content_fr": "L'energie est stockee sous forme cinetique, potentielle, thermique, chimique et nucleaire. Elle est conservee, et les transferts perdent souvent de l'energie sous forme de chaleur.",
+      "required": false,
+      "xp": 5
+    }
+  ],
+  "quiz": {
+    "title": "Energy Stores and Transfers",
+    "title_fr": "Reservoirs et transferts d'energie",
+    "pass_score": 60,
+    "questions": [
+      {
+        "kind": "mcq",
+        "text": "What unit is energy measured in?",
+        "text_fr": "En quelle unite mesure-t-on l'energie ?",
+        "explanation": "Joules.",
+        "explanation_fr": "Les joules.",
+        "choices": [
+          {
+            "text": "Joules",
+            "text_fr": "Les joules",
+            "correct": true
+          },
+          {
+            "text": "Newtons",
+            "text_fr": "Les newtons",
+            "correct": false
+          },
+          {
+            "text": "Watts",
+            "text_fr": "Les watts",
+            "correct": false
+          }
+        ],
+        "hints": [
+          {
+            "text": "It is named after a scientist.",
+            "text_fr": "Elle porte le nom d'un savant."
+          }
+        ],
+        "difficulty": 1
+      },
+      {
+        "kind": "mcq",
+        "text": "Which is a store of energy?",
+        "text_fr": "Lequel est un reservoir d'energie ?",
+        "explanation": "Chemical.",
+        "explanation_fr": "Chimique.",
+        "choices": [
+          {
+            "text": "Chemical",
+            "text_fr": "Chimique",
+            "correct": true
+          },
+          {
+            "text": "Speed",
+            "text_fr": "La vitesse",
+            "correct": false
+          },
+          {
+            "text": "Volume",
+            "text_fr": "Le volume",
+            "correct": false
+          }
+        ],
+        "hints": [
+          {
+            "text": "Food and fuel have it.",
+            "text_fr": "La nourriture et le carburant le possedent."
+          }
+        ],
+        "difficulty": 1
+      },
+      {
+        "kind": "mcq",
+        "text": "What does the law of conservation of energy say?",
+        "text_fr": "Que dit la loi de conservation de l'energie ?",
+        "explanation": "Energy cannot be created or destroyed.",
+        "explanation_fr": "L'energie ne peut etre ni creee ni detruite.",
+        "choices": [
+          {
+            "text": "It cannot be created or destroyed",
+            "text_fr": "Elle ne peut etre ni creee ni detruite",
+            "correct": true
+          },
+          {
+            "text": "It can be destroyed",
+            "text_fr": "Elle peut etre detruite",
+            "correct": false
+          },
+          {
+            "text": "It is always heat",
+            "text_fr": "Elle est toujours de la chaleur",
+            "correct": false
+          }
+        ],
+        "hints": [
+          {
+            "text": "It is only transferred.",
+            "text_fr": "Elle est seulement transferee."
+          }
+        ],
+        "difficulty": 1
+      },
+      {
+        "kind": "mcq",
+        "text": "A stretched rubber band stores which energy?",
+        "text_fr": "Quelle energie stocke un elastique etire ?",
+        "explanation": "Elastic potential.",
+        "explanation_fr": "L'energie potentielle elastique.",
+        "choices": [
+          {
+            "text": "Elastic potential",
+            "text_fr": "Potentielle elastique",
+            "correct": true
+          },
+          {
+            "text": "Nuclear",
+            "text_fr": "Nucleaire",
+            "correct": false
+          },
+          {
+            "text": "Chemical",
+            "text_fr": "Chimique",
+            "correct": false
+          }
+        ],
+        "hints": [
+          {
+            "text": "It is stretched.",
+            "text_fr": "Il est etire."
+          }
+        ],
+        "difficulty": 1
+      }
+    ]
+  }
+}

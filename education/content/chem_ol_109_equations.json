@@ -1,0 +1,265 @@
+{
+  "lesson": 109,
+  "status": "published",
+  "lesson_fields": {
+    "title": "Word and Symbol Equations",
+    "title_fr": "Équations en mots et en symboles",
+    "summary": "Turn word equations into balanced symbol equations using state symbols and correct formulas.",
+    "summary_fr": "Transformer des équations en mots en équations symboliques équilibrées avec les formules et les états physiques.",
+    "content": "## What you will learn\n\nChemists describe reactions with equations. A word equation names the reactants and products, and a symbol equation uses formulas and must be balanced so that no atom is created or lost.",
+    "content_fr": "## Ce que tu vas apprendre\n\nLes chimistes décrivent les réactions par des équations. Une équation en mots nomme les réactifs et les produits, et une équation symbolique utilise des formules ; elle doit être équilibrée pour qu'aucun atome ne soit créé ou perdu.",
+    "objectives": [
+      "Turn a word equation into a symbol equation",
+      "Balance a simple chemical equation",
+      "Use state symbols (s), (l), (g), (aq)"
+    ],
+    "objectives_fr": [
+      "Transformer une équation en mots en équation symbolique",
+      "Équilibrer une équation chimique simple",
+      "Utiliser les symboles d'état (s), (l), (g), (aq)"
+    ],
+    "estimated_minutes": 30
+  },
+  "steps": [
+    {
+      "kind": "concept",
+      "title": "Writing a word equation",
+      "title_fr": "Écrire une équation en mots",
+      "content": "A word equation lists the reactants on the left and the products on the right, separated by an arrow that means changes into. Reactants are the substances you start with, and products are the new substances made.\n\nWorked example: when magnesium burns in oxygen, the word equation is magnesium + oxygen, arrow, magnesium oxide. The arrow, not an equals sign, shows that new substances have formed.\n\nAlways name the substances exactly and never swap the two sides: what you start with must be on the left.",
+      "content_fr": "Une équation en mots place les réactifs à gauche et les produits à droite, séparés par une flèche qui signifie donne. Les réactifs sont les corps de départ, et les produits sont les nouveaux corps formés.\n\nExemple rédigé : quand le magnésium brûle dans l'oxygène, l'équation en mots est magnésium + oxygène, flèche, oxyde de magnésium. La flèche, et non un signe égal, montre que de nouveaux corps se sont formés.\n\nNomme toujours correctement les corps et ne change jamais les deux côtés de place : ce dont tu pars doit rester à gauche.",
+      "required": true,
+      "xp": 10,
+      "question": {
+        "kind": "mcq",
+        "difficulty": 1,
+        "text": "In a word equation, what does the arrow mean?",
+        "text_fr": "Dans une équation en mots, que signifie la flèche ?",
+        "explanation": "The arrow means changes into, pointing from reactants to products.",
+        "explanation_fr": "La flèche signifie donne : elle va des réactifs vers les produits.",
+        "hint_prompt": "It is not an equals sign.",
+        "hint_prompt_fr": "Ce n'est pas un signe égal.",
+        "choices": [
+          {"text": "Changes into", "text_fr": "Donne", "correct": true},
+          {"text": "Is equal to", "text_fr": "Est égal à", "correct": false},
+          {"text": "Is mixed with", "text_fr": "Est mélangé avec", "correct": false},
+          {"text": "Is heated", "text_fr": "Est chauffé", "correct": false}
+        ],
+        "hints": [
+          {"text": "It points from start to finish.", "text_fr": "Elle va du départ au résultat."},
+          {"text": "It shows the reaction happening.", "text_fr": "Elle montre la réaction."}
+        ]
+      }
+    },
+    {
+      "kind": "concept",
+      "title": "From words to formulas",
+      "title_fr": "Des mots aux formules",
+      "content": "To write a symbol equation you replace each name with its chemical formula and its state symbol. The subscript in a formula counts the atoms, so H2O means two hydrogen atoms and one oxygen atom in each molecule.\n\nWorked example: the burning of magnesium becomes Mg(s) + O2(g), arrow, MgO(s). Notice that oxygen is written as O2 because oxygen gas is a molecule of two atoms.\n\nThe states are solid (s), liquid (l), gas (g) and aqueous (aq), which means dissolved in water.",
+      "content_fr": "Pour écrire une équation symbolique, remplace chaque nom par sa formule chimique et son symbole d'état. L'indice dans une formule compte les atomes : H2O signifie donc deux atomes d'hydrogène et un atome d'oxygène par molécule.\n\nExemple rédigé : la combustion du magnésium devient Mg(s) + O2(g), flèche, MgO(s). Remarque que le dioxygène s'écrit O2 car le gaz oxygène est une molécule de deux atomes.\n\nLes états se notent solide (s), liquide (l), gaz (g) et aqueux (aq), ce dernier signifiant dissous dans l'eau.",
+      "required": true,
+      "xp": 12,
+      "question": {
+        "kind": "mcq",
+        "difficulty": 2,
+        "text": "What does the state symbol (aq) mean?",
+        "text_fr": "Que signifie le symbole d'état (aq) ?",
+        "explanation": "The letters aq stand for aqueous, meaning the substance is dissolved in water.",
+        "explanation_fr": "Les lettres aq signifient aqueux, c'est-à-dire dissous dans l'eau.",
+        "hint_prompt": "It relates to water.",
+        "hint_prompt_fr": "Cela se rapporte à l'eau.",
+        "choices": [
+          {"text": "Dissolved in water", "text_fr": "Dissous dans l'eau", "correct": true},
+          {"text": "A gas", "text_fr": "Un gaz", "correct": false},
+          {"text": "A pure solid", "text_fr": "Un solide pur", "correct": false},
+          {"text": "A pure liquid", "text_fr": "Un liquide pur", "correct": false}
+        ],
+        "hints": [
+          {"text": "Think of a solution.", "text_fr": "Pense à une solution."},
+          {"text": "It is dissolved in water.", "text_fr": "C'est dissous dans l'eau."}
+        ]
+      }
+    },
+    {
+      "kind": "concept",
+      "title": "Balancing an equation",
+      "title_fr": "Équilibrer une équation",
+      "content": "Atoms are not destroyed in a reaction, so each type of atom must appear the same number of times on both sides. To balance, you only change the big numbers in front of formulas, never the small numbers inside them.\n\nWorked example: Mg + O2, arrow, MgO is unbalanced because the left has two oxygen atoms and the right has one. Put a 2 in front of MgO to fix the oxygen: Mg + O2, arrow, 2MgO. Now the magnesium is unbalanced, so put a 2 in front of Mg. The balanced equation is 2Mg + O2, arrow, 2MgO.\n\nCheck your work by counting each atom on both sides at the end.",
+      "content_fr": "Les atomes ne sont pas détruits lors d'une réaction : chaque type d'atome doit donc apparaître autant de fois de chaque côté. Pour équilibrer, on ne change que les grands nombres devant les formules, jamais les petits nombres à l'intérieur.\n\nExemple rédigé : Mg + O2, flèche, MgO n'est pas équilibrée car la gauche a deux atomes d'oxygène et la droite un seul. Place un 2 devant MgO pour corriger l'oxygène : Mg + O2, flèche, 2MgO. Le magnésium est maintenant déséquilibré, alors place un 2 devant Mg. L'équation équilibrée est 2Mg + O2, flèche, 2MgO.\n\nVérifie ton travail en comptant chaque atome de chaque côté à la fin.",
+      "required": true,
+      "xp": 14,
+      "question": {
+        "kind": "numeric",
+        "difficulty": 3,
+        "text": "In 2Mg + O2, arrow, 2MgO, how many oxygen atoms are there on the right-hand side?",
+        "text_fr": "Dans 2Mg + O2, flèche, 2MgO, combien d'atomes d'oxygène y a-t-il à droite ?",
+        "explanation": "2MgO means 2 x 1 = 2 oxygen atoms on the right.",
+        "explanation_fr": "2MgO signifie 2 x 1 = 2 atomes d'oxygène à droite.",
+        "hint_prompt": "Multiply the big number by the small number.",
+        "hint_prompt_fr": "Multiplie le grand nombre par le petit nombre.",
+        "config": {"accepted": [2]},
+        "hints": [
+          {"text": "Each MgO has one oxygen.", "text_fr": "Chaque MgO a un oxygène."},
+          {"text": "2 x 1 = 2.", "text_fr": "2 x 1 = 2."}
+        ]
+      }
+    },
+    {
+      "kind": "explain",
+      "title": "State symbols and why they matter",
+      "title_fr": "Symboles d'état et leur utilité",
+      "content": "State symbols add extra information to an equation. They show whether a substance is a solid (s), a liquid (l), a gas (g) or dissolved in water (aq), and they help you picture what you would actually see in the laboratory.\n\nWorked example: CaCO3(s) + 2HCl(aq), arrow, CaCl2(aq) + H2O(l) + CO2(g) tells you that a solid reacts with a solution, giving a dissolved salt, liquid water and carbon dioxide gas that bubbles off.\n\nWhen you write state symbols, keep them small and in brackets right after each formula.",
+      "content_fr": "Les symboles d'état ajoutent des informations à une équation. Ils indiquent si un corps est solide (s), liquide (l), gazeux (g) ou dissous dans l'eau (aq), et ils t'aident à imaginer ce que tu verrais réellement au laboratoire.\n\nExemple rédigé : CaCO3(s) + 2HCl(aq), flèche, CaCl2(aq) + H2O(l) + CO2(g) t'indique qu'un solide réagit avec une solution et donne un sel dissous, de l'eau liquide et du dioxyde de carbone gazeux qui s'échappe en bulles.\n\nQuand tu écris les symboles d'état, garde-les petits et entre parenthèses juste après chaque formule.",
+      "required": true,
+      "xp": 12,
+      "question": {
+        "kind": "mcq",
+        "difficulty": 2,
+        "text": "Which state symbol would you write for carbon dioxide gas?",
+        "text_fr": "Quel symbole d'état écrirais-tu pour le dioxyde de carbone gazeux ?",
+        "explanation": "Gases are written with (g), so carbon dioxide is CO2(g).",
+        "explanation_fr": "Les gaz s'écrivent (g) : le dioxyde de carbone s'écrit CO2(g).",
+        "hint_prompt": "It bubbles off as a gas.",
+        "hint_prompt_fr": "Il s'échappe sous forme de gaz.",
+        "choices": [
+          {"text": "(g)", "text_fr": "(g)", "correct": true},
+          {"text": "(s)", "text_fr": "(s)", "correct": false},
+          {"text": "(l)", "text_fr": "(l)", "correct": false},
+          {"text": "(aq)", "text_fr": "(aq)", "correct": false}
+        ],
+        "hints": [
+          {"text": "Gas is the state.", "text_fr": "L'état est gazeux."},
+          {"text": "Use the letter g.", "text_fr": "Utilise la lettre g."}
+        ]
+      }
+    },
+    {
+      "kind": "practice",
+      "title": "Your turn: count the atoms",
+      "title_fr": "À toi : compte les atomes",
+      "content": "Balance one step at a time. Count each type of atom on both sides, add a big number in front of a formula to fix the worst mismatch, and recount from the start after every change.",
+      "content_fr": "Équilibre une étape à la fois. Compte chaque type d'atome de chaque côté, ajoute un grand nombre devant une formule pour corriger le plus gros écart, et recompte depuis le début après chaque changement.",
+      "required": true,
+      "xp": 12,
+      "question": {
+        "kind": "numeric",
+        "difficulty": 3,
+        "text": "In the balanced equation 2H2 + O2, arrow, 2H2O, how many oxygen atoms are on the left-hand side?",
+        "text_fr": "Dans l'équation équilibrée 2H2 + O2, flèche, 2H2O, combien d'atomes d'oxygène y a-t-il à gauche ?",
+        "explanation": "O2 supplies 2 oxygen atoms, matching the 2 in 2H2O on the right.",
+        "explanation_fr": "O2 apporte 2 atomes d'oxygène, ce qui correspond aux 2 de 2H2O à droite.",
+        "hint_prompt": "Look at the subscript on O2.",
+        "hint_prompt_fr": "Regarde l'indice de O2.",
+        "config": {"accepted": [2]},
+        "hints": [
+          {"text": "O2 has a subscript of 2.", "text_fr": "O2 a un indice de 2."},
+          {"text": "So there are 2 oxygen atoms.", "text_fr": "Il y a donc 2 atomes d'oxygène."}
+        ]
+      }
+    },
+    {
+      "kind": "summary",
+      "title": "What to keep",
+      "title_fr": "À retenir",
+      "content": "Reactants on the left, products on the right, joined by an arrow. Replace names with formulas and add state symbols (s), (l), (g), (aq). Balance by changing only the big numbers in front of formulas so that every type of atom is equal on both sides.",
+      "content_fr": "Les réactifs à gauche, les produits à droite, reliés par une flèche. Remplace les noms par les formules et ajoute les symboles d'état (s), (l), (g), (aq). Équilibre en changeant seulement les grands nombres devant les formules, afin que chaque type d'atome soit égal des deux côtés.",
+      "xp": 5
+    }
+  ],
+  "quiz": {
+    "title": "Quiz: word and symbol equations",
+    "title_fr": "Quiz : équations en mots et en symboles",
+    "pass_score": 60,
+    "questions": [
+      {
+        "kind": "mcq",
+        "difficulty": 1,
+        "text": "Which side of a word equation lists the reactants?",
+        "text_fr": "Quel côté d'une équation en mots liste les réactifs ?",
+        "explanation": "Reactants are the starting substances, written on the left.",
+        "explanation_fr": "Les réactifs sont les corps de départ, écrits à gauche.",
+        "hint_prompt": "They are what you start with.",
+        "hint_prompt_fr": "Ce sont les corps de départ.",
+        "choices": [
+          {"text": "The left side", "text_fr": "Le côté gauche", "correct": true},
+          {"text": "The right side", "text_fr": "Le côté droit", "correct": false},
+          {"text": "Both sides", "text_fr": "Les deux côtés", "correct": false},
+          {"text": "Neither side", "text_fr": "Aucun côté", "correct": false}
+        ],
+        "hints": [
+          {"text": "Start on the left.", "text_fr": "Commence à gauche."},
+          {"text": "The reactants go on the left.", "text_fr": "Les réactifs vont à gauche."}
+        ]
+      },
+      {
+        "kind": "numeric",
+        "difficulty": 2,
+        "text": "In the formula H2O, how many hydrogen atoms are shown?",
+        "text_fr": "Dans la formule H2O, combien d'atomes d'hydrogène sont représentés ?",
+        "explanation": "The subscript 2 after H means there are 2 hydrogen atoms.",
+        "explanation_fr": "L'indice 2 après H signifie qu'il y a 2 atomes d'hydrogène.",
+        "hint_prompt": "Look at the small number after H.",
+        "hint_prompt_fr": "Regarde le petit nombre après H.",
+        "config": {"accepted": [2]},
+        "hints": [
+          {"text": "Subscripts count atoms.", "text_fr": "Les indices comptent les atomes."},
+          {"text": "The subscript is 2.", "text_fr": "L'indice est 2."}
+        ]
+      },
+      {
+        "kind": "mcq",
+        "difficulty": 2,
+        "text": "When balancing an equation, which number may you change?",
+        "text_fr": "Pour équilibrer une équation, quel nombre peux-tu changer ?",
+        "explanation": "Only the large numbers in front of the formulas may change, never the subscripts inside them.",
+        "explanation_fr": "Seuls les grands nombres devant les formules peuvent changer, jamais les indices à l'intérieur.",
+        "hint_prompt": "One changes the count, the other changes the substance.",
+        "hint_prompt_fr": "L'un change le nombre, l'autre change le corps.",
+        "choices": [
+          {"text": "The number in front of a formula", "text_fr": "Le nombre devant une formule", "correct": true},
+          {"text": "The subscript inside a formula", "text_fr": "L'indice à l'intérieur d'une formule", "correct": false},
+          {"text": "The arrow", "text_fr": "La flèche", "correct": false},
+          {"text": "The state symbol", "text_fr": "Le symbole d'état", "correct": false}
+        ],
+        "hints": [
+          {"text": "Changing a subscript makes a new substance.", "text_fr": "Changer un indice crée un nouveau corps."},
+          {"text": "Only the big number in front is safe.", "text_fr": "Seul le grand nombre devant est sans danger."}
+        ]
+      },
+      {
+        "kind": "numeric",
+        "difficulty": 3,
+        "text": "In 2H2 + O2, arrow, 2H2O, how many hydrogen atoms are on the left?",
+        "text_fr": "Dans 2H2 + O2, flèche, 2H2O, combien d'atomes d'hydrogène y a-t-il à gauche ?",
+        "explanation": "2H2 means 2 x 2 = 4 hydrogen atoms, matching the 4 in 2H2O.",
+        "explanation_fr": "2H2 signifie 2 x 2 = 4 atomes d'hydrogène, ce qui correspond aux 4 de 2H2O.",
+        "hint_prompt": "Multiply the big number by the subscript.",
+        "hint_prompt_fr": "Multiplie le grand nombre par l'indice.",
+        "config": {"accepted": [4]},
+        "hints": [
+          {"text": "2 x 2.", "text_fr": "2 x 2."},
+          {"text": "= 4 atoms.", "text_fr": "= 4 atomes."}
+        ]
+      },
+      {
+        "kind": "mcq",
+        "difficulty": 2,
+        "text": "Which equation is balanced?",
+        "text_fr": "Quelle équation est équilibrée ?",
+        "explanation": "2H2 + O2, arrow, 2H2O has 4 H and 2 O on each side. The others are not balanced.",
+        "explanation_fr": "2H2 + O2, flèche, 2H2O a 4 H et 2 O de chaque côté. Les autres ne sont pas équilibrées.",
+        "hint_prompt": "Count atoms on both sides for each choice.",
+        "hint_prompt_fr": "Compte les atomes des deux côtés pour chaque choix.",
+        "choices": [
+          {"text": "2H2 + O2, arrow, 2H2O", "text_fr": "2H2 + O2, flèche, 2H2O", "correct": true},
+          {"text": "H2 + O2, arrow, H2O", "text_fr": "H2 + O2, flèche, H2O", "correct": false},
+          {"text": "Mg + O2, arrow, MgO", "text_fr": "Mg + O2, flèche, MgO", "correct": false},
+          {"text": "H2 + O2, arrow, 2H2O", "text_fr": "H2 + O2, flèche, 2H2O", "correct": false}
+        ],
+        "hints": [
+          {"text": "Check oxygen first.", "text_fr": "Vérifie d'abord l'oxygène."},
+          {"text": "Then recount hydrogen.", "text_fr": "Puis recompte l'hydrogène."}
+        ]
+      }
+    ]
+  }
+}

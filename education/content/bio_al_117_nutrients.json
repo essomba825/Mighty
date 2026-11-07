@@ -1,0 +1,217 @@
+{
+  "lesson": 117,
+  "status": "published",
+  "lesson_fields": {
+    "title": "Nutrient Cycles and Human Impact",
+    "title_fr": "Cycles des nutriments et impact humain",
+    "summary": "Nutrients like carbon and nitrogen are recycled in nature. Human activities, such as burning fuels and farming, can affect these cycles and the environment.",
+    "summary_fr": "Les nutriments comme le carbone et l'azote sont recycles dans la nature. Les activites humaines, comme la combustion de combustibles et l'agriculture, peuvent affecter ces cycles et l'environnement.",
+    "content": "## The carbon cycle\n\nCarbon moves between the air, plants, animals and soil. Plants take in carbon dioxide by photosynthesis. Animals and plants release carbon dioxide by respiration. Burning fuels adds carbon dioxide to the air.\n\n## Human impact\n\nBurning fossil fuels increases carbon dioxide in the atmosphere, which can lead to climate change. Pollution and deforestation can harm ecosystems.",
+    "content_fr": "## Le cycle du carbone\n\nLe carbone circule entre l'air, les plantes, les animaux et le sol. Les plantes absorbent le dioxyde de carbone par photosynthese. Les animaux et les plantes rejettent du dioxyde de carbone par respiration. La combustion de combustibles ajoute du dioxyde de carbone dans l'air.\n\n## Impact humain\n\nLa combustion de combustibles fossiles augmente le dioxyde de carbone dans l'atmosphere, ce qui peut entrainer le changement climatique. La pollution et la deforestation peuvent nuire aux ecosystemes.",
+    "objectives": [
+      "Describe the carbon cycle in simple terms",
+      "Explain how humans affect the carbon cycle",
+      "Give one effect of climate change"
+    ],
+    "objectives_fr": [
+      "Decrire le cycle du carbone simplement",
+      "Expliquer comment l'homme affecte le cycle du carbone",
+      "Citer un effet du changement climatique"
+    ],
+    "estimated_minutes": 25
+  },
+  "steps": [
+    {
+      "kind": "concept",
+      "title": "Recycling nutrients",
+      "title_fr": "Recycler les nutriments",
+      "content": "Nutrients are not lost from Earth; they are recycled. Decomposers break down dead plants and animals, returning nutrients to the soil for plants to use again.",
+      "content_fr": "Les nutriments ne sont pas perdus sur Terre ; ils sont recycles. Les decomposeurs decomposent les plantes et animaux morts, en renvoyant les nutriments dans le sol pour que les plantes les reutilisent.",
+      "required": true,
+      "xp": 10,
+      "question": {
+        "kind": "mcq",
+        "text": "What do decomposers do?",
+        "text_fr": "Que font les decomposeurs ?",
+        "explanation": "They break down dead organisms and return nutrients to the soil.",
+        "explanation_fr": "Ils decomposent les organismes morts et renvoient les nutriments dans le sol.",
+        "hint_prompt": "They recycle dead matter.",
+        "hint_prompt_fr": "Ils recyclent la matiere morte.",
+        "choices": [
+          {"text": "Break down dead organisms", "text_fr": "Decomposent les organismes morts", "correct": true},
+          {"text": "Make food by photosynthesis", "text_fr": "Fabriquent leur nourriture par photosynthese", "correct": false},
+          {"text": "Hunt other animals", "text_fr": "Chassent d'autres animaux", "correct": false}
+        ],
+        "hints": [
+          {"text": "Fungi and bacteria are decomposers.", "text_fr": "Les champignons et les bacteries sont des decomposeurs."}
+        ]
+      }
+    },
+    {
+      "kind": "explain",
+      "title": "Carbon in the air",
+      "title_fr": "Le carbone dans l'air",
+      "content": "Plants take in carbon dioxide from the air during photosynthesis. Animals get carbon by eating plants or other animals. Both plants and animals release carbon dioxide back into the air during respiration.",
+      "content_fr": "Les plantes absorbent le dioxyde de carbone de l'air pendant la photosynthese. Les animaux obtiennent du carbone en mangeant des plantes ou d'autres animaux. Les plantes et les animaux rejettent du dioxyde de carbone dans l'air pendant la respiration.",
+      "required": true,
+      "xp": 10
+    },
+    {
+      "kind": "example",
+      "title": "Burning adds carbon",
+      "title_fr": "La combustion ajoute du carbone",
+      "content": "When we burn fossil fuels like coal, oil or gas, carbon that was stored underground is released as carbon dioxide. This adds extra carbon dioxide to the atmosphere.",
+      "content_fr": "Quand nous brulons des combustibles fossiles comme le charbon, le petrole ou le gaz, le carbone stocke sous terre est libere sous forme de dioxyde de carbone. Cela ajoute du dioxyde de carbone supplementaire dans l'atmosphere.",
+      "required": true,
+      "xp": 12
+    },
+    {
+      "kind": "practice",
+      "title": "Your turn: photosynthesis",
+      "title_fr": "A toi : photosynthese",
+      "content": "During photosynthesis, plants remove which gas from the air?",
+      "content_fr": "Pendant la photosynthese, les plantes retirent quel gaz de l'air ?",
+      "required": true,
+      "xp": 12,
+      "question": {
+        "kind": "mcq",
+        "text": "Which gas is removed by photosynthesis?",
+        "text_fr": "Quel gaz est retire par la photosynthese ?",
+        "explanation": "Plants take in carbon dioxide during photosynthesis.",
+        "explanation_fr": "Les plantes absorbent le dioxyde de carbone pendant la photosynthese.",
+        "hint_prompt": "Plants use it to make food.",
+        "hint_prompt_fr": "Les plantes l'utilisent pour fabriquer leur nourriture.",
+        "choices": [
+          {"text": "Carbon dioxide", "text_fr": "Le dioxyde de carbone", "correct": true},
+          {"text": "Oxygen", "text_fr": "L'oxygene", "correct": false},
+          {"text": "Nitrogen", "text_fr": "L'azote", "correct": false}
+        ],
+        "hints": [
+          {"text": "It is CO2.", "text_fr": "C'est le CO2."}
+        ]
+      }
+    },
+    {
+      "kind": "question",
+      "title": "Check: climate change",
+      "title_fr": "Verification : changement climatique",
+      "content": "Extra carbon dioxide in the atmosphere traps heat. This can lead to climate change, causing rising sea levels, more extreme weather and changes to habitats.",
+      "content_fr": "Le dioxyde de carbone supplementaire dans l'atmosphere retient la chaleur. Cela peut entrainer le changement climatique, provoquant la montee du niveau des mers, des evenements meteorologiques extremes et des changements d'habitats.",
+      "required": true,
+      "xp": 12,
+      "question": {
+        "kind": "mcq",
+        "text": "What is one effect of climate change?",
+        "text_fr": "Quel est un effet du changement climatique ?",
+        "explanation": "Rising sea levels are one effect of climate change.",
+        "explanation_fr": "La montee du niveau des mers est un effet du changement climatique.",
+        "hint_prompt": "Ice melts and oceans expand.",
+        "hint_prompt_fr": "La glace fond et les oceans se dilatent.",
+        "choices": [
+          {"text": "Rising sea levels", "text_fr": "La montee du niveau des mers", "correct": true},
+          {"text": "More oxygen in the air", "text_fr": "Plus d'oxygene dans l'air", "correct": false},
+          {"text": "Fewer storms", "text_fr": "Moins de tempetes", "correct": false}
+        ],
+        "hints": [
+          {"text": "Oceans get higher.", "text_fr": "Les oceans montent."}
+        ]
+      }
+    },
+    {
+      "kind": "summary",
+      "title": "What to keep",
+      "title_fr": "A retenir",
+      "content": "Carbon is recycled through photosynthesis, respiration and decomposition. Burning fossil fuels adds extra carbon dioxide, which can cause climate change.",
+      "content_fr": "Le carbone est recycle par la photosynthese, la respiration et la decomposition. La combustion de combustibles fossiles ajoute du dioxyde de carbone supplementaire, ce qui peut provoquer le changement climatique.",
+      "required": false,
+      "xp": 5
+    }
+  ],
+  "quiz": {
+    "title": "Nutrient Cycles and Human Impact",
+    "title_fr": "Cycles des nutriments et impact humain",
+    "pass_score": 60,
+    "questions": [
+      {
+        "kind": "mcq",
+        "text": "Which process removes carbon dioxide from the air?",
+        "text_fr": "Quel processus retire le dioxyde de carbone de l'air ?",
+        "explanation": "Photosynthesis removes carbon dioxide.",
+        "explanation_fr": "La photosynthese retire le dioxyde de carbone.",
+        "choices": [
+          {"text": "Photosynthesis", "text_fr": "La photosynthese", "correct": true},
+          {"text": "Respiration", "text_fr": "La respiration", "correct": false},
+          {"text": "Burning fuels", "text_fr": "La combustion de combustibles", "correct": false}
+        ],
+        "hints": [
+          {"text": "Plants do this.", "text_fr": "Les plantes le font."}
+        ],
+        "difficulty": 1
+      },
+      {
+        "kind": "mcq",
+        "text": "Which process adds carbon dioxide to the air?",
+        "text_fr": "Quel processus ajoute du dioxyde de carbone dans l'air ?",
+        "explanation": "Respiration releases carbon dioxide.",
+        "explanation_fr": "La respiration rejette du dioxyde de carbone.",
+        "choices": [
+          {"text": "Respiration", "text_fr": "La respiration", "correct": true},
+          {"text": "Photosynthesis", "text_fr": "La photosynthese", "correct": false},
+          {"text": "Growing plants", "text_fr": "Faire pousser des plantes", "correct": false}
+        ],
+        "hints": [
+          {"text": "All living things do this.", "text_fr": "Tous les etres vivants le font."}
+        ],
+        "difficulty": 1
+      },
+      {
+        "kind": "mcq",
+        "text": "How do decomposers help the carbon cycle?",
+        "text_fr": "Comment les decomposeurs aident-ils le cycle du carbone ?",
+        "explanation": "They return carbon to the soil and air by breaking down dead organisms.",
+        "explanation_fr": "Ils renvoient le carbone dans le sol et l'air en decomposant les organismes morts.",
+        "choices": [
+          {"text": "They return nutrients to the soil", "text_fr": "Ils renvoient les nutriments dans le sol", "correct": true},
+          {"text": "They stop the cycle", "text_fr": "Ils arretent le cycle", "correct": false},
+          {"text": "They only use oxygen", "text_fr": "Ils utilisent seulement de l'oxygene", "correct": false}
+        ],
+        "hints": [
+          {"text": "They recycle dead matter.", "text_fr": "Ils recyclent la matiere morte."}
+        ],
+        "difficulty": 1
+      },
+      {
+        "kind": "mcq",
+        "text": "What causes extra carbon dioxide in the atmosphere?",
+        "text_fr": "Qu'est-ce qui provoque du dioxyde de carbone supplementaire dans l'atmosphere ?",
+        "explanation": "Burning fossil fuels releases stored carbon.",
+        "explanation_fr": "La combustion de combustibles fossiles libere du carbone stocke.",
+        "choices": [
+          {"text": "Burning fossil fuels", "text_fr": "Bruler des combustibles fossiles", "correct": true},
+          {"text": "Planting trees", "text_fr": "Planter des arbres", "correct": false},
+          {"text": "Reducing pollution", "text_fr": "Reduire la pollution", "correct": false}
+        ],
+        "hints": [
+          {"text": "Fuels like coal and oil.", "text_fr": "Des combustibles comme le charbon et le petrole."}
+        ],
+        "difficulty": 1
+      },
+      {
+        "kind": "mcq",
+        "text": "What is a possible effect of increased carbon dioxide?",
+        "text_fr": "Quel est un effet possible d'une augmentation du dioxyde de carbone ?",
+        "explanation": "More carbon dioxide can lead to climate change.",
+        "explanation_fr": "Plus de dioxyde de carbone peut entrainer le changement climatique.",
+        "choices": [
+          {"text": "Climate change", "text_fr": "Le changement climatique", "correct": true},
+          {"text": "Colder winters everywhere", "text_fr": "Des hivers plus froids partout", "correct": false},
+          {"text": "Less rain", "text_fr": "Moins de pluie partout", "correct": false}
+        ],
+        "hints": [
+          {"text": "The Earth warms up.", "text_fr": "La Terre se rechauffe."}
+        ],
+        "difficulty": 2
+      }
+    ]
+  }
+}

@@ -1,0 +1,225 @@
+{
+  "lesson": 93,
+  "status": "published",
+  "lesson_fields": {
+    "title": "Solving Quadratic Inequalities",
+    "title_fr": "Resoudre des inequations du second degre",
+    "summary": "Solve inequalities by finding critical values and testing intervals on a sign diagram.",
+    "summary_fr": "Resoudre des inequations en trouvant les valeurs critiques et en testant les intervalles sur un tableau de signes.",
+    "content": "To solve a quadratic inequality, rearrange it so one side is zero, factorise or find the roots, then read the sign of the quadratic on each interval. The solution is written with **interval notation**.",
+    "content_fr": "Pour resoudre une inequation du second degre, ramene tout dans un membre, factorise ou trouve les racines, puis etudie le signe du trinome sur chaque intervalle. On ecrit l ensemble solution en **notation d intervalle**.",
+    "objectives": [
+      "Rearrange an inequality to compare with zero",
+      "Find the critical values of a quadratic",
+      "Write the solution set using interval notation"
+    ],
+    "objectives_fr": [
+      "Rearranger une inequation pour comparer a zero",
+      "Trouver les valeurs critiques d un trinome",
+      "Ecrire l ensemble solution en notation d intervalle"
+    ]
+  },
+  "steps": [
+    {
+      "kind": "concept",
+      "title": "What an inequality asks",
+      "title_fr": "Ce que demande une inequation",
+      "content": "An inequality like `x^2 - 4x + 3 > 0` asks: for which values of `x` is the expression **positive**?\n\nThe expression changes sign only at its **critical values**, the solutions of `x^2 - 4x + 3 = 0`. Between those values the sign stays the same.",
+      "content_fr": "Une inequation comme `x^2 - 4x + 3 > 0` demande : pour quelles valeurs de `x` l expression est-elle **positive** ?\n\nL expression ne change de signe qu a ses **valeurs critiques**, solutions de `x^2 - 4x + 3 = 0`. Entre ces valeurs, le signe reste le meme.",
+      "required": false,
+      "xp": 10
+    },
+    {
+      "kind": "explain",
+      "title": "The sign-diagram method",
+      "title_fr": "La methode du tableau de signes",
+      "content": "1. Rearrange so one side is zero.\n2. Find the critical values (roots).\n3. Put them on a number line and test one value in each interval.\n4. Read off the intervals matching the inequality sign.\n\nExample, `x^2 - 4x + 3 > 0`:\n\nRoots are `x = 1` and `x = 3`. The parabola opens upward, so it is negative between the roots and positive outside:\n\n    positive | negative | positive\n        1         3\n\nSo `x < 1` or `x > 3`.",
+      "content_fr": "1. Rearrange pour avoir zero d un cote.\n2. Trouve les valeurs critiques (racines).\n3. Place-les sur une droite graduee et teste une valeur dans chaque intervalle.\n4. Selectionne les intervalles qui correspondent au signe demande.\n\nExemple, `x^2 - 4x + 3 > 0` :\n\nLes racines sont `x = 1` et `x = 3`. La parabole s ouvre vers le haut : elle est negative entre les racines et positive a l exterieur.\n\n    positif | negatif | positif\n        1         3\n\nDonc `x < 1` ou `x > 3`.",
+      "required": false,
+      "xp": 10
+    },
+    {
+      "kind": "question",
+      "title": "Critical values",
+      "title_fr": "Les valeurs critiques",
+      "content": "Factorise the quadratic to find where it equals zero.",
+      "content_fr": "Factorise le trinome pour trouver ou il s annule.",
+      "required": true,
+      "xp": 20,
+      "question": {
+        "kind": "mcq",
+        "difficulty": 2,
+        "text": "What are the critical values of x^2 - 4x + 3?",
+        "text_fr": "Quelles sont les valeurs critiques de x^2 - 4x + 3 ?",
+        "explanation": "x^2 - 4x + 3 = (x - 1)(x - 3), so the critical values are x = 1 and x = 3.",
+        "explanation_fr": "x^2 - 4x + 3 = (x - 1)(x - 3), donc les valeurs critiques sont x = 1 et x = 3.",
+        "hint_prompt": "Which two numbers multiply to 3 and add to -4?",
+        "hint_prompt_fr": "Quels deux nombres ont pour produit 3 et pour somme -4 ?",
+        "choices": [
+          {"text": "x = 1 and x = 3", "text_fr": "x = 1 et x = 3", "correct": true},
+          {"text": "x = -1 and x = -3", "text_fr": "x = -1 et x = -3", "correct": false},
+          {"text": "x = 1 and x = -3", "text_fr": "x = 1 et x = -3", "correct": false},
+          {"text": "x = 0 and x = 4", "text_fr": "x = 0 et x = 4", "correct": false}
+        ],
+        "hints": [
+          {"text": "Look for two numbers that multiply to 3 and add to -4.", "text_fr": "Cherche deux nombres de produit 3 et de somme -4."},
+          {"text": "They are -1 and -3, so the roots are 1 and 3.", "text_fr": "Ce sont -1 et -3, donc les racines sont 1 et 3."}
+        ]
+      }
+    },
+    {
+      "kind": "question",
+      "title": "Read the solution set",
+      "title_fr": "Lire l ensemble solution",
+      "content": "The parabola opens upward, so it is positive outside the roots.",
+      "content_fr": "La parabole s ouvre vers le haut : elle est positive a l exterieur des racines.",
+      "required": true,
+      "xp": 20,
+      "question": {
+        "kind": "mcq",
+        "difficulty": 2,
+        "text": "Solve x^2 - 4x + 3 > 0.",
+        "text_fr": "Resous x^2 - 4x + 3 > 0.",
+        "explanation": "The expression is positive outside the roots 1 and 3, so the solution is x < 1 or x > 3.",
+        "explanation_fr": "L expression est positive a l exterieur des racines 1 et 3 : la solution est x < 1 ou x > 3.",
+        "hint_prompt": "Is the sign positive inside or outside the roots?",
+        "hint_prompt_fr": "Le signe est-il positif entre les racines ou a l exterieur ?",
+        "choices": [
+          {"text": "x < 1 or x > 3", "text_fr": "x < 1 ou x > 3", "correct": true},
+          {"text": "1 < x < 3", "text_fr": "1 < x < 3", "correct": false},
+          {"text": "x > 1", "text_fr": "x > 1", "correct": false},
+          {"text": "x < 3", "text_fr": "x < 3", "correct": false}
+        ],
+        "hints": [
+          {"text": "Test x = 0: the expression equals 3, which is positive.", "text_fr": "Teste x = 0 : l expression vaut 3, donc positive."},
+          {"text": "Test x = 2: the expression equals -1, which is negative.", "text_fr": "Teste x = 2 : l expression vaut -1, donc negative."}
+        ]
+      }
+    },
+    {
+      "kind": "explain",
+      "title": "Interval notation",
+      "title_fr": "La notation d intervalle",
+      "content": "The solution `x < 1` or `x > 3` is written using intervals:\n\n    (-infinity, 1) union (3, +infinity)\n\nRound brackets mean the endpoint is **excluded**. If the inequality is `>=` or `<=`, the endpoint is **included** and we use square brackets: `(-infinity, 1] union [3, +infinity)`.",
+      "content_fr": "La solution `x < 1` ou `x > 3` s ecrit avec des intervalles :\n\n    (-infini, 1) union (3, +infini)\n\nLes crochets ouverts signifient que la borne est **exclue**. Si l inequation est `>=` ou `<=`, la borne est **incluse** et l on emploie des crochets fermes : `(-infini, 1] union [3, +infinity)`.",
+      "required": false,
+      "xp": 10
+    },
+    {
+      "kind": "summary",
+      "title": "Method recap",
+      "title_fr": "Recapitulatif de la methode",
+      "content": "1. Rearrange to put zero on one side.\n2. Find the roots (critical values).\n3. Sketch the sign of the quadratic: it opens up if `a > 0`.\n4. Select the intervals that match the sign, and use `>=`/`<=` endpoints when the sign is not strict.",
+      "content_fr": "1. Rearrange pour mettre zero d un cote.\n2. Trouve les racines (valeurs critiques).\n3. Etudie le signe du trinome : il s ouvre vers le haut si `a > 0`.\n4. Selectionne les intervalles correspondant au signe, en incluant les bornes quand l inegalite n est pas stricte.",
+      "required": false,
+      "xp": 10
+    }
+  ],
+  "quiz": {
+    "title": "Quiz - Solving quadratic inequalities",
+    "title_fr": "Quiz - Resoudre des inequations du second degre",
+    "pass_score": 60,
+    "questions": [
+      {
+        "kind": "mcq",
+        "difficulty": 2,
+        "text": "What are the critical values of x^2 - 5x + 6?",
+        "text_fr": "Quelles sont les valeurs critiques de x^2 - 5x + 6 ?",
+        "explanation": "x^2 - 5x + 6 = (x - 2)(x - 3), so the critical values are 2 and 3.",
+        "explanation_fr": "x^2 - 5x + 6 = (x - 2)(x - 3), donc les valeurs critiques sont 2 et 3.",
+        "hint_prompt": "Find two numbers with product 6 and sum -5.",
+        "hint_prompt_fr": "Trouve deux nombres de produit 6 et de somme -5.",
+        "choices": [
+          {"text": "2 and 3", "text_fr": "2 et 3", "correct": true},
+          {"text": "-2 and -3", "text_fr": "-2 et -3", "correct": false},
+          {"text": "1 and 6", "text_fr": "1 et 6", "correct": false},
+          {"text": "0 and 5", "text_fr": "0 et 5", "correct": false}
+        ],
+        "hints": [
+          {"text": "The numbers must multiply to 6.", "text_fr": "Les nombres doivent avoir pour produit 6."},
+          {"text": "They are 2 and 3.", "text_fr": "Ce sont 2 et 3."}
+        ]
+      },
+      {
+        "kind": "mcq",
+        "difficulty": 2,
+        "text": "Solve x^2 - 5x + 6 > 0.",
+        "text_fr": "Resous x^2 - 5x + 6 > 0.",
+        "explanation": "The parabola opens upward, so it is positive outside the roots 2 and 3: x < 2 or x > 3.",
+        "explanation_fr": "La parabole s ouvre vers le haut : positive a l exterieur des racines 2 et 3, soit x < 2 ou x > 3.",
+        "hint_prompt": "Positive outside the roots for an upward parabola.",
+        "hint_prompt_fr": "Positive a l exterieur des racines pour une parabole vers le haut.",
+        "choices": [
+          {"text": "x < 2 or x > 3", "text_fr": "x < 2 ou x > 3", "correct": true},
+          {"text": "2 < x < 3", "text_fr": "2 < x < 3", "correct": false},
+          {"text": "x > 2", "text_fr": "x > 2", "correct": false},
+          {"text": "x < 3", "text_fr": "x < 3", "correct": false}
+        ],
+        "hints": [
+          {"text": "The parabola opens upward.", "text_fr": "La parabole s ouvre vers le haut."},
+          {"text": "Positive outside the roots 2 and 3.", "text_fr": "Positive a l exterieur des racines 2 et 3."}
+        ]
+      },
+      {
+        "kind": "mcq",
+        "difficulty": 2,
+        "text": "Solve x^2 - 5x + 6 < 0.",
+        "text_fr": "Resous x^2 - 5x + 6 < 0.",
+        "explanation": "The expression is negative between the roots, so 2 < x < 3.",
+        "explanation_fr": "L expression est negative entre les racines : 2 < x < 3.",
+        "hint_prompt": "Now you want the negative part.",
+        "hint_prompt_fr": "Tu veux maintenant la partie negative.",
+        "choices": [
+          {"text": "2 < x < 3", "text_fr": "2 < x < 3", "correct": true},
+          {"text": "x < 2 or x > 3", "text_fr": "x < 2 ou x > 3", "correct": false},
+          {"text": "x < 2", "text_fr": "x < 2", "correct": false},
+          {"text": "x > 3", "text_fr": "x > 3", "correct": false}
+        ],
+        "hints": [
+          {"text": "The expression is negative between the roots.", "text_fr": "L expression est negative entre les racines."},
+          {"text": "So x lies strictly between 2 and 3.", "text_fr": "Donc x est strictement compris entre 2 et 3."}
+        ]
+      },
+      {
+        "kind": "mcq",
+        "difficulty": 2,
+        "text": "Which interval notation means x is at least 3?",
+        "text_fr": "Quelle notation d intervalle signifie que x est au moins egal a 3 ?",
+        "explanation": "Greater than or equal to 3 includes the endpoint, so we use a square bracket: [3, +infinity).",
+        "explanation_fr": "Superieur ou egal a 3 inclut la borne : on utilise un crochet ferme, soit [3, +infini).",
+        "hint_prompt": "A square bracket includes the endpoint.",
+        "hint_prompt_fr": "Un crochet carre inclut la borne.",
+        "choices": [
+          {"text": "[3, +infinity)", "text_fr": "[3, +infini)", "correct": true},
+          {"text": "(3, +infinity)", "text_fr": "(3, +infini)", "correct": false},
+          {"text": "(-infinity, 3]", "text_fr": "(-infini, 3]", "correct": false},
+          {"text": "[0, 3]", "text_fr": "[0, 3]", "correct": false}
+        ],
+        "hints": [
+          {"text": "The value 3 itself is included.", "text_fr": "La valeur 3 elle-meme est incluse."},
+          {"text": "An included endpoint uses a square bracket.", "text_fr": "Une borne incluse s ecrit avec un crochet carre."}
+        ]
+      },
+      {
+        "kind": "mcq",
+        "difficulty": 3,
+        "text": "The parabola of y = x^2 + 2x + 5 has discriminant -16. What is the solution of x^2 + 2x + 5 > 0 ?",
+        "text_fr": "La parabole d equation y = x^2 + 2x + 5 a un discriminant de -16. Quelle est la solution de x^2 + 2x + 5 > 0 ?",
+        "explanation": "There are no real roots and the parabola opens upward, so the expression is positive for every real x. The solution is all real numbers.",
+        "explanation_fr": "Il n y a aucune racine reelle et la parabole s ouvre vers le haut : l expression est positive pour tout reel. La solution est l ensemble des nombres reels.",
+        "hint_prompt": "No real roots plus arms opening upward means always positive.",
+        "hint_prompt_fr": "Aucune racine reelle et branches vers le haut signifie toujours positif.",
+        "choices": [
+          {"text": "All real numbers", "text_fr": "Tous les nombres reels", "correct": true},
+          {"text": "No real numbers", "text_fr": "Aucun nombre reel", "correct": false},
+          {"text": "Only x = 0", "text_fr": "Seulement x = 0", "correct": false},
+          {"text": "x between the two roots", "text_fr": "x entre les deux racines", "correct": false}
+        ],
+        "hints": [
+          {"text": "The curve never touches the x-axis.", "text_fr": "La courbe ne touche jamais l axe des abscisses."},
+          {"text": "It opens upward, so it stays above the axis.", "text_fr": "Elle s ouvre vers le haut, donc reste au-dessus de l axe."}
+        ]
+      }
+    ]
+  }
+}

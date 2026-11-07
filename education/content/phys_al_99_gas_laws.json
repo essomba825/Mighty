@@ -1,0 +1,323 @@
+{
+  "lesson": 99,
+  "status": "published",
+  "lesson_fields": {
+    "title": "The Gas Laws",
+    "title_fr": "Lois des gaz",
+    "summary": "The pressure, volume and temperature of a gas are linked. Boyle's law, Charles's law and the pressure law each hold one quantity constant.",
+    "summary_fr": "La pression, le volume et la temperature d'un gaz sont lies. La loi de Boyle, la loi de Charles et la loi de pression fixent chacune une quantite constante.",
+    "content": "## Three simple laws\n\nBoyle's law says pressure times volume is constant when temperature is fixed. Charles's law says volume divided by temperature is constant when pressure is fixed. The pressure law says pressure divided by temperature is constant when volume is fixed.\n\n## One combined law\n\nAll three combine into one gas law: pressure times volume divided by temperature is constant for a fixed amount of gas.",
+    "content_fr": "## Trois lois simples\n\nLa loi de Boyle dit que pression fois volume est constant quand la temperature est fixee. La loi de Charles dit que volume divise par temperature est constant quand la pression est fixee. La loi de pression dit que pression divise par temperature est constant quand le volume est fixee.\n\n## Une loi unique\n\nLes trois se combinent en une loi de gaz : pression fois volume divise par temperature est constant pour une quantite fixee de gaz.",
+    "objectives": [
+      "State Boyle's law and Charles's law",
+      "Use the gas laws to predict changes in pressure, volume or temperature",
+      "Apply the combined gas law to a problem"
+    ],
+    "objectives_fr": [
+      "Enoncer la loi de Boyle et la loi de Charles",
+      "Utiliser les lois des gaz pour prevoir les variations de pression, volume ou temperature",
+      "Appliquer la loi combinee a un probleme"
+    ],
+    "estimated_minutes": 25
+  },
+  "steps": [
+    {
+      "kind": "concept",
+      "title": "Boyle's law",
+      "title_fr": "La loi de Boyle",
+      "content": "Boyle's law states that, at constant temperature, the pressure of a gas is inversely proportional to its volume.\n\nIf the volume is halved, the pressure doubles. If the volume is doubled, the pressure halves. Mathematically, pressure times volume is a constant.",
+      "content_fr": "La loi de Boyle stipule qu'a temperature constante, la pression d'un gaz est inversement proportionnelle a son volume.\n\nSi le volume est divise par deux, la pression double. Si le volume double, la pression est divisee par deux. En formule, pression fois volume est une constante.",
+      "required": true,
+      "xp": 10,
+      "question": {
+        "kind": "mcq",
+        "text": "In Boyle's law, what happens to the pressure when the volume is halved?",
+        "text_fr": "Dans la loi de Boyle, que devient la pression quand le volume est divise par deux ?",
+        "explanation": "Pressure and volume are inversely proportional, so halving the volume doubles the pressure.",
+        "explanation_fr": "Pression et volume sont inversement proportionnels, donc diviser le volume par deux double la pression.",
+        "hint_prompt": "They move in opposite ways.",
+        "hint_prompt_fr": "Elles varient en sens oppose.",
+        "choices": [
+          {
+            "text": "It doubles",
+            "text_fr": "Elle double",
+            "correct": true
+          },
+          {
+            "text": "It halves",
+            "text_fr": "Elle est divisee par deux",
+            "correct": false
+          },
+          {
+            "text": "It stays the same",
+            "text_fr": "Elle reste la meme",
+            "correct": false
+          }
+        ],
+        "hints": [
+          {
+            "text": "Squeezing a gas into a smaller space raises its pressure.",
+            "text_fr": "Comprimer un gaz dans un volume plus petit augmente sa pression."
+          }
+        ]
+      }
+    },
+    {
+      "kind": "explain",
+      "title": "Charles's law",
+      "title_fr": "La loi de Charles",
+      "content": "Charles's law states that, at constant pressure, the volume of a gas is directly proportional to its absolute temperature.\n\nWhen a gas is heated at constant pressure it expands. Doubling the absolute temperature doubles the volume.",
+      "content_fr": "La loi de Charles stipule qu'a pression constante, le volume d'un gaz est directement proportionnel a sa temperature absolue.\n\nQuand un gaz est chauffe a pression constante, il se dilate. Doubler la temperature absolue double le volume.",
+      "required": true,
+      "xp": 10
+    },
+    {
+      "kind": "example",
+      "title": "Worked example: a piston",
+      "title_fr": "Exemple resolu : un piston",
+      "content": "A gas occupies 0.2 cubic metres at a pressure of 100000 pascals. It is compressed to 0.05 cubic metres at the same temperature.\n\nPressure times volume before equals 100000 times 0.2, which is 20000. After, the volume is 0.05, so the pressure is 20000 divided by 0.05, which is 400000 pascals.",
+      "content_fr": "Un gaz occupe 0,2 metre cube a une pression de 100000 pascals. Il est comprime a 0,05 metre cube a la meme temperature.\n\nPression fois volume avant egale 100000 fois 0,2, soit 20000. Apres, le volume vaut 0,05, donc la pression egale 20000 divise par 0,05, soit 400000 pascals.",
+      "required": true,
+      "xp": 12
+    },
+    {
+      "kind": "practice",
+      "title": "Your turn: heating a balloon",
+      "title_fr": "A toi : chauffer un ballon",
+      "content": "A balloon is heated from 20 degrees Celsius to 200 degrees Celsius at constant pressure. The absolute temperatures are 293 kelvin and 473 kelvin. By how many times does the volume grow?",
+      "content_fr": "Un ballon est chauffe de 20 degres Celsius a 200 degres Celsius a pression constante. Les temperatures absolues sont 293 kelvins et 473 kelvins. De combien de fois le volume augmente-t-il ?",
+      "required": true,
+      "xp": 12,
+      "question": {
+        "kind": "numeric",
+        "text": "By how many times does the volume grow, to 2 decimal places?",
+        "text_fr": "De combien de fois le volume augmente-t-il, a deux decimales ?",
+        "explanation": "473 divided by 293 is about 1.61.",
+        "explanation_fr": "473 divise par 293 vaut environ 1,61.",
+        "hint_prompt": "Divide the final absolute temperature by the initial one.",
+        "hint_prompt_fr": "Divise la temperature absolue finale par la temperature initiale.",
+        "config": {
+          "accepted": [
+            "1.61"
+          ]
+        },
+        "hints": [
+          {
+            "text": "Volume is proportional to absolute temperature.",
+            "text_fr": "Le volume est proportionnel a la temperature absolue."
+          }
+        ]
+      }
+    },
+    {
+      "kind": "question",
+      "title": "Check: absolute temperature",
+      "title_fr": "Verification : temperature absolue",
+      "content": "The gas laws use absolute temperature, measured in kelvin. To convert Celsius to kelvin, add 273. Absolute zero is 0 kelvin.",
+      "content_fr": "Les lois des gaz utilisent la temperature absolue, mesuree en kelvins. Pour convertir Celsius en kelvins, on ajoute 273. Le zero absolu vaut 0 kelvin.",
+      "required": true,
+      "xp": 12,
+      "question": {
+        "kind": "numeric",
+        "text": "What is 25 degrees Celsius in kelvin?",
+        "text_fr": "Combien vaut 25 degres Celsius en kelvins ?",
+        "explanation": "Add 273 to the Celsius value: 25 plus 273 equals 298 kelvin.",
+        "explanation_fr": "On ajoute 273 a la valeur en Celsius : 25 plus 273 egale 298 kelvins.",
+        "hint_prompt": "Add 273.",
+        "hint_prompt_fr": "Ajoute 273.",
+        "config": {
+          "accepted": [
+            "298"
+          ]
+        },
+        "hints": [
+          {
+            "text": "Kelvin is Celsius plus 273.",
+            "text_fr": "Kelvin egale Celsius plus 273."
+          }
+        ]
+      }
+    },
+    {
+      "kind": "summary",
+      "title": "What to keep",
+      "title_fr": "A retenir",
+      "content": "Boyle's law links pressure and volume at fixed temperature. Charles's law links volume and absolute temperature at fixed pressure. All three combine into one gas law.",
+      "content_fr": "La loi de Boyle relie pression et volume a temperature fixee. La loi de Charles relie volume et temperature absolue a pression fixee. Les trois se combinent en une loi de gaz unique.",
+      "required": false,
+      "xp": 5
+    }
+  ],
+  "quiz": {
+    "title": "The Gas Laws",
+    "title_fr": "Lois des gaz",
+    "pass_score": 60,
+    "questions": [
+      {
+        "kind": "mcq",
+        "text": "Boyle's law holds when which quantity is constant?",
+        "text_fr": "La loi de Boyle s'applique quand quelle quantite est constante ?",
+        "explanation": "Boyle's law needs constant temperature.",
+        "explanation_fr": "La loi de Boyle suppose une temperature constante.",
+        "hint_prompt": "It is the thermal quantity.",
+        "hint_prompt_fr": "C'est la quantite thermique.",
+        "choices": [
+          {
+            "text": "Temperature",
+            "text_fr": "Temperature",
+            "correct": true
+          },
+          {
+            "text": "Pressure",
+            "text_fr": "Pression",
+            "correct": false
+          },
+          {
+            "text": "Volume",
+            "text_fr": "Volume",
+            "correct": false
+          }
+        ],
+        "hints": [
+          {
+            "text": "Heat would change it.",
+            "text_fr": "La chaleur la modifierait."
+          }
+        ],
+        "difficulty": 1
+      },
+      {
+        "kind": "mcq",
+        "text": "Charles's law relates which two quantities?",
+        "text_fr": "La loi de Charles relie quelles deux quantites ?",
+        "explanation": "Volume and absolute temperature, at constant pressure.",
+        "explanation_fr": "Volume et temperature absolue, a pression constante.",
+        "hint_prompt": "Think of a balloon expanding when heated.",
+        "hint_prompt_fr": "Pense a un ballon qui gonfle quand on le chauffe.",
+        "choices": [
+          {
+            "text": "Volume and absolute temperature",
+            "text_fr": "Volume et temperature absolue",
+            "correct": true
+          },
+          {
+            "text": "Pressure and volume",
+            "text_fr": "Pression et volume",
+            "correct": false
+          },
+          {
+            "text": "Density and mass",
+            "text_fr": "Masse volumique et masse",
+            "correct": false
+          }
+        ],
+        "hints": [
+          {
+            "text": "It involves heating a gas.",
+            "text_fr": "Elle concerne le chauffage d'un gaz."
+          }
+        ],
+        "difficulty": 1
+      },
+      {
+        "kind": "mcq",
+        "text": "Which unit is absolute temperature measured in?",
+        "text_fr": "Dans quelle unite mesure-t-on la temperature absolue ?",
+        "explanation": "Absolute temperature is measured in kelvin.",
+        "explanation_fr": "La temperature absolue se mesure en kelvins.",
+        "hint_prompt": "It starts at zero for the coldest possible.",
+        "hint_prompt_fr": "Elle vaut zero a la temperature la plus basse.",
+        "choices": [
+          {
+            "text": "Kelvin",
+            "text_fr": "Kelvins",
+            "correct": true
+          },
+          {
+            "text": "Celsius",
+            "text_fr": "Celsius",
+            "correct": false
+          },
+          {
+            "text": "Joules",
+            "text_fr": "Joules",
+            "correct": false
+          }
+        ],
+        "hints": [
+          {
+            "text": "It is named after a scientist.",
+            "text_fr": "Il porte le nom d'un savant."
+          }
+        ],
+        "difficulty": 1
+      },
+      {
+        "kind": "mcq",
+        "text": "To convert Celsius to kelvin, what do you do?",
+        "text_fr": "Pour convertir Celsius en kelvins, que fait-on ?",
+        "explanation": "Add 273 to the Celsius value.",
+        "explanation_fr": "On ajoute 273 a la valeur en Celsius.",
+        "hint_prompt": "It is a simple addition.",
+        "hint_prompt_fr": "C'est une simple addition.",
+        "choices": [
+          {
+            "text": "Add 273",
+            "text_fr": "Ajouter 273",
+            "correct": true
+          },
+          {
+            "text": "Subtract 273",
+            "text_fr": "Soustraire 273",
+            "correct": false
+          },
+          {
+            "text": "Multiply by 273",
+            "text_fr": "Multiplier par 273",
+            "correct": false
+          }
+        ],
+        "hints": [
+          {
+            "text": "Absolute zero is minus 273 Celsius.",
+            "text_fr": "Le zero absolu vaut moins 273 en Celsius."
+          }
+        ],
+        "difficulty": 1
+      },
+      {
+        "kind": "mcq",
+        "text": "A gas is squeezed into half its volume at constant temperature. What happens to the pressure?",
+        "text_fr": "Un gaz est comprime a la moitie de son volume a temperature constante. Que devient la pression ?",
+        "explanation": "It doubles, since pressure and volume are inversely proportional.",
+        "explanation_fr": "Elle double, car pression et volume sont inversement proportionnels.",
+        "hint_prompt": "Use Boyle's law.",
+        "hint_prompt_fr": "Utilise la loi de Boyle.",
+        "choices": [
+          {
+            "text": "It doubles",
+            "text_fr": "Elle double",
+            "correct": true
+          },
+          {
+            "text": "It halves",
+            "text_fr": "Elle est divisee par deux",
+            "correct": false
+          },
+          {
+            "text": "It stays constant",
+            "text_fr": "Elle reste constante",
+            "correct": false
+          }
+        ],
+        "hints": [
+          {
+            "text": "Pressure times volume is constant.",
+            "text_fr": "Pression fois volume est une constante."
+          }
+        ],
+        "difficulty": 2
+      }
+    ]
+  }
+}

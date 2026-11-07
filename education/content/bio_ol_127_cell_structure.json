@@ -1,0 +1,334 @@
+{
+  "lesson": 127,
+  "status": "published",
+  "lesson_fields": {
+    "title": "Cell Structure",
+    "title_fr": "Structure cellulaire",
+    "summary": "All living things are made of cells. Animal and plant cells share some parts but plant cells also have a cell wall, chloroplasts and a large vacuole.",
+    "summary_fr": "Tous les etres vivants sont faits de cellules. Les cellules animales et vegetales partagent certaines parties, mais les cellules vegetales ont aussi une paroi, des chloroplastes et une grande vacuole.",
+    "content": "## Common parts\n\nMost cells have a nucleus that controls the cell, cytoplasm where reactions happen, a cell membrane that controls what enters and leaves, and mitochondria where respiration happens.\n\n## Plant cell extras\n\nPlant cells also have a cell wall made of cellulose for support, chloroplasts for photosynthesis, and a large vacuole filled with cell sap.",
+    "content_fr": "## Parties communes\n\nLa plupart des cellules ont un noyau qui controle la cellule, un cytoplasme ou se produisent les reactions, une membrane qui controle les entrees et sorties, et des mitochondries ou se produit la respiration.\n\n## Particularites vegetales\n\nLes cellules vegetales ont aussi une paroi de cellulose pour le soutien, des chloroplastes pour la photosynthese, et une grande vacuole remplie de seve.",
+    "objectives": [
+      "Name the parts of an animal cell",
+      "State three parts found only in plant cells",
+      "Give the function of the nucleus and mitochondria"
+    ],
+    "objectives_fr": [
+      "Nommer les parties d'une cellule animale",
+      "Citer trois parties presentes seulement chez les cellules vegetales",
+      "Donner la fonction du noyau et des mitochondries"
+    ],
+    "estimated_minutes": 25
+  },
+  "steps": [
+    {
+      "kind": "concept",
+      "title": "The basic unit of life",
+      "title_fr": "L'unite de base de la vie",
+      "content": "Cells are the smallest living units. Most cells have a nucleus, cytoplasm, a cell membrane and mitochondria.",
+      "content_fr": "Les cellules sont les plus petites unites vivantes. La plupart ont un noyau, un cytoplasme, une membrane et des mitochondries.",
+      "required": true,
+      "xp": 10,
+      "question": {
+        "kind": "mcq",
+        "text": "What controls the activities of a cell?",
+        "text_fr": "Qu'est-ce qui controle les activites d'une cellule ?",
+        "explanation": "The nucleus controls the cell.",
+        "explanation_fr": "Le noyau controle la cellule.",
+        "choices": [
+          {
+            "text": "The nucleus",
+            "text_fr": "Le noyau",
+            "correct": true
+          },
+          {
+            "text": "The cytoplasm",
+            "text_fr": "Le cytoplasme",
+            "correct": false
+          },
+          {
+            "text": "The membrane",
+            "text_fr": "La membrane",
+            "correct": false
+          }
+        ],
+        "hints": [
+          {
+            "text": "It contains the genetic material.",
+            "text_fr": "Il contient le materiel genetique."
+          }
+        ],
+        "difficulty": 1
+      }
+    },
+    {
+      "kind": "explain",
+      "title": "Plant cells are different",
+      "title_fr": "Les cellules vegetales sont differentes",
+      "content": "Plant cells have a cell wall, chloroplasts and a large vacuole. Animal cells do not have these parts.",
+      "content_fr": "Les cellules vegetales ont une paroi, des chloroplastes et une grande vacuole. Les cellules animales n'ont pas ces parties.",
+      "required": true,
+      "xp": 10
+    },
+    {
+      "kind": "example",
+      "title": "Functions of the parts",
+      "title_fr": "Fonctions des parties",
+      "content": "The cell membrane controls what enters and leaves. Mitochondria release energy by respiration. Chloroplasts absorb light for photosynthesis.",
+      "content_fr": "La membrane controle les entrees et sorties. Les mitochondries liberent de l'energie par la respiration. Les chloroplastes absorbent la lumiere pour la photosynthese.",
+      "required": true,
+      "xp": 12
+    },
+    {
+      "kind": "practice",
+      "title": "Your turn: plant only",
+      "title_fr": "A toi : propre aux vegetaux",
+      "content": "Which part is found in plant cells but not in animal cells?",
+      "content_fr": "Quelle partie se trouve dans les cellules vegetales mais pas dans les cellules animales ?",
+      "required": true,
+      "xp": 12,
+      "question": {
+        "kind": "mcq",
+        "text": "Which part is only in plant cells?",
+        "text_fr": "Quelle partie est seulement dans les cellules vegetales ?",
+        "explanation": "Chloroplasts are found only in plant cells.",
+        "explanation_fr": "Les chloroplastes se trouvent seulement dans les cellules vegetales.",
+        "choices": [
+          {
+            "text": "Chloroplast",
+            "text_fr": "Les chloroplastes",
+            "correct": true
+          },
+          {
+            "text": "Nucleus",
+            "text_fr": "Le noyau",
+            "correct": false
+          },
+          {
+            "text": "Mitochondria",
+            "text_fr": "Les mitochondries",
+            "correct": false
+          }
+        ],
+        "hints": [
+          {
+            "text": "It captures light.",
+            "text_fr": "Il capte la lumiere."
+          }
+        ],
+        "difficulty": 1
+      }
+    },
+    {
+      "kind": "question",
+      "title": "Check: energy release",
+      "title_fr": "Verification : liberation d'energie",
+      "content": "Mitochondria are the site of respiration, where energy is released from food.",
+      "content_fr": "Les mitochondries sont le lieu de la respiration, ou l'energie est liberee a partir des aliments.",
+      "required": true,
+      "xp": 12,
+      "question": {
+        "kind": "mcq",
+        "text": "Where does respiration happen in a cell?",
+        "text_fr": "Ou se produit la respiration dans une cellule ?",
+        "explanation": "Respiration happens in the mitochondria.",
+        "explanation_fr": "La respiration se produit dans les mitochondries.",
+        "choices": [
+          {
+            "text": "In the mitochondria",
+            "text_fr": "Dans les mitochondries",
+            "correct": true
+          },
+          {
+            "text": "In the nucleus",
+            "text_fr": "Dans le noyau",
+            "correct": false
+          },
+          {
+            "text": "In the vacuole",
+            "text_fr": "Dans la vacuole",
+            "correct": false
+          }
+        ],
+        "hints": [
+          {
+            "text": "They are called the powerhouses.",
+            "text_fr": "On les appelle les centrales energetiques."
+          }
+        ],
+        "difficulty": 1
+      }
+    },
+    {
+      "kind": "summary",
+      "title": "What to keep",
+      "title_fr": "A retenir",
+      "content": "Cells have a nucleus, cytoplasm, membrane and mitochondria. Plant cells also have a cell wall, chloroplasts and a large vacuole.",
+      "content_fr": "Les cellules ont un noyau, un cytoplasme, une membrane et des mitochondries. Les cellules vegetales ont aussi une paroi, des chloroplastes et une grande vacuole.",
+      "required": false,
+      "xp": 5
+    }
+  ],
+  "quiz": {
+    "title": "Cell Structure",
+    "title_fr": "Structure cellulaire",
+    "pass_score": 60,
+    "questions": [
+      {
+        "kind": "mcq",
+        "text": "Which part controls what enters and leaves a cell?",
+        "text_fr": "Quelle partie controle les entrees et sorties d'une cellule ?",
+        "explanation": "The cell membrane controls entry and exit.",
+        "explanation_fr": "La membrane controle les entrees et sorties.",
+        "choices": [
+          {
+            "text": "Cell membrane",
+            "text_fr": "La membrane",
+            "correct": true
+          },
+          {
+            "text": "Nucleus",
+            "text_fr": "Le noyau",
+            "correct": false
+          },
+          {
+            "text": "Vacuole",
+            "text_fr": "La vacuole",
+            "correct": false
+          }
+        ],
+        "hints": [
+          {
+            "text": "It surrounds the cell.",
+            "text_fr": "Elle entoure la cellule."
+          }
+        ],
+        "difficulty": 1
+      },
+      {
+        "kind": "mcq",
+        "text": "Which is found only in plant cells?",
+        "text_fr": "Quelle partie est seulement dans les cellules vegetales ?",
+        "explanation": "A cell wall is only in plant cells.",
+        "explanation_fr": "La paroi est seulement dans les cellules vegetales.",
+        "choices": [
+          {
+            "text": "Cell wall",
+            "text_fr": "La paroi",
+            "correct": true
+          },
+          {
+            "text": "Cell membrane",
+            "text_fr": "La membrane",
+            "correct": false
+          },
+          {
+            "text": "Cytoplasm",
+            "text_fr": "Le cytoplasme",
+            "correct": false
+          }
+        ],
+        "hints": [
+          {
+            "text": "It gives support.",
+            "text_fr": "Elle donne du soutien."
+          }
+        ],
+        "difficulty": 1
+      },
+      {
+        "kind": "mcq",
+        "text": "What is the function of chloroplasts?",
+        "text_fr": "Quelle est la fonction des chloroplastes ?",
+        "explanation": "Chloroplasts absorb light for photosynthesis.",
+        "explanation_fr": "Les chloroplastes absorbent la lumiere pour la photosynthese.",
+        "choices": [
+          {
+            "text": "Photosynthesis",
+            "text_fr": "La photosynthese",
+            "correct": true
+          },
+          {
+            "text": "Respiration",
+            "text_fr": "La respiration",
+            "correct": false
+          },
+          {
+            "text": "Control",
+            "text_fr": "Le controle",
+            "correct": false
+          }
+        ],
+        "hints": [
+          {
+            "text": "They are green.",
+            "text_fr": "Ils sont verts."
+          }
+        ],
+        "difficulty": 1
+      },
+      {
+        "kind": "mcq",
+        "text": "What fills the large vacuole in plant cells?",
+        "text_fr": "Qu'est-ce qui remplit la grande vacuole des cellules vegetales ?",
+        "explanation": "The vacuole contains cell sap.",
+        "explanation_fr": "La vacuole contient de la seve.",
+        "choices": [
+          {
+            "text": "Cell sap",
+            "text_fr": "De la seve",
+            "correct": true
+          },
+          {
+            "text": "Air",
+            "text_fr": "De l'air",
+            "correct": false
+          },
+          {
+            "text": "Blood",
+            "text_fr": "Du sang",
+            "correct": false
+          }
+        ],
+        "hints": [
+          {
+            "text": "It is a liquid.",
+            "text_fr": "C'est un liquide."
+          }
+        ],
+        "difficulty": 1
+      },
+      {
+        "kind": "mcq",
+        "text": "Where are proteins made in a cell?",
+        "text_fr": "Ou les proteines sont-elles fabriquees dans une cellule ?",
+        "explanation": "Ribosomes make proteins, though at OL we mainly name the main parts.",
+        "explanation_fr": "Les ribosomes fabriquent les proteines, mais au niveau basique on nomme surtout les parties principales.",
+        "choices": [
+          {
+            "text": "On ribosomes",
+            "text_fr": "Sur les ribosomes",
+            "correct": true
+          },
+          {
+            "text": "In the nucleus",
+            "text_fr": "Dans le noyau",
+            "correct": false
+          },
+          {
+            "text": "In the vacuole",
+            "text_fr": "Dans la vacuole",
+            "correct": false
+          }
+        ],
+        "hints": [
+          {
+            "text": "They are tiny structures.",
+            "text_fr": "Ce sont de minuscules structures."
+          }
+        ],
+        "difficulty": 1
+      }
+    ]
+  }
+}

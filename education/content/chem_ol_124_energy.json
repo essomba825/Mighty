@@ -1,0 +1,285 @@
+{
+  "lesson": 124,
+  "status": "published",
+  "lesson_fields": {
+    "title": "Energy Changes in Reactions",
+    "title_fr": "Changements d'énergie dans les réactions",
+    "summary": "Tell apart exothermic and endothermic reactions and use energy level diagrams to show the energy change.",
+    "summary_fr": "Distinguer les réactions exothermiques et endothermiques et utiliser les diagrammes d'énergie pour montrer le changement d'énergie.",
+    "content": "## What you will learn\n\nEvery reaction involves an energy change. In some reactions energy is released to the surroundings, and in others it is taken in. Energy level diagrams show these changes clearly.",
+    "content_fr": "## Ce que tu vas apprendre\n\nChaque réaction implique un changement d'énergie. Dans certaines réactions l'énergie est libérée vers le milieu extérieur, dans d'autres elle est absorbée. Les diagrammes d'énergie montrent clairement ces changements.",
+    "objectives": [
+      "Define exothermic and endothermic reactions",
+      "Interpret energy level diagrams",
+      "Explain energy changes in terms of bonds broken and bonds made"
+    ],
+    "objectives_fr": [
+      "Définir les réactions exothermiques et endothermiques",
+      "Interpréter les diagrammes d'énergie",
+      "Expliquer les changements d'énergie par les liaisons rompues et formées"
+    ],
+    "estimated_minutes": 30
+  },
+  "steps": [
+    {
+      "kind": "concept",
+      "title": "Exothermic and endothermic",
+      "title_fr": "Exothermique et endothermique",
+      "content": "Every chemical reaction involves an energy change. In an exothermic reaction, energy is released to the surroundings, usually as heat, so the temperature of the mixture rises. In an endothermic reaction, energy is taken in from the surroundings, so the temperature falls.\n\nBurning fuels and neutralisation are exothermic. Thermal decomposition, such as heating calcium carbonate, is endothermic.",
+      "content_fr": "Chaque réaction chimique implique un changement d'énergie. Dans une réaction exothermique, l'énergie est libérée vers le milieu extérieur, le plus souvent sous forme de chaleur : la température du mélange monte. Dans une réaction endothermique, l'énergie est absorbée depuis le milieu extérieur : la température baisse.\n\nLa combustion des carburants et la neutralisation sont exothermiques. La décomposition thermique, comme le chauffage du carbonate de calcium, est endothermique.",
+      "required": true,
+      "xp": 10,
+      "question": {
+        "kind": "mcq",
+        "difficulty": 1,
+        "text": "Which statement describes an exothermic reaction?",
+        "text_fr": "Quelle affirmation décrit une réaction exothermique ?",
+        "explanation": "An exothermic reaction releases energy, so the surroundings get warmer.",
+        "explanation_fr": "Une réaction exothermique libère de l'énergie : le milieu extérieur se réchauffe.",
+        "hint_prompt": "Think about the word heat.",
+        "hint_prompt_fr": "Pense à la chaleur.",
+        "choices": [
+          {"text": "It releases energy and warms the surroundings", "text_fr": "Elle libère de l'énergie et réchauffe le milieu extérieur", "correct": true},
+          {"text": "It takes in energy and cools the surroundings", "text_fr": "Elle absorbe de l'énergie et refroidit le milieu extérieur", "correct": false},
+          {"text": "It releases no energy at all", "text_fr": "Elle ne libère aucune énergie", "correct": false},
+          {"text": "It stops after one second", "text_fr": "Elle s'arrête au bout d'une seconde", "correct": false}
+        ],
+        "hints": [
+          {"text": "Exo means energy leaves.", "text_fr": "Exo signifie que l'énergie sort."},
+          {"text": "The mixture gets warmer.", "text_fr": "Le mélange se réchauffe."}
+        ]
+      }
+    },
+    {
+      "kind": "concept",
+      "title": "Energy level diagrams",
+      "title_fr": "Les diagrammes d'énergie",
+      "content": "An energy level diagram shows the energy of the reactants and of the products. In an exothermic reaction the products are at a lower energy level than the reactants, and the energy difference is released. In an endothermic reaction the products are at a higher energy level, and the energy difference is taken in.\n\nThe vertical gap between the two levels is the overall energy change of the reaction.",
+      "content_fr": "Un diagramme d'énergie montre l'énergie des réactifs et celle des produits. Dans une réaction exothermique, les produits sont à un niveau d'énergie plus bas que les réactifs, et la différence d'énergie est libérée. Dans une réaction endothermique, les produits sont à un niveau plus haut, et la différence d'énergie est absorbée.\n\nL'écart vertical entre les deux niveaux représente le changement d'énergie global de la réaction.",
+      "required": true,
+      "xp": 12,
+      "question": {
+        "kind": "mcq",
+        "difficulty": 2,
+        "text": "On an energy level diagram, how do you recognise an endothermic reaction?",
+        "text_fr": "Sur un diagramme d'énergie, comment reconnaît-on une réaction endothermique ?",
+        "explanation": "In an endothermic reaction the products have more energy than the reactants, so they sit at a higher level.",
+        "explanation_fr": "Dans une réaction endothermique, les produits ont plus d'énergie que les réactifs : leur niveau est donc plus haut.",
+        "hint_prompt": "Compare the two levels.",
+        "hint_prompt_fr": "Compare les deux niveaux.",
+        "choices": [
+          {"text": "The products are at a higher energy level than the reactants", "text_fr": "Les produits sont à un niveau d'énergie plus haut que les réactifs", "correct": true},
+          {"text": "The products are at a lower energy level than the reactants", "text_fr": "Les produits sont à un niveau d'énergie plus bas que les réactifs", "correct": false},
+          {"text": "Both levels are exactly equal", "text_fr": "Les deux niveaux sont exactement égaux", "correct": false},
+          {"text": "There is only one level shown", "text_fr": "Un seul niveau est représenté", "correct": false}
+        ],
+        "hints": [
+          {"text": "Endothermic takes energy in.", "text_fr": "Endothermique signifie que l'énergie est absorbée."},
+          {"text": "Products end up higher.", "text_fr": "Les produits se retrouvent plus haut."}
+        ]
+      }
+    },
+    {
+      "kind": "concept",
+      "title": "Bonds broken and bonds made",
+      "title_fr": "Liaisons rompues et liaisons formées",
+      "content": "Breaking bonds needs energy, so it is endothermic. Making new bonds releases energy, so it is exothermic. In every reaction, bonds in the reactants are broken and new bonds are made in the products.\n\nIf the energy released when new bonds form is greater than the energy needed to break the old bonds, the reaction is exothermic overall. If more energy is needed to break bonds than is released, the reaction is endothermic.",
+      "content_fr": "Rompre une liaison demande de l'énergie : c'est un phénomène endothermique. Former une liaison libère de l'énergie : c'est un phénomène exothermique. Dans toute réaction, des liaisons des réactifs sont rompues et de nouvelles liaisons se forment dans les produits.\n\nSi l'énergie libérée lors de la formation des nouvelles liaisons est plus grande que l'énergie nécessaire pour rompre les anciennes, la réaction est globalement exothermique. Si l'énergie nécessaire pour rompre les liaisons est plus grande que celle libérée, la réaction est endothermique.",
+      "required": true,
+      "xp": 12,
+      "question": {
+        "kind": "mcq",
+        "difficulty": 2,
+        "text": "Breaking a chemical bond is...",
+        "text_fr": "Rompre une liaison chimique est...",
+        "explanation": "Breaking bonds needs energy to be taken in, so it is endothermic.",
+        "explanation_fr": "Rompre des liaisons nécessite d'absorber de l'énergie : c'est donc endothermique.",
+        "hint_prompt": "Energy must be put in to pull atoms apart.",
+        "hint_prompt_fr": "Il faut fournir de l'énergie pour séparer les atomes.",
+        "choices": [
+          {"text": "endothermic, because it needs energy", "text_fr": "endothermique, car cela nécessite de l'énergie", "correct": true},
+          {"text": "exothermic, because it releases energy", "text_fr": "exothermique, car cela libère de l'énergie", "correct": false},
+          {"text": "neither, because no energy is involved", "text_fr": "ni l'un ni l'autre, car aucune énergie n'est en jeu", "correct": false},
+          {"text": "exothermic, because it makes heat", "text_fr": "exothermique, car cela produit de la chaleur", "correct": false}
+        ],
+        "hints": [
+          {"text": "Something must be supplied.", "text_fr": "Quelque chose doit être fourni."},
+          {"text": "It takes energy in.", "text_fr": "Cela absorbe de l'énergie."}
+        ]
+      }
+    },
+    {
+      "kind": "explain",
+      "title": "Everyday examples",
+      "title_fr": "Exemples du quotidien",
+      "content": "Combustion of fuels is exothermic, which is why it warms homes and cooks food. Hand warmers use the exothermic reaction of iron with oxygen. Photosynthesis, which stores energy in plants, and the decomposition of limestone are endothermic.\n\nA thermometer makes the change easy to see: a rise in temperature shows an exothermic change, and a fall shows an endothermic change.",
+      "content_fr": "La combustion des carburants est exothermique : c'est pourquoi elle chauffe les maisons et cuit les aliments. Les chaufferettes utilisent la réaction exothermique du fer avec l'oxygène. La photosynthèse, qui stocke de l'énergie dans les plantes, et la décomposition du calcaire sont endothermiques.\n\nUn thermomètre rend le changement facile à voir : une hausse de température indique un changement exothermique, une baisse indique un changement endothermique.",
+      "required": true,
+      "xp": 12,
+      "question": {
+        "kind": "mcq",
+        "difficulty": 2,
+        "text": "Which observation suggests an endothermic reaction?",
+        "text_fr": "Quelle observation suggère une réaction endothermique ?",
+        "explanation": "An endothermic reaction takes in energy, so the temperature of the mixture falls.",
+        "explanation_fr": "Une réaction endothermique absorbe de l'énergie : la température du mélange baisse.",
+        "hint_prompt": "Follow the temperature.",
+        "hint_prompt_fr": "Suis la température.",
+        "choices": [
+          {"text": "The temperature of the mixture falls", "text_fr": "La température du mélange baisse", "correct": true},
+          {"text": "The temperature of the mixture rises", "text_fr": "La température du mélange monte", "correct": false},
+          {"text": "The mixture gives out light", "text_fr": "Le mélange émet de la lumière", "correct": false},
+          {"text": "The mixture changes colour", "text_fr": "Le mélange change de couleur", "correct": false}
+        ],
+        "hints": [
+          {"text": "Endothermic takes energy in.", "text_fr": "Endothermique absorbe de l'énergie."},
+          {"text": "The thermometer reading drops.", "text_fr": "La valeur du thermomètre baisse."}
+        ]
+      }
+    },
+    {
+      "kind": "practice",
+      "title": "Your turn: is it exothermic?",
+      "title_fr": "À toi : exothermique ou non ?",
+      "content": "Compare the energy used to break bonds with the energy released when new bonds form, then decide the overall change.",
+      "content_fr": "Compare l'énergie nécessaire pour rompre les liaisons avec l'énergie libérée lors de la formation des nouvelles liaisons, puis conclus sur le changement global.",
+      "required": true,
+      "xp": 12,
+      "question": {
+        "kind": "mcq",
+        "difficulty": 3,
+        "text": "In a reaction, 500 kJ is used to break bonds and 700 kJ is released when new bonds form. Is the reaction exothermic or endothermic?",
+        "text_fr": "Dans une réaction, 500 kJ sont utilisés pour rompre des liaisons et 700 kJ sont libérés lors de la formation des nouvelles liaisons. La réaction est-elle exothermique ou endothermique ?",
+        "explanation": "More energy is released than taken in, so the overall reaction is exothermic.",
+        "explanation_fr": "Plus d'énergie est libérée que d'énergie absorbée : la réaction globale est donc exothermique.",
+        "hint_prompt": "Compare the two amounts.",
+        "hint_prompt_fr": "Compare les deux quantités.",
+        "choices": [
+          {"text": "Exothermic, because more energy is released than taken in", "text_fr": "Exothermique, car plus d'énergie est libérée qu'absorbée", "correct": true},
+          {"text": "Endothermic, because more energy is taken in", "text_fr": "Endothermique, car plus d'énergie est absorbée", "correct": false},
+          {"text": "Neither, because the two amounts cancel out", "text_fr": "Ni l'un ni l'autre, car les deux quantités s'annulent", "correct": false},
+          {"text": "Endothermic, because breaking bonds always releases energy", "text_fr": "Endothermique, car rompre des liaisons libère toujours de l'énergie", "correct": false}
+        ],
+        "hints": [
+          {"text": "700 is greater than 500.", "text_fr": "700 est plus grand que 500."},
+          {"text": "A net release of energy is exothermic.", "text_fr": "Une libération nette d'énergie est exothermique."}
+        ]
+      }
+    },
+    {
+      "kind": "summary",
+      "title": "What to keep",
+      "title_fr": "À retenir",
+      "content": "Exothermic reactions release energy and warm the surroundings; endothermic reactions take in energy and cool them. On an energy level diagram, exothermic reactions have products lower than the reactants, and endothermic reactions have products higher. Breaking bonds takes in energy and making bonds releases it.",
+      "content_fr": "Les réactions exothermiques libèrent de l'énergie et réchauffent le milieu extérieur ; les réactions endothermiques absorbent de l'énergie et le refroidissent. Sur un diagramme d'énergie, une réaction exothermique a des produits plus bas que les réactifs, et une réaction endothermique a des produits plus hauts. Rompre des liaisons absorbe de l'énergie et en former libère de l'énergie.",
+      "xp": 5
+    }
+  ],
+  "quiz": {
+    "title": "Quiz: energy changes",
+    "title_fr": "Quiz : les changements d'énergie",
+    "pass_score": 60,
+    "questions": [
+      {
+        "kind": "mcq",
+        "difficulty": 1,
+        "text": "Exothermic reactions...",
+        "text_fr": "Les réactions exothermiques...",
+        "explanation": "Exothermic reactions release energy to the surroundings, so they warm things around them.",
+        "explanation_fr": "Les réactions exothermiques libèrent de l'énergie vers le milieu extérieur : elles réchauffent ce qui les entoure.",
+        "hint_prompt": "Exo means energy leaves.",
+        "hint_prompt_fr": "Exo signifie que l'énergie sort.",
+        "choices": [
+          {"text": "release energy to the surroundings", "text_fr": "libèrent de l'énergie vers le milieu extérieur", "correct": true},
+          {"text": "take in energy from the surroundings", "text_fr": "absorbent de l'énergie depuis le milieu extérieur", "correct": false},
+          {"text": "never change temperature", "text_fr": "ne changent jamais la température", "correct": false},
+          {"text": "always produce a gas", "text_fr": "produisent toujours un gaz", "correct": false}
+        ],
+        "hints": [
+          {"text": "They warm the surroundings.", "text_fr": "Elles réchauffent le milieu extérieur."},
+          {"text": "Energy is released.", "text_fr": "L'énergie est libérée."}
+        ]
+      },
+      {
+        "kind": "mcq",
+        "difficulty": 1,
+        "text": "Endothermic reactions...",
+        "text_fr": "Les réactions endothermiques...",
+        "explanation": "Endothermic reactions take in energy from the surroundings, so the temperature falls.",
+        "explanation_fr": "Les réactions endothermiques absorbent de l'énergie depuis le milieu extérieur : la température baisse.",
+        "hint_prompt": "Endo means energy goes in.",
+        "hint_prompt_fr": "Endo signifie que l'énergie entre.",
+        "choices": [
+          {"text": "take in energy from the surroundings", "text_fr": "absorbent de l'énergie depuis le milieu extérieur", "correct": true},
+          {"text": "release energy to the surroundings", "text_fr": "libèrent de l'énergie vers le milieu extérieur", "correct": false},
+          {"text": "stay exactly the same temperature", "text_fr": "gardent exactement la même température", "correct": false},
+          {"text": "always glow brightly", "text_fr": "brillent toujours vivement", "correct": false}
+        ],
+        "hints": [
+          {"text": "They cool the surroundings.", "text_fr": "Elles refroidissent le milieu extérieur."},
+          {"text": "Energy is taken in.", "text_fr": "L'énergie est absorbée."}
+        ]
+      },
+      {
+        "kind": "mcq",
+        "difficulty": 2,
+        "text": "On an energy level diagram, an exothermic reaction shows...",
+        "text_fr": "Sur un diagramme d'énergie, une réaction exothermique montre...",
+        "explanation": "The products have less energy than the reactants, so they sit at a lower level.",
+        "explanation_fr": "Les produits ont moins d'énergie que les réactifs : leur niveau est donc plus bas.",
+        "hint_prompt": "Energy was released, so where are the products?",
+        "hint_prompt_fr": "De l'énergie a été libérée : où sont donc les produits ?",
+        "choices": [
+          {"text": "products at a lower level than the reactants", "text_fr": "des produits plus bas que les réactifs", "correct": true},
+          {"text": "products at a higher level than the reactants", "text_fr": "des produits plus hauts que les réactifs", "correct": false},
+          {"text": "both levels equal", "text_fr": "les deux niveaux égaux", "correct": false},
+          {"text": "no levels shown at all", "text_fr": "aucun niveau représenté", "correct": false}
+        ],
+        "hints": [
+          {"text": "Energy has left the reaction.", "text_fr": "L'énergie a quitté la réaction."},
+          {"text": "Products are lower.", "text_fr": "Les produits sont plus bas."}
+        ]
+      },
+      {
+        "kind": "mcq",
+        "difficulty": 2,
+        "text": "Making new bonds in the products...",
+        "text_fr": "Former de nouvelles liaisons dans les produits...",
+        "explanation": "Making bonds releases energy, so it is exothermic.",
+        "explanation_fr": "Former des liaisons libère de l'énergie : c'est donc exothermique.",
+        "hint_prompt": "The opposite of breaking bonds.",
+        "hint_prompt_fr": "Le contraire de rompre des liaisons.",
+        "choices": [
+          {"text": "releases energy, so it is exothermic", "text_fr": "libère de l'énergie, donc c'est exothermique", "correct": true},
+          {"text": "takes in energy, so it is endothermic", "text_fr": "absorbe de l'énergie, donc c'est endothermique", "correct": false},
+          {"text": "does not involve energy", "text_fr": "n'implique pas d'énergie", "correct": false},
+          {"text": "always stops the reaction", "text_fr": "arrête toujours la réaction", "correct": false}
+        ],
+        "hints": [
+          {"text": "Gluing atoms together gives energy out.", "text_fr": "Réunir les atomes libère de l'énergie."},
+          {"text": "It releases energy.", "text_fr": "Cela libère de l'énergie."}
+        ]
+      },
+      {
+        "kind": "mcq",
+        "difficulty": 2,
+        "text": "A reaction releases 200 kJ more than it takes in. It is...",
+        "text_fr": "Une réaction libère 200 kJ de plus qu'elle n'en absorbe. Elle est...",
+        "explanation": "More energy is released than taken in, so the reaction is exothermic overall.",
+        "explanation_fr": "Plus d'énergie est libérée qu'absorbée : la réaction est globalement exothermique.",
+        "hint_prompt": "Compare what goes in and what comes out.",
+        "hint_prompt_fr": "Compare ce qui entre et ce qui sort.",
+        "choices": [
+          {"text": "exothermic", "text_fr": "exothermique", "correct": true},
+          {"text": "endothermic", "text_fr": "endothermique", "correct": false},
+          {"text": "neutral", "text_fr": "neutre", "correct": false},
+          {"text": "impossible to tell", "text_fr": "impossible à déterminer", "correct": false}
+        ],
+        "hints": [
+          {"text": "There is a net release.", "text_fr": "Il y a une libération nette."},
+          {"text": "That means exothermic.", "text_fr": "Cela signifie exothermique."}
+        ]
+      }
+    ]
+  }
+}

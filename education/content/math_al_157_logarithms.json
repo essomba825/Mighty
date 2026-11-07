@@ -1,0 +1,291 @@
+{
+  "lesson": 157,
+  "status": "published",
+  "lesson_fields": {
+    "title": "Logarithms and Their Laws",
+    "title_fr": "Logarithmes et leurs regles",
+    "summary": "A logarithm answers the question: to what power must the base be raised? Logarithms are the inverse of exponentials and follow simple laws.",
+    "summary_fr": "Un logarithme repond a la question : a quelle puissance faut-il elever la base ? Les logarithmes sont l'inverse des exponentielles et suivent des regles simples.",
+    "content": "## What a logarithm is\n\nThe logarithm base b of a number is the power to which b must be raised to give that number. For example, the logarithm base 10 of 100 is 2, because 10 squared is 100. It reverses an exponential.\n\n## The three laws\n\nMultiplying two numbers adds their logarithms, dividing subtracts them, and a power multiplies the logarithm. These laws turn hard multiplications into easy additions.",
+    "content_fr": "## Ce qu'est un logarithme\n\nLe logarithme de base b d'un nombre est la puissance a laquelle il faut elever b pour obtenir ce nombre. Par exemple, le logarithme de base 10 de 100 vaut 2, car 10 au carre vaut 100. Il inverse une exponentielle.\n\n## Les trois regles\n\nMultiplier deux nombres additionne leurs logarithmes, diviser les soustrait, et une puissance multiplie le logarithme. Ces regles transforment des multiplications difficiles en additions faciles.",
+    "objectives": [
+      "Define a logarithm",
+      "Use the laws of logarithms",
+      "Solve simple logarithmic and exponential equations"
+    ],
+    "objectives_fr": [
+      "Definir un logarithme",
+      "Utiliser les regles des logarithmes",
+      "Resoudre des equations logarithmiques et exponentielles simples"
+    ],
+    "estimated_minutes": 25
+  },
+  "steps": [
+    {
+      "kind": "concept",
+      "title": "The definition",
+      "title_fr": "La definition",
+      "content": "The logarithm base b of a number is the power to which b must be raised to give that number. So if b to the power x equals a number, then the logarithm base b of that number equals x.",
+      "content_fr": "Le logarithme de base b d'un nombre est la puissance a laquelle il faut elever b pour obtenir ce nombre. Donc si b puissance x egale un nombre, alors le logarithme de base b de ce nombre egale x.",
+      "required": true,
+      "xp": 10,
+      "question": {
+        "kind": "mcq",
+        "text": "The logarithm base 2 of 8 equals which value?",
+        "text_fr": "Le logarithme de base 2 de 8 egale quelle valeur ?",
+        "explanation": "3",
+        "explanation_fr": "3",
+        "choices": [
+          {
+            "text": "3",
+            "text_fr": "3",
+            "correct": true
+          },
+          {
+            "text": "4",
+            "text_fr": "4",
+            "correct": false
+          },
+          {
+            "text": "16",
+            "text_fr": "16",
+            "correct": false
+          }
+        ],
+        "hints": [
+          {
+            "text": "2 raised to what power equals 8?",
+            "text_fr": "2 eleve a quelle puissance vaut 8 ?"
+          }
+        ],
+        "difficulty": 1
+      }
+    },
+    {
+      "kind": "explain",
+      "title": "The laws",
+      "title_fr": "Les regles",
+      "content": "Multiplying two numbers means adding their logarithms. Dividing means subtracting. Raising a number to a power means multiplying its logarithm by that power.",
+      "content_fr": "Multiplier deux nombres revient a additionner leurs logarithmes. Diviser revient a soustraire. Elever un nombre a une puissance revient a multiplier son logarithme par cette puissance.",
+      "required": true,
+      "xp": 10
+    },
+    {
+      "kind": "example",
+      "title": "Using a law",
+      "title_fr": "Utiliser une regle",
+      "content": "The logarithm of 100 plus the logarithm of 10 equals the logarithm of 1000, because 100 times 10 is 1000. In base 10 this is 2 plus 1, which is 3.",
+      "content_fr": "Le logarithme de 100 plus le logarithme de 10 egale le logarithme de 1000, car 100 fois 10 vaut 1000. En base 10, cela fait 2 plus 1, soit 3.",
+      "required": true,
+      "xp": 12
+    },
+    {
+      "kind": "practice",
+      "title": "Your turn: base 10",
+      "title_fr": "A toi : base 10",
+      "content": "What is the logarithm base 10 of 1000?",
+      "content_fr": "Quel est le logarithme de base 10 de 1000 ?",
+      "required": true,
+      "xp": 12,
+      "question": {
+        "kind": "numeric",
+        "text": "Logarithm base 10 of 1000?",
+        "text_fr": "Logarithme de base 10 de 1000 ?",
+        "explanation": "10 raised to the power 3 is 1000, so the logarithm is 3.",
+        "explanation_fr": "10 eleve a la puissance 3 vaut 1000, donc le logarithme est 3.",
+        "config": {
+          "accepted": [
+            "3"
+          ]
+        },
+        "hints": [
+          {
+            "text": "10 to what power gives 1000?",
+            "text_fr": "10 a quelle puissance donne 1000 ?"
+          }
+        ],
+        "difficulty": 1
+      }
+    },
+    {
+      "kind": "question",
+      "title": "Check: solving",
+      "title_fr": "Verification : resoudre",
+      "content": "To solve 2 to the power x equals 32, note that 32 is 2 to the power 5, so x equals 5. Logarithms make this quick by turning the power into a value.",
+      "content_fr": "Pour resoudre 2 puissance x egale 32, remarque que 32 vaut 2 puissance 5, donc x egale 5. Les logarithmes accelerent cela en transformant la puissance en valeur.",
+      "required": true,
+      "xp": 12,
+      "question": {
+        "kind": "mcq",
+        "text": "Solve 2 to the power x equals 32. What is x?",
+        "text_fr": "Resous 2 puissance x egale 32. Que vaut x ?",
+        "explanation": "5",
+        "explanation_fr": "5",
+        "choices": [
+          {
+            "text": "5",
+            "text_fr": "5",
+            "correct": true
+          },
+          {
+            "text": "4",
+            "text_fr": "4",
+            "correct": false
+          },
+          {
+            "text": "6",
+            "text_fr": "6",
+            "correct": false
+          }
+        ],
+        "hints": [
+          {
+            "text": "32 is 2 to what power?",
+            "text_fr": "32 est 2 a quelle puissance ?"
+          }
+        ],
+        "difficulty": 1
+      }
+    },
+    {
+      "kind": "summary",
+      "title": "What to keep",
+      "title_fr": "A retenir",
+      "content": "A logarithm gives the power the base must be raised to. Multiplying adds logarithms, dividing subtracts them, and powers multiply them. Logarithms are the inverse of exponentials.",
+      "content_fr": "Un logarithme donne la puissance a laquelle la base doit etre elevee. Multiplier additionne les logarithmes, diviser les soustrait, et les puissances les multiplient. Les logarithmes sont l'inverse des exponentielles.",
+      "required": false,
+      "xp": 5
+    }
+  ],
+  "quiz": {
+    "title": "Logarithms and Their Laws",
+    "title_fr": "Logarithmes et leurs regles",
+    "pass_score": 60,
+    "questions": [
+      {
+        "kind": "mcq",
+        "text": "What does a logarithm find?",
+        "text_fr": "Que trouve un logarithme ?",
+        "explanation": "The power the base is raised to",
+        "explanation_fr": "La puissance a laquelle la base est elevee",
+        "choices": [
+          {
+            "text": "The power",
+            "text_fr": "La puissance",
+            "correct": true
+          },
+          {
+            "text": "The product",
+            "text_fr": "Le produit",
+            "correct": false
+          },
+          {
+            "text": "The average",
+            "text_fr": "La moyenne",
+            "correct": false
+          }
+        ],
+        "hints": [
+          {
+            "text": "It is a power.",
+            "text_fr": "C'est une puissance."
+          }
+        ],
+        "difficulty": 1
+      },
+      {
+        "kind": "mcq",
+        "text": "The logarithm base 10 of 100 equals?",
+        "text_fr": "Le logarithme de base 10 de 100 egale ?",
+        "explanation": "2",
+        "explanation_fr": "2",
+        "choices": [
+          {
+            "text": "2",
+            "text_fr": "2",
+            "correct": true
+          },
+          {
+            "text": "10",
+            "text_fr": "10",
+            "correct": false
+          },
+          {
+            "text": "1",
+            "text_fr": "1",
+            "correct": false
+          }
+        ],
+        "hints": [
+          {
+            "text": "10 squared is 100.",
+            "text_fr": "10 au carre vaut 100."
+          }
+        ],
+        "difficulty": 1
+      },
+      {
+        "kind": "mcq",
+        "text": "Multiplying numbers does what to their logarithms?",
+        "text_fr": "Multiplier des nombres fait quoi a leurs logarithmes ?",
+        "explanation": "Adds them",
+        "explanation_fr": "Les additionne",
+        "choices": [
+          {
+            "text": "Adds them",
+            "text_fr": "Les additionne",
+            "correct": true
+          },
+          {
+            "text": "Subtracts them",
+            "text_fr": "Les soustrait",
+            "correct": false
+          },
+          {
+            "text": "Multiplies them",
+            "text_fr": "Les multiplie",
+            "correct": false
+          }
+        ],
+        "hints": [
+          {
+            "text": "Multiplication becomes addition.",
+            "text_fr": "La multiplication devient une addition."
+          }
+        ],
+        "difficulty": 1
+      },
+      {
+        "kind": "mcq",
+        "text": "Logarithms are the inverse of which functions?",
+        "text_fr": "Les logarithmes sont l'inverse de quelles fonctions ?",
+        "explanation": "Exponentials",
+        "explanation_fr": "Les exponentielles",
+        "choices": [
+          {
+            "text": "Exponentials",
+            "text_fr": "Les exponentielles",
+            "correct": true
+          },
+          {
+            "text": "Quadratics",
+            "text_fr": "Les quadratiques",
+            "correct": false
+          },
+          {
+            "text": "Linear",
+            "text_fr": "Les lineaires",
+            "correct": false
+          }
+        ],
+        "hints": [
+          {
+            "text": "They undo powers.",
+            "text_fr": "Ils defont les puissances."
+          }
+        ],
+        "difficulty": 1
+      }
+    ]
+  }
+}

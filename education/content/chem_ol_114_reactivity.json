@@ -1,0 +1,285 @@
+{
+  "lesson": 114,
+  "status": "published",
+  "lesson_fields": {
+    "title": "The Reactivity Series of Metals",
+    "title_fr": "La série de réactivité des métaux",
+    "summary": "Order metals by reactivity and use the series to predict reactions and extraction methods.",
+    "summary_fr": "Classer les métaux par réactivité et utiliser la série pour prévoir les réactions et les méthodes d'extraction.",
+    "content": "## What you will learn\n\nNot all metals are equally reactive. By watching how they react with water, acid and oxygen, chemists put them in order in the reactivity series, and this order lets you predict many reactions.",
+    "content_fr": "## Ce que tu vas apprendre\n\nLes métaux n'ont pas tous la même réactivité. En observant comment ils réagissent avec l'eau, les acides et l'oxygène, les chimistes les classent dans la série de réactivité, et cet ordre permet de prévoir de nombreuses réactions.",
+    "objectives": [
+      "Place common metals in order of reactivity",
+      "Predict displacement reactions using the series",
+      "Relate reactivity to the method of extraction"
+    ],
+    "objectives_fr": [
+      "Classer des métaux courants par ordre de réactivité",
+      "Prévoir les réactions de déplacement grâce à la série",
+      "Relier la réactivité à la méthode d'extraction"
+    ],
+    "estimated_minutes": 30
+  },
+  "steps": [
+    {
+      "kind": "concept",
+      "title": "Building the reactivity series",
+      "title_fr": "Construire la série de réactivité",
+      "content": "Metals can be arranged from the most reactive to the least reactive by comparing how vigorously they react with water, with dilute acid and with oxygen. The order you should remember is potassium, sodium, calcium, magnesium, aluminium, zinc, iron, lead, then copper, silver and gold.\n\nHydrogen is placed in the list as a marker: metals above it react with acids to give hydrogen gas, and metals below it do not.\n\nWorked example: potassium reacts explosively with cold water, while copper does not react with water at all, which shows you that potassium is far more reactive.",
+      "content_fr": "On peut ranger les métaux du plus réactif au moins réactif en comparant la vigueur de leurs réactions avec l'eau, un acide dilué et l'oxygène. L'ordre à retenir est : potassium, sodium, calcium, magnésium, aluminium, zinc, fer, plomb, puis cuivre, argent et or.\n\nL'hydrogène figure dans la liste comme repère : les métaux au-dessus réagissent avec les acides en libérant du dihydrogène, ceux en dessous ne réagissent pas.\n\nExemple rédigé : le potassium réagit violemment avec l'eau froide, tandis que le cuivre ne réagit pas du tout avec l'eau : le potassium est donc bien plus réactif.",
+      "required": true,
+      "xp": 10,
+      "question": {
+        "kind": "mcq",
+        "difficulty": 1,
+        "text": "Which metal is the most reactive in the series?",
+        "text_fr": "Quel métal est le plus réactif de la série ?",
+        "explanation": "Potassium is the first and most reactive metal in the series.",
+        "explanation_fr": "Le potassium est le premier et le plus réactif des métaux de la série.",
+        "hint_prompt": "It reacts violently with cold water.",
+        "hint_prompt_fr": "Il réagit violemment avec l'eau froide.",
+        "choices": [
+          {"text": "Potassium", "text_fr": "Le potassium", "correct": true},
+          {"text": "Iron", "text_fr": "Le fer", "correct": false},
+          {"text": "Copper", "text_fr": "Le cuivre", "correct": false},
+          {"text": "Gold", "text_fr": "L'or", "correct": false}
+        ],
+        "hints": [
+          {"text": "It is at the top of the series.", "text_fr": "Il est en haut de la série."},
+          {"text": "Its symbol is K.", "text_fr": "Son symbole est K."}
+        ]
+      }
+    },
+    {
+      "kind": "concept",
+      "title": "Displacement reactions",
+      "title_fr": "Réactions de déplacement",
+      "content": "A more reactive metal can push a less reactive metal out of its compound. This is called a displacement reaction. A metal will only displace another metal that is below it in the series.\n\nWorked example: if you place a strip of zinc in copper sulfate solution, the zinc is more reactive, so it displaces the copper. The solution loses its blue colour, and a pink-brown layer of copper forms on the zinc. The equation is Zn + CuSO4, arrow, ZnSO4 + Cu.\n\nIf you place copper in zinc sulfate solution, nothing happens, because copper is less reactive than zinc.",
+      "content_fr": "Un métal plus réactif peut chasser un métal moins réactif de son composé. C'est une réaction de déplacement. Un métal ne déplace qu'un métal situé en dessous de lui dans la série.\n\nExemple rédigé : si tu plonges une lame de zinc dans une solution de sulfate de cuivre, le zinc est plus réactif : il déplace donc le cuivre. La solution perd sa couleur bleue et une couche de cuivre rose-brun se forme sur le zinc. L'équation est Zn + CuSO4, flèche, ZnSO4 + Cu.\n\nSi tu plonges du cuivre dans une solution de sulfate de zinc, il ne se passe rien, car le cuivre est moins réactif que le zinc.",
+      "required": true,
+      "xp": 12,
+      "question": {
+        "kind": "mcq",
+        "difficulty": 2,
+        "text": "A displacement reaction occurs only when the added metal is what?",
+        "text_fr": "Une réaction de déplacement n'a lieu que si le métal ajouté est comment ?",
+        "explanation": "A metal can only displace a metal below it, so the added metal must be more reactive.",
+        "explanation_fr": "Un métal ne déplace qu'un métal situé en dessous : le métal ajouté doit donc être plus réactif.",
+        "hint_prompt": "Think about the order in the series.",
+        "hint_prompt_fr": "Pense à l'ordre de la série.",
+        "choices": [
+          {"text": "More reactive than the one in solution", "text_fr": "Plus réactif que celui en solution", "correct": true},
+          {"text": "Less reactive than the one in solution", "text_fr": "Moins réactif que celui en solution", "correct": false},
+          {"text": "Exactly as reactive", "text_fr": "Exactement aussi réactif", "correct": false},
+          {"text": "A metal below hydrogen", "text_fr": "Un métal sous l'hydrogène", "correct": false}
+        ],
+        "hints": [
+          {"text": "The stronger one pushes the weaker out.", "text_fr": "Le plus fort chasse le plus faible."},
+          {"text": "It must be more reactive.", "text_fr": "Il doit être plus réactif."}
+        ]
+      }
+    },
+    {
+      "kind": "concept",
+      "title": "Reactivity and extraction",
+      "title_fr": "Réactivité et extraction",
+      "content": "The reactivity of a metal decides how it is obtained from its ore. Very reactive metals such as aluminium are extracted by electrolysis, which uses electricity to break the compound apart.\n\nMetals of medium reactivity such as iron and zinc are extracted by reduction with carbon, because carbon is reactive enough to pull the oxygen away. Least reactive metals such as gold and silver are often found in the ground already uncombined, because they do not react easily.\n\nSo the more reactive the metal, the harder and more expensive it is to extract.",
+      "content_fr": "La réactivité d'un métal décide de la façon dont on l'obtient à partir de son minerai. Les métaux très réactifs comme l'aluminium sont extraits par électrolyse, qui utilise l'électricité pour décomposer le composé.\n\nLes métaux de réactivité moyenne comme le fer et le zinc sont extraits par réduction au carbone, car le carbone est assez réactif pour leur retirer l'oxygène. Les métaux les moins réactifs comme l'or et l'argent se trouvent souvent déjà libres dans le sol, car ils réagissent difficilement.\n\nAinsi, plus un métal est réactif, plus son extraction est difficile et coûteuse.",
+      "required": true,
+      "xp": 12,
+      "question": {
+        "kind": "mcq",
+        "difficulty": 2,
+        "text": "How is a very reactive metal such as aluminium extracted from its ore?",
+        "text_fr": "Comment extrait-on un métal très réactif comme l'aluminium de son minerai ?",
+        "explanation": "Very reactive metals cannot be reduced by carbon, so they are extracted by electrolysis.",
+        "explanation_fr": "Les métaux très réactifs ne peuvent pas être réduits par le carbone : on les extrait par électrolyse.",
+        "hint_prompt": "It uses electricity.",
+        "hint_prompt_fr": "Cela utilise l'électricité.",
+        "choices": [
+          {"text": "By electrolysis", "text_fr": "Par électrolyse", "correct": true},
+          {"text": "By reduction with carbon", "text_fr": "Par réduction au carbone", "correct": false},
+          {"text": "By filtering the ore", "text_fr": "En filtrant le minerai", "correct": false},
+          {"text": "By evaporation", "text_fr": "Par évaporation", "correct": false}
+        ],
+        "hints": [
+          {"text": "Carbon is not strong enough.", "text_fr": "Le carbone n'est pas assez fort."},
+          {"text": "Electricity does the job.", "text_fr": "L'électricité fait le travail."}
+        ]
+      }
+    },
+    {
+      "kind": "explain",
+      "title": "Metals with water and acid",
+      "title_fr": "Les métaux avec l'eau et les acides",
+      "content": "The further up the series, the more vigorous the reaction. Potassium, sodium and calcium react with cold water, giving a metal hydroxide and hydrogen gas. Magnesium reacts very slowly with cold water but rapidly with steam.\n\nZinc and iron do not react with cold water but react with steam and with dilute acid. Copper, silver and gold do not react with water or dilute acid at all, so they stay shiny and unreactive.\n\nWorked example: magnesium plus dilute hydrochloric acid gives magnesium chloride and hydrogen, which pops with a lighted splint.",
+      "content_fr": "Plus un métal est haut dans la série, plus sa réaction est vive. Le potassium, le sodium et le calcium réagissent avec l'eau froide en donnant un hydroxyde métallique et du dihydrogène. Le magnésium réagit très lentement avec l'eau froide mais vite avec la vapeur d'eau.\n\nLe zinc et le fer ne réagissent pas avec l'eau froide mais réagissent avec la vapeur d'eau et les acides dilués. Le cuivre, l'argent et l'or ne réagissent ni avec l'eau ni avec les acides dilués : ils restent brillants et inactifs.\n\nExemple rédigé : le magnésium avec l'acide chlorhydrique dilué donne du chlorure de magnésium et du dihydrogène, qui produit une petite détonation avec une flamme.",
+      "required": true,
+      "xp": 12,
+      "question": {
+        "kind": "mcq",
+        "difficulty": 2,
+        "text": "Which metal reacts with cold water to give hydrogen and a hydroxide?",
+        "text_fr": "Quel métal réagit avec l'eau froide pour donner du dihydrogène et un hydroxyde ?",
+        "explanation": "Sodium is high in the series and reacts with cold water, unlike copper, iron or gold.",
+        "explanation_fr": "Le sodium est haut dans la série et réagit avec l'eau froide, contrairement au cuivre, au fer ou à l'or.",
+        "hint_prompt": "Choose a highly reactive metal.",
+        "hint_prompt_fr": "Choisis un métal très réactif.",
+        "choices": [
+          {"text": "Sodium", "text_fr": "Le sodium", "correct": true},
+          {"text": "Copper", "text_fr": "Le cuivre", "correct": false},
+          {"text": "Iron", "text_fr": "Le fer", "correct": false},
+          {"text": "Gold", "text_fr": "L'or", "correct": false}
+        ],
+        "hints": [
+          {"text": "It fizzes on cold water.", "text_fr": "Il pétille sur l'eau froide."},
+          {"text": "It is sodium.", "text_fr": "C'est le sodium."}
+        ]
+      }
+    },
+    {
+      "kind": "practice",
+      "title": "Your turn: predict the reaction",
+      "title_fr": "À toi : prévoir la réaction",
+      "content": "Compare the two metals in the series before you decide. The one higher up takes part in the reaction and the one lower down is pushed out. If the added metal is lower, expect no reaction.",
+      "content_fr": "Compare les deux métaux dans la série avant de décider. Celui qui est plus haut participe à la réaction et celui qui est plus bas est chassé. Si le métal ajouté est plus bas, prévois qu'il ne se passe rien.",
+      "required": true,
+      "xp": 12,
+      "question": {
+        "kind": "mcq",
+        "difficulty": 3,
+        "text": "Which metal will displace copper from copper sulfate solution?",
+        "text_fr": "Quel métal déplacera le cuivre de la solution de sulfate de cuivre ?",
+        "explanation": "Magnesium is above copper in the series, so it displaces copper. Silver is below copper, so it cannot.",
+        "explanation_fr": "Le magnésium est au-dessus du cuivre dans la série : il déplace donc le cuivre. L'argent est sous le cuivre, il ne peut pas le déplacer.",
+        "hint_prompt": "Choose a metal above copper.",
+        "hint_prompt_fr": "Choisis un métal au-dessus du cuivre.",
+        "choices": [
+          {"text": "Magnesium", "text_fr": "Le magnésium", "correct": true},
+          {"text": "Silver", "text_fr": "L'argent", "correct": false},
+          {"text": "Gold", "text_fr": "L'or", "correct": false},
+          {"text": "Another copper atom", "text_fr": "Un autre atome de cuivre", "correct": false}
+        ],
+        "hints": [
+          {"text": "Only a metal above copper works.", "text_fr": "Seul un métal au-dessus du cuivre agit."},
+          {"text": "Magnesium is above copper.", "text_fr": "Le magnésium est au-dessus du cuivre."}
+        ]
+      }
+    },
+    {
+      "kind": "summary",
+      "title": "What to keep",
+      "title_fr": "À retenir",
+      "content": "The reactivity series orders metals from potassium down to gold. A more reactive metal displaces a less reactive one from its compound. Metals above hydrogen react with dilute acid to give hydrogen. Very reactive metals need electrolysis, medium ones use carbon reduction, and the least reactive are found native.",
+      "content_fr": "La série de réactivité classe les métaux du potassium jusqu'à l'or. Un métal plus réactif déplace un métal moins réactif de son composé. Les métaux au-dessus de l'hydrogène réagissent avec un acide dilué en libérant du dihydrogène. Les métaux très réactifs exigent l'électrolyse, les moyens utilisent la réduction au carbone, et les moins réactifs se trouvent à l'état natif.",
+      "xp": 5
+    }
+  ],
+  "quiz": {
+    "title": "Quiz: the reactivity series",
+    "title_fr": "Quiz : la série de réactivité",
+    "pass_score": 60,
+    "questions": [
+      {
+        "kind": "mcq",
+        "difficulty": 1,
+        "text": "Which metal is the least reactive of these?",
+        "text_fr": "Lequel de ces métaux est le moins réactif ?",
+        "explanation": "Gold is at the bottom of the series and is the least reactive here.",
+        "explanation_fr": "L'or est en bas de la série et le moins réactif parmi ceux-ci.",
+        "hint_prompt": "It is used in jewellery for staying shiny.",
+        "hint_prompt_fr": "Il sert en bijouterie car il reste brillant.",
+        "choices": [
+          {"text": "Gold", "text_fr": "L'or", "correct": true},
+          {"text": "Potassium", "text_fr": "Le potassium", "correct": false},
+          {"text": "Magnesium", "text_fr": "Le magnésium", "correct": false},
+          {"text": "Zinc", "text_fr": "Le zinc", "correct": false}
+        ],
+        "hints": [
+          {"text": "It is at the bottom.", "text_fr": "Il est tout en bas."},
+          {"text": "Gold.", "text_fr": "L'or."}
+        ]
+      },
+      {
+        "kind": "mcq",
+        "difficulty": 2,
+        "text": "Zinc is placed in lead nitrate solution. What happens?",
+        "text_fr": "On plonge du zinc dans une solution de nitrate de plomb. Que se passe-t-il ?",
+        "explanation": "Zinc is above lead, so it displaces the lead: zinc nitrate forms and lead appears.",
+        "explanation_fr": "Le zinc est au-dessus du plomb : il le déplace. Il se forme du nitrate de zinc et du plomb apparaît.",
+        "hint_prompt": "Compare zinc and lead in the series.",
+        "hint_prompt_fr": "Compare le zinc et le plomb dans la série.",
+        "choices": [
+          {"text": "Zinc displaces the lead", "text_fr": "Le zinc déplace le plomb", "correct": true},
+          {"text": "Lead displaces the zinc", "text_fr": "Le plomb déplace le zinc", "correct": false},
+          {"text": "Nothing happens", "text_fr": "Il ne se passe rien", "correct": false},
+          {"text": "Both metals dissolve", "text_fr": "Les deux métaux se dissolvent", "correct": false}
+        ],
+        "hints": [
+          {"text": "Zinc is above lead.", "text_fr": "Le zinc est au-dessus du plomb."},
+          {"text": "So zinc displaces lead.", "text_fr": "Le zinc déplace donc le plomb."}
+        ]
+      },
+      {
+        "kind": "mcq",
+        "difficulty": 2,
+        "text": "Which gas is released when zinc reacts with dilute acid?",
+        "text_fr": "Quel gaz se dégage quand le zinc réagit avec un acide dilué ?",
+        "explanation": "Zinc is above hydrogen, so it reacts with acid to release hydrogen gas.",
+        "explanation_fr": "Le zinc est au-dessus de l'hydrogène : il réagit donc avec l'acide en libérant du dihydrogène.",
+        "hint_prompt": "It pops with a lighted splint.",
+        "hint_prompt_fr": "Il produit une détonation avec une flamme.",
+        "choices": [
+          {"text": "Hydrogen", "text_fr": "Le dihydrogène", "correct": true},
+          {"text": "Carbon dioxide", "text_fr": "Le dioxyde de carbone", "correct": false},
+          {"text": "Oxygen", "text_fr": "Le dioxygène", "correct": false},
+          {"text": "Chlorine", "text_fr": "Le dichlore", "correct": false}
+        ],
+        "hints": [
+          {"text": "Metal plus acid gives this gas.", "text_fr": "Métal plus acide donne ce gaz."},
+          {"text": "It is hydrogen.", "text_fr": "C'est le dihydrogène."}
+        ]
+      },
+      {
+        "kind": "mcq",
+        "difficulty": 2,
+        "text": "Which method extracts iron from its ore?",
+        "text_fr": "Quelle méthode extrait le fer de son minerai ?",
+        "explanation": "Iron has medium reactivity, so it is extracted by reduction with carbon.",
+        "explanation_fr": "Le fer a une réactivité moyenne : on l'extrait par réduction au carbone.",
+        "hint_prompt": "Iron is not at the top of the series.",
+        "hint_prompt_fr": "Le fer n'est pas en haut de la série.",
+        "choices": [
+          {"text": "Reduction with carbon", "text_fr": "La réduction au carbone", "correct": true},
+          {"text": "Electrolysis", "text_fr": "L'électrolyse", "correct": false},
+          {"text": "Filtration", "text_fr": "La filtration", "correct": false},
+          {"text": "Chromatography", "text_fr": "La chromatographie", "correct": false}
+        ],
+        "hints": [
+          {"text": "Carbon can take the oxygen away.", "text_fr": "Le carbone peut retirer l'oxygène."},
+          {"text": "It is carbon reduction.", "text_fr": "C'est la réduction au carbone."}
+        ]
+      },
+      {
+        "kind": "mcq",
+        "difficulty": 3,
+        "text": "Which metal will NOT react with dilute hydrochloric acid?",
+        "text_fr": "Quel métal ne réagira PAS avec l'acide chlorhydrique dilué ?",
+        "explanation": "Copper is below hydrogen in the series, so it does not react with dilute acid.",
+        "explanation_fr": "Le cuivre est sous l'hydrogène dans la série : il ne réagit donc pas avec un acide dilué.",
+        "hint_prompt": "Choose a metal below hydrogen.",
+        "hint_prompt_fr": "Choisis un métal sous l'hydrogène.",
+        "choices": [
+          {"text": "Copper", "text_fr": "Le cuivre", "correct": true},
+          {"text": "Magnesium", "text_fr": "Le magnésium", "correct": false},
+          {"text": "Zinc", "text_fr": "Le zinc", "correct": false},
+          {"text": "Iron", "text_fr": "Le fer", "correct": false}
+        ],
+        "hints": [
+          {"text": "Only metals below hydrogen do not react.", "text_fr": "Seuls les métaux sous l'hydrogène ne réagissent pas."},
+          {"text": "Copper is below hydrogen.", "text_fr": "Le cuivre est sous l'hydrogène."}
+        ]
+      }
+    ]
+  }
+}

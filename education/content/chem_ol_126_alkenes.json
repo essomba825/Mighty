@@ -1,0 +1,285 @@
+{
+  "lesson": 126,
+  "status": "published",
+  "lesson_fields": {
+    "title": "Alkanes, Alkenes and Polymers",
+    "title_fr": "Alcanes, alcènes et polymères",
+    "summary": "Recognise alkanes and alkenes and explain cracking, addition and the formation of polymers.",
+    "summary_fr": "Reconnaître les alcanes et les alcènes et expliquer le craquage, l'addition et la formation des polymères.",
+    "content": "## What you will learn\n\nHydrocarbons can be saturated or unsaturated. Alkenes contain a double bond, which makes them useful for making plastics called polymers.",
+    "content_fr": "## Ce que tu vas apprendre\n\nLes hydrocarbures peuvent être saturés ou insaturés. Les alcènes contiennent une double liaison, ce qui les rend utiles pour fabriquer des plastiques appelés polymères.",
+    "objectives": [
+      "Write the formulas of simple alkanes and alkenes",
+      "Explain cracking and the test for alkenes",
+      "Describe how alkenes join to make polymers"
+    ],
+    "objectives_fr": [
+      "Écrire les formules d'alcanes et d'alcènes simples",
+      "Expliquer le craquage et le test des alcènes",
+      "Décrire comment les alcènes s'unissent pour former des polymères"
+    ],
+    "estimated_minutes": 30
+  },
+  "steps": [
+    {
+      "kind": "concept",
+      "title": "Alkanes",
+      "title_fr": "Les alcanes",
+      "content": "Alkanes are hydrocarbons in which the carbon atoms are joined only by single bonds. Their names end in -ane, and they are called saturated compounds because each carbon atom is bonded to as many hydrogen atoms as possible.\n\nThe first alkanes are methane CH4, ethane C2H6 and propane C3H8. Alkanes are the main fuels obtained from crude oil.",
+      "content_fr": "Les alcanes sont des hydrocarbures dans lesquels les atomes de carbone sont unis uniquement par des liaisons simples. Leur nom se termine par -ane, et ce sont des composés saturés car chaque atome de carbone est lié au maximum d'atomes d'hydrogène possible.\n\nLes premiers alcanes sont le méthane CH4, l'éthane C2H6 et le propane C3H8. Les alcanes sont les principaux carburants obtenus à partir du pétrole brut.",
+      "required": true,
+      "xp": 10,
+      "question": {
+        "kind": "mcq",
+        "difficulty": 1,
+        "text": "Which type of bond joins the carbon atoms in an alkane?",
+        "text_fr": "Quel type de liaison unit les atomes de carbone dans un alcane ?",
+        "explanation": "Alkanes are saturated, so their carbon atoms are joined by single bonds only.",
+        "explanation_fr": "Les alcanes sont saturés : leurs atomes de carbone sont unis uniquement par des liaisons simples.",
+        "hint_prompt": "Saturated means no double bonds.",
+        "hint_prompt_fr": "Saturé signifie aucune double liaison.",
+        "choices": [
+          {"text": "Single bonds only", "text_fr": "Des liaisons simples uniquement", "correct": true},
+          {"text": "Double bonds only", "text_fr": "Des doubles liaisons uniquement", "correct": false},
+          {"text": "Ionic bonds", "text_fr": "Des liaisons ioniques", "correct": false},
+          {"text": "Metallic bonds", "text_fr": "Des liaisons métalliques", "correct": false}
+        ],
+        "hints": [
+          {"text": "It is a saturated compound.", "text_fr": "C'est un composé saturé."},
+          {"text": "Only single bonds.", "text_fr": "Uniquement des liaisons simples."}
+        ]
+      }
+    },
+    {
+      "kind": "concept",
+      "title": "Alkenes",
+      "title_fr": "Les alcènes",
+      "content": "Alkenes are hydrocarbons that contain at least one double bond between two carbon atoms. Their names end in -ene, and they are unsaturated: they have fewer hydrogen atoms than the alkane with the same number of carbon atoms.\n\nThe first alkenes are ethene C2H4 and propene C3H6. Because of the double bond, alkenes are more reactive than alkanes.",
+      "content_fr": "Les alcènes sont des hydrocarbures qui contiennent au moins une double liaison entre deux atomes de carbone. Leur nom se termine par -ène, et ils sont insaturés : ils ont moins d'atomes d'hydrogène que l'alcane au même nombre d'atomes de carbone.\n\nLes premiers alcènes sont l'éthène C2H4 et le propène C3H6. À cause de la double liaison, les alcènes sont plus réactifs que les alcanes.",
+      "required": true,
+      "xp": 12,
+      "question": {
+        "kind": "mcq",
+        "difficulty": 2,
+        "text": "How does ethene differ from ethane?",
+        "text_fr": "En quoi l'éthène diffère-t-il de l'éthane ?",
+        "explanation": "Ethene has a double bond and is unsaturated, so it has fewer hydrogen atoms than ethane.",
+        "explanation_fr": "L'éthène possède une double liaison et est insaturé : il a donc moins d'atomes d'hydrogène que l'éthane.",
+        "hint_prompt": "Compare the two names and their bonds.",
+        "hint_prompt_fr": "Compare les deux noms et leurs liaisons.",
+        "choices": [
+          {"text": "Ethene has a double bond and is unsaturated", "text_fr": "L'éthène a une double liaison et est insaturé", "correct": true},
+          {"text": "Ethene has only single bonds", "text_fr": "L'éthène n'a que des liaisons simples", "correct": false},
+          {"text": "Ethene contains oxygen", "text_fr": "L'éthène contient de l'oxygène", "correct": false},
+          {"text": "Ethene is a metal", "text_fr": "L'éthène est un métal", "correct": false}
+        ],
+        "hints": [
+          {"text": "The -ene ending means a double bond.", "text_fr": "La terminaison -ène signifie une double liaison."},
+          {"text": "It is unsaturated.", "text_fr": "Il est insaturé."}
+        ]
+      }
+    },
+    {
+      "kind": "concept",
+      "title": "Cracking and the test for alkenes",
+      "title_fr": "Le craquage et le test des alcènes",
+      "content": "Long-chain hydrocarbons can be split into smaller, more useful molecules by cracking. Cracking needs heat and a catalyst, and it produces a shorter alkane together with an alkene.\n\nBromine water is used as a test for alkenes. It turns from orange to colourless when an alkene is present, but stays orange with an alkane. The double bond of the alkene is what removes the colour.",
+      "content_fr": "Les hydrocarbures à longue chaîne peuvent être coupés en molécules plus petites et plus utiles par craquage. Le craquage nécessite de la chaleur et un catalyseur, et il produit un alcane plus court avec un alcène.\n\nL'eau de brome sert de test pour les alcènes. Elle passe de l'orange à l'incolore en présence d'un alcène, mais reste orange avec un alcane. C'est la double liaison de l'alcène qui fait disparaître la couleur.",
+      "required": true,
+      "xp": 12,
+      "question": {
+        "kind": "mcq",
+        "difficulty": 2,
+        "text": "What happens to bromine water when it is shaken with an alkene?",
+        "text_fr": "Que devient l'eau de brome lorsqu'on l'agite avec un alcène ?",
+        "explanation": "The double bond reacts with bromine, so the orange colour disappears and the water becomes colourless.",
+        "explanation_fr": "La double liaison réagit avec le brome : la couleur orange disparaît et l'eau devient incolore.",
+        "hint_prompt": "Think about the double bond reacting.",
+        "hint_prompt_fr": "Pense à la réaction de la double liaison.",
+        "choices": [
+          {"text": "It turns from orange to colourless", "text_fr": "Elle passe de l'orange à l'incolore", "correct": true},
+          {"text": "It stays orange", "text_fr": "Elle reste orange", "correct": false},
+          {"text": "It turns bright green", "text_fr": "Elle devient vert vif", "correct": false},
+          {"text": "It freezes solid", "text_fr": "Elle gèle et se solidifie", "correct": false}
+        ],
+        "hints": [
+          {"text": "The colour goes away.", "text_fr": "La couleur disparaît."},
+          {"text": "It becomes colourless.", "text_fr": "Elle devient incolore."}
+        ]
+      }
+    },
+    {
+      "kind": "explain",
+      "title": "Addition and polymers",
+      "title_fr": "Addition et polymères",
+      "content": "Many alkene molecules can join together to form a very long molecule called a polymer. Each small alkene molecule is called a monomer. The double bond opens and the monomers link together in a reaction called addition polymerisation.\n\nThe first example is ethene: many ethene molecules join to form poly(ethene), also called polythene, which is used for bags and bottles. Different monomers give different polymers, such as poly(propene) and PVC.",
+      "content_fr": "De nombreuses molécules d'alcène peuvent s'unir pour former une très longue molécule appelée polymère. Chaque petite molécule d'alcène est appelée monomère. La double liaison s'ouvre et les monomères se lient dans une réaction appelée polymérisation par addition.\n\nLe premier exemple est l'éthène : de nombreuses molécules d'éthène s'unissent pour former le poly(éthène), aussi appelé polyéthylène, utilisé pour les sacs et les bouteilles. Des monomères différents donnent des polymères différents, comme le poly(propène) et le PVC.",
+      "required": true,
+      "xp": 12,
+      "question": {
+        "kind": "mcq",
+        "difficulty": 2,
+        "text": "A small alkene molecule that joins with others to make a polymer is called a...",
+        "text_fr": "Une petite molécule d'alcène qui s'unit à d'autres pour former un polymère s'appelle un...",
+        "explanation": "The small repeating molecule is the monomer; many monomers join to form the polymer.",
+        "explanation_fr": "La petite molécule répétitive est le monomère ; de nombreux monomères s'unissent pour former le polymère.",
+        "hint_prompt": "Mono means one unit.",
+        "hint_prompt_fr": "Mono signifie une seule unité.",
+        "choices": [
+          {"text": "monomer", "text_fr": "monomère", "correct": true},
+          {"text": "polymer", "text_fr": "polymère", "correct": false},
+          {"text": "catalyst", "text_fr": "catalyseur", "correct": false},
+          {"text": "fraction", "text_fr": "fraction", "correct": false}
+        ],
+        "hints": [
+          {"text": "It is the single unit.", "text_fr": "C'est l'unité unique."},
+          {"text": "The answer is monomer.", "text_fr": "La réponse est monomère."}
+        ]
+      }
+    },
+    {
+      "kind": "practice",
+      "title": "Your turn: which hydrocarbon?",
+      "title_fr": "À toi : quel hydrocarbure ?",
+      "content": "Decide whether a formula belongs to an alkane or an alkene, using the bonds and the test.",
+      "content_fr": "Détermine si une formule appartient à un alcane ou à un alcène, en t'aidant des liaisons et du test.",
+      "required": true,
+      "xp": 12,
+      "question": {
+        "kind": "mcq",
+        "difficulty": 2,
+        "text": "A hydrocarbon has the formula C2H4 and decolourises bromine water. What is it?",
+        "text_fr": "Un hydrocarbure a pour formule C2H4 et décolore l'eau de brome. Qu'est-ce que c'est ?",
+        "explanation": "C2H4 is ethene: it decolourises bromine water because it is an alkene with a double bond.",
+        "explanation_fr": "C2H4 est l'éthène : il décolore l'eau de brome car c'est un alcène à double liaison.",
+        "hint_prompt": "The test result tells you whether it is saturated.",
+        "hint_prompt_fr": "Le résultat du test indique s'il est saturé.",
+        "choices": [
+          {"text": "An alkene, because it has a double bond", "text_fr": "Un alcène, car il a une double liaison", "correct": true},
+          {"text": "An alkane, because it is saturated", "text_fr": "Un alcane, car il est saturé", "correct": false},
+          {"text": "A metal", "text_fr": "Un métal", "correct": false},
+          {"text": "A salt", "text_fr": "Un sel", "correct": false}
+        ],
+        "hints": [
+          {"text": "It removed the colour from bromine water.", "text_fr": "Il a fait disparaître la couleur de l'eau de brome."},
+          {"text": "That means an alkene.", "text_fr": "Cela signifie un alcène."}
+        ]
+      }
+    },
+    {
+      "kind": "summary",
+      "title": "What to keep",
+      "title_fr": "À retenir",
+      "content": "Alkanes are saturated hydrocarbons with single bonds only, while alkenes are unsaturated and contain a double bond. Cracking splits long chains into shorter alkanes and alkenes. Bromine water turns from orange to colourless with an alkene, and alkenes join to form long-chain polymers.",
+      "content_fr": "Les alcanes sont des hydrocarbures saturés avec uniquement des liaisons simples, tandis que les alcènes sont insaturés et contiennent une double liaison. Le craquage coupe les longues chaînes en alcanes et alcènes plus courts. L'eau de brome passe de l'orange à l'incolore avec un alcène, et les alcènes s'unissent pour former de longs polymères.",
+      "xp": 5
+    }
+  ],
+  "quiz": {
+    "title": "Quiz: alkanes, alkenes and polymers",
+    "title_fr": "Quiz : alcanes, alcènes et polymères",
+    "pass_score": 60,
+    "questions": [
+      {
+        "kind": "mcq",
+        "difficulty": 1,
+        "text": "Alkanes are described as saturated because they contain...",
+        "text_fr": "Les alcanes sont dits saturés car ils contiennent...",
+        "explanation": "Saturated hydrocarbons have single bonds only, so each carbon is bonded to as much hydrogen as possible.",
+        "explanation_fr": "Les hydrocarbures saturés n'ont que des liaisons simples : chaque carbone est lié au maximum d'hydrogène possible.",
+        "hint_prompt": "Saturated means no double bonds.",
+        "hint_prompt_fr": "Saturé signifie aucune double liaison.",
+        "choices": [
+          {"text": "single bonds only", "text_fr": "uniquement des liaisons simples", "correct": true},
+          {"text": "at least one double bond", "text_fr": "au moins une double liaison", "correct": false},
+          {"text": "ionic bonds", "text_fr": "des liaisons ioniques", "correct": false},
+          {"text": "no hydrogen at all", "text_fr": "aucun hydrogène", "correct": false}
+        ],
+        "hints": [
+          {"text": "Saturated compounds have no double bond.", "text_fr": "Les composés saturés n'ont pas de double liaison."},
+          {"text": "Only single bonds.", "text_fr": "Uniquement des liaisons simples."}
+        ]
+      },
+      {
+        "kind": "mcq",
+        "difficulty": 2,
+        "text": "Which substance do you use to test for an alkene?",
+        "text_fr": "Quelle substance utilise-t-on pour tester un alcène ?",
+        "explanation": "Bromine water turns from orange to colourless with an alkene.",
+        "explanation_fr": "L'eau de brome passe de l'orange à l'incolore en présence d'un alcène.",
+        "hint_prompt": "It has an orange colour that disappears.",
+        "hint_prompt_fr": "Sa couleur orange disparaît.",
+        "choices": [
+          {"text": "Bromine water", "text_fr": "L'eau de brome", "correct": true},
+          {"text": "Limewater", "text_fr": "L'eau de chaux", "correct": false},
+          {"text": "Anhydrous copper sulfate", "text_fr": "Le sulfate de cuivre anhydre", "correct": false},
+          {"text": "Distilled water", "text_fr": "L'eau distillée", "correct": false}
+        ],
+        "hints": [
+          {"text": "It is orange at the start.", "text_fr": "Elle est orange au départ."},
+          {"text": "It is bromine water.", "text_fr": "C'est l'eau de brome."}
+        ]
+      },
+      {
+        "kind": "mcq",
+        "difficulty": 2,
+        "text": "What does cracking produce from a long-chain hydrocarbon?",
+        "text_fr": "Que produit le craquage à partir d'un hydrocarbure à longue chaîne ?",
+        "explanation": "Cracking splits a long chain into a shorter alkane and an alkene.",
+        "explanation_fr": "Le craquage coupe une longue chaîne en un alcane plus court et un alcène.",
+        "hint_prompt": "One of the products has a double bond.",
+        "hint_prompt_fr": "L'un des produits possède une double liaison.",
+        "choices": [
+          {"text": "A shorter alkane and an alkene", "text_fr": "Un alcane plus court et un alcène", "correct": true},
+          {"text": "Only water", "text_fr": "Uniquement de l'eau", "correct": false},
+          {"text": "Only a metal", "text_fr": "Uniquement un métal", "correct": false},
+          {"text": "A single pure element", "text_fr": "Un seul élément pur", "correct": false}
+        ],
+        "hints": [
+          {"text": "It makes smaller, more useful molecules.", "text_fr": "Il produit des molécules plus petites et plus utiles."},
+          {"text": "An alkane and an alkene.", "text_fr": "Un alcane et un alcène."}
+        ]
+      },
+      {
+        "kind": "mcq",
+        "difficulty": 2,
+        "text": "Polymers are made when...",
+        "text_fr": "Les polymères se forment quand...",
+        "explanation": "Many alkene monomers join together in addition polymerisation to form a long polymer.",
+        "explanation_fr": "De nombreux monomères d'alcène s'unissent par polymérisation par addition pour former un long polymère.",
+        "hint_prompt": "Think about many small units linking.",
+        "hint_prompt_fr": "Pense à de nombreuses petites unités qui se lient.",
+        "choices": [
+          {"text": "many alkene monomers join together", "text_fr": "de nombreux monomères d'alcène s'unissent", "correct": true},
+          {"text": "a metal melts", "text_fr": "un métal fond", "correct": false},
+          {"text": "a salt dissolves in water", "text_fr": "un sel se dissout dans l'eau", "correct": false},
+          {"text": "an acid is neutralised", "text_fr": "un acide est neutralisé", "correct": false}
+        ],
+        "hints": [
+          {"text": "Monomers link into long chains.", "text_fr": "Les monomères s'enchaînent en longues chaînes."},
+          {"text": "Many alkene units join.", "text_fr": "De nombreuses unités d'alcène s'unissent."}
+        ]
+      },
+      {
+        "kind": "mcq",
+        "difficulty": 2,
+        "text": "Which of these is a polymer made from ethene?",
+        "text_fr": "Lequel de ces composés est un polymère fabriqué à partir d'éthène ?",
+        "explanation": "Ethene monomers join to form poly(ethene), also called polythene.",
+        "explanation_fr": "Les monomères d'éthène s'unissent pour former le poly(éthène), aussi appelé polyéthylène.",
+        "hint_prompt": "The name is based on ethene.",
+        "hint_prompt_fr": "Le nom est formé à partir d'éthène.",
+        "choices": [
+          {"text": "Poly(ethene)", "text_fr": "Le poly(éthène)", "correct": true},
+          {"text": "Methane", "text_fr": "Le méthane", "correct": false},
+          {"text": "Ethanol", "text_fr": "L'éthanol", "correct": false},
+          {"text": "Bromine water", "text_fr": "L'eau de brome", "correct": false}
+        ],
+        "hints": [
+          {"text": "It is also called polythene.", "text_fr": "Il est aussi appelé polyéthylène."},
+          {"text": "It is poly(ethene).", "text_fr": "C'est le poly(éthène)."}
+        ]
+      }
+    ]
+  }
+}

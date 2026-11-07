@@ -1,0 +1,291 @@
+{
+  "lesson": 146,
+  "status": "published",
+  "lesson_fields": {
+    "title": "Current, Voltage and Resistance",
+    "title_fr": "Courant, tension et resistance",
+    "summary": "Current is the flow of charge. Voltage drives the current and resistance opposes it. Ohm's law links the three.",
+    "summary_fr": "Le courant est un ecoulement de charge. La tension fait circuler le courant et la resistance s'y oppose. La loi d'Ohm relie les trois.",
+    "content": "## Current and voltage\n\nCurrent is the rate of flow of charge, measured in amperes. Voltage is the energy given to each charge, measured in volts. Resistance opposes the current, measured in ohms.\n\n## Ohm's law\n\nVoltage equals current times resistance. If resistance rises with voltage unchanged, current falls.",
+    "content_fr": "## Courant et tension\n\nLe courant est le debit de charge, mesure en ampere. La tension est l'energie fournie a chaque charge, mesure en volt. La resistance s'oppose au courant, mesuree en ohm.\n\n## La loi d'Ohm\n\nLa tension egale le courant fois la resistance. Si la resistance augmente a tension constante, le courant diminue.",
+    "objectives": [
+      "Define current, voltage and resistance",
+      "Use Ohm's law",
+      "Explain how changing resistance affects current"
+    ],
+    "objectives_fr": [
+      "Definir courant, tension et resistance",
+      "Utiliser la loi d'Ohm",
+      "Expliquer comment la resistance modifie le courant"
+    ],
+    "estimated_minutes": 25
+  },
+  "steps": [
+    {
+      "kind": "concept",
+      "title": "Current and charge",
+      "title_fr": "Courant et charge",
+      "content": "Current is the flow of electric charge. It is measured in amperes with an ammeter connected in series. In a simple circuit, current is the same all around.",
+      "content_fr": "Le courant est l'ecoulement de charge electrique. Il se mesure en ampere avec un amperemetre branche en serie. Dans un circuit simple, le courant est le meme partout.",
+      "required": true,
+      "xp": 10,
+      "question": {
+        "kind": "mcq",
+        "text": "What is current?",
+        "text_fr": "Qu'est-ce que le courant ?",
+        "explanation": "The flow of electric charge.",
+        "explanation_fr": "L'ecoulement de charge electrique.",
+        "choices": [
+          {
+            "text": "The flow of charge",
+            "text_fr": "L'ecoulement de charge",
+            "correct": true
+          },
+          {
+            "text": "The push on charges",
+            "text_fr": "La poussee sur les charges",
+            "correct": false
+          },
+          {
+            "text": "The opposition to flow",
+            "text_fr": "L'opposition au passage",
+            "correct": false
+          }
+        ],
+        "hints": [
+          {
+            "text": "Charges move.",
+            "text_fr": "Les charges se deplacent."
+          }
+        ],
+        "difficulty": 1
+      }
+    },
+    {
+      "kind": "explain",
+      "title": "Voltage and resistance",
+      "title_fr": "Tension et resistance",
+      "content": "Voltage is the energy transferred per unit charge, measured with a voltmeter in parallel. Resistance is how much a component opposes the current, measured in ohms.",
+      "content_fr": "La tension est l'energie transferee par unite de charge, mesuree au voltmetre en derivation. La resistance est la mesure de l'opposition d'un composant au courant, en ohms.",
+      "required": true,
+      "xp": 10
+    },
+    {
+      "kind": "example",
+      "title": "Using Ohm's law",
+      "title_fr": "Utiliser la loi d'Ohm",
+      "content": "If a resistor has 6 ohms and the current is 2 amperes, the voltage is 6 times 2, which is 12 volts.",
+      "content_fr": "Si une resistance vaut 6 ohms et que le courant est de 2 amperes, la tension vaut 6 fois 2, soit 12 volts.",
+      "required": true,
+      "xp": 12
+    },
+    {
+      "kind": "practice",
+      "title": "Your turn: find resistance",
+      "title_fr": "A toi : trouver la resistance",
+      "content": "A voltage of 12 volts drives a current of 3 amperes. What is the resistance, in ohms?",
+      "content_fr": "Une tension de 12 volts envoie un courant de 3 amperes. Quelle est la resistance, en ohms ?",
+      "required": true,
+      "xp": 12,
+      "question": {
+        "kind": "numeric",
+        "text": "Resistance in ohms?",
+        "text_fr": "Resistance en ohms ?",
+        "explanation": "Resistance equals voltage divided by current: 12 divided by 3 is 4 ohms.",
+        "explanation_fr": "La resistance egale la tension divisee par le courant : 12 divise par 3 vaut 4 ohms.",
+        "config": {
+          "accepted": [
+            "4"
+          ]
+        },
+        "hints": [
+          {
+            "text": "Rearrange Ohm's law.",
+            "text_fr": "Transforme la loi d'Ohm."
+          }
+        ],
+        "difficulty": 1
+      }
+    },
+    {
+      "kind": "question",
+      "title": "Check: changing resistance",
+      "title_fr": "Verification : resistance variable",
+      "content": "With the voltage fixed, increasing the resistance reduces the current. This is why a variable resistor dims a lamp.",
+      "content_fr": "A tension fixe, augmenter la resistance reduit le courant. C'est pourquoi un rhéostat attenue une lampe.",
+      "required": true,
+      "xp": 12,
+      "question": {
+        "kind": "mcq",
+        "text": "With fixed voltage, what happens if resistance increases?",
+        "text_fr": "A tension fixe, que se passe-t-il si la resistance augmente ?",
+        "explanation": "The current falls.",
+        "explanation_fr": "Le courant diminue.",
+        "choices": [
+          {
+            "text": "Current falls",
+            "text_fr": "Le courant diminue",
+            "correct": true
+          },
+          {
+            "text": "Current rises",
+            "text_fr": "Le courant augmente",
+            "correct": false
+          },
+          {
+            "text": "Nothing changes",
+            "text_fr": "Rien ne change",
+            "correct": false
+          }
+        ],
+        "hints": [
+          {
+            "text": "More opposition means less flow.",
+            "text_fr": "Plus d'opposition signifie moins de debit."
+          }
+        ],
+        "difficulty": 1
+      }
+    },
+    {
+      "kind": "summary",
+      "title": "What to keep",
+      "title_fr": "A retenir",
+      "content": "Current is the flow of charge in amperes, voltage drives it in volts, and resistance opposes it in ohms. Ohm's law: voltage equals current times resistance.",
+      "content_fr": "Le courant est l'ecoulement de charge en ampere, la tension l'entraine en volts, et la resistance s'y oppose en ohms. Loi d'Ohm : tension egale courant fois resistance.",
+      "required": false,
+      "xp": 5
+    }
+  ],
+  "quiz": {
+    "title": "Current, Voltage and Resistance",
+    "title_fr": "Courant, tension et resistance",
+    "pass_score": 60,
+    "questions": [
+      {
+        "kind": "mcq",
+        "text": "What is resistance measured in?",
+        "text_fr": "En quoi la resistance est-elle mesuree ?",
+        "explanation": "Ohms.",
+        "explanation_fr": "Les ohms.",
+        "choices": [
+          {
+            "text": "Ohms",
+            "text_fr": "Les ohms",
+            "correct": true
+          },
+          {
+            "text": "Volts",
+            "text_fr": "Les volts",
+            "correct": false
+          },
+          {
+            "text": "Amperes",
+            "text_fr": "Les amperes",
+            "correct": false
+          }
+        ],
+        "hints": [
+          {
+            "text": "A Greek letter is its symbol.",
+            "text_fr": "Une lettre grecque est son symbole."
+          }
+        ],
+        "difficulty": 1
+      },
+      {
+        "kind": "mcq",
+        "text": "What does Ohm's law state?",
+        "text_fr": "Que stipule la loi d'Ohm ?",
+        "explanation": "Voltage equals current times resistance.",
+        "explanation_fr": "La tension egale le courant fois la resistance.",
+        "choices": [
+          {
+            "text": "Voltage = current x resistance",
+            "text_fr": "Tension = courant x resistance",
+            "correct": true
+          },
+          {
+            "text": "Current = voltage x resistance",
+            "text_fr": "Courant = tension x resistance",
+            "correct": false
+          },
+          {
+            "text": "Resistance = current x voltage",
+            "text_fr": "Resistance = courant x tension",
+            "correct": false
+          }
+        ],
+        "hints": [
+          {
+            "text": "V equals I times R.",
+            "text_fr": "V egale I fois R."
+          }
+        ],
+        "difficulty": 1
+      },
+      {
+        "kind": "mcq",
+        "text": "Which instrument measures current?",
+        "text_fr": "Quel instrument mesure le courant ?",
+        "explanation": "Ammeter.",
+        "explanation_fr": "L'amperemetre.",
+        "choices": [
+          {
+            "text": "Ammeter",
+            "text_fr": "L'amperemetre",
+            "correct": true
+          },
+          {
+            "text": "Voltmeter",
+            "text_fr": "Le voltmetre",
+            "correct": false
+          },
+          {
+            "text": "Thermometer",
+            "text_fr": "Le thermometre",
+            "correct": false
+          }
+        ],
+        "hints": [
+          {
+            "text": "Connected in series.",
+            "text_fr": "Branche en serie."
+          }
+        ],
+        "difficulty": 1
+      },
+      {
+        "kind": "mcq",
+        "text": "In a series circuit, the current is...",
+        "text_fr": "Dans un circuit en serie, le courant est...",
+        "explanation": "The same everywhere.",
+        "explanation_fr": "Le meme partout.",
+        "choices": [
+          {
+            "text": "The same everywhere",
+            "text_fr": "Le meme partout",
+            "correct": true
+          },
+          {
+            "text": "Larger near the battery",
+            "text_fr": "Plus grand pres de la pile",
+            "correct": false
+          },
+          {
+            "text": "Zero",
+            "text_fr": "Nul",
+            "correct": false
+          }
+        ],
+        "hints": [
+          {
+            "text": "One path only.",
+            "text_fr": "Un seul chemin."
+          }
+        ],
+        "difficulty": 1
+      }
+    ]
+  }
+}

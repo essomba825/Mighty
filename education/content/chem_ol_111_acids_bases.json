@@ -1,0 +1,275 @@
+{
+  "lesson": 111,
+  "status": "published",
+  "lesson_fields": {
+    "title": "Acids and Bases",
+    "title_fr": "Acides et bases",
+    "summary": "Recognise acids and bases and use indicators and pH to describe their strength.",
+    "summary_fr": "Reconnaître les acides et les bases et utiliser les indicateurs et le pH pour décrire leur force.",
+    "content": "## What you will learn\n\nAcids and bases are everywhere, from lemon juice to soap. In this lesson you will learn how to tell them apart, how the pH scale measures their strength, and how they react.",
+    "content_fr": "## Ce que tu vas apprendre\n\nLes acides et les bases sont partout, du jus de citron au savon. Dans cette leçon, tu apprendras à les distinguer, comment l'échelle de pH mesure leur force, et comment ils réagissent.",
+    "objectives": [
+      "Describe the properties of acids and bases",
+      "Use litmus, phenolphthalein and pH values",
+      "Explain acids in terms of hydrogen ions"
+    ],
+    "objectives_fr": [
+      "Décrire les propriétés des acides et des bases",
+      "Utiliser le tournesol, la phénolphtaléine et les valeurs de pH",
+      "Expliquer les acides en termes d'ions hydrogène"
+    ],
+    "estimated_minutes": 30
+  },
+  "steps": [
+    {
+      "kind": "concept",
+      "title": "What acids and bases are",
+      "title_fr": "Ce que sont les acides et les bases",
+      "content": "An acid is a substance that produces hydrogen ions, H+, when it dissolves in water. A base is a substance that can accept these hydrogen ions, and a soluble base is called an alkali.\n\nAcids have a sour taste and bases feel soapy, but you must never taste or touch them in the laboratory because many are corrosive. Common acids include hydrochloric acid in the stomach and citric acid in lemons; common bases include sodium hydroxide and ammonia.\n\nAcids turn blue litmus red, while bases turn red litmus blue.",
+      "content_fr": "Un acide est un corps qui libère des ions hydrogène, H+, lorsqu'il se dissout dans l'eau. Une base est un corps capable de fixer ces ions hydrogène, et une base soluble s'appelle un alcali.\n\nLes acides ont un goût acide et les bases sont glissantes au toucher, mais il ne faut jamais les goûter : certains sont très dangereux. Un acide connu est l'acide chlorhydrique de l'estomac, et une base connue est la soude.\n\nLes acides rougissent le tournesol bleu, tandis que les bases bleuissent le tournesol rouge.",
+      "required": true,
+      "xp": 10,
+      "question": {
+        "kind": "mcq",
+        "difficulty": 1,
+        "text": "Which ion is released by an acid in water?",
+        "text_fr": "Quel ion un acide libère-t-il dans l'eau ?",
+        "explanation": "Acids release hydrogen ions, H+, when dissolved in water.",
+        "explanation_fr": "Les acides libèrent des ions hydrogène, H+, dissous dans l'eau.",
+        "hint_prompt": "It is a positive hydrogen ion.",
+        "hint_prompt_fr": "C'est un ion hydrogène positif.",
+        "choices": [
+          {"text": "H+ the hydrogen ion", "text_fr": "H+ l'ion hydrogène", "correct": true},
+          {"text": "OH- the hydroxide ion", "text_fr": "OH- l'ion hydroxyde", "correct": false},
+          {"text": "Na+ the sodium ion", "text_fr": "Na+ l'ion sodium", "correct": false},
+          {"text": "Cl- the chloride ion", "text_fr": "Cl- l'ion chlorure", "correct": false}
+        ],
+        "hints": [
+          {"text": "It is positive.", "text_fr": "Il est positif."},
+          {"text": "H+ is the one.", "text_fr": "C'est H+."}
+        ]
+      }
+    },
+    {
+      "kind": "concept",
+      "title": "Indicators and the pH scale",
+      "title_fr": "Indicateurs et échelle de pH",
+      "content": "An indicator changes colour to show whether a solution is acidic or alkaline. Litmus turns red in acid and blue in alkali. Phenolphthalein is colourless in acid and pink in alkali. Methyl orange is red in acid and yellow in alkali.\n\nThe pH scale runs from 0 to 14. A pH below 7 is acidic, exactly 7 is neutral, and above 7 is alkaline. The lower the pH, the stronger the acid, and the higher the pH, the stronger the alkali.\n\nUniversal indicator shows a whole range of colours, so you can read off the approximate pH of a solution.",
+      "content_fr": "Un indicateur change de couleur pour montrer si une solution est acide ou basique. Le tournesol devient rouge en milieu acide et bleu en milieu basique. La phénolphtaléine est incolore en milieu acide et rose en milieu basique. Le méthylorange est rouge en milieu acide et jaune en milieu basique.\n\nL'échelle de pH va de 0 à 14. Un pH inférieur à 7 est acide, exactement 7 est neutre, et supérieur à 7 est basique. Plus le pH est bas, plus l'acide est fort, et plus le pH est haut, plus la base est forte.\n\nL'indicateur universel présente toute une gamme de couleurs : tu peux donc lire le pH approximatif d'une solution.",
+      "required": true,
+      "xp": 12,
+      "question": {
+        "kind": "numeric",
+        "difficulty": 2,
+        "text": "A solution turns litmus red. Its pH is below 7. What is the pH of a neutral solution?",
+        "text_fr": "Une solution rougit le tournesol. Son pH est inférieur à 7. Quel est le pH d'une solution neutre ?",
+        "explanation": "A neutral solution has a pH of exactly 7, at the middle of the scale.",
+        "explanation_fr": "Une solution neutre a un pH exactement égal à 7, au milieu de l'échelle.",
+        "hint_prompt": "It is the middle of the scale.",
+        "hint_prompt_fr": "C'est le milieu de l'échelle.",
+        "config": {"accepted": [7]},
+        "hints": [
+          {"text": "The scale runs from 0 to 14.", "text_fr": "L'échelle va de 0 à 14."},
+          {"text": "Halfway is 7.", "text_fr": "Le milieu est 7."}
+        ]
+      }
+    },
+    {
+      "kind": "concept",
+      "title": "Strong and weak acids",
+      "title_fr": "Acides forts et acides faibles",
+      "content": "A strong acid is completely ionised in water, so every acid molecule releases its hydrogen ions. Hydrochloric acid and sulfuric acid are strong acids, and their solutions have very low pH values.\n\nA weak acid is only partly ionised, so most of its molecules stay whole and only a few release hydrogen ions. Ethanoic acid in vinegar is a weak acid, so it has a higher pH than a strong acid of the same concentration.\n\nStrength is not the same as concentration: strength is how fully the acid ionises, while concentration is how much acid is dissolved.",
+      "content_fr": "Un acide fort est totalement ionisé dans l'eau : chaque molécule d'acide libère ses ions hydrogène. L'acide chlorhydrique et l'acide sulfurique sont des acides forts, et leurs solutions ont des pH très bas.\n\nUn acide faible n'est que partiellement ionisé : la plupart de ses molécules restent entières et quelques-unes seulement libèrent des ions hydrogène. L'acide éthanoïque du vinaigre est un acide faible : il a donc un pH plus élevé qu'un acide fort de même concentration.\n\nLa force n'est pas la concentration : la force indique à quel point l'acide s'ionise, tandis que la concentration indique la quantité d'acide dissous.",
+      "required": true,
+      "xp": 12,
+      "question": {
+        "kind": "mcq",
+        "difficulty": 2,
+        "text": "What distinguishes a strong acid from a weak acid?",
+        "text_fr": "Qu'est-ce qui distingue un acide fort d'un acide faible ?",
+        "explanation": "A strong acid is completely ionised in water, while a weak acid is only partly ionised.",
+        "explanation_fr": "Un acide fort est totalement ionisé dans l'eau, alors qu'un acide faible n'est que partiellement ionisé.",
+        "hint_prompt": "Think about ionisation.",
+        "hint_prompt_fr": "Pense à l'ionisation.",
+        "choices": [
+          {"text": "How fully it ionises in water", "text_fr": "À quel point il s'ionise dans l'eau", "correct": true},
+          {"text": "Its colour", "text_fr": "Sa couleur", "correct": false},
+          {"text": "Its smell", "text_fr": "Son odeur", "correct": false},
+          {"text": "Its temperature", "text_fr": "Sa température", "correct": false}
+        ],
+        "hints": [
+          {"text": "It is about how many ions form.", "text_fr": "Cela concerne le nombre d'ions formés."},
+          {"text": "Full or partial ionisation.", "text_fr": "Ionisation totale ou partielle."}
+        ]
+      }
+    },
+    {
+      "kind": "explain",
+      "title": "How acids react",
+      "title_fr": "Comment réagissent les acides",
+      "content": "Acids react with metals above hydrogen in the reactivity series to give a salt and hydrogen gas, which you can test with a lighted splint and a squeaky pop.\n\nAcids react with metal carbonates to give a salt, water and carbon dioxide gas, which you can test by bubbling it through limewater, turning it milky.\n\nAcids react with bases in a neutralisation reaction to give a salt and water, which we study in the next lesson.",
+      "content_fr": "Les acides réagissent avec les métaux situés au-dessus de l'hydrogène dans la série de réactivité pour donner un sel et du dihydrogène gazeux, que tu identifies grâce à une flamme et une petite détonation.\n\nLes acides réagissent avec les carbonates métalliques pour donner un sel, de l'eau et du dioxyde de carbone gazeux, que tu identifies en le faisant barboter dans l'eau de chaux, qui se trouble.\n\nLes acides réagissent avec les bases lors d'une neutralisation pour donner un sel et de l'eau, ce que nous étudions dans la prochaine leçon.",
+      "required": true,
+      "xp": 12,
+      "question": {
+        "kind": "mcq",
+        "difficulty": 2,
+        "text": "Which gas is produced when an acid reacts with a metal such as magnesium?",
+        "text_fr": "Quel gaz se produit quand un acide réagit avec un métal comme le magnésium ?",
+        "explanation": "Acid plus metal gives a salt and hydrogen, which gives a squeaky pop with a lighted splint.",
+        "explanation_fr": "Acide plus métal donne un sel et du dihydrogène, qui produit une petite détonation avec une flamme.",
+        "hint_prompt": "It is the lightest gas.",
+        "hint_prompt_fr": "C'est le gaz le plus léger.",
+        "choices": [
+          {"text": "Hydrogen", "text_fr": "Le dihydrogène", "correct": true},
+          {"text": "Oxygen", "text_fr": "Le dioxygène", "correct": false},
+          {"text": "Carbon dioxide", "text_fr": "Le dioxyde de carbone", "correct": false},
+          {"text": "Nitrogen", "text_fr": "Le diazote", "correct": false}
+        ],
+        "hints": [
+          {"text": "It pops with a flame.", "text_fr": "Il produit une détonation avec une flamme."},
+          {"text": "It is hydrogen.", "text_fr": "C'est le dihydrogène."}
+        ]
+      }
+    },
+    {
+      "kind": "practice",
+      "title": "Your turn: acid or base?",
+      "title_fr": "À toi : acide ou base ?",
+      "content": "Use the clues together: the colour with an indicator, the pH value, and the way the substance behaves in water. Remember that a lower pH means a stronger acid and a higher pH means a stronger alkali.",
+      "content_fr": "Utilise les indices ensemble : la couleur avec un indicateur, la valeur du pH et le comportement du corps dans l'eau. Retiens qu'un pH plus bas signifie un acide plus fort et un pH plus haut une base plus forte.",
+      "required": true,
+      "xp": 12,
+      "question": {
+        "kind": "mcq",
+        "difficulty": 2,
+        "text": "A solution has a pH of 12. Which description fits it?",
+        "text_fr": "Une solution a un pH de 12. Quelle description lui correspond ?",
+        "explanation": "A pH above 7 is alkaline, and 12 is high, so it is a strong alkali.",
+        "explanation_fr": "Un pH supérieur à 7 est basique, et 12 est élevé : c'est donc une base forte.",
+        "hint_prompt": "More than 7 means alkaline.",
+        "hint_prompt_fr": "Plus de 7 signifie basique.",
+        "choices": [
+          {"text": "A strong alkali", "text_fr": "Une base forte", "correct": true},
+          {"text": "A strong acid", "text_fr": "Un acide fort", "correct": false},
+          {"text": "A neutral solution", "text_fr": "Une solution neutre", "correct": false},
+          {"text": "A weak acid", "text_fr": "Un acide faible", "correct": false}
+        ],
+        "hints": [
+          {"text": "It is above the middle of the scale.", "text_fr": "C'est au-dessus du milieu de l'échelle."},
+          {"text": "A high pH is a strong base.", "text_fr": "Un pH élevé est une base forte."}
+        ]
+      }
+    },
+    {
+      "kind": "summary",
+      "title": "What to keep",
+      "title_fr": "À retenir",
+      "content": "Acids release hydrogen ions in water and turn litmus red; bases accept them and turn litmus blue. The pH scale runs from 0 to 14: below 7 acidic, 7 neutral, above 7 alkaline. Strong acids are fully ionised, weak acids only partly. Acid plus metal gives hydrogen, acid plus carbonate gives carbon dioxide.",
+      "content_fr": "Les acides libèrent des ions hydrogène dans l'eau et rougissent le tournesol ; les bases les fixent et bleuissent le tournesol. L'échelle de pH va de 0 à 14 : moins de 7 acide, 7 neutre, plus de 7 basique. Les acides forts sont totalement ionisés, les acides faibles partiellement. Acide plus métal donne du dihydrogène, acide plus carbonate donne du dioxyde de carbone.",
+      "xp": 5
+    }
+  ],
+  "quiz": {
+    "title": "Quiz: acids and bases",
+    "title_fr": "Quiz : acides et bases",
+    "pass_score": 60,
+    "questions": [
+      {
+        "kind": "mcq",
+        "difficulty": 1,
+        "text": "What colour does litmus turn in an acid?",
+        "text_fr": "De quelle couleur le tournesol devient-il en milieu acide ?",
+        "explanation": "Acids turn litmus red.",
+        "explanation_fr": "Les acides rougissent le tournesol.",
+        "hint_prompt": "Acids turn it red.",
+        "hint_prompt_fr": "Les acides le rougissent.",
+        "choices": [
+          {"text": "Red", "text_fr": "Rouge", "correct": true},
+          {"text": "Blue", "text_fr": "Bleu", "correct": false},
+          {"text": "Green", "text_fr": "Vert", "correct": false},
+          {"text": "Colourless", "text_fr": "Incolore", "correct": false}
+        ],
+        "hints": [
+          {"text": "Think of red acid.", "text_fr": "Pense acide rouge."},
+          {"text": "It becomes red.", "text_fr": "Il devient rouge."}
+        ]
+      },
+      {
+        "kind": "numeric",
+        "difficulty": 2,
+        "text": "What is the pH of a neutral solution?",
+        "text_fr": "Quel est le pH d'une solution neutre ?",
+        "explanation": "A neutral solution has a pH of exactly 7.",
+        "explanation_fr": "Une solution neutre a un pH exactement égal à 7.",
+        "hint_prompt": "It is the middle of the 0 to 14 scale.",
+        "hint_prompt_fr": "C'est le milieu de l'échelle de 0 à 14.",
+        "config": {"accepted": [7]},
+        "hints": [
+          {"text": "Halfway between 0 and 14.", "text_fr": "À mi-chemin entre 0 et 14."},
+          {"text": "= 7.", "text_fr": "= 7."}
+        ]
+      },
+      {
+        "kind": "mcq",
+        "difficulty": 2,
+        "text": "Which pH value shows a strong acid?",
+        "text_fr": "Quelle valeur de pH indique un acide fort ?",
+        "explanation": "A strong acid has a very low pH, so pH 1 is a strong acid.",
+        "explanation_fr": "Un acide fort a un pH très bas : un pH de 1 est donc un acide fort.",
+        "hint_prompt": "The lower the pH, the stronger the acid.",
+        "hint_prompt_fr": "Plus le pH est bas, plus l'acide est fort.",
+        "choices": [
+          {"text": "pH 1", "text_fr": "pH 1", "correct": true},
+          {"text": "pH 7", "text_fr": "pH 7", "correct": false},
+          {"text": "pH 10", "text_fr": "pH 10", "correct": false},
+          {"text": "pH 13", "text_fr": "pH 13", "correct": false}
+        ],
+        "hints": [
+          {"text": "Low pH means strong acid.", "text_fr": "Un pH bas signifie un acide fort."},
+          {"text": "pH 1 is the lowest here.", "text_fr": "Le pH 1 est le plus bas ici."}
+        ]
+      },
+      {
+        "kind": "mcq",
+        "difficulty": 2,
+        "text": "What is produced when an acid reacts with a metal carbonate?",
+        "text_fr": "Que se produit-il quand un acide réagit avec un carbonate métallique ?",
+        "explanation": "Acid plus carbonate gives a salt, water and carbon dioxide gas.",
+        "explanation_fr": "Acide plus carbonate donne un sel, de l'eau et du dioxyde de carbone gazeux.",
+        "hint_prompt": "One product turns limewater milky.",
+        "hint_prompt_fr": "Un produit trouble l'eau de chaux.",
+        "choices": [
+          {"text": "A salt, water and carbon dioxide", "text_fr": "Un sel, de l'eau et du dioxyde de carbone", "correct": true},
+          {"text": "A salt and hydrogen only", "text_fr": "Un sel et du dihydrogène seulement", "correct": false},
+          {"text": "Only water", "text_fr": "Seulement de l'eau", "correct": false},
+          {"text": "Only oxygen", "text_fr": "Seulement du dioxygène", "correct": false}
+        ],
+        "hints": [
+          {"text": "The gas turns limewater milky.", "text_fr": "Le gaz trouble l'eau de chaux."},
+          {"text": "It gives a salt, water and carbon dioxide.", "text_fr": "Cela donne un sel, de l'eau et du dioxyde de carbone."}
+        ]
+      },
+      {
+        "kind": "mcq",
+        "difficulty": 2,
+        "text": "Which statement about a weak acid is correct?",
+        "text_fr": "Quelle affirmation sur un acide faible est correcte ?",
+        "explanation": "A weak acid is only partly ionised, so most molecules stay whole.",
+        "explanation_fr": "Un acide faible n'est que partiellement ionisé : la plupart des molécules restent entières.",
+        "hint_prompt": "Only some molecules break up.",
+        "hint_prompt_fr": "Quelques molécules seulement se séparent.",
+        "choices": [
+          {"text": "It is only partly ionised", "text_fr": "Il n'est que partiellement ionisé", "correct": true},
+          {"text": "It is fully ionised", "text_fr": "Il est totalement ionisé", "correct": false},
+          {"text": "It has no hydrogen", "text_fr": "Il ne contient pas d'hydrogène", "correct": false},
+          {"text": "It is always neutral", "text_fr": "Il est toujours neutre", "correct": false}
+        ],
+        "hints": [
+          {"text": "Weak means only some ionise.", "text_fr": "Faible signifie que peu s'ionisent."},
+          {"text": "It is partly ionised.", "text_fr": "Il est partiellement ionisé."}
+        ]
+      }
+    ]
+  }
+}

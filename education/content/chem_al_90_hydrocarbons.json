@@ -1,0 +1,347 @@
+{
+  "lesson": 90,
+  "status": "published",
+  "lesson_fields": {
+    "title": "Hydrocarbons and Functional Groups",
+    "title_fr": "Hydrocarbures et groupes fonctionnels",
+    "summary": "Hydrocarbons are compounds of carbon and hydrogen only. Alkanes are saturated, alkenes are unsaturated and have a double bond. Functional groups give other organic compounds their special properties.",
+    "summary_fr": "Les hydrocarbures sont des composes formes uniquement de carbone et d'hydrogene. Les alcanes sont satures, les alcenes sont insatures et possedent une double liaison. Les groupes fonctionnels donnent aux autres composes organiques leurs proprietes particulieres.",
+    "content": "## Alkanes and alkenes\n\nAlkanes have single bonds only and are called saturated. Alkenes have at least one carbon to carbon double bond and are called unsaturated. We can test for alkenes with bromine water.\n\n## Functional groups\n\nA functional group is a small group of atoms that gives a family of compounds its behaviour. Examples are alcohols and carboxylic acids.",
+    "content_fr": "## Alcanes et alcenes\n\nLes alcanes n'ont que des liaisons simples et sont dits satures. Les alcenes ont au moins une double liaison carbone-carbone et sont dits insatures. On peut tester les alcenes avec de l'eau de brome.\n\n## Groupes fonctionnels\n\nUn groupe fonctionnel est un petit groupe d'atomes qui donne a une famille de composes son comportement. Les alcools et les acides carboxyliques en sont des exemples.",
+    "objectives": [
+      "Explain the difference between alkanes and alkenes",
+      "Describe a test for unsaturation with bromine water",
+      "Name one functional group and say what it does"
+    ],
+    "objectives_fr": [
+      "Expliquer la difference entre alcanes et alcenes",
+      "Decrire un test de l'insaturation avec l'eau de brome",
+      "Nommer un groupe fonctionnel et indiquer son effet"
+    ],
+    "estimated_minutes": 25
+  },
+  "steps": [
+    {
+      "kind": "concept",
+      "title": "Hydrocarbons only",
+      "title_fr": "Seulement carbone et hydrogene",
+      "content": "A hydrocarbon is a compound made from carbon and hydrogen only.\n\nMethane is the simplest, CH4. Ethane is C2H6. Propane is C3H8. These are all alkanes and all have single bonds.",
+      "content_fr": "Un hydrocarbure est un compose forme uniquement de carbone et d'hydrogene.\n\nLe methane est le plus simple, CH4. L'ethane est C2H6. Le propane est C3H8. Ce sont tous des alcanes et ils n'ont que des liaisons simples.",
+      "required": true,
+      "xp": 10,
+      "question": {
+        "kind": "mcq",
+        "text": "Which two elements make a hydrocarbon?",
+        "text_fr": "Quels deux elements forment un hydrocarbure ?",
+        "explanation": "Hydrocarbons contain only carbon and hydrogen.",
+        "explanation_fr": "Les hydrocarbures ne contiennent que du carbone et de l'hydrogene.",
+        "hint_prompt": "Look at the name hydro-carbon.",
+        "hint_prompt_fr": "Regarde le mot hydrocarbure.",
+        "choices": [
+          {
+            "text": "Carbon and hydrogen",
+            "text_fr": "Carbone et hydrogene",
+            "correct": true
+          },
+          {
+            "text": "Carbon and oxygen",
+            "text_fr": "Carbone et oxygene",
+            "correct": false
+          },
+          {
+            "text": "Nitrogen and hydrogen",
+            "text_fr": "Azote et hydrogene",
+            "correct": false
+          }
+        ],
+        "hints": [
+          {
+            "text": "The name tells you.",
+            "text_fr": "Le nom l'indique."
+          }
+        ]
+      }
+    },
+    {
+      "kind": "explain",
+      "title": "Saturated and unsaturated",
+      "title_fr": "Sature et insature",
+      "content": "Alkanes are saturated, which means they have only single bonds between the carbon atoms.\n\nAlkenes are unsaturated and have at least one carbon to carbon double bond.\n\nWe test for a double bond by adding bromine water. It goes from orange to colourless if an alkene is present.",
+      "content_fr": "Les alcanes sont satures, c'est a dire qu'ils n'ont que des liaisons simples entre les atomes de carbone.\n\nLes alcenes sont insatures et ont au moins une double liaison carbone-carbone.\n\nOn teste la presence d'une double liaison avec de l'eau de brome. Elle passe de l'orange au incolore si un alcene est present.",
+      "required": true,
+      "xp": 10
+    },
+    {
+      "kind": "example",
+      "title": "Worked example: ethene",
+      "title_fr": "Exemple resolu : l'ethene",
+      "content": "Ethene is C2H4. It has two carbons joined by a double bond.\n\nWhen ethene is bubbled through orange bromine water, the colour disappears quickly. Ethane, C2H6, would not do this because it has no double bond.",
+      "content_fr": "L'ethene est C2H4. Il a deux carbones relies par une double liaison.\n\nQuand on fait barboter de l'ethene dans de l'eau de brome orange, la couleur disparaît vite. L'ethane, C2H6, ne ferait pas cela car il n'a pas de double liaison.",
+      "required": true,
+      "xp": 12
+    },
+    {
+      "kind": "practice",
+      "title": "Your turn: spotting the alkene",
+      "title_fr": "A toi : reconnaitre l'alcene",
+      "content": "You have three bottles: one holds propane, one holds ethene, one holds methane. All are colourless. You add bromine water to each. Decide which makes it go colourless.",
+      "content_fr": "Tu as trois flacons : l'un contient du propane, l'autre de l'ethene, le troisieme du methane. Tous sont incolores. Tu ajoutes de l'eau de brome dans chacun. Determine lequel rend l'eau de brome incolore.",
+      "required": true,
+      "xp": 12,
+      "question": {
+        "kind": "mcq",
+        "text": "Bromine water turns colourless with which one?",
+        "text_fr": "L'eau de brome devient incolore avec lequel ?",
+        "explanation": "Ethene is an alkene and has a double bond, so it decolourises bromine water.",
+        "explanation_fr": "L'ethene est un alcene et possede une double liaison, il decolore donc l'eau de brome.",
+        "hint_prompt": "Only unsaturated compounds do this.",
+        "hint_prompt_fr": "Seuls les composes insatures le font.",
+        "choices": [
+          {
+            "text": "Ethene",
+            "text_fr": "Ethene",
+            "correct": true
+          },
+          {
+            "text": "Methane",
+            "text_fr": "Methane",
+            "correct": false
+          },
+          {
+            "text": "Propane",
+            "text_fr": "Propane",
+            "correct": false
+          }
+        ],
+        "hints": [
+          {
+            "text": "Look for the alkene ending -ene.",
+            "text_fr": "Cherche le nom se terminant par -ene."
+          }
+        ]
+      }
+    },
+    {
+      "kind": "question",
+      "title": "Check: functional groups",
+      "title_fr": "Verification : les groupes fonctionnels",
+      "content": "A functional group gives a family of organic compounds its special behaviour. For example, all alcohols contain the -OH group. All carboxylic acids contain the -COOH group.",
+      "content_fr": "Un groupe fonctionnel donne a une famille de composes organiques son comportement particulier. Par exemple, tous les alcools contiennent le groupe -OH. Tous les acides carboxyliques contiennent le groupe -COOH.",
+      "required": true,
+      "xp": 12,
+      "question": {
+        "kind": "mcq",
+        "text": "What is a functional group?",
+        "text_fr": "Qu'est-ce qu'un groupe fonctionnel ?",
+        "explanation": "It is a group of atoms that gives a family of compounds its properties.",
+        "explanation_fr": "C'est un groupe d'atomes qui donne a une famille de composes ses proprietes.",
+        "hint_prompt": "It is the reactive part of the molecule.",
+        "hint_prompt_fr": "C'est la partie reactive de la molecule.",
+        "choices": [
+          {
+            "text": "A group of atoms that gives the family its behaviour",
+            "text_fr": "Un groupe d'atomes qui donne a la famille son comportement",
+            "correct": true
+          },
+          {
+            "text": "A single carbon atom",
+            "text_fr": "Un seul atome de carbone",
+            "correct": false
+          },
+          {
+            "text": "A metal ion",
+            "text_fr": "Un ion metallique",
+            "correct": false
+          }
+        ],
+        "hints": [
+          {
+            "text": "It is the same in the whole family.",
+            "text_fr": "Il est identique dans toute la famille."
+          }
+        ]
+      }
+    },
+    {
+      "kind": "summary",
+      "title": "What to keep",
+      "title_fr": "A retenir",
+      "content": "Hydrocarbons are carbon and hydrogen only. Alkanes are saturated with single bonds. Alkenes are unsaturated with a double bond. Bromine water goes colourless for alkenes. A functional group gives a family its behaviour.",
+      "content_fr": "Les hydrocarbures ne contiennent que carbone et hydrogene. Les alcanes sont satures, avec des liaisons simples. Les alcenes sont insatures, avec une double liaison. L'eau de brome devient incolore avec les alcenes. Un groupe fonctionnel donne a une famille son comportement.",
+      "required": false,
+      "xp": 5
+    }
+  ],
+  "quiz": {
+    "title": "Hydrocarbons and Functional Groups",
+    "title_fr": "Hydrocarbures et groupes fonctionnels",
+    "pass_score": 60,
+    "questions": [
+      {
+        "kind": "mcq",
+        "text": "Which formula is an alkane?",
+        "text_fr": "Quelle formule est celle d'un alcane ?",
+        "explanation": "C2H6 is ethane, which is an alkane with single bonds.",
+        "explanation_fr": "C2H6 est l'ethane, un alcane a liaisons simples.",
+        "hint_prompt": "Alkenes have two fewer hydrogens than alkanes of same carbons.",
+        "hint_prompt_fr": "Les alcenes ont deux hydrogene de moins que les alcanes pour le meme nombre de carbones.",
+        "choices": [
+          {
+            "text": "C2H6",
+            "text_fr": "C2H6",
+            "correct": true
+          },
+          {
+            "text": "C2H4",
+            "text_fr": "C2H4",
+            "correct": false
+          },
+          {
+            "text": "C3H6",
+            "text_fr": "C3H6",
+            "correct": false
+          }
+        ],
+        "hints": [
+          {
+            "text": "Alkanes are saturated.",
+            "text_fr": "Les alcanes sont satures."
+          }
+        ],
+        "difficulty": 1
+      },
+      {
+        "kind": "mcq",
+        "text": "What makes an alkene different from an alkane?",
+        "text_fr": "Qu'est-ce qui differencie un alcene d'un alcane ?",
+        "explanation": "Alkenes have a carbon to carbon double bond.",
+        "explanation_fr": "Les alcenes ont une double liaison carbone-carbone.",
+        "hint_prompt": "Look for the bond type.",
+        "hint_prompt_fr": "Cherche le type de liaison.",
+        "choices": [
+          {
+            "text": "It has a carbon to carbon double bond",
+            "text_fr": "Il a une double liaison carbone-carbone",
+            "correct": true
+          },
+          {
+            "text": "It contains oxygen",
+            "text_fr": "Il contient de l'oxygene",
+            "correct": false
+          },
+          {
+            "text": "It is a metal",
+            "text_fr": "C'est un metal",
+            "correct": false
+          }
+        ],
+        "hints": [
+          {
+            "text": "The ending -ene gives the clue.",
+            "text_fr": "La terminaison -ene donne l'indice."
+          }
+        ],
+        "difficulty": 1
+      },
+      {
+        "kind": "mcq",
+        "text": "What colour change shows an alkene with bromine water?",
+        "text_fr": "Quel changement de couleur montre un alcene avec l'eau de brome ?",
+        "explanation": "Orange bromine water becomes colourless.",
+        "explanation_fr": "L'eau de brome orange devient incolore.",
+        "hint_prompt": "The colour disappears.",
+        "hint_prompt_fr": "La couleur disparaît.",
+        "choices": [
+          {
+            "text": "Orange to colourless",
+            "text_fr": "Orange vers incolore",
+            "correct": true
+          },
+          {
+            "text": "Blue to red",
+            "text_fr": "Bleu vers rouge",
+            "correct": false
+          },
+          {
+            "text": "Colourless to orange",
+            "text_fr": "Incolore vers orange",
+            "correct": false
+          }
+        ],
+        "hints": [
+          {
+            "text": "It is called decolourisation.",
+            "text_fr": "On appelle cela la decoloration."
+          }
+        ],
+        "difficulty": 1
+      },
+      {
+        "kind": "mcq",
+        "text": "Which group is in an alcohol?",
+        "text_fr": "Quel groupe se trouve dans un alcool ?",
+        "explanation": "Alcohols contain the hydroxyl group, -OH.",
+        "explanation_fr": "Les alcools contiennent le groupe hydroxyde, -OH.",
+        "hint_prompt": "It is two atoms.",
+        "hint_prompt_fr": "Il est forme de deux atomes.",
+        "choices": [
+          {
+            "text": "-OH",
+            "text_fr": "-OH",
+            "correct": true
+          },
+          {
+            "text": "-COOH",
+            "text_fr": "-COOH",
+            "correct": false
+          },
+          {
+            "text": "-Cl",
+            "text_fr": "-Cl",
+            "correct": false
+          }
+        ],
+        "hints": [
+          {
+            "text": "The O and H are together.",
+            "text_fr": "O et H sont ensembles."
+          }
+        ],
+        "difficulty": 1
+      },
+      {
+        "kind": "mcq",
+        "text": "Which statement about alkanes is true?",
+        "text_fr": "Quelle affirmation sur les alcanes est vraie ?",
+        "explanation": "Alkanes are saturated and have only single bonds.",
+        "explanation_fr": "Les alcanes sont satures et n'ont que des liaisons simples.",
+        "hint_prompt": "They are not unsaturated.",
+        "hint_prompt_fr": "Ils ne sont pas insatures.",
+        "choices": [
+          {
+            "text": "They have only single bonds",
+            "text_fr": "Ils n'ont que des liaisons simples",
+            "correct": true
+          },
+          {
+            "text": "They have a double bond",
+            "text_fr": "Ils ont une double liaison",
+            "correct": false
+          },
+          {
+            "text": "They contain nitrogen",
+            "text_fr": "Ils contiennent de l'azote",
+            "correct": false
+          }
+        ],
+        "hints": [
+          {
+            "text": "Saturated means full, no double bonds.",
+            "text_fr": "Sature signifie plein, pas de double liaison."
+          }
+        ],
+        "difficulty": 1
+      }
+    ]
+  }
+}

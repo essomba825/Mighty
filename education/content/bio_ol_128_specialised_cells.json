@@ -1,0 +1,301 @@
+{
+  "lesson": 128,
+  "status": "published",
+  "lesson_fields": {
+    "title": "Specialised Cells and Organisation",
+    "title_fr": "Cellules specialisees et organisation",
+    "summary": "Cells become specialised to do particular jobs. Similar cells group into tissues, tissues form organs, and organs form organ systems.",
+    "summary_fr": "Les cellules se specialisent pour faire des taches particulieres. Des cellules similaires forment des tissus, les tissus forment des organes, et les organes forment des systemes.",
+    "content": "## Specialised cells\n\nA red blood cell has no nucleus and is packed with haemoglobin to carry oxygen. A nerve cell is long to carry electrical impulses. A root hair cell has a large surface area to absorb water.\n\n## Levels of organisation\n\nCells form tissues, tissues form organs, organs form organ systems, and organ systems form the organism.",
+    "content_fr": "## Cellules specialisees\n\nUn globule rouge n'a pas de noyau et est rempli d'hemoglobine pour transporter l'oxygene. Une cellule nerveuse est longue pour transporter des influx electriques. Une cellule de poil absorbant a une grande surface pour absorber l'eau.\n\n## Niveaux d'organisation\n\nLes cellules forment des tissus, les tissus forment des organes, les organes forment des systemes, et les systemes forment l'organisme.",
+    "objectives": [
+      "Give examples of specialised cells and their adaptations",
+      "List the levels of organisation from cell to organism"
+    ],
+    "objectives_fr": [
+      "Donner des exemples de cellules specialisees et leurs adaptations",
+      "Citer les niveaux d'organisation de la cellule a l'organisme"
+    ],
+    "estimated_minutes": 25
+  },
+  "steps": [
+    {
+      "kind": "concept",
+      "title": "Form fits function",
+      "title_fr": "La forme suit la fonction",
+      "content": "Specialised cells have adaptations that help them do one job well. For example, a red blood cell has no nucleus so it can carry more oxygen.",
+      "content_fr": "Les cellules specialisees ont des adaptations qui les aident a bien faire une tache. Par exemple, un globule rouge n'a pas de noyau pour transporter plus d'oxygene.",
+      "required": true,
+      "xp": 10,
+      "question": {
+        "kind": "mcq",
+        "text": "Which cell carries oxygen around the body?",
+        "text_fr": "Quelle cellule transporte l'oxygene dans le corps ?",
+        "explanation": "Red blood cells carry oxygen.",
+        "explanation_fr": "Les globules rouges transportent l'oxygene.",
+        "choices": [
+          {
+            "text": "Red blood cell",
+            "text_fr": "Le globule rouge",
+            "correct": true
+          },
+          {
+            "text": "Nerve cell",
+            "text_fr": "La cellule nerveuse",
+            "correct": false
+          },
+          {
+            "text": "Root hair cell",
+            "text_fr": "La cellule de poil absorbant",
+            "correct": false
+          }
+        ],
+        "hints": [
+          {
+            "text": "It contains haemoglobin.",
+            "text_fr": "Il contient de l'hemoglobine."
+          }
+        ],
+        "difficulty": 1
+      }
+    },
+    {
+      "kind": "explain",
+      "title": "Levels of organisation",
+      "title_fr": "Niveaux d'organisation",
+      "content": "Similar cells group into tissues. Tissues form organs. Organs work together in organ systems. All the systems make the whole organism.",
+      "content_fr": "Des cellules similaires forment des tissus. Les tissus forment des organes. Les organes travaillent ensemble dans des systemes. Tous les systemes forment l'organisme entier.",
+      "required": true,
+      "xp": 10
+    },
+    {
+      "kind": "example",
+      "title": "The root hair cell",
+      "title_fr": "La cellule de poil absorbant",
+      "content": "A root hair cell has a long, thin extension. This gives a large surface area to absorb water and minerals from the soil.",
+      "content_fr": "Une cellule de poil absorbant a un prolongement long et fin. Cela donne une grande surface pour absorber l'eau et les mineraux du sol.",
+      "required": true,
+      "xp": 12
+    },
+    {
+      "kind": "practice",
+      "title": "Your turn: ordered levels",
+      "title_fr": "A toi : niveaux ordonnes",
+      "content": "Which comes after cells in the levels of organisation?",
+      "content_fr": "Qu'est-ce qui vient apres les cellules dans les niveaux d'organisation ?",
+      "required": true,
+      "xp": 12,
+      "question": {
+        "kind": "mcq",
+        "text": "After cells come which level?",
+        "text_fr": "Apres les cellules vient quel niveau ?",
+        "explanation": "Similar cells form tissues.",
+        "explanation_fr": "Des cellules similaires forment des tissus.",
+        "choices": [
+          {
+            "text": "Tissues",
+            "text_fr": "Les tissus",
+            "correct": true
+          },
+          {
+            "text": "Organs",
+            "text_fr": "Les organes",
+            "correct": false
+          },
+          {
+            "text": "Organisms",
+            "text_fr": "Les organismes",
+            "correct": false
+          }
+        ],
+        "hints": [
+          {
+            "text": "A group of similar cells.",
+            "text_fr": "Un groupe de cellules similaires."
+          }
+        ],
+        "difficulty": 1
+      }
+    },
+    {
+      "kind": "question",
+      "title": "Check: nerve cells",
+      "title_fr": "Verification : cellules nerveuses",
+      "content": "Nerve cells are long so they can carry electrical impulses over long distances in the body.",
+      "content_fr": "Les cellules nerveuses sont longues afin de transporter des influx electriques sur de longues distances.",
+      "required": true,
+      "xp": 12,
+      "question": {
+        "kind": "mcq",
+        "text": "Why is a nerve cell long?",
+        "text_fr": "Pourquoi une cellule nerveuse est-elle longue ?",
+        "explanation": "It carries impulses over long distances.",
+        "explanation_fr": "Elle transporte les influx sur de longues distances.",
+        "choices": [
+          {
+            "text": "To carry impulses far",
+            "text_fr": "Pour transporter les influx loin",
+            "correct": true
+          },
+          {
+            "text": "To store food",
+            "text_fr": "Pour stocker la nourriture",
+            "correct": false
+          },
+          {
+            "text": "To make sap",
+            "text_fr": "Pour fabriquer de la seve",
+            "correct": false
+          }
+        ],
+        "hints": [
+          {
+            "text": "Signals travel along it.",
+            "text_fr": "Les signaux la parcourent."
+          }
+        ],
+        "difficulty": 1
+      }
+    },
+    {
+      "kind": "summary",
+      "title": "What to keep",
+      "title_fr": "A retenir",
+      "content": "Specialised cells are adapted for one job. Cells form tissues, tissues form organs, organs form systems, and systems form the organism.",
+      "content_fr": "Les cellules specialisees sont adaptees a une tache. Les cellules forment des tissus, les tissus des organes, les organes des systemes, et les systemes l'organisme.",
+      "required": false,
+      "xp": 5
+    }
+  ],
+  "quiz": {
+    "title": "Specialised Cells and Organisation",
+    "title_fr": "Cellules specialisees et organisation",
+    "pass_score": 60,
+    "questions": [
+      {
+        "kind": "mcq",
+        "text": "What is a tissue?",
+        "text_fr": "Qu'est-ce qu'un tissu ?",
+        "explanation": "A tissue is a group of similar cells.",
+        "explanation_fr": "Un tissu est un groupe de cellules similaires.",
+        "choices": [
+          {
+            "text": "A group of similar cells",
+            "text_fr": "Un groupe de cellules similaires",
+            "correct": true
+          },
+          {
+            "text": "A single cell",
+            "text_fr": "Une seule cellule",
+            "correct": false
+          },
+          {
+            "text": "An organ system",
+            "text_fr": "Un systeme d'organes",
+            "correct": false
+          }
+        ],
+        "hints": [
+          {
+            "text": "Cells group together.",
+            "text_fr": "Les cellules se regroupent."
+          }
+        ],
+        "difficulty": 1
+      },
+      {
+        "kind": "mcq",
+        "text": "Which adaptation helps a red blood cell?",
+        "text_fr": "Quelle adaptation aide le globule rouge ?",
+        "explanation": "Having no nucleus gives more room for haemoglobin.",
+        "explanation_fr": "Ne pas avoir de noyau laisse plus de place a l'hemoglobine.",
+        "choices": [
+          {
+            "text": "No nucleus",
+            "text_fr": "Pas de noyau",
+            "correct": true
+          },
+          {
+            "text": "Many chloroplasts",
+            "text_fr": "Beaucoup de chloroplastes",
+            "correct": false
+          },
+          {
+            "text": "A thick wall",
+            "text_fr": "Une paroi epaisse",
+            "correct": false
+          }
+        ],
+        "hints": [
+          {
+            "text": "More room for oxygen carrier.",
+            "text_fr": "Plus de place pour le transporteur d'oxygene."
+          }
+        ],
+        "difficulty": 1
+      },
+      {
+        "kind": "mcq",
+        "text": "Which is the correct order?",
+        "text_fr": "Quel est le bon ordre ?",
+        "explanation": "Cells, tissues, organs, systems.",
+        "explanation_fr": "Cellules, tissus, organes, systemes.",
+        "choices": [
+          {
+            "text": "Cells, tissues, organs, systems",
+            "text_fr": "Cellules, tissus, organes, systemes",
+            "correct": true
+          },
+          {
+            "text": "Organs, cells, tissues, systems",
+            "text_fr": "Organes, cellules, tissus, systemes",
+            "correct": false
+          },
+          {
+            "text": "Tissues, cells, organs, systems",
+            "text_fr": "Tissus, cellules, organes, systemes",
+            "correct": false
+          }
+        ],
+        "hints": [
+          {
+            "text": "Start with the smallest.",
+            "text_fr": "Commence par le plus petit."
+          }
+        ],
+        "difficulty": 1
+      },
+      {
+        "kind": "mcq",
+        "text": "A root hair cell absorbs what?",
+        "text_fr": "Que absorbe une cellule de poil absorbant ?",
+        "explanation": "It absorbs water and minerals.",
+        "explanation_fr": "Elle absorbe l'eau et les mineraux.",
+        "choices": [
+          {
+            "text": "Water and minerals",
+            "text_fr": "L'eau et les mineraux",
+            "correct": true
+          },
+          {
+            "text": "Oxygen only",
+            "text_fr": "Seulement l'oxygene",
+            "correct": false
+          },
+          {
+            "text": "Sugar only",
+            "text_fr": "Seulement le sucre",
+            "correct": false
+          }
+        ],
+        "hints": [
+          {
+            "text": "From the soil.",
+            "text_fr": "Depuis le sol."
+          }
+        ],
+        "difficulty": 1
+      }
+    ]
+  }
+}

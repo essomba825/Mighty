@@ -1,0 +1,347 @@
+{
+  "lesson": 105,
+  "status": "published",
+  "lesson_fields": {
+    "title": "Radioactivity",
+    "title_fr": "Radioactivite",
+    "summary": "Some atoms are unstable and give out radiation. This is called radioactivity. The three main types of nuclear radiation are alpha particles, beta particles and gamma rays, and they have different properties.",
+    "summary_fr": "Certains atomes sont instables et emettent des rayonnements. C'est la radioactivite. Les trois principaux types de rayonnement nucleaire sont les particules alpha, les particules beta et les rayons gamma, et ils ont des proprietes differentes.",
+    "content": "## What is radioactivity\n\nRadioactivity is the emission of radiation from the nuclei of unstable atoms. It is random and cannot be predicted for a single atom.\n\n## The three types\n\nAlpha particles are helium nuclei, stopped by paper. Beta particles are high-speed electrons, stopped by thin aluminium. Gamma rays are electromagnetic waves, stopped by thick lead or very thick concrete.",
+    "content_fr": "## Qu'est-ce que la radioactivite\n\nLa radioactivite est l'emission de rayonnements par les noyaux d'atomes instables. Elle est aleatoire et on ne peut pas la predire pour un seul atome.\n\n## Les trois types\n\nLes particules alpha sont des noyaux d'helium, arretees par une feuille de papier. Les particules beta sont des electrons a grande vitesse, arretes par une feuille fine d'aluminium. Les rayons gamma sont des ondes electromagnetiques, arretes par une epaisse plaque de plomb ou un beton tres epais.",
+    "objectives": [
+      "Define radioactivity",
+      "Name the three main types of radiation",
+      "Compare their penetrating powers"
+    ],
+    "objectives_fr": [
+      "Definir la radioactivite",
+      "Nommer les trois principaux types de rayonnement",
+      "Comparer leur pouvoir de penetration"
+    ],
+    "estimated_minutes": 25
+  },
+  "steps": [
+    {
+      "kind": "concept",
+      "title": "Unstable atoms",
+      "title_fr": "Atomes instables",
+      "content": "Some atomic nuclei are unstable. To become more stable, they give out radiation. This process is called radioactivity. It is a random process and happens without anything being done to the nucleus.",
+      "content_fr": "Certains noyaux atomiques sont instables. Pour devenir plus stables, ils emettent des rayonnements. Ce processus s'appelle la radioactivite. C'est un processus aleatoire et il se produit sans qu'on fasse quoi que ce soit au noyau.",
+      "required": true,
+      "xp": 10,
+      "question": {
+        "kind": "mcq",
+        "text": "What is radioactivity?",
+        "text_fr": "Qu'est-ce que la radioactivite ?",
+        "explanation": "It is the emission of radiation from the nuclei of unstable atoms.",
+        "explanation_fr": "C'est l'emission de rayonnements par les noyaux d'atomes instables.",
+        "hint_prompt": "It comes from the nucleus, not the outer electrons.",
+        "hint_prompt_fr": "Cela vient du noyau, non des electrons externes.",
+        "choices": [
+          {
+            "text": "Radiation from unstable nuclei",
+            "text_fr": "Des rayonnements provenant de noyaux instables",
+            "correct": true
+          },
+          {
+            "text": "Light from hot objects",
+            "text_fr": "De la lumiere provenant d'objets chauds",
+            "correct": false
+          },
+          {
+            "text": "Sound from vibrating objects",
+            "text_fr": "Du son provenant d'objets qui vibrent",
+            "correct": false
+          }
+        ],
+        "hints": [
+          {
+            "text": "It is a nuclear process.",
+            "text_fr": "C'est un processus nucleaire."
+          }
+        ]
+      }
+    },
+    {
+      "kind": "explain",
+      "title": "The three types",
+      "title_fr": "Les trois types",
+      "content": "There are three main types of nuclear radiation: alpha particles, beta particles and gamma rays.\n\nAlpha particles are helium nuclei. Beta particles are high-speed electrons. Gamma rays are electromagnetic waves with very high energy.",
+      "content_fr": "Il y a trois principaux types de rayonnement nucleaire : les particules alpha, les particules beta et les rayons gamma.\n\nLes particules alpha sont des noyaux d'helium. Les particules beta sont des electrons a grande vitesse. Les rayons gamma sont des ondes electromagnetiques tres energetiques.",
+      "required": true,
+      "xp": 10
+    },
+    {
+      "kind": "example",
+      "title": "Worked example: stopping radiation",
+      "title_fr": "Exemple resolu : arreter les rayonnements",
+      "content": "A source gives out radiation. A sheet of paper stops some of it. A thin sheet of aluminium stops more. A thick block of lead stops almost all of it.\n\nThis shows that gamma rays are the most penetrating, and alpha particles are the least penetrating.",
+      "content_fr": "Une source emet des rayonnements. Une feuille de papier en arrete une partie. Une feuille fine d'aluminium en arrete davantage. Un bloc epais de plomb en arrete presque tous.\n\nCela montre que les rayons gamma sont les plus penetrants, et les particules alpha sont les moins penetrantes.",
+      "required": true,
+      "xp": 12
+    },
+    {
+      "kind": "practice",
+      "title": "Your turn: what can stop alpha?",
+      "title_fr": "A toi : arreter les particules alpha",
+      "content": "Which material is best for stopping alpha particles: thick lead, thin aluminium, or a sheet of paper?",
+      "content_fr": "Quel materiel est le meilleur pour arreter les particules alpha : un bloc epais de plomb, une feuille fine d'aluminium, ou une feuille de papier ?",
+      "required": true,
+      "xp": 12,
+      "question": {
+        "kind": "mcq",
+        "text": "What stops alpha particles?",
+        "text_fr": "Qu'est-ce qui arrete les particules alpha ?",
+        "explanation": "Alpha particles are the least penetrating and can be stopped by a sheet of paper.",
+        "explanation_fr": "Les particules alpha sont les moins penetrantes et peuvent etre arretees par une feuille de papier.",
+        "hint_prompt": "They are large compared to beta particles.",
+        "hint_prompt_fr": "Elles sont plus grosses que les particules beta.",
+        "choices": [
+          {
+            "text": "A sheet of paper",
+            "text_fr": "Une feuille de papier",
+            "correct": true
+          },
+          {
+            "text": "Thin aluminium",
+            "text_fr": "Une feuille fine d'aluminium",
+            "correct": false
+          },
+          {
+            "text": "Thick lead",
+            "text_fr": "Un bloc epais de plomb",
+            "correct": false
+          }
+        ],
+        "hints": [
+          {
+            "text": "Alpha is stopped very easily.",
+            "text_fr": "Les particules alpha sont tres facilement arretees."
+          }
+        ]
+      }
+    },
+    {
+      "kind": "question",
+      "title": "Check: properties",
+      "title_fr": "Verification : proprietes",
+      "content": "Alpha particles are the most ionising but least penetrating. Beta particles are moderately ionising and moderately penetrating. Gamma rays are the least ionising but the most penetrating.",
+      "content_fr": "Les particules alpha sont les plus ionisantes mais les moins penetrantes. Les particules beta sont moyennement ionisantes et moyennement penetrantes. Les rayons gamma sont les moins ionisants mais les plus penetrants.",
+      "required": true,
+      "xp": 12,
+      "question": {
+        "kind": "mcq",
+        "text": "Which type of radiation is the most penetrating?",
+        "text_fr": "Quel type de rayonnement est le plus penetrant ?",
+        "explanation": "Gamma rays can pass through lead and require thick shielding.",
+        "explanation_fr": "Les rayons gamma peuvent traverser le plomb et necessitent un ecran epais.",
+        "hint_prompt": "They are electromagnetic waves.",
+        "hint_prompt_fr": "Ce sont des ondes electromagnetiques.",
+        "choices": [
+          {
+            "text": "Gamma rays",
+            "text_fr": "Les rayons gamma",
+            "correct": true
+          },
+          {
+            "text": "Alpha particles",
+            "text_fr": "Les particules alpha",
+            "correct": false
+          },
+          {
+            "text": "Beta particles",
+            "text_fr": "Les particules beta",
+            "correct": false
+          }
+        ],
+        "hints": [
+          {
+            "text": "They need thick lead to stop them.",
+            "text_fr": "Il faut un plomb epais pour les arreter."
+          }
+        ]
+      }
+    },
+    {
+      "kind": "summary",
+      "title": "What to keep",
+      "title_fr": "A retenir",
+      "content": "Radioactivity is the emission of radiation from unstable nuclei. It is random. The three types are alpha, beta and gamma. Gamma is the most penetrating, alpha the least.",
+      "content_fr": "La radioactivite est l'emission de rayonnements par des noyaux instables. Elle est aleatoire. Les trois types sont alpha, beta et gamma. Les rayons gamma sont les plus penetrants, les particules alpha les moins penetrantes.",
+      "required": false,
+      "xp": 5
+    }
+  ],
+  "quiz": {
+    "title": "Radioactivity",
+    "title_fr": "Radioactivite",
+    "pass_score": 60,
+    "questions": [
+      {
+        "kind": "mcq",
+        "text": "Where does radioactivity come from?",
+        "text_fr": "D'ou vient la radioactivite ?",
+        "explanation": "It comes from the nuclei of unstable atoms.",
+        "explanation_fr": "Elle vient des noyaux d'atomes instables.",
+        "hint_prompt": "It is not from chemical reactions.",
+        "hint_prompt_fr": "Elle ne vient pas des reactions chimiques.",
+        "choices": [
+          {
+            "text": "Unstable nuclei",
+            "text_fr": "Des noyaux instables",
+            "correct": true
+          },
+          {
+            "text": "The outer electrons",
+            "text_fr": "Les electrons externes",
+            "correct": false
+          },
+          {
+            "text": "The bonds between atoms",
+            "text_fr": "Les liaisons entre atomes",
+            "correct": false
+          }
+        ],
+        "hints": [
+          {
+            "text": "This is nuclear radiation.",
+            "text_fr": "C'est un rayonnement nucleaire."
+          }
+        ],
+        "difficulty": 1
+      },
+      {
+        "kind": "mcq",
+        "text": "Which is an alpha particle?",
+        "text_fr": "Qu'est-ce qu'une particule alpha ?",
+        "explanation": "An alpha particle is a helium nucleus.",
+        "explanation_fr": "Une particule alpha est un noyau d'helium.",
+        "hint_prompt": "It has two protons and two neutrons.",
+        "hint_prompt_fr": "Elle a deux protons et deux neutrons.",
+        "choices": [
+          {
+            "text": "A helium nucleus",
+            "text_fr": "Un noyau d'helium",
+            "correct": true
+          },
+          {
+            "text": "A high-speed electron",
+            "text_fr": "Un electron a grande vitesse",
+            "correct": false
+          },
+          {
+            "text": "An electromagnetic wave",
+            "text_fr": "Une onde electromagnetique",
+            "correct": false
+          }
+        ],
+        "hints": [
+          {
+            "text": "It is heavy and positively charged.",
+            "text_fr": "Elle est lourde et chargee positivement."
+          }
+        ],
+        "difficulty": 1
+      },
+      {
+        "kind": "mcq",
+        "text": "What is a beta particle?",
+        "text_fr": "Qu'est-ce qu'une particule beta ?",
+        "explanation": "A beta particle is a high-speed electron.",
+        "explanation_fr": "Une particule beta est un electron a grande vitesse.",
+        "hint_prompt": "It is very small and negatively charged.",
+        "hint_prompt_fr": "Elle est tres petite et chargee negativement.",
+        "choices": [
+          {
+            "text": "A high-speed electron",
+            "text_fr": "Un electron a grande vitesse",
+            "correct": true
+          },
+          {
+            "text": "A helium nucleus",
+            "text_fr": "Un noyau d'helium",
+            "correct": false
+          },
+          {
+            "text": "A neutron",
+            "text_fr": "Un neutron",
+            "correct": false
+          }
+        ],
+        "hints": [
+          {
+            "text": "It is similar to an electron.",
+            "text_fr": "Elle est similaire a un electron."
+          }
+        ],
+        "difficulty": 1
+      },
+      {
+        "kind": "mcq",
+        "text": "Which radiation is the most penetrating?",
+        "text_fr": "Quel rayonnement est le plus penetrant ?",
+        "explanation": "Gamma rays have the highest penetrating power.",
+        "explanation_fr": "Les rayons gamma ont le plus grand pouvoir de penetration.",
+        "hint_prompt": "They are waves, not particles.",
+        "hint_prompt_fr": "Ce sont des ondes, non des particules.",
+        "choices": [
+          {
+            "text": "Gamma rays",
+            "text_fr": "Les rayons gamma",
+            "correct": true
+          },
+          {
+            "text": "Beta particles",
+            "text_fr": "Les particules beta",
+            "correct": false
+          },
+          {
+            "text": "Alpha particles",
+            "text_fr": "Les particules alpha",
+            "correct": false
+          }
+        ],
+        "hints": [
+          {
+            "text": "They pass through most things easily.",
+            "text_fr": "Ils traversent la plupart des choses facilement."
+          }
+        ],
+        "difficulty": 1
+      },
+      {
+        "kind": "mcq",
+        "text": "Which material best stops gamma rays?",
+        "text_fr": "Quel materiel arrete le mieux les rayons gamma ?",
+        "explanation": "Thick lead or very thick concrete is needed to stop gamma rays.",
+        "explanation_fr": "Un plomb epais ou un beton tres epais sont necessaires pour arreter les rayons gamma.",
+        "hint_prompt": "They are very penetrating.",
+        "hint_prompt_fr": "Ils sont tres penetrants.",
+        "choices": [
+          {
+            "text": "Thick lead",
+            "text_fr": "Un bloc epais de plomb",
+            "correct": true
+          },
+          {
+            "text": "A sheet of paper",
+            "text_fr": "Une feuille de papier",
+            "correct": false
+          },
+          {
+            "text": "Thin aluminium",
+            "text_fr": "Une feuille fine d'aluminium",
+            "correct": false
+          }
+        ],
+        "hints": [
+          {
+            "text": "Paper is too thin.",
+            "text_fr": "Le papier est trop fin."
+          }
+        ],
+        "difficulty": 1
+      }
+    ]
+  }
+}

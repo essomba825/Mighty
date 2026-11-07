@@ -1,0 +1,285 @@
+{
+  "lesson": 143,
+  "status": "published",
+  "lesson_fields": {
+    "title": "Tests for Ions and Flame Tests",
+    "title_fr": "Tests des ions et tests de flamme",
+    "summary": "Identify common metal ions with flame tests and use simple solutions to test for chloride, sulfate and carbonate ions.",
+    "summary_fr": "Identifier des ions métalliques courants par des tests de flamme et détecter les ions chlorure, sulfate et carbonate avec des solutions simples.",
+    "content": "## What you will learn\n\nChemists can identify ions using colour changes. A flame test can show which metal ion is present, and adding solutions can reveal which negative ion is present.",
+    "content_fr": "## Ce que tu vas apprendre\n\nLes chimistes identifient les ions grâce à des changements de couleur. Un test de flamme révèle l'ion métallique présent, et l'ajout de solutions révèle l'ion négatif présent.",
+    "objectives": [
+      "Use flame colours to identify common metal ions",
+      "Describe the tests for chloride, sulfate and carbonate ions",
+      "Choose a suitable test to identify an unknown salt"
+    ],
+    "objectives_fr": [
+      "Identifier des métaux courants grâce à la couleur de leur flamme",
+      "Décrire les tests des ions chlorure, sulfate et carbonate",
+      "Choisir le bon test pour identifier un sel inconnu"
+    ],
+    "estimated_minutes": 30
+  },
+  "steps": [
+    {
+      "kind": "concept",
+      "title": "Flame tests",
+      "title_fr": "Les tests de flamme",
+      "content": "A flame test can identify some metal ions. Clean a nichrome wire, dip it into the compound, and hold it in a clear flame. The colour of the flame shows which metal is present.\n\nLithium gives a crimson (red) flame, sodium a yellow flame, potassium a lilac flame, calcium an orange-red flame, and copper a blue-green flame.",
+      "content_fr": "Un test de flamme permet d'identifier certains ions métalliques. On nettoie un fil de nichrome, on le trempe dans le composé, puis on le tient dans une flamme claire. La couleur de la flamme indique le métal présent.\n\nLe lithium donne une flamme rouge carmin, le sodium une flamme jaune, le potassium une flamme lilas, le calcium une flamme orange-rouge et le cuivre une flamme bleu-vert.",
+      "required": true,
+      "xp": 10,
+      "question": {
+        "kind": "mcq",
+        "difficulty": 1,
+        "text": "Which metal ion gives a lilac flame?",
+        "text_fr": "Quel ion métallique donne une flamme lilas ?",
+        "explanation": "Potassium ions give a lilac flame in a flame test.",
+        "explanation_fr": "Les ions potassium donnent une flamme lilas lors d'un test de flamme.",
+        "hint_prompt": "It is not lithium, sodium or copper.",
+        "hint_prompt_fr": "Ce n'est ni le lithium, ni le sodium, ni le cuivre.",
+        "choices": [
+          {"text": "Potassium", "text_fr": "Le potassium", "correct": true},
+          {"text": "Sodium", "text_fr": "Le sodium", "correct": false},
+          {"text": "Calcium", "text_fr": "Le calcium", "correct": false},
+          {"text": "Copper", "text_fr": "Le cuivre", "correct": false}
+        ],
+        "hints": [
+          {"text": "Sodium is yellow and calcium is orange-red.", "text_fr": "Le sodium est jaune et le calcium orange-rouge."},
+          {"text": "The lilac flame comes from potassium.", "text_fr": "La flamme lilas vient du potassium."}
+        ]
+      }
+    },
+    {
+      "kind": "concept",
+      "title": "Tests for chloride and sulfate ions",
+      "title_fr": "Les tests des ions chlorure et sulfate",
+      "content": "Anions can be identified in solution. To test for chloride ions, add dilute nitric acid and then silver nitrate solution; a white precipitate forms. To test for sulfate ions, add dilute hydrochloric acid and then barium chloride solution; a white precipitate also forms.\n\nThe acid is added first to remove any carbonate ions that could give a false result.",
+      "content_fr": "On peut identifier les anions en solution. Pour tester les ions chlorure, on ajoute de l'acide nitrique dilué puis une solution de nitrate d'argent ; un précipité blanc se forme. Pour tester les ions sulfate, on ajoute de l'acide chlorhydrique dilué puis une solution de chlorure de baryum ; là aussi un précipité blanc se forme.\n\nOn ajoute l'acide en premier pour éliminer les ions carbonate qui pourraient fausser le résultat.",
+      "required": true,
+      "xp": 12,
+      "question": {
+        "kind": "mcq",
+        "difficulty": 2,
+        "text": "Which solution is used to test for chloride ions?",
+        "text_fr": "Quelle solution utilise-t-on pour tester les ions chlorure ?",
+        "explanation": "Silver nitrate solution gives a white precipitate with chloride ions.",
+        "explanation_fr": "La solution de nitrate d'argent donne un précipité blanc avec les ions chlorure.",
+        "hint_prompt": "It contains silver.",
+        "hint_prompt_fr": "Elle contient de l'argent.",
+        "choices": [
+          {"text": "Silver nitrate", "text_fr": "Le nitrate d'argent", "correct": true},
+          {"text": "Barium chloride", "text_fr": "Le chlorure de baryum", "correct": false},
+          {"text": "Copper sulfate", "text_fr": "Le sulfate de cuivre", "correct": false},
+          {"text": "Sodium hydroxide", "text_fr": "La soude", "correct": false}
+        ],
+        "hints": [
+          {"text": "It contains silver ions.", "text_fr": "Il contient des ions argent."},
+          {"text": "It is silver nitrate.", "text_fr": "C'est le nitrate d'argent."}
+        ]
+      }
+    },
+    {
+      "kind": "explain",
+      "title": "Testing for carbonate ions",
+      "title_fr": "Tester les ions carbonate",
+      "content": "To test for carbonate ions, add a dilute acid to the sample. The mixture fizzes as carbon dioxide is given off, and this gas turns limewater milky.\n\nThe fizzing is the key observation, and the limewater test confirms that the gas is carbon dioxide.",
+      "content_fr": "Pour tester les ions carbonate, on ajoute un acide dilué à l'échantillon. Le mélange produit une effervescence : du dioxyde de carbone se dégage, et ce gaz rend l'eau de chaux laiteuse.\n\nL'effervescence est l'observation clé, et le test de l'eau de chaux confirme que le gaz est bien du dioxyde de carbone.",
+      "required": true,
+      "xp": 12,
+      "question": {
+        "kind": "mcq",
+        "difficulty": 2,
+        "text": "A solution gives a white precipitate when barium chloride and dilute hydrochloric acid are added. Which ion is present?",
+        "text_fr": "Une solution donne un précipité blanc quand on ajoute du chlorure de baryum et de l'acide chlorhydrique dilué. Quel ion est présent ?",
+        "explanation": "Barium chloride solution gives a white precipitate with sulfate ions.",
+        "explanation_fr": "Le chlorure de baryum donne un précipité blanc avec les ions sulfate.",
+        "hint_prompt": "This reagent tests for sulfate.",
+        "hint_prompt_fr": "Ce réactif teste les sulfates.",
+        "choices": [
+          {"text": "Sulfate", "text_fr": "Le sulfate", "correct": true},
+          {"text": "Chloride", "text_fr": "Le chlorure", "correct": false},
+          {"text": "Carbonate", "text_fr": "Le carbonate", "correct": false},
+          {"text": "Copper", "text_fr": "Le cuivre", "correct": false}
+        ],
+        "hints": [
+          {"text": "Barium chloride tests for one anion.", "text_fr": "Le chlorure de baryum teste un anion."},
+          {"text": "It shows sulfate ions.", "text_fr": "Il révèle les ions sulfate."}
+        ]
+      }
+    },
+    {
+      "kind": "concept",
+      "title": "Testing metal ions with sodium hydroxide",
+      "title_fr": "Tester les ions métalliques avec la soude",
+      "content": "Adding sodium hydroxide solution to a solution of a metal ion forms a coloured precipitate. Copper(II) ions give a blue precipitate, iron(II) ions give a green precipitate, and iron(III) ions give a red-brown precipitate.\n\nThe colour of the precipitate helps you decide which metal ion is present.",
+      "content_fr": "Ajouter de la soude à une solution contenant un ion métallique forme un précipité coloré. Les ions cuivre(II) donnent un précipité bleu, les ions fer(II) un précipité vert et les ions fer(III) un précipité brun rouge.\n\nLa couleur du précipité aide à déterminer quel ion métallique est présent.",
+      "required": true,
+      "xp": 12,
+      "question": {
+        "kind": "mcq",
+        "difficulty": 2,
+        "text": "Which ion gives a blue precipitate with sodium hydroxide solution?",
+        "text_fr": "Quel ion donne un précipité bleu avec la soude ?",
+        "explanation": "Copper(II) ions give a blue precipitate with sodium hydroxide solution.",
+        "explanation_fr": "Les ions cuivre(II) donnent un précipité bleu avec la soude.",
+        "hint_prompt": "It is the ion in copper salts.",
+        "hint_prompt_fr": "C'est l'ion présent dans les sels de cuivre.",
+        "choices": [
+          {"text": "Copper(II)", "text_fr": "Le cuivre(II)", "correct": true},
+          {"text": "Iron(II)", "text_fr": "Le fer(II)", "correct": false},
+          {"text": "Iron(III)", "text_fr": "Le fer(III)", "correct": false},
+          {"text": "Calcium", "text_fr": "Le calcium", "correct": false}
+        ],
+        "hints": [
+          {"text": "Iron(II) is green and iron(III) is red-brown.", "text_fr": "Le fer(II) est vert et le fer(III) brun rouge."},
+          {"text": "The blue precipitate comes from copper(II).", "text_fr": "Le précipité bleu vient du cuivre(II)."}
+        ]
+      }
+    },
+    {
+      "kind": "practice",
+      "title": "Your turn: identify the ion",
+      "title_fr": "À toi : identifie l'ion",
+      "content": "Use the observation in each test to name the ion.",
+      "content_fr": "Utilise l'observation de chaque test pour nommer l'ion.",
+      "required": true,
+      "xp": 12,
+      "question": {
+        "kind": "mcq",
+        "difficulty": 2,
+        "text": "An unknown white solid gives a bright yellow flame in a flame test. Which metal ion does it contain?",
+        "text_fr": "Un solide blanc inconnu donne une flamme jaune vif lors d'un test de flamme. Quel ion métallique contient-il ?",
+        "explanation": "Sodium ions give a bright yellow flame in a flame test.",
+        "explanation_fr": "Les ions sodium donnent une flamme jaune vif lors d'un test de flamme.",
+        "hint_prompt": "The flame is strongly yellow.",
+        "hint_prompt_fr": "La flamme est fortement jaune.",
+        "choices": [
+          {"text": "Sodium", "text_fr": "Le sodium", "correct": true},
+          {"text": "Potassium", "text_fr": "Le potassium", "correct": false},
+          {"text": "Copper", "text_fr": "Le cuivre", "correct": false},
+          {"text": "Lithium", "text_fr": "Le lithium", "correct": false}
+        ],
+        "hints": [
+          {"text": "Potassium is lilac and lithium is red.", "text_fr": "Le potassium est lilas et le lithium rouge."},
+          {"text": "The yellow flame comes from sodium.", "text_fr": "La flamme jaune vient du sodium."}
+        ]
+      }
+    },
+    {
+      "kind": "summary",
+      "title": "What to keep",
+      "title_fr": "À retenir",
+      "content": "Flame tests identify metal ions by colour: lithium is red, sodium yellow, potassium lilac, calcium orange-red and copper blue-green. Silver nitrate gives a white precipitate with chloride, and barium chloride gives a white precipitate with sulfate. Carbonates fizz with acid, and sodium hydroxide gives coloured precipitates with metal ions.",
+      "content_fr": "Les tests de flamme identifient les ions métalliques par leur couleur : le lithium est rouge, le sodium jaune, le potassium lilas, le calcium orange-rouge et le cuivre bleu-vert. Le nitrate d'argent donne un précipité blanc avec les chlorures, et le chlorure de baryum avec les sulfates. Les carbonates produisent une effervescence avec un acide, et la soude donne des précipités colorés avec les ions métalliques.",
+      "xp": 5
+    }
+  ],
+  "quiz": {
+    "title": "Quiz: tests for ions",
+    "title_fr": "Quiz : les tests des ions",
+    "pass_score": 60,
+    "questions": [
+      {
+        "kind": "mcq",
+        "difficulty": 1,
+        "text": "Which metal ion gives a lilac flame?",
+        "text_fr": "Quel ion métallique donne une flamme lilas ?",
+        "explanation": "Potassium ions give a lilac flame.",
+        "explanation_fr": "Les ions potassium donnent une flamme lilas.",
+        "hint_prompt": "It is not sodium or calcium.",
+        "hint_prompt_fr": "Ce n'est ni le sodium ni le calcium.",
+        "choices": [
+          {"text": "Potassium", "text_fr": "Le potassium", "correct": true},
+          {"text": "Sodium", "text_fr": "Le sodium", "correct": false},
+          {"text": "Calcium", "text_fr": "Le calcium", "correct": false},
+          {"text": "Copper", "text_fr": "Le cuivre", "correct": false}
+        ],
+        "hints": [
+          {"text": "Sodium is yellow.", "text_fr": "Le sodium est jaune."},
+          {"text": "The lilac flame is potassium.", "text_fr": "La flamme lilas est celle du potassium."}
+        ]
+      },
+      {
+        "kind": "mcq",
+        "difficulty": 2,
+        "text": "Which solution is used to test for chloride ions?",
+        "text_fr": "Quelle solution utilise-t-on pour tester les ions chlorure ?",
+        "explanation": "Silver nitrate solution gives a white precipitate with chloride ions.",
+        "explanation_fr": "Le nitrate d'argent donne un précipité blanc avec les ions chlorure.",
+        "hint_prompt": "It contains silver ions.",
+        "hint_prompt_fr": "Il contient des ions argent.",
+        "choices": [
+          {"text": "Silver nitrate", "text_fr": "Le nitrate d'argent", "correct": true},
+          {"text": "Barium chloride", "text_fr": "Le chlorure de baryum", "correct": false},
+          {"text": "Copper sulfate", "text_fr": "Le sulfate de cuivre", "correct": false},
+          {"text": "Sodium hydroxide", "text_fr": "La soude", "correct": false}
+        ],
+        "hints": [
+          {"text": "The precipitate is white.", "text_fr": "Le précipité est blanc."},
+          {"text": "It is silver nitrate.", "text_fr": "C'est le nitrate d'argent."}
+        ]
+      },
+      {
+        "kind": "mcq",
+        "difficulty": 2,
+        "text": "Which solution is used to test for sulfate ions?",
+        "text_fr": "Quelle solution utilise-t-on pour tester les ions sulfate ?",
+        "explanation": "Barium chloride solution gives a white precipitate with sulfate ions.",
+        "explanation_fr": "Le chlorure de baryum donne un précipité blanc avec les ions sulfate.",
+        "hint_prompt": "It contains barium ions.",
+        "hint_prompt_fr": "Il contient des ions baryum.",
+        "choices": [
+          {"text": "Barium chloride", "text_fr": "Le chlorure de baryum", "correct": true},
+          {"text": "Silver nitrate", "text_fr": "Le nitrate d'argent", "correct": false},
+          {"text": "Sodium hydroxide", "text_fr": "La soude", "correct": false},
+          {"text": "Limewater", "text_fr": "L'eau de chaux", "correct": false}
+        ],
+        "hints": [
+          {"text": "It contains barium.", "text_fr": "Il contient du baryum."},
+          {"text": "It is barium chloride.", "text_fr": "C'est le chlorure de baryum."}
+        ]
+      },
+      {
+        "kind": "mcq",
+        "difficulty": 2,
+        "text": "A solution gives a blue precipitate with sodium hydroxide. Which metal ion is present?",
+        "text_fr": "Une solution donne un précipité bleu avec la soude. Quel ion métallique est présent ?",
+        "explanation": "Copper(II) ions give a blue precipitate with sodium hydroxide.",
+        "explanation_fr": "Les ions cuivre(II) donnent un précipité bleu avec la soude.",
+        "hint_prompt": "It is the ion found in copper salts.",
+        "hint_prompt_fr": "C'est l'ion présent dans les sels de cuivre.",
+        "choices": [
+          {"text": "Copper(II)", "text_fr": "Le cuivre(II)", "correct": true},
+          {"text": "Iron(II)", "text_fr": "Le fer(II)", "correct": false},
+          {"text": "Iron(III)", "text_fr": "Le fer(III)", "correct": false},
+          {"text": "Calcium", "text_fr": "Le calcium", "correct": false}
+        ],
+        "hints": [
+          {"text": "Iron(II) is green.", "text_fr": "Le fer(II) est vert."},
+          {"text": "The blue precipitate is copper(II).", "text_fr": "Le précipité bleu est celui du cuivre(II)."}
+        ]
+      },
+      {
+        "kind": "mcq",
+        "difficulty": 2,
+        "text": "A sample fizzes when a dilute acid is added, and the gas turns limewater milky. Which ion is present?",
+        "text_fr": "Un échantillon produit une effervescence quand on ajoute un acide dilué, et le gaz rend l'eau de chaux laiteuse. Quel ion est présent ?",
+        "explanation": "Carbonate ions react with acid to release carbon dioxide, which turns limewater milky.",
+        "explanation_fr": "Les ions carbonate réagissent avec un acide en libérant du dioxyde de carbone, qui rend l'eau de chaux laiteuse.",
+        "hint_prompt": "The gas given off is carbon dioxide.",
+        "hint_prompt_fr": "Le gaz dégagé est du dioxyde de carbone.",
+        "choices": [
+          {"text": "Carbonate", "text_fr": "Le carbonate", "correct": true},
+          {"text": "Chloride", "text_fr": "Le chlorure", "correct": false},
+          {"text": "Sulfate", "text_fr": "Le sulfate", "correct": false},
+          {"text": "Copper", "text_fr": "Le cuivre", "correct": false}
+        ],
+        "hints": [
+          {"text": "Fizzing with acid gives carbon dioxide.", "text_fr": "L'effervescence avec un acide donne du dioxyde de carbone."},
+          {"text": "It is the carbonate ion.", "text_fr": "C'est l'ion carbonate."}
+        ]
+      }
+    ]
+  }
+}

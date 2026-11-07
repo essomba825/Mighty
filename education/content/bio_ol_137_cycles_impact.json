@@ -1,0 +1,303 @@
+{
+  "lesson": 137,
+  "status": "published",
+  "lesson_fields": {
+    "title": "Cycles and Human Impact",
+    "title_fr": "Cycles et impact humain",
+    "summary": "Nutrients such as carbon and nitrogen are recycled in ecosystems. Human activities can upset these cycles and harm the environment.",
+    "summary_fr": "Les nutriments comme le carbone et l'azote sont recycles dans les ecosystemes. Les activites humaines peuvent perturber ces cycles et nuire a l'environnement.",
+    "content": "## The carbon cycle\n\nPhotosynthesis removes carbon dioxide from the air. Respiration, burning and decomposition release it. The amount of carbon is balanced in nature.\n\n## Human impact\n\nBurning fossil fuels adds extra carbon dioxide, causing global warming. Pollution, deforestation and waste harm habitats.",
+    "content_fr": "## Le cycle du carbone\n\nLa photosynthese retire le dioxyde de carbone de l'air. La respiration, la combustion et la decomposition le liberent. La quantite de carbone est equilibree dans la nature.\n\n## Impact humain\n\nLa combustion de combustibles fossiles ajoute du dioxyde de carbone supplementaire, provoquant le rechauffement climatique. La pollution, la deforestation et les dechets nuisent aux habitats.",
+    "objectives": [
+      "Describe how carbon is recycled",
+      "Explain how burning fuels affects the atmosphere",
+      "Give examples of pollution and their effects"
+    ],
+    "objectives_fr": [
+      "Decrire le recyclage du carbone",
+      "Expliquer comment la combustion affecte l'atmosphere",
+      "Donner des exemples de pollution et leurs effets"
+    ],
+    "estimated_minutes": 25
+  },
+  "steps": [
+    {
+      "kind": "concept",
+      "title": "Carbon goes round",
+      "title_fr": "Le carbone circule",
+      "content": "Carbon moves between the air, living things and the soil. Plants take in carbon dioxide. Animals release it by respiration. Decomposers release it from dead matter.",
+      "content_fr": "Le carbone circule entre l'air, les etres vivants et le sol. Les plantes absorbent le dioxyde de carbone. Les animaux le rejettent par la respiration. Les decomposeurs le liberent de la matiere morte.",
+      "required": true,
+      "xp": 10,
+      "question": {
+        "kind": "mcq",
+        "text": "Which process removes carbon dioxide from the air?",
+        "text_fr": "Quel processus retire le dioxyde de carbone de l'air ?",
+        "explanation": "Photosynthesis.",
+        "explanation_fr": "La photosynthese.",
+        "choices": [
+          {
+            "text": "Photosynthesis",
+            "text_fr": "La photosynthese",
+            "correct": true
+          },
+          {
+            "text": "Respiration",
+            "text_fr": "La respiration",
+            "correct": false
+          },
+          {
+            "text": "Burning",
+            "text_fr": "La combustion",
+            "correct": false
+          }
+        ],
+        "hints": [
+          {
+            "text": "Plants do this.",
+            "text_fr": "Les plantes le font."
+          }
+        ],
+        "difficulty": 1
+      }
+    },
+    {
+      "kind": "explain",
+      "title": "Human impact",
+      "title_fr": "Impact humain",
+      "content": "Burning fossil fuels releases carbon dioxide that was stored for millions of years. This extra gas traps heat and causes global warming.",
+      "content_fr": "La combustion de combustibles fossiles libere du dioxyde de carbone stocke depuis des millions d'annees. Ce gaz supplementaire retient la chaleur et provoque le rechauffement climatique.",
+      "required": true,
+      "xp": 10
+    },
+    {
+      "kind": "example",
+      "title": "Pollution",
+      "title_fr": "La pollution",
+      "content": "Pollutants include sulphur dioxide from burning fuels, which causes acid rain, and fertilisers washed into rivers, which cause algae to grow and fish to die.",
+      "content_fr": "Les polluants incluent le dioxyde de soufre issu de la combustion, qui provoque les pluies acides, et les engrais lessives dans les rivieres, qui font se developper les algues et mourir les poissons.",
+      "required": true,
+      "xp": 12
+    },
+    {
+      "kind": "practice",
+      "title": "Your turn: which gas",
+      "title_fr": "A toi : quel gaz",
+      "content": "Which gas is mainly responsible for global warming?",
+      "content_fr": "Quel gaz est principalement responsable du rechauffement climatique ?",
+      "required": true,
+      "xp": 12,
+      "question": {
+        "kind": "mcq",
+        "text": "Which gas mainly causes global warming?",
+        "text_fr": "Quel gaz provoque principalement le rechauffement climatique ?",
+        "explanation": "Carbon dioxide.",
+        "explanation_fr": "Le dioxyde de carbone.",
+        "choices": [
+          {
+            "text": "Carbon dioxide",
+            "text_fr": "Le dioxyde de carbone",
+            "correct": true
+          },
+          {
+            "text": "Oxygen",
+            "text_fr": "L'oxygene",
+            "correct": false
+          },
+          {
+            "text": "Nitrogen",
+            "text_fr": "L'azote",
+            "correct": false
+          }
+        ],
+        "hints": [
+          {
+            "text": "It comes from burning fuels.",
+            "text_fr": "Il vient de la combustion."
+          }
+        ],
+        "difficulty": 1
+      }
+    },
+    {
+      "kind": "question",
+      "title": "Check: acid rain",
+      "title_fr": "Verification : pluies acides",
+      "content": "Sulphur dioxide from burning fossil fuels dissolves in rain to make acid rain. Acid rain damages trees, soils, lakes and buildings.",
+      "content_fr": "Le dioxyde de soufre issu de la combustion des combustibles fossiles se dissout dans la pluie pour former des pluies acides. Les pluies acides abiment les arbres, les sols, les lacs et les batiments.",
+      "required": true,
+      "xp": 12,
+      "question": {
+        "kind": "mcq",
+        "text": "What causes acid rain?",
+        "text_fr": "Qu'est-ce qui cause les pluies acides ?",
+        "explanation": "Sulphur dioxide from burning fuels.",
+        "explanation_fr": "Le dioxyde de soufre issu de la combustion.",
+        "choices": [
+          {
+            "text": "Sulphur dioxide",
+            "text_fr": "Le dioxyde de soufre",
+            "correct": true
+          },
+          {
+            "text": "Oxygen",
+            "text_fr": "L'oxygene",
+            "correct": false
+          },
+          {
+            "text": "Water vapour",
+            "text_fr": "La vapeur d'eau",
+            "correct": false
+          }
+        ],
+        "hints": [
+          {
+            "text": "It comes from fuels with sulphur.",
+            "text_fr": "Il vient des combustibles contenant du soufre."
+          }
+        ],
+        "difficulty": 1
+      }
+    },
+    {
+      "kind": "summary",
+      "title": "What to keep",
+      "title_fr": "A retenir",
+      "content": "Carbon is recycled by photosynthesis, respiration, burning and decomposition. Burning fossil fuels adds carbon dioxide and causes global warming and acid rain.",
+      "content_fr": "Le carbone est recycle par la photosynthese, la respiration, la combustion et la decomposition. La combustion de combustibles fossiles ajoute du dioxyde de carbone et provoque le rechauffement climatique et les pluies acides.",
+      "required": false,
+      "xp": 5
+    }
+  ],
+  "quiz": {
+    "title": "Cycles and Human Impact",
+    "title_fr": "Cycles et impact humain",
+    "pass_score": 60,
+    "questions": [
+      {
+        "kind": "mcq",
+        "text": "Which process releases carbon dioxide?",
+        "text_fr": "Quel processus libere du dioxyde de carbone ?",
+        "explanation": "Respiration.",
+        "explanation_fr": "La respiration.",
+        "choices": [
+          {
+            "text": "Respiration",
+            "text_fr": "La respiration",
+            "correct": true
+          },
+          {
+            "text": "Photosynthesis",
+            "text_fr": "La photosynthese",
+            "correct": false
+          },
+          {
+            "text": "Condensation",
+            "text_fr": "La condensation",
+            "correct": false
+          }
+        ],
+        "hints": [
+          {
+            "text": "All living things do it.",
+            "text_fr": "Tous les etres vivants le font."
+          }
+        ],
+        "difficulty": 1
+      },
+      {
+        "kind": "mcq",
+        "text": "What is the main cause of global warming?",
+        "text_fr": "Quelle est la principale cause du rechauffement climatique ?",
+        "explanation": "Extra carbon dioxide from burning fuels.",
+        "explanation_fr": "Le dioxyde de carbone supplementaire issu de la combustion.",
+        "choices": [
+          {
+            "text": "Extra carbon dioxide",
+            "text_fr": "Le dioxyde de carbone supplementaire",
+            "correct": true
+          },
+          {
+            "text": "Extra oxygen",
+            "text_fr": "L'oxygene supplementaire",
+            "correct": false
+          },
+          {
+            "text": "Extra nitrogen",
+            "text_fr": "L'azote supplementaire",
+            "correct": false
+          }
+        ],
+        "hints": [
+          {
+            "text": "It traps heat.",
+            "text_fr": "Il retient la chaleur."
+          }
+        ],
+        "difficulty": 1
+      },
+      {
+        "kind": "mcq",
+        "text": "What causes acid rain?",
+        "text_fr": "Qu'est-ce qui cause les pluies acides ?",
+        "explanation": "Sulphur dioxide.",
+        "explanation_fr": "Le dioxyde de soufre.",
+        "choices": [
+          {
+            "text": "Sulphur dioxide",
+            "text_fr": "Le dioxyde de soufre",
+            "correct": true
+          },
+          {
+            "text": "Carbon dioxide",
+            "text_fr": "Le dioxyde de carbone",
+            "correct": false
+          },
+          {
+            "text": "Oxygen",
+            "text_fr": "L'oxygene",
+            "correct": false
+          }
+        ],
+        "hints": [
+          {
+            "text": "It dissolves in rain.",
+            "text_fr": "Il se dissout dans la pluie."
+          }
+        ],
+        "difficulty": 1
+      },
+      {
+        "kind": "mcq",
+        "text": "What can fertilisers in rivers cause?",
+        "text_fr": "Que peuvent causer les engrais dans les rivieres ?",
+        "explanation": "Algae to grow and fish to die.",
+        "explanation_fr": "La croissance des algues et la mort des poissons.",
+        "choices": [
+          {
+            "text": "Algae growth and fish deaths",
+            "text_fr": "La croissance des algues et la mort des poissons",
+            "correct": true
+          },
+          {
+            "text": "Cleaner water",
+            "text_fr": "Une eau plus propre",
+            "correct": false
+          },
+          {
+            "text": "More oxygen",
+            "text_fr": "Plus d'oxygene",
+            "correct": false
+          }
+        ],
+        "hints": [
+          {
+            "text": "Too many nutrients.",
+            "text_fr": "Trop de nutriments."
+          }
+        ],
+        "difficulty": 1
+      }
+    ]
+  }
+}

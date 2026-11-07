@@ -1,0 +1,291 @@
+{
+  "lesson": 151,
+  "status": "published",
+  "lesson_fields": {
+    "title": "Properties of Waves and Sound",
+    "title_fr": "Proprietes des ondes et du son",
+    "summary": "Waves transfer energy without transferring matter. Sound is a wave that travels through a medium and can reflect as an echo.",
+    "summary_fr": "Les ondes transfèrent de l'energie sans transporter de matiere. Le son est une onde qui se propage dans un milieu et peut se refleter en echo.",
+    "content": "## Wave properties\n\nA wave has a wavelength, frequency and amplitude. Frequency is measured in hertz and equals the number of waves per second. Wave speed equals frequency times wavelength.\n\n## Sound\n\nSound is a wave that travels through a medium such as air, water or solids. It cannot travel through a vacuum. Sound reflects off surfaces to make echoes.",
+    "content_fr": "## Proprietes des ondes\n\nUne onde possede une longueur d'onde, une frequence et une amplitude. La frequence se mesure en hertz et egale le nombre d'ondes par seconde. La vitesse de l'onde egale la frequence fois la longueur d'onde.\n\n## Le son\n\nLe son est une onde qui se propage dans un milieu comme l'air, l'eau ou les solides. Il ne peut pas se propager dans le vide. Le son se reflechit sur les surfaces et produit des echos.",
+    "objectives": [
+      "Describe wavelength, frequency and amplitude",
+      "Use the wave speed equation",
+      "Explain how sound travels and echoes form"
+    ],
+    "objectives_fr": [
+      "Decrire la longueur d'onde, la frequence et l'amplitude",
+      "Utiliser l'equation de la vitesse des ondes",
+      "Expliquer comment le son se propage et comment se forment les echos"
+    ],
+    "estimated_minutes": 25
+  },
+  "steps": [
+    {
+      "kind": "concept",
+      "title": "Parts of a wave",
+      "title_fr": "Les parties d'une onde",
+      "content": "Wavelength is the distance between two matching points on a wave. Amplitude is the height from the middle to a crest. Frequency is the number of waves passing each second, in hertz.",
+      "content_fr": "La longueur d'onde est la distance entre deux points identiques d'une onde. L'amplitude est la hauteur du milieu a une crete. La frequence est le nombre d'ondes passant chaque seconde, en hertz.",
+      "required": true,
+      "xp": 10,
+      "question": {
+        "kind": "mcq",
+        "text": "What is frequency measured in?",
+        "text_fr": "En quoi la frequence est-elle mesuree ?",
+        "explanation": "Hertz.",
+        "explanation_fr": "Les hertz.",
+        "choices": [
+          {
+            "text": "Hertz",
+            "text_fr": "Les hertz",
+            "correct": true
+          },
+          {
+            "text": "Metres",
+            "text_fr": "Les metres",
+            "correct": false
+          },
+          {
+            "text": "Joules",
+            "text_fr": "Les joules",
+            "correct": false
+          }
+        ],
+        "hints": [
+          {
+            "text": "It means per second.",
+            "text_fr": "Cela signifie par seconde."
+          }
+        ],
+        "difficulty": 1
+      }
+    },
+    {
+      "kind": "explain",
+      "title": "Wave speed equation",
+      "title_fr": "L'equation de la vitesse des ondes",
+      "content": "Wave speed equals frequency times wavelength. If a wave has a frequency of 50 hertz and a wavelength of 2 metres, its speed is 100 metres per second.",
+      "content_fr": "La vitesse de l'onde egale la frequence fois la longueur d'onde. Si une onde a une frequence de 50 hertz et une longueur d'onde de 2 metres, sa vitesse est de 100 metres par seconde.",
+      "required": true,
+      "xp": 10
+    },
+    {
+      "kind": "example",
+      "title": "Echoes",
+      "title_fr": "Les echos",
+      "content": "Sound reflects off a wall or cliff and returns as an echo. The time for the echo to return depends on the distance and the speed of sound, about 340 metres per second in air.",
+      "content_fr": "Le son se reflechit sur un mur ou une falaise et revient sous forme d'echo. Le temps de retour de l'echo depend de la distance et de la vitesse du son, environ 340 metres par seconde dans l'air.",
+      "required": true,
+      "xp": 12
+    },
+    {
+      "kind": "practice",
+      "title": "Your turn: wave speed",
+      "title_fr": "A toi : vitesse de l'onde",
+      "content": "A wave has a frequency of 10 hertz and a wavelength of 3 metres. What is its speed, in metres per second?",
+      "content_fr": "Une onde a une frequence de 10 hertz et une longueur d'onde de 3 metres. Quelle est sa vitesse, en metres par seconde ?",
+      "required": true,
+      "xp": 12,
+      "question": {
+        "kind": "numeric",
+        "text": "Wave speed in metres per second?",
+        "text_fr": "Vitesse de l'onde en metres par seconde ?",
+        "explanation": "Speed equals frequency times wavelength: 10 times 3 is 30 metres per second.",
+        "explanation_fr": "La vitesse egale la frequence fois la longueur d'onde : 10 fois 3 vaut 30 metres par seconde.",
+        "config": {
+          "accepted": [
+            "30"
+          ]
+        },
+        "hints": [
+          {
+            "text": "Multiply frequency by wavelength.",
+            "text_fr": "Multiplie la frequence par la longueur d'onde."
+          }
+        ],
+        "difficulty": 1
+      }
+    },
+    {
+      "kind": "question",
+      "title": "Check: sound in space",
+      "title_fr": "Verification : le son dans l'espace",
+      "content": "Sound needs a medium to travel. Space is a vacuum, so sound cannot travel through it. This is why astronauts cannot talk directly in space.",
+      "content_fr": "Le son a besoin d'un milieu pour se propager. L'espace est un vide, donc le son ne peut pas s'y propager. C'est pourquoi les astronautes ne peuvent pas se parler directement dans l'espace.",
+      "required": true,
+      "xp": 12,
+      "question": {
+        "kind": "mcq",
+        "text": "Can sound travel through a vacuum?",
+        "text_fr": "Le son peut-il se propager dans le vide ?",
+        "explanation": "No, it needs a medium.",
+        "explanation_fr": "Non, il a besoin d'un milieu.",
+        "choices": [
+          {
+            "text": "No, it needs a medium",
+            "text_fr": "Non, il a besoin d'un milieu",
+            "correct": true
+          },
+          {
+            "text": "Yes, easily",
+            "text_fr": "Oui, facilement",
+            "correct": false
+          },
+          {
+            "text": "Only at night",
+            "text_fr": "Seulement la nuit",
+            "correct": false
+          }
+        ],
+        "hints": [
+          {
+            "text": "It is a wave in matter.",
+            "text_fr": "C'est une onde dans la matiere."
+          }
+        ],
+        "difficulty": 1
+      }
+    },
+    {
+      "kind": "summary",
+      "title": "What to keep",
+      "title_fr": "A retenir",
+      "content": "Waves carry energy and have wavelength, frequency and amplitude. Wave speed equals frequency times wavelength. Sound needs a medium and reflects to form echoes.",
+      "content_fr": "Les ondes transportent de l'energie et possedent une longueur d'onde, une frequence et une amplitude. La vitesse de l'onde egale la frequence fois la longueur d'onde. Le son a besoin d'un milieu et se reflechit pour former des echos.",
+      "required": false,
+      "xp": 5
+    }
+  ],
+  "quiz": {
+    "title": "Properties of Waves and Sound",
+    "title_fr": "Proprietes des ondes et du son",
+    "pass_score": 60,
+    "questions": [
+      {
+        "kind": "mcq",
+        "text": "What does wave speed equal?",
+        "text_fr": "A quoi egale la vitesse d'une onde ?",
+        "explanation": "Frequency times wavelength.",
+        "explanation_fr": "Frequence fois longueur d'onde.",
+        "choices": [
+          {
+            "text": "Frequency x wavelength",
+            "text_fr": "Frequence x longueur d'onde",
+            "correct": true
+          },
+          {
+            "text": "Frequency / wavelength",
+            "text_fr": "Frequence / longueur d'onde",
+            "correct": false
+          },
+          {
+            "text": "Amplitude x wavelength",
+            "text_fr": "Amplitude x longueur d'onde",
+            "correct": false
+          }
+        ],
+        "hints": [
+          {
+            "text": "It relates to both.",
+            "text_fr": "Elle relie les deux."
+          }
+        ],
+        "difficulty": 1
+      },
+      {
+        "kind": "mcq",
+        "text": "What is the distance between two crests called?",
+        "text_fr": "Comment appelle-t-on la distance entre deux cretes ?",
+        "explanation": "Wavelength.",
+        "explanation_fr": "La longueur d'onde.",
+        "choices": [
+          {
+            "text": "Wavelength",
+            "text_fr": "La longueur d'onde",
+            "correct": true
+          },
+          {
+            "text": "Amplitude",
+            "text_fr": "L'amplitude",
+            "correct": false
+          },
+          {
+            "text": "Frequency",
+            "text_fr": "La frequence",
+            "correct": false
+          }
+        ],
+        "hints": [
+          {
+            "text": "It is a length.",
+            "text_fr": "C'est une longueur."
+          }
+        ],
+        "difficulty": 1
+      },
+      {
+        "kind": "mcq",
+        "text": "Sound cannot travel through...",
+        "text_fr": "Le son ne peut pas se propager dans...",
+        "explanation": "A vacuum.",
+        "explanation_fr": "Le vide.",
+        "choices": [
+          {
+            "text": "A vacuum",
+            "text_fr": "Le vide",
+            "correct": true
+          },
+          {
+            "text": "Water",
+            "text_fr": "L'eau",
+            "correct": false
+          },
+          {
+            "text": "Steel",
+            "text_fr": "L'acier",
+            "correct": false
+          }
+        ],
+        "hints": [
+          {
+            "text": "It needs particles.",
+            "text_fr": "Il a besoin de particules."
+          }
+        ],
+        "difficulty": 1
+      },
+      {
+        "kind": "mcq",
+        "text": "An echo is caused by...",
+        "text_fr": "Un echo est cause par...",
+        "explanation": "Reflection of sound.",
+        "explanation_fr": "La reflexion du son.",
+        "choices": [
+          {
+            "text": "Reflection of sound",
+            "text_fr": "La reflexion du son",
+            "correct": true
+          },
+          {
+            "text": "Absorption of sound",
+            "text_fr": "L'absorption du son",
+            "correct": false
+          },
+          {
+            "text": "Refraction of sound",
+            "text_fr": "La refraction du son",
+            "correct": false
+          }
+        ],
+        "hints": [
+          {
+            "text": "The sound bounces back.",
+            "text_fr": "Le son rebondit."
+          }
+        ],
+        "difficulty": 1
+      }
+    ]
+  }
+}

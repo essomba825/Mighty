@@ -1,0 +1,291 @@
+{
+  "lesson": 159,
+  "status": "published",
+  "lesson_fields": {
+    "title": "Solving Trigonometric Equations",
+    "title_fr": "Resoudre des equations trigonometriques",
+    "summary": "Trigonometric equations often have more than one solution. Using the graph and the unit circle helps find every angle in the required range.",
+    "summary_fr": "Les equations trigonometriques ont souvent plusieurs solutions. Utiliser la courbe et le cercle trigonometrique aide a trouver tous les angles dans l'intervalle demande.",
+    "content": "## Many solutions\n\nBecause sine and cosine repeat every 360 degrees, a trigonometric equation usually has several answers. The basic value from the calculator is only one of them.\n\n## Finding all solutions\n\nUse the symmetry of the graph. If sine of angle A equals sine of angle B, then the angles can be equal or add up to 180 degrees. Check the range to list every valid angle.",
+    "content_fr": "## Plusieurs solutions\n\nComme le sinus et le cosinus se repetent tous les 360 degres, une equation trigonometrique a generalement plusieurs reponses. La valeur de base donnee par la calculatrice n'en est qu'une.\n\n## Trouver toutes les solutions\n\nUtilise la symetrie de la courbe. Si le sinus de l'angle A egale le sinus de l'angle B, alors les angles peuvent etre egaux ou s'additionner pour donner 180 degres. Verifie l'intervalle pour lister tous les angles valides.",
+    "objectives": [
+      "Explain why trigonometric equations have many solutions",
+      "Find a second solution using symmetry",
+      "List all solutions in a given range"
+    ],
+    "objectives_fr": [
+      "Expliquer pourquoi les equations trigonometriques ont plusieurs solutions",
+      "Trouver une seconde solution par symetrie",
+      "Lister toutes les solutions dans un intervalle donne"
+    ],
+    "estimated_minutes": 25
+  },
+  "steps": [
+    {
+      "kind": "concept",
+      "title": "Why many solutions",
+      "title_fr": "Pourquoi plusieurs solutions",
+      "content": "Sine and cosine repeat every 360 degrees, a property called periodicity. So the same value appears again and again, and an equation can have several answers in a range.",
+      "content_fr": "Le sinus et le cosinus se repetent tous les 360 degres, une propriete appelee periodicite. La meme valeur reapparait donc sans cesse, et une equation peut avoir plusieurs reponses dans un intervalle.",
+      "required": true,
+      "xp": 10,
+      "question": {
+        "kind": "mcq",
+        "text": "Why do trigonometric equations have many solutions?",
+        "text_fr": "Pourquoi les equations trigonometriques ont-elles plusieurs solutions ?",
+        "explanation": "Sine and cosine repeat.",
+        "explanation_fr": "Le sinus et le cosinus se repetent.",
+        "choices": [
+          {
+            "text": "Because they repeat",
+            "text_fr": "Parce qu'ils se repetent",
+            "correct": true
+          },
+          {
+            "text": "Because they are linear",
+            "text_fr": "Parce qu'ils sont lineaires",
+            "correct": false
+          },
+          {
+            "text": "Because they are constant",
+            "text_fr": "Parce qu'ils sont constants",
+            "correct": false
+          }
+        ],
+        "hints": [
+          {
+            "text": "The values come back around.",
+            "text_fr": "Les valeurs reviennent."
+          }
+        ],
+        "difficulty": 1
+      }
+    },
+    {
+      "kind": "explain",
+      "title": "Using symmetry",
+      "title_fr": "Utiliser la symetrie",
+      "content": "If sine of A equals sine of B, then either A equals B, or A and B add up to 180 degrees. For cosine, a second solution is the negative of the first. The graph shows this symmetry clearly.",
+      "content_fr": "Si le sinus de A egale le sinus de B, alors soit A egale B, soit A et B s'additionnent pour donner 180 degres. Pour le cosinus, une seconde solution est l'oppose de la premiere. La courbe montre clairement cette symetrie.",
+      "required": true,
+      "xp": 10
+    },
+    {
+      "kind": "example",
+      "title": "Two answers",
+      "title_fr": "Deux reponses",
+      "content": "Suppose sine of x equals one half. The calculator gives 30 degrees. By symmetry, 180 minus 30, which is 150 degrees, is also a solution. Both are in the range from 0 to 360.",
+      "content_fr": "Supposons que le sinus de x egale un demi. La calculatrice donne 30 degres. Par symetrie, 180 moins 30, soit 150 degres, est aussi solution. Les deux sont dans l'intervalle de 0 a 360.",
+      "required": true,
+      "xp": 12
+    },
+    {
+      "kind": "practice",
+      "title": "Your turn: second value",
+      "title_fr": "A toi : seconde valeur",
+      "content": "If the first solution of an equation with sine is 40 degrees, what is the second solution from symmetry, in degrees?",
+      "content_fr": "Si la premiere solution d'une equation avec sinus est de 40 degres, quelle est la seconde solution par symetrie, en degres ?",
+      "required": true,
+      "xp": 12,
+      "question": {
+        "kind": "numeric",
+        "text": "Second solution in degrees?",
+        "text_fr": "Seconde solution en degres ?",
+        "explanation": "Subtract from 180: 180 minus 40 is 140 degrees.",
+        "explanation_fr": "Soustrais de 180 : 180 moins 40 vaut 140 degres.",
+        "config": {
+          "accepted": [
+            "140"
+          ]
+        },
+        "hints": [
+          {
+            "text": "Use 180 minus the first angle.",
+            "text_fr": "Utilise 180 moins le premier angle."
+          }
+        ],
+        "difficulty": 1
+      }
+    },
+    {
+      "kind": "question",
+      "title": "Check: the range",
+      "title_fr": "Verification : l'intervalle",
+      "content": "Always check the required range. If the range is from 0 to 360, you might add 360 to a solution, but only keep the angles that fall inside the range.",
+      "content_fr": "Verifie toujours l'intervalle demande. Si l'intervalle va de 0 a 360, tu peux ajouter 360 a une solution, mais ne garde que les angles situes dans l'intervalle.",
+      "required": true,
+      "xp": 12,
+      "question": {
+        "kind": "mcq",
+        "text": "What must you check when listing solutions?",
+        "text_fr": "Que faut-il verifier en listant les solutions ?",
+        "explanation": "The required range.",
+        "explanation_fr": "L'intervalle demande.",
+        "choices": [
+          {
+            "text": "The range",
+            "text_fr": "L'intervalle",
+            "correct": true
+          },
+          {
+            "text": "The colour",
+            "text_fr": "La couleur",
+            "correct": false
+          },
+          {
+            "text": "The units only",
+            "text_fr": "Les unites seulement",
+            "correct": false
+          }
+        ],
+        "hints": [
+          {
+            "text": "Only keep angles inside it.",
+            "text_fr": "Ne garde que les angles a l'interieur."
+          }
+        ],
+        "difficulty": 1
+      }
+    },
+    {
+      "kind": "summary",
+      "title": "What to keep",
+      "title_fr": "A retenir",
+      "content": "Trigonometric equations have many solutions because sine and cosine repeat. Use symmetry: for sine a second angle is 180 minus the first, and for cosine it is the negative. Always check the range.",
+      "content_fr": "Les equations trigonometriques ont plusieurs solutions car le sinus et le cosinus se repetent. Utilise la symetrie : pour le sinus, une seconde solution est 180 moins la premiere, et pour le cosinus c'est l'oppose. Verifie toujours l'intervalle.",
+      "required": false,
+      "xp": 5
+    }
+  ],
+  "quiz": {
+    "title": "Solving Trigonometric Equations",
+    "title_fr": "Resoudre des equations trigonometriques",
+    "pass_score": 60,
+    "questions": [
+      {
+        "kind": "mcq",
+        "text": "How often do sine and cosine repeat?",
+        "text_fr": "Tous les combien le sinus et le cosinus se repetent-ils ?",
+        "explanation": "Every 360 degrees",
+        "explanation_fr": "Tous les 360 degres",
+        "choices": [
+          {
+            "text": "Every 360 degrees",
+            "text_fr": "Tous les 360 degres",
+            "correct": true
+          },
+          {
+            "text": "Every 90 degrees",
+            "text_fr": "Tous les 90 degres",
+            "correct": false
+          },
+          {
+            "text": "Never",
+            "text_fr": "Jamais",
+            "correct": false
+          }
+        ],
+        "hints": [
+          {
+            "text": "It is one full turn.",
+            "text_fr": "C'est un tour complet."
+          }
+        ],
+        "difficulty": 1
+      },
+      {
+        "kind": "mcq",
+        "text": "If one solution with sine is 30 degrees, the second is?",
+        "text_fr": "Si une solution avec sinus est 30 degres, la seconde est ?",
+        "explanation": "150 degrees",
+        "explanation_fr": "150 degres",
+        "choices": [
+          {
+            "text": "150 degrees",
+            "text_fr": "150 degres",
+            "correct": true
+          },
+          {
+            "text": "60 degrees",
+            "text_fr": "60 degres",
+            "correct": false
+          },
+          {
+            "text": "330 degrees",
+            "text_fr": "330 degres",
+            "correct": false
+          }
+        ],
+        "hints": [
+          {
+            "text": "Use 180 minus the first.",
+            "text_fr": "Utilise 180 moins la premiere."
+          }
+        ],
+        "difficulty": 1
+      },
+      {
+        "kind": "mcq",
+        "text": "Why can there be several solutions in a range?",
+        "text_fr": "Pourquoi peut-il y avoir plusieurs solutions dans un intervalle ?",
+        "explanation": "Because the functions repeat",
+        "explanation_fr": "Parce que les fonctions se repetent",
+        "choices": [
+          {
+            "text": "The functions repeat",
+            "text_fr": "Les fonctions se repetent",
+            "correct": true
+          },
+          {
+            "text": "The values are random",
+            "text_fr": "Les valeurs sont aleatoires",
+            "correct": false
+          },
+          {
+            "text": "They are linear",
+            "text_fr": "Elles sont lineaires",
+            "correct": false
+          }
+        ],
+        "hints": [
+          {
+            "text": "Think of periodicity.",
+            "text_fr": "Pense a la periodicite."
+          }
+        ],
+        "difficulty": 1
+      },
+      {
+        "kind": "mcq",
+        "text": "What should you always check?",
+        "text_fr": "Que faut-il toujours verifier ?",
+        "explanation": "The required range",
+        "explanation_fr": "L'intervalle demande",
+        "choices": [
+          {
+            "text": "The range",
+            "text_fr": "L'intervalle",
+            "correct": true
+          },
+          {
+            "text": "The colour",
+            "text_fr": "La couleur",
+            "correct": false
+          },
+          {
+            "text": "The mass",
+            "text_fr": "La masse",
+            "correct": false
+          }
+        ],
+        "hints": [
+          {
+            "text": "Only keep valid angles.",
+            "text_fr": "Ne garde que les angles valides."
+          }
+        ],
+        "difficulty": 1
+      }
+    ]
+  }
+}

@@ -1,0 +1,250 @@
+{
+  "lesson": 110,
+  "status": "published",
+  "lesson_fields": {
+    "title": "The Mole Concept and Calculations",
+    "title_fr": "La mole et les calculs",
+    "summary": "Use the mole, molar mass and Avogadro constant to calculate masses and amounts in simple reactions.",
+    "summary_fr": "Utiliser la mole, la masse molaire et le nombre d'Avogadro pour calculer des masses et des quantités dans des réactions simples.",
+    "content": "## What you will learn\n\nThe mole is the chemist's counting unit. It links the mass you can weigh in the laboratory to the huge number of particles taking part in a reaction.",
+    "content_fr": "## Ce que tu vas apprendre\n\nLa mole est l'unité de comptage du chimiste. Elle relie la masse que tu peux peser au laboratoire au nombre immense de particules qui participent à une réaction.",
+    "objectives": [
+      "Define the mole and Avogadro constant",
+      "Calculate moles from mass and molar mass",
+      "Use a balanced equation to compare reacting amounts"
+    ],
+    "objectives_fr": [
+      "Définir la mole et le nombre d'Avogadro",
+      "Calculer les moles à partir de la masse et de la masse molaire",
+      "Utiliser une équation équilibrée pour comparer les quantités"
+    ],
+    "estimated_minutes": 30
+  },
+  "steps": [
+    {
+      "kind": "concept",
+      "title": "What a mole means",
+      "title_fr": "Ce que signifie une mole",
+      "content": "Atoms and molecules are far too small to count one by one, so chemists count them in groups called moles. One mole of any substance contains the same number of particles, about 6.02 x 10 to the power 23, a value called the Avogadro constant.\n\nThe clever part is that one mole of a substance has a mass in grams equal to its relative formula mass, so you never have to weigh out single particles. One mole of carbon atoms has a mass of 12 grams, and one mole of oxygen molecules has a mass of 32 grams.",
+      "content_fr": "Les atomes et les molécules sont bien trop petits pour être comptés un par un : les chimistes les comptent donc par groupes appelés moles. Une mole de n'importe quel corps contient le même nombre de particules, environ 6,02 x 10 puissance 23, valeur appelée nombre d'Avogadro.\n\nL'astuce est qu'une mole d'un corps a une masse en grammes égale à sa masse formule relative : tu n'as donc jamais à peser des particules une par une. Une mole d'atomes de carbone pèse 12 grammes, et une mole de molécules d'oxygène pèse 32 grammes.",
+      "required": true,
+      "xp": 10,
+      "question": {
+        "kind": "mcq",
+        "difficulty": 1,
+        "text": "What is one mole of a substance?",
+        "text_fr": "Qu'est-ce qu'une mole d'un corps ?",
+        "explanation": "A mole is an amount containing the Avogadro number of particles, about 6.02 x 10 to the power 23.",
+        "explanation_fr": "Une mole est une quantité contenant le nombre d'Avogadro de particules, environ 6,02 x 10 puissance 23.",
+        "hint_prompt": "It is a fixed number of particles.",
+        "hint_prompt_fr": "C'est un nombre fixe de particules.",
+        "choices": [
+          {"text": "A fixed number of particles", "text_fr": "Un nombre fixe de particules", "correct": true},
+          {"text": "One single atom", "text_fr": "Un seul atome", "correct": false},
+          {"text": "One gram of matter", "text_fr": "Un gramme de matière", "correct": false},
+          {"text": "Any volume of gas", "text_fr": "Un volume quelconque de gaz", "correct": false}
+        ],
+        "hints": [
+          {"text": "Think of counting in dozens.", "text_fr": "Pense à compter par douzaines."},
+          {"text": "A mole is like a chemist's dozen.", "text_fr": "Une mole est la douzaine du chimiste."}
+        ]
+      }
+    },
+    {
+      "kind": "concept",
+      "title": "Molar mass",
+      "title_fr": "La masse molaire",
+      "content": "The molar mass is the mass of one mole of a substance. You find it by adding up the relative atomic masses of all the atoms in the formula, then giving the answer in grams per mole.\n\nWorked example: water is H2O, so its molar mass is 2 x 1 + 16 = 18 grams per mole. Carbon dioxide is CO2, so its molar mass is 12 + 2 x 16 = 44 grams per mole.\n\nUse the relative atomic masses printed on the periodic table for each element in the formula.",
+      "content_fr": "La masse molaire est la masse d'une mole d'un corps. On la trouve en additionnant les masses atomiques relatives de tous les atomes de la formule, puis en exprimant le résultat en grammes par mole.\n\nExemple rédigé : l'eau est H2O, donc sa masse molaire est 2 x 1 + 16 = 18 grammes par mole. Le dioxyde de carbone est CO2, donc sa masse molaire est 12 + 2 x 16 = 44 grammes par mole.\n\nUtilise les masses atomiques relatives écrites dans le tableau périodique pour chaque élément de la formule.",
+      "required": true,
+      "xp": 12,
+      "question": {
+        "kind": "numeric",
+        "difficulty": 2,
+        "text": "What is the molar mass of water, H2O, in grams per mole? Use H = 1 and O = 16.",
+        "text_fr": "Quelle est la masse molaire de l'eau, H2O, en grammes par mole ? Prends H = 1 et O = 16.",
+        "explanation": "2 x 1 + 16 = 18 grams per mole.",
+        "explanation_fr": "2 x 1 + 16 = 18 grammes par mole.",
+        "hint_prompt": "Add the masses of all the atoms.",
+        "hint_prompt_fr": "Additionne les masses de tous les atomes.",
+        "config": {"accepted": [18]},
+        "hints": [
+          {"text": "Two hydrogens and one oxygen.", "text_fr": "Deux hydrogènes et un oxygène."},
+          {"text": "2 + 16 = 18.", "text_fr": "2 + 16 = 18."}
+        ]
+      }
+    },
+    {
+      "kind": "concept",
+      "title": "From mass to moles",
+      "title_fr": "De la masse aux moles",
+      "content": "To find how many moles you have, divide the mass by the molar mass. The formula is moles equals mass divided by molar mass, with mass in grams and molar mass in grams per mole.\n\nWorked example: if you weigh 36 grams of water, the moles are 36 divided by 18, which is 2 moles of water. If you weigh 44 grams of carbon dioxide, the moles are 44 divided by 44, which is 1 mole.\n\nAlways match the units: grams with grams per mole gives moles with no units left over.",
+      "content_fr": "Pour trouver le nombre de moles, divise la masse par la masse molaire. La formule est : moles égale masse divisée par masse molaire, avec la masse en grammes et la masse molaire en grammes par mole.\n\nExemple rédigé : si tu pèses 36 grammes d'eau, les moles valent 36 divisé par 18, soit 2 moles d'eau. Si tu pèses 44 grammes de dioxyde de carbone, les moles valent 44 divisé par 44, soit 1 mole.\n\nAccorde toujours les unités : des grammes divisés par des grammes par mole donnent des moles, sans unité restante.",
+      "required": true,
+      "xp": 12,
+      "question": {
+        "kind": "numeric",
+        "difficulty": 2,
+        "text": "How many moles are there in 36 grams of water? The molar mass of water is 18 grams per mole.",
+        "text_fr": "Combien de moles y a-t-il dans 36 grammes d'eau ? La masse molaire de l'eau est 18 grammes par mole.",
+        "explanation": "Moles = mass / molar mass = 36 / 18 = 2 moles.",
+        "explanation_fr": "Moles = masse / masse molaire = 36 / 18 = 2 moles.",
+        "hint_prompt": "Divide the mass by the molar mass.",
+        "hint_prompt_fr": "Divise la masse par la masse molaire.",
+        "config": {"accepted": [2]},
+        "hints": [
+          {"text": "36 divided by 18.", "text_fr": "36 divisé par 18."},
+          {"text": "The result is 2.", "text_fr": "Le résultat est 2."}
+        ]
+      }
+    },
+    {
+      "kind": "explain",
+      "title": "Using an equation to compare amounts",
+      "title_fr": "Utiliser une équation pour comparer les quantités",
+      "content": "A balanced equation tells you the ratio in which substances react, counted in moles. The big numbers in front of the formulas are the mole ratio, and you can use that ratio to work out how much of one substance reacts with another.\n\nWorked example: 2H2 + O2, arrow, 2H2O says that 2 moles of hydrogen react with 1 mole of oxygen to make 2 moles of water. So if you start with 4 moles of hydrogen, you need 2 moles of oxygen and you make 4 moles of water.\n\nFind the moles you know, use the ratio from the equation, then convert back to mass if the question asks for a mass.",
+      "content_fr": "Une équation équilibrée indique le rapport dans lequel les corps réagissent, compté en moles. Les grands nombres devant les formules donnent le rapport molaire, et ce rapport permet de calculer la quantité d'un corps qui réagit avec un autre.\n\nExemple rédigé : 2H2 + O2, flèche, 2H2O signifie que 2 moles d'hydrogène réagissent avec 1 mole d'oxygène pour donner 2 moles d'eau. Si tu pars donc de 4 moles d'hydrogène, il te faut 2 moles d'oxygène et tu obtiens 4 moles d'eau.\n\nTrouve les moles connues, utilise le rapport de l'équation, puis reconvertis en masse si l'énoncé demande une masse.",
+      "required": true,
+      "xp": 14,
+      "question": {
+        "kind": "numeric",
+        "difficulty": 3,
+        "text": "Using 2H2 + O2, arrow, 2H2O, how many moles of oxygen react with 4 moles of hydrogen?",
+        "text_fr": "D'après 2H2 + O2, flèche, 2H2O, combien de moles d'oxygène réagissent avec 4 moles d'hydrogène ?",
+        "explanation": "The ratio is 2 hydrogen to 1 oxygen, so 4 moles of hydrogen need 2 moles of oxygen.",
+        "explanation_fr": "Le rapport est de 2 hydrogènes pour 1 oxygène : 4 moles d'hydrogène demandent donc 2 moles d'oxygène.",
+        "hint_prompt": "Hydrogen reacts in twice the amount of oxygen.",
+        "hint_prompt_fr": "L'hydrogène réagit en quantité double de l'oxygène.",
+        "config": {"accepted": [2]},
+        "hints": [
+          {"text": "The ratio is 2 to 1.", "text_fr": "Le rapport est de 2 pour 1."},
+          {"text": "Half of 4 is 2.", "text_fr": "La moitié de 4 est 2."}
+        ]
+      }
+    },
+    {
+      "kind": "practice",
+      "title": "Your turn: two steps",
+      "title_fr": "À toi : deux étapes",
+      "content": "Most mole problems take two steps: first find the moles you already know, then use the equation ratio to find the moles asked. Write the molar mass clearly, keep the units, and only round at the very end.",
+      "content_fr": "La plupart des problèmes de moles demandent deux étapes : d'abord trouver les moles connues, puis utiliser le rapport de l'équation pour trouver les moles demandées. Écris clairement la masse molaire, garde les unités et n'arrondis qu'à la toute fin.",
+      "required": true,
+      "xp": 14,
+      "question": {
+        "kind": "numeric",
+        "difficulty": 3,
+        "text": "How many moles are there in 88 grams of carbon dioxide, CO2? Use C = 12 and O = 16.",
+        "text_fr": "Combien de moles y a-t-il dans 88 grammes de dioxyde de carbone, CO2 ? Prends C = 12 et O = 16.",
+        "explanation": "Molar mass = 12 + 2 x 16 = 44, so moles = 88 / 44 = 2 moles.",
+        "explanation_fr": "Masse molaire = 12 + 2 x 16 = 44, donc moles = 88 / 44 = 2 moles.",
+        "hint_prompt": "First find the molar mass.",
+        "hint_prompt_fr": "Trouve d'abord la masse molaire.",
+        "config": {"accepted": [2]},
+        "hints": [
+          {"text": "Molar mass of CO2 is 44.", "text_fr": "La masse molaire de CO2 est 44."},
+          {"text": "88 / 44 = 2.", "text_fr": "88 / 44 = 2."}
+        ]
+      }
+    },
+    {
+      "kind": "summary",
+      "title": "What to keep",
+      "title_fr": "À retenir",
+      "content": "One mole holds about 6.02 x 10 to the power 23 particles and has a mass equal to the relative formula mass in grams. Moles = mass divided by molar mass. The big numbers in a balanced equation give the mole ratio for comparing reacting amounts.",
+      "content_fr": "Une mole contient environ 6,02 x 10 puissance 23 particules et a une masse égale à la masse formule relative en grammes. Moles = masse divisée par masse molaire. Les grands nombres d'une équation équilibrée donnent le rapport molaire pour comparer les quantités.",
+      "xp": 5
+    }
+  ],
+  "quiz": {
+    "title": "Quiz: the mole concept",
+    "title_fr": "Quiz : la mole et les calculs",
+    "pass_score": 60,
+    "questions": [
+      {
+        "kind": "mcq",
+        "difficulty": 1,
+        "text": "Roughly how many particles are in one mole?",
+        "text_fr": "Combien de particules contient environ une mole ?",
+        "explanation": "One mole contains the Avogadro number of particles, about 6.02 x 10 to the power 23.",
+        "explanation_fr": "Une mole contient le nombre d'Avogadro de particules, environ 6,02 x 10 puissance 23.",
+        "hint_prompt": "It is a very large number.",
+        "hint_prompt_fr": "C'est un très grand nombre.",
+        "choices": [
+          {"text": "6.02 x 10 to the power 23", "text_fr": "6,02 x 10 puissance 23", "correct": true},
+          {"text": "About 100", "text_fr": "Environ 100", "correct": false},
+          {"text": "About 12", "text_fr": "Environ 12", "correct": false},
+          {"text": "About 1000", "text_fr": "Environ 1000", "correct": false}
+        ],
+        "hints": [
+          {"text": "This is the Avogadro constant.", "text_fr": "C'est le nombre d'Avogadro."},
+          {"text": "6.02 followed by many zeros.", "text_fr": "6,02 suivi de nombreux zéros."}
+        ]
+      },
+      {
+        "kind": "numeric",
+        "difficulty": 2,
+        "text": "What is the molar mass of CO2 in grams per mole? Use C = 12 and O = 16.",
+        "text_fr": "Quelle est la masse molaire de CO2 en grammes par mole ? Prends C = 12 et O = 16.",
+        "explanation": "12 + 2 x 16 = 44 grams per mole.",
+        "explanation_fr": "12 + 2 x 16 = 44 grammes par mole.",
+        "hint_prompt": "One carbon and two oxygens.",
+        "hint_prompt_fr": "Un carbone et deux oxygènes.",
+        "config": {"accepted": [44]},
+        "hints": [
+          {"text": "12 + 16 + 16.", "text_fr": "12 + 16 + 16."},
+          {"text": "= 44.", "text_fr": "= 44."}
+        ]
+      },
+      {
+        "kind": "numeric",
+        "difficulty": 2,
+        "text": "How many moles are in 44 grams of CO2? Its molar mass is 44 grams per mole.",
+        "text_fr": "Combien de moles y a-t-il dans 44 grammes de CO2 ? Sa masse molaire est 44 grammes par mole.",
+        "explanation": "Moles = 44 / 44 = 1 mole.",
+        "explanation_fr": "Moles = 44 / 44 = 1 mole.",
+        "hint_prompt": "Divide the mass by the molar mass.",
+        "hint_prompt_fr": "Divise la masse par la masse molaire.",
+        "config": {"accepted": [1]},
+        "hints": [
+          {"text": "44 divided by 44.", "text_fr": "44 divisé par 44."},
+          {"text": "The result is 1.", "text_fr": "Le résultat est 1."}
+        ]
+      },
+      {
+        "kind": "numeric",
+        "difficulty": 3,
+        "text": "Using 2H2 + O2, arrow, 2H2O, how many moles of water form from 3 moles of oxygen?",
+        "text_fr": "D'après 2H2 + O2, flèche, 2H2O, combien de moles d'eau se forment à partir de 3 moles d'oxygène ?",
+        "explanation": "Each 1 mole of oxygen gives 2 moles of water, so 3 moles of oxygen give 6 moles of water.",
+        "explanation_fr": "Chaque mole d'oxygène donne 2 moles d'eau : 3 moles d'oxygène donnent donc 6 moles d'eau.",
+        "hint_prompt": "Use the ratio 1 to 2.",
+        "hint_prompt_fr": "Utilise le rapport 1 pour 2.",
+        "config": {"accepted": [6]},
+        "hints": [
+          {"text": "1 oxygen gives 2 waters.", "text_fr": "1 oxygène donne 2 eaux."},
+          {"text": "3 x 2 = 6.", "text_fr": "3 x 2 = 6."}
+        ]
+      },
+      {
+        "kind": "mcq",
+        "difficulty": 2,
+        "text": "What does the number in front of a formula in a balanced equation tell you?",
+        "text_fr": "Que t'indique le nombre devant une formule dans une équation équilibrée ?",
+        "explanation": "The number in front gives the number of moles of that substance taking part.",
+        "explanation_fr": "Le nombre devant donne le nombre de moles de ce corps qui participent.",
+        "hint_prompt": "It tells you how much, counted in moles.",
+        "hint_prompt_fr": "Il indique une quantité, comptée en moles.",
+        "choices": [
+          {"text": "The number of moles taking part", "text_fr": "Le nombre de moles qui participent", "correct": true},
+          {"text": "The molar mass", "text_fr": "La masse molaire", "correct": false},
+          {"text": "The number of electrons", "text_fr": "Le nombre d'électrons", "correct": false},
+          {"text": "The temperature", "text_fr": "La température", "correct": false}
+        ],
+        "hints": [
+          {"text": "It is a count of particles in moles.", "text_fr": "C'est un compte de particules en moles."},
+          {"text": "It is the mole ratio.", "text_fr": "C'est le rapport molaire."}
+        ]
+      }
+    ]
+  }
+}

@@ -4,45 +4,46 @@
   "lesson_fields": {
     "title": "Angles at Points and on Lines",
     "title_fr": "Angles autour d'un point et sur une droite",
-    "summary": "Angles on a straight line sum to 180°, vertically opposite angles are equal, angles at a point sum to 360°.",
-    "summary_fr": "Les angles sur une droite font 180°, les angles opposés par le sommet sont égaux, les angles autour d'un point font 360°.",
-    "content": "## Key rules\n\n1. Angles on a straight line: sum 180°.\n2. Vertically opposite angles: equal.\n3. Angles at a point: sum 360°.",
-    "content_fr": "Règles clés\n\n1. Angles sur une droite : somme 180°.\n2. Angles opposés par le sommet : égaux.\n3. Angles autour d'un point : somme 360°.",
+    "summary": "Master the three angle rules: angles on a straight line sum to 180 degrees, vertically opposite angles are equal, and angles at a point sum to 360 degrees.",
+    "summary_fr": "Maîtrise les trois règles des angles : les angles sur une droite font 180 degrés, les angles opposés par le sommet sont égaux, et les angles autour d'un point font 360 degrés.",
+    "content": "## The three rules\n\n1. Angles on a straight line add up to 180 degrees.\n2. Vertically opposite angles (formed when two lines cross) are equal.\n3. Angles around a full point add up to 360 degrees.\n\nMost exam questions combine two of these rules, so learn to spot which line or point the angles belong to before you calculate.",
+    "content_fr": "## Les trois règles\n\n1. Les angles sur une droite font 180 degrés.\n2. Les angles opposés par le sommet (formés quand deux droites se croisent) sont égaux.\n3. Les angles autour d'un point complet font 360 degrés.\n\nLa plupart des exercices combinent deux de ces règles : repère d'abord la droite ou le point auquel appartiennent les angles avant de calculer.",
     "objectives": [
-      "Use angles on a straight line to find a missing angle",
-      "Recognise vertically opposite angles and use equality",
-      "Find missing angles at a point",
-      "Apply a mix of rules"
+      "Use the 180-degree rule for angles on a straight line",
+      "Recognise vertically opposite angles and use their equality",
+      "Use the 360-degree rule for angles at a point",
+      "Combine the rules to solve multi-step angle problems"
     ],
     "objectives_fr": [
-      "Utiliser les angles sur une droite pour trouver un angle manquant",
+      "Utiliser la règle des 180 degrés pour les angles sur une droite",
       "Reconnaître les angles opposés par le sommet et utiliser leur égalité",
-      "Trouver des angles manquants autour d'un point",
-      "Appliquer un mélange de règles"
+      "Utiliser la règle des 360 degrés pour les angles autour d'un point",
+      "Combiner les règles pour résoudre des problèmes à plusieurs étapes"
     ],
-    "estimated_minutes": 25
+    "estimated_minutes": 30
   },
   "steps": [
     {
       "kind": "concept",
       "title": "Angles on a straight line",
       "title_fr": "Angles sur une droite",
-      "content": "Angles on a straight line add to 180°. If 40° is known, the other is 140°.",
-      "content_fr": "Les angles sur une droite additionnés donnent 180°. Si un angle vaut 40°, l'autre vaut 140°.",
+      "content": "A straight line is half of a full turn, so the angles sitting on one side of it always add up to 180 degrees. Angles that add to 180 degrees are called supplementary.\n\nTo find a missing angle on a straight line, subtract the angle you know from 180.\n\nWorked example: two angles lie on a straight line and one of them is 65 degrees. The other one is 180 - 65 = 115 degrees.\n\nIf several angles share the line, add them all first, then subtract the total from 180.",
+      "content_fr": "Une droite est la moitié d'un tour complet : les angles situés d'un même côté d'une droite font toujours 180 degrés. Deux angles qui font 180 degrés sont dits supplémentaires.\n\nPour trouver un angle manquant sur une droite, retranche l'angle connu de 180.\n\nExemple rédigé : deux angles sont sur une droite et l'un vaut 65 degrés. L'autre vaut 180 - 65 = 115 degrés.\n\nSi plusieurs angles partagent la droite, additionne-les d'abord, puis retranche le total de 180.",
       "required": true,
       "xp": 10,
       "question": {
         "kind": "numeric",
-        "text": "Two angles on a straight line are x° and 130°. Find x.",
-        "text_fr": "Deux angles sur une droite sont x° et 130°. Trouve x.",
-        "explanation": "x + 130 = 180 → x = 50.",
-        "explanation_fr": "x + 130 = 180 → x = 50.",
-        "hint_prompt": "Angles on straight line sum to 180.",
-        "hint_prompt_fr": "Les angles sur une droite font 180.",
-        "config": {"accepted": ["50"]},
+        "difficulty": 1,
+        "text": "Two angles lie on a straight line. One of them is 112 degrees. Find the other angle in degrees.",
+        "text_fr": "Deux angles sont sur une droite. L'un vaut 112 degrés. Trouve l'autre angle en degrés.",
+        "explanation": "Angles on a straight line sum to 180, so the missing angle is 180 - 112 = 68 degrees.",
+        "explanation_fr": "Les angles sur une droite font 180, donc l'angle manquant vaut 180 - 112 = 68 degrés.",
+        "hint_prompt": "Subtract the known angle from 180.",
+        "hint_prompt_fr": "Retranche l'angle connu de 180.",
+        "config": {"accepted": [68]},
         "hints": [
-          {"text": "x = 180 - 130.", "text_fr": "x = 180 - 130."},
-          {"text": "x = 50.", "text_fr": "x = 50."}
+          {"text": "The two angles must add to 180.", "text_fr": "Les deux angles doivent faire 180."},
+          {"text": "180 - 112 = 68.", "text_fr": "180 - 112 = 68."}
         ]
       }
     },
@@ -50,22 +51,23 @@
       "kind": "concept",
       "title": "Vertically opposite angles",
       "title_fr": "Angles opposés par le sommet",
-      "content": "When two lines cross, vertically opposite angles are equal. Adjacent ones are supplementary.",
-      "content_fr": "Quand deux droites se croisent, les angles opposés par le sommet sont égaux. Les angles adjacents sont supplémentaires.",
+      "content": "When two straight lines cross, they make four angles. The two angles directly opposite each other, across the crossing point, are called vertically opposite, and they are always equal.\n\nAngles next to each other along either line are adjacent, and adjacent angles are supplementary: they add to 180 degrees.\n\nWorked example: two lines cross and one angle is 47 degrees. Its vertically opposite angle is also 47 degrees, and each adjacent angle is 180 - 47 = 133 degrees.",
+      "content_fr": "Quand deux droites se croisent, elles forment quatre angles. Les deux angles directement opposés de part et d'autre du point de croisement sont appelés angles opposés par le sommet, et ils sont toujours égaux.\n\nDeux angles voisins le long d'une même droite sont adjacents, et les angles adjacents sont supplémentaires : ils font 180 degrés.\n\nExemple rédigé : deux droites se croisent et un angle vaut 47 degrés. Son angle opposé par le sommet vaut aussi 47 degrés, et chaque angle adjacent vaut 180 - 47 = 133 degrés.",
       "required": true,
       "xp": 10,
       "question": {
         "kind": "numeric",
-        "text": "Two lines cross; one angle is 45°. What is its vertically opposite angle (in degrees)?",
-        "text_fr": "Deux droites se croisent ; un angle vaut 45°. Quel est l'angle opposé par le sommet (en degrés) ?",
-        "explanation": "Vertically opposite are equal: 45°.",
-        "explanation_fr": "Les angles opposés par le sommet sont égaux : 45°.",
-        "hint_prompt": "They are equal.",
-        "hint_prompt_fr": "Ils sont égaux.",
-        "config": {"accepted": ["45"]},
+        "difficulty": 1,
+        "text": "Two straight lines cross. One angle is 38 degrees. Write the size of its vertically opposite angle in degrees.",
+        "text_fr": "Deux droites se croisent. Un angle vaut 38 degrés. Donne la mesure de son angle opposé par le sommet en degrés.",
+        "explanation": "Vertically opposite angles are equal, so the answer is 38 degrees.",
+        "explanation_fr": "Les angles opposés par le sommet sont égaux, donc la réponse est 38 degrés.",
+        "hint_prompt": "Opposite angles are the same size.",
+        "hint_prompt_fr": "Les angles opposés ont la même mesure.",
+        "config": {"accepted": [38]},
         "hints": [
-          {"text": "Opposite = same size.", "text_fr": "Opposés = même mesure."},
-          {"text": "45°.", "text_fr": "45°."}
+          {"text": "Vertically opposite angles are equal.", "text_fr": "Les angles opposés par le sommet sont égaux."},
+          {"text": "So it is also 38 degrees.", "text_fr": "Il vaut donc aussi 38 degrés."}
         ]
       }
     },
@@ -73,122 +75,158 @@
       "kind": "explain",
       "title": "Angles at a point",
       "title_fr": "Angles autour d'un point",
-      "content": "All angles around a point sum to 360°. Useful in many exam questions.",
-      "content_fr": "Tous les angles autour d'un point font 360°. Très utile aux examens.",
+      "content": "A full turn around a point is 360 degrees, so all the angles that meet at a single point add up to 360.\n\nTo find a missing angle at a point, add the angles you know and subtract that total from 360.\n\nWorked example: four angles meet at a point and they are 120, 85, 95 and x degrees. First 120 + 85 + 95 = 300. Then x = 360 - 300 = 60 degrees.",
+      "content_fr": "Un tour complet autour d'un point vaut 360 degrés : tous les angles qui se rejoignent en un même point font 360.\n\nPour trouver un angle manquant autour d'un point, additionne les angles connus puis retranche ce total de 360.\n\nExemple rédigé : quatre angles se rejoignent en un point et valent 120, 85, 95 et x degrés. D'abord 120 + 85 + 95 = 300. Ensuite x = 360 - 300 = 60 degrés.",
       "required": true,
       "xp": 12,
       "question": {
         "kind": "numeric",
-        "text": "Angles around a point: 90°, 120°, 100°, x°. Find x.",
-        "text_fr": "Angles autour d'un point : 90°, 120°, 100°, x°. Trouve x.",
-        "explanation": "90 + 120 + 100 + x = 310 + x = 360 → x = 50.",
-        "explanation_fr": "90 + 120 + 100 + x = 310 + x = 360 → x = 50.",
-        "hint_prompt": "Total 360.",
-        "hint_prompt_fr": "Total 360.",
-        "config": {"accepted": ["50"]},
+        "difficulty": 2,
+        "text": "Four angles meet at a point: 90, 120, 100 and x degrees. Find x.",
+        "text_fr": "Quatre angles se rejoignent en un point : 90, 120, 100 et x degrés. Trouve x.",
+        "explanation": "The known angles sum to 90 + 120 + 100 = 310, so x = 360 - 310 = 50 degrees.",
+        "explanation_fr": "Les angles connus font 90 + 120 + 100 = 310, donc x = 360 - 310 = 50 degrés.",
+        "hint_prompt": "Angles at a point sum to 360.",
+        "hint_prompt_fr": "Les angles autour d'un point font 360.",
+        "config": {"accepted": [50]},
         "hints": [
-          {"text": "Add the known ones: 90 + 120 = 210; 210 + 100 = 310.", "text_fr": "Additionne : 90 + 120 = 210; 210 + 100 = 310."},
-          {"text": "360 - 310 = 50.", "text_fr": "360 - 310 = 50."}
+          {"text": "Add the known angles first.", "text_fr": "Additionne d'abord les angles connus."},
+          {"text": "90 + 120 + 100 = 310, then 360 - 310 = 50.", "text_fr": "90 + 120 + 100 = 310, puis 360 - 310 = 50."}
         ]
       }
     },
     {
-      "kind": "practice",
-      "title": "Mixed case",
-      "title_fr": "Cas mélangé",
-      "content": "Apply all three rules as needed.",
-      "content_fr": "Applique les trois règles au besoin.",
+      "kind": "example",
+      "title": "Combining the rules",
+      "title_fr": "Combiner les règles",
+      "content": "Many questions need two rules in sequence. Read carefully which line or point each angle belongs to.\n\nWorked example: a straight line carries a 70 degree angle next to an angle y. Along that line y = 180 - 70 = 110 degrees. If the lines also meet at a point, check whether y is part of the 360 degree total before using it.\n\nStrategy: name the rule first (line, crossing, or point), then write the equation before you substitute numbers.",
+      "content_fr": "Beaucoup d'exercices demandent d'enchaîner deux règles. Repère bien à quelle droite ou à quel point appartient chaque angle.\n\nExemple rédigé : sur une droite, un angle de 70 degrés est voisin d'un angle y. Sur cette droite, y = 180 - 70 = 110 degrés. Si les droites se croisent aussi en un point, vérifie si y fait partie du total de 360 avant de l'utiliser.\n\nStratégie : nomme d'abord la règle (droite, croisement ou point), puis écris l'équation avant de remplacer par les nombres.",
       "required": false,
-      "xp": 12
+      "xp": 10
+    },
+    {
+      "kind": "question",
+      "title": "Which rule applies?",
+      "title_fr": "Quelle règle appliquer ?",
+      "content": "Identify the situation before calculating.",
+      "content_fr": "Identifie la situation avant de calculer.",
+      "required": true,
+      "xp": 15,
+      "question": {
+        "kind": "mcq",
+        "difficulty": 2,
+        "text": "Three angles meet at one single point and two of them are 140 and 130 degrees. Which rule finds the third angle?",
+        "text_fr": "Trois angles se rejoignent en un seul point et deux d'entre eux valent 140 et 130 degrés. Quelle règle donne le troisième angle ?",
+        "explanation": "Angles meeting at a point sum to 360, so the third angle is 360 - 140 - 130 = 90 degrees.",
+        "explanation_fr": "Les angles autour d'un point font 360, donc le troisième angle vaut 360 - 140 - 130 = 90 degrés.",
+        "hint_prompt": "How much is a full turn?",
+        "hint_prompt_fr": "Combien vaut un tour complet ?",
+        "choices": [
+          {"text": "Angles at a point sum to 360 degrees", "text_fr": "Les angles autour d'un point font 360 degrés", "correct": true},
+          {"text": "Angles on a straight line sum to 180 degrees", "text_fr": "Les angles sur une droite font 180 degrés", "correct": false},
+          {"text": "Vertically opposite angles are equal", "text_fr": "Les angles opposés par le sommet sont égaux", "correct": false},
+          {"text": "Angles in a triangle sum to 180 degrees", "text_fr": "Les angles d'un triangle font 180 degrés", "correct": false}
+        ],
+        "hints": [
+          {"text": "The angles meet at one point, not on a line.", "text_fr": "Les angles se rejoignent en un point, pas sur une droite."},
+          {"text": "A full turn is 360 degrees.", "text_fr": "Un tour complet vaut 360 degrés."}
+        ]
+      }
     },
     {
       "kind": "summary",
       "title": "What to keep",
       "title_fr": "À retenir",
-      "content": "Straight line = 180°. Vertically opposite = equal. Point = 360°.",
-      "content_fr": "Droite = 180°. Opposés par le sommet = égaux. Point = 360°.",
+      "content": "Straight line gives a total of 180 degrees. Vertically opposite angles are equal. A full point gives 360 degrees. Always decide first whether the angles sit on a line, at a crossing, or around a point, then write the equation before substituting numbers.",
+      "content_fr": "Sur une droite, le total est 180 degrés. Les angles opposés par le sommet sont égaux. Autour d'un point, le total est 360 degrés. Décide d'abord si les angles sont sur une droite, à un croisement ou autour d'un point, puis écris l'équation avant de remplacer par les nombres.",
       "required": false,
       "xp": 5
     }
   ],
   "quiz": {
-    "title": "Angles at points and on lines",
-    "title_fr": "Angles autour d'un point et sur une droite",
+    "title": "Quiz - Angles at points and on lines",
+    "title_fr": "Quiz - Angles autour d'un point et sur une droite",
     "pass_score": 60,
     "questions": [
       {
         "kind": "numeric",
-        "text": "x° and 40° are on a straight line. Find x.",
-        "text_fr": "x° et 40° sont sur une droite. Trouve x.",
-        "explanation": "x = 180 - 40 = 140.",
-        "explanation_fr": "x = 180 - 40 = 140.",
-        "hint_prompt": "Straight line sum 180.",
-        "hint_prompt_fr": "Droite = 180.",
-        "config": {"accepted": ["140"]},
+        "difficulty": 1,
+        "text": "Two angles on a straight line are x and 40 degrees. Find x.",
+        "text_fr": "Deux angles sur une droite valent x et 40 degrés. Trouve x.",
+        "explanation": "x = 180 - 40 = 140 degrees.",
+        "explanation_fr": "x = 180 - 40 = 140 degrés.",
+        "hint_prompt": "Straight line sums to 180.",
+        "hint_prompt_fr": "Sur une droite, la somme est 180.",
+        "config": {"accepted": [140]},
         "hints": [
           {"text": "x = 180 - 40.", "text_fr": "x = 180 - 40."},
           {"text": "x = 140.", "text_fr": "x = 140."}
-        ],
-        "difficulty": 1
+        ]
       },
       {
         "kind": "numeric",
-        "text": "Vertically opposite to 75° is y°. Find y.",
-        "text_fr": "L'angle opposé par le sommet à 75° est y°. Trouve y.",
-        "explanation": "Equal: 75°.",
-        "explanation_fr": "Égal : 75°.",
+        "difficulty": 1,
+        "text": "The vertically opposite angle to 75 degrees is y degrees. Find y.",
+        "text_fr": "L'angle opposé par le sommet à 75 degrés vaut y degrés. Trouve y.",
+        "explanation": "Vertically opposite angles are equal, so y = 75 degrees.",
+        "explanation_fr": "Les angles opposés par le sommet sont égaux, donc y = 75 degrés.",
         "hint_prompt": "Opposite angles are equal.",
-        "hint_prompt_fr": "Angles opposés par le sommet sont égaux.",
-        "config": {"accepted": ["75"]},
+        "hint_prompt_fr": "Les angles opposés sont égaux.",
+        "config": {"accepted": [75]},
         "hints": [
+          {"text": "They have the same size.", "text_fr": "Ils ont la même mesure."},
           {"text": "y = 75.", "text_fr": "y = 75."}
-        ],
-        "difficulty": 1
+        ]
       },
       {
         "kind": "numeric",
-        "text": "Angles at point: 100°, 80°, 90°, z°. Find z.",
-        "text_fr": "Angles autour d'un point : 100°, 80°, 90°, z°. Trouve z.",
-        "explanation": "100 + 80 + 90 = 270, 360 - 270 = 90.",
-        "explanation_fr": "100 + 80 + 90 = 270, 360 - 270 = 90.",
-        "hint_prompt": "Sum to 360.",
-        "hint_prompt_fr": "Somme 360.",
-        "config": {"accepted": ["90"]},
+        "difficulty": 2,
+        "text": "Angles at a point are 100, 80, 90 and z degrees. Find z.",
+        "text_fr": "Les angles autour d'un point valent 100, 80, 90 et z degrés. Trouve z.",
+        "explanation": "100 + 80 + 90 = 270, so z = 360 - 270 = 90 degrees.",
+        "explanation_fr": "100 + 80 + 90 = 270, donc z = 360 - 270 = 90 degrés.",
+        "hint_prompt": "Angles at a point sum to 360.",
+        "hint_prompt_fr": "Les angles autour d'un point font 360.",
+        "config": {"accepted": [90]},
         "hints": [
-          {"text": "Sum known: 270.", "text_fr": "Somme connue : 270."},
+          {"text": "Sum the known angles: 270.", "text_fr": "Additionne les angles connus : 270."},
           {"text": "360 - 270 = 90.", "text_fr": "360 - 270 = 90."}
-        ],
-        "difficulty": 2
+        ]
       },
       {
         "kind": "numeric",
-        "text": "x° and x° and x° are on a straight line. Find x.",
-        "text_fr": "x°, x°, x° sont sur une droite. Trouve x.",
-        "explanation": "3x = 180 → x = 60.",
-        "explanation_fr": "3x = 180 → x = 60.",
-        "hint_prompt": "3x = 180.",
-        "hint_prompt_fr": "3x = 180.",
-        "config": {"accepted": ["60"]},
+        "difficulty": 2,
+        "text": "Three equal angles lie on a straight line. Each one is x degrees. Find x.",
+        "text_fr": "Trois angles égaux sont sur une droite. Chacun vaut x degrés. Trouve x.",
+        "explanation": "3x = 180, so x = 60 degrees.",
+        "explanation_fr": "3x = 180, donc x = 60 degrés.",
+        "hint_prompt": "Three equal angles make 180 in total.",
+        "hint_prompt_fr": "Trois angles égaux font 180 au total.",
+        "config": {"accepted": [60]},
         "hints": [
           {"text": "3x = 180.", "text_fr": "3x = 180."},
           {"text": "x = 60.", "text_fr": "x = 60."}
-        ],
-        "difficulty": 2
+        ]
       },
       {
-        "kind": "numeric",
-        "text": "Four equal angles around a point. Find one in degrees.",
-        "text_fr": "Quatre angles égaux autour d'un point. Trouve un angle (en degrés).",
-        "explanation": "4x = 360 → x = 90.",
-        "explanation_fr": "4x = 360 → x = 90.",
-        "hint_prompt": "4x = 360.",
-        "hint_prompt_fr": "4x = 360.",
-        "config": {"accepted": ["90"]},
-        "hints": [
-          {"text": "4x = 360.", "text_fr": "4x = 360."},
-          {"text": "x = 90.", "text_fr": "x = 90."}
+        "kind": "mcq",
+        "difficulty": 2,
+        "text": "Two lines cross. One angle is 120 degrees. What are the sizes of the other angles?",
+        "text_fr": "Deux droites se croisent. Un angle vaut 120 degrés. Quelles sont les mesures des autres angles ?",
+        "explanation": "The vertically opposite angle is 120 degrees, and the two adjacent angles are 180 - 120 = 60 degrees each.",
+        "explanation_fr": "L'angle opposé par le sommet vaut 120 degrés, et les deux angles adjacents valent 180 - 120 = 60 degrés chacun.",
+        "hint_prompt": "One angle is opposite, the others are adjacent.",
+        "hint_prompt_fr": "Un angle est opposé, les autres sont adjacents.",
+        "choices": [
+          {"text": "One 120 and two of 60 degrees", "text_fr": "Un de 120 et deux de 60 degrés", "correct": true},
+          {"text": "Three angles of 120 degrees", "text_fr": "Trois angles de 120 degrés", "correct": false},
+          {"text": "One 120 and two of 120 degrees", "text_fr": "Un de 120 et deux de 120 degrés", "correct": false},
+          {"text": "One 120 and two of 240 degrees", "text_fr": "Un de 120 et deux de 240 degrés", "correct": false}
         ],
-        "difficulty": 2
+        "hints": [
+          {"text": "The opposite angle equals 120.", "text_fr": "L'angle opposé vaut 120."},
+          {"text": "Adjacent angles are 180 - 120.", "text_fr": "Les angles adjacents valent 180 - 120."}
+        ]
       }
     ]
   }

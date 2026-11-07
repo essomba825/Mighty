@@ -1,0 +1,347 @@
+{
+  "lesson": 106,
+  "status": "published",
+  "lesson_fields": {
+    "title": "Fission and Fusion",
+    "title_fr": "Fission et fusion nucleaires",
+    "summary": "Nuclear fission is the splitting of a large nucleus into smaller parts, releasing energy. Nuclear fusion is the joining of small nuclei to form a larger one, also releasing energy. Both processes release far more energy than chemical reactions.",
+    "summary_fr": "La fission nucleaire est le partage d'un gros noyau en plusieurs plus petits, ce qui libere de l'energie. La fusion nucleaire est la reunion de petits noyaux pour en former un plus gros, ce qui libere aussi de l'energie. Ces deux processus libèrent beaucoup plus d'energie que les reactions chimiques.",
+    "content": "## Nuclear fission\n\nIn fission, a large nucleus such as uranium is split into two smaller nuclei, releasing energy and neutrons. A chain reaction can happen if the neutrons split more nuclei.\n\n## Nuclear fusion\n\nIn fusion, two small nuclei join to form a larger nucleus, releasing energy. This is the process that powers the Sun and other stars.",
+    "content_fr": "## Fission nucleaire\n\nDans la fission, un gros noyau comme l'uranium se divise en deux noyaux plus petits, libérant de l'energie et des neutrons. Une reaction en chaîne peut se produire si les neutrons divisent d'autres noyaux.\n\n## Fusion nucleaire\n\nDans la fusion, deux petits noyaux se rejoignent pour former un noyau plus gros, libérant de l'energie. C'est le processus qui alimente le Soleil et les autres étoiles.",
+    "objectives": [
+      "Explain what happens in nuclear fission",
+      "Explain what happens in nuclear fusion",
+      "Give one difference between fission and fusion"
+    ],
+    "objectives_fr": [
+      "Expliquer ce qui se passe dans la fission nucleaire",
+      "Expliquer ce qui se passe dans la fusion nucleaire",
+      "Donner une difference entre fission et fusion"
+    ],
+    "estimated_minutes": 25
+  },
+  "steps": [
+    {
+      "kind": "concept",
+      "title": "Splitting the nucleus",
+      "title_fr": "Diviser le noyau",
+      "content": "Nuclear fission is when a large, unstable nucleus splits into two smaller nuclei. Energy is released, along with two or three neutrons. This is the process used in nuclear power stations.",
+      "content_fr": "La fission nucleaire est le cas ou un gros noyau instable se divise en deux noyaux plus petits. De l'energie est liberee, ainsi que deux ou trois neutrons. C'est le processus utilise dans les centrales nucleaires.",
+      "required": true,
+      "xp": 10,
+      "question": {
+        "kind": "mcq",
+        "text": "What happens in nuclear fission?",
+        "text_fr": "Que se passe-t-il dans la fission nucleaire ?",
+        "explanation": "A large nucleus splits into two smaller nuclei, releasing energy.",
+        "explanation_fr": "Un gros noyau se divise en deux noyaux plus petits, liberant de l'energie.",
+        "hint_prompt": "It is splitting, not joining.",
+        "hint_prompt_fr": "Il s'agit de diviser, non de joindre.",
+        "choices": [
+          {
+            "text": "A large nucleus splits into smaller nuclei",
+            "text_fr": "Un gros noyau se divise en noyaux plus petits",
+            "correct": true
+          },
+          {
+            "text": "Small nuclei join together",
+            "text_fr": "Des petits noyaux se joignent ensemble",
+            "correct": false
+          },
+          {
+            "text": "Electrons are removed from atoms",
+            "text_fr": "Des electrons sont retires des atomes",
+            "correct": false
+          }
+        ],
+        "hints": [
+          {
+            "text": "Fission means to split.",
+            "text_fr": "Le mot fission signifie diviser."
+          }
+        ]
+      }
+    },
+    {
+      "kind": "explain",
+      "title": "Chain reactions",
+      "title_fr": "Reactions en chaîne",
+      "content": "The neutrons released in fission can go on to split other nuclei. If this happens again and again, it is called a chain reaction. In a nuclear power station, the chain reaction is controlled to keep it steady.",
+      "content_fr": "Les neutrons liberes lors de la fission peuvent a leur tour diviser d'autres noyaux. Si cela se repete plusieurs fois, on parle de reaction en chaîne. Dans une centrale nucleaire, cette reaction est controlee pour qu'elle reste stable.",
+      "required": true,
+      "xp": 10
+    },
+    {
+      "kind": "example",
+      "title": "Worked example: fusion in the Sun",
+      "title_fr": "Exemple resolu : la fusion dans le Soleil",
+      "content": "In the core of the Sun, hydrogen nuclei fuse to form helium nuclei. This releases huge amounts of energy, which we see as light and feel as heat on Earth.",
+      "content_fr": "Au cœur du Soleil, des noyaux d'hydrogene fusionnent pour former des noyaux d'helium. Cela libere d'énormes quantites d'energie, que nous percevons comme la lumiere et la chaleur sur Terre.",
+      "required": true,
+      "xp": 12
+    },
+    {
+      "kind": "practice",
+      "title": "Your turn: fission or fusion",
+      "title_fr": "A toi : fission ou fusion",
+      "content": "Decide if the statement is about fission or fusion: \"Two hydrogen nuclei join to make a helium nucleus.\"",
+      "content_fr": "Decide s'il s'agit de fission ou de fusion : « Deux noyaux d'hydrogene se rejoignent pour former un noyau d'helium. »",
+      "required": true,
+      "xp": 12,
+      "question": {
+        "kind": "mcq",
+        "text": "Is this fission or fusion?",
+        "text_fr": "S'agit-il de fission ou de fusion ?",
+        "explanation": "Joining nuclei together is fusion.",
+        "explanation_fr": "Rejoindre des noyaux ensemble, c'est la fusion.",
+        "hint_prompt": "Fusion means joining.",
+        "hint_prompt_fr": "Le mot fusion signifie unir.",
+        "choices": [
+          {
+            "text": "Fusion",
+            "text_fr": "Fusion",
+            "correct": true
+          },
+          {
+            "text": "Fission",
+            "text_fr": "Fission",
+            "correct": false
+          },
+          {
+            "text": "Radioactivity",
+            "text_fr": "Radioactivite",
+            "correct": false
+          }
+        ],
+        "hints": [
+          {
+            "text": "Like stars do.",
+            "text_fr": "Comme dans les etoiles."
+          }
+        ]
+      }
+    },
+    {
+      "kind": "question",
+      "title": "Check: differences",
+      "title_fr": "Verification : differences",
+      "content": "Fission splits a large nucleus into smaller ones. Fusion joins small nuclei into a larger one. Fusion releases even more energy than fission, and it is the process powering stars.",
+      "content_fr": "La fission divise un gros noyau en plusieurs plus petits. La fusion reunie de petits noyaux pour en former un plus gros. La fusion libere encore plus d'energie que la fission, et c'est le processus qui alimente les etoiles.",
+      "required": true,
+      "xp": 12,
+      "question": {
+        "kind": "mcq",
+        "text": "Which process joins small nuclei together?",
+        "text_fr": "Quel processus reunit des petits noyaux ensemble ?",
+        "explanation": "Nuclear fusion joins small nuclei to form a larger nucleus.",
+        "explanation_fr": "La fusion nucleaire reunit des petits noyaux pour former un noyau plus gros.",
+        "hint_prompt": "It happens in the Sun.",
+        "hint_prompt_fr": "Cela se produit dans le Soleil.",
+        "choices": [
+          {
+            "text": "Fusion",
+            "text_fr": "Fusion",
+            "correct": true
+          },
+          {
+            "text": "Fission",
+            "text_fr": "Fission",
+            "correct": false
+          },
+          {
+            "text": "Alpha decay",
+            "text_fr": "Desintegration alpha",
+            "correct": false
+          }
+        ],
+        "hints": [
+          {
+            "text": "Fusion joins.",
+            "text_fr": "La fusion unit."
+          }
+        ]
+      }
+    },
+    {
+      "kind": "summary",
+      "title": "What to keep",
+      "title_fr": "A retenir",
+      "content": "Fission splits a large nucleus into smaller nuclei, releasing energy and neutrons. Fusion joins small nuclei into a larger nucleus, releasing energy. Fusion powers the Sun and releases more energy than fission.",
+      "content_fr": "La fission divise un gros noyau en noyaux plus petits, liberant de l'energie et des neutrons. La fusion reunie de petits noyaux pour former un noyau plus gros, liberant de l'energie. La fusion alimente le Soleil et libere plus d'energie que la fission.",
+      "required": false,
+      "xp": 5
+    }
+  ],
+  "quiz": {
+    "title": "Fission and Fusion",
+    "title_fr": "Fission et fusion nucleaires",
+    "pass_score": 60,
+    "questions": [
+      {
+        "kind": "mcq",
+        "text": "What is nuclear fission?",
+        "text_fr": "Qu'est-ce que la fission nucleaire ?",
+        "explanation": "It is the splitting of a large nucleus into smaller nuclei.",
+        "explanation_fr": "C'est la division d'un gros noyau en noyaux plus petits.",
+        "hint_prompt": "Break apart.",
+        "hint_prompt_fr": "Se briser en morceaux.",
+        "choices": [
+          {
+            "text": "Splitting a large nucleus",
+            "text_fr": "Diviser un gros noyau",
+            "correct": true
+          },
+          {
+            "text": "Joining small nuclei",
+            "text_fr": "Rejoindre des petits noyaux",
+            "correct": false
+          },
+          {
+            "text": "Adding electrons to an atom",
+            "text_fr": "Ajouter des electrons a un atome",
+            "correct": false
+          }
+        ],
+        "hints": [
+          {
+            "text": "The nucleus breaks.",
+            "text_fr": "Le noyau se casse."
+          }
+        ],
+        "difficulty": 1
+      },
+      {
+        "kind": "mcq",
+        "text": "What is released during nuclear fission?",
+        "text_fr": "Qu'est-ce qui est libere lors de la fission nucleaire ?",
+        "explanation": "Fission releases energy and neutrons.",
+        "explanation_fr": "La fission libere de l'energie et des neutrons.",
+        "hint_prompt": "Neutrons can carry on the reaction.",
+        "hint_prompt_fr": "Les neutrons peuvent continuer la reaction.",
+        "choices": [
+          {
+            "text": "Energy and neutrons",
+            "text_fr": "Energie et neutrons",
+            "correct": true
+          },
+          {
+            "text": "Only light",
+            "text_fr": "Seulement de la lumiere",
+            "correct": false
+          },
+          {
+            "text": "Only protons",
+            "text_fr": "Seulement des protons",
+            "correct": false
+          }
+        ],
+        "hints": [
+          {
+            "text": "Neutrons cause chain reactions.",
+            "text_fr": "Les neutrons provoquent des reactions en chaîne."
+          }
+        ],
+        "difficulty": 1
+      },
+      {
+        "kind": "mcq",
+        "text": "What is nuclear fusion?",
+        "text_fr": "Qu'est-ce que la fusion nucleaire ?",
+        "explanation": "It is the joining of two small nuclei to form a larger nucleus.",
+        "explanation_fr": "C'est la reunion de deux petits noyaux pour former un noyau plus gros.",
+        "hint_prompt": "Join together.",
+        "hint_prompt_fr": "S'unir ensemble.",
+        "choices": [
+          {
+            "text": "Joining small nuclei",
+            "text_fr": "Rejoindre des petits noyaux",
+            "correct": true
+          },
+          {
+            "text": "Splitting a large nucleus",
+            "text_fr": "Diviser un gros noyau",
+            "correct": false
+          },
+          {
+            "text": "Breaking chemical bonds",
+            "text_fr": "Rompre des liaisons chimiques",
+            "correct": false
+          }
+        ],
+        "hints": [
+          {
+            "text": "It happens in stars.",
+            "text_fr": "Cela se produit dans les etoiles."
+          }
+        ],
+        "difficulty": 1
+      },
+      {
+        "kind": "mcq",
+        "text": "Where does nuclear fusion happen naturally?",
+        "text_fr": "Ou la fusion nucleaire se produit-elle naturellement ?",
+        "explanation": "Fusion powers the Sun and other stars.",
+        "explanation_fr": "La fusion alimente le Soleil et les autres etoiles.",
+        "hint_prompt": "It needs very high temperatures.",
+        "hint_prompt_fr": "Elle a besoin de tres hautes temperatures.",
+        "choices": [
+          {
+            "text": "In the Sun and stars",
+            "text_fr": "Dans le Soleil et les etoiles",
+            "correct": true
+          },
+          {
+            "text": "In the Earth's core only",
+            "text_fr": "Seulement dans le noyau terrestre",
+            "correct": false
+          },
+          {
+            "text": "In the oceans",
+            "text_fr": "Dans les oceans",
+            "correct": false
+          }
+        ],
+        "hints": [
+          {
+            "text": "It is very hot there.",
+            "text_fr": "Il y fait tres chaud."
+          }
+        ],
+        "difficulty": 1
+      },
+      {
+        "kind": "mcq",
+        "text": "Which is a key difference between fission and fusion?",
+        "text_fr": "Quelle est une difference importante entre fission et fusion ?",
+        "explanation": "Fission splits large nuclei, while fusion joins small nuclei.",
+        "explanation_fr": "La fission divise de gros noyaux, tandis que la fusion reunit de petits noyaux.",
+        "hint_prompt": "Opposite processes.",
+        "hint_prompt_fr": "Des processus opposes.",
+        "choices": [
+          {
+            "text": "Fission splits, fusion joins",
+            "text_fr": "La fission divise, la fusion reunit",
+            "correct": true
+          },
+          {
+            "text": "Both split atoms",
+            "text_fr": "Les deux divisent des atomes",
+            "correct": false
+          },
+          {
+            "text": "Both only happen in labs",
+            "text_fr": "Les deux se produisent seulement en laboratoire",
+            "correct": false
+          }
+        ],
+        "hints": [
+          {
+            "text": "They do the opposite.",
+            "text_fr": "Ils font l'inverse."
+          }
+        ],
+        "difficulty": 2
+      }
+    ]
+  }
+}

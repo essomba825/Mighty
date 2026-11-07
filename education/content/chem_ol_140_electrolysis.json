@@ -1,0 +1,285 @@
+{
+  "lesson": 140,
+  "status": "published",
+  "lesson_fields": {
+    "title": "Electrolysis and Electrodes",
+    "title_fr": "Électrolyse et électrodes",
+    "summary": "Explain how electrolysis uses electricity to break down ionic compounds and describe the role of the electrodes.",
+    "summary_fr": "Expliquer comment l'électrolyse utilise l'électricité pour décomposer des composés ioniques et décrire le rôle des électrodes.",
+    "content": "## What you will learn\n\nElectrolysis uses an electric current to break down an ionic compound. The ions move to the electrodes, where new substances form.",
+    "content_fr": "## Ce que tu vas apprendre\n\nL'électrolyse utilise un courant électrique pour décomposer un composé ionique. Les ions se déplacent vers les électrodes, où de nouvelles substances se forment.",
+    "objectives": [
+      "Describe electrolysis as the movement of ions to the electrodes",
+      "Identify the cathode and the anode and their charges",
+      "Write the reactions at each electrode for a molten compound"
+    ],
+    "objectives_fr": [
+      "Décrire l'électrolyse par le déplacement des ions vers les électrodes",
+      "Identifier la cathode et l'anode ainsi que leurs charges",
+      "Écrire les réactions aux électrodes pour un composé fondu"
+    ],
+    "estimated_minutes": 30
+  },
+  "steps": [
+    {
+      "kind": "concept",
+      "title": "What is electrolysis",
+      "title_fr": "Qu'est-ce que l'électrolyse",
+      "content": "Electrolysis is the breakdown of an ionic compound using electricity. The current is passed through the electrolyte, which is the ionic compound itself.\n\nIons carry the current, so they must be free to move. This is why the compound must be molten (melted) or dissolved in water. A solid ionic compound has its ions locked in place and does not conduct.",
+      "content_fr": "L'électrolyse est la décomposition d'un composé ionique à l'aide de l'électricité. Le courant traverse l'électrolyte, qui est le composé ionique lui-même.\n\nCe sont les ions qui transportent le courant : ils doivent donc pouvoir se déplacer librement. C'est pourquoi le composé doit être fondu (liquéfié) ou dissous dans l'eau. À l'état solide, les ions sont bloqués en place et le composé ne conduit pas.",
+      "required": true,
+      "xp": 10,
+      "question": {
+        "kind": "mcq",
+        "difficulty": 1,
+        "text": "Electrolysis uses electricity to break down...",
+        "text_fr": "L'électrolyse utilise l'électricité pour décomposer...",
+        "explanation": "Only an ionic compound that is molten or dissolved has ions free to move and carry the current.",
+        "explanation_fr": "Seul un composé ionique fondu ou dissous possède des ions libres de se déplacer et de transporter le courant.",
+        "hint_prompt": "The ions must be free to move.",
+        "hint_prompt_fr": "Les ions doivent pouvoir se déplacer librement.",
+        "choices": [
+          {"text": "an ionic compound that is molten or dissolved", "text_fr": "un composé ionique fondu ou dissous", "correct": true},
+          {"text": "a solid metal", "text_fr": "un métal solide", "correct": false},
+          {"text": "pure water only", "text_fr": "de l'eau pure seulement", "correct": false},
+          {"text": "a mixture of gases", "text_fr": "un mélange de gaz", "correct": false}
+        ],
+        "hints": [
+          {"text": "The compound must be molten or dissolved.", "text_fr": "Le composé doit être fondu ou dissous."},
+          {"text": "Its ions must be free to move.", "text_fr": "Ses ions doivent pouvoir se déplacer."}
+        ]
+      }
+    },
+    {
+      "kind": "concept",
+      "title": "Electrodes and the two ions",
+      "title_fr": "Les électrodes et les deux ions",
+      "content": "Two electrodes are dipped into the electrolyte and connected to a power supply. The cathode is the negative electrode, and the anode is the positive electrode.\n\nPositive ions (cations) move to the cathode, and negative ions (anions) move to the anode. In molten lead(II) bromide, the lead ions go to the cathode and the bromide ions go to the anode.",
+      "content_fr": "Deux électrodes plongent dans l'électrolyte et sont reliées à un générateur. La cathode est l'électrode négative, et l'anode est l'électrode positive.\n\nLes ions positifs (cations) se déplacent vers la cathode, et les ions négatifs (anions) se déplacent vers l'anode. Dans le bromure de plomb(II) fondu, les ions plomb vont vers la cathode et les ions bromure vont vers l'anode.",
+      "required": true,
+      "xp": 12,
+      "question": {
+        "kind": "mcq",
+        "difficulty": 2,
+        "text": "Which electrode do positive ions move to during electrolysis?",
+        "text_fr": "Vers quelle électrode se déplacent les ions positifs pendant l'électrolyse ?",
+        "explanation": "Positive ions are attracted to the negative electrode, which is the cathode.",
+        "explanation_fr": "Les ions positifs sont attirés par l'électrode négative, c'est-à-dire la cathode.",
+        "hint_prompt": "Opposite charges attract.",
+        "hint_prompt_fr": "Les charges opposées s'attirent.",
+        "choices": [
+          {"text": "The cathode, which is the negative electrode", "text_fr": "La cathode, qui est l'électrode négative", "correct": true},
+          {"text": "The anode, which is the negative electrode", "text_fr": "L'anode, qui est l'électrode négative", "correct": false},
+          {"text": "The cathode, which is the positive electrode", "text_fr": "La cathode, qui est l'électrode positive", "correct": false},
+          {"text": "Neither electrode", "text_fr": "Aucune des deux électrodes", "correct": false}
+        ],
+        "hints": [
+          {"text": "Positive ions go to the negative electrode.", "text_fr": "Les ions positifs vont vers l'électrode négative."},
+          {"text": "The negative electrode is the cathode.", "text_fr": "L'électrode négative est la cathode."}
+        ]
+      }
+    },
+    {
+      "kind": "explain",
+      "title": "Reactions at the electrodes",
+      "title_fr": "Les réactions aux électrodes",
+      "content": "New substances form at the electrodes. At the cathode, positive ions gain electrons (reduction). At the anode, negative ions lose electrons (oxidation).\n\nFor molten lead(II) bromide, at the cathode Pb2+ + 2e- -> Pb, so lead metal forms. At the anode, 2Br- -> Br2 + 2e-, so bromine forms. This shows electrolysis breaking a compound into its elements.",
+      "content_fr": "De nouvelles substances se forment aux électrodes. À la cathode, les ions positifs gagnent des électrons (réduction). À l'anode, les ions négatifs perdent des électrons (oxydation).\n\nPour le bromure de plomb(II) fondu, à la cathode Pb2+ + 2e- -> Pb : du plomb métallique se forme. À l'anode, 2Br- -> Br2 + 2e- : du brome se forme. Ainsi l'électrolyse décompose un composé en ses éléments.",
+      "required": true,
+      "xp": 12,
+      "question": {
+        "kind": "mcq",
+        "difficulty": 2,
+        "text": "At the cathode, positive ions...",
+        "text_fr": "À la cathode, les ions positifs...",
+        "explanation": "Positive ions gain electrons at the cathode, and a metal is often formed.",
+        "explanation_fr": "Les ions positifs gagnent des électrons à la cathode, et un métal se forme souvent.",
+        "hint_prompt": "Gaining electrons is called reduction.",
+        "hint_prompt_fr": "Gagner des électrons s'appelle une réduction.",
+        "choices": [
+          {"text": "gain electrons and form a metal", "text_fr": "gagnent des électrons et forment un métal", "correct": true},
+          {"text": "lose electrons to the anode", "text_fr": "perdent des électrons vers l'anode", "correct": false},
+          {"text": "stay dissolved in the solution", "text_fr": "restent dissous dans la solution", "correct": false},
+          {"text": "turn straight into a gas", "text_fr": "se transforment directement en gaz", "correct": false}
+        ],
+        "hints": [
+          {"text": "At the cathode, ions gain electrons.", "text_fr": "À la cathode, les ions gagnent des électrons."},
+          {"text": "That is called reduction.", "text_fr": "Cela s'appelle la réduction."}
+        ]
+      }
+    },
+    {
+      "kind": "concept",
+      "title": "Electrolysis in industry",
+      "title_fr": "L'électrolyse dans l'industrie",
+      "content": "Electrolysis is used to extract metals that are too reactive to be obtained from their ores by heating with carbon, such as aluminium. It is also used to make chlorine and to purify copper.\n\nIn the extraction of aluminium, the electrolyte is molten aluminium oxide. Aluminium forms at the cathode and oxygen forms at the anode. The anode is made of carbon and slowly burns away as it reacts with the oxygen.",
+      "content_fr": "L'électrolyse sert à extraire les métaux trop réactifs pour être obtenus à partir de leurs minerais par chauffage avec du carbone, comme l'aluminium. Elle sert aussi à fabriquer du chlore et à purifier le cuivre.\n\nPour l'extraction de l'aluminium, l'électrolyte est de l'oxyde d'aluminium fondu. L'aluminium se forme à la cathode et l'oxygène à l'anode. L'anode est en carbone et se consume lentement en réagissant avec l'oxygène.",
+      "required": true,
+      "xp": 12,
+      "question": {
+        "kind": "mcq",
+        "difficulty": 2,
+        "text": "Why is electrolysis used to extract aluminium?",
+        "text_fr": "Pourquoi utilise-t-on l'électrolyse pour extraire l'aluminium ?",
+        "explanation": "Aluminium is too reactive to be extracted from its ore by heating with carbon.",
+        "explanation_fr": "L'aluminium est trop réactif pour être extrait de son minerai par chauffage avec du carbone.",
+        "hint_prompt": "Think about the reactivity of aluminium.",
+        "hint_prompt_fr": "Pense à la réactivité de l'aluminium.",
+        "choices": [
+          {"text": "Aluminium is too reactive to be extracted with carbon", "text_fr": "L'aluminium est trop réactif pour être extrait avec du carbone", "correct": true},
+          {"text": "Aluminium is a non-metal", "text_fr": "L'aluminium est un non-métal", "correct": false},
+          {"text": "Aluminium does not form any ions", "text_fr": "L'aluminium ne forme aucun ion", "correct": false},
+          {"text": "Aluminium cannot melt", "text_fr": "L'aluminium ne peut pas fondre", "correct": false}
+        ],
+        "hints": [
+          {"text": "Carbon can extract only less reactive metals.", "text_fr": "Le carbone n'extrait que les métaux moins réactifs."},
+          {"text": "Aluminium is very reactive.", "text_fr": "L'aluminium est très réactif."}
+        ]
+      }
+    },
+    {
+      "kind": "practice",
+      "title": "Your turn: which electrode?",
+      "title_fr": "À toi : quelle électrode ?",
+      "content": "Use the rules for the electrodes to decide where each product forms.",
+      "content_fr": "Utilise les règles des électrodes pour décider où se forme chaque produit.",
+      "required": true,
+      "xp": 12,
+      "question": {
+        "kind": "mcq",
+        "difficulty": 2,
+        "text": "A molten ionic compound is electrolysed. A metal forms at one electrode and a non-metal at the other. Where does the non-metal form?",
+        "text_fr": "On électrolyse un composé ionique fondu. Un métal se forme à une électrode et un non-métal à l'autre. Où se forme le non-métal ?",
+        "explanation": "Negative ions (anions) move to the positive electrode, the anode, and form the non-metal.",
+        "explanation_fr": "Les ions négatifs (anions) se déplacent vers l'électrode positive, l'anode, et forment le non-métal.",
+        "hint_prompt": "The non-metal comes from the negative ion.",
+        "hint_prompt_fr": "Le non-métal provient de l'ion négatif.",
+        "choices": [
+          {"text": "At the anode, because negative ions lose electrons there", "text_fr": "À l'anode, car les ions négatifs y perdent des électrons", "correct": true},
+          {"text": "At the cathode, because positive ions gain electrons there", "text_fr": "À la cathode, car les ions positifs y gagnent des électrons", "correct": false},
+          {"text": "Only inside the electrolyte", "text_fr": "Seulement dans l'électrolyte", "correct": false},
+          {"text": "At both electrodes equally", "text_fr": "À parts égales aux deux électrodes", "correct": false}
+        ],
+        "hints": [
+          {"text": "Negative ions go to the positive electrode.", "text_fr": "Les ions négatifs vont vers l'électrode positive."},
+          {"text": "The positive electrode is the anode.", "text_fr": "L'électrode positive est l'anode."}
+        ]
+      }
+    },
+    {
+      "kind": "summary",
+      "title": "What to keep",
+      "title_fr": "À retenir",
+      "content": "Electrolysis uses electricity to break down an ionic compound that is molten or dissolved. Positive ions move to the negative cathode and negative ions move to the positive anode. At the cathode, ions gain electrons; at the anode, ions lose electrons. Electrolysis is used to extract reactive metals such as aluminium and to make chlorine.",
+      "content_fr": "L'électrolyse utilise l'électricité pour décomposer un composé ionique fondu ou dissous. Les ions positifs vont vers la cathode négative et les ions négatifs vers l'anode positive. À la cathode, les ions gagnent des électrons ; à l'anode, les ions perdent des électrons. L'électrolyse sert à extraire des métaux réactifs comme l'aluminium et à fabriquer du chlore.",
+      "xp": 5
+    }
+  ],
+  "quiz": {
+    "title": "Quiz: electrolysis and electrodes",
+    "title_fr": "Quiz : électrolyse et électrodes",
+    "pass_score": 60,
+    "questions": [
+      {
+        "kind": "mcq",
+        "difficulty": 1,
+        "text": "During electrolysis, the electrolyte must be...",
+        "text_fr": "Pendant l'électrolyse, l'électrolyte doit être...",
+        "explanation": "The ionic compound must be molten or dissolved so that its ions can move and carry the current.",
+        "explanation_fr": "Le composé ionique doit être fondu ou dissous pour que ses ions puissent se déplacer et transporter le courant.",
+        "hint_prompt": "Its ions must move.",
+        "hint_prompt_fr": "Ses ions doivent se déplacer.",
+        "choices": [
+          {"text": "molten or dissolved so its ions can move", "text_fr": "fondu ou dissous pour que ses ions se déplacent", "correct": true},
+          {"text": "a solid block", "text_fr": "un bloc solide", "correct": false},
+          {"text": "a pure metal", "text_fr": "un métal pur", "correct": false},
+          {"text": "an insoluble gas", "text_fr": "un gaz insoluble", "correct": false}
+        ],
+        "hints": [
+          {"text": "Ions must be free to move.", "text_fr": "Les ions doivent pouvoir se déplacer."},
+          {"text": "The compound must be molten or dissolved.", "text_fr": "Le composé doit être fondu ou dissous."}
+        ]
+      },
+      {
+        "kind": "mcq",
+        "difficulty": 1,
+        "text": "Which electrode is the positive electrode?",
+        "text_fr": "Quelle électrode est l'électrode positive ?",
+        "explanation": "The anode is the positive electrode, and the cathode is the negative electrode.",
+        "explanation_fr": "L'anode est l'électrode positive, et la cathode est l'électrode négative.",
+        "hint_prompt": "It is not the cathode.",
+        "hint_prompt_fr": "Ce n'est pas la cathode.",
+        "choices": [
+          {"text": "The anode", "text_fr": "L'anode", "correct": true},
+          {"text": "The cathode", "text_fr": "La cathode", "correct": false},
+          {"text": "Both electrodes", "text_fr": "Les deux électrodes", "correct": false},
+          {"text": "Neither electrode", "text_fr": "Aucune des deux électrodes", "correct": false}
+        ],
+        "hints": [
+          {"text": "The positive electrode is the anode.", "text_fr": "L'électrode positive est l'anode."},
+          {"text": "The cathode is the negative electrode.", "text_fr": "La cathode est l'électrode négative."}
+        ]
+      },
+      {
+        "kind": "mcq",
+        "difficulty": 2,
+        "text": "What is formed at the cathode when molten lead(II) bromide is electrolysed?",
+        "text_fr": "Que se forme-t-il à la cathode lors de l'électrolyse du bromure de plomb(II) fondu ?",
+        "explanation": "Lead ions gain electrons at the cathode, so lead metal forms there.",
+        "explanation_fr": "Les ions plomb gagnent des électrons à la cathode : du plomb métallique se forme.",
+        "hint_prompt": "Positive ions gain electrons at the cathode.",
+        "hint_prompt_fr": "Les ions positifs gagnent des électrons à la cathode.",
+        "choices": [
+          {"text": "Lead metal", "text_fr": "Du plomb métallique", "correct": true},
+          {"text": "Bromine", "text_fr": "Du brome", "correct": false},
+          {"text": "Hydrogen", "text_fr": "De l'hydrogène", "correct": false},
+          {"text": "Oxygen", "text_fr": "De l'oxygène", "correct": false}
+        ],
+        "hints": [
+          {"text": "Lead ions are positive.", "text_fr": "Les ions plomb sont positifs."},
+          {"text": "They gain electrons at the cathode.", "text_fr": "Ils gagnent des électrons à la cathode."}
+        ]
+      },
+      {
+        "kind": "mcq",
+        "difficulty": 2,
+        "text": "At the anode, negative ions...",
+        "text_fr": "À l'anode, les ions négatifs...",
+        "explanation": "Negative ions lose electrons at the anode (oxidation) and often form a non-metal.",
+        "explanation_fr": "Les ions négatifs perdent des électrons à l'anode (oxydation) et forment souvent un non-métal.",
+        "hint_prompt": "At the anode, ions lose electrons.",
+        "hint_prompt_fr": "À l'anode, les ions perdent des électrons.",
+        "choices": [
+          {"text": "lose electrons and form a non-metal", "text_fr": "perdent des électrons et forment un non-métal", "correct": true},
+          {"text": "gain electrons and form a metal", "text_fr": "gagnent des électrons et forment un métal", "correct": false},
+          {"text": "do not move at all", "text_fr": "ne bougent pas du tout", "correct": false},
+          {"text": "turn into positive ions", "text_fr": "se transforment en ions positifs", "correct": false}
+        ],
+        "hints": [
+          {"text": "Oxidation happens at the anode.", "text_fr": "L'oxydation se produit à l'anode."},
+          {"text": "Negative ions lose electrons there.", "text_fr": "Les ions négatifs y perdent des électrons."}
+        ]
+      },
+      {
+        "kind": "mcq",
+        "difficulty": 2,
+        "text": "Which metal is extracted by electrolysis because it is too reactive for carbon?",
+        "text_fr": "Quel métal est extrait par électrolyse car il est trop réactif pour le carbone ?",
+        "explanation": "Aluminium is more reactive than carbon, so it must be extracted by electrolysis.",
+        "explanation_fr": "L'aluminium est plus réactif que le carbone : il doit donc être extrait par électrolyse.",
+        "hint_prompt": "It is a light, reactive metal.",
+        "hint_prompt_fr": "C'est un métal léger et réactif.",
+        "choices": [
+          {"text": "Aluminium", "text_fr": "L'aluminium", "correct": true},
+          {"text": "Copper", "text_fr": "Le cuivre", "correct": false},
+          {"text": "Iron", "text_fr": "Le fer", "correct": false},
+          {"text": "Zinc", "text_fr": "Le zinc", "correct": false}
+        ],
+        "hints": [
+          {"text": "It is used for drinks cans and foil.", "text_fr": "Il sert à fabriquer des canettes et du papier aluminium."},
+          {"text": "It is more reactive than carbon.", "text_fr": "Il est plus réactif que le carbone."}
+        ]
+      }
+    ]
+  }
+}

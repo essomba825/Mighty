@@ -1,0 +1,303 @@
+{
+  "lesson": 149,
+  "status": "published",
+  "lesson_fields": {
+    "title": "Lenses and the Eye",
+    "title_fr": "Lentilles et oeil",
+    "summary": "Converging lenses focus light to form images. The eye is a natural lens system that focuses light onto the retina so we can see.",
+    "summary_fr": "Les lentilles convergentes focalisent la lumiere pour former des images. L'oeil est un systeme de lentille naturel qui focalise la lumiere sur la retine pour nous permettre de voir.",
+    "content": "## Converging lenses\n\nA converging lens is thicker in the middle. It brings parallel rays to a focus at the principal focus. The distance from the lens to this point is the focal length.\n\n## The eye\n\nThe eye has a lens that focuses light onto the retina. The image on the retina is inverted and real. Short sight needs a diverging lens, and long sight needs a converging lens.",
+    "content_fr": "## Les lentilles convergentes\n\nUne lentille convergente est plus epaisse au milieu. Elle fait converger les rayons paralleles en un foyer principal. La distance entre la lentille et ce point est la distance focale.\n\n## L'oeil\n\nL'oeil possede une lentille qui focalise la lumiere sur la retine. L'image sur la retine est inversee et reelle. La myopie se corrige avec une lentille divergente, et l'hypermétropie avec une lentille convergente.",
+    "objectives": [
+      "Describe how a converging lens focuses light",
+      "Explain how the eye forms an image",
+      "Match vision defects to corrective lenses"
+    ],
+    "objectives_fr": [
+      "Decrire comment une lentille convergente focalise la lumiere",
+      "Expliquer comment l'oeil forme une image",
+      "Associer les defauts de vision aux lentilles correctrices"
+    ],
+    "estimated_minutes": 25
+  },
+  "steps": [
+    {
+      "kind": "concept",
+      "title": "Converging lens",
+      "title_fr": "Lentille convergente",
+      "content": "A converging lens is thickest at the centre. Parallel rays of light are brought together at the principal focus. This lens is used in magnifying glasses and cameras.",
+      "content_fr": "Une lentille convergente est plus epaisse au centre. Les rayons paralleles y sont rassembles au foyer principal. Cette lentille sert dans les loupes et les appareils photo.",
+      "required": true,
+      "xp": 10,
+      "question": {
+        "kind": "mcq",
+        "text": "Where is a converging lens thickest?",
+        "text_fr": "Ou une lentille convergente est-elle la plus epaisse ?",
+        "explanation": "At the centre.",
+        "explanation_fr": "Au centre.",
+        "choices": [
+          {
+            "text": "At the centre",
+            "text_fr": "Au centre",
+            "correct": true
+          },
+          {
+            "text": "At the edges",
+            "text_fr": "Aux bords",
+            "correct": false
+          },
+          {
+            "text": "It is flat",
+            "text_fr": "Elle est plate",
+            "correct": false
+          }
+        ],
+        "hints": [
+          {
+            "text": "It bulges in the middle.",
+            "text_fr": "Elle bombe au milieu."
+          }
+        ],
+        "difficulty": 1
+      }
+    },
+    {
+      "kind": "explain",
+      "title": "The eye",
+      "title_fr": "L'oeil",
+      "content": "The eye's lens focuses light onto the retina. The image formed on the retina is real and inverted. The brain interprets it the right way up.",
+      "content_fr": "La lentille de l'oeil focalise la lumiere sur la retine. L'image formee sur la retine est reelle et inversee. Le cerveau l'interprete a l'endroit.",
+      "required": true,
+      "xp": 10
+    },
+    {
+      "kind": "example",
+      "title": "Correcting sight",
+      "title_fr": "Corriger la vue",
+      "content": "Short sight means distant objects look blurry, corrected with a diverging lens. Long sight means near objects look blurry, corrected with a converging lens.",
+      "content_fr": "La myopie rend les objets lointains flous, corrigee par une lentille divergente. L'hypermétropie rend les objets proches flous, corrigee par une lentille convergente.",
+      "required": true,
+      "xp": 12
+    },
+    {
+      "kind": "practice",
+      "title": "Your turn: eye image",
+      "title_fr": "A toi : image sur la retine",
+      "content": "What kind of image does the eye form on the retina?",
+      "content_fr": "Quelle image l'oeil forme-t-il sur la retine ?",
+      "required": true,
+      "xp": 12,
+      "question": {
+        "kind": "mcq",
+        "text": "The image on the retina is...",
+        "text_fr": "L'image sur la retine est...",
+        "explanation": "Real and inverted.",
+        "explanation_fr": "Reelle et inversee.",
+        "choices": [
+          {
+            "text": "Real and inverted",
+            "text_fr": "Reelle et inversee",
+            "correct": true
+          },
+          {
+            "text": "Virtual and upright",
+            "text_fr": "Virtuelle et droite",
+            "correct": false
+          },
+          {
+            "text": "Magnified",
+            "text_fr": "Agrandie",
+            "correct": false
+          }
+        ],
+        "hints": [
+          {
+            "text": "The lens focuses light to a point.",
+            "text_fr": "La lentille focalise la lumiere en un point."
+          }
+        ],
+        "difficulty": 1
+      }
+    },
+    {
+      "kind": "question",
+      "title": "Check: short sight",
+      "title_fr": "Verification : myopie",
+      "content": "Short sight cannot focus distant objects clearly. A diverging lens spreads the light before it enters the eye so it focuses on the retina.",
+      "content_fr": "La myopie ne permet pas de focaliser clairement les objets lointains. Une lentille divergente etale la lumiere avant qu'elle n'entre dans l'oeil pour qu'elle se focalise sur la retine.",
+      "required": true,
+      "xp": 12,
+      "question": {
+        "kind": "mcq",
+        "text": "Which lens corrects short sight?",
+        "text_fr": "Quelle lentille corrige la myopie ?",
+        "explanation": "A diverging lens.",
+        "explanation_fr": "Une lentille divergente.",
+        "choices": [
+          {
+            "text": "Diverging",
+            "text_fr": "Divergente",
+            "correct": true
+          },
+          {
+            "text": "Converging",
+            "text_fr": "Convergente",
+            "correct": false
+          },
+          {
+            "text": "No lens",
+            "text_fr": "Aucune lentille",
+            "correct": false
+          }
+        ],
+        "hints": [
+          {
+            "text": "It spreads the light.",
+            "text_fr": "Elle etale la lumiere."
+          }
+        ],
+        "difficulty": 1
+      }
+    },
+    {
+      "kind": "summary",
+      "title": "What to keep",
+      "title_fr": "A retenir",
+      "content": "A converging lens focuses parallel rays at its principal focus. The eye forms a real, inverted image on the retina. Diverging lenses correct short sight and converging lenses correct long sight.",
+      "content_fr": "Une lentille convergente focalise les rayons paralleles a son foyer principal. L'oeil forme une image reelle et inversee sur la retine. Les lentilles divergentes corrigent la myopie et les convergentes l'hypermétropie.",
+      "required": false,
+      "xp": 5
+    }
+  ],
+  "quiz": {
+    "title": "Lenses and the Eye",
+    "title_fr": "Lentilles et oeil",
+    "pass_score": 60,
+    "questions": [
+      {
+        "kind": "mcq",
+        "text": "Where does a converging lens bring parallel rays?",
+        "text_fr": "Ou une lentille convergente rassemble-t-elle les rayons paralleles ?",
+        "explanation": "At the principal focus.",
+        "explanation_fr": "Au foyer principal.",
+        "choices": [
+          {
+            "text": "At the principal focus",
+            "text_fr": "Au foyer principal",
+            "correct": true
+          },
+          {
+            "text": "At infinity",
+            "text_fr": "A l'infini",
+            "correct": false
+          },
+          {
+            "text": "Nowhere",
+            "text_fr": "Nulle part",
+            "correct": false
+          }
+        ],
+        "hints": [
+          {
+            "text": "A single point.",
+            "text_fr": "Un point unique."
+          }
+        ],
+        "difficulty": 1
+      },
+      {
+        "kind": "mcq",
+        "text": "The image on the retina is...",
+        "text_fr": "L'image sur la retine est...",
+        "explanation": "Real and inverted.",
+        "explanation_fr": "Reelle et inversee.",
+        "choices": [
+          {
+            "text": "Real and inverted",
+            "text_fr": "Reelle et inversee",
+            "correct": true
+          },
+          {
+            "text": "Virtual",
+            "text_fr": "Virtuelle",
+            "correct": false
+          },
+          {
+            "text": "Upright",
+            "text_fr": "Droite",
+            "correct": false
+          }
+        ],
+        "hints": [
+          {
+            "text": "It can be focused to a point.",
+            "text_fr": "Elle peut etre focalisee en un point."
+          }
+        ],
+        "difficulty": 1
+      },
+      {
+        "kind": "mcq",
+        "text": "Long sight is corrected with which lens?",
+        "text_fr": "L'hypermétropie se corrige avec quelle lentille ?",
+        "explanation": "A converging lens.",
+        "explanation_fr": "Une lentille convergente.",
+        "choices": [
+          {
+            "text": "Converging",
+            "text_fr": "Convergente",
+            "correct": true
+          },
+          {
+            "text": "Diverging",
+            "text_fr": "Divergente",
+            "correct": false
+          },
+          {
+            "text": "Plane",
+            "text_fr": "Plate",
+            "correct": false
+          }
+        ],
+        "hints": [
+          {
+            "text": "It brings light together.",
+            "text_fr": "Elle rassemble la lumiere."
+          }
+        ],
+        "difficulty": 1
+      },
+      {
+        "kind": "mcq",
+        "text": "The focal length is the distance from the lens to...",
+        "text_fr": "La distance focale est la distance de la lentille...",
+        "explanation": "The principal focus.",
+        "explanation_fr": "Au foyer principal.",
+        "choices": [
+          {
+            "text": "The principal focus",
+            "text_fr": "Au foyer principal",
+            "correct": true
+          },
+          {
+            "text": "The object",
+            "text_fr": "A l'objet",
+            "correct": false
+          },
+          {
+            "text": "The eye",
+            "text_fr": "A l'oeil",
+            "correct": false
+          }
+        ],
+        "hints": [
+          {
+            "text": "Where parallel rays meet.",
+            "text_fr": "Ou les rayons paralleles se rencontrent."
+          }
+        ],
+        "difficulty": 1
+      }
+    ]
+  }
+}

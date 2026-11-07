@@ -1,0 +1,200 @@
+{
+  "lesson": 97,
+  "status": "published",
+  "lesson_fields": {
+    "title": "Definite Integrals and Area",
+    "title_fr": "Integrales definies et aire",
+    "summary": "Evaluate definite integrals between two limits and use them to find the area under a curve.",
+    "summary_fr": "Calculer des integrales definies entre deux bornes et les utiliser pour trouver l aire sous une courbe.",
+    "content": "A **definite integral** has two limits, written `a` (lower) and `b` (upper). It equals `F(b) - F(a)`, where `F` is any antiderivative. The constant `C` cancels, and the result is a number. It gives the **area** between the curve and the x-axis from `a` to `b`.",
+    "content_fr": "Une **integrale definie** possede deux bornes, notees `a` (inferieure) et `b` (superieure). Elle vaut `F(b) - F(a)`, ou `F` est une primitive quelconque. La constante `C` s elimine et le resultat est un nombre. Elle donne l **aire** entre la courbe et l axe des abscisses de `a` a `b`.",
+    "objectives": [
+      "Evaluate a definite integral using limits",
+      "Understand why the constant cancels",
+      "Use a definite integral to find an area"
+    ],
+    "objectives_fr": [
+      "Calculer une integrale definie a l aide des bornes",
+      "Comprendre pourquoi la constante s elimine",
+      "Utiliser une integrale definie pour trouver une aire"
+    ]
+  },
+  "steps": [
+    {
+      "kind": "concept",
+      "title": "Integrals with limits",
+      "title_fr": "Integrales avec bornes",
+      "content": "We write a definite integral with a lower limit `a` and an upper limit `b` at the integral sign.\n\nTo evaluate it, find any antiderivative `F`, then compute:\n\n    value = F(b) - F(a)\n\nThe notation `[F(x)]` from `a` to `b` means substitute the limits in this order.",
+      "content_fr": "On ecrit une integrale definie avec une borne inferieure `a` et une borne superieure `b` au niveau du signe integrale.\n\nPour la calculer, trouve une primitive `F`, puis calcule :\n\n    valeur = F(b) - F(a)\n\nLa notation `[F(x)]` de `a` a `b` signifie que l on substitue les bornes dans cet ordre.",
+      "required": false,
+      "xp": 10
+    },
+    {
+      "kind": "explain",
+      "title": "Why the constant cancels",
+      "title_fr": "Pourquoi la constante s elimine",
+      "content": "Suppose `F(x) + C` is an antiderivative. Then:\n\n    (F(b) + C) - (F(a) + C) = F(b) - F(a)\n\nThe `C` appears in both terms and cancels. So for a definite integral we can simply use `C = 0`, and the answer is a plain number.\n\nExample: `[x^2]` from 1 to 3 is `9 - 1 = 8`.",
+      "content_fr": "Supposons que `F(x) + C` soit une primitive. Alors :\n\n    (F(b) + C) - (F(a) + C) = F(b) - F(a)\n\nLa constante `C` apparait dans les deux termes et s elimine. Pour une integrale definie, on peut donc prendre `C = 0` et la reponse est un simple nombre.\n\nExemple : `[x^2]` de 1 a 3 vaut `9 - 1 = 8`.",
+      "required": false,
+      "xp": 10
+    },
+    {
+      "kind": "question",
+      "title": "Evaluate a definite integral",
+      "title_fr": "Calculer une integrale definie",
+      "content": "Find an antiderivative, then subtract its value at the lower limit from its value at the upper limit.",
+      "content_fr": "Trouve une primitive, puis retranche sa valeur a la borne inferieure de sa valeur a la borne superieure.",
+      "required": true,
+      "xp": 25,
+      "question": {
+        "kind": "numeric",
+        "difficulty": 2,
+        "text": "Evaluate the definite integral of 2x dx from 1 to 3.",
+        "text_fr": "Calcule l integrale definie de 2x dx de 1 a 3.",
+        "explanation": "An antiderivative of 2x is x^2. So the value is 3^2 - 1^2 = 9 - 1 = 8.",
+        "explanation_fr": "Une primitive de 2x est x^2. La valeur vaut donc 3^2 - 1^2 = 9 - 1 = 8.",
+        "hint_prompt": "The antiderivative of 2x is x^2.",
+        "hint_prompt_fr": "La primitive de 2x est x^2.",
+        "config": {"accepted": [8]},
+        "hints": [
+          {"text": "Use F(x) = x^2.", "text_fr": "Utilise F(x) = x^2."},
+          {"text": "F(3) - F(1) = 9 - 1 = 8.", "text_fr": "F(3) - F(1) = 9 - 1 = 8."}
+        ]
+      }
+    },
+    {
+      "kind": "explain",
+      "title": "Area under a curve",
+      "title_fr": "Aire sous une courbe",
+      "content": "The definite integral of a positive function from `a` to `b` equals the **area** between its curve and the x-axis.\n\nExample: the area under `y = x^2` from 0 to 3 is:\n\n    [x^3 / 3] from 0 to 3 = 27 / 3 - 0 = 9\n\nIf part of the curve is below the x-axis, that part contributes a **negative** value. For a true area, split the range and add the sizes.",
+      "content_fr": "L integrale definie d une fonction positive de `a` a `b` est egale a l **aire** entre sa courbe et l axe des abscisses.\n\nExemple : l aire sous `y = x^2` de 0 a 3 vaut :\n\n    [x^3 / 3] de 0 a 3 = 27 / 3 - 0 = 9\n\nSi une partie de la courbe est sous l axe des abscisses, cette partie compte une valeur **negative**. Pour une aire reelle, on separe l intervalle et on additionne les valeurs absolues.",
+      "required": false,
+      "xp": 10
+    },
+    {
+      "kind": "question",
+      "title": "Area under a parabola",
+      "title_fr": "Aire sous une parabole",
+      "content": "Integrate and apply the limits.",
+      "content_fr": "Integre et applique les bornes.",
+      "required": true,
+      "xp": 25,
+      "question": {
+        "kind": "numeric",
+        "difficulty": 3,
+        "text": "Find the area under y = x^2 between x = 0 and x = 3.",
+        "text_fr": "Trouve l aire sous y = x^2 entre x = 0 et x = 3.",
+        "explanation": "The antiderivative is x^3 / 3. Evaluating from 0 to 3 gives 27 / 3 - 0 = 9.",
+        "explanation_fr": "La primitive est x^3 / 3. En evaluant de 0 a 3, on obtient 27 / 3 - 0 = 9.",
+        "hint_prompt": "Integrate x^2 to get x^3 / 3.",
+        "hint_prompt_fr": "Integre x^2 pour obtenir x^3 / 3.",
+        "config": {"accepted": [9]},
+        "hints": [
+          {"text": "An antiderivative of x^2 is x^3 / 3.", "text_fr": "Une primitive de x^2 est x^3 / 3."},
+          {"text": "At x = 3: 27 / 3 = 9; at x = 0: 0.", "text_fr": "En x = 3 : 27 / 3 = 9 ; en x = 0 : 0."}
+        ]
+      }
+    },
+    {
+      "kind": "summary",
+      "title": "Putting it together",
+      "title_fr": "Recapitulatif",
+      "content": "A definite integral from `a` to `b` equals `F(b) - F(a)`, where `F` is any antiderivative. The constant `C` cancels and the answer is a number.\n\nFor a positive function this number is the area between the curve and the x-axis. Parts below the axis count as negative.",
+      "content_fr": "Une integrale definie de `a` a `b` vaut `F(b) - F(a)`, ou `F` est une primitive quelconque. La constante `C` s elimine et la reponse est un nombre.\n\nPour une fonction positive, ce nombre est l aire entre la courbe et l axe des abscisses. Les parties sous l axe comptent negativement.",
+      "required": false,
+      "xp": 10
+    }
+  ],
+  "quiz": {
+    "title": "Quiz - Definite integrals and area",
+    "title_fr": "Quiz - Integrales definies et aire",
+    "pass_score": 60,
+    "questions": [
+      {
+        "kind": "numeric",
+        "difficulty": 2,
+        "text": "Evaluate the definite integral of 2x dx from 0 to 4.",
+        "text_fr": "Calcule l integrale definie de 2x dx de 0 a 4.",
+        "explanation": "An antiderivative of 2x is x^2, so the value is 4^2 - 0^2 = 16.",
+        "explanation_fr": "Une primitive de 2x est x^2, donc la valeur est 4^2 - 0^2 = 16.",
+        "hint_prompt": "Use F(x) = x^2.",
+        "hint_prompt_fr": "Utilise F(x) = x^2.",
+        "config": {"accepted": [16]},
+        "hints": [
+          {"text": "F(x) = x^2.", "text_fr": "F(x) = x^2."},
+          {"text": "4^2 - 0^2 = 16.", "text_fr": "4^2 - 0^2 = 16."}
+        ]
+      },
+      {
+        "kind": "mcq",
+        "difficulty": 2,
+        "text": "Why can we ignore the constant C when evaluating a definite integral?",
+        "text_fr": "Pourquoi peut-on ignorer la constante C lors du calcul d une integrale definie ?",
+        "explanation": "C is added to both F(b) and F(a) and cancels in their difference.",
+        "explanation_fr": "C est ajoutee a la fois a F(b) et a F(a) et s elimine dans leur difference.",
+        "hint_prompt": "Look at (F(b) + C) - (F(a) + C).",
+        "hint_prompt_fr": "Regarde (F(b) + C) - (F(a) + C).",
+        "choices": [
+          {"text": "It cancels in the subtraction F(b) - F(a)", "text_fr": "Elle s elimine dans la soustraction F(b) - F(a)", "correct": true},
+          {"text": "Because C is always zero", "text_fr": "Parce que C vaut toujours zero", "correct": false},
+          {"text": "Because definite integrals have no C at all", "text_fr": "Parce que les integrales definies n ont pas de C", "correct": false},
+          {"text": "Because C equals the upper limit", "text_fr": "Parce que C est egale a la borne superieure", "correct": false}
+        ],
+        "hints": [
+          {"text": "The same C appears twice.", "text_fr": "La meme constante C apparait deux fois."},
+          {"text": "It subtracts away.", "text_fr": "Elle s elimine par soustraction."}
+        ]
+      },
+      {
+        "kind": "numeric",
+        "difficulty": 3,
+        "text": "Find the area under y = x between x = 0 and x = 4.",
+        "text_fr": "Trouve l aire sous y = x entre x = 0 et x = 4.",
+        "explanation": "An antiderivative of x is x^2 / 2. From 0 to 4: 16 / 2 - 0 = 8.",
+        "explanation_fr": "Une primitive de x est x^2 / 2. De 0 a 4 : 16 / 2 - 0 = 8.",
+        "hint_prompt": "Integrate x to get x^2 / 2.",
+        "hint_prompt_fr": "Integre x pour obtenir x^2 / 2.",
+        "config": {"accepted": [8]},
+        "hints": [
+          {"text": "An antiderivative of x is x^2 / 2.", "text_fr": "Une primitive de x est x^2 / 2."},
+          {"text": "4^2 / 2 = 8.", "text_fr": "4^2 / 2 = 8."}
+        ]
+      },
+      {
+        "kind": "numeric",
+        "difficulty": 3,
+        "text": "Evaluate the definite integral of x^2 dx from 0 to 3.",
+        "text_fr": "Calcule l integrale definie de x^2 dx de 0 a 3.",
+        "explanation": "An antiderivative is x^3 / 3, so the value is 27 / 3 - 0 = 9.",
+        "explanation_fr": "Une primitive est x^3 / 3, donc la valeur est 27 / 3 - 0 = 9.",
+        "hint_prompt": "Integrate x^2 to get x^3 / 3.",
+        "hint_prompt_fr": "Integre x^2 pour obtenir x^3 / 3.",
+        "config": {"accepted": [9]},
+        "hints": [
+          {"text": "x^2 integrates to x^3 / 3.", "text_fr": "x^2 s integre en x^3 / 3."},
+          {"text": "At 3: 27 / 3 = 9.", "text_fr": "En 3 : 27 / 3 = 9."}
+        ]
+      },
+      {
+        "kind": "mcq",
+        "difficulty": 3,
+        "text": "A definite integral over a region where the curve lies below the x-axis gives:",
+        "text_fr": "Une integrale definie sur une region ou la courbe est sous l axe des abscisses donne :",
+        "explanation": "A region below the x-axis contributes a negative value, so the integral is negative. For a true area you take its size.",
+        "explanation_fr": "Une region sous l axe des abscisses contribue une valeur negative : l integrale est negative. Pour une aire reelle, on prend sa valeur absolue.",
+        "hint_prompt": "Think about the sign of the values of f there.",
+        "hint_prompt_fr": "Pense au signe des valeurs de f a cet endroit.",
+        "choices": [
+          {"text": "A negative number", "text_fr": "Un nombre negatif", "correct": true},
+          {"text": "A positive number", "text_fr": "Un nombre positif", "correct": false},
+          {"text": "Zero always", "text_fr": "Toujours zero", "correct": false},
+          {"text": "The same value as above the axis", "text_fr": "La meme valeur qu au-dessus de l axe", "correct": false}
+        ],
+        "hints": [
+          {"text": "Below the axis, f is negative.", "text_fr": "Sous l axe, f est negative."},
+          {"text": "Negative f gives a negative integral.", "text_fr": "f negative donne une integrale negative."}
+        ]
+      }
+    ]
+  }
+}

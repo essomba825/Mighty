@@ -1,0 +1,291 @@
+{
+  "lesson": 158,
+  "status": "published",
+  "lesson_fields": {
+    "title": "Trigonometric Ratios and Identities",
+    "title_fr": "Rapports et identites trigonometriques",
+    "summary": "Sine, cosine and tangent relate the angles of a right triangle to its sides. A key identity links sine and cosine.",
+    "summary_fr": "Le sinus, le cosinus et la tangente relient les angles d'un triangle rectangle a ses cotes. Une identite cle relie le sinus et le cosinus.",
+    "content": "## The three ratios\n\nIn a right triangle, sine is opposite over hypotenuse, cosine is adjacent over hypotenuse, and tangent is opposite over adjacent. These ratios depend only on the angle.\n\n## Angles and identities\n\nAngles may be measured in degrees or radians. One full turn is 360 degrees or two pi radians. The identity sine squared plus cosine squared equals one holds for every angle.",
+    "content_fr": "## Les trois rapports\n\nDans un triangle rectangle, le sinus est le cote oppose sur l'hypotenuse, le cosinus est le cote adjacent sur l'hypotenuse, et la tangente est l'oppose sur l'adjacent. Ces rapports ne dependent que de l'angle.\n\n## Angles et identites\n\nLes angles se mesurent en degres ou en radians. Un tour complet fait 360 degres ou deux pi radians. L'identite sinus carre plus cosinus carre egale un est vraie pour tout angle.",
+    "objectives": [
+      "State the three trigonometric ratios",
+      "Convert between degrees and radians",
+      "Use the identity sine squared plus cosine squared"
+    ],
+    "objectives_fr": [
+      "Enoncer les trois rapports trigonometriques",
+      "Convertir entre degres et radians",
+      "Utiliser l'identite sinus carre plus cosinus carre"
+    ],
+    "estimated_minutes": 25
+  },
+  "steps": [
+    {
+      "kind": "concept",
+      "title": "The three ratios",
+      "title_fr": "Les trois rapports",
+      "content": "Sine is opposite over hypotenuse. Cosine is adjacent over hypotenuse. Tangent is opposite over adjacent. They only depend on the size of the angle, not the triangle.",
+      "content_fr": "Le sinus est l'oppose sur l'hypotenuse. Le cosinus est l'adjacent sur l'hypotenuse. La tangente est l'oppose sur l'adjacent. Ils ne dependent que de la taille de l'angle, pas du triangle.",
+      "required": true,
+      "xp": 10,
+      "question": {
+        "kind": "mcq",
+        "text": "Which ratio is opposite over hypotenuse?",
+        "text_fr": "Quel rapport est l'oppose sur l'hypotenuse ?",
+        "explanation": "Sine",
+        "explanation_fr": "Le sinus",
+        "choices": [
+          {
+            "text": "Sine",
+            "text_fr": "Le sinus",
+            "correct": true
+          },
+          {
+            "text": "Cosine",
+            "text_fr": "Le cosinus",
+            "correct": false
+          },
+          {
+            "text": "Tangent",
+            "text_fr": "La tangente",
+            "correct": false
+          }
+        ],
+        "hints": [
+          {
+            "text": "It starts with s.",
+            "text_fr": "Il commence par s."
+          }
+        ],
+        "difficulty": 1
+      }
+    },
+    {
+      "kind": "explain",
+      "title": "Degrees and radians",
+      "title_fr": "Degres et radians",
+      "content": "Angles can be measured in degrees or radians. A full turn is 360 degrees, which equals two pi radians. To convert degrees to radians, multiply by pi and divide by 180.",
+      "content_fr": "Les angles se mesurent en degres ou en radians. Un tour complet fait 360 degres, ce qui egale deux pi radians. Pour convertir des degres en radians, multiplie par pi et divise par 180.",
+      "required": true,
+      "xp": 10
+    },
+    {
+      "kind": "example",
+      "title": "A simple value",
+      "title_fr": "Une valeur simple",
+      "content": "For a 30 degree angle, sine equals one half and cosine equals the square root of three over two. These values come from a standard right triangle.",
+      "content_fr": "Pour un angle de 30 degres, le sinus vaut un demi et le cosinus vaut racine de trois sur deux. Ces valeurs viennent d'un triangle rectangle standard.",
+      "required": true,
+      "xp": 12
+    },
+    {
+      "kind": "practice",
+      "title": "Your turn: conversion",
+      "title_fr": "A toi : conversion",
+      "content": "How many radians is 180 degrees? Give the answer as a multiple of pi, so enter the number that multiplies pi.",
+      "content_fr": "Combien de radians font 180 degres ? Donne la reponse comme un multiple de pi, saisis le nombre qui multiplie pi.",
+      "required": true,
+      "xp": 12,
+      "question": {
+        "kind": "numeric",
+        "text": "180 degrees equals how many pi radians?",
+        "text_fr": "180 degres font combien de pi radians ?",
+        "explanation": "180 degrees is half of 360, which is half of two pi, so it equals one pi.",
+        "explanation_fr": "180 degres est la moitie de 360, soit la moitie de deux pi, donc egale un pi.",
+        "config": {
+          "accepted": [
+            "1"
+          ]
+        },
+        "hints": [
+          {
+            "text": "Half of two pi is one pi.",
+            "text_fr": "La moitie de deux pi est un pi."
+          }
+        ],
+        "difficulty": 1
+      }
+    },
+    {
+      "kind": "question",
+      "title": "Check: the identity",
+      "title_fr": "Verification : l'identite",
+      "content": "For every angle, sine squared plus cosine squared equals one. This follows from the Pythagorean theorem on a right triangle with hypotenuse one.",
+      "content_fr": "Pour tout angle, sinus carre plus cosinus carre egale un. Cela decoule du theoreme de Pythagore sur un triangle rectangle d'hypotenuse un.",
+      "required": true,
+      "xp": 12,
+      "question": {
+        "kind": "mcq",
+        "text": "What does sine squared plus cosine squared equal?",
+        "text_fr": "A quoi egale sinus carre plus cosinus carre ?",
+        "explanation": "One",
+        "explanation_fr": "Un",
+        "choices": [
+          {
+            "text": "One",
+            "text_fr": "Un",
+            "correct": true
+          },
+          {
+            "text": "Zero",
+            "text_fr": "Zero",
+            "correct": false
+          },
+          {
+            "text": "The tangent",
+            "text_fr": "La tangente",
+            "correct": false
+          }
+        ],
+        "hints": [
+          {
+            "text": "It is always the same.",
+            "text_fr": "C'est toujours la meme chose."
+          }
+        ],
+        "difficulty": 1
+      }
+    },
+    {
+      "kind": "summary",
+      "title": "What to keep",
+      "title_fr": "A retenir",
+      "content": "Sine is opposite over hypotenuse, cosine is adjacent over hypotenuse, and tangent is opposite over adjacent. A full turn is 360 degrees or two pi radians, and sine squared plus cosine squared equals one.",
+      "content_fr": "Le sinus est l'oppose sur l'hypotenuse, le cosinus l'adjacent sur l'hypotenuse, et la tangente l'oppose sur l'adjacent. Un tour complet fait 360 degres ou deux pi radians, et sinus carre plus cosinus carre egale un.",
+      "required": false,
+      "xp": 5
+    }
+  ],
+  "quiz": {
+    "title": "Trigonometric Ratios and Identities",
+    "title_fr": "Rapports et identites trigonometriques",
+    "pass_score": 60,
+    "questions": [
+      {
+        "kind": "mcq",
+        "text": "Which ratio is adjacent over hypotenuse?",
+        "text_fr": "Quel rapport est l'adjacent sur l'hypotenuse ?",
+        "explanation": "Cosine",
+        "explanation_fr": "Le cosinus",
+        "choices": [
+          {
+            "text": "Cosine",
+            "text_fr": "Le cosinus",
+            "correct": true
+          },
+          {
+            "text": "Sine",
+            "text_fr": "Le sinus",
+            "correct": false
+          },
+          {
+            "text": "Tangent",
+            "text_fr": "La tangente",
+            "correct": false
+          }
+        ],
+        "hints": [
+          {
+            "text": "It starts with c.",
+            "text_fr": "Il commence par c."
+          }
+        ],
+        "difficulty": 1
+      },
+      {
+        "kind": "mcq",
+        "text": "How many degrees is a full turn?",
+        "text_fr": "Combien de degres fait un tour complet ?",
+        "explanation": "360",
+        "explanation_fr": "360",
+        "choices": [
+          {
+            "text": "360",
+            "text_fr": "360",
+            "correct": true
+          },
+          {
+            "text": "180",
+            "text_fr": "180",
+            "correct": false
+          },
+          {
+            "text": "90",
+            "text_fr": "90",
+            "correct": false
+          }
+        ],
+        "hints": [
+          {
+            "text": "Think of a circle.",
+            "text_fr": "Pense a un cercle."
+          }
+        ],
+        "difficulty": 1
+      },
+      {
+        "kind": "mcq",
+        "text": "What is sine squared plus cosine squared?",
+        "text_fr": "Combien vaut sinus carre plus cosinus carre ?",
+        "explanation": "1",
+        "explanation_fr": "1",
+        "choices": [
+          {
+            "text": "1",
+            "text_fr": "1",
+            "correct": true
+          },
+          {
+            "text": "0",
+            "text_fr": "0",
+            "correct": false
+          },
+          {
+            "text": "2",
+            "text_fr": "2",
+            "correct": false
+          }
+        ],
+        "hints": [
+          {
+            "text": "It is a famous identity.",
+            "text_fr": "C'est une identite celebre."
+          }
+        ],
+        "difficulty": 1
+      },
+      {
+        "kind": "mcq",
+        "text": "How many pi radians is 180 degrees?",
+        "text_fr": "Combien de pi radians font 180 degres ?",
+        "explanation": "1",
+        "explanation_fr": "1",
+        "choices": [
+          {
+            "text": "1",
+            "text_fr": "1",
+            "correct": true
+          },
+          {
+            "text": "2",
+            "text_fr": "2",
+            "correct": false
+          },
+          {
+            "text": "0.5",
+            "text_fr": "0,5",
+            "correct": false
+          }
+        ],
+        "hints": [
+          {
+            "text": "Half of two pi.",
+            "text_fr": "La moitie de deux pi."
+          }
+        ],
+        "difficulty": 1
+      }
+    ]
+  }
+}

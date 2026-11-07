@@ -1,0 +1,303 @@
+{
+  "lesson": 136,
+  "status": "published",
+  "lesson_fields": {
+    "title": "Ecosystems and Food Chains",
+    "title_fr": "Ecosystemes et chaines alimentaires",
+    "summary": "An ecosystem is living things and their environment. Energy flows through food chains from producers to consumers. Decomposers recycle nutrients.",
+    "summary_fr": "Un ecosysteme est l'ensemble des etres vivants et de leur environnement. L'energie circule dans les chaines alimentaires, des producteurs aux consommateurs. Les decomposeurs recyclent les nutriments.",
+    "content": "## Food chains\n\nA food chain shows what eats what. Producers make their own food, primary consumers eat producers, and secondary consumers eat primary consumers. Energy and biomass decrease along the chain.\n\n## Decomposers\n\nDecomposers, such as bacteria and fungi, break down dead material and return nutrients to the soil.",
+    "content_fr": "## Les chaines alimentaires\n\nUne chaine alimentaire montre qui mange qui. Les producteurs fabriquent leur propre nourriture, les consommateurs primaires mangent les producteurs, et les consommateurs secondaires mangent les consommateurs primaires. L'energie et la biomasse diminuent le long de la chaine.\n\n## Les decomposeurs\n\nLes decomposeurs, comme les bacteries et les champignons, decomposent la matiere morte et renvoient les nutriments dans le sol.",
+    "objectives": [
+      "Build a food chain with correct labels",
+      "Explain why energy decreases along a food chain",
+      "State the role of decomposers"
+    ],
+    "objectives_fr": [
+      "Construire une chaine alimentaire avec les bons noms",
+      "Expliquer pourquoi l'energie diminue le long d'une chaine",
+      "Indiquer le role des decomposeurs"
+    ],
+    "estimated_minutes": 25
+  },
+  "steps": [
+    {
+      "kind": "concept",
+      "title": "Producers and consumers",
+      "title_fr": "Producteurs et consommateurs",
+      "content": "Producers, like green plants, make food by photosynthesis. Primary consumers eat producers. Secondary consumers eat primary consumers. Tertiary consumers eat secondary consumers.",
+      "content_fr": "Les producteurs, comme les plantes vertes, fabriquent leur nourriture par photosynthese. Les consommateurs primaires mangent les producteurs. Les consommateurs secondaires mangent les consommateurs primaires. Les consommateurs tertiaires mangent les consommateurs secondaires.",
+      "required": true,
+      "xp": 10,
+      "question": {
+        "kind": "mcq",
+        "text": "What is a producer?",
+        "text_fr": "Qu'est-ce qu'un producteur ?",
+        "explanation": "An organism that makes its own food.",
+        "explanation_fr": "Un organisme qui fabrique sa propre nourriture.",
+        "choices": [
+          {
+            "text": "A maker of its own food",
+            "text_fr": "Un fabricant de sa propre nourriture",
+            "correct": true
+          },
+          {
+            "text": "An animal that eats plants",
+            "text_fr": "Un animal qui mange des plantes",
+            "correct": false
+          },
+          {
+            "text": "A decomposer",
+            "text_fr": "Un decomposeur",
+            "correct": false
+          }
+        ],
+        "hints": [
+          {
+            "text": "Green plants are producers.",
+            "text_fr": "Les plantes vertes sont des producteurs."
+          }
+        ],
+        "difficulty": 1
+      }
+    },
+    {
+      "kind": "explain",
+      "title": "Energy loss",
+      "title_fr": "Perte d'energie",
+      "content": "Energy is lost at each stage of a food chain, mainly as heat from respiration. That is why fewer organisms live at the top of the chain, and food chains are usually short.",
+      "content_fr": "L'energie est perdue a chaque etape d'une chaine alimentaire, surtout sous forme de chaleur issue de la respiration. C'est pourquoi il y a moins d'organismes au sommet de la chaine, et les chaines sont generalement courtes.",
+      "required": true,
+      "xp": 10
+    },
+    {
+      "kind": "example",
+      "title": "Decomposers at work",
+      "title_fr": "Les decomposeurs au travail",
+      "content": "Bacteria and fungi break down dead plants and animals and animal waste. They release nutrients back into the soil, where plants can take them up again.",
+      "content_fr": "Les bacteries et les champignons decomposent les plantes et animaux morts et les dechets animaux. Ils liberent les nutriments dans le sol, ou les plantes peuvent les reprendre.",
+      "required": true,
+      "xp": 12
+    },
+    {
+      "kind": "practice",
+      "title": "Your turn: label the chain",
+      "title_fr": "A toi : nommer la chaine",
+      "content": "In the chain Grass -> Rabbit -> Fox, what is the rabbit?",
+      "content_fr": "Dans la chaine Herbe -> Lapin -> Renard, qu'est-ce que le lapin ?",
+      "required": true,
+      "xp": 12,
+      "question": {
+        "kind": "mcq",
+        "text": "What is the rabbit in the chain?",
+        "text_fr": "Qu'est-ce que le lapin dans la chaine ?",
+        "explanation": "A primary consumer.",
+        "explanation_fr": "Un consommateur primaire.",
+        "choices": [
+          {
+            "text": "A primary consumer",
+            "text_fr": "Un consommateur primaire",
+            "correct": true
+          },
+          {
+            "text": "A producer",
+            "text_fr": "Un producteur",
+            "correct": false
+          },
+          {
+            "text": "A decomposer",
+            "text_fr": "Un decomposeur",
+            "correct": false
+          }
+        ],
+        "hints": [
+          {
+            "text": "It eats the producer.",
+            "text_fr": "Il mange le producteur."
+          }
+        ],
+        "difficulty": 1
+      }
+    },
+    {
+      "kind": "question",
+      "title": "Check: energy",
+      "title_fr": "Verification : energie",
+      "content": "Energy passes along a food chain but much of it is lost as heat. Only a small fraction passes to the next level.",
+      "content_fr": "L'energie passe le long d'une chaine alimentaire mais une grande partie est perdue sous forme de chaleur. Seule une petite fraction passe au niveau suivant.",
+      "required": true,
+      "xp": 12,
+      "question": {
+        "kind": "mcq",
+        "text": "Why are food chains usually short?",
+        "text_fr": "Pourquoi les chaines alimentaires sont-elles generalement courtes ?",
+        "explanation": "Energy is lost at each stage.",
+        "explanation_fr": "L'energie est perdue a chaque etape.",
+        "choices": [
+          {
+            "text": "Energy is lost at each stage",
+            "text_fr": "L'energie est perdue a chaque etape",
+            "correct": true
+          },
+          {
+            "text": "Animals are too big",
+            "text_fr": "Les animaux sont trop gros",
+            "correct": false
+          },
+          {
+            "text": "Plants run out of water",
+            "text_fr": "Les plantes manquent d'eau",
+            "correct": false
+          }
+        ],
+        "hints": [
+          {
+            "text": "Most energy becomes heat.",
+            "text_fr": "La plupart de l'energie devient de la chaleur."
+          }
+        ],
+        "difficulty": 1
+      }
+    },
+    {
+      "kind": "summary",
+      "title": "What to keep",
+      "title_fr": "A retenir",
+      "content": "Food chains show energy flow from producers to consumers. Energy decreases along the chain. Decomposers return nutrients to the soil.",
+      "content_fr": "Les chaines alimentaires montrent le flux d'energie des producteurs aux consommateurs. L'energie diminue le long de la chaine. Les decomposeurs renvoient les nutriments dans le sol.",
+      "required": false,
+      "xp": 5
+    }
+  ],
+  "quiz": {
+    "title": "Ecosystems and Food Chains",
+    "title_fr": "Ecosystemes et chaines alimentaires",
+    "pass_score": 60,
+    "questions": [
+      {
+        "kind": "mcq",
+        "text": "What does a food chain show?",
+        "text_fr": "Que montre une chaine alimentaire ?",
+        "explanation": "What eats what.",
+        "explanation_fr": "Qui mange qui.",
+        "choices": [
+          {
+            "text": "What eats what",
+            "text_fr": "Qui mange qui",
+            "correct": true
+          },
+          {
+            "text": "How plants grow",
+            "text_fr": "Comment les plantes poussent",
+            "correct": false
+          },
+          {
+            "text": "The weather",
+            "text_fr": "Le temps",
+            "correct": false
+          }
+        ],
+        "hints": [
+          {
+            "text": "Feeding relationships.",
+            "text_fr": "Les relations alimentaires."
+          }
+        ],
+        "difficulty": 1
+      },
+      {
+        "kind": "mcq",
+        "text": "What do decomposers do?",
+        "text_fr": "Que font les decomposeurs ?",
+        "explanation": "Break down dead material.",
+        "explanation_fr": "Decomposent la matiere morte.",
+        "choices": [
+          {
+            "text": "Break down dead material",
+            "text_fr": "Decomposent la matiere morte",
+            "correct": true
+          },
+          {
+            "text": "Make glucose",
+            "text_fr": "Fabriquent du glucose",
+            "correct": false
+          },
+          {
+            "text": "Eat live animals",
+            "text_fr": "Mangent des animaux vivants",
+            "correct": false
+          }
+        ],
+        "hints": [
+          {
+            "text": "They recycle nutrients.",
+            "text_fr": "Ils recyclent les nutriments."
+          }
+        ],
+        "difficulty": 1
+      },
+      {
+        "kind": "mcq",
+        "text": "Why is energy lost along a chain?",
+        "text_fr": "Pourquoi l'energie est-elle perdue le long d'une chaine ?",
+        "explanation": "Mainly as heat from respiration.",
+        "explanation_fr": "Surtout sous forme de chaleur issue de la respiration.",
+        "choices": [
+          {
+            "text": "As heat from respiration",
+            "text_fr": "Comme chaleur issue de la respiration",
+            "correct": true
+          },
+          {
+            "text": "As light only",
+            "text_fr": "Seulement comme lumiere",
+            "correct": false
+          },
+          {
+            "text": "As sound",
+            "text_fr": "Comme son",
+            "correct": false
+          }
+        ],
+        "hints": [
+          {
+            "text": "Animals warm up.",
+            "text_fr": "Les animaux se rechauffent."
+          }
+        ],
+        "difficulty": 1
+      },
+      {
+        "kind": "mcq",
+        "text": "Which organism is a primary consumer?",
+        "text_fr": "Quel organisme est un consommateur primaire ?",
+        "explanation": "A herbivore eating plants.",
+        "explanation_fr": "Un herbivore qui mange des plantes.",
+        "choices": [
+          {
+            "text": "A herbivore",
+            "text_fr": "Un herbivore",
+            "correct": true
+          },
+          {
+            "text": "A green plant",
+            "text_fr": "Une plante verte",
+            "correct": false
+          },
+          {
+            "text": "A fungus",
+            "text_fr": "Un champignon",
+            "correct": false
+          }
+        ],
+        "hints": [
+          {
+            "text": "It eats producers.",
+            "text_fr": "Il mange les producteurs."
+          }
+        ],
+        "difficulty": 1
+      }
+    ]
+  }
+}

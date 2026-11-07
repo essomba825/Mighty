@@ -1,0 +1,303 @@
+{
+  "lesson": 130,
+  "status": "published",
+  "lesson_fields": {
+    "title": "Photosynthesis",
+    "title_fr": "La photosynthese",
+    "summary": "Plants make their own food by photosynthesis. They use light energy to turn carbon dioxide and water into glucose and oxygen.",
+    "summary_fr": "Les plantes fabriquent leur propre nourriture par photosynthese. Elles utilisent l'energie lumineuse pour transformer le dioxyde de carbone et l'eau en glucose et oxygene.",
+    "content": "## The word equation\n\nCarbon dioxide plus water, using light energy and chlorophyll, gives glucose plus oxygen.\n\n## Leaves are adapted\n\nLeaves are broad and thin with many chloroplasts, and they have stomata and veins to bring in gases and water.",
+    "content_fr": "## L'equation en mots\n\nDioxyde de carbone plus eau, en utilisant l'energie lumineuse et la chlorophylle, donne glucose plus oxygene.\n\n## Les feuilles sont adaptees\n\nLes feuilles sont larges et fines, avec de nombreux chloroplastes, et elles ont des stomates et des nervures pour apporter les gaz et l'eau.",
+    "objectives": [
+      "Write the word equation for photosynthesis",
+      "Explain how leaves are adapted for photosynthesis",
+      "Describe what happens to the glucose made"
+    ],
+    "objectives_fr": [
+      "Ecrire l'equation en mots de la photosynthese",
+      "Expliquer comment les feuilles sont adaptees a la photosynthese",
+      "Decrire ce que devient le glucose produit"
+    ],
+    "estimated_minutes": 25
+  },
+  "steps": [
+    {
+      "kind": "concept",
+      "title": "Making food from light",
+      "title_fr": "Fabriquer de la nourriture avec la lumiere",
+      "content": "Plants take in carbon dioxide from the air and water from the soil. Using light energy, they make glucose. Oxygen is released as a waste product.",
+      "content_fr": "Les plantes absorbent le dioxyde de carbone de l'air et l'eau du sol. En utilisant l'energie lumineuse, elles fabriquent du glucose. L'oxygene est libere comme dechet.",
+      "required": true,
+      "xp": 10,
+      "question": {
+        "kind": "mcq",
+        "text": "What gas do plants take in for photosynthesis?",
+        "text_fr": "Quel gaz les plantes absorbent-elles pour la photosynthese ?",
+        "explanation": "Plants take in carbon dioxide.",
+        "explanation_fr": "Les plantes absorbent le dioxyde de carbone.",
+        "choices": [
+          {
+            "text": "Carbon dioxide",
+            "text_fr": "Le dioxyde de carbone",
+            "correct": true
+          },
+          {
+            "text": "Oxygen",
+            "text_fr": "L'oxygene",
+            "correct": false
+          },
+          {
+            "text": "Nitrogen",
+            "text_fr": "L'azote",
+            "correct": false
+          }
+        ],
+        "hints": [
+          {
+            "text": "It is in the air around them.",
+            "text_fr": "Il est dans l'air autour d'elles."
+          }
+        ],
+        "difficulty": 1
+      }
+    },
+    {
+      "kind": "explain",
+      "title": "The word equation",
+      "title_fr": "L'equation en mots",
+      "content": "The word equation is: carbon dioxide plus water gives glucose plus oxygen, using light energy and chlorophyll.",
+      "content_fr": "L'equation en mots est : dioxyde de carbone plus eau donne glucose plus oxygene, en utilisant l'energie lumineuse et la chlorophylle.",
+      "required": true,
+      "xp": 10
+    },
+    {
+      "kind": "example",
+      "title": "How leaves are adapted",
+      "title_fr": "Comment les feuilles sont adaptees",
+      "content": "Leaves are broad to catch light, thin so gases diffuse in and out quickly, and contain many chloroplasts. Veins carry water and stomata let gases pass.",
+      "content_fr": "Les feuilles sont larges pour capter la lumiere, fines pour que les gaz diffusent vite, et contiennent de nombreux chloroplastes. Les nervures apportent l'eau et les stomates laissent passer les gaz.",
+      "required": true,
+      "xp": 12
+    },
+    {
+      "kind": "practice",
+      "title": "Your turn: the waste gas",
+      "title_fr": "A toi : le gaz de dechet",
+      "content": "Which gas is released by photosynthesis?",
+      "content_fr": "Quel gaz est libere par la photosynthese ?",
+      "required": true,
+      "xp": 12,
+      "question": {
+        "kind": "mcq",
+        "text": "Which gas is released by photosynthesis?",
+        "text_fr": "Quel gaz est libere par la photosynthese ?",
+        "explanation": "Oxygen is released.",
+        "explanation_fr": "L'oxygene est libere.",
+        "choices": [
+          {
+            "text": "Oxygen",
+            "text_fr": "L'oxygene",
+            "correct": true
+          },
+          {
+            "text": "Carbon dioxide",
+            "text_fr": "Le dioxyde de carbone",
+            "correct": false
+          },
+          {
+            "text": "Water vapour",
+            "text_fr": "La vapeur d'eau",
+            "correct": false
+          }
+        ],
+        "hints": [
+          {
+            "text": "It is the gas we breathe.",
+            "text_fr": "C'est le gaz que nous respirons."
+          }
+        ],
+        "difficulty": 1
+      }
+    },
+    {
+      "kind": "question",
+      "title": "Check: uses of glucose",
+      "title_fr": "Verification : usages du glucose",
+      "content": "The glucose made is used for respiration to release energy, converted to starch for storage, or used to build new plant material such as cellulose.",
+      "content_fr": "Le glucose produit sert a la respiration pour liberer de l'energie, est converti en amidon pour le stockage, ou sert a construire de la matiere vegetale comme la cellulose.",
+      "required": true,
+      "xp": 12,
+      "question": {
+        "kind": "mcq",
+        "text": "What is glucose changed into for storage?",
+        "text_fr": "En quoi le glucose est-il transforme pour le stockage ?",
+        "explanation": "Glucose is stored as starch.",
+        "explanation_fr": "Le glucose est stocke sous forme d'amidon.",
+        "choices": [
+          {
+            "text": "Starch",
+            "text_fr": "L'amidon",
+            "correct": true
+          },
+          {
+            "text": "Oxygen",
+            "text_fr": "L'oxygene",
+            "correct": false
+          },
+          {
+            "text": "Protein",
+            "text_fr": "Les proteines",
+            "correct": false
+          }
+        ],
+        "hints": [
+          {
+            "text": "It is a storage carbohydrate.",
+            "text_fr": "C'est un glucide de reserve."
+          }
+        ],
+        "difficulty": 1
+      }
+    },
+    {
+      "kind": "summary",
+      "title": "What to keep",
+      "title_fr": "A retenir",
+      "content": "Photosynthesis uses carbon dioxide, water and light to make glucose and oxygen. Leaves are adapted with a broad shape, chloroplasts, veins and stomata.",
+      "content_fr": "La photosynthese utilise le dioxyde de carbone, l'eau et la lumiere pour fabriquer du glucose et de l'oxygene. Les feuilles sont adaptees par leur forme large, leurs chloroplastes, leurs nervures et leurs stomates.",
+      "required": false,
+      "xp": 5
+    }
+  ],
+  "quiz": {
+    "title": "Photosynthesis",
+    "title_fr": "La photosynthese",
+    "pass_score": 60,
+    "questions": [
+      {
+        "kind": "mcq",
+        "text": "What are the raw materials for photosynthesis?",
+        "text_fr": "Quels sont les reactifs de la photosynthese ?",
+        "explanation": "Carbon dioxide and water.",
+        "explanation_fr": "Le dioxyde de carbone et l'eau.",
+        "choices": [
+          {
+            "text": "Carbon dioxide and water",
+            "text_fr": "Dioxyde de carbone et eau",
+            "correct": true
+          },
+          {
+            "text": "Oxygen and glucose",
+            "text_fr": "Oxygene et glucose",
+            "correct": false
+          },
+          {
+            "text": "Nitrogen and water",
+            "text_fr": "Azote et eau",
+            "correct": false
+          }
+        ],
+        "hints": [
+          {
+            "text": "The products are glucose and oxygen.",
+            "text_fr": "Les produits sont le glucose et l'oxygene."
+          }
+        ],
+        "difficulty": 1
+      },
+      {
+        "kind": "mcq",
+        "text": "What is the green pigment in leaves called?",
+        "text_fr": "Comment s'appelle le pigment vert des feuilles ?",
+        "explanation": "Chlorophyll is the green pigment.",
+        "explanation_fr": "La chlorophylle est le pigment vert.",
+        "choices": [
+          {
+            "text": "Chlorophyll",
+            "text_fr": "La chlorophylle",
+            "correct": true
+          },
+          {
+            "text": "Haemoglobin",
+            "text_fr": "L'hemoglobine",
+            "correct": false
+          },
+          {
+            "text": "Cellulose",
+            "text_fr": "La cellulose",
+            "correct": false
+          }
+        ],
+        "hints": [
+          {
+            "text": "It absorbs light.",
+            "text_fr": "Il absorbe la lumiere."
+          }
+        ],
+        "difficulty": 1
+      },
+      {
+        "kind": "mcq",
+        "text": "Which gas is produced by photosynthesis?",
+        "text_fr": "Quel gaz est produit par la photosynthese ?",
+        "explanation": "Oxygen is produced.",
+        "explanation_fr": "L'oxygene est produit.",
+        "choices": [
+          {
+            "text": "Oxygen",
+            "text_fr": "L'oxygene",
+            "correct": true
+          },
+          {
+            "text": "Carbon dioxide",
+            "text_fr": "Le dioxyde de carbone",
+            "correct": false
+          },
+          {
+            "text": "Nitrogen",
+            "text_fr": "L'azote",
+            "correct": false
+          }
+        ],
+        "hints": [
+          {
+            "text": "Plants release it.",
+            "text_fr": "Les plantes le liberent."
+          }
+        ],
+        "difficulty": 1
+      },
+      {
+        "kind": "mcq",
+        "text": "Why are leaves thin?",
+        "text_fr": "Pourquoi les feuilles sont-elles fines ?",
+        "explanation": "So gases diffuse in and out quickly.",
+        "explanation_fr": "Pour que les gaz diffusent vite.",
+        "choices": [
+          {
+            "text": "For quick gas diffusion",
+            "text_fr": "Pour une diffusion rapide des gaz",
+            "correct": true
+          },
+          {
+            "text": "To store water",
+            "text_fr": "Pour stocker l'eau",
+            "correct": false
+          },
+          {
+            "text": "To make seeds",
+            "text_fr": "Pour faire des graines",
+            "correct": false
+          }
+        ],
+        "hints": [
+          {
+            "text": "Short distance helps diffusion.",
+            "text_fr": "Une courte distance aide la diffusion."
+          }
+        ],
+        "difficulty": 1
+      }
+    ]
+  }
+}

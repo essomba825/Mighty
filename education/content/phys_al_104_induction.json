@@ -1,0 +1,347 @@
+{
+  "lesson": 104,
+  "status": "published",
+  "lesson_fields": {
+    "title": "Electromagnetic Induction",
+    "title_fr": "Induction electromagnetique",
+    "summary": "A voltage is induced across a conductor when it cuts magnetic field lines. This is called electromagnetic induction. The size of the voltage depends on how quickly the field lines are cut.",
+    "summary_fr": "Une tension est induite aux bornes d'un conducteur quand il coupe des lignes de champ magnetique. C'est l'induction electromagnetique. L'intensite de la tension depend de la vitesse a laquelle on coupe les lignes de champ.",
+    "content": "## How a voltage is induced\n\nIf a wire or a coil moves in a magnetic field, or if the field changes around it, a voltage is induced across it. This only happens while the field lines are being cut.\n\n## Making it larger\n\nThe induced voltage becomes larger if the movement is faster, if there are more turns on the coil, or if a stronger magnetic field is used.",
+    "content_fr": "## Comment une tension est induite\n\nSi un fil ou une bobine se deplace dans un champ magnetique, ou si le champ autour de lui change, une tension est induite a ses bornes. Cela ne se produit que pendant qu'on coupe les lignes de champ.\n\n## Augmenter l'amplitude\n\nLa tension induite augmente si le mouvement est plus rapide, si la bobine a plus de spires, ou si on utilise un champ magnetique plus fort.",
+    "objectives": [
+      "Explain when a voltage is induced",
+      "Give three ways to make the induced voltage larger",
+      "Say what is needed to keep the voltage induced"
+    ],
+    "objectives_fr": [
+      "Expliquer quand une tension est induite",
+      "Donner trois moyens d'augmenter la tension induite",
+      "Dire ce qu'il faut faire pour maintenir la tension induite"
+    ],
+    "estimated_minutes": 25
+  },
+  "steps": [
+    {
+      "kind": "concept",
+      "title": "Cutting field lines",
+      "title_fr": "Couper les lignes de champ",
+      "content": "A voltage is induced across a conductor when it cuts magnetic field lines. The conductor can be a straight wire or a coil. Nothing is induced if the conductor is still or if it moves parallel to the field lines.",
+      "content_fr": "Une tension est induite aux bornes d'un conducteur quand il coupe des lignes de champ magnetique. Le conducteur peut etre un fil droit ou une bobine. Rien n'est induit si le conducteur est immobile, ou s'il se deplace parallelement aux lignes de champ.",
+      "required": true,
+      "xp": 10,
+      "question": {
+        "kind": "mcq",
+        "text": "When is a voltage induced across a wire?",
+        "text_fr": "Quand une tension est-elle induite aux bornes d'un fil ?",
+        "explanation": "A voltage is induced only when the wire cuts magnetic field lines.",
+        "explanation_fr": "Une tension n'est induite que quand le fil coupe des lignes de champ magnetique.",
+        "hint_prompt": "Movement relative to field lines matters.",
+        "hint_prompt_fr": "Le mouvement par rapport aux lignes de champ est important.",
+        "choices": [
+          {
+            "text": "When it moves across field lines",
+            "text_fr": "Quand il se deplace en coupant les lignes de champ",
+            "correct": true
+          },
+          {
+            "text": "When it stays still in the field",
+            "text_fr": "Quand il reste immobile dans le champ",
+            "correct": false
+          },
+          {
+            "text": "When it is parallel to the field",
+            "text_fr": "Quand il est parallele au champ",
+            "correct": false
+          }
+        ],
+        "hints": [
+          {
+            "text": "Cutting is the key word.",
+            "text_fr": "Le mot cle est couper."
+          }
+        ]
+      }
+    },
+    {
+      "kind": "explain",
+      "title": "Relative movement",
+      "title_fr": "Mouvement relatif",
+      "content": "It does not matter which one moves: either the wire moves through the field, or the magnet moves past the wire. What matters is that the conductor cuts the magnetic field lines.",
+      "content_fr": "Peu importe lequel bouge : soit le fil se deplace dans le champ, soit l'aimant se deplace devant le fil. Ce qui compte, c'est que le conducteur coupe des lignes de champ magnetique.",
+      "required": true,
+      "xp": 10
+    },
+    {
+      "kind": "example",
+      "title": "Worked example: a simple generator",
+      "title_fr": "Exemple resolu : un generateur simple",
+      "content": "A magnet is pushed into a coil of wire. A voltage is induced across the coil.\n\nIf the magnet is pulled out more quickly, a larger voltage is induced, but it is in the opposite direction.",
+      "content_fr": "On enfonce un aimant dans une bobine de fil. Une tension est induite aux bornes de la bobine.\n\nSi on retire l'aimant plus rapidement, une tension plus grande est induite, mais dans le sens inverse.",
+      "required": true,
+      "xp": 12
+    },
+    {
+      "kind": "practice",
+      "title": "Your turn: making it bigger",
+      "title_fr": "A toi : augmenter la tension",
+      "content": "Three ways can increase the induced voltage: faster movement, more turns on the coil, or stronger magnetic field. Choose one and say why.",
+      "content_fr": "Trois moyens d'augmenter la tension induite : un mouvement plus rapide, plus de spires sur la bobine, ou un champ magnetique plus fort. Choisis l'un d'eux et explique pourquoi.",
+      "required": true,
+      "xp": 12,
+      "question": {
+        "kind": "mcq",
+        "text": "Which gives a larger induced voltage?",
+        "text_fr": "Lequel donne une tension induite plus grande ?",
+        "explanation": "Moving faster cuts more field lines each second, so the induced voltage is larger.",
+        "explanation_fr": "Se deplacer plus vite coupe plus de lignes de champ par seconde, donc la tension induite est plus grande.",
+        "hint_prompt": "Think about rate of cutting.",
+        "hint_prompt_fr": "Pense a la vitesse de coupe des lignes de champ.",
+        "choices": [
+          {
+            "text": "Moving the magnet faster",
+            "text_fr": "Deplacer l'aimant plus vite",
+            "correct": true
+          },
+          {
+            "text": "Moving the magnet slowly",
+            "text_fr": "Deplacer l'aimant lentement",
+            "correct": false
+          },
+          {
+            "text": "Keeping it still",
+            "text_fr": "Le laisser immobile",
+            "correct": false
+          }
+        ],
+        "hints": [
+          {
+            "text": "The rate of cutting field lines matters.",
+            "text_fr": "La vitesse a laquelle on coupe les lignes de champ compte."
+          }
+        ]
+      }
+    },
+    {
+      "kind": "question",
+      "title": "Check: coil changes",
+      "title_fr": "Verification : bobine",
+      "content": "Using a coil with more turns means each turn cuts field lines, so more turns give a larger induced voltage. A stronger magnetic field also gives more field lines to cut.",
+      "content_fr": "Utiliser une bobine avec plus de spires signifie que chaque spire coupe des lignes de champ, donc plus de spires donnent une tension induite plus grande. Un champ magnetique plus fort donne aussi plus de lignes de champ a couper.",
+      "required": true,
+      "xp": 12,
+      "question": {
+        "kind": "mcq",
+        "text": "Why does a coil with more turns give a larger induced voltage?",
+        "text_fr": "Pourquoi une bobine avec plus de spires donne-t-elle une tension induite plus grande ?",
+        "explanation": "Each turn cuts the field lines, so more turns add together to give a larger total voltage.",
+        "explanation_fr": "Chaque spire coupe des lignes de champ, donc plus de spires s'additionnent pour donner une tension totale plus grande.",
+        "hint_prompt": "Each turn is a conductor.",
+        "hint_prompt_fr": "Chaque spire est un conducteur.",
+        "choices": [
+          {
+            "text": "Each turn adds to the total",
+            "text_fr": "Chaque spire s'ajoute au total",
+            "correct": true
+          },
+          {
+            "text": "The wire becomes thicker",
+            "text_fr": "Le fil devient plus epais",
+            "correct": false
+          },
+          {
+            "text": "There is less resistance",
+            "text_fr": "Il y a moins de resistance",
+            "correct": false
+          }
+        ],
+        "hints": [
+          {
+            "text": "Add up the turns.",
+            "text_fr": "Additionne les spires."
+          }
+        ]
+      }
+    },
+    {
+      "kind": "summary",
+      "title": "What to keep",
+      "title_fr": "A retenir",
+      "content": "A voltage is induced when a conductor cuts magnetic field lines. Faster movement, more turns, or a stronger field make the induced voltage larger. To keep it induced, you must keep cutting the field lines.",
+      "content_fr": "Une tension est induite quand un conducteur coupe des lignes de champ magnetique. Un mouvement plus rapide, plus de spires ou un champ plus fort augmentent la tension induite. Pour la maintenir, il faut continuer a couper les lignes de champ.",
+      "required": false,
+      "xp": 5
+    }
+  ],
+  "quiz": {
+    "title": "Electromagnetic Induction",
+    "title_fr": "Induction electromagnetique",
+    "pass_score": 60,
+    "questions": [
+      {
+        "kind": "mcq",
+        "text": "When is a voltage induced across a wire?",
+        "text_fr": "Quand une tension est-elle induite aux bornes d'un fil ?",
+        "explanation": "Only when it cuts magnetic field lines.",
+        "explanation_fr": "Seulement quand il coupe des lignes de champ magnetique.",
+        "hint_prompt": "There must be relative movement.",
+        "hint_prompt_fr": "Il doit y avoir un mouvement relatif.",
+        "choices": [
+          {
+            "text": "It cuts magnetic field lines",
+            "text_fr": "Il coupe des lignes de champ magnetique",
+            "correct": true
+          },
+          {
+            "text": "It stays still in the field",
+            "text_fr": "Il reste immobile dans le champ",
+            "correct": false
+          },
+          {
+            "text": "It is parallel to the field",
+            "text_fr": "Il est parallele au champ",
+            "correct": false
+          }
+        ],
+        "hints": [
+          {
+            "text": "Cutting is needed.",
+            "text_fr": "Il faut couper."
+          }
+        ],
+        "difficulty": 1
+      },
+      {
+        "kind": "mcq",
+        "text": "Which of the following does NOT increase the induced voltage?",
+        "text_fr": "Lequel de ces choix n'augmente PAS la tension induite ?",
+        "explanation": "A weaker field means fewer field lines to cut.",
+        "explanation_fr": "Un champ plus faible signifie moins de lignes de champ a couper.",
+        "hint_prompt": "Think about strength.",
+        "hint_prompt_fr": "Pense a la force du champ.",
+        "choices": [
+          {
+            "text": "Using a weaker magnet",
+            "text_fr": "Utiliser un aimant plus faible",
+            "correct": true
+          },
+          {
+            "text": "Moving faster",
+            "text_fr": "Se deplacer plus vite",
+            "correct": false
+          },
+          {
+            "text": "Using more turns",
+            "text_fr": "Utiliser plus de spires",
+            "correct": false
+          }
+        ],
+        "hints": [
+          {
+            "text": "We want the effect to be larger, not smaller.",
+            "text_fr": "On veut que l'effet soit plus grand, pas plus petit."
+          }
+        ],
+        "difficulty": 1
+      },
+      {
+        "kind": "mcq",
+        "text": "Which is true about a simple generator?",
+        "text_fr": "Quel est le bon point a propos d'un generateur simple ?",
+        "explanation": "The magnet and coil move relative to each other to induce a voltage.",
+        "explanation_fr": "L'aimant et la bobine se deplacent l'un par rapport a l'autre pour induire une tension.",
+        "hint_prompt": "No voltage without cutting.",
+        "hint_prompt_fr": "Pas de tension sans couper les lignes de champ.",
+        "choices": [
+          {
+            "text": "A voltage is induced when the magnet moves into the coil",
+            "text_fr": "Une tension est induite quand l'aimant entre dans la bobine",
+            "correct": true
+          },
+          {
+            "text": "A voltage is always there, even if nothing moves",
+            "text_fr": "Une tension est toujours la, meme si rien ne bouge",
+            "correct": false
+          },
+          {
+            "text": "It only works if the coil is heated",
+            "text_fr": "Il ne fonctionne que si la bobine est rechauffee",
+            "correct": false
+          }
+        ],
+        "hints": [
+          {
+            "text": "Movement is needed.",
+            "text_fr": "Un mouvement est necessaire."
+          }
+        ],
+        "difficulty": 1
+      },
+      {
+        "kind": "mcq",
+        "text": "To keep inducing a voltage, what must happen?",
+        "text_fr": "Pour continuer a induire une tension, que faut-il faire ?",
+        "explanation": "You must keep cutting magnetic field lines by moving the magnet or the coil.",
+        "explanation_fr": "Il faut continuer a couper des lignes de champ magnetique en deplaçant l'aimant ou la bobine.",
+        "hint_prompt": "Stopping stops the induction.",
+        "hint_prompt_fr": "S'arreter arrete l'induction.",
+        "choices": [
+          {
+            "text": "Keep the magnet or coil moving",
+            "text_fr": "Continuer a deplacer l'aimant ou la bobine",
+            "correct": true
+          },
+          {
+            "text": "Keep everything still",
+            "text_fr": "Tout laisser immobile",
+            "correct": false
+          },
+          {
+            "text": "Remove all wires",
+            "text_fr": "Retirer tous les fils",
+            "correct": false
+          }
+        ],
+        "hints": [
+          {
+            "text": "Continuous cutting gives continuous voltage.",
+            "text_fr": "Couper en continu donne une tension en continu."
+          }
+        ],
+        "difficulty": 2
+      },
+      {
+        "kind": "mcq",
+        "text": "Which change would produce the smallest induced voltage?",
+        "text_fr": "Quel changement produirait la plus petite tension induite ?",
+        "explanation": "Slow movement and a weak field and few turns give the smallest induced voltage.",
+        "explanation_fr": "Un mouvement lent, un champ faible et peu de spires donnent la plus petite tension induite.",
+        "hint_prompt": "We want the least, not the most.",
+        "hint_prompt_fr": "On veut le moins possible, pas le plus possible.",
+        "choices": [
+          {
+            "text": "Slowly move a weak magnet near a coil with few turns",
+            "text_fr": "Deplacer lentement un aimant faible pres d'une bobine avec peu de spires",
+            "correct": true
+          },
+          {
+            "text": "Quickly move a strong magnet near a coil with many turns",
+            "text_fr": "Deplacer rapidement un aimant fort pres d'une bobine avec beaucoup de spires",
+            "correct": false
+          },
+          {
+            "text": "Spin a strong magnet inside a large coil",
+            "text_fr": "Faire tourner un aimant fort a l'interieur d'une grande bobine",
+            "correct": false
+          }
+        ],
+        "hints": [
+          {
+            "text": "All three factors reduced.",
+            "text_fr": "Les trois facteurs sont diminues."
+          }
+        ],
+        "difficulty": 2
+      }
+    ]
+  }
+}

@@ -1,0 +1,285 @@
+{
+  "lesson": 142,
+  "status": "published",
+  "lesson_fields": {
+    "title": "Tests for Gases",
+    "title_fr": "Tests des gaz",
+    "summary": "Identify common gases using simple tests such as a lighted splint, limewater and damp litmus paper.",
+    "summary_fr": "Identifier des gaz courants grâce à des tests simples : tige incandescente, eau de chaux et papier de tournesol humide.",
+    "content": "## What you will learn\n\nEach gas has a simple test that gives a clear change. Learning these tests lets you work out which gas is produced by a reaction.",
+    "content_fr": "## Ce que tu vas apprendre\n\nChaque gaz possède un test simple qui donne un changement net. Apprendre ces tests permet de déterminer quel gaz une réaction produit.",
+    "objectives": [
+      "Describe the tests for hydrogen, oxygen and carbon dioxide",
+      "Describe the tests for chlorine and ammonia",
+      "Choose the right test to identify an unknown gas"
+    ],
+    "objectives_fr": [
+      "Décrire les tests de l'hydrogène, de l'oxygène et du dioxyde de carbone",
+      "Décrire les tests du chlore et de l'ammoniac",
+      "Choisir le bon test pour identifier un gaz inconnu"
+    ],
+    "estimated_minutes": 30
+  },
+  "steps": [
+    {
+      "kind": "concept",
+      "title": "Testing for hydrogen and oxygen",
+      "title_fr": "Tester l'hydrogène et l'oxygène",
+      "content": "Chemists use simple tests to find out which gas is given off. Hydrogen burns with a squeaky pop when a lighted splint is held in it. Oxygen makes a glowing splint relight.\n\nThese tests rely on a clear change, such as a sound or a splint that relights.",
+      "content_fr": "Les chimistes utilisent des tests simples pour savoir quel gaz se dégage. L'hydrogène produit une petite détonation (« pop ») lorsqu'on approche une tige enflammée. L'oxygène fait se rallumer une tige incandescente.\n\nCes tests reposent sur un changement net, comme un bruit ou une tige qui se rallume.",
+      "required": true,
+      "xp": 10,
+      "question": {
+        "kind": "mcq",
+        "difficulty": 1,
+        "text": "Which gas gives a squeaky pop with a lighted splint?",
+        "text_fr": "Quel gaz donne une petite détonation avec une tige enflammée ?",
+        "explanation": "Hydrogen burns quickly and makes a squeaky pop with a lighted splint.",
+        "explanation_fr": "L'hydrogène brûle rapidement et produit une petite détonation avec une tige enflammée.",
+        "hint_prompt": "It makes a small bang.",
+        "hint_prompt_fr": "Il produit un petit bruit sec.",
+        "choices": [
+          {"text": "Hydrogen", "text_fr": "L'hydrogène", "correct": true},
+          {"text": "Oxygen", "text_fr": "L'oxygène", "correct": false},
+          {"text": "Carbon dioxide", "text_fr": "Le dioxyde de carbone", "correct": false},
+          {"text": "Chlorine", "text_fr": "Le chlore", "correct": false}
+        ],
+        "hints": [
+          {"text": "The test uses a lighted splint.", "text_fr": "Le test utilise une tige enflammée."},
+          {"text": "It is hydrogen.", "text_fr": "C'est l'hydrogène."}
+        ]
+      }
+    },
+    {
+      "kind": "concept",
+      "title": "Testing for carbon dioxide, chlorine and ammonia",
+      "title_fr": "Tester le dioxyde de carbone, le chlore et l'ammoniac",
+      "content": "Carbon dioxide turns limewater milky (cloudy). Chlorine bleaches damp litmus paper and turns it white. Ammonia turns damp red litmus paper blue.\n\nChlorine and ammonia need damp litmus paper, because they dissolve in the water on the paper.",
+      "content_fr": "Le dioxyde de carbone rend l'eau de chaux laiteuse (trouble). Le chlore décolore le papier de tournesol humide et le blanchit. L'ammoniac fait virer au bleu le papier de tournesol rouge humide.\n\nLe chlore et l'ammoniac ont besoin de papier de tournesol humide, car ils se dissolvent dans l'eau du papier.",
+      "required": true,
+      "xp": 12,
+      "question": {
+        "kind": "mcq",
+        "difficulty": 2,
+        "text": "Which gas turns damp red litmus paper blue?",
+        "text_fr": "Quel gaz fait virer au bleu le papier de tournesol rouge humide ?",
+        "explanation": "Ammonia is alkaline, so it turns damp red litmus paper blue.",
+        "explanation_fr": "L'ammoniac est basique : il fait virer au bleu le papier de tournesol rouge humide.",
+        "hint_prompt": "It is an alkaline gas.",
+        "hint_prompt_fr": "C'est un gaz basique.",
+        "choices": [
+          {"text": "Ammonia", "text_fr": "L'ammoniac", "correct": true},
+          {"text": "Chlorine", "text_fr": "Le chlore", "correct": false},
+          {"text": "Oxygen", "text_fr": "L'oxygène", "correct": false},
+          {"text": "Hydrogen", "text_fr": "L'hydrogène", "correct": false}
+        ],
+        "hints": [
+          {"text": "Red to blue means an alkaline gas.", "text_fr": "Rouge vers bleu indique un gaz basique."},
+          {"text": "It is ammonia.", "text_fr": "C'est l'ammoniac."}
+        ]
+      }
+    },
+    {
+      "kind": "explain",
+      "title": "Choosing the right test",
+      "title_fr": "Choisir le bon test",
+      "content": "Certain reactions give off a known gas. A metal reacting with an acid gives hydrogen, and a carbonate reacting with an acid gives carbon dioxide. Heating a carbonate also gives off carbon dioxide.\n\nTo test carbon dioxide, bubble the gas through limewater; a milky result shows it is present. To test hydrogen, hold a lighted splint at the mouth of the test tube.",
+      "content_fr": "Certaines réactions dégagent un gaz connu. Un métal qui réagit avec un acide dégage de l'hydrogène, et un carbonate qui réagit avec un acide dégage du dioxyde de carbone. Chauffer un carbonate dégage aussi du dioxyde de carbone.\n\nPour tester le dioxyde de carbone, on fait barboter le gaz dans l'eau de chaux ; un résultat laiteux prouve sa présence. Pour tester l'hydrogène, on approche une tige enflammée de l'ouverture du tube.",
+      "required": true,
+      "xp": 12,
+      "question": {
+        "kind": "mcq",
+        "difficulty": 2,
+        "text": "Which gas relights a glowing splint?",
+        "text_fr": "Quel gaz rallume une tige incandescente ?",
+        "explanation": "Oxygen supports burning and relights a glowing splint.",
+        "explanation_fr": "L'oxygène entretient la combustion et rallume une tige incandescente.",
+        "hint_prompt": "This gas is needed for burning.",
+        "hint_prompt_fr": "Ce gaz est nécessaire à la combustion.",
+        "choices": [
+          {"text": "Oxygen", "text_fr": "L'oxygène", "correct": true},
+          {"text": "Hydrogen", "text_fr": "L'hydrogène", "correct": false},
+          {"text": "Carbon dioxide", "text_fr": "Le dioxyde de carbone", "correct": false},
+          {"text": "Ammonia", "text_fr": "L'ammoniac", "correct": false}
+        ],
+        "hints": [
+          {"text": "A glowing splint, not a lighted one.", "text_fr": "Une tige incandescente, pas enflammée."},
+          {"text": "It is oxygen.", "text_fr": "C'est l'oxygène."}
+        ]
+      }
+    },
+    {
+      "kind": "concept",
+      "title": "The five tests to know",
+      "title_fr": "Les cinq tests à connaître",
+      "content": "By the end of this topic you should know five tests: hydrogen gives a squeaky pop, oxygen relights a glowing splint, carbon dioxide turns limewater milky, chlorine bleaches damp litmus paper, and ammonia turns damp red litmus paper blue.\n\nChoosing the right test lets you identify an unknown gas from a reaction.",
+      "content_fr": "À la fin de ce chapitre, tu dois connaître cinq tests : l'hydrogène produit une petite détonation, l'oxygène rallume une tige incandescente, le dioxyde de carbone rend l'eau de chaux laiteuse, le chlore décolore le papier de tournesol humide et l'ammoniac fait virer au bleu le papier de tournesol rouge humide.\n\nChoisir le bon test permet d'identifier un gaz inconnu produit par une réaction.",
+      "required": true,
+      "xp": 12,
+      "question": {
+        "kind": "mcq",
+        "difficulty": 2,
+        "text": "A carbonate is added to an acid and a gas fizzes out. Which gas is it?",
+        "text_fr": "On ajoute un carbonate à un acide et un gaz se dégage en effervescence. Quel est ce gaz ?",
+        "explanation": "A carbonate reacting with an acid gives off carbon dioxide, which turns limewater milky.",
+        "explanation_fr": "Un carbonate qui réagit avec un acide dégage du dioxyde de carbone, qui rend l'eau de chaux laiteuse.",
+        "hint_prompt": "This reaction is the classic carbonate test.",
+        "hint_prompt_fr": "C'est la réaction classique du test des carbonates.",
+        "choices": [
+          {"text": "Carbon dioxide", "text_fr": "Le dioxyde de carbone", "correct": true},
+          {"text": "Hydrogen", "text_fr": "L'hydrogène", "correct": false},
+          {"text": "Oxygen", "text_fr": "L'oxygène", "correct": false},
+          {"text": "Chlorine", "text_fr": "Le chlore", "correct": false}
+        ],
+        "hints": [
+          {"text": "A carbonate plus an acid gives this gas.", "text_fr": "Un carbonate plus un acide donnent ce gaz."},
+          {"text": "It turns limewater milky.", "text_fr": "Il rend l'eau de chaux laiteuse."}
+        ]
+      }
+    },
+    {
+      "kind": "practice",
+      "title": "Your turn: name the gas",
+      "title_fr": "À toi : nomme le gaz",
+      "content": "Use the observation in each test to name the gas.",
+      "content_fr": "Utilise l'observation de chaque test pour nommer le gaz.",
+      "required": true,
+      "xp": 12,
+      "question": {
+        "kind": "mcq",
+        "difficulty": 2,
+        "text": "A gas bleaches a piece of damp litmus paper, turning it white. Which gas is it?",
+        "text_fr": "Un gaz décolore un morceau de papier de tournesol humide et le blanchit. Quel est ce gaz ?",
+        "explanation": "Chlorine bleaches damp litmus paper and turns it white.",
+        "explanation_fr": "Le chlore décolore le papier de tournesol humide et le blanchit.",
+        "hint_prompt": "Only one gas bleaches the paper.",
+        "hint_prompt_fr": "Un seul gaz blanchit le papier.",
+        "choices": [
+          {"text": "Chlorine", "text_fr": "Le chlore", "correct": true},
+          {"text": "Ammonia", "text_fr": "L'ammoniac", "correct": false},
+          {"text": "Hydrogen", "text_fr": "L'hydrogène", "correct": false},
+          {"text": "Carbon dioxide", "text_fr": "Le dioxyde de carbone", "correct": false}
+        ],
+        "hints": [
+          {"text": "Bleaching is the clue.", "text_fr": "Le blanchiment est l'indice."},
+          {"text": "It is chlorine.", "text_fr": "C'est le chlore."}
+        ]
+      }
+    },
+    {
+      "kind": "summary",
+      "title": "What to keep",
+      "title_fr": "À retenir",
+      "content": "Hydrogen gives a squeaky pop with a lighted splint, and oxygen relights a glowing splint. Carbon dioxide turns limewater milky. Chlorine bleaches damp litmus paper, and ammonia turns damp red litmus paper blue. These five tests let you identify an unknown gas.",
+      "content_fr": "L'hydrogène produit une petite détonation avec une tige enflammée, et l'oxygène rallume une tige incandescente. Le dioxyde de carbone rend l'eau de chaux laiteuse. Le chlore décolore le papier de tournesol humide, et l'ammoniac fait virer au bleu le papier de tournesol rouge humide. Ces cinq tests permettent d'identifier un gaz inconnu.",
+      "xp": 5
+    }
+  ],
+  "quiz": {
+    "title": "Quiz: tests for gases",
+    "title_fr": "Quiz : les tests des gaz",
+    "pass_score": 60,
+    "questions": [
+      {
+        "kind": "mcq",
+        "difficulty": 1,
+        "text": "The test for hydrogen uses...",
+        "text_fr": "Le test de l'hydrogène utilise...",
+        "explanation": "A lighted splint held in hydrogen gives a squeaky pop.",
+        "explanation_fr": "Une tige enflammée approchée de l'hydrogène produit une petite détonation.",
+        "hint_prompt": "Listen for a pop.",
+        "hint_prompt_fr": "Écoute une petite détonation.",
+        "choices": [
+          {"text": "a lighted splint and a squeaky pop", "text_fr": "une tige enflammée et une petite détonation", "correct": true},
+          {"text": "limewater turning milky", "text_fr": "de l'eau de chaux qui devient laiteuse", "correct": false},
+          {"text": "damp litmus turning white", "text_fr": "du tournesol humide qui blanchit", "correct": false},
+          {"text": "a glowing splint relighting", "text_fr": "une tige incandescente qui se rallume", "correct": false}
+        ],
+        "hints": [
+          {"text": "This test makes a noise.", "text_fr": "Ce test produit un bruit."},
+          {"text": "It is a squeaky pop.", "text_fr": "C'est une petite détonation."}
+        ]
+      },
+      {
+        "kind": "mcq",
+        "difficulty": 1,
+        "text": "Limewater turns milky with which gas?",
+        "text_fr": "L'eau de chaux devient laiteuse avec quel gaz ?",
+        "explanation": "Carbon dioxide turns limewater milky.",
+        "explanation_fr": "Le dioxyde de carbone rend l'eau de chaux laiteuse.",
+        "hint_prompt": "It is produced by burning fuels.",
+        "hint_prompt_fr": "Il est produit par la combustion des carburants.",
+        "choices": [
+          {"text": "Carbon dioxide", "text_fr": "Le dioxyde de carbone", "correct": true},
+          {"text": "Oxygen", "text_fr": "L'oxygène", "correct": false},
+          {"text": "Hydrogen", "text_fr": "L'hydrogène", "correct": false},
+          {"text": "Chlorine", "text_fr": "Le chlore", "correct": false}
+        ],
+        "hints": [
+          {"text": "It is a common greenhouse gas.", "text_fr": "C'est un gaz à effet de serre courant."},
+          {"text": "It is carbon dioxide.", "text_fr": "C'est le dioxyde de carbone."}
+        ]
+      },
+      {
+        "kind": "mcq",
+        "difficulty": 2,
+        "text": "Which gas turns damp red litmus paper blue?",
+        "text_fr": "Quel gaz fait virer au bleu le papier de tournesol rouge humide ?",
+        "explanation": "Ammonia is alkaline and turns damp red litmus paper blue.",
+        "explanation_fr": "L'ammoniac est basique et fait virer au bleu le papier de tournesol rouge humide.",
+        "hint_prompt": "It is an alkaline gas.",
+        "hint_prompt_fr": "C'est un gaz basique.",
+        "choices": [
+          {"text": "Ammonia", "text_fr": "L'ammoniac", "correct": true},
+          {"text": "Chlorine", "text_fr": "Le chlore", "correct": false},
+          {"text": "Oxygen", "text_fr": "L'oxygène", "correct": false},
+          {"text": "Hydrogen", "text_fr": "L'hydrogène", "correct": false}
+        ],
+        "hints": [
+          {"text": "A gas that turns red litmus blue is alkaline.", "text_fr": "Un gaz qui fait virer le tournesol rouge au bleu est basique."},
+          {"text": "It is ammonia.", "text_fr": "C'est l'ammoniac."}
+        ]
+      },
+      {
+        "kind": "mcq",
+        "difficulty": 2,
+        "text": "Which gas relights a glowing splint?",
+        "text_fr": "Quel gaz rallume une tige incandescente ?",
+        "explanation": "Oxygen relights a glowing splint.",
+        "explanation_fr": "L'oxygène rallume une tige incandescente.",
+        "hint_prompt": "This gas is in the air we breathe.",
+        "hint_prompt_fr": "Ce gaz se trouve dans l'air que nous respirons.",
+        "choices": [
+          {"text": "Oxygen", "text_fr": "L'oxygène", "correct": true},
+          {"text": "Hydrogen", "text_fr": "L'hydrogène", "correct": false},
+          {"text": "Carbon dioxide", "text_fr": "Le dioxyde de carbone", "correct": false},
+          {"text": "Ammonia", "text_fr": "L'ammoniac", "correct": false}
+        ],
+        "hints": [
+          {"text": "The splint glows but does not burn.", "text_fr": "La tige est incandescente mais ne brûle pas."},
+          {"text": "It is oxygen.", "text_fr": "C'est l'oxygène."}
+        ]
+      },
+      {
+        "kind": "mcq",
+        "difficulty": 2,
+        "text": "Which gas bleaches damp litmus paper?",
+        "text_fr": "Quel gaz décolore le papier de tournesol humide ?",
+        "explanation": "Chlorine bleaches damp litmus paper and turns it white.",
+        "explanation_fr": "Le chlore décolore le papier de tournesol humide et le blanchit.",
+        "hint_prompt": "It is a green, toxic gas.",
+        "hint_prompt_fr": "C'est un gaz vert et toxique.",
+        "choices": [
+          {"text": "Chlorine", "text_fr": "Le chlore", "correct": true},
+          {"text": "Ammonia", "text_fr": "L'ammoniac", "correct": false},
+          {"text": "Oxygen", "text_fr": "L'oxygène", "correct": false},
+          {"text": "Carbon dioxide", "text_fr": "Le dioxyde de carbone", "correct": false}
+        ],
+        "hints": [
+          {"text": "Bleaching is the clue.", "text_fr": "Le blanchiment est l'indice."},
+          {"text": "It is chlorine.", "text_fr": "C'est le chlore."}
+        ]
+      }
+    ]
+  }
+}

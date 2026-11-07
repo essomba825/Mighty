@@ -1,0 +1,303 @@
+{
+  "lesson": 132,
+  "status": "published",
+  "lesson_fields": {
+    "title": "Human Nutrition and Digestion",
+    "title_fr": "Nutrition humaine et digestion",
+    "summary": "Humans need a balanced diet. Food is digested by enzymes into small molecules that are absorbed into the blood.",
+    "summary_fr": "L'humain a besoin d'une alimentation equilibree. Les aliments sont digeres par des enzymes en petites molecules absorbees dans le sang.",
+    "content": "## A balanced diet\n\nCarbohydrates give energy, proteins are for growth and repair, fats store energy. Vitamins, minerals, fibre and water are also needed.\n\n## Enzymes\n\nCarbohydrases break down carbohydrates, proteases break down proteins, and lipases break down fats. Absorption happens in the small intestine.",
+    "content_fr": "## Une alimentation equilibree\n\nLes glucides donnent de l'energie, les proteines servent a la croissance et a la reparation, les lipides stockent l'energie. Les vitamines, les mineraux, les fibres et l'eau sont aussi necessaires.\n\n## Les enzymes\n\nLes carbohydrases decomposent les glucides, les proteases decomposent les proteines, et les lipases decomposent les lipides. L'absorption se fait dans l'intestin grele.",
+    "objectives": [
+      "Name the main nutrients and their functions",
+      "Name the three main types of digestive enzyme",
+      "Explain how the small intestine is adapted for absorption"
+    ],
+    "objectives_fr": [
+      "Nommer les principaux nutriments et leurs fonctions",
+      "Nommer les trois principaux types d'enzymes digestives",
+      "Expliquer comment l'intestin grele est adapte a l'absorption"
+    ],
+    "estimated_minutes": 25
+  },
+  "steps": [
+    {
+      "kind": "concept",
+      "title": "A balanced diet",
+      "title_fr": "Une alimentation equilibree",
+      "content": "A balanced diet has the right amounts of carbohydrates, proteins, fats, vitamins, minerals, fibre and water. Deficiency can cause health problems.",
+      "content_fr": "Une alimentation equilibree contient les bonnes quantites de glucides, proteines, lipides, vitamines, mineraux, fibres et eau. Une carence peut causer des problemes de sante.",
+      "required": true,
+      "xp": 10,
+      "question": {
+        "kind": "mcq",
+        "text": "Which nutrient is used for growth and repair?",
+        "text_fr": "Quel nutriment sert a la croissance et a la reparation ?",
+        "explanation": "Proteins are for growth and repair.",
+        "explanation_fr": "Les proteines servent a la croissance et a la reparation.",
+        "choices": [
+          {
+            "text": "Proteins",
+            "text_fr": "Les proteines",
+            "correct": true
+          },
+          {
+            "text": "Fats",
+            "text_fr": "Les lipides",
+            "correct": false
+          },
+          {
+            "text": "Fibre",
+            "text_fr": "Les fibres",
+            "correct": false
+          }
+        ],
+        "hints": [
+          {
+            "text": "Found in meat and beans.",
+            "text_fr": "Present dans la viande et les haricots."
+          }
+        ],
+        "difficulty": 1
+      }
+    },
+    {
+      "kind": "explain",
+      "title": "Enzymes at work",
+      "title_fr": "Les enzymes au travail",
+      "content": "Digestive enzymes break large molecules into small ones. Carbohydrases make sugars, proteases make amino acids, and lipases make fatty acids and glycerol.",
+      "content_fr": "Les enzymes digestives decomposent les grosses molecules en petites. Les carbohydrases donnent des sucres, les proteases donnent des acides amines, et les lipases donnent des acides gras et du glycerol.",
+      "required": true,
+      "xp": 10
+    },
+    {
+      "kind": "example",
+      "title": "Absorption in the small intestine",
+      "title_fr": "L'absorption dans l'intestin grele",
+      "content": "The small intestine is long with folded walls covered in villi. Villi give a large surface area, and each has a good blood supply, so small molecules are absorbed quickly.",
+      "content_fr": "L'intestin grele est long, avec des parois plissees couvertes de villosites. Les villosites donnent une grande surface, et chacune a une bonne vascularisation, donc les petites molecules sont absorbees vite.",
+      "required": true,
+      "xp": 12
+    },
+    {
+      "kind": "practice",
+      "title": "Your turn: fats",
+      "title_fr": "A toi : les lipides",
+      "content": "Which enzyme breaks down fats?",
+      "content_fr": "Quelle enzyme decompose les lipides ?",
+      "required": true,
+      "xp": 12,
+      "question": {
+        "kind": "mcq",
+        "text": "Which enzyme breaks down fats?",
+        "text_fr": "Quelle enzyme decompose les lipides ?",
+        "explanation": "Lipase breaks down fats.",
+        "explanation_fr": "La lipase decompose les lipides.",
+        "choices": [
+          {
+            "text": "Lipase",
+            "text_fr": "La lipase",
+            "correct": true
+          },
+          {
+            "text": "Protease",
+            "text_fr": "La protease",
+            "correct": false
+          },
+          {
+            "text": "Amylase",
+            "text_fr": "L'amylase",
+            "correct": false
+          }
+        ],
+        "hints": [
+          {
+            "text": "Its name starts like lipids.",
+            "text_fr": "Son nom commence comme lipides."
+          }
+        ],
+        "difficulty": 1
+      }
+    },
+    {
+      "kind": "question",
+      "title": "Check: villi",
+      "title_fr": "Verification : villosites",
+      "content": "Villi increase the surface area of the small intestine, which speeds up absorption of digested food into the blood.",
+      "content_fr": "Les villosites augmentent la surface de l'intestin grele, ce qui accelere l'absorption des aliments digeres dans le sang.",
+      "required": true,
+      "xp": 12,
+      "question": {
+        "kind": "mcq",
+        "text": "What is the main job of villi?",
+        "text_fr": "Quel est le role principal des villosites ?",
+        "explanation": "To increase surface area for absorption.",
+        "explanation_fr": "Augmenter la surface d'absorption.",
+        "choices": [
+          {
+            "text": "Increase surface area",
+            "text_fr": "Augmenter la surface",
+            "correct": true
+          },
+          {
+            "text": "Make enzymes",
+            "text_fr": "Fabriquer des enzymes",
+            "correct": false
+          },
+          {
+            "text": "Store water",
+            "text_fr": "Stocker l'eau",
+            "correct": false
+          }
+        ],
+        "hints": [
+          {
+            "text": "More surface means faster absorption.",
+            "text_fr": "Plus de surface veut dire absorption plus rapide."
+          }
+        ],
+        "difficulty": 1
+      }
+    },
+    {
+      "kind": "summary",
+      "title": "What to keep",
+      "title_fr": "A retenir",
+      "content": "A balanced diet gives carbohydrates, proteins, fats, vitamins, minerals, fibre and water. Enzymes digest food; villi in the small intestine absorb the small molecules.",
+      "content_fr": "Une alimentation equilibree donne glucides, proteines, lipides, vitamines, mineraux, fibres et eau. Les enzymes digerent les aliments ; les villosites de l'intestin grele absorbent les petites molecules.",
+      "required": false,
+      "xp": 5
+    }
+  ],
+  "quiz": {
+    "title": "Human Nutrition and Digestion",
+    "title_fr": "Nutrition humaine et digestion",
+    "pass_score": 60,
+    "questions": [
+      {
+        "kind": "mcq",
+        "text": "Which enzyme breaks down proteins?",
+        "text_fr": "Quelle enzyme decompose les proteines ?",
+        "explanation": "Protease breaks down proteins.",
+        "explanation_fr": "La protease decompose les proteines.",
+        "choices": [
+          {
+            "text": "Protease",
+            "text_fr": "La protease",
+            "correct": true
+          },
+          {
+            "text": "Lipase",
+            "text_fr": "La lipase",
+            "correct": false
+          },
+          {
+            "text": "Amylase",
+            "text_fr": "L'amylase",
+            "correct": false
+          }
+        ],
+        "hints": [
+          {
+            "text": "Its name sounds like protein.",
+            "text_fr": "Son nom ressemble a proteine."
+          }
+        ],
+        "difficulty": 1
+      },
+      {
+        "kind": "mcq",
+        "text": "Where is most food absorbed?",
+        "text_fr": "Ou la plupart de la nourriture est-elle absorbee ?",
+        "explanation": "In the small intestine.",
+        "explanation_fr": "Dans l'intestin grele.",
+        "choices": [
+          {
+            "text": "Small intestine",
+            "text_fr": "L'intestin grele",
+            "correct": true
+          },
+          {
+            "text": "Stomach",
+            "text_fr": "L'estomac",
+            "correct": false
+          },
+          {
+            "text": "Mouth",
+            "text_fr": "La bouche",
+            "correct": false
+          }
+        ],
+        "hints": [
+          {
+            "text": "It has villi.",
+            "text_fr": "Il a des villosites."
+          }
+        ],
+        "difficulty": 1
+      },
+      {
+        "kind": "mcq",
+        "text": "Which nutrient is the main energy source?",
+        "text_fr": "Quel nutriment est la principale source d'energie ?",
+        "explanation": "Carbohydrates.",
+        "explanation_fr": "Les glucides.",
+        "choices": [
+          {
+            "text": "Carbohydrates",
+            "text_fr": "Les glucides",
+            "correct": true
+          },
+          {
+            "text": "Minerals",
+            "text_fr": "Les mineraux",
+            "correct": false
+          },
+          {
+            "text": "Water",
+            "text_fr": "L'eau",
+            "correct": false
+          }
+        ],
+        "hints": [
+          {
+            "text": "Starch and sugar.",
+            "text_fr": "L'amidon et le sucre."
+          }
+        ],
+        "difficulty": 1
+      },
+      {
+        "kind": "mcq",
+        "text": "Why is fibre important?",
+        "text_fr": "Pourquoi les fibres sont-elles importantes ?",
+        "explanation": "It helps food move through the gut.",
+        "explanation_fr": "Elles aident les aliments a progresser dans l'intestin.",
+        "choices": [
+          {
+            "text": "Helps food move through the gut",
+            "text_fr": "Aident les aliments a progresser",
+            "correct": true
+          },
+          {
+            "text": "Gives lots of energy",
+            "text_fr": "Donnent beaucoup d'energie",
+            "correct": false
+          },
+          {
+            "text": "Makes blood",
+            "text_fr": "Fabriquent le sang",
+            "correct": false
+          }
+        ],
+        "hints": [
+          {
+            "text": "It prevents constipation.",
+            "text_fr": "Elles evitent la constipation."
+          }
+        ],
+        "difficulty": 1
+      }
+    ]
+  }
+}

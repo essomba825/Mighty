@@ -1,0 +1,291 @@
+{
+  "lesson": 153,
+  "status": "published",
+  "lesson_fields": {
+    "title": "Simple Data Processing",
+    "title_fr": "Traitement simple de donnees",
+    "summary": "Programs often need to read many values and summarise them. Loops, lists and totals turn raw data into useful results.",
+    "summary_fr": "Les programmes doivent souvent lire de nombreuses valeurs et les resumer. Les boucles, les listes et les totaux transforment des donnees brutes en resultats utiles.",
+    "content": "## Working through data\n\nData often arrives as many lines of text. A program can read each line, convert it to a number, and store the values in a list.\n\n```python\ntotal = 0\nfor line in lines:\n    total = total + int(line)\n```\n\nOnce the values are in a list, you can find a total, an average, the largest value or the smallest value.",
+    "content_fr": "## Parcourir les donnees\n\nLes donnees arrivent souvent sous forme de nombreuses lignes de texte. Un programme peut lire chaque ligne, la convertir en nombre et stocker les valeurs dans une liste.\n\nQuand les valeurs sont dans une liste, on peut trouver un total, une moyenne, la plus grande valeur ou la plus petite valeur.",
+    "objectives": [
+      "Read values from lines of text",
+      "Convert text to numbers",
+      "Compute totals, averages and extremes"
+    ],
+    "objectives_fr": [
+      "Lire des valeurs a partir de lignes de texte",
+      "Convertir du texte en nombres",
+      "Calculer des totaux, des moyennes et des extremes"
+    ],
+    "estimated_minutes": 25
+  },
+  "steps": [
+    {
+      "kind": "concept",
+      "title": "From text to numbers",
+      "title_fr": "Du texte aux nombres",
+      "content": "Text read from a file is a string, even if it looks like a number. Use int or float to convert it before doing arithmetic.",
+      "content_fr": "Le texte lu dans un fichier est une chaine de caracteres, meme s'il ressemble a un nombre. Utilise int ou float pour le convertir avant de faire des calculs.",
+      "required": true,
+      "xp": 10,
+      "question": {
+        "kind": "mcq",
+        "text": "What type is text read from a file?",
+        "text_fr": "Quel type a le texte lu dans un fichier ?",
+        "explanation": "A string.",
+        "explanation_fr": "Une chaine de caracteres.",
+        "choices": [
+          {
+            "text": "A string",
+            "text_fr": "Une chaine de caracteres",
+            "correct": true
+          },
+          {
+            "text": "An integer",
+            "text_fr": "Un entier",
+            "correct": false
+          },
+          {
+            "text": "A boolean",
+            "text_fr": "Un booleen",
+            "correct": false
+          }
+        ],
+        "hints": [
+          {
+            "text": "It is treated as text at first.",
+            "text_fr": "Il est d'abord traite comme du texte."
+          }
+        ],
+        "difficulty": 1
+      }
+    },
+    {
+      "kind": "explain",
+      "title": "Looping and totalling",
+      "title_fr": "Boucler et additionner",
+      "content": "Start a total at zero. Go through each value, convert it to a number, and add it to the total. After the loop, the total holds the sum of all values.",
+      "content_fr": "Commence un total a zero. Parcours chaque valeur, convertis-la en nombre et ajoute-la au total. Apres la boucle, le total contient la somme de toutes les valeurs.",
+      "required": true,
+      "xp": 10
+    },
+    {
+      "kind": "example",
+      "title": "Average of a list",
+      "title_fr": "Moyenne d'une liste",
+      "content": "The average equals the total divided by the number of values. In Python, len gives the count.\n\n```python\naverage = total / len(values)\n```",
+      "content_fr": "La moyenne egale le total divise par le nombre de valeurs. En Python, len donne le nombre d'elements.",
+      "required": true,
+      "xp": 12
+    },
+    {
+      "kind": "practice",
+      "title": "Your turn: total",
+      "title_fr": "A toi : le total",
+      "content": "A list holds the values 4, 6 and 10. What is their total?",
+      "content_fr": "Une liste contient les valeurs 4, 6 et 10. Quel est leur total ?",
+      "required": true,
+      "xp": 12,
+      "question": {
+        "kind": "numeric",
+        "text": "What is the total?",
+        "text_fr": "Quel est le total ?",
+        "explanation": "Add them: 4 plus 6 plus 10 is 20.",
+        "explanation_fr": "Additionne-les : 4 plus 6 plus 10 vaut 20.",
+        "config": {
+          "accepted": [
+            "20"
+          ]
+        },
+        "hints": [
+          {
+            "text": "Add the numbers together.",
+            "text_fr": "Additionne les nombres."
+          }
+        ],
+        "difficulty": 1
+      }
+    },
+    {
+      "kind": "question",
+      "title": "Check: average",
+      "title_fr": "Verification : la moyenne",
+      "content": "If the total is 20 and there are 4 values, the average is 20 divided by 4, which is 5.",
+      "content_fr": "Si le total vaut 20 et qu'il y a 4 valeurs, la moyenne vaut 20 divise par 4, soit 5.",
+      "required": true,
+      "xp": 12,
+      "question": {
+        "kind": "mcq",
+        "text": "Total 20 over 4 values. What is the average?",
+        "text_fr": "Total 20 pour 4 valeurs. Quelle est la moyenne ?",
+        "explanation": "5",
+        "explanation_fr": "5",
+        "choices": [
+          {
+            "text": "5",
+            "text_fr": "5",
+            "correct": true
+          },
+          {
+            "text": "16",
+            "text_fr": "16",
+            "correct": false
+          },
+          {
+            "text": "80",
+            "text_fr": "80",
+            "correct": false
+          }
+        ],
+        "hints": [
+          {
+            "text": "Divide the total by the count.",
+            "text_fr": "Divise le total par le nombre de valeurs."
+          }
+        ],
+        "difficulty": 1
+      }
+    },
+    {
+      "kind": "summary",
+      "title": "What to keep",
+      "title_fr": "A retenir",
+      "content": "Read data line by line, convert text to numbers, and store values in a list. Then compute totals, averages and extremes with simple loops.",
+      "content_fr": "Lis les donnees ligne par ligne, convertis le texte en nombres et stocke les valeurs dans une liste. Calcule ensuite les totaux, les moyennes et les extremes avec des boucles simples.",
+      "required": false,
+      "xp": 5
+    }
+  ],
+  "quiz": {
+    "title": "Simple Data Processing",
+    "title_fr": "Traitement simple de donnees",
+    "pass_score": 60,
+    "questions": [
+      {
+        "kind": "mcq",
+        "text": "Which function converts text to a whole number?",
+        "text_fr": "Quelle fonction convertit du texte en nombre entier ?",
+        "explanation": "int",
+        "explanation_fr": "int",
+        "choices": [
+          {
+            "text": "int",
+            "text_fr": "int",
+            "correct": true
+          },
+          {
+            "text": "str",
+            "text_fr": "str",
+            "correct": false
+          },
+          {
+            "text": "float",
+            "text_fr": "float",
+            "correct": false
+          }
+        ],
+        "hints": [
+          {
+            "text": "It gives an integer.",
+            "text_fr": "Elle donne un entier."
+          }
+        ],
+        "difficulty": 1
+      },
+      {
+        "kind": "mcq",
+        "text": "Total 40 over 4 values, what is the average?",
+        "text_fr": "Total 40 pour 4 valeurs, quelle est la moyenne ?",
+        "explanation": "10",
+        "explanation_fr": "10",
+        "choices": [
+          {
+            "text": "10",
+            "text_fr": "10",
+            "correct": true
+          },
+          {
+            "text": "44",
+            "text_fr": "44",
+            "correct": false
+          },
+          {
+            "text": "36",
+            "text_fr": "36",
+            "correct": false
+          }
+        ],
+        "hints": [
+          {
+            "text": "Divide the total by the count.",
+            "text_fr": "Divise le total par le nombre de valeurs."
+          }
+        ],
+        "difficulty": 1
+      },
+      {
+        "kind": "mcq",
+        "text": "What should a total start at?",
+        "text_fr": "A quelle valeur faut-il commencer un total ?",
+        "explanation": "Zero",
+        "explanation_fr": "Zero",
+        "choices": [
+          {
+            "text": "Zero",
+            "text_fr": "Zero",
+            "correct": true
+          },
+          {
+            "text": "One",
+            "text_fr": "Un",
+            "correct": false
+          },
+          {
+            "text": "The first value",
+            "text_fr": "La premiere valeur",
+            "correct": false
+          }
+        ],
+        "hints": [
+          {
+            "text": "Adding nothing changes nothing.",
+            "text_fr": "Ajouter rien ne change rien."
+          }
+        ],
+        "difficulty": 1
+      },
+      {
+        "kind": "mcq",
+        "text": "Which gives the number of items in a list?",
+        "text_fr": "Quelle fonction donne le nombre d'elements d'une liste ?",
+        "explanation": "len",
+        "explanation_fr": "len",
+        "choices": [
+          {
+            "text": "len",
+            "text_fr": "len",
+            "correct": true
+          },
+          {
+            "text": "sum",
+            "text_fr": "sum",
+            "correct": false
+          },
+          {
+            "text": "max",
+            "text_fr": "max",
+            "correct": false
+          }
+        ],
+        "hints": [
+          {
+            "text": "It means length.",
+            "text_fr": "Cela signifie longueur."
+          }
+        ],
+        "difficulty": 1
+      }
+    ]
+  }
+}

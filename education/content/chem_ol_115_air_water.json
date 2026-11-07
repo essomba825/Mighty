@@ -1,0 +1,275 @@
+{
+  "lesson": 115,
+  "status": "published",
+  "lesson_fields": {
+    "title": "Air, Water and Combustion",
+    "title_fr": "Air, eau et combustion",
+    "summary": "Describe the composition of clean air and water and explain what happens during combustion.",
+    "summary_fr": "Décrire la composition de l'air propre et de l'eau et expliquer ce qui se passe lors de la combustion.",
+    "content": "## What you will learn\n\nAir and water are two of the most familiar mixtures on Earth, yet they have a precise composition. In this lesson you will also learn what happens when a fuel burns in air.",
+    "content_fr": "## Ce que tu vas apprendre\n\nL'air et l'eau sont deux des mélanges les plus familiers sur Terre, et pourtant leur composition est précise. Dans cette leçon, tu apprendras aussi ce qui se passe quand un combustible brûle dans l'air.",
+    "objectives": [
+      "State the composition of clean air",
+      "Explain combustion and the tests for its products",
+      "Describe the composition and purification of water"
+    ],
+    "objectives_fr": [
+      "Donner la composition de l'air propre",
+      "Expliquer la combustion et les tests de ses produits",
+      "Décrire la composition et la purification de l'eau"
+    ],
+    "estimated_minutes": 30
+  },
+  "steps": [
+    {
+      "kind": "concept",
+      "title": "The composition of clean air",
+      "title_fr": "Composition de l'air propre",
+      "content": "Clean air is a mixture of gases. It is about 78 percent nitrogen and 21 percent oxygen by volume, with about 1 percent noble gases, mostly argon, and a very small amount of carbon dioxide, around 0.04 percent.\n\nThe percentages add up to roughly 100. Nitrogen is the largest part, but oxygen is the gas that living things need for respiration and that fuels need for burning.\n\nWorked example: a sample of 100 cubic centimetres of air contains about 78 cubic centimetres of nitrogen and 21 of oxygen.",
+      "content_fr": "L'air propre est un mélange de gaz. Il contient environ 78 pour cent de diazote et 21 pour cent de dioxygène en volume, avec environ 1 pour cent de gaz nobles, surtout de l'argon, et une très petite quantité de dioxyde de carbone, autour de 0,04 pour cent.\n\nLes pourcentages totalisent à peu près 100. Le diazote est le constituant principal, mais le dioxygène est le gaz dont les êtres vivants ont besoin pour respirer et les combustibles pour brûler.\n\nExemple rédigé : un échantillon de 100 centimètres cubes d'air contient environ 78 centimètres cubes de diazote et 21 de dioxygène.",
+      "required": true,
+      "xp": 10,
+      "question": {
+        "kind": "numeric",
+        "difficulty": 1,
+        "text": "What percentage of clean air is oxygen by volume?",
+        "text_fr": "Quel pourcentage de l'air propre est du dioxygène en volume ?",
+        "explanation": "Oxygen makes up about 21 percent of clean air by volume.",
+        "explanation_fr": "Le dioxygène représente environ 21 pour cent de l'air propre en volume.",
+        "hint_prompt": "It is a bit more than one fifth.",
+        "hint_prompt_fr": "C'est un peu plus d'un cinquième.",
+        "config": {"accepted": [21]},
+        "hints": [
+          {"text": "Nitrogen is 78 percent.", "text_fr": "Le diazote est à 78 pour cent."},
+          {"text": "Oxygen is about 21 percent.", "text_fr": "Le dioxygène est d'environ 21 pour cent."}
+        ]
+      }
+    },
+    {
+      "kind": "concept",
+      "title": "Combustion",
+      "title_fr": "La combustion",
+      "content": "Combustion means burning, and it happens when a fuel reacts with oxygen and gives out heat and light. When the fuel contains carbon and hydrogen, the products are carbon dioxide and water.\n\nWorked example: burning methane gives carbon dioxide and water, written CH4 + 2O2, arrow, CO2 + 2H2O. You can test the products: limewater turns milky with carbon dioxide, and white anhydrous copper sulfate turns blue with water.\n\nIf there is plenty of oxygen the burning is complete, but if oxygen is limited the burning is incomplete and produces poisonous carbon monoxide and soot.",
+      "content_fr": "La combustion a lieu quand un combustible réagit avec le dioxygène en dégageant de la chaleur et de la lumière. Quand le combustible contient du carbone et de l'hydrogène, les produits sont le dioxyde de carbone et l'eau.\n\nExemple rédigé : la combustion du méthane donne du dioxyde de carbone et de l'eau, soit CH4 + 2O2, flèche, CO2 + 2H2O. Tu peux tester les produits : l'eau de chaux se trouble avec le dioxyde de carbone, et le sulfate de cuivre anhydre blanc devient bleu avec l'eau.\n\nS'il y a beaucoup de dioxygène, la combustion est complète ; si le dioxygène manque, elle est incomplète et produit du monoxyde de carbone toxique et de la suie.",
+      "required": true,
+      "xp": 12,
+      "question": {
+        "kind": "mcq",
+        "difficulty": 2,
+        "text": "Which test shows that carbon dioxide is produced during combustion?",
+        "text_fr": "Quel test montre que du dioxyde de carbone se produit lors d'une combustion ?",
+        "explanation": "Carbon dioxide turns limewater milky, which is the standard test for it.",
+        "explanation_fr": "Le dioxyde de carbone trouble l'eau de chaux : c'est le test habituel.",
+        "hint_prompt": "It involves a milky result.",
+        "hint_prompt_fr": "Le résultat est un trouble laiteux.",
+        "choices": [
+          {"text": "Limewater turns milky", "text_fr": "L'eau de chaux se trouble", "correct": true},
+          {"text": "A lighted splint pops", "text_fr": "Une flamme produit une détonation", "correct": false},
+          {"text": "The flame turns red", "text_fr": "La flamme devient rouge", "correct": false},
+          {"text": "Blue crystals form", "text_fr": "Des cristaux bleus se forment", "correct": false}
+        ],
+        "hints": [
+          {"text": "The liquid becomes cloudy.", "text_fr": "Le liquide devient laiteux."},
+          {"text": "It is limewater.", "text_fr": "C'est l'eau de chaux."}
+        ]
+      }
+    },
+    {
+      "kind": "concept",
+      "title": "Pure water and its treatment",
+      "title_fr": "L'eau pure et son traitement",
+      "content": "Pure water contains only water particles and boils at exactly 100 degrees Celsius and freezes at 0 degrees. If a sample boils over a range of temperatures, it contains dissolved substances and is not pure.\n\nNatural water from rivers and lakes is not pure: it carries mud, dissolved salts and microbes. It is cleaned in several steps, including screening to remove large objects, filtration to remove suspended solids, and chlorination to kill microbes.\n\nWorked example: for drinking water, a town may also add small amounts of chemicals to help the microbes settle before it filters and disinfects the water.",
+      "content_fr": "L'eau pure ne contient que des particules d'eau : elle bout à exactement 100 degrés Celsius et gèle à 0 degré. Si un échantillon bout sur une plage de températures, il contient des substances dissoutes et n'est pas pur.\n\nL'eau naturelle des rivières et des lacs n'est pas pure : elle porte de la boue, des sels dissous et des microbes. On la nettoie en plusieurs étapes : le dégrillage pour retirer les gros objets, la filtration pour retirer les solides en suspension, et la chloration pour tuer les microbes.\n\nExemple rédigé : pour l'eau potable, une ville ajoute aussi de petites quantités de produits qui aident les microbes à se déposer avant la filtration et la désinfection.",
+      "required": true,
+      "xp": 12,
+      "question": {
+        "kind": "mcq",
+        "difficulty": 2,
+        "text": "Why is chlorine added during the treatment of drinking water?",
+        "text_fr": "Pourquoi ajoute-t-on du chlore lors du traitement de l'eau potable ?",
+        "explanation": "Chlorine is added to kill harmful microbes so the water is safe to drink.",
+        "explanation_fr": "Le chlore est ajouté pour tuer les microbes dangereux et rendre l'eau potable.",
+        "hint_prompt": "Think about the microbes.",
+        "hint_prompt_fr": "Pense aux microbes.",
+        "choices": [
+          {"text": "To kill microbes", "text_fr": "Pour tuer les microbes", "correct": true},
+          {"text": "To add salt to the water", "text_fr": "Pour ajouter du sel à l'eau", "correct": false},
+          {"text": "To make it boil faster", "text_fr": "Pour la faire bouillir plus vite", "correct": false},
+          {"text": "To give it a blue colour", "text_fr": "Pour la colorer en bleu", "correct": false}
+        ],
+        "hints": [
+          {"text": "It makes water safe.", "text_fr": "Il rend l'eau potable."},
+          {"text": "It kills microbes.", "text_fr": "Il tue les microbes."}
+        ]
+      }
+    },
+    {
+      "kind": "explain",
+      "title": "Air pollution and greenhouse gases",
+      "title_fr": "Pollution de l'air et gaz à effet de serre",
+      "content": "Burning fuels can pollute the air. Carbon dioxide is a greenhouse gas that adds to global warming. Sulfur dioxide from burning fuels with sulfur dissolves in rain to make acid rain, which damages buildings, soil and lakes.\n\nCarbon monoxide, formed when fuel burns without enough oxygen, is poisonous and can harm people indoors without them noticing. Nitrogen oxides from vehicle engines also add to acid rain and smog.\n\nModern cars use a catalytic converter to change harmful carbon monoxide and nitrogen oxides into less harmful carbon dioxide and nitrogen.",
+      "content_fr": "Brûler des combustibles peut polluer l'air. Le dioxyde de carbone est un gaz à effet de serre qui contribue au réchauffement. Le dioxyde de soufre, issu de la combustion de combustibles soufrés, se dissout dans la pluie et forme les pluies acides, qui abîment les bâtiments, les sols et les lacs.\n\nLe monoxyde de carbone, formé quand le combustible brûle sans assez de dioxygène, est toxique et peut nuire dans les habitations sans être remarqué. Les oxydes d'azote des moteurs contribuent aussi aux pluies acides et au smog.\n\nLes voitures récentes utilisent un pot catalytique pour transformer le monoxyde de carbone et les oxydes d'azote nocifs en dioxyde de carbone et diazote moins nuisibles.",
+      "required": true,
+      "xp": 12,
+      "question": {
+        "kind": "mcq",
+        "difficulty": 2,
+        "text": "Which gas is mainly responsible for acid rain?",
+        "text_fr": "Quel gaz est surtout responsable des pluies acides ?",
+        "explanation": "Sulfur dioxide dissolves in rainwater to form an acidic solution that falls as acid rain.",
+        "explanation_fr": "Le dioxyde de soufre se dissout dans l'eau de pluie et forme une solution acide qui tombe en pluies acides.",
+        "hint_prompt": "It comes from sulfur in fuels.",
+        "hint_prompt_fr": "Il vient du soufre des combustibles.",
+        "choices": [
+          {"text": "Sulfur dioxide", "text_fr": "Le dioxyde de soufre", "correct": true},
+          {"text": "Nitrogen", "text_fr": "Le diazote", "correct": false},
+          {"text": "Helium", "text_fr": "L'hélium", "correct": false},
+          {"text": "Oxygen", "text_fr": "Le dioxygène", "correct": false}
+        ],
+        "hints": [
+          {"text": "It contains sulfur.", "text_fr": "Il contient du soufre."},
+          {"text": "It is sulfur dioxide.", "text_fr": "C'est le dioxyde de soufre."}
+        ]
+      }
+    },
+    {
+      "kind": "practice",
+      "title": "Your turn: match the gas to its test",
+      "title_fr": "À toi : associe le gaz à son test",
+      "content": "Use the properties you have learned. Carbon dioxide turns limewater milky. Hydrogen gives a squeaky pop with a lighted splint. Water turns white anhydrous copper sulfate blue. Oxygen relights a glowing splint.",
+      "content_fr": "Utilise les propriétés que tu as apprises. Le dioxyde de carbone trouble l'eau de chaux. Le dihydrogène produit une détonation avec une flamme. L'eau rend bleu le sulfate de cuivre anhydre blanc. Le dioxygène rallume une bûchette incandescente.",
+      "required": true,
+      "xp": 12,
+      "question": {
+        "kind": "mcq",
+        "difficulty": 2,
+        "text": "Which product of burning a hydrocarbon turns white anhydrous copper sulfate blue?",
+        "text_fr": "Quel produit de la combustion d'un hydrocarbure rend bleu le sulfate de cuivre anhydre blanc ?",
+        "explanation": "Water turns white anhydrous copper sulfate blue, so a blue colour shows water was produced.",
+        "explanation_fr": "L'eau rend bleu le sulfate de cuivre anhydre blanc : une couleur bleue montre donc qu'il s'est formé de l'eau.",
+        "hint_prompt": "Think about the hydrogen in the fuel.",
+        "hint_prompt_fr": "Pense à l'hydrogène du combustible.",
+        "choices": [
+          {"text": "Water", "text_fr": "L'eau", "correct": true},
+          {"text": "Carbon dioxide", "text_fr": "Le dioxyde de carbone", "correct": false},
+          {"text": "Soot", "text_fr": "La suie", "correct": false},
+          {"text": "Carbon monoxide", "text_fr": "Le monoxyde de carbone", "correct": false}
+        ],
+        "hints": [
+          {"text": "The test is for water.", "text_fr": "Le test est celui de l'eau."},
+          {"text": "It is water.", "text_fr": "C'est l'eau."}
+        ]
+      }
+    },
+    {
+      "kind": "summary",
+      "title": "What to keep",
+      "title_fr": "À retenir",
+      "content": "Clean air is about 78 percent nitrogen, 21 percent oxygen, about 1 percent noble gases and a little carbon dioxide. Combustion needs oxygen and gives out heat and light; burning a hydrocarbon makes carbon dioxide and water, tested with limewater and anhydrous copper sulfate. Pure water boils at 100 degrees; drinking water is treated by screening, filtration and chlorination.",
+      "content_fr": "L'air propre contient environ 78 pour cent de diazote, 21 pour cent de dioxygène, environ 1 pour cent de gaz nobles et un peu de dioxyde de carbone. La combustion a besoin de dioxygène et dégage chaleur et lumière ; brûler un hydrocarbure forme du dioxyde de carbone et de l'eau, testés par l'eau de chaux et le sulfate de cuivre anhydre. L'eau pure bout à 100 degrés ; l'eau potable est traitée par dégrillage, filtration et chloration.",
+      "xp": 5
+    }
+  ],
+  "quiz": {
+    "title": "Quiz: air, water and combustion",
+    "title_fr": "Quiz : air, eau et combustion",
+    "pass_score": 60,
+    "questions": [
+      {
+        "kind": "numeric",
+        "difficulty": 1,
+        "text": "What percentage of clean air is nitrogen by volume?",
+        "text_fr": "Quel pourcentage de l'air propre est du diazote en volume ?",
+        "explanation": "Nitrogen makes up about 78 percent of clean air by volume.",
+        "explanation_fr": "Le diazote représente environ 78 pour cent de l'air propre en volume.",
+        "hint_prompt": "It is the biggest part.",
+        "hint_prompt_fr": "C'est le constituant principal.",
+        "config": {"accepted": [78]},
+        "hints": [
+          {"text": "It is more than three quarters.", "text_fr": "C'est plus de trois quarts."},
+          {"text": "About 78 percent.", "text_fr": "Environ 78 pour cent."}
+        ]
+      },
+      {
+        "kind": "mcq",
+        "difficulty": 1,
+        "text": "Which gas is needed for combustion to happen?",
+        "text_fr": "Quel gaz est nécessaire pour qu'une combustion ait lieu ?",
+        "explanation": "Combustion needs oxygen from the air to burn the fuel.",
+        "explanation_fr": "La combustion a besoin du dioxygène de l'air pour brûler le combustible.",
+        "hint_prompt": "It is 21 percent of air.",
+        "hint_prompt_fr": "Il représente 21 pour cent de l'air.",
+        "choices": [
+          {"text": "Oxygen", "text_fr": "Le dioxygène", "correct": true},
+          {"text": "Nitrogen", "text_fr": "Le diazote", "correct": false},
+          {"text": "Helium", "text_fr": "L'hélium", "correct": false},
+          {"text": "Argon", "text_fr": "L'argon", "correct": false}
+        ],
+        "hints": [
+          {"text": "It is about one fifth of air.", "text_fr": "C'est environ un cinquième de l'air."},
+          {"text": "It is oxygen.", "text_fr": "C'est le dioxygène."}
+        ]
+      },
+      {
+        "kind": "mcq",
+        "difficulty": 2,
+        "text": "Which two products form when methane burns completely in plenty of oxygen?",
+        "text_fr": "Quels deux produits se forment quand le méthane brûle complètement dans beaucoup de dioxygène ?",
+        "explanation": "Burning a hydrocarbon in plenty of oxygen gives carbon dioxide and water.",
+        "explanation_fr": "Brûler un hydrocarbure dans beaucoup de dioxygène donne du dioxyde de carbone et de l'eau.",
+        "hint_prompt": "The fuel has carbon and hydrogen.",
+        "hint_prompt_fr": "Le combustible contient du carbone et de l'hydrogène.",
+        "choices": [
+          {"text": "Carbon dioxide and water", "text_fr": "Du dioxyde de carbone et de l'eau", "correct": true},
+          {"text": "Carbon monoxide and soot", "text_fr": "Du monoxyde de carbone et de la suie", "correct": false},
+          {"text": "Only carbon dioxide", "text_fr": "Seulement du dioxyde de carbone", "correct": false},
+          {"text": "Hydrogen and oxygen", "text_fr": "Du dihydrogène et du dioxygène", "correct": false}
+        ],
+        "hints": [
+          {"text": "Complete burning avoids carbon monoxide.", "text_fr": "La combustion complète évite le monoxyde de carbone."},
+          {"text": "You get carbon dioxide and water.", "text_fr": "Tu obtiens du dioxyde de carbone et de l'eau."}
+        ]
+      },
+      {
+        "kind": "mcq",
+        "difficulty": 2,
+        "text": "A sample of water boils over a range of temperatures. What does this show?",
+        "text_fr": "Un échantillon d'eau bout sur une plage de températures. Qu'est-ce que cela montre ?",
+        "explanation": "A range of boiling temperatures means dissolved substances are present, so the water is not pure.",
+        "explanation_fr": "Une plage de températures d'ébullition signifie que des corps dissous sont présents : l'eau n'est pas pure.",
+        "hint_prompt": "Pure water boils at one exact temperature.",
+        "hint_prompt_fr": "L'eau pure bout à une seule température précise.",
+        "choices": [
+          {"text": "It contains dissolved substances", "text_fr": "Elle contient des substances dissoutes", "correct": true},
+          {"text": "It is pure water", "text_fr": "C'est de l'eau pure", "correct": false},
+          {"text": "It is boiling water only", "text_fr": "C'est seulement de l'eau qui bout", "correct": false},
+          {"text": "It contains no particles", "text_fr": "Elle ne contient aucune particule", "correct": false}
+        ],
+        "hints": [
+          {"text": "Impurities change the boiling point.", "text_fr": "Les impuretés modifient la température d'ébullition."},
+          {"text": "So it is impure.", "text_fr": "Elle est donc impure."}
+        ]
+      },
+      {
+        "kind": "mcq",
+        "difficulty": 3,
+        "text": "Why is carbon monoxide dangerous?",
+        "text_fr": "Pourquoi le monoxyde de carbone est-il dangereux ?",
+        "explanation": "Carbon monoxide is poisonous and can harm people without being noticed, because it has no smell.",
+        "explanation_fr": "Le monoxyde de carbone est toxique et peut nuire sans être remarqué, car il est inodore.",
+        "hint_prompt": "Think about its effect on people.",
+        "hint_prompt_fr": "Pense à son effet sur les personnes.",
+        "choices": [
+          {"text": "It is poisonous but has no smell", "text_fr": "Il est toxique et inodore", "correct": true},
+          {"text": "It turns limewater milky", "text_fr": "Il trouble l'eau de chaux", "correct": false},
+          {"text": "It makes water blue", "text_fr": "Il colore l'eau en bleu", "correct": false},
+          {"text": "It helps plants grow", "text_fr": "Il aide les plantes à pousser", "correct": false}
+        ],
+        "hints": [
+          {"text": "You cannot smell it.", "text_fr": "Tu ne peux pas le sentir."},
+          {"text": "It is a poison.", "text_fr": "C'est un poison."}
+        ]
+      }
+    ]
+  }
+}

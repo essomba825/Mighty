@@ -1,0 +1,217 @@
+{
+  "lesson": 121,
+  "status": "published",
+  "lesson_fields": {
+    "title": "Circulation and Blood",
+    "title_fr": "Circulation et sang",
+    "summary": "The heart pumps blood around the body through blood vessels. Blood carries oxygen, nutrients and waste products.",
+    "summary_fr": "Le coeur pompe le sang dans tout le corps a travers les vaisseaux sanguins. Le sang transporte l'oxygene, les nutriments et les dechets.",
+    "content": "## The heart\n\nThe heart is a muscular pump with four chambers. The right side pumps blood to the lungs and the left side pumps blood to the rest of the body. Valves stop blood flowing the wrong way.\n\n## Blood vessels\n\nArteries carry blood away from the heart under high pressure. Veins carry blood back to the heart and contain valves. Capillaries are tiny vessels where substances pass to and from cells.",
+    "content_fr": "## Le coeur\n\nLe coeur est une pompe musculaire a quatre cavites. Le cote droit envoie le sang vers les poumons et le cote gauche l'envoie vers le reste du corps. Des valves empechent le sang de refluer.\n\n## Les vaisseaux sanguins\n\nLes arteres transportent le sang du coeur a haute pression. Les veines ramenent le sang vers le coeur et contiennent des valves. Les capillaires sont de minuscules vaisseaux ou les substances passent vers les cellules et en reviennent.",
+    "objectives": [
+      "Describe the double circulation of blood",
+      "Compare arteries, veins and capillaries",
+      "State the functions of the main blood components"
+    ],
+    "objectives_fr": [
+      "Decrire la double circulation du sang",
+      "Comparer arteres, veines et capillaires",
+      "Indiquer les fonctions des principaux composants du sang"
+    ],
+    "estimated_minutes": 25
+  },
+  "steps": [
+    {
+      "kind": "concept",
+      "title": "A double pump",
+      "title_fr": "Une double pompe",
+      "content": "The heart has four chambers: two atria and two ventricles. The right side pumps blood to the lungs and the left side pumps blood to the body. This is called double circulation.",
+      "content_fr": "Le coeur a quatre cavites : deux oreillettes et deux ventricules. Le cote droit envoie le sang aux poumons et le cote gauche l'envoie au corps. Cela s'appelle la double circulation.",
+      "required": true,
+      "xp": 10,
+      "question": {
+        "kind": "mcq",
+        "text": "Where does the right side of the heart pump blood?",
+        "text_fr": "Ou le cote droit du coeur envoie-t-il le sang ?",
+        "explanation": "The right side pumps blood to the lungs.",
+        "explanation_fr": "Le cote droit envoie le sang aux poumons.",
+        "hint_prompt": "It collects oxygen there.",
+        "hint_prompt_fr": "Il y recupere l'oxygene.",
+        "choices": [
+          {"text": "To the lungs", "text_fr": "Aux poumons", "correct": true},
+          {"text": "To the brain only", "text_fr": "Seulement au cerveau", "correct": false},
+          {"text": "To the legs only", "text_fr": "Seulement aux jambes", "correct": false}
+        ],
+        "hints": [
+          {"text": "For gas exchange.", "text_fr": "Pour les echanges gazeux."}
+        ]
+      }
+    },
+    {
+      "kind": "explain",
+      "title": "Vessels compared",
+      "title_fr": "Comparaison des vaisseaux",
+      "content": "Arteries have thick elastic walls and carry blood away from the heart. Veins have thinner walls and valves, and carry blood back. Capillaries have walls one cell thick, so substances can diffuse quickly.",
+      "content_fr": "Les arteres ont des parois epaisses et elastiques et transportent le sang du coeur. Les veines ont des parois plus fines et des valves, et ramenent le sang. Les capillaires ont des parois d'une seule cellule, donc les substances peuvent diffuser rapidement.",
+      "required": true,
+      "xp": 10
+    },
+    {
+      "kind": "example",
+      "title": "Components of blood",
+      "title_fr": "Les composants du sang",
+      "content": "Plasma is the liquid that carries dissolved substances. Red blood cells carry oxygen using haemoglobin. White blood cells defend against disease. Platelets help blood to clot.",
+      "content_fr": "Le plasma est le liquide qui transporte les substances dissoutes. Les globules rouges transportent l'oxygene grace a l'hemoglobine. Les globules blancs defendent contre les maladies. Les plaquettes aident le sang a coaguler.",
+      "required": true,
+      "xp": 12
+    },
+    {
+      "kind": "practice",
+      "title": "Your turn: which vessel",
+      "title_fr": "A toi : quel vaisseau",
+      "content": "Which type of blood vessel carries blood away from the heart?",
+      "content_fr": "Quel type de vaisseau sanguin transporte le sang hors du coeur ?",
+      "required": true,
+      "xp": 12,
+      "question": {
+        "kind": "mcq",
+        "text": "Which vessel carries blood away from the heart?",
+        "text_fr": "Quel vaisseau transporte le sang hors du coeur ?",
+        "explanation": "Arteries carry blood away from the heart.",
+        "explanation_fr": "Les arteres transportent le sang hors du coeur.",
+        "hint_prompt": "They have thick elastic walls.",
+        "hint_prompt_fr": "Elles ont des parois epaisses et elastiques.",
+        "choices": [
+          {"text": "Artery", "text_fr": "L'artere", "correct": true},
+          {"text": "Vein", "text_fr": "La veine", "correct": false},
+          {"text": "Capillary", "text_fr": "Le capillaire", "correct": false}
+        ],
+        "hints": [
+          {"text": "A for away.", "text_fr": "A comme artere et aller."}
+        ]
+      }
+    },
+    {
+      "kind": "question",
+      "title": "Check: blood cells",
+      "title_fr": "Verification : cellules du sang",
+      "content": "Red blood cells have no nucleus and contain haemoglobin, which binds oxygen. White blood cells have a nucleus and fight pathogens. Platelets are cell fragments that help clotting.",
+      "content_fr": "Les globules rouges n'ont pas de noyau et contiennent de l'hemoglobine, qui fixe l'oxygene. Les globules blancs ont un noyau et luttent contre les agents pathogenes. Les plaquettes sont des fragments de cellules qui aident la coagulation.",
+      "required": true,
+      "xp": 12,
+      "question": {
+        "kind": "mcq",
+        "text": "What do red blood cells carry?",
+        "text_fr": "Que transportent les globules rouges ?",
+        "explanation": "Red blood cells carry oxygen using haemoglobin.",
+        "explanation_fr": "Les globules rouges transportent l'oxygene grace a l'hemoglobine.",
+        "hint_prompt": "They contain haemoglobin.",
+        "hint_prompt_fr": "Ils contiennent de l'hemoglobine.",
+        "choices": [
+          {"text": "Oxygen", "text_fr": "L'oxygene", "correct": true},
+          {"text": "Fat", "text_fr": "Les lipides", "correct": false},
+          {"text": "Starch", "text_fr": "L'amidon", "correct": false}
+        ],
+        "hints": [
+          {"text": "Haemoglobin binds a gas.", "text_fr": "L'hemoglobine fixe un gaz."}
+        ]
+      }
+    },
+    {
+      "kind": "summary",
+      "title": "What to keep",
+      "title_fr": "A retenir",
+      "content": "The heart is a double pump. Arteries carry blood away, veins return it and capillaries exchange substances. Blood carries oxygen, nutrients and waste, and defends the body.",
+      "content_fr": "Le coeur est une double pompe. Les arteres transportent le sang, les veines le ramenent et les capillaires echangent les substances. Le sang transporte l'oxygene, les nutriments et les dechets, et defend le corps.",
+      "required": false,
+      "xp": 5
+    }
+  ],
+  "quiz": {
+    "title": "Circulation and Blood",
+    "title_fr": "Circulation et sang",
+    "pass_score": 60,
+    "questions": [
+      {
+        "kind": "mcq",
+        "text": "How many chambers does the heart have?",
+        "text_fr": "Combien de cavites le coeur a-t-il ?",
+        "explanation": "The heart has four chambers.",
+        "explanation_fr": "Le coeur a quatre cavites.",
+        "choices": [
+          {"text": "Four", "text_fr": "Quatre", "correct": true},
+          {"text": "Two", "text_fr": "Deux", "correct": false},
+          {"text": "Six", "text_fr": "Six", "correct": false}
+        ],
+        "hints": [
+          {"text": "Two atria and two ventricles.", "text_fr": "Deux oreillettes et deux ventricules."}
+        ],
+        "difficulty": 1
+      },
+      {
+        "kind": "mcq",
+        "text": "Which vessel carries blood back to the heart?",
+        "text_fr": "Quel vaisseau ramene le sang au coeur ?",
+        "explanation": "Veins carry blood back to the heart.",
+        "explanation_fr": "Les veines ramenent le sang au coeur.",
+        "choices": [
+          {"text": "Vein", "text_fr": "La veine", "correct": true},
+          {"text": "Artery", "text_fr": "L'artere", "correct": false},
+          {"text": "Capillary", "text_fr": "Le capillaire", "correct": false}
+        ],
+        "hints": [
+          {"text": "They contain valves.", "text_fr": "Elles contiennent des valves."}
+        ],
+        "difficulty": 1
+      },
+      {
+        "kind": "mcq",
+        "text": "Why are capillary walls only one cell thick?",
+        "text_fr": "Pourquoi les parois des capillaires ont-elles une seule cellule d'epaisseur ?",
+        "explanation": "A thin wall reduces the distance for diffusion, making exchange fast.",
+        "explanation_fr": "Une paroi fine reduit la distance de diffusion, ce qui rend l'echange rapide.",
+        "choices": [
+          {"text": "To allow fast diffusion", "text_fr": "Pour permettre une diffusion rapide", "correct": true},
+          {"text": "To carry more blood", "text_fr": "Pour transporter plus de sang", "correct": false},
+          {"text": "To make blood clot", "text_fr": "Pour faire coaguler le sang", "correct": false}
+        ],
+        "hints": [
+          {"text": "Short distance means quick exchange.", "text_fr": "Courte distance veut dire echange rapide."}
+        ],
+        "difficulty": 2
+      },
+      {
+        "kind": "mcq",
+        "text": "What is the job of white blood cells?",
+        "text_fr": "Quel est le role des globules blancs ?",
+        "explanation": "White blood cells defend the body against disease.",
+        "explanation_fr": "Les globules blancs defendent le corps contre les maladies.",
+        "choices": [
+          {"text": "Defend against disease", "text_fr": "Defendre contre les maladies", "correct": true},
+          {"text": "Carry oxygen", "text_fr": "Transporter l'oxygene", "correct": false},
+          {"text": "Help clotting", "text_fr": "Aider la coagulation", "correct": false}
+        ],
+        "hints": [
+          {"text": "They fight pathogens.", "text_fr": "Ils combattent les agents pathogenes."}
+        ],
+        "difficulty": 1
+      },
+      {
+        "kind": "mcq",
+        "text": "What do platelets do?",
+        "text_fr": "Que font les plaquettes ?",
+        "explanation": "Platelets help blood to clot.",
+        "explanation_fr": "Les plaquettes aident le sang a coaguler.",
+        "choices": [
+          {"text": "Help blood clot", "text_fr": "Aident le sang a coaguler", "correct": true},
+          {"text": "Carry oxygen", "text_fr": "Transportent l'oxygene", "correct": false},
+          {"text": "Fight infection", "text_fr": "Luttent contre l'infection", "correct": false}
+        ],
+        "hints": [
+          {"text": "They seal wounds.", "text_fr": "Elles ferment les blessures."}
+        ],
+        "difficulty": 1
+      }
+    ]
+  }
+}

@@ -1,0 +1,347 @@
+{
+  "lesson": 89,
+  "status": "published",
+  "lesson_fields": {
+    "title": "Electrolysis",
+    "title_fr": "Electrolyse",
+    "summary": "Electrolysis breaks down an ionic compound using electricity. The positive ions move to the negative electrode and gain electrons. The negative ions move to the positive electrode and lose electrons.",
+    "summary_fr": "L'electrolyse decompose un compose ionique a l'aide de l'electricite. Les ions positifs vont vers l'electrode negative et gagnent des electrons. Les ions negatifs vont vers l'electrode positive et perdent des electrons.",
+    "content": "## Passing electricity through a liquid\n\nWe pass direct current through a molten ionic compound or a solution. The compound splits into its elements.\n\n## What goes where\n\nPositive ions are attracted to the cathode, which is the negative electrode. Negative ions are attracted to the anode, which is the positive electrode.",
+    "content_fr": "## Faire passer du courant dans un liquide\n\nOn fait passer un courant continu dans un compose ionique fondu ou dans une solution. Le compose se separe en ses elements.\n\n## Qui va ou\n\nLes ions positifs sont attires par la cathode, qui est l'electrode negative. Les ions negatifs sont attires par l'anode, qui est l'electrode positive.",
+    "objectives": [
+      "Explain what electrolysis is and when it happens",
+      "Say which ions go to the anode and which to the cathode",
+      "Describe what happens to ions when they reach each electrode"
+    ],
+    "objectives_fr": [
+      "Expliquer ce qu'est l'electrolyse et quand elle se produit",
+      "Dire quels ions vont a l'anode et quels ions vont a la cathode",
+      "Decrire ce qui arrive aux ions quand ils atteignent chaque electrode"
+    ],
+    "estimated_minutes": 25
+  },
+  "steps": [
+    {
+      "kind": "concept",
+      "title": "Electrolysis in simple terms",
+      "title_fr": "L'electrolyse en quelques mots",
+      "content": "Electrolysis uses electricity to break down an ionic substance. It needs to be molten or dissolved, so that the ions can move.\n\nThe positive electrode is called the anode. The negative electrode is called the cathode.",
+      "content_fr": "L'electrolyse utilise l'electricite pour decomposer une substance ionique. Elle doit etre fondue ou dissoute, pour que les ions puissent se deplacer.\n\nL'electrode positive s'appelle l'anode. L'electrode negative s'appelle la cathode.",
+      "required": true,
+      "xp": 10,
+      "question": {
+        "kind": "mcq",
+        "text": "What is the negative electrode called in electrolysis?",
+        "text_fr": "Comment appelle-t-on l'electrode negative dans l'electrolyse ?",
+        "explanation": "The cathode is the negative electrode, the anode is the positive electrode.",
+        "explanation_fr": "La cathode est l'electrode negative, l'anode est l'electrode positive.",
+        "hint_prompt": "Remember PANIC: Positive Anode, Negative Is Cathode.",
+        "hint_prompt_fr": "Rappelle-toi : anode positive, cathode negative.",
+        "choices": [
+          {
+            "text": "The cathode",
+            "text_fr": "La cathode",
+            "correct": true
+          },
+          {
+            "text": "The anode",
+            "text_fr": "L'anode",
+            "correct": false
+          },
+          {
+            "text": "The conductor",
+            "text_fr": "Le conducteur",
+            "correct": false
+          }
+        ],
+        "hints": [
+          {
+            "text": "C for cathode, C for negative.",
+            "text_fr": "C pour cathode, C pour negative."
+          }
+        ]
+      }
+    },
+    {
+      "kind": "explain",
+      "title": "Where the ions go",
+      "title_fr": "Où vont les ions",
+      "content": "Positive ions, such as metal ions or H+, are attracted to the cathode. At the cathode they gain electrons and become atoms or molecules.\n\nNegative ions, such as chloride or hydroxide, are attracted to the anode. At the anode they lose electrons and become atoms or molecules.",
+      "content_fr": "Les ions positifs, comme les ions metalliques ou H+, sont attires par la cathode. A la cathode ils gagnent des electrons et deviennent des atomes ou des molecules.\n\nLes ions negatifs, comme les ions chlorure ou hydroxyde, sont attires par l'anode. A l'anode ils perdent des electrons et deviennent des atomes ou des molecules.",
+      "required": true,
+      "xp": 10
+    },
+    {
+      "kind": "example",
+      "title": "Worked example: electrolysis of molten lead bromide",
+      "title_fr": "Exemple resolu : electrolyse du bromure de plomb fondu",
+      "content": "Molten lead bromide gives lead ions, Pb^2+, and bromide ions, Br-.\n\nPb^2+ goes to the cathode and gains two electrons to form lead metal.\n\nBr- goes to the anode and loses one electron each to form bromine gas, Br2.",
+      "content_fr": "Le bromure de plomb fondu donne des ions plomb, Pb^2+, et des ions bromure, Br-.\n\nPb^2+ va vers la cathode et gagne deux electrons pour former du plomb metallique.\n\nBr- va vers l'anode et perd un electron chacun pour former du gaz brome, Br2.",
+      "required": true,
+      "xp": 12
+    },
+    {
+      "kind": "practice",
+      "title": "Your turn: sodium chloride solution",
+      "title_fr": "A toi : solution de chlorure de sodium",
+      "content": "In a solution of sodium chloride, the positive ion that is discharged at the cathode is usually hydrogen, H+, not sodium. Decide which electrode attracts positive ions.",
+      "content_fr": "Dans une solution de chlorure de sodium, l'ion positif qui se decharge a la cathode est generalement l'hydrogene, H+, et non le sodium. Determine quelle electrode attire les ions positifs.",
+      "required": true,
+      "xp": 12,
+      "question": {
+        "kind": "mcq",
+        "text": "Which electrode do positive ions move towards?",
+        "text_fr": "Vers quelle electrode les ions positifs se dirigent-ils ?",
+        "explanation": "Opposites attract: positive ions are attracted to the negative electrode, the cathode.",
+        "explanation_fr": "Les charges opposees s'attirent : les ions positifs sont attires par l'electrode negative, la cathode.",
+        "hint_prompt": "Think about opposite charges.",
+        "hint_prompt_fr": "Pense aux charges opposees.",
+        "choices": [
+          {
+            "text": "The cathode",
+            "text_fr": "La cathode",
+            "correct": true
+          },
+          {
+            "text": "The anode",
+            "text_fr": "L'anode",
+            "correct": false
+          },
+          {
+            "text": "Neither",
+            "text_fr": "Ni l'une ni l'autre",
+            "correct": false
+          }
+        ],
+        "hints": [
+          {
+            "text": "Positive goes to negative.",
+            "text_fr": "Positif va vers negatif."
+          }
+        ]
+      }
+    },
+    {
+      "kind": "question",
+      "title": "Check: loss and gain",
+      "title_fr": "Verification : perte et gain",
+      "content": "At the anode, ions lose electrons. At the cathode, ions gain electrons. This matches redox: oxidation at the anode, reduction at the cathode.",
+      "content_fr": "A l'anode, les ions perdent des electrons. A la cathode, les ions gagnent des electrons. Cela correspond a l'oxydoreduction : oxydation a l'anode, reduction a la cathode.",
+      "required": true,
+      "xp": 12,
+      "question": {
+        "kind": "mcq",
+        "text": "What happens to ions at the anode?",
+        "text_fr": "Que se passe-t-il aux ions a l'anode ?",
+        "explanation": "At the positive anode, negative ions lose electrons, which is oxidation.",
+        "explanation_fr": "A l'anode positive, les ions negatifs perdent des electrons, ce qui est l'oxydation.",
+        "hint_prompt": "Anode means loss of electrons.",
+        "hint_prompt_fr": "A l'anode il y a perte d'electrons.",
+        "choices": [
+          {
+            "text": "They lose electrons",
+            "text_fr": "Ils perdent des electrons",
+            "correct": true
+          },
+          {
+            "text": "They gain electrons",
+            "text_fr": "Ils gagnent des electrons",
+            "correct": false
+          },
+          {
+            "text": "They stay unchanged",
+            "text_fr": "Ils restent inchanges",
+            "correct": false
+          }
+        ],
+        "hints": [
+          {
+            "text": "Anode is where oxidation happens.",
+            "text_fr": "L'anode est le lieu de l'oxydation."
+          }
+        ]
+      }
+    },
+    {
+      "kind": "summary",
+      "title": "What to keep",
+      "title_fr": "A retenir",
+      "content": "Electrolysis breaks down a molten or dissolved ionic compound using electricity. Positive ions go to the cathode and gain electrons. Negative ions go to the anode and lose electrons.",
+      "content_fr": "L'electrolyse decompose un compose ionique fondu ou dissous a l'aide de l'electricite. Les ions positifs vont a la cathode et gagnent des electrons. Les ions negatifs vont a l'anode et perdent des electrons.",
+      "required": false,
+      "xp": 5
+    }
+  ],
+  "quiz": {
+    "title": "Electrolysis",
+    "title_fr": "Electrolyse",
+    "pass_score": 60,
+    "questions": [
+      {
+        "kind": "mcq",
+        "text": "The positive electrode is called what?",
+        "text_fr": "Comment appelle-t-on l'electrode positive ?",
+        "explanation": "The anode is the positive electrode.",
+        "explanation_fr": "L'anode est l'electrode positive.",
+        "hint_prompt": "Remember PANIC.",
+        "hint_prompt_fr": "Rappelle-toi : anode positive.",
+        "choices": [
+          {
+            "text": "Anode",
+            "text_fr": "Anode",
+            "correct": true
+          },
+          {
+            "text": "Cathode",
+            "text_fr": "Cathode",
+            "correct": false
+          },
+          {
+            "text": "Terminal",
+            "text_fr": "Borne",
+            "correct": false
+          }
+        ],
+        "hints": [
+          {
+            "text": "Anode is positive.",
+            "text_fr": "L'anode est positive."
+          }
+        ],
+        "difficulty": 1
+      },
+      {
+        "kind": "mcq",
+        "text": "Why must an ionic compound be molten for electrolysis?",
+        "text_fr": "Pourquoi un compose ionique doit-il etre fondu pour l'electrolyse ?",
+        "explanation": "The ions must be free to move to reach the electrodes.",
+        "explanation_fr": "Les ions doivent etre libres de se deplacer pour atteindre les electrodes.",
+        "hint_prompt": "Think about movement of charge.",
+        "hint_prompt_fr": "Pense au mouvement des charges.",
+        "choices": [
+          {
+            "text": "So that the ions can move",
+            "text_fr": "Pour que les ions puissent se deplacer",
+            "correct": true
+          },
+          {
+            "text": "To make it shiny",
+            "text_fr": "Pour qu'il devienne brillant",
+            "correct": false
+          },
+          {
+            "text": "To cool it down",
+            "text_fr": "Pour le refroidir",
+            "correct": false
+          }
+        ],
+        "hints": [
+          {
+            "text": "Electric current is carried by moving ions.",
+            "text_fr": "Le courant est transporte par des ions en mouvement."
+          }
+        ],
+        "difficulty": 1
+      },
+      {
+        "kind": "mcq",
+        "text": "To which electrode do metal ions go?",
+        "text_fr": "Vers quelle electrode vont les ions metalliques ?",
+        "explanation": "Metal ions are positive, so they go to the negative cathode.",
+        "explanation_fr": "Les ions metalliques sont positifs, ils vont donc vers la cathode negative.",
+        "hint_prompt": "Positive goes to negative.",
+        "hint_prompt_fr": "Positif va vers negatif.",
+        "choices": [
+          {
+            "text": "The cathode",
+            "text_fr": "La cathode",
+            "correct": true
+          },
+          {
+            "text": "The anode",
+            "text_fr": "L'anode",
+            "correct": false
+          },
+          {
+            "text": "Both equally",
+            "text_fr": "Les deux egalement",
+            "correct": false
+          }
+        ],
+        "hints": [
+          {
+            "text": "Opposite charges attract.",
+            "text_fr": "Les charges opposees s'attirent."
+          }
+        ],
+        "difficulty": 1
+      },
+      {
+        "kind": "mcq",
+        "text": "What happens to positive ions at the cathode?",
+        "text_fr": "Que se passe-t-il aux ions positifs a la cathode ?",
+        "explanation": "At the negative cathode, positive ions gain electrons, which is reduction.",
+        "explanation_fr": "A la cathode negative, les ions positifs gagnent des electrons, ce qui est la reduction.",
+        "hint_prompt": "Reduction is gain of electrons.",
+        "hint_prompt_fr": "La reduction est le gain d'electrons.",
+        "choices": [
+          {
+            "text": "They gain electrons",
+            "text_fr": "Ils gagnent des electrons",
+            "correct": true
+          },
+          {
+            "text": "They lose electrons",
+            "text_fr": "Ils perdent des electrons",
+            "correct": false
+          },
+          {
+            "text": "They break apart",
+            "text_fr": "Ils se brisent",
+            "correct": false
+          }
+        ],
+        "hints": [
+          {
+            "text": "Cathode is where reduction happens.",
+            "text_fr": "La cathode est le lieu de la reduction."
+          }
+        ],
+        "difficulty": 1
+      },
+      {
+        "kind": "mcq",
+        "text": "Bromide ions go to the anode and lose electrons. What is formed?",
+        "text_fr": "Les ions bromure vont a l'anode et perdent des electrons. Que se forme-t-il ?",
+        "explanation": "Two bromide ions lose electrons to form bromine gas, Br2.",
+        "explanation_fr": "Deux ions bromure perdent des electrons pour former du gaz brome, Br2.",
+        "hint_prompt": "Non-metal elements form at the anode.",
+        "hint_prompt_fr": "Les elements non metalliques se forment a l'anode.",
+        "choices": [
+          {
+            "text": "Bromine gas",
+            "text_fr": "Gaz brome",
+            "correct": true
+          },
+          {
+            "text": "Lead metal",
+            "text_fr": "Plomb metallique",
+            "correct": false
+          },
+          {
+            "text": "Hydrogen gas",
+            "text_fr": "Gaz hydrogene",
+            "correct": false
+          }
+        ],
+        "hints": [
+          {
+            "text": "Bromine is a halogen, appears as a brown gas.",
+            "text_fr": "Le brome est un halogene, il se forme sous forme de gaz brun."
+          }
+        ],
+        "difficulty": 2
+      }
+    ]
+  }
+}

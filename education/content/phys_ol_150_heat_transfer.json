@@ -1,0 +1,303 @@
+{
+  "lesson": 150,
+  "status": "published",
+  "lesson_fields": {
+    "title": "Heat Transfer and Temperature",
+    "title_fr": "Transfert de chaleur et temperature",
+    "summary": "Heat flows from hot to cold by conduction, convection and radiation. Temperature measures how hot something is, not how much energy it holds.",
+    "summary_fr": "La chaleur circule du chaud vers le froid par conduction, convection et rayonnement. La temperature mesure le degre de chaleur, pas la quantite d'energie.",
+    "content": "## Temperature and heat\n\nTemperature measures how hot an object is, in degrees Celsius. Heat is energy transferred because of a temperature difference. Heat always flows from hot to cold.\n\n## Three ways to transfer\n\nConduction happens in solids as particles pass energy along. Convection happens in fluids as warm fluid rises. Radiation travels as waves and needs no medium.",
+    "content_fr": "## Temperature et chaleur\n\nLa temperature mesure le degre de chaleur d'un objet, en degres Celsius. La chaleur est une energie transferee a cause d'une difference de temperature. La chaleur circule toujours du chaud vers le froid.\n\n## Trois modes de transfert\n\nLa conduction se produit dans les solides quand les particules transmettent l'energie. La convection se produit dans les fluides quand le fluide chaud monte. Le rayonnement se propage sous forme d'ondes et n'a pas besoin de milieu.",
+    "objectives": [
+      "Distinguish temperature from heat",
+      "Describe conduction, convection and radiation",
+      "Give everyday examples of each"
+    ],
+    "objectives_fr": [
+      "Distinguer temperature et chaleur",
+      "Decrire la conduction, la convection et le rayonnement",
+      "Donner des exemples courants de chacun"
+    ],
+    "estimated_minutes": 25
+  },
+  "steps": [
+    {
+      "kind": "concept",
+      "title": "Heat flows from hot to cold",
+      "title_fr": "La chaleur va du chaud vers le froid",
+      "content": "Temperature measures how hot something is. Heat is energy moved by a temperature difference. Heat always flows from a hotter object to a cooler one until they reach the same temperature.",
+      "content_fr": "La temperature mesure le degre de chaleur. La chaleur est une energie deplacee par une difference de temperature. La chaleur circule toujours d'un objet plus chaud vers un objet plus froid jusqu'a ce qu'ils atteignent la meme temperature.",
+      "required": true,
+      "xp": 10,
+      "question": {
+        "kind": "mcq",
+        "text": "Which way does heat flow?",
+        "text_fr": "Dans quel sens la chaleur circule-t-elle ?",
+        "explanation": "From hot to cold.",
+        "explanation_fr": "Du chaud vers le froid.",
+        "choices": [
+          {
+            "text": "From hot to cold",
+            "text_fr": "Du chaud vers le froid",
+            "correct": true
+          },
+          {
+            "text": "From cold to hot",
+            "text_fr": "Du froid vers le chaud",
+            "correct": false
+          },
+          {
+            "text": "Both ways equally",
+            "text_fr": "Dans les deux sens a egalite",
+            "correct": false
+          }
+        ],
+        "hints": [
+          {
+            "text": "It evens out temperatures.",
+            "text_fr": "Elle egalise les temperatures."
+          }
+        ],
+        "difficulty": 1
+      }
+    },
+    {
+      "kind": "explain",
+      "title": "Conduction and convection",
+      "title_fr": "Conduction et convection",
+      "content": "In conduction, particles in a solid pass energy to neighbours, so metals heat up fast. In convection, warm fluid expands, becomes less dense and rises, while cooler fluid sinks.",
+      "content_fr": "En conduction, les particules d'un solide transmettent l'energie a leurs voisines, donc les metaux chauffent vite. En convection, le fluide chaud se dilate, devient moins dense et monte, tandis que le fluide froid descend.",
+      "required": true,
+      "xp": 10
+    },
+    {
+      "kind": "example",
+      "title": "Radiation from the Sun",
+      "title_fr": "Le rayonnement du Soleil",
+      "content": "The Sun warms the Earth by radiation. It travels as waves through space and needs no medium. Dark, dull surfaces absorb and emit radiation well.",
+      "content_fr": "Le Soleil rechauffe la Terre par rayonnement. Il se propage sous forme d'ondes dans l'espace et n'a pas besoin de milieu. Les surfaces sombres et mates absorbent et emettent bien le rayonnement.",
+      "required": true,
+      "xp": 12
+    },
+    {
+      "kind": "practice",
+      "title": "Your turn: mode",
+      "title_fr": "A toi : le mode",
+      "content": "A metal spoon in hot soup soon feels hot at the handle. Which mode of transfer is this?",
+      "content_fr": "Une cuillere en metal dans une soupe chaude devient vite chaude au manche. Quel mode de transfert est-ce ?",
+      "required": true,
+      "xp": 12,
+      "question": {
+        "kind": "mcq",
+        "text": "Heating along a metal spoon is which transfer?",
+        "text_fr": "Le long d'une cuillere en metal, quel transfert ?",
+        "explanation": "Conduction.",
+        "explanation_fr": "La conduction.",
+        "choices": [
+          {
+            "text": "Conduction",
+            "text_fr": "La conduction",
+            "correct": true
+          },
+          {
+            "text": "Convection",
+            "text_fr": "La convection",
+            "correct": false
+          },
+          {
+            "text": "Radiation",
+            "text_fr": "Le rayonnement",
+            "correct": false
+          }
+        ],
+        "hints": [
+          {
+            "text": "Energy passes along the solid.",
+            "text_fr": "L'energie se transmet le long du solide."
+          }
+        ],
+        "difficulty": 1
+      }
+    },
+    {
+      "kind": "question",
+      "title": "Check: rising warm air",
+      "title_fr": "Verification : air chaud qui monte",
+      "content": "A radiator warms a room mainly by convection. Warm air rises, spreads, cools and sinks, setting up a circulation current.",
+      "content_fr": "Un radiateur rechauffe une piece surtout par convection. L'air chaud monte, se repand, refroidit et descend, creant un courant de circulation.",
+      "required": true,
+      "xp": 12,
+      "question": {
+        "kind": "mcq",
+        "text": "Warm air rising in a room is which transfer?",
+        "text_fr": "L'air chaud qui monte dans une piece est quel transfert ?",
+        "explanation": "Convection.",
+        "explanation_fr": "La convection.",
+        "choices": [
+          {
+            "text": "Convection",
+            "text_fr": "La convection",
+            "correct": true
+          },
+          {
+            "text": "Conduction",
+            "text_fr": "La conduction",
+            "correct": false
+          },
+          {
+            "text": "Radiation",
+            "text_fr": "Le rayonnement",
+            "correct": false
+          }
+        ],
+        "hints": [
+          {
+            "text": "It involves a moving fluid.",
+            "text_fr": "Cela implique un fluide en mouvement."
+          }
+        ],
+        "difficulty": 1
+      }
+    },
+    {
+      "kind": "summary",
+      "title": "What to keep",
+      "title_fr": "A retenir",
+      "content": "Heat is energy that flows from hot to cold. Conduction works in solids, convection in fluids, and radiation as waves through space. Temperature measures how hot something is.",
+      "content_fr": "La chaleur est une energie qui circule du chaud vers le froid. La conduction agit dans les solides, la convection dans les fluides, et le rayonnement sous forme d'ondes dans l'espace. La temperature mesure le degre de chaleur.",
+      "required": false,
+      "xp": 5
+    }
+  ],
+  "quiz": {
+    "title": "Heat Transfer and Temperature",
+    "title_fr": "Transfert de chaleur et temperature",
+    "pass_score": 60,
+    "questions": [
+      {
+        "kind": "mcq",
+        "text": "Temperature measures...",
+        "text_fr": "La temperature mesure...",
+        "explanation": "How hot something is.",
+        "explanation_fr": "Le degre de chaleur.",
+        "choices": [
+          {
+            "text": "How hot something is",
+            "text_fr": "Le degre de chaleur",
+            "correct": true
+          },
+          {
+            "text": "How much energy it holds",
+            "text_fr": "La quantite d'energie",
+            "correct": false
+          },
+          {
+            "text": "Its mass",
+            "text_fr": "Sa masse",
+            "correct": false
+          }
+        ],
+        "hints": [
+          {
+            "text": "It is read on a thermometer.",
+            "text_fr": "Elle se lit sur un thermometre."
+          }
+        ],
+        "difficulty": 1
+      },
+      {
+        "kind": "mcq",
+        "text": "Which transfer works in solids?",
+        "text_fr": "Quel transfert agit dans les solides ?",
+        "explanation": "Conduction.",
+        "explanation_fr": "La conduction.",
+        "choices": [
+          {
+            "text": "Conduction",
+            "text_fr": "La conduction",
+            "correct": true
+          },
+          {
+            "text": "Convection",
+            "text_fr": "La convection",
+            "correct": false
+          },
+          {
+            "text": "Radiation",
+            "text_fr": "Le rayonnement",
+            "correct": false
+          }
+        ],
+        "hints": [
+          {
+            "text": "Particles pass energy along.",
+            "text_fr": "Les particules transmettent l'energie."
+          }
+        ],
+        "difficulty": 1
+      },
+      {
+        "kind": "mcq",
+        "text": "Which transfer needs no medium?",
+        "text_fr": "Quel transfert n'a pas besoin de milieu ?",
+        "explanation": "Radiation.",
+        "explanation_fr": "Le rayonnement.",
+        "choices": [
+          {
+            "text": "Radiation",
+            "text_fr": "Le rayonnement",
+            "correct": true
+          },
+          {
+            "text": "Conduction",
+            "text_fr": "La conduction",
+            "correct": false
+          },
+          {
+            "text": "Convection",
+            "text_fr": "La convection",
+            "correct": false
+          }
+        ],
+        "hints": [
+          {
+            "text": "It crosses space.",
+            "text_fr": "Il traverse l'espace."
+          }
+        ],
+        "difficulty": 1
+      },
+      {
+        "kind": "mcq",
+        "text": "Heat always flows from...",
+        "text_fr": "La chaleur circule toujours du...",
+        "explanation": "Hot to cold.",
+        "explanation_fr": "Chaud vers le froid.",
+        "choices": [
+          {
+            "text": "Hot to cold",
+            "text_fr": "Chaud vers le froid",
+            "correct": true
+          },
+          {
+            "text": "Cold to hot",
+            "text_fr": "Froid vers le chaud",
+            "correct": false
+          },
+          {
+            "text": "Upward only",
+            "text_fr": "Vers le haut seulement",
+            "correct": false
+          }
+        ],
+        "hints": [
+          {
+            "text": "It evens out temperatures.",
+            "text_fr": "Elle egalise les temperatures."
+          }
+        ],
+        "difficulty": 1
+      }
+    ]
+  }
+}

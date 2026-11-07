@@ -1,0 +1,311 @@
+{
+  "lesson": 102,
+  "status": "published",
+  "lesson_fields": {
+    "title": "Electric Circuits",
+    "title_fr": "Circuits electriques",
+    "summary": "An electric current is a flow of charge. Current, voltage and resistance are linked by Ohm's law. Series and parallel circuits behave differently.",
+    "summary_fr": "Un courant electrique est un ecoulement de charge. Le courant, la tension et la resistance sont lies par la loi d'Ohm. Les circuits en serie et en parallele se comportent differemment.",
+    "content": "## Current, voltage and resistance\n\nCurrent is the flow of charge, measured in amperes. Voltage is the energy given to each charge, measured in volts. Resistance is how hard it is for the current to flow, measured in ohms.\n\n## Ohm's law\n\nVoltage equals current times resistance. In a series circuit the current is the same everywhere. In a parallel circuit the voltage is the same across each branch.",
+    "content_fr": "## Courant, tension et resistance\n\nLe courant est l'ecoulement de charge, mesure en ampere. La tension est l'energie fournie a chaque charge, mesure en volt. La resistance est la difficulte pour le courant a circuler, mesure en ohm.\n\n## Loi d'Ohm\n\nLa tension egale courant fois resistance. Dans un circuit en serie, le courant est le meme partout. Dans un circuit en parallele, la tension est la meme sur chaque branche.",
+    "objectives": [
+      "Define current, voltage and resistance",
+      "Use Ohm's law to solve a simple circuit",
+      "Compare series and parallel circuits"
+    ],
+    "objectives_fr": [
+      "Definir le courant, la tension et la resistance",
+      "Utiliser la loi d'Ohm pour resoudre un circuit simple",
+      "Comparer les circuits en serie et en parallele"
+    ],
+    "estimated_minutes": 25
+  },
+  "steps": [
+    {
+      "kind": "concept",
+      "title": "What current and voltage mean",
+      "title_fr": "Ce que signifient courant et tension",
+      "content": "Current is the amount of charge passing a point each second. It is measured in amperes.\n\nVoltage is the energy transferred to each coulomb of charge. It is measured in volts.\n\nResistance is the opposition to the flow of current. It is measured in ohms.",
+      "content_fr": "Le courant est la quantite de charge qui passe un point chaque seconde. Il se mesure en ampere.\n\nLa tension est l'energie transferree a chaque coulomb de charge. Elle se mesure en volt.\n\nLa resistance est l'opposition a l'ecoulement du courant. Elle se mesure en ohm.",
+      "required": true,
+      "xp": 10,
+      "question": {
+        "kind": "mcq",
+        "text": "What is current measured in?",
+        "text_fr": "En quoi mesure-t-on le courant ?",
+        "explanation": "Current is measured in amperes.",
+        "explanation_fr": "Le courant se mesure en ampere.",
+        "hint_prompt": "It is named after a scientist.",
+        "hint_prompt_fr": "Il porte le nom d'un savant.",
+        "choices": [
+          {
+            "text": "Amperes",
+            "text_fr": "Ampere",
+            "correct": true
+          },
+          {
+            "text": "Volts",
+            "text_fr": "Volts",
+            "correct": false
+          },
+          {
+            "text": "Ohms",
+            "text_fr": "Ohms",
+            "correct": false
+          }
+        ],
+        "hints": [
+          {
+            "text": "It is often shortened to amps.",
+            "text_fr": "On l'abrege souvent en amp."
+          }
+        ]
+      }
+    },
+    {
+      "kind": "explain",
+      "title": "Ohm's law",
+      "title_fr": "La loi d'Ohm",
+      "content": "Ohm's law states that voltage equals current times resistance. If the resistance rises and the voltage stays the same, the current falls.\n\nWe can write it as V equals I times R, and rearrange it to find any of the three quantities.",
+      "content_fr": "La loi d'Ohm stipule que la tension egale courant fois resistance. Si la resistance augmente et que la tension reste la meme, le courant diminue.\n\nOn l'ecrit V egale I fois R, et on la transforme pour trouver l'une des trois quantites.",
+      "required": true,
+      "xp": 10
+    },
+    {
+      "kind": "example",
+      "title": "Worked example: finding the current",
+      "title_fr": "Exemple resolu : trouver le courant",
+      "content": "A resistor has a resistance of 10 ohms and a voltage of 5 volts across it.\n\nCurrent equals voltage divided by resistance, so 5 divided by 10 gives 0.5 amperes.",
+      "content_fr": "Une resistance de 10 ohms a une tension de 5 volts a ses bornes.\n\nLe courant egale la tension divisee par la resistance, donc 5 divise par 10 donne 0,5 ampere.",
+      "required": true,
+      "xp": 12
+    },
+    {
+      "kind": "practice",
+      "title": "Your turn: series resistance",
+      "title_fr": "A toi : resistance en serie",
+      "content": "Two resistors of 4 ohms and 6 ohms are in series with a 10 volt supply. Work out the current in the circuit.",
+      "content_fr": "Deux resistances de 4 ohms et 6 ohms sont en serie avec une source de 10 volts. Calcule le courant dans le circuit.",
+      "required": true,
+      "xp": 12,
+      "question": {
+        "kind": "numeric",
+        "text": "What is the current, in amperes?",
+        "text_fr": "Quel est le courant, en ampere ?",
+        "explanation": "Total resistance is 10 ohms. Current is 10 volts divided by 10 ohms, which is 1 ampere.",
+        "explanation_fr": "La resistance totale vaut 10 ohms. Le courant egale 10 volts divise par 10 ohms, soit 1 ampere.",
+        "hint_prompt": "Add the resistances first.",
+        "hint_prompt_fr": "Additionne d'abord les resistances.",
+        "config": {
+          "accepted": [
+            "1"
+          ]
+        },
+        "hints": [
+          {
+            "text": "Resistances in series add together.",
+            "text_fr": "Les resistances en serie s'additionnent."
+          }
+        ]
+      }
+    },
+    {
+      "kind": "question",
+      "title": "Check: series and parallel",
+      "title_fr": "Verification : serie et parallele",
+      "content": "In a series circuit the current is the same at every point and the resistances add up. In a parallel circuit the voltage is the same across each branch and the currents add up.",
+      "content_fr": "Dans un circuit en serie, le courant est le meme en tout point et les resistances s'additionnent. Dans un circuit en parallele, la tension est la meme sur chaque branche et les courants s'additionnent.",
+      "required": true,
+      "xp": 12,
+      "question": {
+        "kind": "mcq",
+        "text": "In a series circuit, which quantity is the same everywhere?",
+        "text_fr": "Dans un circuit en serie, quelle quantite est la meme partout ?",
+        "explanation": "The current is the same at every point in a series circuit.",
+        "explanation_fr": "Le courant est le meme en tout point d'un circuit en serie.",
+        "hint_prompt": "There is only one path for the charge.",
+        "hint_prompt_fr": "Il n'y a qu'un chemin pour la charge.",
+        "choices": [
+          {
+            "text": "The current",
+            "text_fr": "Le courant",
+            "correct": true
+          },
+          {
+            "text": "The voltage across each resistor",
+            "text_fr": "La tension a chaque resistance",
+            "correct": false
+          },
+          {
+            "text": "The power of each lamp",
+            "text_fr": "La puissance de chaque lampe",
+            "correct": false
+          }
+        ],
+        "hints": [
+          {
+            "text": "One path means one current.",
+            "text_fr": "Un seul chemin veut dire un seul courant."
+          }
+        ]
+      }
+    },
+    {
+      "kind": "summary",
+      "title": "What to keep",
+      "title_fr": "A retenir",
+      "content": "Current is the flow of charge in amperes. Voltage is the energy per charge in volts. Resistance is the opposition in ohms. Ohm's law links them: voltage equals current times resistance.",
+      "content_fr": "Le courant est l'ecoulement de charge en ampere. La tension est l'energie par charge en volts. La resistance est l'opposition en ohms. La loi d'Ohm les relie : tension egale courant fois resistance.",
+      "required": false,
+      "xp": 5
+    }
+  ],
+  "quiz": {
+    "title": "Electric Circuits",
+    "title_fr": "Circuits electriques",
+    "pass_score": 60,
+    "questions": [
+      {
+        "kind": "mcq",
+        "text": "What is voltage measured in?",
+        "text_fr": "En quoi mesure-t-on la tension ?",
+        "explanation": "Voltage is measured in volts.",
+        "explanation_fr": "La tension se mesure en volts.",
+        "hint_prompt": "It shares its name with a unit of power sometimes.",
+        "hint_prompt_fr": "Elle partage son nom avec une unite de puissance.",
+        "choices": [
+          {
+            "text": "Volts",
+            "text_fr": "Volts",
+            "correct": true
+          },
+          {
+            "text": "Amperes",
+            "text_fr": "Ampere",
+            "correct": false
+          },
+          {
+            "text": "Ohms",
+            "text_fr": "Ohms",
+            "correct": false
+          }
+        ],
+        "hints": [
+          {
+            "text": "The symbol is V.",
+            "text_fr": "Le symbole est V."
+          }
+        ],
+        "difficulty": 1
+      },
+      {
+        "kind": "mcq",
+        "text": "What is resistance measured in?",
+        "text_fr": "En quoi mesure-t-on la resistance ?",
+        "explanation": "Resistance is measured in ohms.",
+        "explanation_fr": "La resistance se mesure en ohms.",
+        "hint_prompt": "It is named after a scientist.",
+        "hint_prompt_fr": "Elle porte le nom d'un savant.",
+        "choices": [
+          {
+            "text": "Ohms",
+            "text_fr": "Ohms",
+            "correct": true
+          },
+          {
+            "text": "Volts",
+            "text_fr": "Volts",
+            "correct": false
+          },
+          {
+            "text": "Watts",
+            "text_fr": "Watts",
+            "correct": false
+          }
+        ],
+        "hints": [
+          {
+            "text": "The symbol is the Greek letter omega.",
+            "text_fr": "Le symbole est la lettre grecque omega."
+          }
+        ],
+        "difficulty": 1
+      },
+      {
+        "kind": "numeric",
+        "text": "A 12 V battery drives a current of 2 A through a resistor. What is its resistance in ohms?",
+        "text_fr": "Une pile de 12 V envoie un courant de 2 A a travers une resistance. Quelle est sa resistance en ohms ?",
+        "explanation": "Resistance equals voltage divided by current: 12 divided by 2 is 6 ohms.",
+        "explanation_fr": "La resistance egale tension divisee par courant : 12 divise par 2 vaut 6 ohms.",
+        "hint_prompt": "Rearrange Ohm's law.",
+        "hint_prompt_fr": "Transforme la loi d'Ohm.",
+        "config": {
+          "accepted": [
+            "6"
+          ]
+        },
+        "hints": [
+          {
+            "text": "Voltage divided by current.",
+            "text_fr": "Tension divisee par courant."
+          }
+        ],
+        "difficulty": 1
+      },
+      {
+        "kind": "mcq",
+        "text": "In a parallel circuit, which quantity is the same across each branch?",
+        "text_fr": "Dans un circuit en parallele, quelle quantite est la meme sur chaque branche ?",
+        "explanation": "The voltage is the same across each branch in parallel.",
+        "explanation_fr": "La tension est la meme sur chaque branche en parallele.",
+        "hint_prompt": "Each branch is connected to the same two points.",
+        "hint_prompt_fr": "Chaque branche est reliee aux memes deux points.",
+        "choices": [
+          {
+            "text": "The voltage",
+            "text_fr": "La tension",
+            "correct": true
+          },
+          {
+            "text": "The current",
+            "text_fr": "Le courant",
+            "correct": false
+          },
+          {
+            "text": "The resistance",
+            "text_fr": "La resistance",
+            "correct": false
+          }
+        ],
+        "hints": [
+          {
+            "text": "Parallel means same potential difference.",
+            "text_fr": "Parallele veut dire meme difference de potentiel."
+          }
+        ],
+        "difficulty": 2
+      },
+      {
+        "kind": "numeric",
+        "text": "A circuit has a voltage of 6 V and a resistance of 3 ohms. What is the current in amperes?",
+        "text_fr": "Un circuit a une tension de 6 V et une resistance de 3 ohms. Quel est le courant en ampere ?",
+        "explanation": "Current equals voltage divided by resistance: 6 divided by 3 is 2 amperes.",
+        "explanation_fr": "Le courant egale tension divise par resistance : 6 divise par 3 vaut 2 ampere.",
+        "hint_prompt": "Use Ohm's law.",
+        "hint_prompt_fr": "Utilise la loi d'Ohm.",
+        "config": {
+          "accepted": [
+            "2"
+          ]
+        },
+        "hints": [
+          {
+            "text": "V equals I times R, so I equals V divided by R.",
+            "text_fr": "V egale I fois R, donc I egale V divise par R."
+          }
+        ],
+        "difficulty": 1
+      }
+    ]
+  }
+}

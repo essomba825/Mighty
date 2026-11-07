@@ -1,0 +1,285 @@
+{
+  "lesson": 125,
+  "status": "published",
+  "lesson_fields": {
+    "title": "Crude Oil and Hydrocarbons",
+    "title_fr": "Pétrole brut et hydrocarbures",
+    "summary": "Describe how crude oil is separated into useful fractions and what a hydrocarbon is.",
+    "summary_fr": "Décrire comment le pétrole brut est séparé en fractions utiles et ce qu'est un hydrocarbure.",
+    "content": "## What you will learn\n\nCrude oil is a mixture of hydrocarbons. It is separated into simpler mixtures called fractions, each with its own uses, by fractional distillation.",
+    "content_fr": "## Ce que tu vas apprendre\n\nLe pétrole brut est un mélange d'hydrocarbures. On le sépare en mélanges plus simples appelés fractions, chacune ayant ses usages, par distillation fractionnée.",
+    "objectives": [
+      "Describe crude oil as a mixture of hydrocarbons",
+      "Explain fractional distillation of crude oil",
+      "Relate the fractions to their everyday uses"
+    ],
+    "objectives_fr": [
+      "Décrire le pétrole brut comme un mélange d'hydrocarbures",
+      "Expliquer la distillation fractionnée du pétrole brut",
+      "Relier les fractions à leurs usages courants"
+    ],
+    "estimated_minutes": 30
+  },
+  "steps": [
+    {
+      "kind": "concept",
+      "title": "What is crude oil?",
+      "title_fr": "Qu'est-ce que le pétrole brut ?",
+      "content": "Crude oil is a dark, thick liquid trapped in rocks. It is a mixture of very many compounds called hydrocarbons. A hydrocarbon is a compound made of carbon and hydrogen only.\n\nBecause it is such a complex mixture, crude oil as it comes out of the ground has few direct uses, so it is separated into simpler mixtures called fractions.",
+      "content_fr": "Le pétrole brut est un liquide sombre et épais emprisonné dans les roches. C'est un mélange de très nombreux composés appelés hydrocarbures. Un hydrocarbure est un composé formé uniquement de carbone et d'hydrogène.\n\nParce qu'il s'agit d'un mélange très complexe, le pétrole brut qui sort du sol a peu d'usages directs : on le sépare donc en mélanges plus simples appelés fractions.",
+      "required": true,
+      "xp": 10,
+      "question": {
+        "kind": "mcq",
+        "difficulty": 1,
+        "text": "What is a hydrocarbon?",
+        "text_fr": "Qu'est-ce qu'un hydrocarbure ?",
+        "explanation": "A hydrocarbon is made of carbon and hydrogen only.",
+        "explanation_fr": "Un hydrocarbure est formé uniquement de carbone et d'hydrogène.",
+        "hint_prompt": "Look at the two parts of the name.",
+        "hint_prompt_fr": "Regarde les deux parties du nom.",
+        "choices": [
+          {"text": "A compound of hydrogen and carbon only", "text_fr": "Un composé d'hydrogène et de carbone uniquement", "correct": true},
+          {"text": "A compound of hydrogen and oxygen only", "text_fr": "Un composé d'hydrogène et d'oxygène uniquement", "correct": false},
+          {"text": "A mixture of metals", "text_fr": "Un mélange de métaux", "correct": false},
+          {"text": "A solution of salt in water", "text_fr": "Une solution de sel dans l'eau", "correct": false}
+        ],
+        "hints": [
+          {"text": "It has two elements.", "text_fr": "Il contient deux éléments."},
+          {"text": "Carbon and hydrogen.", "text_fr": "Carbone et hydrogène."}
+        ]
+      }
+    },
+    {
+      "kind": "concept",
+      "title": "Fractional distillation",
+      "title_fr": "La distillation fractionnée",
+      "content": "Crude oil is separated by fractional distillation. The oil is heated until most of it turns into vapour, and the vapour is fed into a tall fractionating column that is hot at the bottom and cooler at the top.\n\nAs the vapour rises it cools down. Molecules with a higher boiling point condense lower down, while molecules with a lower boiling point rise further before they condense. In this way the mixture is split into fractions.\n\nThis also separates crude oil into groups of hydrocarbons with similar chain lengths.",
+      "content_fr": "Le pétrole brut est séparé par distillation fractionnée. On chauffe le pétrole jusqu'à ce que la majeure partie se transforme en vapeur, et la vapeur est introduite dans une grande colonne de fractionnement qui est chaude en bas et plus froide en haut.\n\nEn montant, la vapeur refroidit. Les molécules de température d'ébullition élevée se condensent plus bas, tandis que les molécules de température d'ébullition basse montent plus haut avant de se condenser. Le mélange est ainsi séparé en fractions.\n\nCela sépare aussi le pétrole brut en groupes d'hydrocarbures de longueurs de chaîne voisines.",
+      "required": true,
+      "xp": 12,
+      "question": {
+        "kind": "mcq",
+        "difficulty": 2,
+        "text": "In fractional distillation, where do hydrocarbons with the lowest boiling points collect?",
+        "text_fr": "Lors de la distillation fractionnée, où se rassemblent les hydrocarbures de plus basse température d'ébullition ?",
+        "explanation": "The lowest boiling point molecules rise furthest, so they condense near the top of the coolest part.",
+        "explanation_fr": "Les molécules de plus basse température d'ébullition montent le plus haut : elles se condensent donc en haut, dans la partie la plus froide.",
+        "hint_prompt": "They stay as vapour the longest.",
+        "hint_prompt_fr": "Elles restent vapeur le plus longtemps.",
+        "choices": [
+          {"text": "Near the top, where it is coolest", "text_fr": "Près du sommet, là où il fait le plus froid", "correct": true},
+          {"text": "At the very bottom, where it is hottest", "text_fr": "Tout en bas, là où il fait le plus chaud", "correct": false},
+          {"text": "In the middle only", "text_fr": "Seulement au milieu", "correct": false},
+          {"text": "They do not collect anywhere", "text_fr": "Elles ne se rassemblent nulle part", "correct": false}
+        ],
+        "hints": [
+          {"text": "Low boiling point means they rise high.", "text_fr": "Une basse température d'ébullition signifie qu'elles montent haut."},
+          {"text": "They collect at the top.", "text_fr": "Elles se rassemblent en haut."}
+        ]
+      }
+    },
+    {
+      "kind": "concept",
+      "title": "Fractions and their uses",
+      "title_fr": "Les fractions et leurs usages",
+      "content": "Each fraction is a mixture of hydrocarbons with a similar boiling point and chain length. The smallest molecules have the lowest boiling points and are collected at the top: these include the gases used for cooking and petrol for cars.\n\nFurther down come naphtha, kerosene for aeroplanes, diesel for lorries, and finally heavy fuel oil and bitumen for roads. Longer chains have higher boiling points and are thicker, or more viscous.",
+      "content_fr": "Chaque fraction est un mélange d'hydrocarbures de température d'ébullition et de longueur de chaîne voisines. Les plus petites molécules ont les températures d'ébullition les plus basses et sont recueillies en haut : ce sont notamment les gaz utilisés pour la cuisine et l'essence pour les voitures.\n\nPlus bas viennent le naphta, le kérosène pour les avions, le gazole pour les camions, et enfin le fioul lourd et le bitume pour les routes. Les chaînes plus longues ont des températures d'ébullition plus élevées et sont plus épaisses, donc plus visqueuses.",
+      "required": true,
+      "xp": 12,
+      "question": {
+        "kind": "mcq",
+        "difficulty": 2,
+        "text": "Which fraction is used to make roads?",
+        "text_fr": "Quelle fraction sert à faire les routes ?",
+        "explanation": "Bitumen is the thickest, heaviest fraction and is used as a binder for road surfaces.",
+        "explanation_fr": "Le bitume est la fraction la plus épaisse et la plus lourde : il sert de liant pour la surface des routes.",
+        "hint_prompt": "It is the darkest, thickest one.",
+        "hint_prompt_fr": "C'est la plus sombre et la plus épaisse.",
+        "choices": [
+          {"text": "Bitumen", "text_fr": "Le bitume", "correct": true},
+          {"text": "Kerosene", "text_fr": "Le kérosène", "correct": false},
+          {"text": "Petrol", "text_fr": "L'essence", "correct": false},
+          {"text": "Diesel", "text_fr": "Le gazole", "correct": false}
+        ],
+        "hints": [
+          {"text": "It comes out at the bottom.", "text_fr": "Elle sort en bas."},
+          {"text": "It is bitumen.", "text_fr": "C'est le bitume."}
+        ]
+      }
+    },
+    {
+      "kind": "explain",
+      "title": "Fuels and the environment",
+      "title_fr": "Carburants et environnement",
+      "content": "Most fractions are burned as fuels for transport, heating and electricity. Burning hydrocarbons releases useful energy, but it also produces carbon dioxide, a greenhouse gas, and can release pollutants such as sulfur dioxide, which causes acid rain.\n\nCrude oil is also the raw material for plastics, medicines and many other chemicals, so it is far more than just a fuel.",
+      "content_fr": "La plupart des fractions sont brûlées comme carburants pour le transport, le chauffage et l'électricité. Brûler des hydrocarbures libère de l'énergie utile, mais produit aussi du dioxyde de carbone, un gaz à effet de serre, et peut libérer des polluants comme le dioxyde de soufre, qui provoque les pluies acides.\n\nLe pétrole brut est aussi la matière première des matières plastiques, des médicaments et de nombreux autres produits chimiques.",
+      "required": true,
+      "xp": 12,
+      "question": {
+        "kind": "mcq",
+        "difficulty": 2,
+        "text": "Burning hydrocarbon fuels releases which greenhouse gas?",
+        "text_fr": "La combustion des carburants libère quel gaz à effet de serre ?",
+        "explanation": "Burning hydrocarbons produces carbon dioxide, which is a greenhouse gas.",
+        "explanation_fr": "Brûler des hydrocarbures produit du dioxyde de carbone, qui est un gaz à effet de serre.",
+        "hint_prompt": "It contains carbon and oxygen.",
+        "hint_prompt_fr": "Il contient du carbone et de l'oxygène.",
+        "choices": [
+          {"text": "Carbon dioxide", "text_fr": "Le dioxyde de carbone", "correct": true},
+          {"text": "Oxygen", "text_fr": "L'oxygène", "correct": false},
+          {"text": "Nitrogen", "text_fr": "L'azote", "correct": false},
+          {"text": "Helium", "text_fr": "L'hélium", "correct": false}
+        ],
+        "hints": [
+          {"text": "It has the formula CO2.", "text_fr": "Sa formule est CO2."},
+          {"text": "It is carbon dioxide.", "text_fr": "C'est le dioxyde de carbone."}
+        ]
+      }
+    },
+    {
+      "kind": "practice",
+      "title": "Your turn: why separate crude oil?",
+      "title_fr": "À toi : pourquoi séparer le pétrole brut ?",
+      "content": "Think about what is gained by splitting the mixture into fractions.",
+      "content_fr": "Réfléchis à ce que l'on gagne en séparant le mélange en fractions.",
+      "required": true,
+      "xp": 12,
+      "question": {
+        "kind": "mcq",
+        "difficulty": 2,
+        "text": "Why is crude oil separated before it is used?",
+        "text_fr": "Pourquoi sépare-t-on le pétrole brut avant de l'utiliser ?",
+        "explanation": "Fractions contain hydrocarbons with similar boiling points and chain lengths, which makes each one suitable for a particular use.",
+        "explanation_fr": "Les fractions contiennent des hydrocarbures de températures d'ébullition et de longueurs de chaîne voisines, ce qui rend chacune adaptée à un usage précis.",
+        "hint_prompt": "Think about what each fraction is good for.",
+        "hint_prompt_fr": "Pense à ce à quoi chaque fraction est utile.",
+        "choices": [
+          {"text": "To obtain fractions with useful, similar properties", "text_fr": "Pour obtenir des fractions aux propriétés utiles et voisines", "correct": true},
+          {"text": "To add more carbon to the oil", "text_fr": "Pour ajouter plus de carbone au pétrole", "correct": false},
+          {"text": "To turn the oil into a single pure element", "text_fr": "Pour transformer le pétrole en un seul élément pur", "correct": false},
+          {"text": "To make the oil freeze", "text_fr": "Pour faire geler le pétrole", "correct": false}
+        ],
+        "hints": [
+          {"text": "Fractions group similar molecules.", "text_fr": "Les fractions regroupent des molécules semblables."},
+          {"text": "Each fraction has a use.", "text_fr": "Chaque fraction a un usage."}
+        ]
+      }
+    },
+    {
+      "kind": "summary",
+      "title": "What to keep",
+      "title_fr": "À retenir",
+      "content": "Crude oil is a mixture of hydrocarbons, which are compounds of carbon and hydrogen only. It is separated into fractions by fractional distillation, using differences in boiling point. Molecules with short chains have low boiling points and collect at the top, and long chains with high boiling points collect at the bottom.",
+      "content_fr": "Le pétrole brut est un mélange d'hydrocarbures, qui sont des composés formés uniquement de carbone et d'hydrogène. Il est séparé en fractions par distillation fractionnée, en utilisant les différences de température d'ébullition. Les molécules à chaînes courtes ont des températures d'ébullition basses et se rassemblent en haut, et les chaînes longues, à températures d'ébullition élevées, se rassemblent en bas.",
+      "xp": 5
+    }
+  ],
+  "quiz": {
+    "title": "Quiz: crude oil and hydrocarbons",
+    "title_fr": "Quiz : pétrole brut et hydrocarbures",
+    "pass_score": 60,
+    "questions": [
+      {
+        "kind": "mcq",
+        "difficulty": 1,
+        "text": "Crude oil is mainly a mixture of...",
+        "text_fr": "Le pétrole brut est surtout un mélange de...",
+        "explanation": "Crude oil is a mixture of many hydrocarbons.",
+        "explanation_fr": "Le pétrole brut est un mélange de nombreux hydrocarbures.",
+        "hint_prompt": "Think about the compounds it contains.",
+        "hint_prompt_fr": "Pense aux composés qu'il contient.",
+        "choices": [
+          {"text": "hydrocarbons", "text_fr": "hydrocarbures", "correct": true},
+          {"text": "pure metals", "text_fr": "métaux purs", "correct": false},
+          {"text": "salts and water only", "text_fr": "sels et eau uniquement", "correct": false},
+          {"text": "noble gases", "text_fr": "gaz nobles", "correct": false}
+        ],
+        "hints": [
+          {"text": "It contains carbon and hydrogen.", "text_fr": "Il contient du carbone et de l'hydrogène."},
+          {"text": "The answer is hydrocarbons.", "text_fr": "La réponse est les hydrocarbures."}
+        ]
+      },
+      {
+        "kind": "mcq",
+        "difficulty": 2,
+        "text": "Which method is used to split crude oil into fractions?",
+        "text_fr": "Quelle méthode utilise-t-on pour séparer le pétrole brut en fractions ?",
+        "explanation": "Fractional distillation separates the hydrocarbons by boiling point.",
+        "explanation_fr": "La distillation fractionnée sépare les hydrocarbures selon leur température d'ébullition.",
+        "hint_prompt": "It uses a tall column.",
+        "hint_prompt_fr": "Elle utilise une grande colonne.",
+        "choices": [
+          {"text": "Fractional distillation", "text_fr": "La distillation fractionnée", "correct": true},
+          {"text": "Filtration", "text_fr": "La filtration", "correct": false},
+          {"text": "Chromatography", "text_fr": "La chromatographie", "correct": false},
+          {"text": "Evaporation", "text_fr": "L'évaporation", "correct": false}
+        ],
+        "hints": [
+          {"text": "It relies on boiling points.", "text_fr": "Elle repose sur les températures d'ébullition."},
+          {"text": "It is fractional distillation.", "text_fr": "C'est la distillation fractionnée."}
+        ]
+      },
+      {
+        "kind": "mcq",
+        "difficulty": 2,
+        "text": "Hydrocarbons with long chains...",
+        "text_fr": "Les hydrocarbures à chaînes longues...",
+        "explanation": "Long chains have higher boiling points, so they condense lower down in the column and are more viscous.",
+        "explanation_fr": "Les chaînes longues ont des températures d'ébullition plus élevées : elles se condensent plus bas dans la colonne et sont plus visqueuses.",
+        "hint_prompt": "They come out near the bottom.",
+        "hint_prompt_fr": "Elles sortent près du bas.",
+        "choices": [
+          {"text": "have higher boiling points and collect lower down", "text_fr": "ont des températures d'ébullition élevées et se rassemblent plus bas", "correct": true},
+          {"text": "have lower boiling points and collect at the top", "text_fr": "ont des températures d'ébullition basses et se rassemblent en haut", "correct": false},
+          {"text": "are all gases at room temperature", "text_fr": "sont toutes gazeuses à température ambiante", "correct": false},
+          {"text": "cannot be separated at all", "text_fr": "ne peuvent pas être séparées", "correct": false}
+        ],
+        "hints": [
+          {"text": "Bigger molecules need more heat to boil.", "text_fr": "Les grosses molécules demandent plus de chaleur pour bouillir."},
+          {"text": "They collect lower down.", "text_fr": "Elles se rassemblent plus bas."}
+        ]
+      },
+      {
+        "kind": "mcq",
+        "difficulty": 2,
+        "text": "Which fraction is used as fuel for aeroplanes?",
+        "text_fr": "Quelle fraction sert de carburant pour les avions ?",
+        "explanation": "Kerosene is the fraction used as aircraft fuel.",
+        "explanation_fr": "Le kérosène est la fraction utilisée comme carburant d'avion.",
+        "hint_prompt": "It sits between naphtha and diesel.",
+        "hint_prompt_fr": "Elle se situe entre le naphta et le gazole.",
+        "choices": [
+          {"text": "Kerosene", "text_fr": "Le kérosène", "correct": true},
+          {"text": "Bitumen", "text_fr": "Le bitume", "correct": false},
+          {"text": "Heavy fuel oil", "text_fr": "Le fioul lourd", "correct": false},
+          {"text": "Naphtha", "text_fr": "Le naphta", "correct": false}
+        ],
+        "hints": [
+          {"text": "It is lighter than diesel.", "text_fr": "Elle est plus légère que le gazole."},
+          {"text": "It is kerosene.", "text_fr": "C'est le kérosène."}
+        ]
+      },
+      {
+        "kind": "mcq",
+        "difficulty": 2,
+        "text": "Which problem is caused by burning fractions of crude oil?",
+        "text_fr": "Quel problème est causé par la combustion des fractions du pétrole brut ?",
+        "explanation": "Burning these fuels releases carbon dioxide, a greenhouse gas, and pollutants that can cause acid rain.",
+        "explanation_fr": "Brûler ces carburants libère du dioxyde de carbone, un gaz à effet de serre, et des polluants pouvant causer des pluies acides.",
+        "hint_prompt": "Think about the atmosphere and rain.",
+        "hint_prompt_fr": "Pense à l'atmosphère et à la pluie.",
+        "choices": [
+          {"text": "Release of carbon dioxide and acid rain pollutants", "text_fr": "La libération de dioxyde de carbone et de polluants des pluies acides", "correct": true},
+          {"text": "The air becoming pure nitrogen", "text_fr": "Le fait que l'air devienne de l'azote pur", "correct": false},
+          {"text": "The sea turning into fresh water", "text_fr": "La mer qui se transforme en eau douce", "correct": false},
+          {"text": "The removal of all carbon dioxide", "text_fr": "La disparition de tout le dioxyde de carbone", "correct": false}
+        ],
+        "hints": [
+          {"text": "A gas is added to the air.", "text_fr": "Un gaz est ajouté à l'air."},
+          {"text": "It adds to global warming.", "text_fr": "Cela contribue au réchauffement."}
+        ]
+      }
+    ]
+  }
+}

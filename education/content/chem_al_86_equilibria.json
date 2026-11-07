@@ -1,0 +1,347 @@
+{
+  "lesson": 86,
+  "status": "published",
+  "lesson_fields": {
+    "title": "Reversible Reactions and Equilibrium",
+    "title_fr": "Reactions reversibles et equilibre",
+    "summary": "Some reactions can run forwards and backwards. When the forward and back rates become equal in a closed container, the system reaches a dynamic equilibrium.",
+    "summary_fr": "Certaines reactions peuvent se faire dans les deux sens. Quand les vitesses aller et retour deviennent egales dans un vase ferme, le systeme atteint un equilibre dynamique.",
+    "content": "## Reversible and dynamic\n\nA reversible reaction uses two arrows. In a closed container, products can turn back into reactants. At equilibrium the amounts stay the same, but both reactions still happen.\n\n## Position of equilibrium\n\nThe position can shift. Changing concentration, temperature or pressure can make more products or more reactants.",
+    "content_fr": "## Reversible et dynamique\n\nUne reaction reversible s'indique par deux fleches. Dans un recipient ferme, les produits peuvent redevenir des reactifs. A l'equilibre, les quantites restent constantes, mais les deux reactions continuent.\n\n## Position de l'equilibre\n\nLa position peut se deplacer. Modifier la concentration, la temperature ou la pression peut produire plus de produits ou plus de reactifs.",
+    "objectives": [
+      "Write and recognise a reversible reaction",
+      "Explain dynamic equilibrium",
+      "Describe how temperature, pressure or concentration can shift the position"
+    ],
+    "objectives_fr": [
+      "Ecrire et reconnaitre une reaction reversible",
+      "Expliquer un equilibre dynamique",
+      "Decrire comment la temperature, la pression ou la concentration peuvent deplacer l'equilibre"
+    ],
+    "estimated_minutes": 25
+  },
+  "steps": [
+    {
+      "kind": "concept",
+      "title": "Forwards and backwards",
+      "title_fr": "Aller et retour",
+      "content": "In a reversible reaction the forward and back reactions can both happen. The symbol is two half-arrows pointing in opposite directions.\n\nAt first the forward is fast and the back is slow. As products build up, the back speeds up. In a closed container they end up at the same rate.",
+      "content_fr": "Dans une reaction reversible, les reactions directe et inverse peuvent toutes deux avoir lieu. Le symbole est deux fleches opposees.\n\nAu debut, la reaction directe est rapide et l'inverse est lente. A mesure que les produits se forment, l'inverse s'accelere. Dans un recipient ferme, les deux finissent par avoir la meme vitesse.",
+      "required": true,
+      "xp": 10,
+      "question": {
+        "kind": "mcq",
+        "text": "What symbol shows a reversible reaction?",
+        "text_fr": "Quel symbole montre une reaction reversible ?",
+        "explanation": "Two half-arrows pointing in opposite directions indicate reversibility.",
+        "explanation_fr": "Deux fleches opposees indiquent que la reaction est reversible.",
+        "hint_prompt": "It shows both directions at once.",
+        "hint_prompt_fr": "Il montre les deux sens a la fois.",
+        "choices": [
+          {
+            "text": "⇌",
+            "text_fr": "⇌",
+            "correct": true
+          },
+          {
+            "text": "→",
+            "text_fr": "→",
+            "correct": false
+          },
+          {
+            "text": "+",
+            "text_fr": "+",
+            "correct": false
+          }
+        ],
+        "hints": [
+          {
+            "text": "Look for the double arrow.",
+            "text_fr": "Cherche la double fleche."
+          }
+        ]
+      }
+    },
+    {
+      "kind": "explain",
+      "title": "Dynamic equilibrium",
+      "title_fr": "L'equilibre dynamique",
+      "content": "At dynamic equilibrium the forward and back reactions keep going, but their rates are equal. The total amounts of reactants and products do not change.\n\nThis can only happen in a closed container, where nothing can escape.",
+      "content_fr": "A l'equilibre dynamique, les reactions directe et inverse continuent, mais leurs vitesses sont egales. Les quantites totales de reactifs et de produits ne changent pas.\n\nCela ne peut se produire que dans un recipient ferme, ou rien ne peut s'echapper.",
+      "required": true,
+      "xp": 10
+    },
+    {
+      "kind": "example",
+      "title": "Worked example: heating hydrated copper sulphate",
+      "title_fr": "Exemple resolu : chauffer le sulfate de cuivre hydrate",
+      "content": "When heated, blue hydrated copper sulphate gives white anhydrous copper sulphate and water. On cooling and adding water, it turns blue again.\n\nThis back-and-forth shows the reaction can be reversible.",
+      "content_fr": "En chauffant, le sulfate de cuivre hydrate bleu donne du sulfate de cuivre anhydre blanc et de l'eau. En refroidissant et en ajoutant de l'eau, il redevient bleu.\n\nCe va-et-vient montre que la reaction est reversible.",
+      "required": true,
+      "xp": 12
+    },
+    {
+      "kind": "practice",
+      "title": "Your turn: closed container",
+      "title_fr": "A toi : recipient ferme",
+      "content": "A reversible reaction runs in a sealed flask. After some time the amounts of everything remain the same. Decide what this means.",
+      "content_fr": "Une reaction reversible se deroule dans un ballon scelle. Apres un certain temps, les quantites ne changent plus. Determine ce que cela signifie.",
+      "required": true,
+      "xp": 12,
+      "question": {
+        "kind": "mcq",
+        "text": "What has been reached?",
+        "text_fr": "Qu'a-t-on atteint ?",
+        "explanation": "Amounts stay constant and both reactions continue, so it is a dynamic equilibrium.",
+        "explanation_fr": "Les quantites restent constantes et les deux reactions continuent, c'est donc un equilibre dynamique.",
+        "hint_prompt": "Both directions are still happening.",
+        "hint_prompt_fr": "Les deux sens continuent d'avoir lieu.",
+        "choices": [
+          {
+            "text": "Dynamic equilibrium",
+            "text_fr": "Un equilibre dynamique",
+            "correct": true
+          },
+          {
+            "text": "The reaction has stopped",
+            "text_fr": "La reaction s'est arretee",
+            "correct": false
+          },
+          {
+            "text": "Only the back reaction happens",
+            "text_fr": "Seule la reaction inverse a lieu",
+            "correct": false
+          }
+        ],
+        "hints": [
+          {
+            "text": "The word dynamic means moving.",
+            "text_fr": "Le mot dynamique veut dire en mouvement."
+          }
+        ]
+      }
+    },
+    {
+      "kind": "question",
+      "title": "Check: shifting equilibrium",
+      "title_fr": "Verification : deplacer l'equilibre",
+      "content": "If we change conditions, the position of equilibrium can shift. For a reaction that makes a gas, raising the pressure often pushes the equilibrium to make fewer gas particles.",
+      "content_fr": "Si l'on change les conditions, la position de l'equilibre peut se deplacer. Pour une reaction qui forme un gaz, augmenter la pression pousse souvent l'equilibre vers le cote qui a le moins de particules gazeuses.",
+      "required": true,
+      "xp": 12,
+      "question": {
+        "kind": "mcq",
+        "text": "Raising pressure favours the side with fewer gas particles. What is this an example of?",
+        "text_fr": "Augmenter la pression favorise le cote qui a moins de particules gazeuses. De quoi s'agit-il ?",
+        "explanation": "This is a shift of the position of equilibrium to oppose the change.",
+        "explanation_fr": "C'est un deplacement de la position de l'equilibre pour s'opposer au changement.",
+        "hint_prompt": "It is about moving the balance.",
+        "hint_prompt_fr": "Il s'agit de deplacer l'equilibre.",
+        "choices": [
+          {
+            "text": "Shifting the position of equilibrium",
+            "text_fr": "Deplacer la position de l'equilibre",
+            "correct": true
+          },
+          {
+            "text": "Stopping the reaction",
+            "text_fr": "Arreter la reaction",
+            "correct": false
+          },
+          {
+            "text": "Making a new element",
+            "text_fr": "Creer un nouvel element",
+            "correct": false
+          }
+        ],
+        "hints": [
+          {
+            "text": "The amounts change, not the fact of equilibrium.",
+            "text_fr": "Les quantites changent, mais l'equilibre peut se retablir."
+          }
+        ]
+      }
+    },
+    {
+      "kind": "summary",
+      "title": "What to keep",
+      "title_fr": "A retenir",
+      "content": "Reversible reactions go both ways and reach dynamic equilibrium in a closed container. At equilibrium both reactions happen at the same rate, so amounts stay steady. Changing concentration, temperature or pressure can shift the position.",
+      "content_fr": "Les reactions reversibles vont dans les deux sens et atteignent un equilibre dynamique dans un recipient ferme. A l'equilibre, les deux reactions se font a la meme vitesse, donc les quantites restent stables. Modifier la concentration, la temperature ou la pression peut deplacer la position de l'equilibre.",
+      "required": false,
+      "xp": 5
+    }
+  ],
+  "quiz": {
+    "title": "Reversible Reactions and Equilibrium",
+    "title_fr": "Reactions reversibles et equilibre",
+    "pass_score": 60,
+    "questions": [
+      {
+        "kind": "mcq",
+        "text": "Which symbol means reversible?",
+        "text_fr": "Quel symbole veut dire reversible ?",
+        "explanation": "Two half-arrows in opposite directions show the forward and back reactions.",
+        "explanation_fr": "Deux fleches opposees montrent que les deux sens sont possibles.",
+        "hint_prompt": "It looks like a balance of arrows.",
+        "hint_prompt_fr": "Cela ressemble a deux fleches qui s'opposent.",
+        "choices": [
+          {
+            "text": "⇌",
+            "text_fr": "⇌",
+            "correct": true
+          },
+          {
+            "text": "→",
+            "text_fr": "→",
+            "correct": false
+          },
+          {
+            "text": "⇨",
+            "text_fr": "⇨",
+            "correct": false
+          }
+        ],
+        "hints": [
+          {
+            "text": "The double arrow shows both directions.",
+            "text_fr": "La double fleche montre les deux sens."
+          }
+        ],
+        "difficulty": 1
+      },
+      {
+        "kind": "mcq",
+        "text": "When is dynamic equilibrium reached?",
+        "text_fr": "Quand atteint-on un equilibre dynamique ?",
+        "explanation": "When the forward and back reactions happen at the same rate in a closed container.",
+        "explanation_fr": "Quand les reactions directe et inverse ont la meme vitesse dans un recipient ferme.",
+        "hint_prompt": "Both must still be happening at equal speed.",
+        "hint_prompt_fr": "Les deux continuent, a la meme vitesse.",
+        "choices": [
+          {
+            "text": "Forward and back rates are equal",
+            "text_fr": "Les vitesses aller et retour sont egales",
+            "correct": true
+          },
+          {
+            "text": "All reactants are used up",
+            "text_fr": "Tous les reactifs sont epuises",
+            "correct": false
+          },
+          {
+            "text": "The temperature becomes zero",
+            "text_fr": "La temperature devient nulle",
+            "correct": false
+          }
+        ],
+        "hints": [
+          {
+            "text": "It is a balance of rates, not a stop.",
+            "text_fr": "C'est un equilibre de vitesses, pas un arret."
+          }
+        ],
+        "difficulty": 1
+      },
+      {
+        "kind": "mcq",
+        "text": "What does dynamic mean in dynamic equilibrium?",
+        "text_fr": "Que veut dire dynamique dans equilibre dynamique ?",
+        "explanation": "Both reactions are still active, even though amounts stay the same.",
+        "explanation_fr": "Les deux reactions continuent d'avoir lieu, meme si les quantites restent constantes.",
+        "hint_prompt": "It is not a static standstill.",
+        "hint_prompt_fr": "Ce n'est pas un arret complet.",
+        "choices": [
+          {
+            "text": "Both reactions are still happening",
+            "text_fr": "Les deux reactions continuent",
+            "correct": true
+          },
+          {
+            "text": "Nothing moves at all",
+            "text_fr": "Rien ne bouge",
+            "correct": false
+          },
+          {
+            "text": "Only solids react",
+            "text_fr": "Seuls les solides reagissent",
+            "correct": false
+          }
+        ],
+        "hints": [
+          {
+            "text": "The particles are still moving and reacting.",
+            "text_fr": "Les particules bougent encore et reagissent."
+          }
+        ],
+        "difficulty": 1
+      },
+      {
+        "kind": "mcq",
+        "text": "Which change can shift the position of equilibrium?",
+        "text_fr": "Quel changement peut deplacer la position de l'equilibre ?",
+        "explanation": "Changing temperature, concentration or pressure can shift it.",
+        "explanation_fr": "Modifier la temperature, la concentration ou la pression peut le deplacer.",
+        "hint_prompt": "Think of the main conditions we can vary.",
+        "hint_prompt_fr": "Pense aux conditions que l'on peut changer.",
+        "choices": [
+          {
+            "text": "Changing the temperature",
+            "text_fr": "Changer la temperature",
+            "correct": true
+          },
+          {
+            "text": "Changing the colour of the flask",
+            "text_fr": "Changer la couleur du ballon",
+            "correct": false
+          },
+          {
+            "text": "Moving the flask to another room",
+            "text_fr": "Deplacer le ballon dans une autre piece",
+            "correct": false
+          }
+        ],
+        "hints": [
+          {
+            "text": "Only factors that affect the reaction rates shift it.",
+            "text_fr": "Seuls les facteurs qui influent sur les vitesses le deplacent."
+          }
+        ],
+        "difficulty": 1
+      },
+      {
+        "kind": "mcq",
+        "text": "Why must a reversible reaction be in a closed container to reach equilibrium?",
+        "text_fr": "Pourquoi faut-il un recipient ferme pour qu'une reaction reversible atteigne l'equilibre ?",
+        "explanation": "A closed container stops reactants or products from escaping.",
+        "explanation_fr": "Un recipient ferme empeche les reactifs ou les produits de s'echapper.",
+        "hint_prompt": "If something escapes, the balance is broken.",
+        "hint_prompt_fr": "Si quelque chose s'echappe, l'equilibre est rompu.",
+        "choices": [
+          {
+            "text": "To stop materials escaping",
+            "text_fr": "Pour empecher les matieres de s'echapper",
+            "correct": true
+          },
+          {
+            "text": "To keep it dark",
+            "text_fr": "Pour garder le flacon dans l'obscurite",
+            "correct": false
+          },
+          {
+            "text": "To make it heavier",
+            "text_fr": "Pour le rendre plus lourd",
+            "correct": false
+          }
+        ],
+        "hints": [
+          {
+            "text": "Loss of gas would shift the amounts.",
+            "text_fr": "La perte d'un gaz modifierait les quantites."
+          }
+        ],
+        "difficulty": 2
+      }
+    ]
+  }
+}

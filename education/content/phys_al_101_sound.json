@@ -1,0 +1,347 @@
+{
+  "lesson": 101,
+  "status": "published",
+  "lesson_fields": {
+    "title": "Sound and Ultrasound",
+    "title_fr": "Son et ultrasons",
+    "summary": "Sound is a longitudinal wave that needs a material. Ultrasound is sound with a frequency above the range humans can hear, and it has many medical and industrial uses.",
+    "summary_fr": "Le son est une onde longitudinale qui a besoin d'un materiel. L'ultrason est un son dont la frequence depasse le seuil audible par l'homme, et il a de nombreuses applications medicales et industrielles.",
+    "content": "## How sound travels\n\nSound needs a material to travel through. It cannot cross empty space. In air it travels at about 340 metres per second.\n\n## Ultrasound\n\nHumans can hear from about 20 to 20000 hertz. Ultrasound has a frequency above 20000 hertz. It is used for scanning babies, cleaning small parts and testing materials for cracks.",
+    "content_fr": "## Comment le son se propage\n\nLe son a besoin d'un materiel pour se propager. Il ne peut pas traverser le vide. Dans l'air, il se propage a environ 340 metres par seconde.\n\n## Ultrasons\n\nL'homme entend de 20 a 20000 hertz environ. L'ultrason a une frequence superieure a 20000 hertz. On l'utilise pour observer les bebes, nettoyer de petites pieces et detecter les fissures dans les materiaux.",
+    "objectives": [
+      "Explain how sound travels and what it needs",
+      "Describe the frequency range of human hearing",
+      "Give uses of ultrasound in medicine and industry"
+    ],
+    "objectives_fr": [
+      "Expliquer comment le son se propage et ce dont il a besoin",
+      "Decrire la plage de frequence de l'audition humaine",
+      "Citer des usages de l'ultrason en medecine et dans l'industrie"
+    ],
+    "estimated_minutes": 25
+  },
+  "steps": [
+    {
+      "kind": "concept",
+      "title": "Sound needs a material",
+      "title_fr": "Le son a besoin d'un materiel",
+      "content": "Sound is a longitudinal wave made by something vibrating. It needs a material, such as air, water or a solid, to carry the vibration along.\n\nIn air, sound travels at about 340 metres per second. It cannot travel through empty space, because there are no particles to carry the vibration.",
+      "content_fr": "Le son est une onde longitudinale produite par quelque chose qui vibre. Il a besoin d'un materiel, comme l'air, l'eau ou un solide, pour transporter la vibration.\n\nDans l'air, le son se propage a environ 340 metres par seconde. Il ne peut pas traverser le vide, car il n'y a pas de particules pour transporter la vibration.",
+      "required": true,
+      "xp": 10,
+      "question": {
+        "kind": "mcq",
+        "text": "Why can sound not travel through empty space?",
+        "text_fr": "Pourquoi le son ne peut-il pas traverser le vide ?",
+        "explanation": "There are no particles in empty space to carry the vibration.",
+        "explanation_fr": "Il n'y a aucune particule dans le vide pour transporter la vibration.",
+        "hint_prompt": "Think about what carries the wave.",
+        "hint_prompt_fr": "Pense a ce qui transporte l'onde.",
+        "choices": [
+          {
+            "text": "There are no particles to vibrate",
+            "text_fr": "Il n'y a pas de particules pour vibrer",
+            "correct": true
+          },
+          {
+            "text": "Sound is too weak",
+            "text_fr": "Le son est trop faible",
+            "correct": false
+          },
+          {
+            "text": "Sound is only transverse",
+            "text_fr": "Le son est seulement transversal",
+            "correct": false
+          }
+        ],
+        "hints": [
+          {
+            "text": "A material is needed to carry the vibration.",
+            "text_fr": "Il faut un materiel pour transporter la vibration."
+          }
+        ]
+      }
+    },
+    {
+      "kind": "explain",
+      "title": "The range of hearing",
+      "title_fr": "La plage d'audition",
+      "content": "Humans can hear sounds with frequencies from about 20 hertz to 20000 hertz.\n\nSounds below 20 hertz are called infrasound. Sounds above 20000 hertz are called ultrasound. Both are present in the world around us, but we cannot hear them.",
+      "content_fr": "L'homme peut entendre des sons dont les frequences vont d'environ 20 hertz a 20000 hertz.\n\nLes sons en dessous de 20 hertz s'appellent les infrasons. Les sons au dessus de 20000 hertz s'appellent les ultrasons. Les deux existent autour de nous, mais nous ne pouvons pas les entendre.",
+      "required": true,
+      "xp": 10
+    },
+    {
+      "kind": "example",
+      "title": "Worked example: a baby scan",
+      "title_fr": "Exemple resolu : une echographie",
+      "content": "A doctor uses ultrasound to scan a baby in the womb. A probe sends high frequency sound into the body.\n\nThe sound reflects off the baby's body and returns to the probe. A computer turns the reflections into an image.",
+      "content_fr": "Un medecin utilise l'ultrason pour observer un bebe dans l'uterus. Une sonde envoie des sons de haute frequence dans le corps.\n\nLe son se reflete sur le corps du bebe et revient a la sonde. Un ordinateur transforme les reflets en image.",
+      "required": true,
+      "xp": 12
+    },
+    {
+      "kind": "practice",
+      "title": "Your turn: ultrasound uses",
+      "title_fr": "A toi : usages de l'ultrason",
+      "content": "Match each use of ultrasound to why it is suitable: cleaning jewellery, scanning a baby, testing a metal beam for cracks.",
+      "content_fr": "Associe chaque usage de l'ultrason a la raison de son utilite : nettoyer des bijoux, observer un bebe, tester une poutre metallique en cherchant des fissures.",
+      "required": true,
+      "xp": 12,
+      "question": {
+        "kind": "mcq",
+        "text": "Why is ultrasound used to test metal beams?",
+        "text_fr": "Pourquoi utilise-t-on l'ultrason pour tester des poutres metalliques ?",
+        "explanation": "Ultrasound reflects off cracks inside the metal, so hidden flaws can be found.",
+        "explanation_fr": "L'ultrason se reflete sur les fissures a l'interieur du metal, donc on peut detecter les defauts caches.",
+        "hint_prompt": "It reflects off hidden surfaces.",
+        "hint_prompt_fr": "Il se reflete sur des surfaces cachees.",
+        "choices": [
+          {
+            "text": "It reflects off cracks in the metal",
+            "text_fr": "Il se reflete sur les fissures du metal",
+            "correct": true
+          },
+          {
+            "text": "It is very loud",
+            "text_fr": "Il est tres fort",
+            "correct": false
+          },
+          {
+            "text": "It makes the metal warmer",
+            "text_fr": "Il rechauffe le metal",
+            "correct": false
+          }
+        ],
+        "hints": [
+          {
+            "text": "Reflections reveal what is inside.",
+            "text_fr": "Les reflets revelent ce qui est a l'interieur."
+          }
+        ]
+      }
+    },
+    {
+      "kind": "question",
+      "title": "Check: ultrasound in medicine",
+      "title_fr": "Verification : ultrasons en medecine",
+      "content": "Ultrasound is safe for scanning babies because it does not use radiation. It is also used to break up kidney stones and to clean instruments.",
+      "content_fr": "L'ultrason est sans danger pour observer les bebes car il n'utilise pas de rayonnement. On l'emploie aussi pour fragmenter les calculs renaux et nettoyer des instruments.",
+      "required": true,
+      "xp": 12,
+      "question": {
+        "kind": "mcq",
+        "text": "Why is ultrasound preferred over X-rays for scanning a baby?",
+        "text_fr": "Pourquoi prefere-t-on l'ultrason aux radiographies pour observer un bebe ?",
+        "explanation": "Ultrasound does not use ionising radiation, so it is safer for an unborn baby.",
+        "explanation_fr": "L'ultrason n'utilise pas de rayonnement ionisant, il est donc plus sur pour un bebe a naitre.",
+        "hint_prompt": "Think about safety.",
+        "hint_prompt_fr": "Pense a la securite.",
+        "choices": [
+          {
+            "text": "It does not use radiation",
+            "text_fr": "Il n'utilise pas de rayonnement",
+            "correct": true
+          },
+          {
+            "text": "It is cheaper to build",
+            "text_fr": "Il coute moins cher a fabriquer",
+            "correct": false
+          },
+          {
+            "text": "It gives a louder sound",
+            "text_fr": "Il produit un son plus fort",
+            "correct": false
+          }
+        ],
+        "hints": [
+          {
+            "text": "Radiation can harm unborn tissue.",
+            "text_fr": "Le rayonnement peut nuire aux tissus a naitre."
+          }
+        ]
+      }
+    },
+    {
+      "kind": "summary",
+      "title": "What to keep",
+      "title_fr": "A retenir",
+      "content": "Sound is longitudinal and needs a material. Ultrasound is sound above 20000 hertz. It is used for scanning, cleaning and testing materials for cracks.",
+      "content_fr": "Le son est longitudinal et a besoin d'un materiel. L'ultrason est un son au dessus de 20000 hertz. On l'utilise pour observer, nettoyer et tester les materiaux a la recherche de fissures.",
+      "required": false,
+      "xp": 5
+    }
+  ],
+  "quiz": {
+    "title": "Sound and Ultrasound",
+    "title_fr": "Son et ultrasons",
+    "pass_score": 60,
+    "questions": [
+      {
+        "kind": "mcq",
+        "text": "What is the upper limit of normal human hearing?",
+        "text_fr": "Quelle est la limite superieure de l'audition humaine normale ?",
+        "explanation": "Humans hear up to about 20000 hertz.",
+        "explanation_fr": "L'homme entend jusqu'a environ 20000 hertz.",
+        "hint_prompt": "Above this is ultrasound.",
+        "hint_prompt_fr": "Au dessus c'est de l'ultrason.",
+        "choices": [
+          {
+            "text": "20000 hertz",
+            "text_fr": "20000 hertz",
+            "correct": true
+          },
+          {
+            "text": "2000 hertz",
+            "text_fr": "2000 hertz",
+            "correct": false
+          },
+          {
+            "text": "200 hertz",
+            "text_fr": "200 hertz",
+            "correct": false
+          }
+        ],
+        "hints": [
+          {
+            "text": "It is a large number.",
+            "text_fr": "C'est un grand nombre."
+          }
+        ],
+        "difficulty": 1
+      },
+      {
+        "kind": "mcq",
+        "text": "Ultrasound is defined as sound with a frequency:",
+        "text_fr": "L'ultrason est defini comme un son dont la frequence :",
+        "explanation": "Above 20000 hertz, beyond the range of human hearing.",
+        "explanation_fr": "Depasse 20000 hertz, au dela du seuil audible par l'homme.",
+        "hint_prompt": "It is above what we can hear.",
+        "hint_prompt_fr": "Il est au dela de ce que nous pouvons entendre.",
+        "choices": [
+          {
+            "text": "Above 20000 hertz",
+            "text_fr": "Depasse 20000 hertz",
+            "correct": true
+          },
+          {
+            "text": "Below 20 hertz",
+            "text_fr": "En dessous de 20 hertz",
+            "correct": false
+          },
+          {
+            "text": "Exactly 1000 hertz",
+            "text_fr": "Exactement 1000 hertz",
+            "correct": false
+          }
+        ],
+        "hints": [
+          {
+            "text": "Ultra means above.",
+            "text_fr": "Le prefixe ultra veut dire au dela."
+          }
+        ],
+        "difficulty": 1
+      },
+      {
+        "kind": "mcq",
+        "text": "How does an ultrasound scanner form an image?",
+        "text_fr": "Comment un scanner a ultrasons forme-t-il une image ?",
+        "explanation": "The sound reflects off the body's structures and the echoes are turned into an image.",
+        "explanation_fr": "Le son se reflete sur les structures du corps et les echos sont transformes en image.",
+        "hint_prompt": "The echoes carry the information.",
+        "hint_prompt_fr": "Les echos transportent l'information.",
+        "choices": [
+          {
+            "text": "It reads the echoes that come back",
+            "text_fr": "Il lit les echos qui reviennent",
+            "correct": true
+          },
+          {
+            "text": "It shines a light through the body",
+            "text_fr": "Il fait passer de la lumiere a travers le corps",
+            "correct": false
+          },
+          {
+            "text": "It measures the body's colour",
+            "text_fr": "Il mesure la couleur du corps",
+            "correct": false
+          }
+        ],
+        "hints": [
+          {
+            "text": "Reflection is the key.",
+            "text_fr": "La reflection est essentielle."
+          }
+        ],
+        "difficulty": 1
+      },
+      {
+        "kind": "mcq",
+        "text": "Why can sound not travel through a vacuum?",
+        "text_fr": "Pourquoi le son ne peut-il pas traverser le vide ?",
+        "explanation": "Sound needs particles to carry the vibration, and a vacuum has none.",
+        "explanation_fr": "Le son a besoin de particules pour transporter la vibration, et le vide n'en contient aucune.",
+        "hint_prompt": "There is nothing to vibrate.",
+        "hint_prompt_fr": "Il n'y a rien pour vibrer.",
+        "choices": [
+          {
+            "text": "There are no particles to carry it",
+            "text_fr": "Il n'y a pas de particules pour le transporter",
+            "correct": true
+          },
+          {
+            "text": "Sound is too slow in a vacuum",
+            "text_fr": "Le son est trop lent dans le vide",
+            "correct": false
+          },
+          {
+            "text": "Sound stops at room temperature",
+            "text_fr": "Le son s'arrete a temperature ambiante",
+            "correct": false
+          }
+        ],
+        "hints": [
+          {
+            "text": "No material means no vibration.",
+            "text_fr": "Pas de materiel veut dire pas de vibration."
+          }
+        ],
+        "difficulty": 1
+      },
+      {
+        "kind": "mcq",
+        "text": "Which is NOT a use of ultrasound?",
+        "text_fr": "Lequel n'est PAS un usage de l'ultrason ?",
+        "explanation": "Ultrasound is not used to produce electricity; it is used for scanning, cleaning and testing.",
+        "explanation_fr": "L'ultrason ne sert pas a produire de l'electricite ; il sert a observer, nettoyer et tester.",
+        "hint_prompt": "Three of these are real uses.",
+        "hint_prompt_fr": "Trois de ces usages sont reels.",
+        "choices": [
+          {
+            "text": "Producing electricity",
+            "text_fr": "Produire de l'electricite",
+            "correct": true
+          },
+          {
+            "text": "Scanning a baby",
+            "text_fr": "Observer un bebe",
+            "correct": false
+          },
+          {
+            "text": "Cleaning jewellery",
+            "text_fr": "Nettoyer des bijoux",
+            "correct": false
+          }
+        ],
+        "hints": [
+          {
+            "text": "Ultrasound carries energy, not electric current.",
+            "text_fr": "L'ultrason transporte de l'energie, pas de courant electrique."
+          }
+        ],
+        "difficulty": 1
+      }
+    ]
+  }
+}

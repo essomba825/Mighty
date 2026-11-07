@@ -1,0 +1,291 @@
+{
+  "lesson": 129,
+  "status": "published",
+  "lesson_fields": {
+    "title": "Cell Division",
+    "title_fr": "Division cellulaire",
+    "summary": "Cells divide for growth, repair and reproduction. Mitosis makes identical cells. Meiosis makes sex cells with half the number of chromosomes.",
+    "summary_fr": "Les cellules se divisent pour la croissance, la reparation et la reproduction. La mitose fabrique des cellules identiques. La meiose fabrique des cellules sexuelles avec moitie moins de chromosomes.",
+    "content": "## Mitosis\n\nMitosis produces two identical cells. It is used for growth and to replace damaged cells. The chromosome number stays the same.\n\n## Meiosis\n\nMeiosis produces four sex cells. Each has half the normal number of chromosomes, so that when two sex cells join, the offspring has the full number.",
+    "content_fr": "## La mitose\n\nLa mitose produit deux cellules identiques. Elle sert a la croissance et a remplacer les cellules abimees. Le nombre de chromosomes reste le meme.\n\n## La meiose\n\nLa meiose produit quatre cellules sexuelles. Chacune a moitie du nombre normal de chromosomes, pour que lorsque deux cellules sexuelles s'unissent, le descendant ait le nombre complet.",
+    "objectives": [
+      "Compare mitosis and meiosis",
+      "State where mitosis and meiosis happen",
+      "Explain why sex cells have half the chromosomes"
+    ],
+    "objectives_fr": [
+      "Comparer mitose et meiose",
+      "Indiquer ou se produisent la mitose et la meiose",
+      "Expliquer pourquoi les cellules sexuelles ont moitie des chromosomes"
+    ],
+    "estimated_minutes": 25
+  },
+  "steps": [
+    {
+      "kind": "concept",
+      "title": "Why cells divide",
+      "title_fr": "Pourquoi les cellules se divisent",
+      "content": "Cells divide for growth, to repair damage and, in some cases, to reproduce. There are two main types: mitosis and meiosis.",
+      "content_fr": "Les cellules se divisent pour la croissance, pour reparer les dommages et parfois pour se reproduire. Il y a deux types principaux : la mitose et la meiose.",
+      "required": true,
+      "xp": 10,
+      "question": {
+        "kind": "mcq",
+        "text": "Why do body cells divide by mitosis?",
+        "text_fr": "Pourquoi les cellules du corps se divisent-elles par mitose ?",
+        "explanation": "Mitosis is for growth and repair.",
+        "explanation_fr": "La mitose sert a la croissance et a la reparation.",
+        "choices": [
+          {
+            "text": "Growth and repair",
+            "text_fr": "La croissance et la reparation",
+            "correct": true
+          },
+          {
+            "text": "Making sex cells",
+            "text_fr": "Fabriquer des cellules sexuelles",
+            "correct": false
+          },
+          {
+            "text": "Making energy",
+            "text_fr": "Fabriquer de l'energie",
+            "correct": false
+          }
+        ],
+        "hints": [
+          {
+            "text": "Think about healing a cut.",
+            "text_fr": "Pense a la cicatrisation d'une blessure."
+          }
+        ],
+        "difficulty": 1
+      }
+    },
+    {
+      "kind": "explain",
+      "title": "Mitosis makes copies",
+      "title_fr": "La mitose fait des copies",
+      "content": "In mitosis one cell divides into two identical cells. Each new cell has the same number of chromosomes as the parent. This is how you grow and heal.",
+      "content_fr": "En mitose, une cellule se divise en deux cellules identiques. Chaque nouvelle cellule a le meme nombre de chromosomes que la cellule mere. C'est ainsi que l'on grandit et que l'on guerit.",
+      "required": true,
+      "xp": 10
+    },
+    {
+      "kind": "example",
+      "title": "Meiosis makes sex cells",
+      "title_fr": "La meiose fabrique les cellules sexuelles",
+      "content": "In meiosis one cell divides to make four sex cells, each with half the number of chromosomes. When two sex cells join at fertilisation, the full number is restored.",
+      "content_fr": "En meiose, une cellule se divise pour donner quatre cellules sexuelles, chacune avec moitie des chromosomes. Quand deux cellules sexuelles s'unissent a la fecondation, le nombre complet est restaure.",
+      "required": true,
+      "xp": 12
+    },
+    {
+      "kind": "practice",
+      "title": "Your turn: chromosome number",
+      "title_fr": "A toi : nombre de chromosomes",
+      "content": "If a body cell has 46 chromosomes, how many does a human sex cell have?",
+      "content_fr": "Si une cellule du corps a 46 chromosomes, combien en a une cellule sexuelle humaine ?",
+      "required": true,
+      "xp": 12,
+      "question": {
+        "kind": "numeric",
+        "text": "How many chromosomes in a human sex cell?",
+        "text_fr": "Combien de chromosomes dans une cellule sexuelle humaine ?",
+        "explanation": "Sex cells have half the number: 23.",
+        "explanation_fr": "Les cellules sexuelles ont moitie : 23.",
+        "config": {
+          "accepted": [
+            "23"
+          ]
+        },
+        "hints": [
+          {
+            "text": "Half of 46.",
+            "text_fr": "La moitie de 46."
+          }
+        ],
+        "difficulty": 1
+      }
+    },
+    {
+      "kind": "question",
+      "title": "Check: number of cells",
+      "title_fr": "Verification : nombre de cellules",
+      "content": "Mitosis gives two cells, while meiosis gives four cells.",
+      "content_fr": "La mitose donne deux cellules, tandis que la meiose donne quatre cellules.",
+      "required": true,
+      "xp": 12,
+      "question": {
+        "kind": "mcq",
+        "text": "How many cells does meiosis produce?",
+        "text_fr": "Combien de cellules la meiose produit-elle ?",
+        "explanation": "Meiosis produces four cells.",
+        "explanation_fr": "La meiose produit quatre cellules.",
+        "choices": [
+          {
+            "text": "Four",
+            "text_fr": "Quatre",
+            "correct": true
+          },
+          {
+            "text": "Two",
+            "text_fr": "Deux",
+            "correct": false
+          },
+          {
+            "text": "One",
+            "text_fr": "Une",
+            "correct": false
+          }
+        ],
+        "hints": [
+          {
+            "text": "It is more than two.",
+            "text_fr": "C'est plus de deux."
+          }
+        ],
+        "difficulty": 1
+      }
+    },
+    {
+      "kind": "summary",
+      "title": "What to keep",
+      "title_fr": "A retenir",
+      "content": "Mitosis gives two identical cells for growth and repair. Meiosis gives four sex cells with half the chromosomes.",
+      "content_fr": "La mitose donne deux cellules identiques pour la croissance et la reparation. La meiose donne quatre cellules sexuelles avec moitie des chromosomes.",
+      "required": false,
+      "xp": 5
+    }
+  ],
+  "quiz": {
+    "title": "Cell Division",
+    "title_fr": "Division cellulaire",
+    "pass_score": 60,
+    "questions": [
+      {
+        "kind": "mcq",
+        "text": "Which division is used for growth?",
+        "text_fr": "Quelle division sert a la croissance ?",
+        "explanation": "Mitosis is used for growth and repair.",
+        "explanation_fr": "La mitose sert a la croissance et a la reparation.",
+        "choices": [
+          {
+            "text": "Mitosis",
+            "text_fr": "La mitose",
+            "correct": true
+          },
+          {
+            "text": "Meiosis",
+            "text_fr": "La meiose",
+            "correct": false
+          },
+          {
+            "text": "Neither",
+            "text_fr": "Aucune",
+            "correct": false
+          }
+        ],
+        "hints": [
+          {
+            "text": "It makes identical cells.",
+            "text_fr": "Elle fait des cellules identiques."
+          }
+        ],
+        "difficulty": 1
+      },
+      {
+        "kind": "mcq",
+        "text": "How many cells does mitosis produce?",
+        "text_fr": "Combien de cellules la mitose produit-elle ?",
+        "explanation": "Mitosis produces two identical cells.",
+        "explanation_fr": "La mitose produit deux cellules identiques.",
+        "choices": [
+          {
+            "text": "Two",
+            "text_fr": "Deux",
+            "correct": true
+          },
+          {
+            "text": "Four",
+            "text_fr": "Quatre",
+            "correct": false
+          },
+          {
+            "text": "Eight",
+            "text_fr": "Huit",
+            "correct": false
+          }
+        ],
+        "hints": [
+          {
+            "text": "It doubles.",
+            "text_fr": "Elle double."
+          }
+        ],
+        "difficulty": 1
+      },
+      {
+        "kind": "mcq",
+        "text": "Sex cells have how many chromosomes compared to body cells?",
+        "text_fr": "Combien de chromosomes ont les cellules sexuelles par rapport aux cellules du corps ?",
+        "explanation": "Half the number.",
+        "explanation_fr": "Moitie du nombre.",
+        "choices": [
+          {
+            "text": "Half",
+            "text_fr": "Moitie",
+            "correct": true
+          },
+          {
+            "text": "The same",
+            "text_fr": "Autant",
+            "correct": false
+          },
+          {
+            "text": "Double",
+            "text_fr": "Le double",
+            "correct": false
+          }
+        ],
+        "hints": [
+          {
+            "text": "So two can join.",
+            "text_fr": "Pour que deux puissent s'unir."
+          }
+        ],
+        "difficulty": 1
+      },
+      {
+        "kind": "mcq",
+        "text": "Where does meiosis happen in humans?",
+        "text_fr": "Ou la meiose se produit-elle chez l'humain ?",
+        "explanation": "In the reproductive organs.",
+        "explanation_fr": "Dans les organes reproducteurs.",
+        "choices": [
+          {
+            "text": "In reproductive organs",
+            "text_fr": "Dans les organes reproducteurs",
+            "correct": true
+          },
+          {
+            "text": "In the skin",
+            "text_fr": "Dans la peau",
+            "correct": false
+          },
+          {
+            "text": "In the blood",
+            "text_fr": "Dans le sang",
+            "correct": false
+          }
+        ],
+        "hints": [
+          {
+            "text": "To make sex cells.",
+            "text_fr": "Pour fabriquer des cellules sexuelles."
+          }
+        ],
+        "difficulty": 1
+      }
+    ]
+  }
+}

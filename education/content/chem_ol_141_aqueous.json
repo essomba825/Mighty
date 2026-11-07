@@ -1,0 +1,285 @@
+{
+  "lesson": 141,
+  "status": "published",
+  "lesson_fields": {
+    "title": "Electrolysis of Aqueous Solutions",
+    "title_fr": "Électrolyse des solutions aqueuses",
+    "summary": "Use the products of electrolysis to explain electroplating and the extraction of reactive metals.",
+    "summary_fr": "Utiliser les produits de l'électrolyse pour expliquer la galvanoplastie et l'extraction des métaux réactifs.",
+    "content": "## What you will learn\n\nWhen the electrolyte is a solution, water adds its own ions. These extra ions change which products form at the cathode and the anode.",
+    "content_fr": "## Ce que tu vas apprendre\n\nQuand l'électrolyte est une solution, l'eau ajoute ses propres ions. Ces ions supplémentaires modifient les produits qui se forment aux électrodes.",
+    "objectives": [
+      "Predict the products at each electrode for a salt solution",
+      "Describe how copper is purified by electrolysis",
+      "Explain electroplating of a metal object"
+    ],
+    "objectives_fr": [
+      "Prévoir les produits à chaque électrode pour une solution de sel",
+      "Décrire la purification du cuivre par électrolyse",
+      "Expliquer la galvanoplastie d'un objet métallique"
+    ],
+    "estimated_minutes": 30
+  },
+  "steps": [
+    {
+      "kind": "concept",
+      "title": "Ions from water in a solution",
+      "title_fr": "Les ions apportés par l'eau",
+      "content": "When an ionic compound dissolves in water, the solution contains its ions plus hydrogen ions (H+) and hydroxide ions (OH-) from the water. These extra ions can also form products.\n\nAt the cathode, either a metal or hydrogen can form. At the anode, either a non-metal or oxygen can form. The product depends on which ions are present and on their reactivity.",
+      "content_fr": "Quand un composé ionique se dissout dans l'eau, la solution contient ses ions ainsi que des ions hydrogène (H+) et des ions hydroxyde (OH-) venant de l'eau. Ces ions supplémentaires peuvent aussi former des produits.\n\nÀ la cathode, un métal ou de l'hydrogène peut se former. À l'anode, un non-métal ou de l'oxygène peut se former. Le produit dépend des ions présents et de leur réactivité.",
+      "required": true,
+      "xp": 10,
+      "question": {
+        "kind": "mcq",
+        "difficulty": 1,
+        "text": "What two extra ions does water add to an aqueous electrolyte?",
+        "text_fr": "Quels deux ions supplémentaires l'eau apporte-t-elle à un électrolyte aqueux ?",
+        "explanation": "Water contributes hydrogen ions (H+) and hydroxide ions (OH-) to the solution.",
+        "explanation_fr": "L'eau apporte des ions hydrogène (H+) et des ions hydroxyde (OH-) à la solution.",
+        "hint_prompt": "They come from the water itself.",
+        "hint_prompt_fr": "Ils proviennent de l'eau elle-même.",
+        "choices": [
+          {"text": "H+ and OH-", "text_fr": "H+ et OH-", "correct": true},
+          {"text": "Na+ and Cl-", "text_fr": "Na+ et Cl-", "correct": false},
+          {"text": "O2 and H2", "text_fr": "O2 et H2", "correct": false},
+          {"text": "Pb2+ and Br-", "text_fr": "Pb2+ et Br-", "correct": false}
+        ],
+        "hints": [
+          {"text": "One is a hydrogen ion.", "text_fr": "L'un est un ion hydrogène."},
+          {"text": "The other is a hydroxide ion.", "text_fr": "L'autre est un ion hydroxyde."}
+        ]
+      }
+    },
+    {
+      "kind": "concept",
+      "title": "Products at each electrode",
+      "title_fr": "Les produits à chaque électrode",
+      "content": "At the cathode, hydrogen forms if the metal in the solution is more reactive than hydrogen (for example, sodium); otherwise the metal forms. At the anode, a halogen (chlorine or bromine) forms if a halide is present; otherwise oxygen forms.\n\nFor concentrated copper(II) chloride solution, copper forms at the cathode and chlorine forms at the anode. Copper is less reactive than hydrogen, and a chloride is present.",
+      "content_fr": "À la cathode, de l'hydrogène se forme si le métal de la solution est plus réactif que l'hydrogène (par exemple le sodium) ; sinon, c'est le métal qui se forme. À l'anode, un halogène (chlore ou brome) se forme si un halogénure est présent ; sinon, c'est de l'oxygène.\n\nPour une solution concentrée de chlorure de cuivre(II), du cuivre se forme à la cathode et du chlore à l'anode. Le cuivre est moins réactif que l'hydrogène, et un chlorure est présent.",
+      "required": true,
+      "xp": 12,
+      "question": {
+        "kind": "mcq",
+        "difficulty": 2,
+        "text": "In the electrolysis of concentrated copper(II) chloride solution, what forms at the cathode?",
+        "text_fr": "Lors de l'électrolyse d'une solution concentrée de chlorure de cuivre(II), que se forme-t-il à la cathode ?",
+        "explanation": "Copper is less reactive than hydrogen, so copper metal forms at the cathode.",
+        "explanation_fr": "Le cuivre est moins réactif que l'hydrogène : du cuivre métallique se forme à la cathode.",
+        "hint_prompt": "Compare copper with hydrogen.",
+        "hint_prompt_fr": "Compare le cuivre à l'hydrogène.",
+        "choices": [
+          {"text": "Copper metal", "text_fr": "Du cuivre métallique", "correct": true},
+          {"text": "Chlorine", "text_fr": "Du chlore", "correct": false},
+          {"text": "Hydrogen", "text_fr": "De l'hydrogène", "correct": false},
+          {"text": "Oxygen", "text_fr": "De l'oxygène", "correct": false}
+        ],
+        "hints": [
+          {"text": "Copper is less reactive than hydrogen.", "text_fr": "Le cuivre est moins réactif que l'hydrogène."},
+          {"text": "So the metal forms at the cathode.", "text_fr": "Le métal se forme donc à la cathode."}
+        ]
+      }
+    },
+    {
+      "kind": "explain",
+      "title": "Purifying copper",
+      "title_fr": "Purifier le cuivre",
+      "content": "Electrolysis is used to purify copper for electrical wiring. The impure copper is the anode and a thin sheet of pure copper is the cathode, both in copper(II) sulfate solution.\n\nCopper dissolves from the anode and deposits as pure copper on the cathode, while impurities collect below the anode as a sludge. The same idea is used to extract reactive metals and to make chlorine, hydrogen and sodium hydroxide.",
+      "content_fr": "L'électrolyse sert à purifier le cuivre destiné au câblage électrique. Le cuivre impur est l'anode et une mince plaque de cuivre pur est la cathode, tous deux dans une solution de sulfate de cuivre(II).\n\nLe cuivre se dissout à l'anode et se dépose à l'état pur sur la cathode, tandis que les impuretés s'accumulent sous l'anode sous forme de boue. On utilise la même idée pour extraire des métaux réactifs et pour fabriquer du chlore, de l'hydrogène et de la soude.",
+      "required": true,
+      "xp": 12,
+      "question": {
+        "kind": "mcq",
+        "difficulty": 2,
+        "text": "In copper purification, where does the pure copper collect?",
+        "text_fr": "Dans la purification du cuivre, où le cuivre pur se dépose-t-il ?",
+        "explanation": "Copper ions gain electrons at the cathode and deposit as pure copper there.",
+        "explanation_fr": "Les ions cuivre gagnent des électrons à la cathode et s'y déposent à l'état pur.",
+        "hint_prompt": "It is the negative electrode.",
+        "hint_prompt_fr": "C'est l'électrode négative.",
+        "choices": [
+          {"text": "At the cathode", "text_fr": "À la cathode", "correct": true},
+          {"text": "At the anode", "text_fr": "À l'anode", "correct": false},
+          {"text": "In the electrolyte only", "text_fr": "Dans l'électrolyte uniquement", "correct": false},
+          {"text": "On the power supply", "text_fr": "Sur le générateur", "correct": false}
+        ],
+        "hints": [
+          {"text": "Copper ions are positive.", "text_fr": "Les ions cuivre sont positifs."},
+          {"text": "They deposit at the cathode.", "text_fr": "Ils se déposent à la cathode."}
+        ]
+      }
+    },
+    {
+      "kind": "concept",
+      "title": "Electroplating",
+      "title_fr": "La galvanoplastie",
+      "content": "Electroplating coats an object with a thin layer of another metal to make it look better or to stop corrosion. The object to be plated is the cathode, the plating metal is the anode, and the electrolyte is a solution of the plating metal's ions.\n\nSilver plating uses a silver anode and a solution containing silver ions. Silver ions gain electrons at the cathode and coat the object.",
+      "content_fr": "La galvanoplastie recouvre un objet d'une mince couche d'un autre métal pour l'embellir ou empêcher la corrosion. L'objet à recouvrir est la cathode, le métal de revêtement est l'anode, et l'électrolyte est une solution contenant les ions de ce métal.\n\nL'argenture utilise une anode en argent et une solution contenant des ions argent. Les ions argent gagnent des électrons à la cathode et recouvrent l'objet.",
+      "required": true,
+      "xp": 12,
+      "question": {
+        "kind": "mcq",
+        "difficulty": 2,
+        "text": "When an object is electroplated, the object is connected as the...",
+        "text_fr": "Lorsqu'on recouvre un objet par galvanoplastie, l'objet est relié comme...",
+        "explanation": "Metal ions deposit on the object, so the object must be the cathode.",
+        "explanation_fr": "Les ions métalliques se déposent sur l'objet : l'objet doit donc être la cathode.",
+        "hint_prompt": "The coating deposits where ions gain electrons.",
+        "hint_prompt_fr": "Le revêtement se dépose là où les ions gagnent des électrons.",
+        "choices": [
+          {"text": "cathode", "text_fr": "cathode", "correct": true},
+          {"text": "anode", "text_fr": "anode", "correct": false},
+          {"text": "power supply", "text_fr": "générateur", "correct": false},
+          {"text": "electrolyte", "text_fr": "électrolyte", "correct": false}
+        ],
+        "hints": [
+          {"text": "The coating metal is the anode.", "text_fr": "Le métal de revêtement est l'anode."},
+          {"text": "The object is the cathode.", "text_fr": "L'objet est la cathode."}
+        ]
+      }
+    },
+    {
+      "kind": "practice",
+      "title": "Your turn: predicting products",
+      "title_fr": "À toi : prévoir les produits",
+      "content": "Use the rules for aqueous solutions to decide what forms at each electrode.",
+      "content_fr": "Utilise les règles des solutions aqueuses pour décider ce qui se forme à chaque électrode.",
+      "required": true,
+      "xp": 12,
+      "question": {
+        "kind": "mcq",
+        "difficulty": 2,
+        "text": "A salt solution contains a metal that is more reactive than hydrogen. What forms at the cathode?",
+        "text_fr": "Une solution de sel contient un métal plus réactif que l'hydrogène. Que se forme-t-il à la cathode ?",
+        "explanation": "If the metal is more reactive than hydrogen, hydrogen is produced at the cathode instead of the metal.",
+        "explanation_fr": "Si le métal est plus réactif que l'hydrogène, c'est l'hydrogène qui se forme à la cathode, et non le métal.",
+        "hint_prompt": "A more reactive metal stays in the solution.",
+        "hint_prompt_fr": "Un métal plus réactif reste dans la solution.",
+        "choices": [
+          {"text": "Hydrogen", "text_fr": "De l'hydrogène", "correct": true},
+          {"text": "The metal", "text_fr": "Le métal", "correct": false},
+          {"text": "Oxygen", "text_fr": "De l'oxygène", "correct": false},
+          {"text": "Chlorine", "text_fr": "Du chlore", "correct": false}
+        ],
+        "hints": [
+          {"text": "Compare the metal with hydrogen.", "text_fr": "Compare le métal à l'hydrogène."},
+          {"text": "A more reactive metal is not deposited.", "text_fr": "Un métal plus réactif ne se dépose pas."}
+        ]
+      }
+    },
+    {
+      "kind": "summary",
+      "title": "What to keep",
+      "title_fr": "À retenir",
+      "content": "In an aqueous solution, water adds H+ and OH- ions. At the cathode, hydrogen forms if the metal is more reactive than hydrogen; otherwise the metal forms. At the anode, a halogen forms if a halide is present, otherwise oxygen forms. Electrolysis purifies copper and is used for electroplating.",
+      "content_fr": "Dans une solution aqueuse, l'eau apporte des ions H+ et OH-. À la cathode, de l'hydrogène se forme si le métal est plus réactif que l'hydrogène ; sinon, c'est le métal. À l'anode, un halogène se forme si un halogénure est présent, sinon de l'oxygène. L'électrolyse purifie le cuivre et sert à la galvanoplastie.",
+      "xp": 5
+    }
+  ],
+  "quiz": {
+    "title": "Quiz: electrolysis of solutions",
+    "title_fr": "Quiz : l'électrolyse des solutions",
+    "pass_score": 60,
+    "questions": [
+      {
+        "kind": "mcq",
+        "difficulty": 1,
+        "text": "In an aqueous electrolyte, the water adds which ions?",
+        "text_fr": "Dans un électrolyte aqueux, quels ions l'eau apporte-t-elle ?",
+        "explanation": "Water adds hydrogen ions (H+) and hydroxide ions (OH-).",
+        "explanation_fr": "L'eau apporte des ions hydrogène (H+) et des ions hydroxyde (OH-).",
+        "hint_prompt": "They come from water.",
+        "hint_prompt_fr": "Ils proviennent de l'eau.",
+        "choices": [
+          {"text": "H+ and OH-", "text_fr": "H+ et OH-", "correct": true},
+          {"text": "O2 and H2", "text_fr": "O2 et H2", "correct": false},
+          {"text": "Na+ and Cl-", "text_fr": "Na+ et Cl-", "correct": false},
+          {"text": "Pb2+ and Br-", "text_fr": "Pb2+ et Br-", "correct": false}
+        ],
+        "hints": [
+          {"text": "One ion is positive.", "text_fr": "L'un des ions est positif."},
+          {"text": "They are H+ and OH-.", "text_fr": "Ce sont H+ et OH-."}
+        ]
+      },
+      {
+        "kind": "mcq",
+        "difficulty": 2,
+        "text": "Which product forms at the anode when a halide is present?",
+        "text_fr": "Quel produit se forme à l'anode lorsqu'un halogénure est présent ?",
+        "explanation": "A halogen such as chlorine or bromine forms at the anode when a halide is present.",
+        "explanation_fr": "Un halogène comme le chlore ou le brome se forme à l'anode lorsqu'un halogénure est présent.",
+        "hint_prompt": "Halides contain chlorine, bromine or iodine.",
+        "hint_prompt_fr": "Les halogénures contiennent du chlore, du brome ou de l'iode.",
+        "choices": [
+          {"text": "A halogen such as chlorine", "text_fr": "Un halogène comme le chlore", "correct": true},
+          {"text": "A metal", "text_fr": "Un métal", "correct": false},
+          {"text": "Hydrogen", "text_fr": "De l'hydrogène", "correct": false},
+          {"text": "Water", "text_fr": "De l'eau", "correct": false}
+        ],
+        "hints": [
+          {"text": "Chlorine and bromine are halogens.", "text_fr": "Le chlore et le brome sont des halogènes."},
+          {"text": "A halogen forms at the anode.", "text_fr": "Un halogène se forme à l'anode."}
+        ]
+      },
+      {
+        "kind": "mcq",
+        "difficulty": 2,
+        "text": "Pure copper for wiring is made by electrolysis. The pure copper forms at the...",
+        "text_fr": "Le cuivre pur pour le câblage est obtenu par électrolyse. Le cuivre pur se forme à la...",
+        "explanation": "Copper ions gain electrons at the cathode and deposit as pure copper.",
+        "explanation_fr": "Les ions cuivre gagnent des électrons à la cathode et s'y déposent à l'état pur.",
+        "hint_prompt": "It is the negative electrode.",
+        "hint_prompt_fr": "C'est l'électrode négative.",
+        "choices": [
+          {"text": "cathode", "text_fr": "cathode", "correct": true},
+          {"text": "anode", "text_fr": "anode", "correct": false},
+          {"text": "electrolyte", "text_fr": "électrolyte", "correct": false},
+          {"text": "sludge", "text_fr": "boue", "correct": false}
+        ],
+        "hints": [
+          {"text": "Positive ions go to the cathode.", "text_fr": "Les ions positifs vont vers la cathode."},
+          {"text": "Copper deposits at the cathode.", "text_fr": "Le cuivre se dépose à la cathode."}
+        ]
+      },
+      {
+        "kind": "mcq",
+        "difficulty": 2,
+        "text": "In electroplating, the plating metal is used as the...",
+        "text_fr": "En galvanoplastie, le métal de revêtement sert d'...",
+        "explanation": "The plating metal is the anode; it dissolves and its ions deposit on the object at the cathode.",
+        "explanation_fr": "Le métal de revêtement est l'anode ; il se dissout et ses ions se déposent sur l'objet à la cathode.",
+        "hint_prompt": "It is the positive electrode.",
+        "hint_prompt_fr": "C'est l'électrode positive.",
+        "choices": [
+          {"text": "anode", "text_fr": "anode", "correct": true},
+          {"text": "cathode", "text_fr": "cathode", "correct": false},
+          {"text": "object to be plated", "text_fr": "objet à recouvrir", "correct": false},
+          {"text": "power supply", "text_fr": "générateur", "correct": false}
+        ],
+        "hints": [
+          {"text": "The object is the cathode.", "text_fr": "L'objet est la cathode."},
+          {"text": "The plating metal is the anode.", "text_fr": "Le métal de revêtement est l'anode."}
+        ]
+      },
+      {
+        "kind": "mcq",
+        "difficulty": 2,
+        "text": "Sodium chloride solution is electrolysed. Which product forms at the cathode?",
+        "text_fr": "On électrolyse une solution de chlorure de sodium. Quel produit se forme à la cathode ?",
+        "explanation": "Sodium is more reactive than hydrogen, so hydrogen forms at the cathode.",
+        "explanation_fr": "Le sodium est plus réactif que l'hydrogène : c'est donc l'hydrogène qui se forme à la cathode.",
+        "hint_prompt": "Compare sodium with hydrogen.",
+        "hint_prompt_fr": "Compare le sodium à l'hydrogène.",
+        "choices": [
+          {"text": "Hydrogen", "text_fr": "De l'hydrogène", "correct": true},
+          {"text": "Sodium metal", "text_fr": "Du sodium métallique", "correct": false},
+          {"text": "Chlorine", "text_fr": "Du chlore", "correct": false},
+          {"text": "Oxygen", "text_fr": "De l'oxygène", "correct": false}
+        ],
+        "hints": [
+          {"text": "Sodium is very reactive.", "text_fr": "Le sodium est très réactif."},
+          {"text": "So hydrogen forms at the cathode.", "text_fr": "L'hydrogène se forme donc à la cathode."}
+        ]
+      }
+    ]
+  }
+}

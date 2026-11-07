@@ -1,0 +1,323 @@
+{
+  "lesson": 100,
+  "status": "published",
+  "lesson_fields": {
+    "title": "Properties of Waves",
+    "title_fr": "Proprietes des ondes",
+    "summary": "Waves carry energy without carrying matter. Transverse waves move at right angles to their direction, longitudinal waves move along it. Wavelength, frequency and wave speed are linked.",
+    "summary_fr": "Les ondes transportent de l'energie sans transporter de matiere. Les ondes transversales se deplacent perpendiculairement a leur direction, les ondes longitudinales se deplacent le long de celle-ci. La longueur d'onde, la frequence et la vitesse sont liees.",
+    "content": "## Transverse and longitudinal\n\nIn a transverse wave the particles move at right angles to the direction of travel. Light is transverse. In a longitudinal wave the particles move along the direction of travel. Sound is longitudinal.\n\n## Wave equation\n\nWave speed equals wavelength times frequency. If the frequency rises and the wave speed stays the same, the wavelength must fall.",
+    "content_fr": "## Transversales et longitudinales\n\nDans une onde transversale, les particules se deplacent perpendiculairement a la direction de propagation. La lumiere est transversale. Dans une onde longitudinale, les particules se deplacent le long de la direction de propagation. Le son est longitudinal.\n\n## Equation des ondes\n\nLa vitesse de l'onde egale la longueur d'onde fois la frequence. Si la frequence augmente et que la vitesse de l'onde reste la meme, la longueur d'onde doit diminuer.",
+    "objectives": [
+      "Distinguish transverse from longitudinal waves",
+      "Use the wave equation to link speed, wavelength and frequency",
+      "Say which type of wave light and sound are"
+    ],
+    "objectives_fr": [
+      "Distinguer les ondes transversales des ondes longitudinales",
+      "Utiliser l'equation des ondes pour relier vitesse, longueur d'onde et frequence",
+      "Dire de quel type d'onde sont la lumiere et le son"
+    ],
+    "estimated_minutes": 25
+  },
+  "steps": [
+    {
+      "kind": "concept",
+      "title": "Transverse and longitudinal",
+      "title_fr": "Transversales et longitudinales",
+      "content": "A transverse wave has its particles moving at right angles to the direction of the wave. Water waves and light waves are transverse.\n\nA longitudinal wave has its particles moving along the same line as the direction of the wave. Sound in air is longitudinal, because the air particles vibrate back and forth along the direction of travel.",
+      "content_fr": "Une onde transversale a ses particules qui se deplacent perpendiculairement a la direction de l'onde. Les vagues de l'eau et les ondes lumineuses sont transversales.\n\nUne onde longitudinale a ses particules qui se deplacent le long de la direction de l'onde. Le son dans l'air est longitudinal, car les particules d'air vibrent d'avant en arriere le long de la direction de propagation.",
+      "required": true,
+      "xp": 10,
+      "question": {
+        "kind": "mcq",
+        "text": "In a longitudinal wave, which way do the particles move?",
+        "text_fr": "Dans une onde longitudinale, dans quelle direction les particules se deplacent-elles ?",
+        "explanation": "They move along the same line as the wave direction.",
+        "explanation_fr": "Elles se deplacent le long de la meme ligne que la direction de l'onde.",
+        "hint_prompt": "They vibrate back and forth.",
+        "hint_prompt_fr": "Elles vibrent d'avant en arriere.",
+        "choices": [
+          {
+            "text": "Along the direction of travel",
+            "text_fr": "Le long de la direction de propagation",
+            "correct": true
+          },
+          {
+            "text": "At right angles to the direction of travel",
+            "text_fr": "Perpendiculairement a la direction de propagation",
+            "correct": false
+          },
+          {
+            "text": "They do not move at all",
+            "text_fr": "Elles ne bougent pas",
+            "correct": false
+          }
+        ],
+        "hints": [
+          {
+            "text": "Think of a spring being pushed.",
+            "text_fr": "Pense a un ressort que l'on pousse."
+          }
+        ]
+      }
+    },
+    {
+      "kind": "explain",
+      "title": "Wavelength and frequency",
+      "title_fr": "Longueur d'onde et frequence",
+      "content": "The wavelength is the distance between two identical points on consecutive waves, for example crest to crest.\n\nThe frequency is the number of complete waves that pass a point in one second. It is measured in hertz.\n\nWave speed equals wavelength times frequency. If the wave speed is fixed, then a higher frequency means a shorter wavelength.",
+      "content_fr": "La longueur d'onde est la distance entre deux points identiques de deux ondes consecutives, par exemple de crete a crete.\n\nLa frequence est le nombre d'ondes completes qui passent un point en une seconde. Elle se mesure en hertz.\n\nLa vitesse de l'onde egale la longueur d'onde fois la frequence. Si la vitesse est fixee, une frequence plus elevee signifie une longueur d'onde plus courte.",
+      "required": true,
+      "xp": 10
+    },
+    {
+      "kind": "example",
+      "title": "Worked example: a water wave",
+      "title_fr": "Exemple resolu : une onde d'eau",
+      "content": "A wave in a tank has a wavelength of 0.4 metres and a frequency of 5 hertz.\n\nWave speed equals wavelength times frequency, so 0.4 times 5 gives 2 metres per second.",
+      "content_fr": "Une onde dans un bac a une longueur d'onde de 0,4 metre et une frequence de 5 hertz.\n\nLa vitesse egale la longueur d'onde fois la frequence, donc 0,4 fois 5 donne 2 metres par seconde.",
+      "required": true,
+      "xp": 12
+    },
+    {
+      "kind": "practice",
+      "title": "Your turn: sound in air",
+      "title_fr": "A toi : le son dans l'air",
+      "content": "Sound travels at about 340 metres per second in air. A note has a frequency of 170 hertz. Work out its wavelength.",
+      "content_fr": "Le son se propage a environ 340 metres par seconde dans l'air. Une note a une frequence de 170 hertz. Calcule sa longueur d'onde.",
+      "required": true,
+      "xp": 12,
+      "question": {
+        "kind": "numeric",
+        "text": "What is the wavelength, in metres?",
+        "text_fr": "Quelle est la longueur d'onde, en metres ?",
+        "explanation": "Wavelength equals speed divided by frequency, so 340 divided by 170 is 2.",
+        "explanation_fr": "La longueur d'onde egale la vitesse divisee par la frequence, donc 340 divise par 170 vaut 2.",
+        "hint_prompt": "Rearrange the wave equation.",
+        "hint_prompt_fr": "Reformule l'equation des ondes.",
+        "config": {
+          "accepted": [
+            "2"
+          ]
+        },
+        "hints": [
+          {
+            "text": "Speed divided by frequency.",
+            "text_fr": "Vitesse divisee par frequence."
+          }
+        ]
+      }
+    },
+    {
+      "kind": "question",
+      "title": "Check: light and sound",
+      "title_fr": "Verification : lumiere et son",
+      "content": "Light is a transverse electromagnetic wave. Sound is a longitudinal mechanical wave that needs a material to travel through.",
+      "content_fr": "La lumiere est une onde transversale et electromagnetique. Le son est une onde longitudinale mecanique qui a besoin d'un material pour se propager.",
+      "required": true,
+      "xp": 12,
+      "question": {
+        "kind": "mcq",
+        "text": "Which statement is true?",
+        "text_fr": "Quelle affirmation est vraie ?",
+        "explanation": "Light is transverse and sound is longitudinal.",
+        "explanation_fr": "La lumiere est transversale et le son est longitudinal.",
+        "hint_prompt": "They are different types of wave.",
+        "hint_prompt_fr": "Ce sont deux types d'onde differents.",
+        "choices": [
+          {
+            "text": "Light is transverse, sound is longitudinal",
+            "text_fr": "La lumiere est transversale, le son est longitudinal",
+            "correct": true
+          },
+          {
+            "text": "Both are longitudinal",
+            "text_fr": "Les deux sont longitudinales",
+            "correct": false
+          },
+          {
+            "text": "Both are transverse",
+            "text_fr": "Les deux sont transversales",
+            "correct": false
+          }
+        ],
+        "hints": [
+          {
+            "text": "Light can cross empty space, sound cannot.",
+            "text_fr": "La lumiere traverse le vide, pas le son."
+          }
+        ]
+      }
+    },
+    {
+      "kind": "summary",
+      "title": "What to keep",
+      "title_fr": "A retenir",
+      "content": "Transverse waves move at right angles to their direction, longitudinal waves move along it. Wave speed equals wavelength times frequency. Light is transverse and sound is longitudinal.",
+      "content_fr": "Les ondes transversales se deplacent perpendiculairement a leur direction, les ondes longitudinales le long de celle-ci. La vitesse de l'onde egale la longueur d'onde fois la frequence. La lumiere est transversale et le son longitudinal.",
+      "required": false,
+      "xp": 5
+    }
+  ],
+  "quiz": {
+    "title": "Properties of Waves",
+    "title_fr": "Proprietes des ondes",
+    "pass_score": 60,
+    "questions": [
+      {
+        "kind": "mcq",
+        "text": "Which is a transverse wave?",
+        "text_fr": "Laquelle est une onde transversale ?",
+        "explanation": "Light is transverse; sound and seismic P waves are longitudinal.",
+        "explanation_fr": "La lumiere est transversale ; le son et les ondes P sont longitudinales.",
+        "hint_prompt": "It can cross empty space.",
+        "hint_prompt_fr": "Elle peut traverser le vide.",
+        "choices": [
+          {
+            "text": "Light",
+            "text_fr": "La lumiere",
+            "correct": true
+          },
+          {
+            "text": "Sound",
+            "text_fr": "Le son",
+            "correct": false
+          },
+          {
+            "text": "A shock wave in air",
+            "text_fr": "Une onde de choc dans l'air",
+            "correct": false
+          }
+        ],
+        "hints": [
+          {
+            "text": "Electromagnetic waves are transverse.",
+            "text_fr": "Les ondes electromagnetiques sont transversales."
+          }
+        ],
+        "difficulty": 1
+      },
+      {
+        "kind": "numeric",
+        "text": "A wave has a wavelength of 2 m and a frequency of 3 Hz. What is its speed in m/s?",
+        "text_fr": "Une onde a une longueur d'onde de 2 m et une frequence de 3 Hz. Quelle est sa vitesse en m/s ?",
+        "explanation": "Speed equals wavelength times frequency: 2 times 3 is 6 m/s.",
+        "explanation_fr": "La vitesse egale longueur d'onde fois frequence : 2 fois 3 vaut 6 m/s.",
+        "hint_prompt": "Multiply the two values.",
+        "hint_prompt_fr": "Multiplie les deux valeurs.",
+        "config": {
+          "accepted": [
+            "6"
+          ]
+        },
+        "hints": [
+          {
+            "text": "Speed equals wavelength times frequency.",
+            "text_fr": "La vitesse egale longueur d'onde fois frequence."
+          }
+        ],
+        "difficulty": 1
+      },
+      {
+        "kind": "mcq",
+        "text": "What is the unit of frequency?",
+        "text_fr": "Quelle est l'unite de la frequence ?",
+        "explanation": "Frequency is measured in hertz.",
+        "explanation_fr": "La frequence se mesure en hertz.",
+        "hint_prompt": "It is named after a scientist.",
+        "hint_prompt_fr": "Elle porte le nom d'un savant.",
+        "choices": [
+          {
+            "text": "Hertz",
+            "text_fr": "Hertz",
+            "correct": true
+          },
+          {
+            "text": "Metres",
+            "text_fr": "Metres",
+            "correct": false
+          },
+          {
+            "text": "Seconds",
+            "text_fr": "Secondes",
+            "correct": false
+          }
+        ],
+        "hints": [
+          {
+            "text": "One hertz is one wave per second.",
+            "text_fr": "Un hertz egale une onde par seconde."
+          }
+        ],
+        "difficulty": 1
+      },
+      {
+        "kind": "mcq",
+        "text": "A wave travels faster into a new material. Its frequency stays the same. What happens to the wavelength?",
+        "text_fr": "Une onde voyage plus vite dans un nouveau material. Sa frequence reste la meme. Que devient la longueur d'onde ?",
+        "explanation": "Wavelength equals speed divided by frequency, so a higher speed gives a longer wavelength.",
+        "explanation_fr": "La longueur d'onde egale la vitesse divisee par la frequence, donc une vitesse plus elevee donne une longueur d'onde plus grande.",
+        "hint_prompt": "Use the wave equation.",
+        "hint_prompt_fr": "Utilise l'equation des ondes.",
+        "choices": [
+          {
+            "text": "It gets longer",
+            "text_fr": "Elle augmente",
+            "correct": true
+          },
+          {
+            "text": "It gets shorter",
+            "text_fr": "Elle diminue",
+            "correct": false
+          },
+          {
+            "text": "It stays the same",
+            "text_fr": "Elle reste la meme",
+            "correct": false
+          }
+        ],
+        "hints": [
+          {
+            "text": "More speed, same frequency, means more distance per wave.",
+            "text_fr": "Plus de vitesse, meme frequence, veut dire plus de distance par onde."
+          }
+        ],
+        "difficulty": 2
+      },
+      {
+        "kind": "mcq",
+        "text": "Sound in air is which type of wave?",
+        "text_fr": "Le son dans l'air est de quel type d'onde ?",
+        "explanation": "Sound is a longitudinal wave, with the air particles vibrating along the direction of travel.",
+        "explanation_fr": "Le son est une onde longitudinale, avec les particules d'air qui vibrent le long de la direction de propagation.",
+        "hint_prompt": "The particles move back and forth along the direction.",
+        "hint_prompt_fr": "Les particules bougent d'avant en arriere le long de la direction.",
+        "choices": [
+          {
+            "text": "Longitudinal",
+            "text_fr": "Longitudinale",
+            "correct": true
+          },
+          {
+            "text": "Transverse",
+            "text_fr": "Transversale",
+            "correct": false
+          },
+          {
+            "text": "Electromagnetic",
+            "text_fr": "Electromagnetique",
+            "correct": false
+          }
+        ],
+        "hints": [
+          {
+            "text": "It needs a material to travel through.",
+            "text_fr": "Elle a besoin d'un material pour se propager."
+          }
+        ],
+        "difficulty": 1
+      }
+    ]
+  }
+}

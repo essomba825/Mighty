@@ -1,0 +1,285 @@
+{
+  "lesson": 112,
+  "status": "published",
+  "lesson_fields": {
+    "title": "Salts and Neutralisation",
+    "title_fr": "Sels et neutralisation",
+    "summary": "Write neutralisation reactions and prepare common salts by choosing the right acid and base.",
+    "summary_fr": "Écrire les réactions de neutralisation et préparer des sels courants en choisissant le bon acide et la bonne base.",
+    "content": "## What you will learn\n\nWhen an acid meets a base, they cancel each other out in a reaction called neutralisation. The two products are always a salt and water, and this is how many useful salts are made.",
+    "content_fr": "## Ce que tu vas apprendre\n\nQuand un acide rencontre une base, ils s'annulent mutuellement dans une réaction appelée neutralisation. Les deux produits sont toujours un sel et de l'eau, et c'est ainsi que l'on fabrique de nombreux sels utiles.",
+    "objectives": [
+      "Write the general equation for neutralisation",
+      "Name the salt formed from an acid and a base",
+      "Describe how to prepare a soluble salt"
+    ],
+    "objectives_fr": [
+      "Écrire l'équation générale de la neutralisation",
+      "Nommer le sel formé à partir d'un acide et d'une base",
+      "Décrire la préparation d'un sel soluble"
+    ],
+    "estimated_minutes": 30
+  },
+  "steps": [
+    {
+      "kind": "concept",
+      "title": "The neutralisation reaction",
+      "title_fr": "La réaction de neutralisation",
+      "content": "Neutralisation happens when an acid reacts with a base. The hydrogen ions from the acid join the hydroxide ions from the alkali to make water, and the remaining ions form a salt. The general equation is acid plus base gives salt plus water.\n\nAt the ionic level, H+ plus OH- gives H2O. This is why the solution moves towards pH 7 as the reaction goes on.\n\nWorked example: hydrochloric acid plus sodium hydroxide gives sodium chloride plus water, written HCl + NaOH, arrow, NaCl + H2O.",
+      "content_fr": "La neutralisation a lieu quand un acide réagit avec une base. Les ions hydrogène de l'acide rejoignent les ions hydroxyde de la base pour former de l'eau, et les ions restants forment un sel. L'équation générale est : acide plus base donne sel plus eau.\n\nAu niveau ionique, H+ plus OH- donne H2O. C'est pourquoi la solution se rapproche du pH 7 au fur et à mesure de la réaction.\n\nExemple rédigé : l'acide chlorhydrique plus la soude donnent du chlorure de sodium plus de l'eau, soit HCl + NaOH, flèche, NaCl + H2O.",
+      "required": true,
+      "xp": 10,
+      "question": {
+        "kind": "mcq",
+        "difficulty": 1,
+        "text": "What are the two products of a neutralisation reaction?",
+        "text_fr": "Quels sont les deux produits d'une réaction de neutralisation ?",
+        "explanation": "An acid plus a base always gives a salt and water.",
+        "explanation_fr": "Un acide plus une base donnent toujours un sel et de l'eau.",
+        "hint_prompt": "One product is water.",
+        "hint_prompt_fr": "Un produit est l'eau.",
+        "choices": [
+          {"text": "A salt and water", "text_fr": "Un sel et de l'eau", "correct": true},
+          {"text": "A salt and hydrogen", "text_fr": "Un sel et du dihydrogène", "correct": false},
+          {"text": "Water and oxygen", "text_fr": "De l'eau et du dioxygène", "correct": false},
+          {"text": "Two salts", "text_fr": "Deux sels", "correct": false}
+        ],
+        "hints": [
+          {"text": "H+ and OH- make water.", "text_fr": "H+ et OH- forment de l'eau."},
+          {"text": "The rest is a salt.", "text_fr": "Le reste est un sel."}
+        ]
+      }
+    },
+    {
+      "kind": "concept",
+      "title": "Naming the salt",
+      "title_fr": "Nommer le sel",
+      "content": "The name of a salt has two parts. The first part comes from the metal or ammonium in the base, and the second part comes from the acid used.\n\nHydrochloric acid makes chlorides, sulfuric acid makes sulfates, and nitric acid makes nitrates.\n\nWorked example: copper oxide plus sulfuric acid gives copper sulfate plus water, because the metal is copper and the acid is sulfuric. Sodium hydroxide plus nitric acid gives sodium nitrate plus water.",
+      "content_fr": "Le nom d'un sel comporte deux parties. La première vient du métal ou de l'ammonium de la base, et la seconde vient de l'acide utilisé.\n\nL'acide chlorhydrique donne des chlorures, l'acide sulfurique donne des sulfates, et l'acide nitrique donne des nitrates.\n\nExemple rédigé : l'oxyde de cuivre plus l'acide sulfurique donnent du sulfate de cuivre plus de l'eau, car le métal est le cuivre et l'acide est sulfurique. La soude plus l'acide nitrique donnent du nitrate de sodium plus de l'eau.",
+      "required": true,
+      "xp": 12,
+      "question": {
+        "kind": "mcq",
+        "difficulty": 2,
+        "text": "Which salt forms when sulfuric acid reacts with zinc oxide?",
+        "text_fr": "Quel sel se forme quand l'acide sulfurique réagit avec l'oxyde de zinc ?",
+        "explanation": "Sulfuric acid gives sulfates and zinc gives the first part, so the salt is zinc sulfate.",
+        "explanation_fr": "L'acide sulfurique donne des sulfates et le zinc donne la première partie : le sel est le sulfate de zinc.",
+        "hint_prompt": "Sulfuric acid gives sulfates.",
+        "hint_prompt_fr": "L'acide sulfurique donne des sulfates.",
+        "choices": [
+          {"text": "Zinc sulfate", "text_fr": "Sulfate de zinc", "correct": true},
+          {"text": "Zinc chloride", "text_fr": "Chlorure de zinc", "correct": false},
+          {"text": "Zinc nitrate", "text_fr": "Nitrate de zinc", "correct": false},
+          {"text": "Sodium sulfate", "text_fr": "Sulfate de sodium", "correct": false}
+        ],
+        "hints": [
+          {"text": "The metal is zinc.", "text_fr": "Le métal est le zinc."},
+          {"text": "The acid gives sulfate.", "text_fr": "L'acide donne le sulfate."}
+        ]
+      }
+    },
+    {
+      "kind": "concept",
+      "title": "Preparing a soluble salt",
+      "title_fr": "Préparer un sel soluble",
+      "content": "One common method uses an insoluble base such as a metal oxide or carbonate. Add the solid little by little to the warm acid until no more dissolves, so that all the acid is used up.\n\nThen filter the mixture to remove the leftover solid, leaving a clear solution of the salt. Finally heat the solution gently to evaporate some water, then let it cool so that crystals of the salt form.\n\nUsing an excess of the solid is important because it guarantees that none of the acid remains in the final salt.",
+      "content_fr": "Une méthode courante utilise une base insoluble comme un oxyde ou un carbonate métallique. Ajoute le solide peu à peu dans l'acide tiède jusqu'à ce qu'il ne se dissolve plus, afin d'épuiser tout l'acide.\n\nFiltre ensuite le mélange pour retirer le solide restant, ce qui laisse une solution limpide du sel. Enfin, chauffe doucement la solution pour évaporer un peu d'eau, puis laisse refroidir afin que des cristaux du sel se forment.\n\nUn excès de solide est important car il garantit qu'il ne reste aucun acide dans le sel final.",
+      "required": true,
+      "xp": 14,
+      "question": {
+        "kind": "mcq",
+        "difficulty": 2,
+        "text": "Why is an excess of the insoluble base added when preparing a salt?",
+        "text_fr": "Pourquoi ajoute-t-on un excès de la base insoluble lors de la préparation d'un sel ?",
+        "explanation": "The excess makes sure all the acid is used up, so only the salt remains.",
+        "explanation_fr": "L'excès permet d'épuiser tout l'acide : il ne reste donc que le sel.",
+        "hint_prompt": "Think about using up the acid.",
+        "hint_prompt_fr": "Pense à épuiser l'acide.",
+        "choices": [
+          {"text": "To use up all the acid", "text_fr": "Pour épuiser tout l'acide", "correct": true},
+          {"text": "To make the salt darker", "text_fr": "Pour foncer la couleur du sel", "correct": false},
+          {"text": "To add more water", "text_fr": "Pour ajouter plus d'eau", "correct": false},
+          {"text": "To slow the reaction", "text_fr": "Pour ralentir la réaction", "correct": false}
+        ],
+        "hints": [
+          {"text": "The acid must be gone at the end.", "text_fr": "L'acide doit disparaître à la fin."},
+          {"text": "Excess base uses it up.", "text_fr": "Un excès de base l'épuise."}
+        ]
+      }
+    },
+    {
+      "kind": "explain",
+      "title": "Uses of neutralisation",
+      "title_fr": "Usages de la neutralisation",
+      "content": "Neutralisation is used every day. Indigestion tablets contain a mild base such as magnesium hydroxide that neutralises the extra stomach acid causing the discomfort.\n\nFarmers add lime, which is calcium oxide or hydroxide, to neutralise soil that has become too acidic so that crops grow well.\n\nWhen an acid spills in the laboratory, it is made safe by adding a base such as sodium carbonate, and the same idea is used to treat insect stings and to clean up acidic waste.",
+      "content_fr": "La neutralisation est utilisée chaque jour. Les comprimés contre les maux d'estomac contiennent une base douce comme l'hydroxyde de magnésium, qui neutralise l'excès d'acide de l'estomac.\n\nLes agriculteurs ajoutent de la chaux, un oxyde ou un hydroxyde de calcium, pour corriger un sol trop acide : les cultures poussent alors mieux.\n\nQuand un acide se répand, on le neutralise avec une base comme le carbonate de sodium ; c'est aussi ce principe qui sert contre les piqûres et pour traiter les rejets acides.",
+      "required": true,
+      "xp": 12,
+      "question": {
+        "kind": "mcq",
+        "difficulty": 2,
+        "text": "Why is lime added to soil by farmers?",
+        "text_fr": "Pourquoi les agriculteurs ajoutent-ils de la chaux au sol ?",
+        "explanation": "Lime is a base that neutralises acidic soil, bringing the pH nearer to neutral.",
+        "explanation_fr": "La chaux est une base qui neutralise un sol acide et rapproche le pH du neutre.",
+        "hint_prompt": "The soil is too acidic.",
+        "hint_prompt_fr": "Le sol est trop acide.",
+        "choices": [
+          {"text": "To neutralise acidic soil", "text_fr": "Pour neutraliser un sol acide", "correct": true},
+          {"text": "To make the soil more acidic", "text_fr": "Pour rendre le sol plus acide", "correct": false},
+          {"text": "To add salt to the plants", "text_fr": "Pour apporter du sel aux plantes", "correct": false},
+          {"text": "To wash away water", "text_fr": "Pour chasser l'eau", "correct": false}
+        ],
+        "hints": [
+          {"text": "Lime is a base.", "text_fr": "La chaux est une base."},
+          {"text": "It cancels acidity.", "text_fr": "Elle annule l'acidité."}
+        ]
+      }
+    },
+    {
+      "kind": "practice",
+      "title": "Your turn: predict the salt",
+      "title_fr": "À toi : prévoir le sel",
+      "content": "For each pair, find the metal or ammonium part from the base, then find the anion from the acid, and join them into a name. Check whether the reaction also releases carbon dioxide, which happens when the base is a carbonate.",
+      "content_fr": "Pour chaque couple, trouve la partie métallique ou ammonium venant de la base, puis l'anion venant de l'acide, et réunis-les en un nom. Vérifie si la réaction libère aussi du dioxyde de carbone, ce qui arrive quand la base est un carbonate.",
+      "required": true,
+      "xp": 12,
+      "question": {
+        "kind": "mcq",
+        "difficulty": 2,
+        "text": "Calcium carbonate reacts with hydrochloric acid. What salt forms?",
+        "text_fr": "Le carbonate de calcium réagit avec l'acide chlorhydrique. Quel sel se forme ?",
+        "explanation": "The metal is calcium and the acid is hydrochloric, so the salt is calcium chloride (with carbon dioxide and water).",
+        "explanation_fr": "Le métal est le calcium et l'acide est chlorhydrique : le sel est le chlorure de calcium (avec du dioxyde de carbone et de l'eau).",
+        "hint_prompt": "Hydrochloric acid gives chlorides.",
+        "hint_prompt_fr": "L'acide chlorhydrique donne des chlorures.",
+        "choices": [
+          {"text": "Calcium chloride", "text_fr": "Chlorure de calcium", "correct": true},
+          {"text": "Calcium sulfate", "text_fr": "Sulfate de calcium", "correct": false},
+          {"text": "Calcium nitrate", "text_fr": "Nitrate de calcium", "correct": false},
+          {"text": "Sodium chloride", "text_fr": "Chlorure de sodium", "correct": false}
+        ],
+        "hints": [
+          {"text": "The metal is calcium.", "text_fr": "Le métal est le calcium."},
+          {"text": "The acid gives chloride.", "text_fr": "L'acide donne le chlorure."}
+        ]
+      }
+    },
+    {
+      "kind": "summary",
+      "title": "What to keep",
+      "title_fr": "À retenir",
+      "content": "Acid plus base gives salt plus water; the ionic reaction is H+ plus OH- gives water. The salt name combines the metal from the base and the anion from the acid: chlorides, sulfates, nitrates. Prepare a soluble salt with excess insoluble base, then filter and crystallise.",
+      "content_fr": "Acide plus base donne sel plus eau ; la réaction ionique est H+ plus OH- donnant de l'eau. Le nom du sel combine le métal de la base et l'anion de l'acide : chlorures, sulfates, nitrates. On prépare un sel soluble avec un excès de base insoluble, puis on filtre et on laisse cristalliser.",
+      "xp": 5
+    }
+  ],
+  "quiz": {
+    "title": "Quiz: salts and neutralisation",
+    "title_fr": "Quiz : sels et neutralisation",
+    "pass_score": 60,
+    "questions": [
+      {
+        "kind": "mcq",
+        "difficulty": 1,
+        "text": "Acid plus alkali gives which two products?",
+        "text_fr": "Acide plus alcali donnent quels deux produits ?",
+        "explanation": "Neutralisation always gives a salt and water.",
+        "explanation_fr": "La neutralisation donne toujours un sel et de l'eau.",
+        "hint_prompt": "One is water.",
+        "hint_prompt_fr": "L'un est l'eau.",
+        "choices": [
+          {"text": "Salt and water", "text_fr": "Un sel et de l'eau", "correct": true},
+          {"text": "Salt and hydrogen", "text_fr": "Un sel et du dihydrogène", "correct": false},
+          {"text": "Only a salt", "text_fr": "Seulement un sel", "correct": false},
+          {"text": "Oxygen and water", "text_fr": "Du dioxygène et de l'eau", "correct": false}
+        ],
+        "hints": [
+          {"text": "H+ meets OH-.", "text_fr": "H+ rencontre OH-."},
+          {"text": "That makes water and a salt.", "text_fr": "Cela forme de l'eau et un sel."}
+        ]
+      },
+      {
+        "kind": "mcq",
+        "difficulty": 2,
+        "text": "What is the salt called when nitric acid reacts with potassium hydroxide?",
+        "text_fr": "Comment s'appelle le sel formé quand l'acide nitrique réagit avec la potasse ?",
+        "explanation": "Nitric acid gives nitrates and the metal is potassium, so the salt is potassium nitrate.",
+        "explanation_fr": "L'acide nitrique donne des nitrates et le métal est le potassium : le sel est le nitrate de potassium.",
+        "hint_prompt": "Nitric acid gives nitrates.",
+        "hint_prompt_fr": "L'acide nitrique donne des nitrates.",
+        "choices": [
+          {"text": "Potassium nitrate", "text_fr": "Nitrate de potassium", "correct": true},
+          {"text": "Potassium chloride", "text_fr": "Chlorure de potassium", "correct": false},
+          {"text": "Potassium sulfate", "text_fr": "Sulfate de potassium", "correct": false},
+          {"text": "Sodium nitrate", "text_fr": "Nitrate de sodium", "correct": false}
+        ],
+        "hints": [
+          {"text": "The metal is potassium.", "text_fr": "Le métal est le potassium."},
+          {"text": "The acid gives nitrate.", "text_fr": "L'acide donne le nitrate."}
+        ]
+      },
+      {
+        "kind": "mcq",
+        "difficulty": 2,
+        "text": "Which acid would you use to make copper sulfate?",
+        "text_fr": "Quel acide utiliserais-tu pour fabriquer du sulfate de cuivre ?",
+        "explanation": "Sulfates come from sulfuric acid, so copper oxide plus sulfuric acid gives copper sulfate.",
+        "explanation_fr": "Les sulfates viennent de l'acide sulfurique : l'oxyde de cuivre plus l'acide sulfurique donnent du sulfate de cuivre.",
+        "hint_prompt": "Match the acid to the salt name.",
+        "hint_prompt_fr": "Associe l'acide au nom du sel.",
+        "choices": [
+          {"text": "Sulfuric acid", "text_fr": "L'acide sulfurique", "correct": true},
+          {"text": "Hydrochloric acid", "text_fr": "L'acide chlorhydrique", "correct": false},
+          {"text": "Nitric acid", "text_fr": "L'acide nitrique", "correct": false},
+          {"text": "Ethanoic acid", "text_fr": "L'acide éthanoïque", "correct": false}
+        ],
+        "hints": [
+          {"text": "Sulfate suggests the acid.", "text_fr": "Sulfate indique l'acide."},
+          {"text": "It is sulfuric acid.", "text_fr": "C'est l'acide sulfurique."}
+        ]
+      },
+      {
+        "kind": "mcq",
+        "difficulty": 3,
+        "text": "After adding excess copper oxide to warm acid, what is the next step?",
+        "text_fr": "Après avoir ajouté un excès d'oxyde de cuivre dans l'acide tiède, quelle est l'étape suivante ?",
+        "explanation": "You filter to remove the excess solid, then evaporate and crystallise the salt.",
+        "explanation_fr": "On filtre pour retirer le solide en excès, puis on évapore et on laisse cristalliser le sel.",
+        "hint_prompt": "The leftover solid must come out.",
+        "hint_prompt_fr": "Le solide restant doit être retiré.",
+        "choices": [
+          {"text": "Filter the mixture", "text_fr": "Filtrer le mélange", "correct": true},
+          {"text": "Add more acid", "text_fr": "Ajouter plus d'acide", "correct": false},
+          {"text": "Add water only", "text_fr": "Ajouter seulement de l'eau", "correct": false},
+          {"text": "Boil it dry at once", "text_fr": "Le laisser bouillir à sec", "correct": false}
+        ],
+        "hints": [
+          {"text": "Get rid of the extra solid.", "text_fr": "Élimine le solide en trop."},
+          {"text": "Use a filter.", "text_fr": "Utilise un filtre."}
+        ]
+      },
+      {
+        "kind": "mcq",
+        "difficulty": 2,
+        "text": "Which everyday example uses neutralisation?",
+        "text_fr": "Quel exemple quotidien utilise la neutralisation ?",
+        "explanation": "An indigestion tablet is a base that neutralises excess stomach acid.",
+        "explanation_fr": "Un comprimé contre les digestions difficiles est une base qui neutralise l'excès d'acide de l'estomac.",
+        "hint_prompt": "Think about the stomach.",
+        "hint_prompt_fr": "Pense à l'estomac.",
+        "choices": [
+          {"text": "An indigestion tablet", "text_fr": "Un comprimé contre l'acidité", "correct": true},
+          {"text": "Boiling water", "text_fr": "De l'eau bouillante", "correct": false},
+          {"text": "Freezing juice", "text_fr": "Geler un jus", "correct": false},
+          {"text": "Filtering sand", "text_fr": "Filtrer du sable", "correct": false}
+        ],
+        "hints": [
+          {"text": "It treats too much acid.", "text_fr": "Il soigne un excès d'acide."},
+          {"text": "It is a base.", "text_fr": "C'est une base."}
+        ]
+      }
+    ]
+  }
+}

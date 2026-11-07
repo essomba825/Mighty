@@ -25,7 +25,6 @@ secrets*.json
 _*.py
 _*.txt
 media/
-!media/
 
 # OS
 .DS_Store

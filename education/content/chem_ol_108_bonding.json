@@ -1,0 +1,285 @@
+{
+  "lesson": 108,
+  "status": "published",
+  "lesson_fields": {
+    "title": "Chemical Bonding: Ionic and Covalent",
+    "title_fr": "Liaison chimique : ionique et covalente",
+    "summary": "Explain how atoms join by transferring or sharing electrons to form ionic and covalent compounds.",
+    "summary_fr": "Expliquer comment les atomes s'unissent en transférant ou partageant des électrons pour former des composés ioniques et covalents.",
+    "content": "## What you will learn\n\nAtoms become stable by getting a full outer shell. They do this either by transferring electrons, which makes ions, or by sharing electrons, which makes molecules.",
+    "content_fr": "## Ce que tu vas apprendre\n\nLes atomes deviennent stables en obtenant une couche externe pleine. Ils y parviennent soit en transférant des électrons, ce qui donne des ions, soit en partageant des électrons, ce qui donne des molécules.",
+    "objectives": [
+      "Explain ionic bonding as electron transfer",
+      "Explain covalent bonding as electron sharing",
+      "Relate bonding to properties such as melting point"
+    ],
+    "objectives_fr": [
+      "Expliquer la liaison ionique comme un transfert d'électrons",
+      "Expliquer la liaison covalente comme un partage d'électrons",
+      "Relier la liaison aux propriétés comme la température de fusion"
+    ],
+    "estimated_minutes": 30
+  },
+  "steps": [
+    {
+      "kind": "concept",
+      "title": "Why atoms bond",
+      "title_fr": "Pourquoi les atomes s'unissent",
+      "content": "An atom with a full outer shell is very stable, which is why the noble gases hardly react. Other atoms aim for the same stable arrangement by gaining, losing or sharing electrons, and this is the whole reason chemical bonds form.\n\nMetals on the left of the periodic table tend to lose outer electrons, while non-metals on the right tend to gain or share them. When one atom loses and another gains, we call it ionic bonding; when atoms share, we call it covalent bonding.",
+      "content_fr": "Un atome dont la couche externe est pleine est très stable : c'est pourquoi les gaz nobles réagissent très peu. Les autres atomes cherchent la même disposition stable en gagnant, perdant ou partageant des électrons : c'est toute la raison d'être des liaisons chimiques.\n\nLes métaux, à gauche du tableau périodique, ont tendance à perdre leurs électrons externes, tandis que les non-métaux, à droite, ont tendance à les gagner ou à les partager. Quand un atome perd et qu'un autre gagne, on parle de liaison ionique ; quand les atomes partagent, on parle de liaison covalente.",
+      "required": true,
+      "xp": 10,
+      "question": {
+        "kind": "mcq",
+        "difficulty": 1,
+        "text": "Why do atoms form bonds?",
+        "text_fr": "Pourquoi les atomes forment-ils des liaisons ?",
+        "explanation": "Atoms bond to reach a full outer shell, which is a stable electron arrangement.",
+        "explanation_fr": "Les atomes s'unissent pour atteindre une couche externe pleine, disposition électronique stable.",
+        "hint_prompt": "Think about the noble gases.",
+        "hint_prompt_fr": "Pense aux gaz nobles.",
+        "choices": [
+          {"text": "To gain a full outer shell", "text_fr": "Pour obtenir une couche externe pleine", "correct": true},
+          {"text": "To lose all their electrons", "text_fr": "Pour perdre tous leurs électrons", "correct": false},
+          {"text": "To become heavier", "text_fr": "Pour devenir plus lourds", "correct": false},
+          {"text": "To change colour", "text_fr": "Pour changer de couleur", "correct": false}
+        ],
+        "hints": [
+          {"text": "The goal is stability.", "text_fr": "Le but est la stabilité."},
+          {"text": "A full outer shell is stable.", "text_fr": "Une couche externe pleine est stable."}
+        ]
+      }
+    },
+    {
+      "kind": "concept",
+      "title": "Ionic bonding: giving and taking electrons",
+      "title_fr": "Liaison ionique : donner et prendre des électrons",
+      "content": "Ionic bonding happens between a metal and a non-metal. The metal atom loses one or more outer electrons to become a positive ion, and the non-metal gains those electrons to become a negative ion. Opposite charges attract strongly and pack into a giant lattice.\n\nWorked example: sodium loses one electron to become Na+, and chlorine gains one electron to become Cl-. The ions Na+ and Cl- attract each other to form sodium chloride.\n\nBecause the forces in the lattice are strong, ionic compounds have high melting points, and they conduct electricity only when molten or dissolved, when the ions are free to move.",
+      "content_fr": "La liaison ionique se produit entre un métal et un non-métal. L'atome de métal perd un ou plusieurs électrons externes et devient un ion positif, et le non-métal gagne ces électrons et devient un ion négatif. Les charges opposées s'attirent fortement et s'empilent en un édifice géant.\n\nExemple rédigé : le sodium perd un électron et devient Na+, et le chlore gagne un électron et devient Cl-. Les ions Na+ et Cl- s'attirent et forment le chlorure de sodium.\n\nComme les forces de l'édifice sont fortes, les composés ioniques ont des températures de fusion élevées et ne conduisent le courant que fondus ou dissous, quand les ions peuvent se déplacer.",
+      "required": true,
+      "xp": 12,
+      "question": {
+        "kind": "mcq",
+        "difficulty": 2,
+        "text": "What charge does a metal atom form when it loses electrons?",
+        "text_fr": "Quelle charge forme un atome de métal quand il perd des électrons ?",
+        "explanation": "Losing negative electrons leaves the atom with an overall positive charge.",
+        "explanation_fr": "En perdant des électrons négatifs, l'atome acquiert une charge globale positive.",
+        "hint_prompt": "It gives away negative particles.",
+        "hint_prompt_fr": "Il cède des particules négatives.",
+        "choices": [
+          {"text": "Positive", "text_fr": "Positive", "correct": true},
+          {"text": "Negative", "text_fr": "Négative", "correct": false},
+          {"text": "No charge", "text_fr": "Aucune charge", "correct": false},
+          {"text": "It depends on the colour", "text_fr": "Cela dépend de la couleur", "correct": false}
+        ],
+        "hints": [
+          {"text": "Removing negatives leaves positive.", "text_fr": "Retirer des négatifs laisse du positif."},
+          {"text": "So the ion is positive.", "text_fr": "L'ion est donc positif."}
+        ]
+      }
+    },
+    {
+      "kind": "concept",
+      "title": "Covalent bonding: sharing electrons",
+      "title_fr": "Liaison covalente : partager des électrons",
+      "content": "Covalent bonding happens between non-metal atoms, which share pairs of electrons so that both reach a full outer shell. The shared pair is the bond, and the group of atoms held together is called a molecule.\n\nWorked example: in a chlorine molecule, two chlorine atoms share one pair of electrons, so each atom now counts eight electrons in its outer shell. In water, each hydrogen shares a pair with the oxygen atom.\n\nMolecules have weak forces between them, so covalent substances usually have low melting and boiling points, and they do not conduct electricity because there are no free ions or electrons.",
+      "content_fr": "La liaison covalente se produit entre atomes de non-métaux, qui partagent des paires d'électrons afin que chacun atteigne une couche externe pleine. La paire partagée constitue la liaison, et l'ensemble des atomes ainsi liés s'appelle une molécule.\n\nExemple rédigé : dans une molécule de chlore, deux atomes de chlore partagent une paire d'électrons : chaque atome compte alors huit électrons externes. Dans l'eau, chaque hydrogène partage une paire avec l'atome d'oxygène.\n\nLes molécules n'ont que de faibles forces entre elles : les corps covalents ont donc des températures de fusion et d'ébullition basses et ne conduisent pas le courant, faute d'ions ou d'électrons libres.",
+      "required": true,
+      "xp": 12,
+      "question": {
+        "kind": "mcq",
+        "difficulty": 2,
+        "text": "Which particles are involved in a covalent bond between two non-metal atoms?",
+        "text_fr": "Quelles particules sont mises en jeu dans une liaison covalente entre deux atomes de non-métaux ?",
+        "explanation": "A covalent bond is a shared pair of electrons.",
+        "explanation_fr": "Une liaison covalente est une paire d'électrons partagée.",
+        "hint_prompt": "Something is shared.",
+        "hint_prompt_fr": "Quelque chose est partagé.",
+        "choices": [
+          {"text": "A shared pair of electrons", "text_fr": "Une paire d'électrons partagée", "correct": true},
+          {"text": "A transferred proton", "text_fr": "Un proton transféré", "correct": false},
+          {"text": "A shared neutron", "text_fr": "Un neutron partagé", "correct": false},
+          {"text": "A whole shell of protons", "text_fr": "Toute une couche de protons", "correct": false}
+        ],
+        "hints": [
+          {"text": "Each atom wants a full outer shell.", "text_fr": "Chaque atome veut une couche externe pleine."},
+          {"text": "They share a pair.", "text_fr": "Ils partagent une paire."}
+        ]
+      }
+    },
+    {
+      "kind": "explain",
+      "title": "Comparing the two types of bond",
+      "title_fr": "Comparer les deux types de liaison",
+      "content": "Use the pattern of the atoms to predict the bond. Metal plus non-metal gives ionic bonding; non-metal plus non-metal gives covalent bonding.\n\nIonic compounds form lattices with strong attractions, so they melt at high temperatures and conduct when molten or dissolved. Simple covalent molecules have weak forces between them, so they melt and boil at low temperatures and never conduct when pure.\n\nThis link between bonding and properties lets you explain, for example, why salt needs a very hot flame to melt while candle wax melts easily.",
+      "content_fr": "Utilise la nature des atomes pour prévoir la liaison. Métal plus non-métal donne une liaison ionique ; non-métal plus non-métal donne une liaison covalente.\n\nLes composés ioniques forment des édifices aux fortes attractions : ils fondent à haute température et conduisent fondus ou dissous. Les molécules covalentes simples n'ont que de faibles forces entre elles : elles fondent et bouillent à basse température et ne conduisent jamais à l'état pur.\n\nCe lien entre liaison et propriétés permet d'expliquer, par exemple, pourquoi le sel exige une flamme très chaude pour fondre alors que la cire fond facilement.",
+      "required": true,
+      "xp": 12,
+      "question": {
+        "kind": "mcq",
+        "difficulty": 2,
+        "text": "Which set correctly describes a typical simple covalent substance?",
+        "text_fr": "Quel ensemble décrit correctement un corps covalente simple typique ?",
+        "explanation": "Simple covalent molecules have low melting points and do not conduct because they have no free ions or electrons.",
+        "explanation_fr": "Les molécules covalentes simples ont une basse température de fusion et ne conduisent pas, faute d'ions ou d'électrons libres.",
+        "hint_prompt": "Weak forces between molecules.",
+        "hint_prompt_fr": "Faibles forces entre les molécules.",
+        "choices": [
+          {"text": "Low melting point, does not conduct", "text_fr": "Basse température de fusion, ne conduit pas", "correct": true},
+          {"text": "High melting point, conducts when solid", "text_fr": "Haute température de fusion, conduit à l'état solide", "correct": false},
+          {"text": "High melting point, never conducts", "text_fr": "Haute température de fusion, ne conduit jamais", "correct": false},
+          {"text": "Low melting point, conducts when solid", "text_fr": "Basse température de fusion, conduit à l'état solide", "correct": false}
+        ],
+        "hints": [
+          {"text": "Molecules are not charged.", "text_fr": "Les molécules ne sont pas chargées."},
+          {"text": "So they do not conduct.", "text_fr": "Elles ne conduisent donc pas."}
+        ]
+      }
+    },
+    {
+      "kind": "practice",
+      "title": "Your turn: name the bond",
+      "title_fr": "À toi : nommer la liaison",
+      "content": "Decide the bond by first labelling each atom as a metal or a non-metal. A metal with a non-metal gives an ionic compound; two non-metals give a covalent molecule. Then use the bond to predict melting point and conductivity.",
+      "content_fr": "Détermine la liaison en classant d'abord chaque atome comme métal ou non-métal. Un métal avec un non-métal donne un composé ionique ; deux non-métaux donnent une molécule covalente. Utilise ensuite la liaison pour prévoir la fusion et la conduction.",
+      "required": true,
+      "xp": 12,
+      "question": {
+        "kind": "mcq",
+        "difficulty": 2,
+        "text": "Magnesium (a metal) reacts with oxygen (a non-metal). What type of bonding holds the product together?",
+        "text_fr": "Le magnésium (un métal) réagit avec l'oxygène (un non-métal). Quel type de liaison unit le produit ?",
+        "explanation": "A metal with a non-metal gives ionic bonding; magnesium oxide is an ionic lattice.",
+        "explanation_fr": "Un métal avec un non-métal donne une liaison ionique ; l'oxyde de magnésium est un édifice ionique.",
+        "hint_prompt": "Check whether a metal is present.",
+        "hint_prompt_fr": "Vérifie la présence d'un métal.",
+        "choices": [
+          {"text": "Ionic bonding", "text_fr": "Liaison ionique", "correct": true},
+          {"text": "Covalent bonding", "text_fr": "Liaison covalente", "correct": false},
+          {"text": "Metallic bonding", "text_fr": "Liaison métallique", "correct": false},
+          {"text": "No bonding", "text_fr": "Aucune liaison", "correct": false}
+        ],
+        "hints": [
+          {"text": "One atom is a metal.", "text_fr": "Un atome est un métal."},
+          {"text": "Metal plus non-metal = ionic.", "text_fr": "Métal plus non-métal = ionique."}
+        ]
+      }
+    },
+    {
+      "kind": "summary",
+      "title": "What to keep",
+      "title_fr": "À retenir",
+      "content": "Atoms bond to gain a full outer shell. Metal plus non-metal gives ionic bonding by electron transfer, forming a lattice with high melting point that conducts when molten or dissolved. Non-metal plus non-metal gives covalent bonding by sharing pairs, forming molecules with low melting point that do not conduct.",
+      "content_fr": "Les atomes s'unissent pour obtenir une couche externe pleine. Métal plus non-métal donne une liaison ionique par transfert d'électrons, formant un édifice à haute température de fusion qui conduit fondu ou dissous. Non-métal plus non-métal donne une liaison covalente par partage de paires, formant des molécules à basse température de fusion qui ne conduisent pas.",
+      "xp": 5
+    }
+  ],
+  "quiz": {
+    "title": "Quiz: ionic and covalent bonding",
+    "title_fr": "Quiz : liaisons ionique et covalente",
+    "pass_score": 60,
+    "questions": [
+      {
+        "kind": "mcq",
+        "difficulty": 1,
+        "text": "Ionic bonding usually takes place between which pair?",
+        "text_fr": "Entre quels atomes la liaison ionique se produit-elle habituellement ?",
+        "explanation": "Ionic bonding is electron transfer between a metal and a non-metal.",
+        "explanation_fr": "La liaison ionique est un transfert d'électrons entre un métal et un non-métal.",
+        "hint_prompt": "One atom gives, one takes.",
+        "hint_prompt_fr": "Un atome donne, l'autre prend.",
+        "choices": [
+          {"text": "A metal and a non-metal", "text_fr": "Un métal et un non-métal", "correct": true},
+          {"text": "Two metals", "text_fr": "Deux métaux", "correct": false},
+          {"text": "Two non-metals", "text_fr": "Deux non-métaux", "correct": false},
+          {"text": "Two noble gases", "text_fr": "Deux gaz nobles", "correct": false}
+        ],
+        "hints": [
+          {"text": "Metals lose electrons.", "text_fr": "Les métaux perdent des électrons."},
+          {"text": "Non-metals gain them.", "text_fr": "Les non-métaux les gagnent."}
+        ]
+      },
+      {
+        "kind": "mcq",
+        "difficulty": 2,
+        "text": "What is formed when a non-metal atom gains electrons?",
+        "text_fr": "Que se forme-t-il quand un atome de non-métal gagne des électrons ?",
+        "explanation": "Gaining negative electrons makes a negative ion.",
+        "explanation_fr": "Gagner des électrons négatifs donne un ion négatif.",
+        "hint_prompt": "Extra negatives make it negative.",
+        "hint_prompt_fr": "Des négatifs en plus le rendent négatif.",
+        "choices": [
+          {"text": "A positive ion", "text_fr": "Un ion positif", "correct": false},
+          {"text": "A negative ion", "text_fr": "Un ion négatif", "correct": true},
+          {"text": "A neutral neutron", "text_fr": "Un neutron neutre", "correct": false},
+          {"text": "A proton", "text_fr": "Un proton", "correct": false}
+        ],
+        "hints": [
+          {"text": "Gaining electrons adds negative charge.", "text_fr": "Gagner des électrons ajoute une charge négative."},
+          {"text": "So the ion is negative.", "text_fr": "L'ion est donc négatif."}
+        ]
+      },
+      {
+        "kind": "mcq",
+        "difficulty": 2,
+        "text": "Which statement about simple covalent molecules is correct?",
+        "text_fr": "Quelle affirmation sur les molécules covalentes simples est correcte ?",
+        "explanation": "Simple molecules have weak forces between them, so low melting and boiling points.",
+        "explanation_fr": "Les molécules simples ont de faibles forces entre elles : fusion et ébullition à basse température.",
+        "hint_prompt": "Think about the forces between molecules.",
+        "hint_prompt_fr": "Pense aux forces entre molécules.",
+        "choices": [
+          {"text": "They have low boiling points", "text_fr": "Elles ont de basses températures d'ébullition", "correct": true},
+          {"text": "They have very high boiling points", "text_fr": "Elles ont de très hautes températures d'ébullition", "correct": false},
+          {"text": "They always conduct when solid", "text_fr": "Elles conduisent toujours à l'état solide", "correct": false},
+          {"text": "They contain free ions", "text_fr": "Elles contiennent des ions libres", "correct": false}
+        ],
+        "hints": [
+          {"text": "Weak intermolecular forces.", "text_fr": "Faibles forces entre molécules."},
+          {"text": "So they melt and boil easily.", "text_fr": "Donc elles fondent et bouillent facilement."}
+        ]
+      },
+      {
+        "kind": "mcq",
+        "difficulty": 3,
+        "text": "Why do ionic compounds conduct electricity when molten but not when solid?",
+        "text_fr": "Pourquoi les composés ioniques conduisent-ils fondus mais pas à l'état solide ?",
+        "explanation": "The ions can only move freely when the lattice is broken by melting or dissolving.",
+        "explanation_fr": "Les ions ne peuvent se déplacer librement que lorsque l'édifice est brisé par la fusion ou la dissolution.",
+        "hint_prompt": "Charge carriers must be able to move.",
+        "hint_prompt_fr": "Les porteurs de charge doivent pouvoir se déplacer.",
+        "choices": [
+          {"text": "The ions are free to move when molten", "text_fr": "Les ions sont libres de se déplacer à l'état fondu", "correct": true},
+          {"text": "Electrons are set free when frozen", "text_fr": "Des électrons sont libérés par le froid", "correct": false},
+          {"text": "Melting removes all the ions", "text_fr": "La fusion élimine tous les ions", "correct": false},
+          {"text": "The lattice becomes covalent", "text_fr": "L'édifice devient covalent", "correct": false}
+        ],
+        "hints": [
+          {"text": "Ions must move to carry current.", "text_fr": "Les ions doivent se déplacer pour transporter le courant."},
+          {"text": "In a solid lattice they are fixed.", "text_fr": "Dans un édifice solide, ils sont fixes."}
+        ]
+      },
+      {
+        "kind": "mcq",
+        "difficulty": 2,
+        "text": "Two non-metal atoms bond together. What do they do?",
+        "text_fr": "Deux atomes de non-métaux se lient. Que font-ils ?",
+        "explanation": "Two non-metals share electrons to form a covalent bond.",
+        "explanation_fr": "Deux non-métaux partagent des électrons pour former une liaison covalente.",
+        "hint_prompt": "Neither wants to lose its electrons.",
+        "hint_prompt_fr": "Aucun ne veut perdre ses électrons.",
+        "choices": [
+          {"text": "Share pairs of electrons", "text_fr": "Partagent des paires d'électrons", "correct": true},
+          {"text": "Transfer all electrons", "text_fr": "Transfèrent tous les électrons", "correct": false},
+          {"text": "Exchange protons", "text_fr": "Échangent des protons", "correct": false},
+          {"text": "Give away neutrons", "text_fr": "Cèdent des neutrons", "correct": false}
+        ],
+        "hints": [
+          {"text": "Sharing is the key word.", "text_fr": "Le mot clé est partage."},
+          {"text": "They share pairs.", "text_fr": "Ils partagent des paires."}
+        ]
+      }
+    ]
+  }
+}

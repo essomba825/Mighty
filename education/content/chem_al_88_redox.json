@@ -1,0 +1,347 @@
+{
+  "lesson": 88,
+  "status": "published",
+  "lesson_fields": {
+    "title": "Redox Reactions",
+    "title_fr": "Reactions d'oxydoreduction",
+    "summary": "Redox reactions are where oxidation and reduction happen together. Oxidation is the loss of electrons, reduction is the gain of electrons. We can spot them by electron loss or gain.",
+    "summary_fr": "Les reactions d'oxydoreduction sont celles ou l'oxydation et la reduction ont lieu ensemble. L'oxydation est la perte d'electrons, la reduction est le gain d'electrons. On les reconnait a la perte ou au gain d'electrons.",
+    "content": "## Oxidation and reduction\n\nOxidation means loss of electrons. Reduction means gain of electrons. They always happen together, so we call them redox reactions.\n\n## Simple examples\n\nIn a reaction between magnesium and oxygen, magnesium loses electrons and is oxidised. Oxygen gains electrons and is reduced.",
+    "content_fr": "## Oxydation et reduction\n\nL'oxydation est la perte d'electrons. La reduction est le gain d'electrons. Elles ont toujours lieu ensemble, c'est pourquoi on les appelle des reactions d'oxydoreduction.\n\n## Exemples simples\n\nDans la reaction entre le magnesium et l'oxygene, le magnesium perd des electrons et est oxyde. L'oxygene gagne des electrons et est reduit.",
+    "objectives": [
+      "Explain oxidation and reduction in terms of electrons",
+      "Recognise which substance is oxidised and which is reduced",
+      "Write a simple redox example with electrons"
+    ],
+    "objectives_fr": [
+      "Expliquer l'oxydation et la reduction en termes d'electrons",
+      "Reconnaitre la substance oxydee et la substance reduite",
+      "Ecrire un exemple simple de reaction d'oxydoreduction avec les electrons"
+    ],
+    "estimated_minutes": 25
+  },
+  "steps": [
+    {
+      "kind": "concept",
+      "title": "OIL and RIG",
+      "title_fr": "OIL et RIG",
+      "content": "A handy way to remember is OIL RIG.\n\nOxidation Is Loss of electrons. Reduction Is Gain of electrons.\n\nOxidation and reduction always happen together, so every redox reaction has both.",
+      "content_fr": "Un moyen facile de s'en souvenir est OIL RIG.\n\nOxydation Is Loss (perte) d'electrons. Reduction Is Gain (gain) d'electrons.\n\nL'oxydation et la reduction ont toujours lieu ensemble, donc chaque reaction d'oxydoreduction comprend les deux.",
+      "required": true,
+      "xp": 10,
+      "question": {
+        "kind": "mcq",
+        "text": "What does OIL stand for in redox?",
+        "text_fr": "Que signifie OIL dans l'oxydoreduction ?",
+        "explanation": "Oxidation Is Loss of electrons.",
+        "explanation_fr": "Oxydation Is Loss : l'oxydation est la perte d'electrons.",
+        "hint_prompt": "Think about loss or gain.",
+        "hint_prompt_fr": "Pense a perte ou gain.",
+        "choices": [
+          {
+            "text": "Oxidation Is Loss of electrons",
+            "text_fr": "L'oxydation est la perte d'electrons",
+            "correct": true
+          },
+          {
+            "text": "Oxygen Is Light",
+            "text_fr": "L'oxygene est leger",
+            "correct": false
+          },
+          {
+            "text": "Only Ions Leave",
+            "text_fr": "Seuls les ions partent",
+            "correct": false
+          }
+        ],
+        "hints": [
+          {
+            "text": "Oxidation involves loss.",
+            "text_fr": "L'oxydation concerne la perte."
+          }
+        ]
+      }
+    },
+    {
+      "kind": "explain",
+      "title": "Reduction is gain",
+      "title_fr": "La reduction est un gain",
+      "content": "RIG means Reduction Is Gain of electrons. The species that gains electrons becomes more negative or less positive.\n\nSince electrons are negative, gaining them gives a reduction in the positive charge.",
+      "content_fr": "RIG signifie Reduction Is Gain : la reduction est le gain d'electrons. La particule qui gagne des electrons devient plus negative ou moins positive.\n\nComme les electrons sont negatifs, en en gagnant la charge positive diminue.",
+      "required": true,
+      "xp": 10
+    },
+    {
+      "kind": "example",
+      "title": "Worked example: magnesium and oxygen",
+      "title_fr": "Exemple resolu : magnesium et oxygene",
+      "content": "Magnesium burns in oxygen to give magnesium oxide, MgO.\n\nMagnesium atoms lose two electrons: Mg becomes Mg^2+. This is oxidation.\n\nOxygen atoms gain two electrons: O becomes O^2-. This is reduction.\n\nBoth happen together, so it is a redox reaction.",
+      "content_fr": "Le magnesium brûle dans l'oxygene et donne l'oxyde de magnesium, MgO.\n\nLes atomes de magnesium perdent deux electrons : Mg devient Mg^2+. C'est l'oxydation.\n\nLes atomes d'oxygene gagnent deux electrons : O devient O^2-. C'est la reduction.\n\nLes deux se produisent ensemble, c'est donc une reaction d'oxydoreduction.",
+      "required": true,
+      "xp": 12
+    },
+    {
+      "kind": "practice",
+      "title": "Your turn: copper and oxygen",
+      "title_fr": "A toi : cuivre et oxygene",
+      "content": "When copper reacts with oxygen, copper loses two electrons to become Cu^2+. Decide whether copper is oxidised or reduced.",
+      "content_fr": "Quand le cuivre reagit avec l'oxygene, le cuivre perd deux electrons et devient Cu^2+. Determine s'il est oxyde ou reduit.",
+      "required": true,
+      "xp": 12,
+      "question": {
+        "kind": "mcq",
+        "text": "Copper loses two electrons. What happens to it?",
+        "text_fr": "Le cuivre perd deux electrons. Que lui arrive-t-il ?",
+        "explanation": "Loss of electrons is oxidation, so copper is oxidised.",
+        "explanation_fr": "La perte d'electrons est l'oxydation, donc le cuivre est oxyde.",
+        "hint_prompt": "Use OIL: loss means oxidation.",
+        "hint_prompt_fr": "Applique OIL : la perte signifie oxydation.",
+        "choices": [
+          {
+            "text": "It is oxidised",
+            "text_fr": "Il est oxyde",
+            "correct": true
+          },
+          {
+            "text": "It is reduced",
+            "text_fr": "Il est reduit",
+            "correct": false
+          },
+          {
+            "text": "It stays the same",
+            "text_fr": "Il reste identique",
+            "correct": false
+          }
+        ],
+        "hints": [
+          {
+            "text": "Loss equals oxidation.",
+            "text_fr": "Perte egale oxydation."
+          }
+        ]
+      }
+    },
+    {
+      "kind": "question",
+      "title": "Check: electron gain",
+      "title_fr": "Verification : le gain d'electrons",
+      "content": "If a species gains electrons, the positive charge on it goes down. For example, a copper ion Cu^2+ gaining two electrons becomes copper metal, Cu.",
+      "content_fr": "Si une particule gagne des electrons, sa charge positive diminue. Par exemple, un ion cuivre Cu^2+ qui gagne deux electrons devient du cuivre metallique, Cu.",
+      "required": true,
+      "xp": 12,
+      "question": {
+        "kind": "mcq",
+        "text": "A copper ion Cu^2+ gains two electrons. What is it?",
+        "text_fr": "Un ion cuivre Cu^2+ gagne deux electrons. Que devient-il ?",
+        "explanation": "Gaining electrons is reduction, and Cu^2+ plus two electrons gives Cu.",
+        "explanation_fr": "Gagner des electrons est la reduction, et Cu^2+ plus deux electrons donne Cu.",
+        "hint_prompt": "Gain means reduction; the charge becomes zero.",
+        "hint_prompt_fr": "Gain signifie reduction ; la charge devient nulle.",
+        "choices": [
+          {
+            "text": "Copper metal, Cu",
+            "text_fr": "Cuivre metallique, Cu",
+            "correct": true
+          },
+          {
+            "text": "An oxygen atom",
+            "text_fr": "Un atome d'oxygene",
+            "correct": false
+          },
+          {
+            "text": "A proton",
+            "text_fr": "Un proton",
+            "correct": false
+          }
+        ],
+        "hints": [
+          {
+            "text": "Reduction produces the element in its metallic form here.",
+            "text_fr": "La reduction donne ici l'element sous forme metallique."
+          }
+        ]
+      }
+    },
+    {
+      "kind": "summary",
+      "title": "What to keep",
+      "title_fr": "A retenir",
+      "content": "Oxidation is loss of electrons, reduction is gain of electrons. They happen together in redox reactions. OIL RIG helps you to remember which is which.",
+      "content_fr": "L'oxydation est la perte d'electrons, la reduction est le gain d'electrons. Elles ont lieu ensemble dans les reactions d'oxydoreduction. Le moyen mnemonique OIL RIG aide a les retenir.",
+      "required": false,
+      "xp": 5
+    }
+  ],
+  "quiz": {
+    "title": "Redox Reactions",
+    "title_fr": "Reactions d'oxydoreduction",
+    "pass_score": 60,
+    "questions": [
+      {
+        "kind": "mcq",
+        "text": "What does RIG stand for?",
+        "text_fr": "Que signifie RIG ?",
+        "explanation": "Reduction Is Gain of electrons.",
+        "explanation_fr": "Reduction Is Gain : la reduction est le gain d'electrons.",
+        "hint_prompt": "Reduction involves gaining electrons.",
+        "hint_prompt_fr": "La reduction concerne le gain d'electrons.",
+        "choices": [
+          {
+            "text": "Reduction Is Gain of electrons",
+            "text_fr": "La reduction est le gain d'electrons",
+            "correct": true
+          },
+          {
+            "text": "Reactions In Gas",
+            "text_fr": "Reactions dans le gaz",
+            "correct": false
+          },
+          {
+            "text": "Rust Is Going",
+            "text_fr": "La rouille progresse",
+            "correct": false
+          }
+        ],
+        "hints": [
+          {
+            "text": "The second part of OIL RIG is RIG.",
+            "text_fr": "La deuxieme partie de OIL RIG est RIG."
+          }
+        ],
+        "difficulty": 1
+      },
+      {
+        "kind": "mcq",
+        "text": "In a redox reaction, what happens?",
+        "text_fr": "Dans une reaction d'oxydoreduction, que se passe-t-il ?",
+        "explanation": "Oxidation and reduction happen together.",
+        "explanation_fr": "L'oxydation et la reduction ont lieu ensemble.",
+        "hint_prompt": "You cannot have one without the other.",
+        "hint_prompt_fr": "On ne peut pas avoir l'une sans l'autre.",
+        "choices": [
+          {
+            "text": "Oxidation and reduction both happen",
+            "text_fr": "Oxydation et reduction ont toutes deux lieu",
+            "correct": true
+          },
+          {
+            "text": "Only oxidation happens",
+            "text_fr": "Seule l'oxydation a lieu",
+            "correct": false
+          },
+          {
+            "text": "Only reduction happens",
+            "text_fr": "Seule la reduction a lieu",
+            "correct": false
+          }
+        ],
+        "hints": [
+          {
+            "text": "Redox means reduction plus oxidation.",
+            "text_fr": "Redox signifie reduction plus oxydation."
+          }
+        ],
+        "difficulty": 1
+      },
+      {
+        "kind": "mcq",
+        "text": "Magnesium loses electrons. What is this called?",
+        "text_fr": "Le magnesium perd des electrons. Comment appelle-t-on cela ?",
+        "explanation": "Loss of electrons is oxidation.",
+        "explanation_fr": "La perte d'electrons est l'oxydation.",
+        "hint_prompt": "Use OIL.",
+        "hint_prompt_fr": "Utilise OIL.",
+        "choices": [
+          {
+            "text": "Oxidation",
+            "text_fr": "Oxydation",
+            "correct": true
+          },
+          {
+            "text": "Reduction",
+            "text_fr": "Reduction",
+            "correct": false
+          },
+          {
+            "text": "Neutralisation",
+            "text_fr": "Neutralisation",
+            "correct": false
+          }
+        ],
+        "hints": [
+          {
+            "text": "OIL means Oxidation Is Loss.",
+            "text_fr": "OIL signifie Oxydation Is Loss."
+          }
+        ],
+        "difficulty": 1
+      },
+      {
+        "kind": "mcq",
+        "text": "Oxygen gains electrons. What is this called?",
+        "text_fr": "L'oxygene gagne des electrons. Comment appelle-t-on cela ?",
+        "explanation": "Gain of electrons is reduction.",
+        "explanation_fr": "Le gain d'electrons est la reduction.",
+        "hint_prompt": "Use RIG.",
+        "hint_prompt_fr": "Utilise RIG.",
+        "choices": [
+          {
+            "text": "Reduction",
+            "text_fr": "Reduction",
+            "correct": true
+          },
+          {
+            "text": "Oxidation",
+            "text_fr": "Oxydation",
+            "correct": false
+          },
+          {
+            "text": "Combustion",
+            "text_fr": "Combustion",
+            "correct": false
+          }
+        ],
+        "hints": [
+          {
+            "text": "RIG means Reduction Is Gain.",
+            "text_fr": "RIG signifie Reduction Is Gain."
+          }
+        ],
+        "difficulty": 1
+      },
+      {
+        "kind": "mcq",
+        "text": "In the reaction Mg plus O2 to MgO, which is oxidised?",
+        "text_fr": "Dans la reaction Mg plus O2 donnant MgO, lequel est oxyde ?",
+        "explanation": "Magnesium loses electrons, so it is oxidised.",
+        "explanation_fr": "Le magnesium perd des electrons, il est donc oxyde.",
+        "hint_prompt": "Look for electron loss.",
+        "hint_prompt_fr": "Cherche qui perd des electrons.",
+        "choices": [
+          {
+            "text": "Magnesium",
+            "text_fr": "Magnesium",
+            "correct": true
+          },
+          {
+            "text": "Oxygen",
+            "text_fr": "Oxygene",
+            "correct": false
+          },
+          {
+            "text": "Magnesium oxide",
+            "text_fr": "Oxyde de magnesium",
+            "correct": false
+          }
+        ],
+        "hints": [
+          {
+            "text": "Metals often lose electrons when oxidised.",
+            "text_fr": "Les metaux perdent souvent des electrons lors de l'oxydation."
+          }
+        ],
+        "difficulty": 2
+      }
+    ]
+  }
+}

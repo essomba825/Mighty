@@ -1,0 +1,291 @@
+{
+  "lesson": 145,
+  "status": "published",
+  "lesson_fields": {
+    "title": "Work, Power and Efficiency",
+    "title_fr": "Travail, puissance et rendement",
+    "summary": "Work is done when a force moves an object. Power is the rate of doing work. Efficiency compares useful output to total input.",
+    "summary_fr": "Un travail est effectue quand une force deplace un objet. La puissance est le rythme du travail. Le rendement compare la sortie utile a l'entree totale.",
+    "content": "## Work\n\nWork equals force times distance moved in the direction of the force. It is measured in joules. No movement means no work is done.\n\n## Power and efficiency\n\nPower equals work done divided by time, measured in watts. Efficiency equals useful output divided by total input, often written as a percentage.",
+    "content_fr": "## Le travail\n\nLe travail egale la force fois la distance parcourue dans la direction de la force. Il se mesure en joules. Sans deplacement, aucun travail n'est effectue.\n\n## Puissance et rendement\n\nLa puissance egale le travail divise par le temps, mesure en watts. Le rendement egale la sortie utile divisee par l'entree totale, souvent exprime en pourcentage.",
+    "objectives": [
+      "Calculate work using force and distance",
+      "Explain the difference between work and power",
+      "Calculate efficiency"
+    ],
+    "objectives_fr": [
+      "Calculer le travail a partir de la force et de la distance",
+      "Expliquer la difference entre travail et puissance",
+      "Calculer le rendement"
+    ],
+    "estimated_minutes": 25
+  },
+  "steps": [
+    {
+      "kind": "concept",
+      "title": "Work done",
+      "title_fr": "Le travail effectue",
+      "content": "Work is done when a force moves an object. Work equals force times distance. If the object does not move, no work is done, even if the force is large.",
+      "content_fr": "Un travail est effectue quand une force deplace un objet. Le travail egale la force fois la distance. Si l'objet ne bouge pas, aucun travail n'est effectue, meme si la force est grande.",
+      "required": true,
+      "xp": 10,
+      "question": {
+        "kind": "mcq",
+        "text": "When is work done?",
+        "text_fr": "Quand un travail est-il effectue ?",
+        "explanation": "When a force moves an object.",
+        "explanation_fr": "Quand une force deplace un objet.",
+        "choices": [
+          {
+            "text": "When a force moves an object",
+            "text_fr": "Quand une force deplace un objet",
+            "correct": true
+          },
+          {
+            "text": "When a force is applied but nothing moves",
+            "text_fr": "Quand on applique une force sans mouvement",
+            "correct": false
+          },
+          {
+            "text": "When an object is hot",
+            "text_fr": "Quand un objet est chaud",
+            "correct": false
+          }
+        ],
+        "hints": [
+          {
+            "text": "Movement is needed.",
+            "text_fr": "Un deplacement est necessaire."
+          }
+        ],
+        "difficulty": 1
+      }
+    },
+    {
+      "kind": "explain",
+      "title": "Power is a rate",
+      "title_fr": "La puissance est un rythme",
+      "content": "Power is how quickly work is done. Power equals work divided by time. The same work done in less time needs more power.",
+      "content_fr": "La puissance est la vitesse a laquelle le travail est effectue. La puissance egale le travail divise par le temps. Le meme travail effectue en moins de temps demande plus de puissance.",
+      "required": true,
+      "xp": 10
+    },
+    {
+      "kind": "example",
+      "title": "Calculating work",
+      "title_fr": "Calculer le travail",
+      "content": "A force of 20 newtons moves a box 3 metres. Work equals 20 times 3, which is 60 joules.",
+      "content_fr": "Une force de 20 newtons deplace une caisse de 3 metres. Le travail egale 20 fois 3, soit 60 joules.",
+      "required": true,
+      "xp": 12
+    },
+    {
+      "kind": "practice",
+      "title": "Your turn: calculate",
+      "title_fr": "A toi : calculer",
+      "content": "A force of 10 newtons moves an object 4 metres. How much work is done, in joules?",
+      "content_fr": "Une force de 10 newtons deplace un objet de 4 metres. Quel travail est effectue, en joules ?",
+      "required": true,
+      "xp": 12,
+      "question": {
+        "kind": "numeric",
+        "text": "Work done in joules?",
+        "text_fr": "Travail effectue en joules ?",
+        "explanation": "Work equals force times distance: 10 times 4 is 40 joules.",
+        "explanation_fr": "Le travail egale force fois distance : 10 fois 4 vaut 40 joules.",
+        "config": {
+          "accepted": [
+            "40"
+          ]
+        },
+        "hints": [
+          {
+            "text": "Multiply force by distance.",
+            "text_fr": "Multiplie la force par la distance."
+          }
+        ],
+        "difficulty": 1
+      }
+    },
+    {
+      "kind": "question",
+      "title": "Check: efficiency",
+      "title_fr": "Verification : rendement",
+      "content": "Efficiency equals useful energy output divided by total energy input. It is often given as a percentage. No machine is 100 percent efficient because some energy is always lost as heat.",
+      "content_fr": "Le rendement egale l'energie utile de sortie divisee par l'energie totale d'entree. Il est souvent donne en pourcentage. Aucune machine n'a un rendement de 100 pour cent car une partie de l'energie est toujours perdue en chaleur.",
+      "required": true,
+      "xp": 12,
+      "question": {
+        "kind": "mcq",
+        "text": "Which formula gives efficiency?",
+        "text_fr": "Quelle formule donne le rendement ?",
+        "explanation": "Useful output divided by total input.",
+        "explanation_fr": "Sortie utile divisee par entree totale.",
+        "choices": [
+          {
+            "text": "Useful output / total input",
+            "text_fr": "Sortie utile / entree totale",
+            "correct": true
+          },
+          {
+            "text": "Total input / useful output",
+            "text_fr": "Entree totale / sortie utile",
+            "correct": false
+          },
+          {
+            "text": "Force times distance",
+            "text_fr": "Force fois distance",
+            "correct": false
+          }
+        ],
+        "hints": [
+          {
+            "text": "Compare what you get to what you put in.",
+            "text_fr": "Compare ce que tu obtiens a ce que tu fournis."
+          }
+        ],
+        "difficulty": 1
+      }
+    },
+    {
+      "kind": "summary",
+      "title": "What to keep",
+      "title_fr": "A retenir",
+      "content": "Work equals force times distance and is measured in joules. Power is work divided by time, in watts. Efficiency is useful output divided by total input.",
+      "content_fr": "Le travail egale la force fois la distance et se mesure en joules. La puissance est le travail divise par le temps, en watts. Le rendement est la sortie utile divisee par l'entree totale.",
+      "required": false,
+      "xp": 5
+    }
+  ],
+  "quiz": {
+    "title": "Work, Power and Efficiency",
+    "title_fr": "Travail, puissance et rendement",
+    "pass_score": 60,
+    "questions": [
+      {
+        "kind": "mcq",
+        "text": "What is power measured in?",
+        "text_fr": "En quoi la puissance est-elle mesuree ?",
+        "explanation": "Watts.",
+        "explanation_fr": "Les watts.",
+        "choices": [
+          {
+            "text": "Watts",
+            "text_fr": "Les watts",
+            "correct": true
+          },
+          {
+            "text": "Joules",
+            "text_fr": "Les joules",
+            "correct": false
+          },
+          {
+            "text": "Newtons",
+            "text_fr": "Les newtons",
+            "correct": false
+          }
+        ],
+        "hints": [
+          {
+            "text": "Named after James.",
+            "text_fr": "Nommee d'apres James."
+          }
+        ],
+        "difficulty": 1
+      },
+      {
+        "kind": "mcq",
+        "text": "How do you calculate work?",
+        "text_fr": "Comment calcule-t-on le travail ?",
+        "explanation": "Force times distance.",
+        "explanation_fr": "Force fois distance.",
+        "choices": [
+          {
+            "text": "Force times distance",
+            "text_fr": "Force fois distance",
+            "correct": true
+          },
+          {
+            "text": "Force divided by time",
+            "text_fr": "Force divisee par le temps",
+            "correct": false
+          },
+          {
+            "text": "Mass times speed",
+            "text_fr": "Masse fois vitesse",
+            "correct": false
+          }
+        ],
+        "hints": [
+          {
+            "text": "Two simple quantities.",
+            "text_fr": "Deux grandeurs simples."
+          }
+        ],
+        "difficulty": 1
+      },
+      {
+        "kind": "mcq",
+        "text": "What is a typical efficiency?",
+        "text_fr": "Quel est un rendement typique ?",
+        "explanation": "Less than 100 percent.",
+        "explanation_fr": "Moins de 100 pour cent.",
+        "choices": [
+          {
+            "text": "Less than 100 percent",
+            "text_fr": "Moins de 100 pour cent",
+            "correct": true
+          },
+          {
+            "text": "Exactly 100 percent",
+            "text_fr": "Exactement 100 pour cent",
+            "correct": false
+          },
+          {
+            "text": "More than 100 percent",
+            "text_fr": "Plus de 100 pour cent",
+            "correct": false
+          }
+        ],
+        "hints": [
+          {
+            "text": "Some energy is always lost.",
+            "text_fr": "Une partie de l'energie est toujours perdue."
+          }
+        ],
+        "difficulty": 1
+      },
+      {
+        "kind": "mcq",
+        "text": "Which formula gives power?",
+        "text_fr": "Quelle formule donne la puissance ?",
+        "explanation": "Work divided by time.",
+        "explanation_fr": "Travail divise par le temps.",
+        "choices": [
+          {
+            "text": "Work / time",
+            "text_fr": "Travail / temps",
+            "correct": true
+          },
+          {
+            "text": "Force / distance",
+            "text_fr": "Force / distance",
+            "correct": false
+          },
+          {
+            "text": "Mass times gravity",
+            "text_fr": "Masse fois gravite",
+            "correct": false
+          }
+        ],
+        "hints": [
+          {
+            "text": "It is a rate.",
+            "text_fr": "C'est un rythme."
+          }
+        ],
+        "difficulty": 1
+      }
+    ]
+  }
+}

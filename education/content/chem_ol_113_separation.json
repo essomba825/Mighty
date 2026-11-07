@@ -1,0 +1,285 @@
+{
+  "lesson": 113,
+  "status": "published",
+  "lesson_fields": {
+    "title": "Separating Mixtures",
+    "title_fr": "Séparer les mélanges",
+    "summary": "Choose and use the right technique to separate the substances in a mixture.",
+    "summary_fr": "Choisir et utiliser la bonne technique pour séparer les corps d'un mélange.",
+    "content": "## What you will learn\n\nA mixture contains two or more substances that are not chemically joined, so we can pull them apart using physical methods. The method you choose depends on the properties of the substances involved.",
+    "content_fr": "## Ce que tu vas apprendre\n\nUn mélange contient deux corps ou plus qui ne sont pas unis chimiquement : on peut donc les séparer par des méthodes physiques. La méthode choisie dépend des propriétés des corps présents.",
+    "objectives": [
+      "Separate an insoluble solid from a liquid by filtration",
+      "Recover a dissolved solid by evaporation",
+      "Separate liquids by distillation and dyes by chromatography"
+    ],
+    "objectives_fr": [
+      "Séparer un solide insoluble d'un liquide par filtration",
+      "Récupérer un solide dissous par évaporation",
+      "Séparer des liquides par distillation et des colorants par chromatographie"
+    ],
+    "estimated_minutes": 30
+  },
+  "steps": [
+    {
+      "kind": "concept",
+      "title": "Mixtures and compounds",
+      "title_fr": "Mélanges et corps composés",
+      "content": "In a mixture the substances keep their own properties and are not chemically bonded, so they can be separated by physical means such as filtering, evaporating or distilling. A compound is different: its elements are chemically joined and can only be separated by a chemical reaction.\n\nSalt water is a mixture, so you can get the salt back by evaporation. Water itself is a compound of hydrogen and oxygen, so you cannot split it by filtering or evaporating.\n\nWhen you choose a method, first ask whether the substances differ in particle size, in boiling point, or in solubility.",
+      "content_fr": "Dans un mélange, les corps gardent leurs propres propriétés et ne sont pas liés chimiquement : on peut donc les séparer par des moyens physiques comme la filtration, l'évaporation ou la distillation. Un corps composé est différent : ses éléments sont unis chimiquement et ne peuvent être séparés que par une réaction chimique.\n\nL'eau salée est un mélange : tu peux donc récupérer le sel par évaporation. L'eau elle-même est un corps composé d'hydrogène et d'oxygène : tu ne peux pas la séparer en filtrant ou en évaporant.\n\nPour choisir une méthode, demande-toi d'abord si les corps diffèrent par la taille des particules, par la température d'ébullition ou par la solubilité.",
+      "required": true,
+      "xp": 10,
+      "question": {
+        "kind": "mcq",
+        "difficulty": 1,
+        "text": "Why can the substances in a mixture be separated by physical methods?",
+        "text_fr": "Pourquoi peut-on séparer les corps d'un mélange par des méthodes physiques ?",
+        "explanation": "They are not chemically joined, so their different properties let you pull them apart.",
+        "explanation_fr": "Ils ne sont pas unis chimiquement : leurs propriétés différentes permettent de les séparer.",
+        "hint_prompt": "Think about whether they are bonded.",
+        "hint_prompt_fr": "Demande-toi s'ils sont liés.",
+        "choices": [
+          {"text": "They are not chemically joined", "text_fr": "Ils ne sont pas unis chimiquement", "correct": true},
+          {"text": "They are always coloured", "text_fr": "Ils sont toujours colorés", "correct": false},
+          {"text": "They are all gases", "text_fr": "Ils sont tous gazeux", "correct": false},
+          {"text": "They are chemically bonded", "text_fr": "Ils sont unis chimiquement", "correct": false}
+        ],
+        "hints": [
+          {"text": "A mixture is not a compound.", "text_fr": "Un mélange n'est pas un corps composé."},
+          {"text": "No bonds means easy separation.", "text_fr": "Sans liaison, la séparation est facile."}
+        ]
+      }
+    },
+    {
+      "kind": "concept",
+      "title": "Filtration and evaporation",
+      "title_fr": "Filtration et évaporation",
+      "content": "Filtration separates an insoluble solid from a liquid. You pour the mixture through filter paper in a funnel: the solid, called the residue, stays in the paper, and the clear liquid, called the filtrate, passes through.\n\nEvaporation recovers a dissolved solid from its solution. You heat the solution gently so the water turns to vapour, and the dissolved solid is left behind as crystals.\n\nWorked example: to get clean sand from sandy salt water, filter first to remove the sand, then evaporate the filtrate to recover the salt.",
+      "content_fr": "La filtration sépare un solide insoluble d'un liquide. On verse le mélange dans un papier filtre placé dans un entonnoir : le solide, appelé résidu, reste sur le papier, et le liquide limpide, appelé filtrat, passe à travers.\n\nL'évaporation récupère un solide dissous à partir de sa solution. On chauffe doucement la solution pour transformer l'eau en vapeur, et le solide dissous reste sous forme de cristaux.\n\nExemple rédigé : pour obtenir du sable propre à partir d'eau salée sableuse, filtre d'abord pour retirer le sable, puis évapore le filtrat pour récupérer le sel.",
+      "required": true,
+      "xp": 12,
+      "question": {
+        "kind": "mcq",
+        "difficulty": 2,
+        "text": "Which method recovers a dissolved solid such as salt from a solution?",
+        "text_fr": "Quelle méthode récupère un solide dissous comme le sel à partir d'une solution ?",
+        "explanation": "Evaporation turns the water to vapour and leaves the dissolved solid behind.",
+        "explanation_fr": "L'évaporation transforme l'eau en vapeur et laisse le solide dissous.",
+        "hint_prompt": "The water is allowed to leave slowly.",
+        "hint_prompt_fr": "On laisse l'eau partir doucement.",
+        "choices": [
+          {"text": "Evaporation", "text_fr": "L'évaporation", "correct": true},
+          {"text": "Filtration", "text_fr": "La filtration", "correct": false},
+          {"text": "Chromatography", "text_fr": "La chromatographie", "correct": false},
+          {"text": "Hand-picking", "text_fr": "Le tri à la main", "correct": false}
+        ],
+        "hints": [
+          {"text": "Filtration keeps solids only if they are insoluble.", "text_fr": "La filtration ne retient que les solides insolubles."},
+          {"text": "Dissolved salt needs evaporation.", "text_fr": "Le sel dissous exige l'évaporation."}
+        ]
+      }
+    },
+    {
+      "kind": "concept",
+      "title": "Distillation",
+      "title_fr": "La distillation",
+      "content": "Simple distillation separates a solvent from a solution. You boil the mixture so the more volatile liquid turns to vapour, then cool the vapour in a condenser so it turns back into a liquid that you collect.\n\nFractional distillation separates two or more miscible liquids, such as ethanol and water, by their different boiling points. The liquid with the lower boiling point boils off first and is collected first.\n\nWorked example: to obtain pure drinking water from salty water, distil the solution: the water vapour condenses as pure water and the salt stays behind.",
+      "content_fr": "La distillation simple sépare un solvant d'une solution. On fait bouillir le mélange pour transformer le liquide le plus volatil en vapeur, puis on laisse la vapeur se condenser dans un tube réfrigérant, formant un liquide que l'on recueille.\n\nLa distillation fractionnée sépare des liquides miscibles, comme l'eau et l'alcool, selon leur température d'ébullition. Le liquide qui bout le premier est aussi celui que l'on recueille en premier.\n\nExemple rédigé : pour obtenir de l'eau propre à partir d'eau salée, distille le mélange : la vapeur se condense en eau pure et le sel reste au fond.",
+      "required": true,
+      "xp": 12,
+      "question": {
+        "kind": "mcq",
+        "difficulty": 2,
+        "text": "What does simple distillation rely on to separate a solvent from its solution?",
+        "text_fr": "Sur quoi repose la distillation simple pour séparer un solvant de sa solution ?",
+        "explanation": "The solvent boils off as vapour while the dissolved solid stays behind, then the vapour is condensed.",
+        "explanation_fr": "Le solvant s'évapore en vapeur tandis que le solide dissous reste, puis la vapeur est condensée.",
+        "hint_prompt": "The liquid is turned to vapour and back.",
+        "hint_prompt_fr": "Le liquide devient vapeur puis redevient liquide.",
+        "choices": [
+          {"text": "Boiling and condensing the solvent", "text_fr": "En faisant bouillir et condenser le solvant", "correct": true},
+          {"text": "Filtering out the solvent", "text_fr": "En filtrant le solvant", "correct": false},
+          {"text": "Freezing the whole mixture", "text_fr": "En gelant tout le mélange", "correct": false},
+          {"text": "Adding more salt", "text_fr": "En ajoutant plus de sel", "correct": false}
+        ],
+        "hints": [
+          {"text": "Vapour goes up, liquid comes down.", "text_fr": "La vapeur monte, le liquide redescend."},
+          {"text": "It is boiling then condensing.", "text_fr": "C'est bouillir puis condenser."}
+        ]
+      }
+    },
+    {
+      "kind": "explain",
+      "title": "Chromatography",
+      "title_fr": "La chromatographie",
+      "content": "Chromatography separates dissolved substances that have different solubilities. You place a spot of the mixture on paper and let a solvent creep up: the substances that dissolve and travel easily move further up the paper, while others stay near the start.\n\nThis is the usual way to see the different dyes in a pen or in food colouring, because each dye travels a different distance and forms its own coloured spot.\n\nA pure substance gives a single spot, while a mixture gives several spots at different heights.",
+      "content_fr": "La chromatographie sépare des substances dissoutes de solubilités différentes. On dépose une tache du mélange sur du papier et on laisse un solvant monter : les substances qui se dissolvent et se déplacent facilement montent plus loin, les autres restent près du départ.\n\nC'est la méthode habituelle pour voir les différents colorants d'un stylo ou d'un colorant alimentaire : chaque colorant migre sur une distance différente et forme sa propre tache colorée.\n\nUn corps pur donne une seule tache, tandis qu'un mélange donne plusieurs taches à des hauteurs différentes.",
+      "required": true,
+      "xp": 12,
+      "question": {
+        "kind": "mcq",
+        "difficulty": 2,
+        "text": "What is chromatography best used to separate?",
+        "text_fr": "À quoi sert surtout la chromatographie ?",
+        "explanation": "Chromatography separates dissolved substances such as the dyes in a mixture.",
+        "explanation_fr": "La chromatographie sépare des substances dissoutes comme les colorants d'un mélange.",
+        "hint_prompt": "Think about coloured pens.",
+        "hint_prompt_fr": "Pense aux stylos de couleur.",
+        "choices": [
+          {"text": "Different dissolved dyes", "text_fr": "Différents colorants dissous", "correct": true},
+          {"text": "Sand from water", "text_fr": "Du sable et de l'eau", "correct": false},
+          {"text": "Salt from crystals", "text_fr": "Du sel et des cristaux", "correct": false},
+          {"text": "A metal from its ore", "text_fr": "Un métal de son minerai", "correct": false}
+        ],
+        "hints": [
+          {"text": "It separates coloured mixtures.", "text_fr": "Elle sépare des mélanges colorés."},
+          {"text": "It spots the dyes apart.", "text_fr": "Elle sépare les colorants en taches."}
+        ]
+      }
+    },
+    {
+      "kind": "practice",
+      "title": "Your turn: choose the method",
+      "title_fr": "À toi : choisir la méthode",
+      "content": "Match the method to the difference between the substances. Use filtration for solid and liquid, evaporation for dissolved solid and solvent, distillation for liquids with different boiling points, and chromatography for a mixture of dissolved colours.",
+      "content_fr": "Associe la méthode à la différence entre les corps. Utilise la filtration pour un solide et un liquide, l'évaporation pour un solide dissous et son solvant, la distillation pour des liquides de températures d'ébullition différentes, et la chromatographie pour un mélange de couleurs dissoutes.",
+      "required": true,
+      "xp": 12,
+      "question": {
+        "kind": "mcq",
+        "difficulty": 2,
+        "text": "Which method separates chalk powder from water?",
+        "text_fr": "Quelle méthode sépare la poudre de craie de l'eau ?",
+        "explanation": "Chalk is an insoluble solid, so filtration removes it as the residue.",
+        "explanation_fr": "La craie est un solide insoluble : la filtration la retient comme résidu.",
+        "hint_prompt": "Chalk does not dissolve.",
+        "hint_prompt_fr": "La craie ne se dissout pas.",
+        "choices": [
+          {"text": "Filtration", "text_fr": "La filtration", "correct": true},
+          {"text": "Evaporation", "text_fr": "L'évaporation", "correct": false},
+          {"text": "Chromatography", "text_fr": "La chromatographie", "correct": false},
+          {"text": "Distillation", "text_fr": "La distillation", "correct": false}
+        ],
+        "hints": [
+          {"text": "The solid does not dissolve.", "text_fr": "Le solide ne se dissout pas."},
+          {"text": "Use a filter.", "text_fr": "Utilise un filtre."}
+        ]
+      }
+    },
+    {
+      "kind": "summary",
+      "title": "What to keep",
+      "title_fr": "À retenir",
+      "content": "Mixtures are separated by physical means. Filtration takes out an insoluble solid, evaporation recovers a dissolved solid, simple distillation separates solvent from solution, fractional distillation separates miscible liquids by boiling point, and chromatography separates dissolved dyes.",
+      "content_fr": "Les mélanges se séparent par des méthodes physiques. La filtration retire un solide insoluble, l'évaporation récupère un solide dissous, la distillation simple sépare le solvant de la solution, la distillation fractionnée sépare les liquides miscibles par température d'ébullition, et la chromatographie sépare les colorants dissous.",
+      "xp": 5
+    }
+  ],
+  "quiz": {
+    "title": "Quiz: separating mixtures",
+    "title_fr": "Quiz : séparer les mélanges",
+    "pass_score": 60,
+    "questions": [
+      {
+        "kind": "mcq",
+        "difficulty": 1,
+        "text": "Which method separates an insoluble solid from a liquid?",
+        "text_fr": "Quelle méthode sépare un solide insoluble d'un liquide ?",
+        "explanation": "Filtration traps the insoluble solid as residue while the liquid passes through.",
+        "explanation_fr": "La filtration retient le solide insoluble comme résidu tandis que le liquide passe.",
+        "hint_prompt": "You pour the mixture through paper.",
+        "hint_prompt_fr": "On verse le mélange à travers du papier.",
+        "choices": [
+          {"text": "Filtration", "text_fr": "La filtration", "correct": true},
+          {"text": "Evaporation", "text_fr": "L'évaporation", "correct": false},
+          {"text": "Chromatography", "text_fr": "La chromatographie", "correct": false},
+          {"text": "Distillation", "text_fr": "La distillation", "correct": false}
+        ],
+        "hints": [
+          {"text": "Use filter paper.", "text_fr": "Utilise un papier filtre."},
+          {"text": "It is filtration.", "text_fr": "C'est la filtration."}
+        ]
+      },
+      {
+        "kind": "mcq",
+        "difficulty": 2,
+        "text": "What is the clear liquid that passes through filter paper called?",
+        "text_fr": "Comment s'appelle le liquide limpide qui traverse le papier filtre ?",
+        "explanation": "The liquid that passes through is the filtrate; the solid left behind is the residue.",
+        "explanation_fr": "Le liquide qui passe est le filtrat ; le solide resté est le résidu.",
+        "hint_prompt": "It is not the residue.",
+        "hint_prompt_fr": "Ce n'est pas le résidu.",
+        "choices": [
+          {"text": "The filtrate", "text_fr": "Le filtrat", "correct": true},
+          {"text": "The residue", "text_fr": "Le résidu", "correct": false},
+          {"text": "The vapour", "text_fr": "La vapeur", "correct": false},
+          {"text": "The solvent", "text_fr": "Le solvant", "correct": false}
+        ],
+        "hints": [
+          {"text": "It goes through.", "text_fr": "Il traverse le filtre."},
+          {"text": "It is the filtrate.", "text_fr": "C'est le filtrat."}
+        ]
+      },
+      {
+        "kind": "mcq",
+        "difficulty": 2,
+        "text": "Which method would you use to obtain pure water from salty water?",
+        "text_fr": "Quelle méthode utiliserais-tu pour obtenir de l'eau pure à partir d'eau salée ?",
+        "explanation": "Distillation boils off the water as vapour and condenses it as pure water, leaving the salt behind.",
+        "explanation_fr": "La distillation vaporise l'eau puis la condense en eau pure, laissant le sel au fond.",
+        "hint_prompt": "The water must change to vapour and back.",
+        "hint_prompt_fr": "L'eau doit devenir vapeur puis redevenir liquide.",
+        "choices": [
+          {"text": "Distillation", "text_fr": "La distillation", "correct": true},
+          {"text": "Filtration", "text_fr": "La filtration", "correct": false},
+          {"text": "Chromatography", "text_fr": "La chromatographie", "correct": false},
+          {"text": "Hand-picking", "text_fr": "Le tri à la main", "correct": false}
+        ],
+        "hints": [
+          {"text": "The water leaves as vapour.", "text_fr": "L'eau part en vapeur."},
+          {"text": "Then it is condensed.", "text_fr": "Puis elle se condense."}
+        ]
+      },
+      {
+        "kind": "mcq",
+        "difficulty": 2,
+        "text": "Which method separates the dyes in a mixture of food colouring?",
+        "text_fr": "Quelle méthode sépare les colorants d'un mélange de colorants alimentaires ?",
+        "explanation": "Chromatography separates dissolved dyes because they travel different distances on the paper.",
+        "explanation_fr": "La chromatographie sépare les colorants dissous car ils migrent sur des distances différentes.",
+        "hint_prompt": "It gives coloured spots.",
+        "hint_prompt_fr": "Elle donne des taches colorées.",
+        "choices": [
+          {"text": "Chromatography", "text_fr": "La chromatographie", "correct": true},
+          {"text": "Filtration", "text_fr": "La filtration", "correct": false},
+          {"text": "Evaporation", "text_fr": "L'évaporation", "correct": false},
+          {"text": "Hand-sorting", "text_fr": "Le tri à la main", "correct": false}
+        ],
+        "hints": [
+          {"text": "Dyes are separated on paper.", "text_fr": "Les colorants se séparent sur le papier."},
+          {"text": "It is chromatography.", "text_fr": "C'est la chromatographie."}
+        ]
+      },
+      {
+        "kind": "mcq",
+        "difficulty": 2,
+        "text": "Fractional distillation separates liquids that differ in which property?",
+        "text_fr": "La distillation fractionnée sépare des liquides qui diffèrent par quelle propriété ?",
+        "explanation": "Fractional distillation separates miscible liquids by their different boiling points.",
+        "explanation_fr": "La distillation fractionnée sépare des liquides miscibles selon leur température d'ébullition.",
+        "hint_prompt": "Think about which boils first.",
+        "hint_prompt_fr": "Pense à celui qui bout en premier.",
+        "choices": [
+          {"text": "Boiling point", "text_fr": "La température d'ébullition", "correct": true},
+          {"text": "Colour", "text_fr": "La couleur", "correct": false},
+          {"text": "Charge", "text_fr": "La charge", "correct": false},
+          {"text": "Mass number", "text_fr": "Le nombre de masse", "correct": false}
+        ],
+        "hints": [
+          {"text": "It is the temperature at which each boils.", "text_fr": "C'est la température à laquelle chacun bout."},
+          {"text": "Boiling point.", "text_fr": "La température d'ébullition."}
+        ]
+      }
+    ]
+  }
+}

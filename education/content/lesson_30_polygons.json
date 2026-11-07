@@ -2,201 +2,231 @@
   "lesson": 30,
   "status": "published",
   "lesson_fields": {
-    "title": "Polygons – Interior and Exterior Angles",
-    "title_fr": "Polygones – angles intérieurs et extérieurs",
-    "summary": "Sum of interior angles (n-2)×180°, sum of exterior angles 360°. Regular polygon: divide equally.",
-    "summary_fr": "Somme des angles intérieurs (n-2)×180°, somme des angles extérieurs 360°. Polygone régulier : division égale.",
-    "content": "## Formulas\n\n1. Sum interior = (n - 2) × 180°.\n2. Sum exterior (one per vertex) = 360°.\n3. Regular: each interior = sum/n, each exterior = 360/n.",
-    "content_fr": "Formules\n\n1. Somme intérieurs = (n - 2) × 180°.\n2. Somme extérieurs (un par sommet) = 360°.\n3. Régulier : intérieur = somme/n, extérieur = 360/n.",
+    "title": "Polygons: Interior and Exterior Angles",
+    "title_fr": "Polygones : angles intérieurs et extérieurs",
+    "summary": "Find the interior and exterior angles of any polygon using the formulas for the angle sums and the properties of regular polygons.",
+    "summary_fr": "Calcule les angles intérieurs et extérieurs de tout polygone à l'aide des formules des sommes d'angles et des propriétés des polygones réguliers.",
+    "content": "## Two powerful formulas\n\n- Interior angles of an n-sided polygon: sum = (n - 2) x 180 degrees.\n- Exterior angles of any polygon: sum = 360 degrees.\n\nAt each vertex, the interior angle and the exterior angle add to 180 degrees. For a regular polygon all the angles are equal, so divide the sum by n.",
+    "content_fr": "## Deux formules puissantes\n\n- Angles intérieurs d'un polygone à n côtés : somme = (n - 2) x 180 degrés.\n- Angles extérieurs de tout polygone : somme = 360 degrés.\n\nÀ chaque sommet, l'angle intérieur et l'angle extérieur font 180 degrés. Dans un polygone régulier, tous les angles sont égaux : on divise donc la somme par n.",
     "objectives": [
-      "Use (n-2)×180°",
-      "Recall sum of exterior angles is 360°",
-      "Find angles in a regular polygon",
-      "Solve angle-finding questions"
+      "Use the formula (n - 2) x 180 for the interior angle sum",
+      "Find one interior angle of a regular polygon",
+      "Use the 360-degree exterior angle sum",
+      "Link interior and exterior angles at a vertex"
     ],
     "objectives_fr": [
-      "Utiliser (n-2)×180°",
-      "Se rappeler que la somme des angles extérieurs est 360°",
-      "Trouver les angles d'un polygone régulier",
-      "Résoudre des questions sur les angles"
+      "Utiliser la formule (n - 2) x 180 pour la somme des angles intérieurs",
+      "Trouver un angle intérieur d'un polygone régulier",
+      "Utiliser la somme des angles extérieurs égale à 360 degrés",
+      "Relier les angles intérieur et extérieur en un sommet"
     ],
-    "estimated_minutes": 25
+    "estimated_minutes": 30
   },
   "steps": [
     {
       "kind": "concept",
-      "title": "Sum of interior angles",
+      "title": "Interior angle sum",
       "title_fr": "Somme des angles intérieurs",
-      "content": "For a polygon with n sides, sum interior = (n - 2) × 180°. Triangle n=3: 180°, quadrilateral 360°.",
-      "content_fr": "Pour un polygone à n côtés, somme intérieurs = (n - 2) × 180°. Triangle n=3 : 180°, quadrilatère 360°.",
+      "content": "You can split any polygon with n sides into (n - 2) triangles by drawing diagonals from one vertex. Each triangle gives 180 degrees, so the interior angles add up to (n - 2) x 180 degrees.\n\nWorked example: a pentagon has n = 5 sides, so the sum is (5 - 2) x 180 = 3 x 180 = 540 degrees.\n\nThis works for every polygon, regular or not.",
+      "content_fr": "On peut partager tout polygone à n côtés en (n - 2) triangles en traçant les diagonales à partir d'un sommet. Chaque triangle donne 180 degrés, donc les angles intérieurs font (n - 2) x 180 degrés.\n\nExemple rédigé : un pentagone a n = 5 côtés, donc la somme vaut (5 - 2) x 180 = 3 x 180 = 540 degrés.\n\nCela marche pour tout polygone, régulier ou non.",
       "required": true,
-      "xp": 10,
+      "xp": 12,
       "question": {
         "kind": "numeric",
-        "text": "Find sum of interior angles of a hexagon (6 sides).",
-        "text_fr": "Trouve la somme des angles intérieurs d'un hexagone (6 côtés).",
-        "explanation": "(6 - 2) × 180 = 4 × 180 = 720°.",
-        "explanation_fr": "(6 - 2) × 180 = 4 × 180 = 720°.",
-        "hint_prompt": "(n-2)×180.",
-        "hint_prompt_fr": "(n-2)×180.",
-        "config": {"accepted": ["720"]},
+        "difficulty": 2,
+        "text": "Find the sum of the interior angles of a hexagon, in degrees.",
+        "text_fr": "Trouve la somme des angles intérieurs d'un hexagone, en degrés.",
+        "explanation": "A hexagon has n = 6 sides, so the sum is (6 - 2) x 180 = 4 x 180 = 720 degrees.",
+        "explanation_fr": "Un hexagone a n = 6 côtés, donc la somme vaut (6 - 2) x 180 = 4 x 180 = 720 degrés.",
+        "hint_prompt": "Use (n - 2) x 180 with n = 6.",
+        "hint_prompt_fr": "Utilise (n - 2) x 180 avec n = 6.",
+        "config": {"accepted": [720]},
         "hints": [
-          {"text": "(6-2)=4; 4×180=720.", "text_fr": "(6-2)=4; 4×180=720."}
+          {"text": "n - 2 = 4.", "text_fr": "n - 2 = 4."},
+          {"text": "4 x 180 = 720.", "text_fr": "4 x 180 = 720."}
         ]
       }
     },
     {
       "kind": "concept",
-      "title": "Sum of exterior angles",
-      "title_fr": "Somme des angles extérieurs",
-      "content": "Sum of exterior angles (one per vertex) is always 360°, for any convex polygon.",
-      "content_fr": "La somme des angles extérieurs (un par sommet) vaut toujours 360°, pour tout polygone convexe.",
+      "title": "One interior angle of a regular polygon",
+      "title_fr": "Un angle intérieur d'un polygone régulier",
+      "content": "In a regular polygon all sides and all angles are equal. To find one interior angle, work out the sum and divide by the number of sides.\n\nOne interior angle = (n - 2) x 180 / n.\n\nWorked example: a regular octagon has n = 8. The sum is (8 - 2) x 180 = 1080, so each interior angle is 1080 / 8 = 135 degrees.",
+      "content_fr": "Dans un polygone régulier, tous les côtés et tous les angles sont égaux. Pour trouver un angle intérieur, calcule la somme puis divise par le nombre de côtés.\n\nUn angle intérieur = (n - 2) x 180 / n.\n\nExemple rédigé : un octogone régulier a n = 8. La somme vaut (8 - 2) x 180 = 1080, donc chaque angle intérieur vaut 1080 / 8 = 135 degrés.",
       "required": true,
-      "xp": 10,
+      "xp": 12,
       "question": {
-        "kind": "mcq",
-        "text": "Sum of exterior angles of any polygon is...",
-        "text_fr": "La somme des angles extérieurs de n'importe quel polygone est...",
-        "explanation": "360°.",
-        "explanation_fr": "360°.",
-        "hint_prompt": "A constant.",
-        "hint_prompt_fr": "Une constante.",
-        "choices": [
-          {"text": "360°", "text_fr": "360°", "correct": true},
-          {"text": "180°", "text_fr": "180°"},
-          {"text": "540°", "text_fr": "540°"},
-          {"text": "720°", "text_fr": "720°"}
-        ],
+        "kind": "numeric",
+        "difficulty": 2,
+        "text": "Find one interior angle of a regular decagon (10 sides), in degrees.",
+        "text_fr": "Trouve un angle intérieur d'un décagone régulier (10 côtés), en degrés.",
+        "explanation": "The sum is (10 - 2) x 180 = 1440, so each angle is 1440 / 10 = 144 degrees.",
+        "explanation_fr": "La somme vaut (10 - 2) x 180 = 1440, donc chaque angle vaut 1440 / 10 = 144 degrés.",
+        "hint_prompt": "Divide the interior angle sum by 10.",
+        "hint_prompt_fr": "Divise la somme des angles intérieurs par 10.",
+        "config": {"accepted": [144]},
         "hints": [
-          {"text": "Always 360.", "text_fr": "Toujours 360."}
+          {"text": "Sum = 8 x 180 = 1440.", "text_fr": "Somme = 8 x 180 = 1440."},
+          {"text": "1440 / 10 = 144.", "text_fr": "1440 / 10 = 144."}
+        ]
+      }
+    },
+    {
+      "kind": "concept",
+      "title": "Exterior angle sum",
+      "title_fr": "Somme des angles extérieurs",
+      "content": "If you extend each side of a polygon and take the exterior angle at each vertex, those exterior angles always add up to 360 degrees, no matter how many sides the polygon has.\n\nFor a regular polygon all exterior angles are equal, so one exterior angle is 360 / n.\n\nWorked example: a regular hexagon has each exterior angle 360 / 6 = 60 degrees.",
+      "content_fr": "Si on prolonge chaque côté d'un polygone et qu'on prend l'angle extérieur à chaque sommet, ces angles extérieurs font toujours 360 degrés, quel que soit le nombre de côtés.\n\nDans un polygone régulier, tous les angles extérieurs sont égaux : un angle extérieur vaut donc 360 / n.\n\nExemple rédigé : un hexagone régulier a chaque angle extérieur égal à 360 / 6 = 60 degrés.",
+      "required": true,
+      "xp": 12,
+      "question": {
+        "kind": "numeric",
+        "difficulty": 2,
+        "text": "Find one exterior angle of a regular pentagon (5 sides), in degrees.",
+        "text_fr": "Trouve un angle extérieur d'un pentagone régulier (5 côtés), en degrés.",
+        "explanation": "The exterior angle is 360 / 5 = 72 degrees.",
+        "explanation_fr": "L'angle extérieur vaut 360 / 5 = 72 degrés.",
+        "hint_prompt": "Divide 360 by the number of sides.",
+        "hint_prompt_fr": "Divise 360 par le nombre de côtés.",
+        "config": {"accepted": [72]},
+        "hints": [
+          {"text": "Exterior angles sum to 360.", "text_fr": "Les angles extérieurs font 360."},
+          {"text": "360 / 5 = 72.", "text_fr": "360 / 5 = 72."}
         ]
       }
     },
     {
       "kind": "explain",
-      "title": "Regular polygon",
-      "title_fr": "Polygone régulier",
-      "content": "All sides and angles equal. Each exterior = 360/n; each interior = (n-2)×180/n.",
-      "content_fr": "Tous les côtés et angles égaux. Extérieur = 360/n ; intérieur = (n-2)×180/n.",
+      "title": "Linking interior and exterior angles",
+      "title_fr": "Relier angles intérieur et extérieur",
+      "content": "At any vertex the interior angle and its exterior angle lie on a straight line, so they add to 180 degrees.\n\nWorked example: a regular polygon has an exterior angle of 24 degrees. Then the interior angle is 180 - 24 = 156 degrees. To find the number of sides, use 360 / exterior = 360 / 24 = 15, so it is a 15-sided polygon (a pentadecagon).",
+      "content_fr": "En tout sommet, l'angle intérieur et son angle extérieur sont sur une droite, donc ils font 180 degrés.\n\nExemple rédigé : un polygone régulier a un angle extérieur de 24 degrés. Alors l'angle intérieur vaut 180 - 24 = 156 degrés. Pour trouver le nombre de côtés, on utilise 360 / extérieur = 360 / 24 = 15 : c'est donc un polygone à 15 côtés (un pentadécagone).",
       "required": true,
-      "xp": 12,
+      "xp": 15,
       "question": {
-        "kind": "numeric",
-        "text": "Regular pentagon (5 sides). Each exterior angle is a degrees. Find a.",
-        "text_fr": "Pentagone régulier (5 côtés). Chaque angle extérieur vaut a degrés. Trouve a.",
-        "explanation": "360 / 5 = 72°.",
-        "explanation_fr": "360 / 5 = 72°.",
-        "hint_prompt": "360 / n.",
-        "hint_prompt_fr": "360 / n.",
-        "config": {"accepted": ["72"]},
+        "kind": "mcq",
+        "difficulty": 3,
+        "text": "The exterior angle of a regular polygon is 30 degrees. How many sides does it have?",
+        "text_fr": "L'angle extérieur d'un polygone régulier vaut 30 degrés. Combien de côtés a-t-il ?",
+        "explanation": "The number of sides is 360 / exterior angle = 360 / 30 = 12, so it is a dodecagon.",
+        "explanation_fr": "Le nombre de côtés vaut 360 / angle extérieur = 360 / 30 = 12 : c'est donc un dodécagone.",
+        "hint_prompt": "Use 360 divided by the exterior angle.",
+        "hint_prompt_fr": "Utilise 360 divisé par l'angle extérieur.",
+        "choices": [
+          {"text": "12 sides", "text_fr": "12 côtés", "correct": true},
+          {"text": "6 sides", "text_fr": "6 côtés", "correct": false},
+          {"text": "8 sides", "text_fr": "8 côtés", "correct": false},
+          {"text": "10 sides", "text_fr": "10 côtés", "correct": false}
+        ],
         "hints": [
-          {"text": "360/5=72.", "text_fr": "360/5=72."}
+          {"text": "Number of sides = 360 / exterior angle.", "text_fr": "Nombre de côtés = 360 / angle extérieur."},
+          {"text": "360 / 30 = 12.", "text_fr": "360 / 30 = 12."}
         ]
       }
     },
     {
-      "kind": "practice",
-      "title": "Find interior from exterior",
-      "title_fr": "Intérieur à partir de l'extérieur",
-      "content": "Interior + exterior = 180° for a regular polygon.",
-      "content_fr": "Intérieur + extérieur = 180° pour un polygone régulier.",
+      "kind": "example",
+      "title": "Working backwards from an angle",
+      "title_fr": "Revenir en arrière à partir d'un angle",
+      "content": "Worked example: the interior angles of a regular polygon are each 150 degrees. The exterior angle is 180 - 150 = 30 degrees. The number of sides is 360 / 30 = 12.\n\nStrategy: if a question gives a regular polygon's angle, convert to the exterior angle first, then use 360 to count the sides.",
+      "content_fr": "Exemple rédigé : les angles intérieurs d'un polygone régulier valent chacun 150 degrés. L'angle extérieur vaut 180 - 150 = 30 degrés. Le nombre de côtés vaut 360 / 30 = 12.\n\nStratégie : si l'énoncé donne l'angle d'un polygone régulier, convertis d'abord en angle extérieur, puis utilise 360 pour compter les côtés.",
       "required": false,
-      "xp": 10,
-      "question": {
-        "kind": "numeric",
-        "text": "Regular polygon, exterior 60°. Interior angle is a°. Find a.",
-        "text_fr": "Polygone régulier, extérieur 60°. Angle intérieur a°. Trouve a.",
-        "explanation": "180 - 60 = 120°.",
-        "explanation_fr": "180 - 60 = 120°.",
-        "hint_prompt": "Interior + exterior = 180.",
-        "hint_prompt_fr": "Intérieur + extérieur = 180.",
-        "config": {"accepted": ["120"]},
-        "hints": [
-          {"text": "180 - 60 = 120.", "text_fr": "180 - 60 = 120."}
-        ]
-      }
+      "xp": 10
     },
     {
       "kind": "summary",
       "title": "What to keep",
       "title_fr": "À retenir",
-      "content": "Interior sum (n-2)×180. Exterior sum 360. Interior + exterior = 180 (regular).",
-      "content_fr": "Somme intérieurs (n-2)×180. Somme extérieurs 360. Intérieur + extérieur = 180 (régulier).",
+      "content": "Interior angle sum = (n - 2) x 180. Exterior angle sum = 360. Interior angle + exterior angle at a vertex = 180. For a regular polygon, divide the relevant sum by n, and count sides with 360 / exterior angle.",
+      "content_fr": "Somme des angles intérieurs = (n - 2) x 180. Somme des angles extérieurs = 360. Angle intérieur + angle extérieur en un sommet = 180. Dans un polygone régulier, on divise la somme utile par n et on compte les côtés avec 360 / angle extérieur.",
       "required": false,
       "xp": 5
     }
   ],
   "quiz": {
-    "title": "Polygons",
-    "title_fr": "Polygones",
+    "title": "Quiz - Polygons",
+    "title_fr": "Quiz - Polygones",
     "pass_score": 60,
     "questions": [
       {
         "kind": "numeric",
-        "text": "Interior sum of a pentagon (5 sides).",
-        "text_fr": "Somme intérieurs d'un pentagone (5 côtés).",
-        "explanation": "(5-2)×180 = 540.",
-        "explanation_fr": "(5-2)×180 = 540.",
-        "hint_prompt": "(n-2)×180.",
-        "hint_prompt_fr": "(n-2)×180.",
-        "config": {"accepted": ["540"]},
+        "difficulty": 2,
+        "text": "Find the sum of the interior angles of an octagon, in degrees.",
+        "text_fr": "Trouve la somme des angles intérieurs d'un octogone, en degrés.",
+        "explanation": "(8 - 2) x 180 = 6 x 180 = 1080 degrees.",
+        "explanation_fr": "(8 - 2) x 180 = 6 x 180 = 1080 degrés.",
+        "hint_prompt": "Use (n - 2) x 180 with n = 8.",
+        "hint_prompt_fr": "Utilise (n - 2) x 180 avec n = 8.",
+        "config": {"accepted": [1080]},
         "hints": [
-          {"text": "3×180 = 540.", "text_fr": "3×180 = 540."}
-        ],
-        "difficulty": 1
+          {"text": "6 x 180.", "text_fr": "6 x 180."},
+          {"text": "= 1080.", "text_fr": "= 1080."}
+        ]
       },
       {
         "kind": "numeric",
-        "text": "Sum of exterior angles of any polygon.",
-        "text_fr": "Somme des angles extérieurs de tout polygone.",
-        "explanation": "360.",
-        "explanation_fr": "360.",
-        "config": {"accepted": ["360"]},
+        "difficulty": 2,
+        "text": "Find one interior angle of a regular pentagon, in degrees.",
+        "text_fr": "Trouve un angle intérieur d'un pentagone régulier, en degrés.",
+        "explanation": "The sum is (5 - 2) x 180 = 540, so each angle is 540 / 5 = 108 degrees.",
+        "explanation_fr": "La somme vaut (5 - 2) x 180 = 540, donc chaque angle vaut 540 / 5 = 108 degrés.",
+        "hint_prompt": "Divide 540 by 5.",
+        "hint_prompt_fr": "Divise 540 par 5.",
+        "config": {"accepted": [108]},
         "hints": [
-          {"text": "360.", "text_fr": "360."}
-        ],
-        "difficulty": 1
+          {"text": "Sum = 540.", "text_fr": "Somme = 540."},
+          {"text": "540 / 5 = 108.", "text_fr": "540 / 5 = 108."}
+        ]
       },
       {
         "kind": "numeric",
-        "text": "Regular hexagon, each exterior angle.",
-        "text_fr": "Hexagone régulier, chaque angle extérieur.",
-        "explanation": "360/6 = 60.",
-        "explanation_fr": "360/6 = 60.",
-        "config": {"accepted": ["60"]},
+        "difficulty": 2,
+        "text": "Find one exterior angle of a regular hexagon, in degrees.",
+        "text_fr": "Trouve un angle extérieur d'un hexagone régulier, en degrés.",
+        "explanation": "The exterior angle is 360 / 6 = 60 degrees.",
+        "explanation_fr": "L'angle extérieur vaut 360 / 6 = 60 degrés.",
+        "hint_prompt": "Divide 360 by 6.",
+        "hint_prompt_fr": "Divise 360 par 6.",
+        "config": {"accepted": [60]},
         "hints": [
-          {"text": "360/6 = 60.", "text_fr": "360/6 = 60."}
-        ],
-        "difficulty": 1
+          {"text": "360 / 6.", "text_fr": "360 / 6."},
+          {"text": "= 60.", "text_fr": "= 60."}
+        ]
       },
       {
         "kind": "numeric",
-        "text": "Regular octagon (8 sides), each interior angle.",
-        "text_fr": "Octogone régulier (8 côtés), chaque angle intérieur.",
-        "explanation": "Interior sum (8-2)×180 = 1080, 1080/8 = 135.",
-        "explanation_fr": "Somme intérieurs (8-2)×180 = 1080, 1080/8 = 135.",
-        "hint_prompt": "(n-2)×180/n.",
-        "hint_prompt_fr": "(n-2)×180/n.",
-        "config": {"accepted": ["135"]},
+        "difficulty": 3,
+        "text": "A regular polygon has an exterior angle of 40 degrees. How many sides does it have?",
+        "text_fr": "Un polygone régulier a un angle extérieur de 40 degrés. Combien de côtés a-t-il ?",
+        "explanation": "Number of sides = 360 / 40 = 9.",
+        "explanation_fr": "Nombre de côtés = 360 / 40 = 9.",
+        "hint_prompt": "Use 360 / exterior angle.",
+        "hint_prompt_fr": "Utilise 360 / angle extérieur.",
+        "config": {"accepted": [9]},
         "hints": [
-          {"text": "(8-2)=6, 6×180=1080.", "text_fr": "(8-2)=6, 6×180=1080."},
-          {"text": "1080/8 = 135.", "text_fr": "1080/8 = 135."}
-        ],
-        "difficulty": 2
+          {"text": "360 / 40.", "text_fr": "360 / 40."},
+          {"text": "= 9 sides.", "text_fr": "= 9 côtés."}
+        ]
       },
       {
-        "kind": "numeric",
-        "text": "Regular polygon, exterior 40°, how many sides n?",
-        "text_fr": "Polygone régulier, extérieur 40°, nombre de côtés n.",
-        "explanation": "360/40 = 9.",
-        "explanation_fr": "360/40 = 9.",
-        "hint_prompt": "n = 360/exterior.",
-        "hint_prompt_fr": "n = 360/extérieur.",
-        "config": {"accepted": ["9"]},
-        "hints": [
-          {"text": "360/40 = 9.", "text_fr": "360/40 = 9."}
+        "kind": "mcq",
+        "difficulty": 2,
+        "text": "A regular polygon has an interior angle of 120 degrees. What is its exterior angle?",
+        "text_fr": "Un polygone régulier a un angle intérieur de 120 degrés. Quel est son angle extérieur ?",
+        "explanation": "Interior and exterior angles add to 180, so the exterior angle is 180 - 120 = 60 degrees.",
+        "explanation_fr": "Les angles intérieur et extérieur font 180, donc l'angle extérieur vaut 180 - 120 = 60 degrés.",
+        "hint_prompt": "They add to 180.",
+        "hint_prompt_fr": "Ils font 180.",
+        "choices": [
+          {"text": "60 degrees", "text_fr": "60 degrés", "correct": true},
+          {"text": "120 degrees", "text_fr": "120 degrés", "correct": false},
+          {"text": "240 degrees", "text_fr": "240 degrés", "correct": false},
+          {"text": "30 degrees", "text_fr": "30 degrés", "correct": false}
         ],
-        "difficulty": 2
+        "hints": [
+          {"text": "180 - 120.", "text_fr": "180 - 120."},
+          {"text": "= 60.", "text_fr": "= 60."}
+        ]
       }
     ]
   }

@@ -1,0 +1,303 @@
+{
+  "lesson": 134,
+  "status": "published",
+  "lesson_fields": {
+    "title": "Reproduction in Humans",
+    "title_fr": "Reproduction chez l'humain",
+    "summary": "Humans reproduce sexually. The male and female reproductive systems make sex cells that join at fertilisation to form a new individual.",
+    "summary_fr": "L'humain se reproduit de facon sexuee. Les appareils reproducteurs masculin et feminin fabriquent des cellules sexuelles qui s'unissent a la fecondation pour former un nouvel individu.",
+    "content": "## Reproductive systems\n\nThe male system produces sperm in the testes. The female system produces eggs in the ovaries. The egg travels along the oviduct, where fertilisation usually happens.\n\n## Development\n\nAfter fertilisation the egg divides to form an embryo. The embryo develops in the uterus, supplied by the placenta and protected by the amniotic fluid.",
+    "content_fr": "## Les appareils reproducteurs\n\nL'appareil masculin produit des spermatozoides dans les testicules. L'appareil feminin produit des ovules dans les ovaires. L'ovule voyage le long de la trompe, ou la fecondation se produit generalement.\n\n## Le developpement\n\nApres la fecondation, l'ovule se divise pour former un embryon. L'embryon se developpe dans l'uterus, alimente par le placenta et protege par le liquide amniotique.",
+    "objectives": [
+      "Describe the male and female sex cells",
+      "Explain where fertilisation happens",
+      "Describe the function of the placenta"
+    ],
+    "objectives_fr": [
+      "Decrire les cellules sexuelles male et femelle",
+      "Expliquer ou se produit la fecondation",
+      "Decrire la fonction du placenta"
+    ],
+    "estimated_minutes": 25
+  },
+  "steps": [
+    {
+      "kind": "concept",
+      "title": "Sex cells",
+      "title_fr": "Les cellules sexuelles",
+      "content": "The male sex cell is the sperm. It has a tail to swim. The female sex cell is the egg, which is larger and stores food. Each has half the normal number of chromosomes.",
+      "content_fr": "La cellule sexuelle male est le spermatozoide. Il a un flagelle pour nager. La cellule sexuelle femelle est l'ovule, plus gros et riche en reserves. Chacun a moitie du nombre normal de chromosomes.",
+      "required": true,
+      "xp": 10,
+      "question": {
+        "kind": "mcq",
+        "text": "Which sex cell has a tail for swimming?",
+        "text_fr": "Quelle cellule sexuelle a un flagelle pour nager ?",
+        "explanation": "The sperm has a tail.",
+        "explanation_fr": "Le spermatozoide a un flagelle.",
+        "choices": [
+          {
+            "text": "The sperm",
+            "text_fr": "Le spermatozoide",
+            "correct": true
+          },
+          {
+            "text": "The egg",
+            "text_fr": "L'ovule",
+            "correct": false
+          },
+          {
+            "text": "The embryo",
+            "text_fr": "L'embryon",
+            "correct": false
+          }
+        ],
+        "hints": [
+          {
+            "text": "It moves to reach the egg.",
+            "text_fr": "Il se deplace pour atteindre l'ovule."
+          }
+        ],
+        "difficulty": 1
+      }
+    },
+    {
+      "kind": "explain",
+      "title": "Fertilisation",
+      "title_fr": "La fecondation",
+      "content": "Fertilisation is the joining of a sperm and an egg. It usually happens in the oviduct. The fertilised egg now has the full number of chromosomes and divides to form an embryo.",
+      "content_fr": "La fecondation est l'union d'un spermatozoide et d'un ovule. Elle se produit generalement dans la trompe. L'oeuf feconde a maintenant le nombre complet de chromosomes et se divise pour former un embryon.",
+      "required": true,
+      "xp": 10
+    },
+    {
+      "kind": "example",
+      "title": "The placenta",
+      "title_fr": "Le placenta",
+      "content": "The placenta connects the embryo to the mother. It lets oxygen and nutrients pass from the mother's blood to the embryo, and removes carbon dioxide and waste.",
+      "content_fr": "Le placenta relie l'embryon a la mere. Il laisse passer l'oxygene et les nutriments du sang maternel vers l'embryon, et elimine le dioxyde de carbone et les dechets.",
+      "required": true,
+      "xp": 12
+    },
+    {
+      "kind": "practice",
+      "title": "Your turn: where",
+      "title_fr": "A toi : ou",
+      "content": "Where does fertilisation usually happen?",
+      "content_fr": "Ou la fecondation se produit-elle generalement ?",
+      "required": true,
+      "xp": 12,
+      "question": {
+        "kind": "mcq",
+        "text": "Where does fertilisation usually happen?",
+        "text_fr": "Ou la fecondation se produit-elle generalement ?",
+        "explanation": "In the oviduct.",
+        "explanation_fr": "Dans la trompe.",
+        "choices": [
+          {
+            "text": "In the oviduct",
+            "text_fr": "Dans la trompe",
+            "correct": true
+          },
+          {
+            "text": "In the uterus",
+            "text_fr": "Dans l'uterus",
+            "correct": false
+          },
+          {
+            "text": "In the ovary",
+            "text_fr": "Dans l'ovaire",
+            "correct": false
+          }
+        ],
+        "hints": [
+          {
+            "text": "The egg travels along it.",
+            "text_fr": "L'ovule la parcourt."
+          }
+        ],
+        "difficulty": 1
+      }
+    },
+    {
+      "kind": "question",
+      "title": "Check: protection",
+      "title_fr": "Verification : protection",
+      "content": "The amniotic fluid cushions the embryo, protecting it from knocks. The uterus wall has muscles that stretch as the baby grows.",
+      "content_fr": "Le liquide amniotique amortit les chocs et protege l'embryon. La paroi de l'uterus a des muscles qui s'etirent a mesure que le bebe grandit.",
+      "required": true,
+      "xp": 12,
+      "question": {
+        "kind": "mcq",
+        "text": "What cushions and protects the embryo?",
+        "text_fr": "Qu'est-ce qui amortit et protege l'embryon ?",
+        "explanation": "The amniotic fluid.",
+        "explanation_fr": "Le liquide amniotique.",
+        "choices": [
+          {
+            "text": "The amniotic fluid",
+            "text_fr": "Le liquide amniotique",
+            "correct": true
+          },
+          {
+            "text": "The placenta",
+            "text_fr": "Le placenta",
+            "correct": false
+          },
+          {
+            "text": "The oviduct",
+            "text_fr": "La trompe",
+            "correct": false
+          }
+        ],
+        "hints": [
+          {
+            "text": "It is a fluid.",
+            "text_fr": "C'est un liquide."
+          }
+        ],
+        "difficulty": 1
+      }
+    },
+    {
+      "kind": "summary",
+      "title": "What to keep",
+      "title_fr": "A retenir",
+      "content": "Sperm and egg join at fertilisation, usually in the oviduct. The embryo develops in the uterus, fed by the placenta and cushioned by amniotic fluid.",
+      "content_fr": "Le spermatozoide et l'ovule s'unissent a la fecondation, generalement dans la trompe. L'embryon se developpe dans l'uterus, alimente par le placenta et protege par le liquide amniotique.",
+      "required": false,
+      "xp": 5
+    }
+  ],
+  "quiz": {
+    "title": "Reproduction in Humans",
+    "title_fr": "Reproduction chez l'humain",
+    "pass_score": 60,
+    "questions": [
+      {
+        "kind": "mcq",
+        "text": "Where are sperm made?",
+        "text_fr": "Ou les spermatozoides sont-ils fabriques ?",
+        "explanation": "In the testes.",
+        "explanation_fr": "Dans les testicules.",
+        "choices": [
+          {
+            "text": "In the testes",
+            "text_fr": "Dans les testicules",
+            "correct": true
+          },
+          {
+            "text": "In the ovaries",
+            "text_fr": "Dans les ovaires",
+            "correct": false
+          },
+          {
+            "text": "In the uterus",
+            "text_fr": "Dans l'uterus",
+            "correct": false
+          }
+        ],
+        "hints": [
+          {
+            "text": "The male organs.",
+            "text_fr": "Les organes masculins."
+          }
+        ],
+        "difficulty": 1
+      },
+      {
+        "kind": "mcq",
+        "text": "Where are eggs made?",
+        "text_fr": "Ou les ovules sont-ils fabriques ?",
+        "explanation": "In the ovaries.",
+        "explanation_fr": "Dans les ovaires.",
+        "choices": [
+          {
+            "text": "In the ovaries",
+            "text_fr": "Dans les ovaires",
+            "correct": true
+          },
+          {
+            "text": "In the testes",
+            "text_fr": "Dans les testicules",
+            "correct": false
+          },
+          {
+            "text": "In the oviduct",
+            "text_fr": "Dans la trompe",
+            "correct": false
+          }
+        ],
+        "hints": [
+          {
+            "text": "The female organs.",
+            "text_fr": "Les organes feminins."
+          }
+        ],
+        "difficulty": 1
+      },
+      {
+        "kind": "mcq",
+        "text": "What does the placenta do?",
+        "text_fr": "Que fait le placenta ?",
+        "explanation": "Exchanges materials between mother and embryo.",
+        "explanation_fr": "Echange des substances entre la mere et l'embryon.",
+        "choices": [
+          {
+            "text": "Exchanges materials",
+            "text_fr": "Echange des substances",
+            "correct": true
+          },
+          {
+            "text": "Makes sperm",
+            "text_fr": "Fabrique des spermatozoides",
+            "correct": false
+          },
+          {
+            "text": "Stores food",
+            "text_fr": "Stocke la nourriture",
+            "correct": false
+          }
+        ],
+        "hints": [
+          {
+            "text": "It links them.",
+            "text_fr": "Il les relie."
+          }
+        ],
+        "difficulty": 1
+      },
+      {
+        "kind": "mcq",
+        "text": "Each human sex cell has how many chromosomes?",
+        "text_fr": "Combien de chromosomes a chaque cellule sexuelle humaine ?",
+        "explanation": "23.",
+        "explanation_fr": "23.",
+        "choices": [
+          {
+            "text": "23",
+            "text_fr": "23",
+            "correct": true
+          },
+          {
+            "text": "46",
+            "text_fr": "46",
+            "correct": false
+          },
+          {
+            "text": "92",
+            "text_fr": "92",
+            "correct": false
+          }
+        ],
+        "hints": [
+          {
+            "text": "Half of 46.",
+            "text_fr": "La moitie de 46."
+          }
+        ],
+        "difficulty": 1
+      }
+    ]
+  }
+}

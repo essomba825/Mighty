@@ -1,0 +1,217 @@
+{
+  "lesson": 122,
+  "status": "published",
+  "lesson_fields": {
+    "title": "Nervous System and Coordination",
+    "title_fr": "Systeme nerveux et coordination",
+    "summary": "The nervous system lets the body respond quickly to changes. A stimulus is detected by a receptor, a signal travels through neurones, and an effector produces a response.",
+    "summary_fr": "Le systeme nerveux permet au corps de repondre rapidement aux changements. Un stimulus est detecte par un recepteur, un signal circule dans les neurones, et un effecteur produit une reponse.",
+    "content": "## Neurones and reflexes\n\nA stimulus is a change in the environment. Receptors detect stimuli. Electrical impulses travel along neurones. Effectors, such as muscles or glands, respond.\n\n## Reflex actions\n\nA reflex is a fast, automatic response that does not need conscious thought. It protects the body from harm. The pathway is called a reflex arc.",
+    "content_fr": "## Neurones et reflexes\n\nUn stimulus est un changement de l'environnement. Les recepteurs detectent les stimuli. Des influx electriques circulent le long des neurones. Les effecteurs, comme les muscles ou les glandes, repondent.\n\n## Les actes reflexes\n\nUn reflexe est une reponse rapide et automatique qui ne necessite pas de reflexion consciente. Il protege le corps d'un danger. Le trajet s'appelle l'arc reflexe.",
+    "objectives": [
+      "Describe the pathway of a nervous response",
+      "Explain what a reflex action is",
+      "Name the parts of a reflex arc"
+    ],
+    "objectives_fr": [
+      "Decrire le trajet d'une reponse nerveuse",
+      "Expliquer ce qu'est un acte reflexe",
+      "Nommer les elements de l'arc reflexe"
+    ],
+    "estimated_minutes": 25
+  },
+  "steps": [
+    {
+      "kind": "concept",
+      "title": "Stimulus and response",
+      "title_fr": "Stimulus et reponse",
+      "content": "A stimulus is a change in the environment, such as light, sound, touch or temperature. Receptors detect the stimulus. An effector produces the response, which may be a muscle contracting or a gland releasing a chemical.",
+      "content_fr": "Un stimulus est un changement de l'environnement, comme la lumiere, le son, le toucher ou la temperature. Les recepteurs detectent le stimulus. Un effecteur produit la reponse, qui peut etre la contraction d'un muscle ou la liberation d'une substance par une glande.",
+      "required": true,
+      "xp": 10,
+      "question": {
+        "kind": "mcq",
+        "text": "What detects a stimulus?",
+        "text_fr": "Qu'est-ce qui detecte un stimulus ?",
+        "explanation": "Receptors detect stimuli.",
+        "explanation_fr": "Les recepteurs detectent les stimuli.",
+        "hint_prompt": "They are in your sense organs.",
+        "hint_prompt_fr": "Ils se trouvent dans les organes des sens.",
+        "choices": [
+          {"text": "A receptor", "text_fr": "Un recepteur", "correct": true},
+          {"text": "An effector", "text_fr": "Un effecteur", "correct": false},
+          {"text": "A neurone", "text_fr": "Un neurone", "correct": false}
+        ],
+        "hints": [
+          {"text": "Receptors receive signals.", "text_fr": "Les recepteurs recoivent les signaux."}
+        ]
+      }
+    },
+    {
+      "kind": "explain",
+      "title": "The reflex arc",
+      "title_fr": "L'arc reflexe",
+      "content": "In a reflex arc, the signal travels from a receptor along a sensory neurone to the spinal cord. It passes through a relay neurone to a motor neurone, which carries it to an effector. This pathway is fast and automatic.",
+      "content_fr": "Dans un arc reflexe, le signal part d'un recepteur, suit un neurone sensitif jusqu'a la moelle epiniere. Il passe par un neurone d'association vers un neurone moteur, qui le transporte jusqu'a un effecteur. Ce trajet est rapide et automatique.",
+      "required": true,
+      "xp": 10
+    },
+    {
+      "kind": "example",
+      "title": "The pupil reflex",
+      "title_fr": "Le reflexe pupillaire",
+      "content": "If a bright light shines into the eye, the pupil gets smaller. Light is the stimulus, receptors in the eye detect it, and muscles in the iris are the effectors. This protects the retina from damage.",
+      "content_fr": "Si une lumiere vive brille dans l'oeil, la pupille se retrecit. La lumiere est le stimulus, les recepteurs de l'oeil le detectent, et les muscles de l'iris sont les effecteurs. Cela protege la retine des dommages.",
+      "required": true,
+      "xp": 12
+    },
+    {
+      "kind": "practice",
+      "title": "Your turn: order of the arc",
+      "title_fr": "A toi : l'ordre de l'arc",
+      "content": "Which comes first in a reflex arc: the effector or the receptor?",
+      "content_fr": "Qu'est-ce qui vient en premier dans un arc reflexe : l'effecteur ou le recepteur ?",
+      "required": true,
+      "xp": 12,
+      "question": {
+        "kind": "mcq",
+        "text": "What is the first part of a reflex arc?",
+        "text_fr": "Quelle est la premiere partie d'un arc reflexe ?",
+        "explanation": "The receptor detects the stimulus first.",
+        "explanation_fr": "Le recepteur detecte d'abord le stimulus.",
+        "hint_prompt": "Detection comes before action.",
+        "hint_prompt_fr": "La detection precede l'action.",
+        "choices": [
+          {"text": "The receptor", "text_fr": "Le recepteur", "correct": true},
+          {"text": "The effector", "text_fr": "L'effecteur", "correct": false},
+          {"text": "The muscle", "text_fr": "Le muscle", "correct": false}
+        ],
+        "hints": [
+          {"text": "First you sense something.", "text_fr": "D'abord on ressent quelque chose."}
+        ]
+      }
+    },
+    {
+      "kind": "question",
+      "title": "Check: why reflexes are fast",
+      "title_fr": "Verification : pourquoi les reflexes sont rapides",
+      "content": "Reflex actions are fast because the signal does not have to travel to the brain and back. It goes through the spinal cord, so the response happens quickly and protects the body.",
+      "content_fr": "Les actes reflexes sont rapides car le signal n'a pas besoin d'aller au cerveau et de revenir. Il passe par la moelle epiniere, donc la reponse est rapide et protege le corps.",
+      "required": true,
+      "xp": 12,
+      "question": {
+        "kind": "mcq",
+        "text": "Why are reflexes fast?",
+        "text_fr": "Pourquoi les reflexes sont-ils rapides ?",
+        "explanation": "The signal passes through the spinal cord, not all the way to the brain and back.",
+        "explanation_fr": "Le signal passe par la moelle epiniere, sans aller jusqu'au cerveau et revenir.",
+        "hint_prompt": "Think about the route.",
+        "hint_prompt_fr": "Pense au trajet.",
+        "choices": [
+          {"text": "The signal goes through the spinal cord", "text_fr": "Le signal passe par la moelle epiniere", "correct": true},
+          {"text": "They use no neurones", "text_fr": "Ils n'utilisent aucun neurone", "correct": false},
+          {"text": "The brain thinks first", "text_fr": "Le cerveau reflechit d'abord", "correct": false}
+        ],
+        "hints": [
+          {"text": "A shorter path is quicker.", "text_fr": "Un trajet plus court est plus rapide."}
+        ]
+      }
+    },
+    {
+      "kind": "summary",
+      "title": "What to keep",
+      "title_fr": "A retenir",
+      "content": "The nervous system carries electrical impulses along neurones. Receptors detect stimuli and effectors respond. Reflex actions are fast and automatic, protecting the body.",
+      "content_fr": "Le systeme nerveux transporte des influx electriques le long des neurones. Les recepteurs detectent les stimuli et les effecteurs repondent. Les actes reflexes sont rapides et automatiques, protegeant le corps.",
+      "required": false,
+      "xp": 5
+    }
+  ],
+  "quiz": {
+    "title": "Nervous System and Coordination",
+    "title_fr": "Systeme nerveux et coordination",
+    "pass_score": 60,
+    "questions": [
+      {
+        "kind": "mcq",
+        "text": "What is a stimulus?",
+        "text_fr": "Qu'est-ce qu'un stimulus ?",
+        "explanation": "A stimulus is a change in the environment.",
+        "explanation_fr": "Un stimulus est un changement de l'environnement.",
+        "choices": [
+          {"text": "A change in the environment", "text_fr": "Un changement de l'environnement", "correct": true},
+          {"text": "A type of muscle", "text_fr": "Un type de muscle", "correct": false},
+          {"text": "A kind of neurone", "text_fr": "Un type de neurone", "correct": false}
+        ],
+        "hints": [
+          {"text": "Light, sound and touch are examples.", "text_fr": "Lumiere, son et toucher en sont des exemples."}
+        ],
+        "difficulty": 1
+      },
+      {
+        "kind": "mcq",
+        "text": "What does an effector do?",
+        "text_fr": "Que fait un effecteur ?",
+        "explanation": "An effector produces the response, such as a muscle or gland.",
+        "explanation_fr": "Un effecteur produit la reponse, comme un muscle ou une glande.",
+        "choices": [
+          {"text": "Produces the response", "text_fr": "Produit la reponse", "correct": true},
+          {"text": "Detects the stimulus", "text_fr": "Detecte le stimulus", "correct": false},
+          {"text": "Stores energy", "text_fr": "Stocke l'energie", "correct": false}
+        ],
+        "hints": [
+          {"text": "Muscles and glands are effectors.", "text_fr": "Les muscles et les glandes sont des effecteurs."}
+        ],
+        "difficulty": 1
+      },
+      {
+        "kind": "mcq",
+        "text": "In which order does a signal travel in a reflex arc?",
+        "text_fr": "Dans quel ordre un signal circule-t-il dans un arc reflexe ?",
+        "explanation": "Receptor, sensory neurone, relay neurone, motor neurone, effector.",
+        "explanation_fr": "Recepteur, neurone sensitif, neurone d'association, neurone moteur, effecteur.",
+        "choices": [
+          {"text": "Receptor -> sensory -> relay -> motor -> effector", "text_fr": "Recepteur -> sensitif -> association -> moteur -> effecteur", "correct": true},
+          {"text": "Effector -> motor -> brain -> receptor", "text_fr": "Effecteur -> moteur -> cerveau -> recepteur", "correct": false},
+          {"text": "Receptor -> effector -> neurone", "text_fr": "Recepteur -> effecteur -> neurone", "correct": false}
+        ],
+        "hints": [
+          {"text": "Sense, then relay, then act.", "text_fr": "Sentir, puis relayer, puis agir."}
+        ],
+        "difficulty": 2
+      },
+      {
+        "kind": "mcq",
+        "text": "Why are reflex actions useful?",
+        "text_fr": "Pourquoi les actes reflexes sont-ils utiles ?",
+        "explanation": "They protect the body from harm by responding quickly.",
+        "explanation_fr": "Ils protegent le corps d'un danger en repondant rapidement.",
+        "choices": [
+          {"text": "They protect the body from harm", "text_fr": "Ils protegent le corps d'un danger", "correct": true},
+          {"text": "They use more energy", "text_fr": "Ils utilisent plus d'energie", "correct": false},
+          {"text": "They need slow thinking", "text_fr": "Ils necessitent une reflexion lente", "correct": false}
+        ],
+        "hints": [
+          {"text": "Safety is the reason.", "text_fr": "La securite en est la raison."}
+        ],
+        "difficulty": 1
+      },
+      {
+        "kind": "mcq",
+        "text": "What carries the electrical impulse along a neurone?",
+        "text_fr": "Qu'est-ce qui transporte l'influx electrique le long d'un neurone ?",
+        "explanation": "An electrical impulse travels along the neurone.",
+        "explanation_fr": "Un influx electrique circule le long du neurone.",
+        "choices": [
+          {"text": "An electrical impulse", "text_fr": "Un influx electrique", "correct": true},
+          {"text": "A flow of blood", "text_fr": "Un flux de sang", "correct": false},
+          {"text": "A wave of heat", "text_fr": "Une onde de chaleur", "correct": false}
+        ],
+        "hints": [
+          {"text": "It is very fast.", "text_fr": "Il est tres rapide."}
+        ],
+        "difficulty": 1
+      }
+    ]
+  }
+}

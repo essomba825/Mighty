@@ -1,0 +1,347 @@
+{
+  "lesson": 87,
+  "status": "published",
+  "lesson_fields": {
+    "title": "Acids, Bases and Buffers",
+    "title_fr": "Acides, bases et tampons",
+    "summary": "Acids give hydrogen ions, alkalis give hydroxide ions. The pH scale tells us how strong or weak they are. A buffer keeps the pH steady when a little acid or alkali is added.",
+    "summary_fr": "Les acides donnent des ions hydrogene, les alcalins donnent des ions hydroxyde. L'echelle de pH indique leur force. Un tampon garde le pH stable quand on ajoute un peu d'acide ou d'alcalin.",
+    "content": "## Acids and alkalis\n\nWhen acids dissolve, they release hydrogen ions. When alkalis dissolve, they release hydroxide ions. We measure how acidic or alkaline a solution is with pH.\n\n## Neutralisation and buffers\n\nAcid plus alkali gives salt and water. A buffer is a mixture that resists big changes in pH when small amounts of acid or alkali are added.",
+    "content_fr": "## Acides et alcalins\n\nEn se dissolvant, les acides liberent des ions hydrogene. Les alcalins liberent des ions hydroxyde. On mesure le caractere acide ou alcalin d'une solution avec le pH.\n\n## Neutralisation et tampons\n\nUn acide plus un alcalin donnent un sel et de l'eau. Un tampon est un melange qui resiste aux grands changements de pH quand on y ajoute un peu d'acide ou d'alcalin.",
+    "objectives": [
+      "Explain what acids and alkalis do in water",
+      "Use the pH scale to compare solutions",
+      "Describe how a buffer keeps the pH steady"
+    ],
+    "objectives_fr": [
+      "Expliquer ce que font les acides et les alcalins dans l'eau",
+      "Utiliser l'echelle de pH pour comparer des solutions",
+      "Decrire comment un tampon maintient le pH stable"
+    ],
+    "estimated_minutes": 25
+  },
+  "steps": [
+    {
+      "kind": "concept",
+      "title": "What acids and alkalis release",
+      "title_fr": "Ce que liberent les acides et les alcalins",
+      "content": "An acid in water splits to give hydrogen ions, written as H+.\n\nAn alkali in water splits to give hydroxide ions, written as OH-.\n\nThe pH scale runs from 0 to 14. Acids are below 7, alkalis above 7, and 7 is neutral.",
+      "content_fr": "Un acide dans l'eau se dissocie et donne des ions hydrogene, notés H+.\n\nUn alcalin dans l'eau se dissocie et donne des ions hydroxyde, notés OH-.\n\nL'echelle de pH va de 0 a 14. Les acides sont en dessous de 7, les alcalins au dessus de 7, et 7 est neutre.",
+      "required": true,
+      "xp": 10,
+      "question": {
+        "kind": "mcq",
+        "text": "Which ion does an acid give in water?",
+        "text_fr": "Quel ion un acide donne-t-il dans l'eau ?",
+        "explanation": "Acids release hydrogen ions, H+.",
+        "explanation_fr": "Les acides liberent des ions hydrogene, H+.",
+        "hint_prompt": "Its symbol is H plus.",
+        "hint_prompt_fr": "Son symbole est H+.",
+        "choices": [
+          {
+            "text": "Hydrogen ion, H+",
+            "text_fr": "Ion hydrogene, H+",
+            "correct": true
+          },
+          {
+            "text": "Hydroxide ion, OH-",
+            "text_fr": "Ion hydroxyde, OH-",
+            "correct": false
+          },
+          {
+            "text": "Sodium ion, Na+",
+            "text_fr": "Ion sodium, Na+",
+            "correct": false
+          }
+        ],
+        "hints": [
+          {
+            "text": "It is the hydrogen ion.",
+            "text_fr": "C'est l'ion hydrogene."
+          }
+        ]
+      }
+    },
+    {
+      "kind": "explain",
+      "title": "The pH scale",
+      "title_fr": "L'echelle de pH",
+      "content": "A solution with pH 1 is strongly acidic. A solution with pH 6 is weakly acidic. A solution with pH 13 is strongly alkaline.\n\nUniversal indicator or a pH meter tells us the pH. The closer to 0 or 14, the stronger the acid or the alkali.",
+      "content_fr": "Une solution de pH 1 est fortement acide. Une solution de pH 6 est faiblement acide. Une solution de pH 13 est fortement alcaline.\n\nUn indicateur universel ou un pH-metre donne le pH. Plus on s'approche de 0 ou de 14, plus l'acide ou l'alcalin est fort.",
+      "required": true,
+      "xp": 10
+    },
+    {
+      "kind": "example",
+      "title": "Worked example: neutralisation",
+      "title_fr": "Exemple resolu : la neutralisation",
+      "content": "Hydrochloric acid reacts with sodium hydroxide: HCl plus NaOH gives NaCl plus water.\n\nThe hydrogen ions and the hydroxide ions join to form water, H2O. The remaining ions form a salt.",
+      "content_fr": "L'acide chlorhydrique reagit avec l'hydroxyde de sodium : HCl plus NaOH donnent NaCl et de l'eau.\n\nLes ions hydrogene et les ions hydroxyde s'unissent pour former l'eau, H2O. Les ions restants forment un sel.",
+      "required": true,
+      "xp": 12
+    },
+    {
+      "kind": "practice",
+      "title": "Your turn: reading pH",
+      "title_fr": "A toi : lire le pH",
+      "content": "A solution turns universal indicator deep red. Decide where it sits on the pH scale.",
+      "content_fr": "Une solution colore l'indicateur universel en rouge fonce. Determine ou elle se place sur l'echelle de pH.",
+      "required": true,
+      "xp": 12,
+      "question": {
+        "kind": "mcq",
+        "text": "Which pH best matches a solution that turns universal indicator deep red?",
+        "text_fr": "Quel pH correspond le mieux a une solution qui colore l'indicateur universel en rouge fonce ?",
+        "explanation": "Deep red means a strong acid, so the pH is very low, around 1.",
+        "explanation_fr": "Le rouge fonce indique un acide fort, donc le pH est tres bas, vers 1.",
+        "hint_prompt": "Strong acids have pH near 0.",
+        "hint_prompt_fr": "Les acides forts ont un pH proche de 0.",
+        "choices": [
+          {
+            "text": "1",
+            "text_fr": "1",
+            "correct": true
+          },
+          {
+            "text": "7",
+            "text_fr": "7",
+            "correct": false
+          },
+          {
+            "text": "13",
+            "text_fr": "13",
+            "correct": false
+          }
+        ],
+        "hints": [
+          {
+            "text": "It is strongly acidic.",
+            "text_fr": "C'est fortement acide."
+          }
+        ]
+      }
+    },
+    {
+      "kind": "question",
+      "title": "Check: buffers",
+      "title_fr": "Verification : les tampons",
+      "content": "A buffer keeps the pH roughly the same when a small amount of acid or alkali is added. It does this by reacting with the added H+ or OH- ions.\n\nBuffers are important in living things, where the pH must stay very steady.",
+      "content_fr": "Un tampon garde le pH a peu pres constant quand on ajoute un peu d'acide ou d'alcalin. Il y parvient en reagissant avec les ions H+ ou OH- ajoutes.\n\nLes tampons sont importants dans les êtres vivants, ou le pH doit rester tres stable.",
+      "required": true,
+      "xp": 12,
+      "question": {
+        "kind": "mcq",
+        "text": "What does a buffer do?",
+        "text_fr": "Que fait un tampon ?",
+        "explanation": "It resists changes in pH when small amounts of acid or alkali are added.",
+        "explanation_fr": "Il resiste aux changements de pH quand on ajoute un peu d'acide ou d'alcalin.",
+        "hint_prompt": "Think of it as a shock absorber for pH.",
+        "hint_prompt_fr": "Pense a un amortisseur de pH.",
+        "choices": [
+          {
+            "text": "It keeps the pH almost the same",
+            "text_fr": "Il garde le pH presque constant",
+            "correct": true
+          },
+          {
+            "text": "It makes every solution neutral",
+            "text_fr": "Il rend toute solution neutre",
+            "correct": false
+          },
+          {
+            "text": "It turns acids into water",
+            "text_fr": "Il transforme tous les acides en eau",
+            "correct": false
+          }
+        ],
+        "hints": [
+          {
+            "text": "Small additions have little effect.",
+            "text_fr": "De petites additions ont peu d'effet."
+          }
+        ]
+      }
+    },
+    {
+      "kind": "summary",
+      "title": "What to keep",
+      "title_fr": "A retenir",
+      "content": "Acids give H+, alkalis give OH-. pH below 7 is acidic, above 7 alkaline, 7 is neutral. Acid plus alkali gives salt and water. A buffer resists small changes in pH.",
+      "content_fr": "Les acides donnent H+, les alcalins donnent OH-. Un pH en dessous de 7 est acide, au dessus de 7 alcalin, 7 est neutre. Acide plus alcalin donne un sel et de l'eau. Un tampon resiste aux petits changements de pH.",
+      "required": false,
+      "xp": 5
+    }
+  ],
+  "quiz": {
+    "title": "Acids, Bases and Buffers",
+    "title_fr": "Acides, bases et tampons",
+    "pass_score": 60,
+    "questions": [
+      {
+        "kind": "mcq",
+        "text": "Which ion do alkalis release?",
+        "text_fr": "Quel ion les alcalins liberent-ils ?",
+        "explanation": "Alkalis release hydroxide ions, OH-.",
+        "explanation_fr": "Les alcalins liberent des ions hydroxyde, OH-.",
+        "hint_prompt": "It ends with minus and has O and H.",
+        "hint_prompt_fr": "Il se termine par - et contient O et H.",
+        "choices": [
+          {
+            "text": "Hydroxide ion, OH-",
+            "text_fr": "Ion hydroxyde, OH-",
+            "correct": true
+          },
+          {
+            "text": "Hydrogen ion, H+",
+            "text_fr": "Ion hydrogene, H+",
+            "correct": false
+          },
+          {
+            "text": "Chloride ion, Cl-",
+            "text_fr": "Ion chlorure, Cl-",
+            "correct": false
+          }
+        ],
+        "hints": [
+          {
+            "text": "Alkalis give OH-, acids give H+.",
+            "text_fr": "Les alcalins donnent OH-, les acides donnent H+."
+          }
+        ],
+        "difficulty": 1
+      },
+      {
+        "kind": "mcq",
+        "text": "What is the pH of a neutral solution?",
+        "text_fr": "Quel est le pH d'une solution neutre ?",
+        "explanation": "A neutral solution has pH 7.",
+        "explanation_fr": "Une solution neutre a un pH de 7.",
+        "hint_prompt": "It is right in the middle.",
+        "hint_prompt_fr": "C'est exactement au milieu.",
+        "choices": [
+          {
+            "text": "7",
+            "text_fr": "7",
+            "correct": true
+          },
+          {
+            "text": "1",
+            "text_fr": "1",
+            "correct": false
+          },
+          {
+            "text": "13",
+            "text_fr": "13",
+            "correct": false
+          }
+        ],
+        "hints": [
+          {
+            "text": "Pure water is neutral.",
+            "text_fr": "L'eau pure est neutre."
+          }
+        ],
+        "difficulty": 1
+      },
+      {
+        "kind": "mcq",
+        "text": "Which pair would neutralise each other?",
+        "text_fr": "Quel couple se neutraliserait l'un l'autre ?",
+        "explanation": "An acid and an alkali react together to give salt and water.",
+        "explanation_fr": "Un acide et un alcalin reagissent pour donner un sel et de l'eau.",
+        "hint_prompt": "Look for acid plus alkali.",
+        "hint_prompt_fr": "Cherche un acide plus un alcalin.",
+        "choices": [
+          {
+            "text": "Hydrochloric acid and sodium hydroxide",
+            "text_fr": "Acide chlorhydrique et hydroxyde de sodium",
+            "correct": true
+          },
+          {
+            "text": "Two acids",
+            "text_fr": "Deux acides",
+            "correct": false
+          },
+          {
+            "text": "Two alkalis",
+            "text_fr": "Deux alcalins",
+            "correct": false
+          }
+        ],
+        "hints": [
+          {
+            "text": "H+ meets OH- to make water.",
+            "text_fr": "H+ rencontre OH- pour former de l'eau."
+          }
+        ],
+        "difficulty": 1
+      },
+      {
+        "kind": "mcq",
+        "text": "A solution has pH 2. How would you describe it?",
+        "text_fr": "Une solution a un pH de 2. Comment la decrire ?",
+        "explanation": "pH 2 is well below 7, so it is strongly acidic.",
+        "explanation_fr": "Un pH de 2 est bien en dessous de 7, donc fortement acide.",
+        "hint_prompt": "Lower pH means stronger acid.",
+        "hint_prompt_fr": "Plus le pH est bas, plus l'acide est fort.",
+        "choices": [
+          {
+            "text": "Strongly acidic",
+            "text_fr": "Fortement acide",
+            "correct": true
+          },
+          {
+            "text": "Weakly alkaline",
+            "text_fr": "Faiblement alcaline",
+            "correct": false
+          },
+          {
+            "text": "Neutral",
+            "text_fr": "Neutre",
+            "correct": false
+          }
+        ],
+        "hints": [
+          {
+            "text": "pH 0-3 is strong acid.",
+            "text_fr": "Un pH de 0 a 3 est un acide fort."
+          }
+        ],
+        "difficulty": 1
+      },
+      {
+        "kind": "mcq",
+        "text": "Why is a buffer useful in living things?",
+        "text_fr": "Pourquoi un tampon est-il utile dans les êtres vivants ?",
+        "explanation": "It keeps the pH steady so that enzymes can work properly.",
+        "explanation_fr": "Il maintient le pH stable afin que les enzymes puissent travailler correctement.",
+        "hint_prompt": "Many reactions in the body need a fixed pH.",
+        "hint_prompt_fr": "Beaucoup de reactions dans le corps ont besoin d'un pH fixe.",
+        "choices": [
+          {
+            "text": "It prevents big pH changes",
+            "text_fr": "Il empeche les grands changements de pH",
+            "correct": true
+          },
+          {
+            "text": "It provides energy",
+            "text_fr": "Il fournit de l'energie",
+            "correct": false
+          },
+          {
+            "text": "It makes cells move",
+            "text_fr": "Il fait bouger les cellules",
+            "correct": false
+          }
+        ],
+        "hints": [
+          {
+            "text": "Stability is the key.",
+            "text_fr": "La stabilite est essentielle."
+          }
+        ],
+        "difficulty": 2
+      }
+    ]
+  }
+}

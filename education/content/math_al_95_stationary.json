@@ -1,0 +1,205 @@
+{
+  "lesson": 95,
+  "status": "published",
+  "lesson_fields": {
+    "title": "Stationary Points and Optimisation",
+    "title_fr": "Points stationnaires et optimisation",
+    "summary": "Locate stationary points, classify them with the second derivative, and solve optimisation problems.",
+    "summary_fr": "Localiser les points stationnaires, les classer avec la derivee seconde et resoudre des problemes d optimisation.",
+    "content": "A **stationary point** is a point where the gradient is zero, that is `f'(x) = 0`. The **second derivative** `f''(x)` tells whether the point is a minimum or a maximum. Optimisation problems ask for the largest or smallest value of a quantity.",
+    "content_fr": "Un **point stationnaire** est un point ou la pente est nulle, c est-a-dire `f'(x) = 0`. La **derivee seconde** `f''(x)` indique si le point est un minimum ou un maximum. Les problemes d optimisation demandent la plus grande ou la plus petite valeur d une quantite.",
+    "objectives": [
+      "Find stationary points by solving f prime equals zero",
+      "Classify points using the second derivative",
+      "Solve simple optimisation problems"
+    ],
+    "objectives_fr": [
+      "Trouver les points stationnaires en resolvant f prime egal zero",
+      "Classer les points avec la derivee seconde",
+      "Resoudre des problemes d optimisation simples"
+    ]
+  },
+  "steps": [
+    {
+      "kind": "concept",
+      "title": "Where the gradient is zero",
+      "title_fr": "Ou la pente est nulle",
+      "content": "At the top of a hill or the bottom of a valley the tangent is **horizontal**, so the gradient is zero.\n\nA **stationary point** is where `f'(x) = 0`. To find them, differentiate, set the derivative equal to zero, and solve for `x`. Then compute `y = f(x)`.",
+      "content_fr": "Au sommet d une colline ou au fond d une vallee, la tangente est **horizontale** : la pente est nulle.\n\nUn **point stationnaire** verifie `f'(x) = 0`. Pour le trouver, derive, pose la derivee egale a zero et resous en `x`. Calcule ensuite `y = f(x)`.",
+      "required": false,
+      "xp": 10
+    },
+    {
+      "kind": "explain",
+      "title": "The second-derivative test",
+      "title_fr": "Le test de la derivee seconde",
+      "content": "Differentiate again to get `f''(x)`, then evaluate it at the stationary point:\n\n- `f''(x) > 0` : the curve is concave up, so the point is a **minimum**\n- `f''(x) < 0` : the curve is concave down, so the point is a **maximum**\n- `f''(x) = 0` : the test is inconclusive\n\nExample, `f(x) = x^2 - 4x`: `f'(x) = 2x - 4 = 0` gives `x = 2`. Then `f''(x) = 2 > 0`, so it is a minimum, at the point `(2, -4)`.",
+      "content_fr": "Derive une seconde fois pour obtenir `f''(x)`, puis evalue-la au point stationnaire :\n\n- `f''(x) > 0` : la courbe est convexe, le point est un **minimum**\n- `f''(x) < 0` : la courbe est concave, le point est un **maximum**\n- `f''(x) = 0` : le test ne conclut pas\n\nExemple, `f(x) = x^2 - 4x` : `f'(x) = 2x - 4 = 0` donne `x = 2`. Puis `f''(x) = 2 > 0` : c est un minimum, au point `(2, -4)`.",
+      "required": false,
+      "xp": 10
+    },
+    {
+      "kind": "question",
+      "title": "Locate a stationary point",
+      "title_fr": "Localiser un point stationnaire",
+      "content": "Set the derivative equal to zero and solve.",
+      "content_fr": "Pose la derivee egale a zero et resous.",
+      "required": true,
+      "xp": 20,
+      "question": {
+        "kind": "numeric",
+        "difficulty": 2,
+        "text": "For f(x) = x^2 - 6x + 5, find the x-coordinate where f'(x) = 0.",
+        "text_fr": "Pour f(x) = x^2 - 6x + 5, trouve l abscisse ou f'(x) = 0.",
+        "explanation": "f'(x) = 2x - 6 = 0 gives x = 3.",
+        "explanation_fr": "f'(x) = 2x - 6 = 0 donne x = 3.",
+        "hint_prompt": "Differentiate, then solve 2x - 6 = 0.",
+        "hint_prompt_fr": "Derive, puis resous 2x - 6 = 0.",
+        "config": {"accepted": [3]},
+        "hints": [
+          {"text": "f'(x) = 2x - 4? Check: here f'(x) = 2x - 6.", "text_fr": "f'(x) = 2x - 4 ? Non : ici f'(x) = 2x - 6."},
+          {"text": "2x = 6, so x = 3.", "text_fr": "2x = 6, donc x = 3."}
+        ]
+      }
+    },
+    {
+      "kind": "question",
+      "title": "Minimum or maximum?",
+      "title_fr": "Minimum ou maximum ?",
+      "content": "Use the sign of the second derivative.",
+      "content_fr": "Utilise le signe de la derivee seconde.",
+      "required": true,
+      "xp": 20,
+      "question": {
+        "kind": "mcq",
+        "difficulty": 2,
+        "text": "A stationary point has f''(x) = -6 at that point. Is it a minimum or a maximum?",
+        "text_fr": "Un point stationnaire verifie f''(x) = -6 en ce point. Est-ce un minimum ou un maximum ?",
+        "explanation": "A negative second derivative means the curve is concave down, so the point is a maximum.",
+        "explanation_fr": "Une derivee seconde negative signifie que la courbe est concave : le point est un maximum.",
+        "hint_prompt": "Look at the sign of f''.",
+        "hint_prompt_fr": "Regarde le signe de f''.",
+        "choices": [
+          {"text": "A maximum", "text_fr": "Un maximum", "correct": true},
+          {"text": "A minimum", "text_fr": "Un minimum", "correct": false},
+          {"text": "A point of inflection", "text_fr": "Un point d inflexion", "correct": false},
+          {"text": "Cannot be decided", "text_fr": "Impossible a decider", "correct": false}
+        ],
+        "hints": [
+          {"text": "Negative second derivative means concave down.", "text_fr": "Une derivee seconde negative signifie concave."},
+          {"text": "Concave down gives a maximum.", "text_fr": "Une courbe concave donne un maximum."}
+        ]
+      }
+    },
+    {
+      "kind": "explain",
+      "title": "An optimisation problem",
+      "title_fr": "Un probleme d optimisation",
+      "content": "A farmer has 40 metres of fence for a rectangular pen. Let the width be `x`; the length is `20 - x` (because `2x + 2L = 40`). The area is:\n\n    A(x) = x (20 - x) = 20x - x^2\n\nDifferentiate and set to zero:\n\n    A'(x) = 20 - 2x = 0  ->  x = 10\n\nThen `A''(x) = -2 < 0`, so this is a maximum. The best pen is a square of side 10 m, area 100 square metres.",
+      "content_fr": "Un agriculteur dispose de 40 metres de cloture pour un enclos rectangulaire. Soit `x` la largeur ; la longueur vaut `20 - x` (car `2x + 2L = 40`). L aire vaut :\n\n    A(x) = x (20 - x) = 20x - x^2\n\nDerive et pose egal a zero :\n\n    A'(x) = 20 - 2x = 0  ->  x = 10\n\nPuis `A''(x) = -2 < 0` : c est un maximum. Le meilleur enclos est un carre de cote 10 m, d aire 100 metres carres.",
+      "required": false,
+      "xp": 10
+    },
+    {
+      "kind": "summary",
+      "title": "The method",
+      "title_fr": "La methode",
+      "content": "1. Differentiate and solve `f'(x) = 0` for stationary points.\n2. Compute `f''(x)` at each point.\n3. `f'' > 0` minimum, `f'' < 0` maximum.\n4. For optimisation, build a formula for the quantity, then maximise or minimise it.",
+      "content_fr": "1. Derive et resous `f'(x) = 0` pour trouver les points stationnaires.\n2. Calcule `f''(x)` en chaque point.\n3. `f'' > 0` minimum, `f'' < 0` maximum.\n4. Pour l optimisation, exprime la quantite par une formule, puis maximise-la ou minimise-la.",
+      "required": false,
+      "xp": 10
+    }
+  ],
+  "quiz": {
+    "title": "Quiz - Stationary points and optimisation",
+    "title_fr": "Quiz - Points stationnaires et optimisation",
+    "pass_score": 60,
+    "questions": [
+      {
+        "kind": "numeric",
+        "difficulty": 2,
+        "text": "For f(x) = x^2 - 6x + 5, find the x-coordinate of the stationary point.",
+        "text_fr": "Pour f(x) = x^2 - 6x + 5, trouve l abscisse du point stationnaire.",
+        "explanation": "f'(x) = 2x - 6 = 0 gives x = 3.",
+        "explanation_fr": "f'(x) = 2x - 6 = 0 donne x = 3.",
+        "hint_prompt": "Set the derivative to zero.",
+        "hint_prompt_fr": "Pose la derivee egale a zero.",
+        "config": {"accepted": [3]},
+        "hints": [
+          {"text": "f'(x) = 2x - 6.", "text_fr": "f'(x) = 2x - 6."},
+          {"text": "2x = 6, so x = 3.", "text_fr": "2x = 6, donc x = 3."}
+        ]
+      },
+      {
+        "kind": "mcq",
+        "difficulty": 2,
+        "text": "At a stationary point f''(x) = 4. Is it a minimum or a maximum?",
+        "text_fr": "En un point stationnaire f''(x) = 4. Est-ce un minimum ou un maximum ?",
+        "explanation": "A positive second derivative means concave up, so the point is a minimum.",
+        "explanation_fr": "Une derivee seconde positive signifie convexe : le point est un minimum.",
+        "hint_prompt": "Positive second derivative means concave up.",
+        "hint_prompt_fr": "Une derivee seconde positive signifie convexe.",
+        "choices": [
+          {"text": "A minimum", "text_fr": "Un minimum", "correct": true},
+          {"text": "A maximum", "text_fr": "Un maximum", "correct": false},
+          {"text": "A point of inflection", "text_fr": "Un point d inflexion", "correct": false},
+          {"text": "Cannot be decided", "text_fr": "Impossible a decider", "correct": false}
+        ],
+        "hints": [
+          {"text": "Positive f'' means the curve opens upward.", "text_fr": "f'' positive signifie que la courbe s ouvre vers le haut."},
+          {"text": "So the point is a minimum.", "text_fr": "Le point est donc un minimum."}
+        ]
+      },
+      {
+        "kind": "numeric",
+        "difficulty": 3,
+        "text": "For f(x) = x^2 - 6x + 5, find the y-coordinate of the stationary point.",
+        "text_fr": "Pour f(x) = x^2 - 6x + 5, trouve l ordonnee du point stationnaire.",
+        "explanation": "At x = 3, f(3) = 9 - 18 + 5 = -4.",
+        "explanation_fr": "En x = 3, f(3) = 9 - 18 + 5 = -4.",
+        "hint_prompt": "Substitute x = 3 into f.",
+        "hint_prompt_fr": "Remplace x par 3 dans f.",
+        "config": {"accepted": [-4]},
+        "hints": [
+          {"text": "f(3) = 3^2 - 6 x 3 + 5.", "text_fr": "f(3) = 3^2 - 6 x 3 + 5."},
+          {"text": "9 - 18 + 5 = -4.", "text_fr": "9 - 18 + 5 = -4."}
+        ]
+      },
+      {
+        "kind": "mcq",
+        "difficulty": 2,
+        "text": "What defines a stationary point of f?",
+        "text_fr": "Qu est-ce qui definit un point stationnaire de f ?",
+        "explanation": "A stationary point is where the gradient is zero, so f'(x) = 0.",
+        "explanation_fr": "Un point stationnaire est un point ou la pente est nulle, donc f'(x) = 0.",
+        "hint_prompt": "The tangent there is horizontal.",
+        "hint_prompt_fr": "La tangente y est horizontale.",
+        "choices": [
+          {"text": "f'(x) = 0", "text_fr": "f'(x) = 0", "correct": true},
+          {"text": "f(x) = 0", "text_fr": "f(x) = 0", "correct": false},
+          {"text": "f''(x) = 0", "text_fr": "f''(x) = 0", "correct": false},
+          {"text": "x = 0", "text_fr": "x = 0", "correct": false}
+        ],
+        "hints": [
+          {"text": "The gradient is zero there.", "text_fr": "La pente y est nulle."},
+          {"text": "That is f'(x) = 0.", "text_fr": "C est-a-dire f'(x) = 0."}
+        ]
+      },
+      {
+        "kind": "numeric",
+        "difficulty": 3,
+        "text": "A rectangular pen uses 40 metres of fence with width x and length 20 - x. Find the width x that maximises the area.",
+        "text_fr": "Un enclos rectangulaire utilise 40 metres de cloture avec une largeur x et une longueur 20 - x. Trouve la largeur x qui maximise l aire.",
+        "explanation": "A(x) = 20x - x^2, so A'(x) = 20 - 2x = 0 gives x = 10. Since A''(x) = -2 < 0, this is a maximum.",
+        "explanation_fr": "A(x) = 20x - x^2, donc A'(x) = 20 - 2x = 0 donne x = 10. Comme A''(x) = -2 < 0, c est un maximum.",
+        "hint_prompt": "Differentiate the area and set it to zero.",
+        "hint_prompt_fr": "Derive l aire et pose-la egale a zero.",
+        "config": {"accepted": [10]},
+        "hints": [
+          {"text": "A(x) = 20x - x^2.", "text_fr": "A(x) = 20x - x^2."},
+          {"text": "A'(x) = 20 - 2x = 0 gives x = 10.", "text_fr": "A'(x) = 20 - 2x = 0 donne x = 10."}
+        ]
+      }
+    ]
+  }
+}

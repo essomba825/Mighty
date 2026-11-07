@@ -1,0 +1,303 @@
+{
+  "lesson": 131,
+  "status": "published",
+  "lesson_fields": {
+    "title": "Plant Nutrition and Transport",
+    "title_fr": "Nutrition et transport chez les plantes",
+    "summary": "Plants need minerals from the soil and transport water and food through tubes. Transpiration pulls water up the plant.",
+    "summary_fr": "Les plantes ont besoin de mineraux du sol et transportent l'eau et la nourriture dans des tubes. La transpiration tire l'eau vers le haut de la plante.",
+    "content": "## Minerals\n\nNitrates are needed for making proteins and healthy growth. Magnesium is needed to make chlorophyll.\n\n## Transport\n\nXylem tubes carry water and minerals up from the roots. Phloem tubes carry dissolved food to where it is needed. Transpiration is the loss of water vapour from leaves.",
+    "content_fr": "## Les mineraux\n\nLes nitrates servent a fabriquer les proteines et a une croissance saine. Le magnesium sert a fabriquer la chlorophylle.\n\n## Le transport\n\nLes tubes du xyleme transportent l'eau et les mineraux depuis les racines. Les tubes du phloeme transportent la nourriture dissoute vers les endroits ou elle est necessaire. La transpiration est la perte de vapeur d'eau par les feuilles.",
+    "objectives": [
+      "State the need for nitrates and magnesium",
+      "Compare xylem and phloem",
+      "Explain how transpiration pulls water up the plant"
+    ],
+    "objectives_fr": [
+      "Indiquer le role des nitrates et du magnesium",
+      "Comparer xyleme et phloeme",
+      "Expliquer comment la transpiration tire l'eau vers le haut"
+    ],
+    "estimated_minutes": 25
+  },
+  "steps": [
+    {
+      "kind": "concept",
+      "title": "Minerals from the soil",
+      "title_fr": "Les mineraux du sol",
+      "content": "Plants need minerals. Nitrates make proteins and help healthy growth. A lack of nitrates gives poor growth and yellow older leaves. Magnesium is needed for chlorophyll.",
+      "content_fr": "Les plantes ont besoin de mineraux. Les nitrates fabriquent les proteines et aident une croissance saine. Un manque de nitrates donne une mauvaise croissance et des feuilles agees jaunes. Le magnesium est necessaire a la chlorophylle.",
+      "required": true,
+      "xp": 10,
+      "question": {
+        "kind": "mcq",
+        "text": "Which mineral is needed to make chlorophyll?",
+        "text_fr": "Quel mineral est necessaire pour fabriquer la chlorophylle ?",
+        "explanation": "Magnesium is needed for chlorophyll.",
+        "explanation_fr": "Le magnesium est necessaire a la chlorophylle.",
+        "choices": [
+          {
+            "text": "Magnesium",
+            "text_fr": "Le magnesium",
+            "correct": true
+          },
+          {
+            "text": "Nitrate",
+            "text_fr": "Le nitrate",
+            "correct": false
+          },
+          {
+            "text": "Sodium",
+            "text_fr": "Le sodium",
+            "correct": false
+          }
+        ],
+        "hints": [
+          {
+            "text": "Its lack makes leaves yellow.",
+            "text_fr": "Son manque rend les feuilles jaunes."
+          }
+        ],
+        "difficulty": 1
+      }
+    },
+    {
+      "kind": "explain",
+      "title": "Xylem and phloem",
+      "title_fr": "Xyleme et phloeme",
+      "content": "Xylem carries water and minerals upward from the roots. Phloem carries dissolved food, such as sugars, around the plant. Both are found in veins.",
+      "content_fr": "Le xyleme transporte l'eau et les mineraux vers le haut depuis les racines. Le phloeme transporte la nourriture dissoute, comme les sucres, dans toute la plante. Les deux se trouvent dans les nervures.",
+      "required": true,
+      "xp": 10
+    },
+    {
+      "kind": "example",
+      "title": "Transpiration",
+      "title_fr": "La transpiration",
+      "content": "Water evaporates from the leaves through the stomata. This pulls more water up the xylem from the roots, like sucking on a straw.",
+      "content_fr": "L'eau s'evapore des feuilles par les stomates. Cela tire plus d'eau vers le haut du xyleme depuis les racines, comme si on aspirait par une paille.",
+      "required": true,
+      "xp": 12
+    },
+    {
+      "kind": "practice",
+      "title": "Your turn: water tube",
+      "title_fr": "A toi : le tube d'eau",
+      "content": "Which tube carries water up the plant?",
+      "content_fr": "Quel tube transporte l'eau vers le haut de la plante ?",
+      "required": true,
+      "xp": 12,
+      "question": {
+        "kind": "mcq",
+        "text": "Which tube carries water upward?",
+        "text_fr": "Quel tube transporte l'eau vers le haut ?",
+        "explanation": "Xylem carries water upward.",
+        "explanation_fr": "Le xyleme transporte l'eau vers le haut.",
+        "choices": [
+          {
+            "text": "Xylem",
+            "text_fr": "Le xyleme",
+            "correct": true
+          },
+          {
+            "text": "Phloem",
+            "text_fr": "Le phloeme",
+            "correct": false
+          },
+          {
+            "text": "Stomata",
+            "text_fr": "Les stomates",
+            "correct": false
+          }
+        ],
+        "hints": [
+          {
+            "text": "It starts with X.",
+            "text_fr": "Il commence par X."
+          }
+        ],
+        "difficulty": 1
+      }
+    },
+    {
+      "kind": "question",
+      "title": "Check: factors",
+      "title_fr": "Verification : facteurs",
+      "content": "Transpiration is faster in hot, dry, windy and bright conditions, because water evaporates more quickly.",
+      "content_fr": "La transpiration est plus rapide par temps chaud, sec, venteux et lumineux, car l'eau s'evapore plus vite.",
+      "required": true,
+      "xp": 12,
+      "question": {
+        "kind": "mcq",
+        "text": "In which weather is transpiration fastest?",
+        "text_fr": "Par quel temps la transpiration est-elle la plus rapide ?",
+        "explanation": "Hot, dry and windy weather.",
+        "explanation_fr": "Un temps chaud, sec et venteux.",
+        "choices": [
+          {
+            "text": "Hot, dry and windy",
+            "text_fr": "Chaud, sec et venteux",
+            "correct": true
+          },
+          {
+            "text": "Cold and wet",
+            "text_fr": "Froid et humide",
+            "correct": false
+          },
+          {
+            "text": "Dark and still",
+            "text_fr": "Sombre et calme",
+            "correct": false
+          }
+        ],
+        "hints": [
+          {
+            "text": "Dry air takes up water easily.",
+            "text_fr": "L'air sec absorbe l'eau facilement."
+          }
+        ],
+        "difficulty": 1
+      }
+    },
+    {
+      "kind": "summary",
+      "title": "What to keep",
+      "title_fr": "A retenir",
+      "content": "Nitrates make proteins; magnesium makes chlorophyll. Xylem carries water up; phloem carries food. Transpiration pulls water up through the plant.",
+      "content_fr": "Les nitrates fabriquent les proteines ; le magnesium fabrique la chlorophylle. Le xyleme transporte l'eau vers le haut ; le phloeme transporte la nourriture. La transpiration tire l'eau vers le haut.",
+      "required": false,
+      "xp": 5
+    }
+  ],
+  "quiz": {
+    "title": "Plant Nutrition and Transport",
+    "title_fr": "Nutrition et transport chez les plantes",
+    "pass_score": 60,
+    "questions": [
+      {
+        "kind": "mcq",
+        "text": "What are nitrates used for?",
+        "text_fr": "A quoi servent les nitrates ?",
+        "explanation": "To make proteins.",
+        "explanation_fr": "A fabriquer les proteines.",
+        "choices": [
+          {
+            "text": "Making proteins",
+            "text_fr": "Fabriquer les proteines",
+            "correct": true
+          },
+          {
+            "text": "Making chlorophyll",
+            "text_fr": "Fabriquer la chlorophylle",
+            "correct": false
+          },
+          {
+            "text": "Carrying water",
+            "text_fr": "Transporter l'eau",
+            "correct": false
+          }
+        ],
+        "hints": [
+          {
+            "text": "For growth.",
+            "text_fr": "Pour la croissance."
+          }
+        ],
+        "difficulty": 1
+      },
+      {
+        "kind": "mcq",
+        "text": "Which tube carries dissolved food?",
+        "text_fr": "Quel tube transporte la nourriture dissoute ?",
+        "explanation": "Phloem carries food.",
+        "explanation_fr": "Le phloeme transporte la nourriture.",
+        "choices": [
+          {
+            "text": "Phloem",
+            "text_fr": "Le phloeme",
+            "correct": true
+          },
+          {
+            "text": "Xylem",
+            "text_fr": "Le xyleme",
+            "correct": false
+          },
+          {
+            "text": "Root hair",
+            "text_fr": "Le poil absorbant",
+            "correct": false
+          }
+        ],
+        "hints": [
+          {
+            "text": "It goes both ways.",
+            "text_fr": "Il va dans les deux sens."
+          }
+        ],
+        "difficulty": 1
+      },
+      {
+        "kind": "mcq",
+        "text": "What is transpiration?",
+        "text_fr": "Qu'est-ce que la transpiration ?",
+        "explanation": "The loss of water vapour from leaves.",
+        "explanation_fr": "La perte de vapeur d'eau par les feuilles.",
+        "choices": [
+          {
+            "text": "Loss of water vapour",
+            "text_fr": "La perte de vapeur d'eau",
+            "correct": true
+          },
+          {
+            "text": "Making glucose",
+            "text_fr": "La fabrication du glucose",
+            "correct": false
+          },
+          {
+            "text": "Taking in minerals",
+            "text_fr": "L'absorption des mineraux",
+            "correct": false
+          }
+        ],
+        "hints": [
+          {
+            "text": "Through the stomata.",
+            "text_fr": "Par les stomates."
+          }
+        ],
+        "difficulty": 1
+      },
+      {
+        "kind": "mcq",
+        "text": "A lack of magnesium causes what?",
+        "text_fr": "Que provoque un manque de magnesium ?",
+        "explanation": "Yellow leaves.",
+        "explanation_fr": "Des feuilles jaunes.",
+        "choices": [
+          {
+            "text": "Yellow leaves",
+            "text_fr": "Des feuilles jaunes",
+            "correct": true
+          },
+          {
+            "text": "More flowers",
+            "text_fr": "Plus de fleurs",
+            "correct": false
+          },
+          {
+            "text": "Faster growth",
+            "text_fr": "Une croissance plus rapide",
+            "correct": false
+          }
+        ],
+        "hints": [
+          {
+            "text": "Chlorophyll cannot be made.",
+            "text_fr": "La chlorophylle ne peut pas etre fabriquee."
+          }
+        ],
+        "difficulty": 1
+      }
+    ]
+  }
+}

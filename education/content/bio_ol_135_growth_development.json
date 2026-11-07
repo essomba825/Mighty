@@ -1,0 +1,303 @@
+{
+  "lesson": 135,
+  "status": "published",
+  "lesson_fields": {
+    "title": "Growth and Development",
+    "title_fr": "Croissance et developpement",
+    "summary": "Organisms grow and develop from a single cell. Growth means an increase in size and mass, while development means an increase in complexity.",
+    "summary_fr": "Les organismes grandissent et se developpent a partir d'une seule cellule. La croissance est une augmentation de taille et de masse, tandis que le developpement est une augmentation de complexite.",
+    "content": "## Growth\n\nGrowth is a permanent increase in size and mass. In plants, growth happens mainly at the tips of roots and shoots. In animals, growth happens all over the body until adulthood.\n\n## Development\n\nDevelopment is when an organism becomes more complex. For example, a seed grows into a plant with roots, stems, leaves and flowers.",
+    "content_fr": "## La croissance\n\nLa croissance est une augmentation permanente de taille et de masse. Chez les plantes, elle se produit surtout aux extremites des racines et des tiges. Chez les animaux, elle se produit dans tout le corps jusqu'a l'age adulte.\n\n## Le developpement\n\nLe developpement a lieu quand un organisme devient plus complexe. Par exemple, une graine devient une plante avec racines, tige, feuilles et fleurs.",
+    "objectives": [
+      "Define growth and development",
+      "Describe where plants grow",
+      "Explain how development differs from growth"
+    ],
+    "objectives_fr": [
+      "Definir croissance et developpement",
+      "Decrire ou les plantes grandissent",
+      "Expliquer en quoi le developpement differe de la croissance"
+    ],
+    "estimated_minutes": 25
+  },
+  "steps": [
+    {
+      "kind": "concept",
+      "title": "What growth means",
+      "title_fr": "Ce que signifie la croissance",
+      "content": "Growth is a permanent increase in size and mass. It is not the same as getting temporarily bigger, for example by absorbing water.",
+      "content_fr": "La croissance est une augmentation permanente de taille et de masse. Ce n'est pas la meme chose que devenir temporairement plus gros, par exemple en absorbant de l'eau.",
+      "required": true,
+      "xp": 10,
+      "question": {
+        "kind": "mcq",
+        "text": "What is growth?",
+        "text_fr": "Qu'est-ce que la croissance ?",
+        "explanation": "A permanent increase in size and mass.",
+        "explanation_fr": "Une augmentation permanente de taille et de masse.",
+        "choices": [
+          {
+            "text": "A permanent increase in size",
+            "text_fr": "Une augmentation permanente de taille",
+            "correct": true
+          },
+          {
+            "text": "A temporary swelling",
+            "text_fr": "Un gonflement temporaire",
+            "correct": false
+          },
+          {
+            "text": "Taking in water only",
+            "text_fr": "Seulement absorber de l'eau",
+            "correct": false
+          }
+        ],
+        "hints": [
+          {
+            "text": "Permanent is the key word.",
+            "text_fr": "Le mot cle est permanent."
+          }
+        ],
+        "difficulty": 1
+      }
+    },
+    {
+      "kind": "explain",
+      "title": "Growth in plants and animals",
+      "title_fr": "Croissance chez les plantes et les animaux",
+      "content": "Plants grow mainly at the tips of their roots and shoots. Animals grow all over their bodies. Most animals stop growing at adulthood, but many plants keep growing.",
+      "content_fr": "Les plantes grandissent surtout aux extremites des racines et des tiges. Les animaux grandissent dans tout le corps. La plupart des animaux cessent de grandir a l'age adulte, mais beaucoup de plantes continuent.",
+      "required": true,
+      "xp": 10
+    },
+    {
+      "kind": "example",
+      "title": "From seed to plant",
+      "title_fr": "De la graine a la plante",
+      "content": "A seed germinates and grows into a seedling. As it develops, it forms roots, a stem, leaves and finally flowers. This increase in complexity is development.",
+      "content_fr": "Une graine germe et devient une jeune pousse. En se developpant, elle forme des racines, une tige, des feuilles et enfin des fleurs. Cette augmentation de complexite est le developpement.",
+      "required": true,
+      "xp": 12
+    },
+    {
+      "kind": "practice",
+      "title": "Your turn: where plants grow",
+      "title_fr": "A toi : ou les plantes grandissent",
+      "content": "Where does most plant growth happen?",
+      "content_fr": "Ou se produit la majeure partie de la croissance des plantes ?",
+      "required": true,
+      "xp": 12,
+      "question": {
+        "kind": "mcq",
+        "text": "Where do plants grow most?",
+        "text_fr": "Ou les plantes grandissent-elles le plus ?",
+        "explanation": "At the tips of roots and shoots.",
+        "explanation_fr": "Aux extremites des racines et des tiges.",
+        "choices": [
+          {
+            "text": "At tips of roots and shoots",
+            "text_fr": "Aux extremites des racines et des tiges",
+            "correct": true
+          },
+          {
+            "text": "Only in the leaves",
+            "text_fr": "Seulement dans les feuilles",
+            "correct": false
+          },
+          {
+            "text": "In the flowers only",
+            "text_fr": "Seulement dans les fleurs",
+            "correct": false
+          }
+        ],
+        "hints": [
+          {
+            "text": "Think of growing tips.",
+            "text_fr": "Pense aux extremites en croissance."
+          }
+        ],
+        "difficulty": 1
+      }
+    },
+    {
+      "kind": "question",
+      "title": "Check: development",
+      "title_fr": "Verification : developpement",
+      "content": "Development is an increase in complexity, such as forming new organs and tissues. Growth is an increase in size and mass.",
+      "content_fr": "Le developpement est une augmentation de complexite, comme la formation de nouveaux organes et tissus. La croissance est une augmentation de taille et de masse.",
+      "required": true,
+      "xp": 12,
+      "question": {
+        "kind": "mcq",
+        "text": "What is development?",
+        "text_fr": "Qu'est-ce que le developpement ?",
+        "explanation": "An increase in complexity.",
+        "explanation_fr": "Une augmentation de complexite.",
+        "choices": [
+          {
+            "text": "An increase in complexity",
+            "text_fr": "Une augmentation de complexite",
+            "correct": true
+          },
+          {
+            "text": "An increase in mass",
+            "text_fr": "Une augmentation de masse",
+            "correct": false
+          },
+          {
+            "text": "A temporary change",
+            "text_fr": "Un changement temporaire",
+            "correct": false
+          }
+        ],
+        "hints": [
+          {
+            "text": "New organs and tissues form.",
+            "text_fr": "De nouveaux organes et tissus se forment."
+          }
+        ],
+        "difficulty": 1
+      }
+    },
+    {
+      "kind": "summary",
+      "title": "What to keep",
+      "title_fr": "A retenir",
+      "content": "Growth is a permanent increase in size and mass. Development is an increase in complexity. Plants grow at root and shoot tips and keep growing for life.",
+      "content_fr": "La croissance est une augmentation permanente de taille et de masse. Le developpement est une augmentation de complexite. Les plantes grandissent aux extremites des racines et des tiges et continuent toute leur vie.",
+      "required": false,
+      "xp": 5
+    }
+  ],
+  "quiz": {
+    "title": "Growth and Development",
+    "title_fr": "Croissance et developpement",
+    "pass_score": 60,
+    "questions": [
+      {
+        "kind": "mcq",
+        "text": "What is growth?",
+        "text_fr": "Qu'est-ce que la croissance ?",
+        "explanation": "A permanent increase in size and mass.",
+        "explanation_fr": "Une augmentation permanente de taille et de masse.",
+        "choices": [
+          {
+            "text": "Permanent increase in size",
+            "text_fr": "Augmentation permanente de taille",
+            "correct": true
+          },
+          {
+            "text": "A temporary change",
+            "text_fr": "Un changement temporaire",
+            "correct": false
+          },
+          {
+            "text": "Only an increase in cells",
+            "text_fr": "Seulement une augmentation de cellules",
+            "correct": false
+          }
+        ],
+        "hints": [
+          {
+            "text": "It lasts.",
+            "text_fr": "Elle dure."
+          }
+        ],
+        "difficulty": 1
+      },
+      {
+        "kind": "mcq",
+        "text": "Where do plants grow most?",
+        "text_fr": "Ou les plantes grandissent-elles le plus ?",
+        "explanation": "At the tips of roots and shoots.",
+        "explanation_fr": "Aux extremites des racines et des tiges.",
+        "choices": [
+          {
+            "text": "At root and shoot tips",
+            "text_fr": "Aux extremites des racines et des tiges",
+            "correct": true
+          },
+          {
+            "text": "In the flowers",
+            "text_fr": "Dans les fleurs",
+            "correct": false
+          },
+          {
+            "text": "In the soil",
+            "text_fr": "Dans le sol",
+            "correct": false
+          }
+        ],
+        "hints": [
+          {
+            "text": "Growing points.",
+            "text_fr": "Les points de croissance."
+          }
+        ],
+        "difficulty": 1
+      },
+      {
+        "kind": "mcq",
+        "text": "What is development?",
+        "text_fr": "Qu'est-ce que le developpement ?",
+        "explanation": "An increase in complexity.",
+        "explanation_fr": "Une augmentation de complexite.",
+        "choices": [
+          {
+            "text": "Increase in complexity",
+            "text_fr": "Augmentation de complexite",
+            "correct": true
+          },
+          {
+            "text": "Increase in mass",
+            "text_fr": "Augmentation de masse",
+            "correct": false
+          },
+          {
+            "text": "Decrease in size",
+            "text_fr": "Diminution de taille",
+            "correct": false
+          }
+        ],
+        "hints": [
+          {
+            "text": "New parts form.",
+            "text_fr": "De nouvelles parties se forment."
+          }
+        ],
+        "difficulty": 1
+      },
+      {
+        "kind": "mcq",
+        "text": "Do most animals keep growing all their lives?",
+        "text_fr": "La plupart des animaux grandissent-ils toute leur vie ?",
+        "explanation": "No, most stop at adulthood.",
+        "explanation_fr": "Non, la plupart s'arretent a l'age adulte.",
+        "choices": [
+          {
+            "text": "No, most stop at adulthood",
+            "text_fr": "Non, la plupart s'arretent a l'age adulte",
+            "correct": true
+          },
+          {
+            "text": "Yes, always",
+            "text_fr": "Oui, toujours",
+            "correct": false
+          },
+          {
+            "text": "Only fish do",
+            "text_fr": "Seulement les poissons",
+            "correct": false
+          }
+        ],
+        "hints": [
+          {
+            "text": "Adults reach their full size.",
+            "text_fr": "Les adultes atteignent leur taille finale."
+          }
+        ],
+        "difficulty": 1
+      }
+    ]
+  }
+}

@@ -1,0 +1,217 @@
+{
+  "lesson": 118,
+  "status": "published",
+  "lesson_fields": {
+    "title": "Biodiversity and Conservation",
+    "title_fr": "Biodiversite et conservation",
+    "summary": "Biodiversity means the variety of living things. It is important for stable ecosystems. Humans can protect biodiversity through conservation and sustainable practices.",
+    "summary_fr": "La biodiversite signifie la variete des etres vivants. Elle est importante pour des ecosystemes stables. L'homme peut proteger la biodiversite par la conservation et des pratiques durables.",
+    "content": "## What is biodiversity\n\nBiodiversity is the variety of different species, genes and ecosystems. Areas with high biodiversity are more stable and can recover better from changes.\n\n## Why protect it and how\n\nBiodiversity is threatened by deforestation, pollution, overhunting and habitat loss. Conservation methods include protecting habitats, breeding endangered species in captivity, and reducing pollution.",
+    "content_fr": "## Qu'est-ce que la biodiversite\n\nLa biodiversite est la variete des differentes especes, genes et ecosystemes. Les regions a forte biodiversite sont plus stables et se recuperent mieux face aux changements.\n\n## Pourquoi la proteger et comment\n\nLa biodiversite est menacee par la deforestation, la pollution, la chasse excessive et la perte d'habitats. Les methodes de conservation incluent la protection des habitats, l'elevage d'especes menacees en captivite et la reduction de la pollution.",
+    "objectives": [
+      "Define biodiversity",
+      "Give reasons to protect biodiversity",
+      "Describe ways to conserve endangered species"
+    ],
+    "objectives_fr": [
+      "Definir la biodiversite",
+      "Donner des raisons de proteger la biodiversite",
+      "Decrire des moyens de conserver les especes menacees"
+    ],
+    "estimated_minutes": 25
+  },
+  "steps": [
+    {
+      "kind": "concept",
+      "title": "Variety of life",
+      "title_fr": "La variete du vivant",
+      "content": "Biodiversity means the number and variety of different species of plants, animals and other organisms in an area. It also includes genetic diversity and the variety of ecosystems.",
+      "content_fr": "La biodiversite signifie le nombre et la variete des differentes especes de plantes, d'animaux et d'autres organismes dans une region. Elle inclut aussi la diversite genetique et la variete des ecosystemes.",
+      "required": true,
+      "xp": 10,
+      "question": {
+        "kind": "mcq",
+        "text": "What is biodiversity?",
+        "text_fr": "Qu'est-ce que la biodiversite ?",
+        "explanation": "It is the variety of different living organisms in an area.",
+        "explanation_fr": "C'est la variete des differents etres vivants dans une region.",
+        "hint_prompt": "Think about variety of life.",
+        "hint_prompt_fr": "Pense a la variete du vivant.",
+        "choices": [
+          {"text": "Variety of different species", "text_fr": "Variete des differentes especes", "correct": true},
+          {"text": "Only the number of plants", "text_fr": "Seulement le nombre de plantes", "correct": false},
+          {"text": "Only one type of animal", "text_fr": "Seulement un type d'animal", "correct": false}
+        ],
+        "hints": [
+          {"text": "Bio means life, diversity means variety.", "text_fr": "Bio veut dire vie, diversite veut dire variete."}
+        ]
+      }
+    },
+    {
+      "kind": "explain",
+      "title": "Why it matters",
+      "title_fr": "Pourquoi c'est important",
+      "content": "High biodiversity makes ecosystems more stable. If one species is lost, others can often fill its role. Biodiversity also provides us with food, medicines and materials.",
+      "content_fr": "Une forte biodiversite rend les ecosystemes plus stables. Si une espece disparaît, d'autres peuvent souvent prendre sa place. La biodiversite nous fournit aussi de la nourriture, des medicaments et des materiaux.",
+      "required": true,
+      "xp": 10
+    },
+    {
+      "kind": "example",
+      "title": "Threats to biodiversity",
+      "title_fr": "Menaces pour la biodiversite",
+      "content": "Deforestation destroys habitats. Pollution harms animals and plants. Overhunting reduces animal populations. All these can lead to species becoming endangered or extinct.",
+      "content_fr": "La deforestation detruit les habitats. La pollution nuit aux animaux et aux plantes. La chasse excessive reduit les populations animales. Tout cela peut entrainer la disparition ou le danger d'extinction d'especes.",
+      "required": true,
+      "xp": 12
+    },
+    {
+      "kind": "practice",
+      "title": "Your turn: conservation",
+      "title_fr": "A toi : conservation",
+      "content": "Which action helps to conserve endangered species?",
+      "content_fr": "Quelle action aide a conserver les especes menacees ?",
+      "required": true,
+      "xp": 12,
+      "question": {
+        "kind": "mcq",
+        "text": "Which helps conservation?",
+        "text_fr": "Quelle action aide la conservation ?",
+        "explanation": "Protecting habitats helps species survive in the wild.",
+        "explanation_fr": "Proteger les habitats aide les especes a survivre dans la nature.",
+        "hint_prompt": "Think about protecting their home.",
+        "hint_prompt_fr": "Pense a proteger leur habitat.",
+        "choices": [
+          {"text": "Protecting natural habitats", "text_fr": "Proteger les habitats naturels", "correct": true},
+          {"text": "Cutting down more trees", "text_fr": "Abattre plus d'arbres", "correct": false},
+          {"text": "Dumping waste in rivers", "text_fr": "Deverser des dechets dans les rivieres", "correct": false}
+        ],
+        "hints": [
+          {"text": "Conservation means looking after nature.", "text_fr": "Conserver signifie prendre soin de la nature."}
+        ]
+      }
+    },
+    {
+      "kind": "question",
+      "title": "Check: captive breeding",
+      "title_fr": "Verification : elevage en captivite",
+      "content": "Captive breeding means breeding endangered animals in zoos or special centres. This can increase their numbers, and sometimes they can be released back into the wild.",
+      "content_fr": "L'elevage en captivite consiste a reproduire des animaux menaces dans des zoos ou des centres speciaux. Cela peut augmenter leurs effectifs, et parfois ils peuvent etre relaches dans la nature.",
+      "required": true,
+      "xp": 12,
+      "question": {
+        "kind": "mcq",
+        "text": "What is captive breeding?",
+        "text_fr": "Qu'est-ce que l'elevage en captivite ?",
+        "explanation": "It is breeding endangered species in controlled environments like zoos.",
+        "explanation_fr": "C'est la reproduction d'especes menacees dans des milieux controles comme les zoos.",
+        "hint_prompt": "Done in zoos or centres.",
+        "hint_prompt_fr": "Fait dans des zoos ou des centres.",
+        "choices": [
+          {"text": "Breeding endangered species in zoos", "text_fr": "Reproduire des especes menacees dans des zoos", "correct": true},
+          {"text": "Hunting rare animals", "text_fr": "Chasser des animaux rares", "correct": false},
+          {"text": "Removing animals from parks", "text_fr": "Retirer des animaux des parcs", "correct": false}
+        ],
+        "hints": [
+          {"text": "Helps increase their numbers.", "text_fr": "Aide a augmenter leurs effectifs."}
+        ]
+      }
+    },
+    {
+      "kind": "summary",
+      "title": "What to keep",
+      "title_fr": "A retenir",
+      "content": "Biodiversity is the variety of life. It keeps ecosystems stable and helps humans too. Conservation protects habitats, breeds endangered species and reduces pollution.",
+      "content_fr": "La biodiversite est la variete du vivant. Elle stabilise les ecosystemes et aide aussi l'homme. La conservation protege les habitats, eleve des especes menacees et reduit la pollution.",
+      "required": false,
+      "xp": 5
+    }
+  ],
+  "quiz": {
+    "title": "Biodiversity and Conservation",
+    "title_fr": "Biodiversite et conservation",
+    "pass_score": 60,
+    "questions": [
+      {
+        "kind": "mcq",
+        "text": "What does biodiversity mean?",
+        "text_fr": "Que signifie biodiversite ?",
+        "explanation": "It means the variety of living things in an area.",
+        "explanation_fr": "Cela signifie la variete des etres vivants dans une region.",
+        "choices": [
+          {"text": "Variety of living things", "text_fr": "Variete des etres vivants", "correct": true},
+          {"text": "Only one species", "text_fr": "Une seule espece", "correct": false},
+          {"text": "No plants or animals", "text_fr": "Pas de plantes ni d'animaux", "correct": false}
+        ],
+        "hints": [
+          {"text": "Diversity means variety.", "text_fr": "Diversite veut dire variete."}
+        ],
+        "difficulty": 1
+      },
+      {
+        "kind": "mcq",
+        "text": "Why is biodiversity important?",
+        "text_fr": "Pourquoi la biodiversite est-elle importante ?",
+        "explanation": "It helps keep ecosystems stable and provides useful resources.",
+        "explanation_fr": "Elle aide a stabiliser les ecosystemes et fournit des ressources utiles.",
+        "choices": [
+          {"text": "It makes ecosystems more stable", "text_fr": "Elle rend les ecosystemes plus stables", "correct": true},
+          {"text": "It makes all animals the same", "text_fr": "Elle rend tous les animaux identiques", "correct": false},
+          {"text": "It stops plants from growing", "text_fr": "Elle empeche les plantes de pousser", "correct": false}
+        ],
+        "hints": [
+          {"text": "Stability is key.", "text_fr": "La stabilite est essentielle."}
+        ],
+        "difficulty": 1
+      },
+      {
+        "kind": "mcq",
+        "text": "Which is a threat to biodiversity?",
+        "text_fr": "Quelle est une menace pour la biodiversite ?",
+        "explanation": "Deforestation destroys habitats and reduces biodiversity.",
+        "explanation_fr": "La deforestation detruit les habitats et reduit la biodiversite.",
+        "choices": [
+          {"text": "Deforestation", "text_fr": "La deforestation", "correct": true},
+          {"text": "Planting trees", "text_fr": "Planter des arbres", "correct": false},
+          {"text": "Protecting parks", "text_fr": "Proteger des parcs", "correct": false}
+        ],
+        "hints": [
+          {"text": "Losing habitats is bad.", "text_fr": "Perdre des habitats est mauvais."}
+        ],
+        "difficulty": 1
+      },
+      {
+        "kind": "mcq",
+        "text": "Which action helps to conserve biodiversity?",
+        "text_fr": "Quelle action aide a conserver la biodiversite ?",
+        "explanation": "Protecting habitats gives species a safe place to live.",
+        "explanation_fr": "Proteger les habitats donne aux especes un lieu sur pour vivre.",
+        "choices": [
+          {"text": "Protecting natural habitats", "text_fr": "Proteger les habitats naturels", "correct": true},
+          {"text": "Polluting rivers", "text_fr": "Polluer les rivieres", "correct": false},
+          {"text": "Clearing forests", "text_fr": "Defricher des forets", "correct": false}
+        ],
+        "hints": [
+          {"text": "Look after their homes.", "text_fr": "Prends soin de leurs habitats."}
+        ],
+        "difficulty": 1
+      },
+      {
+        "kind": "mcq",
+        "text": "What is the aim of captive breeding?",
+        "text_fr": "Quel est le but de l'elevage en captivite ?",
+        "explanation": "To increase the numbers of endangered species.",
+        "explanation_fr": "Augmenter le nombre d'especes menacees.",
+        "choices": [
+          {"text": "To increase numbers of endangered species", "text_fr": "Augmenter le nombre d'especes menacees", "correct": true},
+          {"text": "To make money only", "text_fr": "Gagner de l'argent seulement", "correct": false},
+          {"text": "To remove all animals", "text_fr": "Retirer tous les animaux", "correct": false}
+        ],
+        "hints": [
+          {"text": "Save them from extinction.", "text_fr": "Les sauver de l'extinction."}
+        ],
+        "difficulty": 2
+      }
+    ]
+  }
+}

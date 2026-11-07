@@ -1,0 +1,303 @@
+{
+  "lesson": 139,
+  "status": "published",
+  "lesson_fields": {
+    "title": "Variation, Inheritance and Evolution",
+    "title_fr": "Variation, heredite et evolution",
+    "summary": "Individuals of the same species differ. Some variation is inherited and some is caused by the environment. Natural selection can lead to evolution.",
+    "summary_fr": "Les individus d'une meme espece different. Une partie de la variation est hereditaire et une autre est causee par l'environnement. La selection naturelle peut conduire a l'evolution.",
+    "content": "## Variation\n\nVariation can be continuous, such as height, or discontinuous, such as blood group. It comes from genes and from the environment.\n\n## Natural selection\n\nOrganisms with features better suited to their environment are more likely to survive and reproduce. Over many generations, these features become more common, and the species evolves.",
+    "content_fr": "## La variation\n\nLa variation peut etre continue, comme la taille, ou discontinue, comme le groupe sanguin. Elle provient des genes et de l'environnement.\n\n## La selection naturelle\n\nLes organismes dont les caracteristiques sont mieux adaptees a leur environnement ont plus de chances de survivre et de se reproduire. Au fil des generations, ces caracteristiques deviennent plus courantes, et l'espece evolue.",
+    "objectives": [
+      "Distinguish continuous and discontinuous variation",
+      "Explain the cause of inherited and environmental variation",
+      "Describe natural selection in simple steps"
+    ],
+    "objectives_fr": [
+      "Distinguer variation continue et discontinue",
+      "Expliquer l'origine de la variation hereditaire et environnementale",
+      "Decrire la selection naturelle en etapes simples"
+    ],
+    "estimated_minutes": 25
+  },
+  "steps": [
+    {
+      "kind": "concept",
+      "title": "Variation within a species",
+      "title_fr": "La variation au sein d'une espece",
+      "content": "Members of the same species are not identical. Differences between them are called variation. Some variation is inherited from parents; some is caused by the environment.",
+      "content_fr": "Les membres d'une meme espece ne sont pas identiques. Les differences entre eux s'appellent la variation. Une partie est hereditaire, vient des parents ; une autre est causee par l'environnement.",
+      "required": true,
+      "xp": 10,
+      "question": {
+        "kind": "mcq",
+        "text": "What is variation?",
+        "text_fr": "Qu'est-ce que la variation ?",
+        "explanation": "Differences between individuals.",
+        "explanation_fr": "Les differences entre les individus.",
+        "choices": [
+          {
+            "text": "Differences between individuals",
+            "text_fr": "Les differences entre individus",
+            "correct": true
+          },
+          {
+            "text": "Being identical",
+            "text_fr": "Etre identique",
+            "correct": false
+          },
+          {
+            "text": "Only growing",
+            "text_fr": "Seulement grandir",
+            "correct": false
+          }
+        ],
+        "hints": [
+          {
+            "text": "Think about how people differ.",
+            "text_fr": "Pense aux differences entre les personnes."
+          }
+        ],
+        "difficulty": 1
+      }
+    },
+    {
+      "kind": "explain",
+      "title": "Two types",
+      "title_fr": "Deux types",
+      "content": "Continuous variation, such as height, can take any value. Discontinuous variation, such as eye colour, falls into distinct groups. Both can be inherited or affected by the environment.",
+      "content_fr": "La variation continue, comme la taille, peut prendre n'importe quelle valeur. La variation discontinue, comme la couleur des yeux, se repartit en groupes distincts. Les deux peuvent etre hereditaires ou affectees par l'environnement.",
+      "required": true,
+      "xp": 10
+    },
+    {
+      "kind": "example",
+      "title": "Natural selection",
+      "title_fr": "La selection naturelle",
+      "content": "In a population, some individuals have features that help them survive better. They are more likely to breed and pass on their genes. Over many generations, the useful features become more common.",
+      "content_fr": "Dans une population, certains individus ont des caracteristiques qui les aident a mieux survivre. Ils ont plus de chances de se reproduire et de transmettre leurs genes. Au fil de nombreuses generations, les caracteristiques utiles deviennent plus courantes.",
+      "required": true,
+      "xp": 12
+    },
+    {
+      "kind": "practice",
+      "title": "Your turn: which type",
+      "title_fr": "A toi : quel type",
+      "content": "Is blood group continuous or discontinuous variation?",
+      "content_fr": "Le groupe sanguin est-il une variation continue ou discontinue ?",
+      "required": true,
+      "xp": 12,
+      "question": {
+        "kind": "mcq",
+        "text": "Blood group is which type?",
+        "text_fr": "Le groupe sanguin est de quel type ?",
+        "explanation": "Discontinuous.",
+        "explanation_fr": "Discontinue.",
+        "choices": [
+          {
+            "text": "Discontinuous",
+            "text_fr": "Discontinue",
+            "correct": true
+          },
+          {
+            "text": "Continuous",
+            "text_fr": "Continue",
+            "correct": false
+          },
+          {
+            "text": "Not variation",
+            "text_fr": "Pas une variation",
+            "correct": false
+          }
+        ],
+        "hints": [
+          {
+            "text": "It falls into clear groups.",
+            "text_fr": "Il se repartit en groupes nets."
+          }
+        ],
+        "difficulty": 1
+      }
+    },
+    {
+      "kind": "question",
+      "title": "Check: inherited or not",
+      "title_fr": "Verification : hereditaire ou non",
+      "content": "Height is affected by both genes and the environment, such as diet. A scar is caused only by the environment and is not inherited.",
+      "content_fr": "La taille est affectee a la fois par les genes et l'environnement, comme l'alimentation. Une cicatrice est causee seulement par l'environnement et n'est pas hereditaire.",
+      "required": true,
+      "xp": 12,
+      "question": {
+        "kind": "mcq",
+        "text": "Which is only caused by the environment?",
+        "text_fr": "Lequel est cause seulement par l'environnement ?",
+        "explanation": "A scar.",
+        "explanation_fr": "Une cicatrice.",
+        "choices": [
+          {
+            "text": "A scar",
+            "text_fr": "Une cicatrice",
+            "correct": true
+          },
+          {
+            "text": "Eye colour",
+            "text_fr": "La couleur des yeux",
+            "correct": false
+          },
+          {
+            "text": "Blood group",
+            "text_fr": "Le groupe sanguin",
+            "correct": false
+          }
+        ],
+        "hints": [
+          {
+            "text": "It is not passed on.",
+            "text_fr": "Il n'est pas transmis."
+          }
+        ],
+        "difficulty": 1
+      }
+    },
+    {
+      "kind": "summary",
+      "title": "What to keep",
+      "title_fr": "A retenir",
+      "content": "Individuals vary. Variation can be continuous or discontinuous, and can be inherited or caused by the environment. Natural selection over many generations leads to evolution.",
+      "content_fr": "Les individus varient. La variation peut etre continue ou discontinue, et peut etre hereditaire ou causee par l'environnement. La selection naturelle sur de nombreuses generations conduit a l'evolution.",
+      "required": false,
+      "xp": 5
+    }
+  ],
+  "quiz": {
+    "title": "Variation, Inheritance and Evolution",
+    "title_fr": "Variation, heredite et evolution",
+    "pass_score": 60,
+    "questions": [
+      {
+        "kind": "mcq",
+        "text": "What is natural selection?",
+        "text_fr": "Qu'est-ce que la selection naturelle ?",
+        "explanation": "Better-adapted organisms survive and breed.",
+        "explanation_fr": "Les organismes mieux adaptes survivent et se reproduisent.",
+        "choices": [
+          {
+            "text": "Better-adapted organisms survive",
+            "text_fr": "Les mieux adaptes survivent",
+            "correct": true
+          },
+          {
+            "text": "Humans choose animals",
+            "text_fr": "L'homme choisit les animaux",
+            "correct": false
+          },
+          {
+            "text": "All organisms survive equally",
+            "text_fr": "Tous survivent autant",
+            "correct": false
+          }
+        ],
+        "hints": [
+          {
+            "text": "Over many generations.",
+            "text_fr": "Au fil des generations."
+          }
+        ],
+        "difficulty": 1
+      },
+      {
+        "kind": "mcq",
+        "text": "Which is continuous variation?",
+        "text_fr": "Quelle est une variation continue ?",
+        "explanation": "Height.",
+        "explanation_fr": "La taille.",
+        "choices": [
+          {
+            "text": "Height",
+            "text_fr": "La taille",
+            "correct": true
+          },
+          {
+            "text": "Blood group",
+            "text_fr": "Le groupe sanguin",
+            "correct": false
+          },
+          {
+            "text": "Eye colour",
+            "text_fr": "La couleur des yeux",
+            "correct": false
+          }
+        ],
+        "hints": [
+          {
+            "text": "It can take any value.",
+            "text_fr": "Elle peut prendre toute valeur."
+          }
+        ],
+        "difficulty": 1
+      },
+      {
+        "kind": "mcq",
+        "text": "Which is discontinuous variation?",
+        "text_fr": "Quelle est une variation discontinue ?",
+        "explanation": "Blood group.",
+        "explanation_fr": "Le groupe sanguin.",
+        "choices": [
+          {
+            "text": "Blood group",
+            "text_fr": "Le groupe sanguin",
+            "correct": true
+          },
+          {
+            "text": "Weight",
+            "text_fr": "Le poids",
+            "correct": false
+          },
+          {
+            "text": "Height",
+            "text_fr": "La taille",
+            "correct": false
+          }
+        ],
+        "hints": [
+          {
+            "text": "It falls into clear groups.",
+            "text_fr": "Elle se repartit en groupes nets."
+          }
+        ],
+        "difficulty": 1
+      },
+      {
+        "kind": "mcq",
+        "text": "Which cause of variation is inherited?",
+        "text_fr": "Quelle cause de variation est hereditaire ?",
+        "explanation": "Genes from parents.",
+        "explanation_fr": "Les genes des parents.",
+        "choices": [
+          {
+            "text": "Genes from parents",
+            "text_fr": "Les genes des parents",
+            "correct": true
+          },
+          {
+            "text": "Diet",
+            "text_fr": "L'alimentation",
+            "correct": false
+          },
+          {
+            "text": "Accidents",
+            "text_fr": "Les accidents",
+            "correct": false
+          }
+        ],
+        "hints": [
+          {
+            "text": "Passed on at reproduction.",
+            "text_fr": "Transmis a la reproduction."
+          }
+        ],
+        "difficulty": 1
+      }
+    ]
+  }
+}

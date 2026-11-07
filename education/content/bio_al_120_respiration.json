@@ -1,0 +1,217 @@
+{
+  "lesson": 120,
+  "status": "published",
+  "lesson_fields": {
+    "title": "Respiration and Gas Exchange",
+    "title_fr": "Respiration et echanges gazeux",
+    "summary": "Respiration releases energy from food in cells. Gas exchange in the lungs brings oxygen into the blood and removes carbon dioxide.",
+    "summary_fr": "La respiration libere de l'energie a partir des aliments dans les cellules. Les echanges gazeux dans les poumons apportent de l'oxygene au sang et eliminent le dioxyde de carbone.",
+    "content": "## Cellular respiration\n\nAerobic respiration uses oxygen and glucose to release energy, producing carbon dioxide and water. Anaerobic respiration happens without oxygen and releases less energy.\n\n## Gas exchange\n\nThe lungs contain millions of alveoli. Their large surface area, thin walls and rich blood supply let oxygen and carbon dioxide move quickly between air and blood.",
+    "content_fr": "## La respiration cellulaire\n\nLa respiration aerobie utilise l'oxygene et le glucose pour liberer de l'energie, en produisant du dioxyde de carbone et de l'eau. La respiration anaerobie se produit sans oxygene et libere moins d'energie.\n\n## Les echanges gazeux\n\nLes poumons contiennent des millions d'alveoles. Leur grande surface, leurs parois fines et leur riche vascularisation permettent a l'oxygene et au dioxyde de carbone de passer rapidement entre l'air et le sang.",
+    "objectives": [
+      "Write the word equation for aerobic respiration",
+      "Compare aerobic and anaerobic respiration",
+      "Explain how alveoli are adapted for gas exchange"
+    ],
+    "objectives_fr": [
+      "Ecrire l'equation en mots de la respiration aerobie",
+      "Comparer respiration aerobie et anaerobie",
+      "Expliquer comment les alveoles sont adaptees aux echanges gazeux"
+    ],
+    "estimated_minutes": 25
+  },
+  "steps": [
+    {
+      "kind": "concept",
+      "title": "Releasing energy",
+      "title_fr": "Liberer de l'energie",
+      "content": "Respiration is a chemical process in cells that releases energy from food. Energy is used for movement, keeping warm and growth.\n\nAerobic respiration happens with oxygen. The word equation is glucose plus oxygen gives carbon dioxide plus water plus energy.",
+      "content_fr": "La respiration est un processus chimique dans les cellules qui libere de l'energie a partir des aliments. L'energie sert au mouvement, a se maintenir au chaud et a la croissance.\n\nLa respiration aerobie se produit avec de l'oxygene. L'equation en mots est : glucose plus oxygene donne dioxyde de carbone plus eau plus energie.",
+      "required": true,
+      "xp": 10,
+      "question": {
+        "kind": "mcq",
+        "text": "Which gas is needed for aerobic respiration?",
+        "text_fr": "Quel gaz est necessaire a la respiration aerobie ?",
+        "explanation": "Aerobic respiration needs oxygen.",
+        "explanation_fr": "La respiration aerobie a besoin d'oxygene.",
+        "hint_prompt": "It is in the air we breathe in.",
+        "hint_prompt_fr": "Il est dans l'air que nous inspirons.",
+        "choices": [
+          {"text": "Oxygen", "text_fr": "L'oxygene", "correct": true},
+          {"text": "Carbon dioxide", "text_fr": "Le dioxyde de carbone", "correct": false},
+          {"text": "Nitrogen", "text_fr": "L'azote", "correct": false}
+        ],
+        "hints": [
+          {"text": "It is O2.", "text_fr": "C'est le O2."}
+        ]
+      }
+    },
+    {
+      "kind": "explain",
+      "title": "Aerobic and anaerobic",
+      "title_fr": "Aerobie et anaerobie",
+      "content": "Aerobic respiration releases a lot of energy and happens all the time in our cells. Anaerobic respiration happens when there is not enough oxygen, for example in hard exercise, and releases less energy.\n\nIn muscles, anaerobic respiration produces lactic acid, which causes cramp.",
+      "content_fr": "La respiration aerobie libere beaucoup d'energie et se produit en permanence dans nos cellules. La respiration anaerobie se produit quand il n'y a pas assez d'oxygene, par exemple lors d'un effort intense, et libere moins d'energie.\n\nDans les muscles, la respiration anaerobie produit de l'acide lactique, qui provoque des crampes.",
+      "required": true,
+      "xp": 10
+    },
+    {
+      "kind": "example",
+      "title": "Adaptations of alveoli",
+      "title_fr": "Adaptations des alveoles",
+      "content": "Alveoli are tiny air sacs in the lungs. They have a large total surface area, walls only one cell thick, and a good blood supply. These features make gas exchange fast and efficient.",
+      "content_fr": "Les alveoles sont de petits sacs d'air dans les poumons. Elles ont une grande surface totale, des parois epaisses d'une seule cellule et une bonne vascularisation. Ces caracteristiques rendent les echanges gazeux rapides et efficaces.",
+      "required": true,
+      "xp": 12
+    },
+    {
+      "kind": "practice",
+      "title": "Your turn: which product",
+      "title_fr": "A toi : quel produit",
+      "content": "Which gas is produced by aerobic respiration in cells?",
+      "content_fr": "Quel gaz est produit par la respiration aerobie dans les cellules ?",
+      "required": true,
+      "xp": 12,
+      "question": {
+        "kind": "mcq",
+        "text": "Which gas is produced by aerobic respiration?",
+        "text_fr": "Quel gaz est produit par la respiration aerobie ?",
+        "explanation": "Aerobic respiration produces carbon dioxide and water.",
+        "explanation_fr": "La respiration aerobie produit du dioxyde de carbone et de l'eau.",
+        "hint_prompt": "We breathe it out.",
+        "hint_prompt_fr": "Nous l'expirons.",
+        "choices": [
+          {"text": "Carbon dioxide", "text_fr": "Le dioxyde de carbone", "correct": true},
+          {"text": "Oxygen", "text_fr": "L'oxygene", "correct": false},
+          {"text": "Hydrogen", "text_fr": "L'hydrogene", "correct": false}
+        ],
+        "hints": [
+          {"text": "It is CO2.", "text_fr": "C'est le CO2."}
+        ]
+      }
+    },
+    {
+      "kind": "question",
+      "title": "Check: exercise",
+      "title_fr": "Verification : effort physique",
+      "content": "During hard exercise, muscles may not get oxygen fast enough. They respire anaerobically, producing lactic acid, and an oxygen debt builds up. Breathing faster after exercise pays back the debt.",
+      "content_fr": "Lors d'un effort intense, les muscles peuvent ne pas recevoir assez d'oxygene. Ils respirent de facon anaerobie, produisant de l'acide lactique, et une dette d'oxygene s'accumule. Respirer plus vite apres l'effort permet de rembourser cette dette.",
+      "required": true,
+      "xp": 12,
+      "question": {
+        "kind": "mcq",
+        "text": "What does anaerobic respiration in muscles produce?",
+        "text_fr": "Que produit la respiration anaerobie dans les muscles ?",
+        "explanation": "Anaerobic respiration in muscles produces lactic acid.",
+        "explanation_fr": "La respiration anaerobie dans les muscles produit de l'acide lactique.",
+        "hint_prompt": "It causes cramp.",
+        "hint_prompt_fr": "Cela provoque des crampes.",
+        "choices": [
+          {"text": "Lactic acid", "text_fr": "De l'acide lactique", "correct": true},
+          {"text": "Oxygen", "text_fr": "De l'oxygene", "correct": false},
+          {"text": "Glucose", "text_fr": "Du glucose", "correct": false}
+        ],
+        "hints": [
+          {"text": "Lactic sounds like lactate.", "text_fr": "Lactique vient de lactate."}
+        ]
+      }
+    },
+    {
+      "kind": "summary",
+      "title": "What to keep",
+      "title_fr": "A retenir",
+      "content": "Respiration releases energy in cells. Aerobic needs oxygen and releases more energy; anaerobic works without oxygen and produces lactic acid in muscles. Alveoli are adapted for fast gas exchange.",
+      "content_fr": "La respiration libere de l'energie dans les cellules. L'aerobie a besoin d'oxygene et libere plus d'energie ; l'anaerobie fonctionne sans oxygene et produit de l'acide lactique dans les muscles. Les alveoles sont adaptees aux echanges gazeux rapides.",
+      "required": false,
+      "xp": 5
+    }
+  ],
+  "quiz": {
+    "title": "Respiration and Gas Exchange",
+    "title_fr": "Respiration et echanges gazeux",
+    "pass_score": 60,
+    "questions": [
+      {
+        "kind": "mcq",
+        "text": "What does aerobic respiration need?",
+        "text_fr": "De quoi la respiration aerobie a-t-elle besoin ?",
+        "explanation": "It needs oxygen and glucose.",
+        "explanation_fr": "Elle a besoin d'oxygene et de glucose.",
+        "choices": [
+          {"text": "Oxygen and glucose", "text_fr": "Oxygene et glucose", "correct": true},
+          {"text": "Only carbon dioxide", "text_fr": "Seulement du dioxyde de carbone", "correct": false},
+          {"text": "Only water", "text_fr": "Seulement de l'eau", "correct": false}
+        ],
+        "hints": [
+          {"text": "Fuel plus oxygen.", "text_fr": "Combustible plus oxygene."}
+        ],
+        "difficulty": 1
+      },
+      {
+        "kind": "mcq",
+        "text": "Which is produced by aerobic respiration?",
+        "text_fr": "Qu'est-ce qui est produit par la respiration aerobie ?",
+        "explanation": "Carbon dioxide, water and energy are produced.",
+        "explanation_fr": "Du dioxyde de carbone, de l'eau et de l'energie sont produits.",
+        "choices": [
+          {"text": "Carbon dioxide and water", "text_fr": "Dioxyde de carbone et eau", "correct": true},
+          {"text": "Lactic acid", "text_fr": "Acide lactique", "correct": false},
+          {"text": "Glucose and oxygen", "text_fr": "Glucose et oxygene", "correct": false}
+        ],
+        "hints": [
+          {"text": "The reactants are used up.", "text_fr": "Les reactifs sont consommes."}
+        ],
+        "difficulty": 1
+      },
+      {
+        "kind": "mcq",
+        "text": "When does anaerobic respiration happen in muscles?",
+        "text_fr": "Quand la respiration anaerobie se produit-elle dans les muscles ?",
+        "explanation": "It happens when oxygen is in short supply, such as during hard exercise.",
+        "explanation_fr": "Elle se produit quand l'oxygene manque, par exemple lors d'un effort intense.",
+        "choices": [
+          {"text": "During hard exercise", "text_fr": "Lors d'un effort intense", "correct": true},
+          {"text": "Only while sleeping", "text_fr": "Seulement pendant le sommeil", "correct": false},
+          {"text": "Only after eating", "text_fr": "Seulement apres avoir mange", "correct": false}
+        ],
+        "hints": [
+          {"text": "Oxygen supply runs short.", "text_fr": "L'apport d'oxygene devient insuffisant."}
+        ],
+        "difficulty": 1
+      },
+      {
+        "kind": "mcq",
+        "text": "Which feature helps alveoli exchange gases quickly?",
+        "text_fr": "Quelle caracteristique aide les alveoles a echanger les gaz rapidement ?",
+        "explanation": "A large surface area, thin walls and good blood supply all help.",
+        "explanation_fr": "Une grande surface, des parois fines et une bonne vascularisation aident.",
+        "choices": [
+          {"text": "Large surface area and thin walls", "text_fr": "Grande surface et parois fines", "correct": true},
+          {"text": "Thick, hard walls", "text_fr": "Des parois epaisses et dures", "correct": false},
+          {"text": "No blood supply", "text_fr": "Aucune vascularisation", "correct": false}
+        ],
+        "hints": [
+          {"text": "More surface and less distance.", "text_fr": "Plus de surface et moins de distance."}
+        ],
+        "difficulty": 1
+      },
+      {
+        "kind": "mcq",
+        "text": "What is an oxygen debt?",
+        "text_fr": "Qu'est-ce qu'une dette d'oxygene ?",
+        "explanation": "It is the extra oxygen needed after exercise to break down lactic acid.",
+        "explanation_fr": "C'est l'oxygene supplementaire necessaire apres l'effort pour eliminer l'acide lactique.",
+        "choices": [
+          {"text": "Extra oxygen needed after exercise", "text_fr": "Oxygene supplementaire apres l'effort", "correct": true},
+          {"text": "Oxygen stored in the lungs", "text_fr": "Oxygene stocke dans les poumons", "correct": false},
+          {"text": "Carbon dioxide in the blood", "text_fr": "Dioxyde de carbone dans le sang", "correct": false}
+        ],
+        "hints": [
+          {"text": "It is paid back by breathing faster.", "text_fr": "Elle se rembourse en respirant plus vite."}
+        ],
+        "difficulty": 2
+      }
+    ]
+  }
+}

@@ -1,0 +1,217 @@
+{
+  "lesson": 119,
+  "status": "published",
+  "lesson_fields": {
+    "title": "Digestion and Nutrition",
+    "title_fr": "Digestion et nutrition",
+    "summary": "Food is broken down by digestion into small molecules that can be absorbed into the blood. A balanced diet provides the nutrients the body needs.",
+    "summary_fr": "Les aliments sont decomposes par la digestion en petites molecules qui peuvent etre absorbees dans le sang. Une alimentation equilibree fournit les nutriments dont le corps a besoin.",
+    "content": "## A balanced diet\n\nCarbohydrates give energy. Proteins are for growth and repair. Fats store energy and insulate the body. Vitamins, minerals, fibre and water are also needed.\n\n## Digestion\n\nMechanical digestion breaks food into smaller pieces. Chemical digestion uses enzymes to break large molecules into small ones that can pass through the gut wall into the blood.",
+    "content_fr": "## Une alimentation equilibree\n\nLes glucides donnent de l'energie. Les proteines servent a la croissance et a la reparation. Les lipides stockent de l'energie et isolent le corps. Les vitamines, les mineraux, les fibres et l'eau sont aussi necessaires.\n\n## La digestion\n\nLa digestion mecanique divise les aliments en petits morceaux. La digestion chimique utilise des enzymes pour transformer les grosses molecules en petites molecules qui peuvent passer a travers la paroi de l'intestin vers le sang.",
+    "objectives": [
+      "Name the main nutrients and their roles",
+      "Distinguish mechanical and chemical digestion",
+      "Describe how digested food is absorbed"
+    ],
+    "objectives_fr": [
+      "Nommer les principaux nutriments et leurs roles",
+      "Distinguer digestion mecanique et digestion chimique",
+      "Decrire comment la nourriture digeree est absorbee"
+    ],
+    "estimated_minutes": 25
+  },
+  "steps": [
+    {
+      "kind": "concept",
+      "title": "Nutrients and their jobs",
+      "title_fr": "Les nutriments et leurs roles",
+      "content": "Carbohydrates, such as starch and sugar, are the main source of energy. Proteins are needed for growth and repair. Fats store energy and keep the body warm.",
+      "content_fr": "Les glucides, comme l'amidon et le sucre, sont la principale source d'energie. Les proteines sont necessaires a la croissance et a la reparation. Les lipides stockent de l'energie et gardent le corps au chaud.",
+      "required": true,
+      "xp": 10,
+      "question": {
+        "kind": "mcq",
+        "text": "Which nutrient is mainly for growth and repair?",
+        "text_fr": "Quel nutriment sert principalement a la croissance et a la reparation ?",
+        "explanation": "Proteins are used for growth and repair.",
+        "explanation_fr": "Les proteines servent a la croissance et a la reparation.",
+        "hint_prompt": "Found in meat, fish and beans.",
+        "hint_prompt_fr": "Present dans la viande, le poisson et les haricots.",
+        "choices": [
+          {"text": "Protein", "text_fr": "Les proteines", "correct": true},
+          {"text": "Fat", "text_fr": "Les lipides", "correct": false},
+          {"text": "Water", "text_fr": "L'eau", "correct": false}
+        ],
+        "hints": [
+          {"text": "Builds muscle.", "text_fr": "Construit les muscles."}
+        ]
+      }
+    },
+    {
+      "kind": "explain",
+      "title": "Two kinds of digestion",
+      "title_fr": "Deux types de digestion",
+      "content": "Mechanical digestion is the physical breaking of food, for example by chewing. Chemical digestion uses enzymes to break large molecules into small ones.\n\nAmylase breaks down starch into sugar. Proteases break down proteins into amino acids. Lipases break down fats into fatty acids and glycerol.",
+      "content_fr": "La digestion mecanique est la decomposition physique des aliments, par exemple par la mastication. La digestion chimique utilise des enzymes pour decomposer les grosses molecules en petites.\n\nL'amylase decompose l'amidon en sucre. Les proteases decomposent les proteines en acides amines. Les lipases decomposent les lipides en acides gras et glycerol.",
+      "required": true,
+      "xp": 10
+    },
+    {
+      "kind": "example",
+      "title": "Absorption in the small intestine",
+      "title_fr": "L'absorption dans l'intestin grele",
+      "content": "The small intestine is long and has folded walls covered in villi. Villi give a large surface area for absorbing small molecules into the blood.",
+      "content_fr": "L'intestin grele est long et ses parois plissees sont couvertes de villosites. Les villosites donnent une grande surface pour absorber les petites molecules dans le sang.",
+      "required": true,
+      "xp": 12
+    },
+    {
+      "kind": "practice",
+      "title": "Your turn: which enzyme",
+      "title_fr": "A toi : quelle enzyme",
+      "content": "Which enzyme breaks down starch?",
+      "content_fr": "Quelle enzyme decompose l'amidon ?",
+      "required": true,
+      "xp": 12,
+      "question": {
+        "kind": "mcq",
+        "text": "Which enzyme breaks down starch?",
+        "text_fr": "Quelle enzyme decompose l'amidon ?",
+        "explanation": "Amylase breaks down starch into sugar.",
+        "explanation_fr": "L'amylase decompose l'amidon en sucre.",
+        "hint_prompt": "Found in saliva.",
+        "hint_prompt_fr": "Presente dans la salive.",
+        "choices": [
+          {"text": "Amylase", "text_fr": "L'amylase", "correct": true},
+          {"text": "Protease", "text_fr": "La protease", "correct": false},
+          {"text": "Lipase", "text_fr": "La lipase", "correct": false}
+        ],
+        "hints": [
+          {"text": "Starch starts with amyl.", "text_fr": "L'amidon commence par amyl."}
+        ]
+      }
+    },
+    {
+      "kind": "question",
+      "title": "Check: balanced diet",
+      "title_fr": "Verification : alimentation equilibree",
+      "content": "A balanced diet contains the right amounts of carbohydrates, proteins, fats, vitamins, minerals, fibre and water. Too little of a nutrient can cause health problems.",
+      "content_fr": "Une alimentation equilibree contient les bonnes quantites de glucides, proteines, lipides, vitamines, mineraux, fibres et eau. Un manque d'un nutriment peut causer des problemes de sante.",
+      "required": true,
+      "xp": 12,
+      "question": {
+        "kind": "mcq",
+        "text": "Why is a balanced diet important?",
+        "text_fr": "Pourquoi une alimentation equilibree est-elle importante ?",
+        "explanation": "It provides the right amounts of all needed nutrients.",
+        "explanation_fr": "Elle fournit les bonnes quantites de tous les nutriments necessaires.",
+        "hint_prompt": "The body needs many different things.",
+        "hint_prompt_fr": "Le corps a besoin de choses tres variees.",
+        "choices": [
+          {"text": "It gives all the nutrients the body needs", "text_fr": "Elle donne tous les nutriments dont le corps a besoin", "correct": true},
+          {"text": "It only provides sugar", "text_fr": "Elle ne fournit que du sucre", "correct": false},
+          {"text": "It removes the need for water", "text_fr": "Elle supprime le besoin d'eau", "correct": false}
+        ],
+        "hints": [
+          {"text": "Balance means the right mix.", "text_fr": "Equilibre veut dire le bon melange."}
+        ]
+      }
+    },
+    {
+      "kind": "summary",
+      "title": "What to keep",
+      "title_fr": "A retenir",
+      "content": "A balanced diet supplies carbohydrates, proteins, fats, vitamins, minerals, fibre and water. Digestion breaks food into small molecules, which are absorbed through the villi of the small intestine.",
+      "content_fr": "Une alimentation equilibree fournit glucides, proteines, lipides, vitamines, mineraux, fibres et eau. La digestion decompose les aliments en petites molecules, qui sont absorbees par les villosites de l'intestin grele.",
+      "required": false,
+      "xp": 5
+    }
+  ],
+  "quiz": {
+    "title": "Digestion and Nutrition",
+    "title_fr": "Digestion et nutrition",
+    "pass_score": 60,
+    "questions": [
+      {
+        "kind": "mcq",
+        "text": "Which nutrient is the main source of energy?",
+        "text_fr": "Quel nutriment est la principale source d'energie ?",
+        "explanation": "Carbohydrates are the main source of energy.",
+        "explanation_fr": "Les glucides sont la principale source d'energie.",
+        "choices": [
+          {"text": "Carbohydrates", "text_fr": "Les glucides", "correct": true},
+          {"text": "Minerals", "text_fr": "Les mineraux", "correct": false},
+          {"text": "Water", "text_fr": "L'eau", "correct": false}
+        ],
+        "hints": [
+          {"text": "Starch and sugar are examples.", "text_fr": "L'amidon et le sucre en sont des exemples."}
+        ],
+        "difficulty": 1
+      },
+      {
+        "kind": "mcq",
+        "text": "What does mechanical digestion do?",
+        "text_fr": "Que fait la digestion mecanique ?",
+        "explanation": "It breaks food into smaller pieces physically, for example by chewing.",
+        "explanation_fr": "Elle divise physiquement les aliments en petits morceaux, par exemple par la mastication.",
+        "choices": [
+          {"text": "Breaks food into smaller pieces", "text_fr": "Divise les aliments en petits morceaux", "correct": true},
+          {"text": "Uses enzymes only", "text_fr": "Utilise seulement des enzymes", "correct": false},
+          {"text": "Absorbs water only", "text_fr": "Absorbe seulement de l'eau", "correct": false}
+        ],
+        "hints": [
+          {"text": "Chewing is an example.", "text_fr": "La mastication en est un exemple."}
+        ],
+        "difficulty": 1
+      },
+      {
+        "kind": "mcq",
+        "text": "What do proteases break down?",
+        "text_fr": "Que decomposent les proteases ?",
+        "explanation": "Proteases break down proteins into amino acids.",
+        "explanation_fr": "Les proteases decomposent les proteines en acides amines.",
+        "choices": [
+          {"text": "Proteins", "text_fr": "Les proteines", "correct": true},
+          {"text": "Starch", "text_fr": "L'amidon", "correct": false},
+          {"text": "Fats", "text_fr": "Les lipides", "correct": false}
+        ],
+        "hints": [
+          {"text": "The name sounds like protein.", "text_fr": "Le nom ressemble a proteine."}
+        ],
+        "difficulty": 1
+      },
+      {
+        "kind": "mcq",
+        "text": "Why does the small intestine have villi?",
+        "text_fr": "Pourquoi l'intestin grele a-t-il des villosites ?",
+        "explanation": "Villi increase the surface area for absorption.",
+        "explanation_fr": "Les villosites augmentent la surface d'absorption.",
+        "choices": [
+          {"text": "To increase surface area for absorption", "text_fr": "Pour augmenter la surface d'absorption", "correct": true},
+          {"text": "To store water", "text_fr": "Pour stocker de l'eau", "correct": false},
+          {"text": "To make enzymes", "text_fr": "Pour fabriquer des enzymes", "correct": false}
+        ],
+        "hints": [
+          {"text": "More surface means more absorption.", "text_fr": "Plus de surface veut dire plus d'absorption."}
+        ],
+        "difficulty": 2
+      },
+      {
+        "kind": "mcq",
+        "text": "Which is NOT a nutrient the body needs?",
+        "text_fr": "Lequel n'est PAS un nutriment dont le corps a besoin ?",
+        "explanation": "Plastic is not a nutrient.",
+        "explanation_fr": "Le plastique n'est pas un nutriment.",
+        "choices": [
+          {"text": "Plastic", "text_fr": "Le plastique", "correct": true},
+          {"text": "Vitamins", "text_fr": "Les vitamines", "correct": false},
+          {"text": "Minerals", "text_fr": "Les mineraux", "correct": false}
+        ],
+        "hints": [
+          {"text": "Only food nutrients count.", "text_fr": "Seuls les nutriments alimentaires comptent."}
+        ],
+        "difficulty": 2
+      }
+    ]
+  }
+}

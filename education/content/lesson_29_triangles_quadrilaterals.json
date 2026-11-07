@@ -4,189 +4,229 @@
   "lesson_fields": {
     "title": "Triangles and Quadrilaterals",
     "title_fr": "Triangles et quadrilatères",
-    "summary": "Angle sum of triangle = 180°, quadrilateral = 360°. Properties of isosceles, equilateral, parallelogram.",
-    "summary_fr": "Somme des angles d'un triangle = 180°, d'un quadrilatère = 360°. Propriétés d'un triangle isocèle, équilatéral, parallélogramme.",
-    "content": "## Key facts\n\n1. Triangle: angles sum to 180°.\n2. Equilateral: all angles 60°. Isosceles: two equal angles.\n3. Quadrilateral: angles sum to 360°.\n4. Parallelogram: opposite angles equal, adjacent supplementary.",
-    "content_fr": "Faits clés\n\n1. Triangle : somme des angles = 180°.\n2. Équilatéral : tous angles 60°. Isocèle : deux angles égaux.\n3. Quadrilatère : somme des angles = 360°.\n4. Parallélogramme : angles opposés égaux, angles adjacents supplémentaires.",
+    "summary": "Learn the angle properties of triangles and quadrilaterals and use the special features of equilateral, isosceles, right-angled triangles, parallelograms and trapeziums.",
+    "summary_fr": "Apprends les propriétés des angles des triangles et des quadrilatères et utilise les particularités des triangles équilatéraux, isocèles, rectangles, des parallélogrammes et des trapèzes.",
+    "content": "## Key angle facts\n\n- The angles inside any triangle add up to 180 degrees.\n- The angles inside any quadrilateral add up to 360 degrees.\n- Special triangles and quadrilaterals have extra equal angles or equal sides that make the calculations faster.",
+    "content_fr": "## Faits essentiels sur les angles\n\n- Les angles intérieurs de tout triangle font 180 degrés.\n- Les angles intérieurs de tout quadrilatère font 360 degrés.\n- Les triangles et quadrilatères particuliers ont des angles ou des côtés égaux supplémentaires qui accélèrent les calculs.",
     "objectives": [
-      "Use triangle angle sum",
-      "Identify isosceles/equilateral",
-      "Use quadrilateral angle sum",
-      "Apply parallelogram properties"
+      "Use the 180-degree angle sum of a triangle",
+      "Recognise equilateral, isosceles and right-angled triangles",
+      "Use the 360-degree angle sum of a quadrilateral",
+      "Apply the properties of parallelograms, rhombuses and trapeziums"
     ],
     "objectives_fr": [
-      "Utiliser la somme des angles d'un triangle",
-      "Identifier un triangle isocèle ou équilatéral",
-      "Utiliser la somme des angles d'un quadrilatère",
-      "Appliquer les propriétés d'un parallélogramme"
+      "Utiliser la somme des angles d'un triangle égale à 180 degrés",
+      "Reconnaître les triangles équilatéraux, isocèles et rectangles",
+      "Utiliser la somme des angles d'un quadrilatère égale à 360 degrés",
+      "Appliquer les propriétés des parallélogrammes, des losanges et des trapèzes"
     ],
-    "estimated_minutes": 25
+    "estimated_minutes": 30
   },
   "steps": [
     {
       "kind": "concept",
-      "title": "Triangle angles",
-      "title_fr": "Angles d'un triangle",
-      "content": "Angles in a triangle add to 180°. Find third angle: 180 - sum of two.",
-      "content_fr": "Les angles d'un triangle additionnés font 180°. Pour trouver le troisième : 180 - somme des deux.",
+      "title": "Angle sum of a triangle",
+      "title_fr": "Somme des angles d'un triangle",
+      "content": "The three interior angles of any triangle always add up to 180 degrees, whatever the shape of the triangle.\n\nTo find a missing angle, add the two angles you know and subtract from 180.\n\nWorked example: a triangle has angles of 55 and 65 degrees. Their sum is 120, so the third angle is 180 - 120 = 60 degrees.",
+      "content_fr": "Les trois angles intérieurs d'un triangle font toujours 180 degrés, quelle que soit la forme du triangle.\n\nPour trouver un angle manquant, additionne les deux angles connus puis retranche de 180.\n\nExemple rédigé : un triangle a des angles de 55 et 65 degrés. Leur somme vaut 120, donc le troisième angle vaut 180 - 120 = 60 degrés.",
       "required": true,
       "xp": 10,
       "question": {
         "kind": "numeric",
-        "text": "Triangle angles 50°, 60°, x°. Find x.",
-        "text_fr": "Angles d'un triangle : 50°, 60°, x°. Trouve x.",
-        "explanation": "50 + 60 + x = 180 → x = 70.",
-        "explanation_fr": "50 + 60 + x = 180 → x = 70.",
-        "hint_prompt": "Sum 180.",
-        "hint_prompt_fr": "Somme 180.",
-        "config": {"accepted": ["70"]},
+        "difficulty": 1,
+        "text": "A triangle has angles of 70 and 50 degrees. Find the third angle in degrees.",
+        "text_fr": "Un triangle a des angles de 70 et 50 degrés. Trouve le troisième angle en degrés.",
+        "explanation": "70 + 50 = 120, so the third angle is 180 - 120 = 60 degrees.",
+        "explanation_fr": "70 + 50 = 120, donc le troisième angle vaut 180 - 120 = 60 degrés.",
+        "hint_prompt": "The three angles sum to 180.",
+        "hint_prompt_fr": "Les trois angles font 180.",
+        "config": {"accepted": [60]},
         "hints": [
-          {"text": "50 + 60 = 110, 180 - 110 = 70.", "text_fr": "50 + 60 = 110, 180 - 110 = 70."}
+          {"text": "Add the known angles: 120.", "text_fr": "Additionne les angles connus : 120."},
+          {"text": "180 - 120 = 60.", "text_fr": "180 - 120 = 60."}
         ]
       }
     },
     {
       "kind": "concept",
-      "title": "Equilateral and isosceles",
-      "title_fr": "Équilatéral et isocèle",
-      "content": "Equilateral: all angles 60°, all sides equal. Isosceles: two equal angles, two equal sides.",
-      "content_fr": "Équilatéral : tous les angles à 60°, tous les côtés égaux. Isocèle : deux angles égaux, deux côtés égaux.",
+      "title": "Special triangles",
+      "title_fr": "Triangles particuliers",
+      "content": "An equilateral triangle has three equal sides, so all three angles are equal: each is 180 / 3 = 60 degrees.\n\nAn isosceles triangle has two equal sides, and the two angles at the base of those equal sides are equal. Given the third angle a, each base angle is (180 - a) / 2.\n\nA right-angled triangle contains one 90 degree angle, so the other two angles add to 90 degrees.",
+      "content_fr": "Un triangle équilatéral a trois côtés égaux, donc ses trois angles sont égaux : chacun vaut 180 / 3 = 60 degrés.\n\nUn triangle isocèle a deux côtés égaux : les deux angles à la base, à l'opposé du sommet, sont égaux. Si l'angle au sommet est a, chaque angle de base vaut (180 - a) / 2.\n\nUn triangle rectangle possède un angle de 90 degrés, donc les deux autres angles font ensemble 90 degrés.",
       "required": true,
       "xp": 10,
       "question": {
         "kind": "numeric",
-        "text": "An equilateral triangle: each angle is x°. Find x.",
-        "text_fr": "Un triangle équilatéral : chaque angle vaut x°. Trouve x.",
-        "explanation": "180 / 3 = 60.",
-        "explanation_fr": "180 / 3 = 60.",
-        "hint_prompt": "180 divided by 3.",
-        "hint_prompt_fr": "180 divisé par 3.",
-        "config": {"accepted": ["60"]},
+        "difficulty": 2,
+        "text": "An isosceles triangle has a top angle of 40 degrees. Find each base angle in degrees.",
+        "text_fr": "Un triangle isocèle a un angle au sommet de 40 degrés. Trouve la mesure de chaque angle de base en degrés.",
+        "explanation": "The two base angles are equal and share 180 - 40 = 140, so each is 140 / 2 = 70 degrees.",
+        "explanation_fr": "Les deux angles de base sont égaux et se partagent 180 - 40 = 140, donc chacun vaut 140 / 2 = 70 degrés.",
+        "hint_prompt": "Subtract the top angle, then halve.",
+        "hint_prompt_fr": "Retranche l'angle au sommet, puis divise par deux.",
+        "config": {"accepted": [70]},
         "hints": [
-          {"text": "180/3 = 60.", "text_fr": "180/3 = 60."}
+          {"text": "The base angles are equal.", "text_fr": "Les angles de base sont égaux."},
+          {"text": "(180 - 40) / 2 = 70.", "text_fr": "(180 - 40) / 2 = 70."}
         ]
       }
     },
     {
-      "kind": "explain",
-      "title": "Quadrilateral angles",
-      "title_fr": "Angles d'un quadrilatère",
-      "content": "Quadrilateral angles sum to 360°. Find missing: 360 minus sum of others.",
-      "content_fr": "Les angles d'un quadrilatère font 360°. Angle manquant = 360 - somme des autres.",
+      "kind": "concept",
+      "title": "Angle sum of a quadrilateral",
+      "title_fr": "Somme des angles d'un quadrilatère",
+      "content": "A quadrilateral has four sides, and you can split it into two triangles by drawing one diagonal. Since each triangle gives 180 degrees, the four angles add up to 2 x 180 = 360 degrees.\n\nWorked example: three angles of a quadrilateral are 100, 80 and 90 degrees. Their sum is 270, so the fourth angle is 360 - 270 = 90 degrees.",
+      "content_fr": "Un quadrilatère a quatre côtés et on peut le partager en deux triangles en traçant une diagonale. Comme chaque triangle donne 180 degrés, les quatre angles font 2 x 180 = 360 degrés.\n\nExemple rédigé : trois angles d'un quadrilatère valent 100, 80 et 90 degrés. Leur somme vaut 270, donc le quatrième angle vaut 360 - 270 = 90 degrés.",
       "required": true,
       "xp": 12,
       "question": {
         "kind": "numeric",
-        "text": "Quadrilateral: 90°, 80°, 70°, x°. Find x.",
-        "text_fr": "Quadrilatère : 90°, 80°, 70°, x°. Trouve x.",
-        "explanation": "90 + 80 + 70 = 240, 360 - 240 = 120.",
-        "explanation_fr": "90 + 80 + 70 = 240, 360 - 240 = 120.",
-        "hint_prompt": "Sum to 360.",
-        "hint_prompt_fr": "Somme 360.",
-        "config": {"accepted": ["120"]},
+        "difficulty": 2,
+        "text": "Three angles of a quadrilateral are 85, 95 and 110 degrees. Find the fourth angle in degrees.",
+        "text_fr": "Trois angles d'un quadrilatère valent 85, 95 et 110 degrés. Trouve le quatrième angle en degrés.",
+        "explanation": "85 + 95 + 110 = 290, so the fourth angle is 360 - 290 = 70 degrees.",
+        "explanation_fr": "85 + 95 + 110 = 290, donc le quatrième angle vaut 360 - 290 = 70 degrés.",
+        "hint_prompt": "The four angles sum to 360.",
+        "hint_prompt_fr": "Les quatre angles font 360.",
+        "config": {"accepted": [70]},
         "hints": [
-          {"text": "240 + x = 360.", "text_fr": "240 + x = 360."},
-          {"text": "x = 120.", "text_fr": "x = 120."}
+          {"text": "Add the known angles: 290.", "text_fr": "Additionne les angles connus : 290."},
+          {"text": "360 - 290 = 70.", "text_fr": "360 - 290 = 70."}
         ]
       }
     },
     {
       "kind": "explain",
-      "title": "Parallelogram",
-      "title_fr": "Parallélogramme",
-      "content": "Opposite angles equal, adjacent angles supplementary (sum 180°).",
-      "content_fr": "Angles opposés égaux, angles adjacents supplémentaires (180°).",
+      "title": "Properties of special quadrilaterals",
+      "title_fr": "Propriétés des quadrilatères particuliers",
+      "content": "In a parallelogram, opposite sides are parallel and equal, and opposite angles are equal. Adjacent angles add to 180 degrees.\n\nA rectangle is a parallelogram with four right angles. A rhombus is a parallelogram with four equal sides. A square is both a rectangle and a rhombus.\n\nA trapezium has exactly one pair of parallel sides. The two angles on the same side of a leg add to 180 degrees.",
+      "content_fr": "Dans un parallélogramme, les côtés opposés sont parallèles et égaux, et les angles opposés sont égaux. Les angles adjacents font 180 degrés.\n\nUn rectangle est un parallélogramme avec quatre angles droits. Un losange est un parallélogramme avec quatre côtés égaux. Un carré est à la fois un rectangle et un losange.\n\nUn trapèze a exactement une paire de côtés parallèles. Les deux angles du même côté d'un côté non parallèle font 180 degrés.",
       "required": true,
-      "xp": 10,
+      "xp": 15,
       "question": {
-        "kind": "numeric",
-        "text": "Parallelogram: one angle is 70°. What is its adjacent angle in degrees?",
-        "text_fr": "Parallélogramme : un angle vaut 70°. Quel est l'angle adjacent (en degrés) ?",
-        "explanation": "Adjacent supplementary: 180 - 70 = 110.",
-        "explanation_fr": "Adjacent supplémentaire : 180 - 70 = 110.",
-        "hint_prompt": "Adjacent sum to 180.",
-        "hint_prompt_fr": "Angles adjacents font 180.",
-        "config": {"accepted": ["110"]},
+        "kind": "mcq",
+        "difficulty": 2,
+        "text": "In a parallelogram, one angle is 65 degrees. What is the size of the angle next to it?",
+        "text_fr": "Dans un parallélogramme, un angle vaut 65 degrés. Quelle est la mesure de l'angle voisin ?",
+        "explanation": "Adjacent angles in a parallelogram add to 180, so the next angle is 180 - 65 = 115 degrees.",
+        "explanation_fr": "Les angles adjacents d'un parallélogramme font 180, donc l'angle voisin vaut 180 - 65 = 115 degrés.",
+        "hint_prompt": "Adjacent angles in a parallelogram are supplementary.",
+        "hint_prompt_fr": "Les angles adjacents d'un parallélogramme sont supplémentaires.",
+        "choices": [
+          {"text": "115 degrees", "text_fr": "115 degrés", "correct": true},
+          {"text": "65 degrees", "text_fr": "65 degrés", "correct": false},
+          {"text": "25 degrees", "text_fr": "25 degrés", "correct": false},
+          {"text": "295 degrees", "text_fr": "295 degrés", "correct": false}
+        ],
         "hints": [
-          {"text": "180 - 70 = 110.", "text_fr": "180 - 70 = 110."}
+          {"text": "Adjacent angles add to 180.", "text_fr": "Les angles adjacents font 180."},
+          {"text": "180 - 65 = 115.", "text_fr": "180 - 65 = 115."}
         ]
       }
+    },
+    {
+      "kind": "example",
+      "title": "Choosing the right rule",
+      "title_fr": "Choisir la bonne règle",
+      "content": "Worked example: a shape is made of a triangle on top of a rectangle. The triangle has a top angle of 80 degrees and two equal sides. Each base angle is (180 - 80) / 2 = 50 degrees. The rectangle contributes four right angles of 90 degrees each.\n\nStrategy: identify each simple shape first, apply its angle sum, then combine the results.",
+      "content_fr": "Exemple rédigé : une figure est formée d'un triangle posé sur un rectangle. Le triangle a un angle au sommet de 80 degrés et deux côtés égaux. Chaque angle de base vaut (180 - 80) / 2 = 50 degrés. Le rectangle apporte quatre angles droits de 90 degrés chacun.\n\nStratégie : identifie d'abord chaque figure simple, applique sa somme d'angles, puis combine les résultats.",
+      "required": false,
+      "xp": 10
     },
     {
       "kind": "summary",
       "title": "What to keep",
       "title_fr": "À retenir",
-      "content": "Triangle 180°. Quadrilateral 360°. Isosceles = two equal angles. Parallelogram: opposite equal, adjacent sum 180°.",
-      "content_fr": "Triangle 180°. Quadrilatère 360°. Isocèle = deux angles égaux. Parallélogramme : opposés égaux, adjacents font 180°.",
+      "content": "Triangle angles sum to 180 degrees; quadrilateral angles sum to 360 degrees. In an equilateral triangle every angle is 60. In an isosceles triangle the base angles are equal. In a parallelogram opposite angles are equal and adjacent angles add to 180.",
+      "content_fr": "Les angles d'un triangle font 180 degrés ; ceux d'un quadrilatère font 360 degrés. Dans un triangle équilatéral, chaque angle vaut 60. Dans un triangle isocèle, les angles de base sont égaux. Dans un parallélogramme, les angles opposés sont égaux et les angles adjacents font 180.",
       "required": false,
       "xp": 5
     }
   ],
   "quiz": {
-    "title": "Triangles and quadrilaterals",
-    "title_fr": "Triangles et quadrilatères",
+    "title": "Quiz - Triangles and quadrilaterals",
+    "title_fr": "Quiz - Triangles et quadrilatères",
     "pass_score": 60,
     "questions": [
       {
         "kind": "numeric",
-        "text": "Triangle: 40°, 70°, x°. Find x.",
-        "text_fr": "Triangle : 40°, 70°, x°. Trouve x.",
-        "explanation": "180 - 110 = 70.",
-        "explanation_fr": "180 - 110 = 70.",
-        "config": {"accepted": ["70"]},
+        "difficulty": 1,
+        "text": "A triangle has angles 90 and 45 degrees. Find the third angle in degrees.",
+        "text_fr": "Un triangle a des angles de 90 et 45 degrés. Trouve le troisième angle en degrés.",
+        "explanation": "90 + 45 = 135, so the third angle is 180 - 135 = 45 degrees.",
+        "explanation_fr": "90 + 45 = 135, donc le troisième angle vaut 180 - 135 = 45 degrés.",
+        "hint_prompt": "Triangle angles sum to 180.",
+        "hint_prompt_fr": "Les angles d'un triangle font 180.",
+        "config": {"accepted": [45]},
         "hints": [
-          {"text": "110 + x = 180.", "text_fr": "110 + x = 180."}
-        ],
-        "difficulty": 1
+          {"text": "180 - 135 = 45.", "text_fr": "180 - 135 = 45."},
+          {"text": "It is an isosceles right triangle.", "text_fr": "C'est un triangle rectangle isocèle."}
+        ]
       },
       {
         "kind": "numeric",
-        "text": "Equilateral: each angle is x°. x = ?",
-        "text_fr": "Équilatéral : chaque angle vaut x°. x = ?",
-        "explanation": "60.",
-        "explanation_fr": "60.",
-        "config": {"accepted": ["60"]},
+        "difficulty": 1,
+        "text": "Each angle of an equilateral triangle is x degrees. Find x.",
+        "text_fr": "Chaque angle d'un triangle équilatéral vaut x degrés. Trouve x.",
+        "explanation": "3x = 180, so x = 60 degrees.",
+        "explanation_fr": "3x = 180, donc x = 60 degrés.",
+        "hint_prompt": "Divide 180 by 3.",
+        "hint_prompt_fr": "Divise 180 par 3.",
+        "config": {"accepted": [60]},
         "hints": [
-          {"text": "180/3.", "text_fr": "180/3."}
-        ],
-        "difficulty": 1
+          {"text": "All three angles are equal.", "text_fr": "Les trois angles sont égaux."},
+          {"text": "180 / 3 = 60.", "text_fr": "180 / 3 = 60."}
+        ]
       },
       {
         "kind": "numeric",
-        "text": "Quadrilateral: four angles equal. Find each in degrees.",
-        "text_fr": "Quadrilatère à quatre angles égaux. Trouve chaque angle (en degrés).",
-        "explanation": "360/4 = 90.",
-        "explanation_fr": "360/4 = 90.",
-        "config": {"accepted": ["90"]},
+        "difficulty": 2,
+        "text": "Three angles of a quadrilateral are 120, 60 and 80 degrees. Find the fourth angle in degrees.",
+        "text_fr": "Trois angles d'un quadrilatère valent 120, 60 et 80 degrés. Trouve le quatrième angle en degrés.",
+        "explanation": "120 + 60 + 80 = 260, so the fourth angle is 360 - 260 = 100 degrees.",
+        "explanation_fr": "120 + 60 + 80 = 260, donc le quatrième angle vaut 360 - 260 = 100 degrés.",
+        "hint_prompt": "Add the three known angles, then subtract from 360.",
+        "hint_prompt_fr": "Additionne les trois angles connus, puis retranche de 360.",
+        "config": {"accepted": [100]},
         "hints": [
-          {"text": "360/4.", "text_fr": "360/4."}
+          {"text": "120 + 60 + 80 = 260.", "text_fr": "120 + 60 + 80 = 260."},
+          {"text": "360 - 260 = 100.", "text_fr": "360 - 260 = 100."}
+        ]
+      },
+      {
+        "kind": "mcq",
+        "difficulty": 2,
+        "text": "In a parallelogram, one angle is 120 degrees. What is the opposite angle?",
+        "text_fr": "Dans un parallélogramme, un angle vaut 120 degrés. Quelle est la mesure de l'angle opposé ?",
+        "explanation": "Opposite angles of a parallelogram are equal, so the opposite angle is 120 degrees.",
+        "explanation_fr": "Les angles opposés d'un parallélogramme sont égaux, donc l'angle opposé vaut 120 degrés.",
+        "hint_prompt": "Opposite angles are equal.",
+        "hint_prompt_fr": "Les angles opposés sont égaux.",
+        "choices": [
+          {"text": "120 degrees", "text_fr": "120 degrés", "correct": true},
+          {"text": "60 degrees", "text_fr": "60 degrés", "correct": false},
+          {"text": "240 degrees", "text_fr": "240 degrés", "correct": false},
+          {"text": "30 degrees", "text_fr": "30 degrés", "correct": false}
         ],
-        "difficulty": 1
+        "hints": [
+          {"text": "They have the same size.", "text_fr": "Ils ont la même mesure."},
+          {"text": "So it is 120 degrees.", "text_fr": "Il vaut donc 120 degrés."}
+        ]
       },
       {
         "kind": "numeric",
-        "text": "Parallelogram: one angle 50°, adjacent is x°. x = ?",
-        "text_fr": "Parallélogramme : un angle 50°, angle adjacent x°. x = ?",
-        "explanation": "180 - 50 = 130.",
-        "explanation_fr": "180 - 50 = 130.",
-        "config": {"accepted": ["130"]},
+        "difficulty": 2,
+        "text": "An isosceles triangle has a top angle of 100 degrees. Find each base angle in degrees.",
+        "text_fr": "Un triangle isocèle a un angle au sommet de 100 degrés. Trouve chaque angle de base en degrés.",
+        "explanation": "The base angles share 180 - 100 = 80, so each is 80 / 2 = 40 degrees.",
+        "explanation_fr": "Les angles de base se partagent 180 - 100 = 80, donc chacun vaut 80 / 2 = 40 degrés.",
+        "hint_prompt": "Subtract the top angle, then halve.",
+        "hint_prompt_fr": "Retranche l'angle au sommet, puis divise par deux.",
+        "config": {"accepted": [40]},
         "hints": [
-          {"text": "180 - 50.", "text_fr": "180 - 50."}
-        ],
-        "difficulty": 2
-      },
-      {
-        "kind": "numeric",
-        "text": "Triangle: angles x°, x°, 40°. Find x.",
-        "text_fr": "Triangle : angles x°, x°, 40°. Trouve x.",
-        "explanation": "2x = 140 → x = 70.",
-        "explanation_fr": "2x = 140 → x = 70.",
-        "config": {"accepted": ["70"]},
-        "hints": [
-          {"text": "2x + 40 = 180.", "text_fr": "2x + 40 = 180."},
-          {"text": "2x = 140, x = 70.", "text_fr": "2x = 140, x = 70."}
-        ],
-        "difficulty": 2
+          {"text": "180 - 100 = 80.", "text_fr": "180 - 100 = 80."},
+          {"text": "80 / 2 = 40.", "text_fr": "80 / 2 = 40."}
+        ]
       }
     ]
   }

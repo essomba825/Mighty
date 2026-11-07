@@ -1,0 +1,255 @@
+{
+  "lesson": 107,
+  "status": "published",
+  "lesson_fields": {
+    "title": "Atomic Structure and the Periodic Table",
+    "title_fr": "Structure atomique et tableau périodique",
+    "summary": "Describe the structure of the atom and use proton and electron numbers to place elements in the periodic table.",
+    "summary_fr": "Décrire la structure de l'atome et utiliser le nombre de protons et d'électrons pour placer les éléments dans le tableau périodique.",
+    "content": "## What you will learn\n\nAn atom is made of a tiny central nucleus surrounded by electrons. The number of protons decides which element it is, and the way electrons are arranged explains the shape of the periodic table.",
+    "content_fr": "## Ce que tu vas apprendre\n\nUn atome est fait d'un minuscule noyau central entouré d'électrons. Le nombre de protons décide de l'élément, et la disposition des électrons explique la forme du tableau périodique.",
+    "objectives": [
+      "Describe protons, neutrons and electrons in an atom",
+      "Work out proton, neutron and electron numbers",
+      "Relate group and period to electron arrangement"
+    ],
+    "objectives_fr": [
+      "Décrire les protons, neutrons et électrons d'un atome",
+      "Calculer les nombres de protons, neutrons et électrons",
+      "Relier groupe et période à la structure électronique"
+    ],
+    "estimated_minutes": 30
+  },
+  "steps": [
+    {
+      "kind": "concept",
+      "title": "Inside the atom",
+      "title_fr": "À l'intérieur de l'atome",
+      "content": "Every atom has a tiny central nucleus packed with protons and neutrons, and electrons moving in shells around it. A proton carries a positive charge, an electron carries an equal negative charge, and a neutron has no charge at all.\n\nProtons and neutrons have almost the same mass and are called nucleons, while an electron is about two thousand times lighter, so nearly all the mass of an atom sits in its nucleus.\n\nWorked example: a carbon atom holds 6 protons and 6 neutrons in its nucleus and 6 electrons in two shells.",
+      "content_fr": "Chaque atome possède un noyau central minuscule rempli de protons et de neutrons, et des électrons qui tournent autour dans des couches. Un proton porte une charge positive, un électron une charge négative égale, et un neutron n'a aucune charge.\n\nLes protons et les neutrons ont presque la même masse et sont appelés nucléons, tandis qu'un électron est environ deux mille fois plus léger : presque toute la masse d'un atome se trouve donc dans son noyau.\n\nExemple rédigé : un atome de carbone contient 6 protons et 6 neutrons dans son noyau, et 6 électrons sur deux couches.",
+      "required": true,
+      "xp": 10,
+      "question": {
+        "kind": "mcq",
+        "difficulty": 1,
+        "text": "Which particle has a negative charge and moves around the nucleus?",
+        "text_fr": "Quelle particule porte une charge négative et tourne autour du noyau ?",
+        "explanation": "The electron is negative and orbits in shells; protons are positive and neutrons are neutral.",
+        "explanation_fr": "L'électron est négatif et tourne sur des couches ; les protons sont positifs et les neutrons neutres.",
+        "hint_prompt": "It is the lightest particle.",
+        "hint_prompt_fr": "C'est la particule la plus légère.",
+        "choices": [
+          {"text": "The proton", "text_fr": "Le proton", "correct": false},
+          {"text": "The neutron", "text_fr": "Le neutron", "correct": false},
+          {"text": "The electron", "text_fr": "L'électron", "correct": true},
+          {"text": "The nucleus", "text_fr": "Le noyau", "correct": false}
+        ],
+        "hints": [
+          {"text": "Positive particles sit in the nucleus.", "text_fr": "Les particules positives restent dans le noyau."},
+          {"text": "The negative one orbits outside.", "text_fr": "La négative tourne à l'extérieur."}
+        ]
+      }
+    },
+    {
+      "kind": "concept",
+      "title": "Atomic number and mass number",
+      "title_fr": "Numéro atomique et nombre de masse",
+      "content": "The proton number (atomic number) tells you how many protons an atom has, and it is the identity card of the element. In a neutral atom the number of electrons equals the number of protons, so the charges balance.\n\nThe mass number counts protons plus neutrons together. To find the neutrons, subtract the proton number from the mass number.\n\nWorked example: sodium has proton number 11 and mass number 23, so it has 11 protons, 11 electrons and 23 - 11 = 12 neutrons.",
+      "content_fr": "Le numéro atomique indique combien de protons possède un atome : c'est la carte d'identité de l'élément. Dans un atome neutre, le nombre d'électrons est égal au nombre de protons, donc les charges s'équilibrent.\n\nLe nombre de masse compte les protons et les neutrons ensemble. Pour trouver les neutrons, on retranche le numéro atomique du nombre de masse.\n\nExemple rédigé : le sodium a pour numéro atomique 11 et pour nombre de masse 23 : il a donc 11 protons, 11 électrons et 23 - 11 = 12 neutrons.",
+      "required": true,
+      "xp": 12,
+      "question": {
+        "kind": "numeric",
+        "difficulty": 2,
+        "text": "An atom has proton number 17 and mass number 35. How many neutrons does it have?",
+        "text_fr": "Un atome a pour numéro atomique 17 et pour nombre de masse 35. Combien de neutrons possède-t-il ?",
+        "explanation": "Neutrons = mass number - proton number = 35 - 17 = 18.",
+        "explanation_fr": "Neutrons = nombre de masse - numéro atomique = 35 - 17 = 18.",
+        "hint_prompt": "Subtract the smaller number from the bigger one.",
+        "hint_prompt_fr": "Retranche le plus petit nombre du plus grand.",
+        "config": {"accepted": [18]},
+        "hints": [
+          {"text": "Mass number = protons + neutrons.", "text_fr": "Nombre de masse = protons + neutrons."},
+          {"text": "35 - 17 = 18.", "text_fr": "35 - 17 = 18."}
+        ]
+      }
+    },
+    {
+      "kind": "concept",
+      "title": "Electron shells, groups and periods",
+      "title_fr": "Couches électroniques, groupes et périodes",
+      "content": "Electrons fill shells from the inside out. The first shell holds up to 2 electrons, the second up to 8, and the third up to 8 for the first twenty elements.\n\nThe number of outer-shell electrons decides the group of an element, and the number of shells tells you its period. Elements in the same group have the same number of outer electrons, which is why they behave in similar ways.\n\nWorked example: chlorine has the arrangement 2, 8, 7: it has 7 outer electrons so it belongs to group 7, and it uses three shells so it is in period 3.",
+      "content_fr": "Les électrons se placent dans les couches à partir de l'intérieur. La première couche contient jusqu'à 2 électrons, la deuxième jusqu'à 8, et la troisième jusqu'à 8 pour les premiers éléments.\n\nLe nombre d'électrons de la couche externe donne le groupe, et le nombre de couches donne la période. Les éléments d'un même groupe ont le même nombre d'électrons externes : ils réagissent donc de façon semblable.\n\nExemple rédigé : le chlore a pour répartition 2, 8, 7 : il a 7 électrons externes, donc il appartient au groupe 7, et il occupe trois couches, donc il est dans la période 3.",
+      "required": true,
+      "xp": 12,
+      "question": {
+        "kind": "numeric",
+        "difficulty": 2,
+        "text": "An element has the electron arrangement 2, 8, 1. Which group is it in?",
+        "text_fr": "Un élément a pour répartition électronique 2, 8, 1. Dans quel groupe se trouve-t-il ?",
+        "explanation": "The outer shell holds 1 electron, so the element is in group 1.",
+        "explanation_fr": "La couche externe contient 1 électron : l'élément est donc dans le groupe 1.",
+        "hint_prompt": "Look at the last number only.",
+        "hint_prompt_fr": "Regarde seulement le dernier nombre.",
+        "config": {"accepted": [1]},
+        "hints": [
+          {"text": "The last number counts the outer electrons.", "text_fr": "Le dernier nombre compte les électrons externes."},
+          {"text": "The last number is 1.", "text_fr": "Le dernier nombre est 1."}
+        ]
+      }
+    },
+    {
+      "kind": "explain",
+      "title": "Reading the periodic table",
+      "title_fr": "Lire le tableau périodique",
+      "content": "The periodic table lists elements in order of proton number, arranged in groups (columns) and periods (rows). Metals sit on the left and centre, while non-metals gather on the right.\n\nGroup 1 holds the reactive alkali metals such as sodium and potassium. Group 7 holds the halogens such as chlorine and bromine. Group 0 (group 8) holds the noble gases, which are unreactive because their outer shells are already full.\n\nAcross a period the elements change from metal to non-metal, which matches the change in their properties.",
+      "content_fr": "Le tableau périodique range les éléments par ordre de numéro atomique, en groupes (colonnes) et en périodes (lignes). Les métaux occupent la gauche et le centre, tandis que les non-métaux se trouvent à droite.\n\nLe groupe 1 rassemble les métaux alcalins très réactifs, comme le sodium et le potassium. Le groupe 7 regroupe les halogènes comme le chlore et le brome. Le groupe 0 réunit les gaz nobles, très stables car leur couche externe est pleine.\n\nEn parcourant une période, on passe des métaux aux non-métaux : leurs propriétés se transforment peu à peu.",
+      "required": true,
+      "xp": 12,
+      "question": {
+        "kind": "mcq",
+        "difficulty": 2,
+        "text": "Why are group 0 elements so unreactive?",
+        "text_fr": "Pourquoi les éléments du groupe 0 sont-ils si peu réactifs ?",
+        "explanation": "Their outer electron shells are full, so they have little tendency to gain, lose or share electrons.",
+        "explanation_fr": "Leur couche électronique externe est pleine : ils ont donc peu tendance à gagner, perdre ou partager des électrons.",
+        "hint_prompt": "Think about the outer shell.",
+        "hint_prompt_fr": "Pense à la couche externe.",
+        "choices": [
+          {"text": "Their outer shell is full", "text_fr": "Leur couche externe est pleine", "correct": true},
+          {"text": "They have no electrons", "text_fr": "Ils n'ont aucun électron", "correct": false},
+          {"text": "They are all metals", "text_fr": "Ce sont tous des métaux", "correct": false},
+          {"text": "They have only one shell", "text_fr": "Ils n'ont qu'une seule couche", "correct": false}
+        ],
+        "hints": [
+          {"text": "Being full means no need to react.", "text_fr": "Être pleine signifie aucune envie de réagir."},
+          {"text": "It is a stable arrangement.", "text_fr": "C'est une disposition stable."}
+        ]
+      }
+    },
+    {
+      "kind": "practice",
+      "title": "Your turn: identify the element",
+      "title_fr": "À toi : identifier l'élément",
+      "content": "Read the data first, then decide. Count the protons to name the element, check that the electrons equal the protons, then find the neutrons by subtraction. Finish by using the outer electrons to place the element in a group.",
+      "content_fr": "Lis d'abord les données, puis décide. Compte les protons pour nommer l'élément, vérifie que les électrons égalent les protons, puis trouve les neutrons par soustraction. Termine en utilisant les électrons externes pour placer l'élément dans un groupe.",
+      "required": true,
+      "xp": 12,
+      "question": {
+        "kind": "numeric",
+        "difficulty": 2,
+        "text": "An atom has 12 protons and a mass number of 24. How many neutrons does it have?",
+        "text_fr": "Un atome a 12 protons et un nombre de masse de 24. Combien de neutrons possède-t-il ?",
+        "explanation": "Neutrons = 24 - 12 = 12. With 12 electrons arranged 2, 8, 2 it is magnesium.",
+        "explanation_fr": "Neutrons = 24 - 12 = 12. Avec 12 électrons répartis en 2, 8, 2, il s'agit du magnésium.",
+        "hint_prompt": "Subtract the proton number from the mass number.",
+        "hint_prompt_fr": "Retranche le nombre de protons du nombre de masse.",
+        "config": {"accepted": [12]},
+        "hints": [
+          {"text": "Mass number minus protons.", "text_fr": "Nombre de masse moins protons."},
+          {"text": "24 - 12 = 12.", "text_fr": "24 - 12 = 12."}
+        ]
+      }
+    },
+    {
+      "kind": "summary",
+      "title": "What to keep",
+      "title_fr": "À retenir",
+      "content": "Atoms have a nucleus of protons and neutrons with electrons in shells. Proton number identifies the element and equals the electron number in a neutral atom. Neutrons = mass number - proton number. The outer electrons give the group and the number of shells gives the period.",
+      "content_fr": "L'atome a un noyau de protons et de neutrons et des électrons sur des couches. Le numéro atomique identifie l'élément et égale le nombre d'électrons dans un atome neutre. Neutrons = nombre de masse - numéro atomique. Les électrons externes donnent le groupe, le nombre de couches donne la période.",
+      "xp": 5
+    }
+  ],
+  "quiz": {
+    "title": "Quiz: Atomic structure and the periodic table",
+    "title_fr": "Quiz : structure atomique et tableau périodique",
+    "pass_score": 60,
+    "questions": [
+      {
+        "kind": "numeric",
+        "difficulty": 2,
+        "text": "An atom has proton number 8 and mass number 16. How many neutrons does it have?",
+        "text_fr": "Un atome a pour numéro atomique 8 et pour nombre de masse 16. Combien de neutrons possède-t-il ?",
+        "explanation": "Neutrons = 16 - 8 = 8.",
+        "explanation_fr": "Neutrons = 16 - 8 = 8.",
+        "hint_prompt": "Mass number minus proton number.",
+        "hint_prompt_fr": "Nombre de masse moins numéro atomique.",
+        "config": {"accepted": [8]},
+        "hints": [
+          {"text": "Mass number minus proton number.", "text_fr": "Nombre de masse moins numéro atomique."},
+          {"text": "16 - 8 = 8.", "text_fr": "16 - 8 = 8."}
+        ]
+      },
+      {
+        "kind": "mcq",
+        "difficulty": 1,
+        "text": "Which particle is found in the nucleus and has no charge?",
+        "text_fr": "Quelle particule se trouve dans le noyau et ne porte aucune charge ?",
+        "explanation": "The neutron is neutral and sits in the nucleus with the protons.",
+        "explanation_fr": "Le neutron est neutre et se trouve dans le noyau avec les protons.",
+        "hint_prompt": "Think about its name.",
+        "hint_prompt_fr": "Pense à son nom.",
+        "choices": [
+          {"text": "The electron", "text_fr": "L'électron", "correct": false},
+          {"text": "The proton", "text_fr": "Le proton", "correct": false},
+          {"text": "The neutron", "text_fr": "Le neutron", "correct": true},
+          {"text": "The shell", "text_fr": "La couche", "correct": false}
+        ],
+        "hints": [
+          {"text": "Its name suggests neutral.", "text_fr": "Son nom évoque le neutre."},
+          {"text": "It is neutral.", "text_fr": "Il est neutre."}
+        ]
+      },
+      {
+        "kind": "numeric",
+        "difficulty": 2,
+        "text": "Which group is an element with electron arrangement 2, 7 in?",
+        "text_fr": "Dans quel groupe se trouve un élément de répartition électronique 2, 7 ?",
+        "explanation": "The outer shell has 7 electrons, so it is group 7 (like fluorine).",
+        "explanation_fr": "La couche externe a 7 électrons : c'est le groupe 7 (comme le fluor).",
+        "hint_prompt": "Use the last number.",
+        "hint_prompt_fr": "Utilise le dernier nombre.",
+        "config": {"accepted": [7]},
+        "hints": [
+          {"text": "7 outer electrons.", "text_fr": "7 électrons externes."},
+          {"text": "Group 7.", "text_fr": "Groupe 7."}
+        ]
+      },
+      {
+        "kind": "numeric",
+        "difficulty": 3,
+        "text": "An atom has mass number 40 and 20 neutrons. What is its proton number?",
+        "text_fr": "Un atome a un nombre de masse de 40 et 20 neutrons. Quel est son numéro atomique ?",
+        "explanation": "Protons = mass number - neutrons = 40 - 20 = 20 (calcium).",
+        "explanation_fr": "Protons = nombre de masse - neutrons = 40 - 20 = 20 (calcium).",
+        "hint_prompt": "Rearrange neutrons = mass - protons.",
+        "hint_prompt_fr": "Réarrange : neutrons = masse - protons.",
+        "config": {"accepted": [20]},
+        "hints": [
+          {"text": "40 - 20.", "text_fr": "40 - 20."},
+          {"text": "= 20 protons.", "text_fr": "= 20 protons."}
+        ]
+      },
+      {
+        "kind": "mcq",
+        "difficulty": 2,
+        "text": "Which row describes a neutral atom?",
+        "text_fr": "Quelle ligne décrit un atome neutre ?",
+        "explanation": "In a neutral atom the number of electrons equals the number of protons, so the charges cancel.",
+        "explanation_fr": "Dans un atome neutre, le nombre d'électrons égale le nombre de protons : les charges s'annulent.",
+        "hint_prompt": "The charges must balance.",
+        "hint_prompt_fr": "Les charges doivent s'équilibrer.",
+        "choices": [
+          {"text": "More electrons than protons", "text_fr": "Plus d'électrons que de protons", "correct": false},
+          {"text": "Equal electrons and protons", "text_fr": "Autant d'électrons que de protons", "correct": true},
+          {"text": "More protons than electrons", "text_fr": "Plus de protons que d'électrons", "correct": false},
+          {"text": "No electrons", "text_fr": "Aucun électron", "correct": false}
+        ],
+        "hints": [
+          {"text": "Neutral means no overall charge.", "text_fr": "Neutre veut dire aucune charge globale."},
+          {"text": "Counts must be equal.", "text_fr": "Les nombres doivent être égaux."}
+        ]
+      }
+    ]
+  }
+}

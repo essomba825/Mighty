@@ -1,0 +1,254 @@
+{
+  "lesson": 96,
+  "status": "published",
+  "lesson_fields": {
+    "title": "Integration as the Reverse of Differentiation",
+    "title_fr": "L integration comme inverse de la derivation",
+    "summary": "Reverse the power rule to find antiderivatives and evaluate indefinite integrals with the constant of integration.",
+    "summary_fr": "Inverser la regle de puissance pour trouver des primitives et calculer des integrales indefinies avec la constante d integration.",
+    "content": "**Integration** is the reverse of differentiation. Given a derivative, we look for a function whose derivative it is, called an **antiderivative** or primitive. The power rule reverses: `x^n` integrates to `x^(n+1)/(n+1)`, and an unknown constant `C` is always added.",
+    "content_fr": "L **integration** est l inverse de la derivation. A partir d une derivee, on cherche une fonction dont c est la derivee : c est une **primitive**. La regle de puissance s inverse : `x^n` a pour primitive `x^(n+1)/(n+1)`, a laquelle on ajoute toujours une constante inconnue `C`.",
+    "objectives": [
+      "Recognise integration as antidifferentiation",
+      "Integrate powers of x",
+      "Remember the constant of integration"
+    ],
+    "objectives_fr": [
+      "Reconnaitre l integration comme antidifferentiation",
+      "Integrer des puissances de x",
+      "Ne pas oublier la constante d integration"
+    ]
+  },
+  "steps": [
+    {
+      "kind": "concept",
+      "title": "Undoing differentiation",
+      "title_fr": "Defaire la derivation",
+      "content": "Differentiation turns `x^3` into `3x^2`. Integration does the opposite: it turns `3x^2` back into `x^3` (plus a constant).\n\nWe write:\n\n    integral of f(x) dx\n\nThe symbol `dx` records that the variable is `x`. Integration asks: which function, when differentiated, gives `f(x)`?",
+      "content_fr": "La derivation transforme `x^3` en `3x^2`. L integration fait l inverse : elle transforme `3x^2` en `x^3` (a une constante pres).\n\nOn note :\n\n    integrale de f(x) dx\n\nLe symbole `dx` indique que la variable est `x`. L integration demande : quelle fonction, une fois derivee, donne `f(x)` ?",
+      "required": false,
+      "xp": 10
+    },
+    {
+      "kind": "explain",
+      "title": "The power rule for integration",
+      "title_fr": "La regle de puissance pour l integration",
+      "content": "Differentiation drops the power by one; integration raises it by one and divides:\n\n    integral of x^n dx = x^(n+1) / (n+1)  + C   (for n not equal to -1)\n\nExamples:\n\n    x^2  -> x^3 / 3\n    x^5  -> x^6 / 6\n    1    -> x\n\nAlways add the constant `C`.",
+      "content_fr": "La derivation baisse l exposant de un ; l integration l augmente de un et divise :\n\n    integrale de x^n dx = x^(n+1) / (n+1)  + C   (pour n different de -1)\n\nExemples :\n\n    x^2  -> x^3 / 3\n    x^5  -> x^6 / 6\n    1    -> x\n\nAjoute toujours la constante `C`.",
+      "required": false,
+      "xp": 10
+    },
+    {
+      "kind": "question",
+      "title": "Integrate a power",
+      "title_fr": "Integrer une puissance",
+      "content": "Raise the exponent by one, then divide by the new exponent.",
+      "content_fr": "Augmente l exposant de un, puis divise par le nouvel exposant.",
+      "required": true,
+      "xp": 20,
+      "question": {
+        "kind": "mcq",
+        "difficulty": 2,
+        "text": "Find the integral of x^2 dx.",
+        "text_fr": "Trouve l integrale de x^2 dx.",
+        "explanation": "Raise the power to 3 and divide by 3: x^3 / 3 + C.",
+        "explanation_fr": "Augmente l exposant a 3 et divise par 3 : x^3 / 3 + C.",
+        "hint_prompt": "Add one to the exponent, then divide by the new exponent.",
+        "hint_prompt_fr": "Ajoute un a l exposant, puis divise par le nouvel exposant.",
+        "choices": [
+          {"text": "x^3 / 3 + C", "text_fr": "x^3 / 3 + C", "correct": true},
+          {"text": "3x^2 + C", "text_fr": "3x^2 + C", "correct": false},
+          {"text": "x^2 / 2 + C", "text_fr": "x^2 / 2 + C", "correct": false},
+          {"text": "x^3 + C", "text_fr": "x^3 + C", "correct": false}
+        ],
+        "hints": [
+          {"text": "The new exponent is 3.", "text_fr": "Le nouvel exposant est 3."},
+          {"text": "Divide by 3 to get x^3 / 3.", "text_fr": "Divise par 3 pour obtenir x^3 / 3."}
+        ]
+      }
+    },
+    {
+      "kind": "explain",
+      "title": "The constant of integration",
+      "title_fr": "La constante d integration",
+      "content": "Many functions have the same derivative. Both `x^3 + 5` and `x^3 - 2` differentiate to `3x^2`, because a constant differentiates to zero.\n\nSo the antiderivative is only known up to an unknown constant, written `C`. Never forget it in an indefinite integral.",
+      "content_fr": "Plusieurs fonctions ont la meme derivee. `x^3 + 5` et `x^3 - 2` ont tous deux pour derivee `3x^2`, car une constante a une derivee nulle.\n\nLa primitive n est donc connue qu a une constante inconnue pres, notee `C`. Ne l oublie jamais dans une integrale indefinie.",
+      "required": false,
+      "xp": 10
+    },
+    {
+      "kind": "question",
+      "title": "Why the constant?",
+      "title_fr": "Pourquoi la constante ?",
+      "content": "Think about what happens to a constant when you differentiate it.",
+      "content_fr": "Pense a ce qui arrive a une constante lorsqu on la derive.",
+      "required": true,
+      "xp": 15,
+      "question": {
+        "kind": "mcq",
+        "difficulty": 2,
+        "text": "Why is a constant C added when we integrate?",
+        "text_fr": "Pourquoi ajoute-t-on une constante C lorsqu on integre ?",
+        "explanation": "Any constant differentiates to zero, so an antiderivative is only defined up to an unknown constant.",
+        "explanation_fr": "Toute constante a une derivee nulle : une primitive n est donc definie qu a une constante inconnue pres.",
+        "hint_prompt": "What is the derivative of a constant?",
+        "hint_prompt_fr": "Quelle est la derivee d une constante ?",
+        "choices": [
+          {"text": "Because any constant differentiates to zero, so C cannot be recovered", "text_fr": "Parce que toute constante a une derivee nulle : C ne peut pas etre retrouvee", "correct": true},
+          {"text": "Because integrals always end with zero", "text_fr": "Parce que les integrales finissent toujours par zero", "correct": false},
+          {"text": "Because C makes the answer larger", "text_fr": "Parce que C agrandit le resultat", "correct": false},
+          {"text": "Because the power rule requires it", "text_fr": "Parce que la regle de puissance l exige", "correct": false}
+        ],
+        "hints": [
+          {"text": "Differentiate x^3 + 5 and x^3 - 2.", "text_fr": "Derive x^3 + 5 et x^3 - 2."},
+          {"text": "Both give 3x^2: the constant is lost.", "text_fr": "Les deux donnent 3x^2 : la constante est perdue."}
+        ]
+      }
+    },
+    {
+      "kind": "question",
+      "title": "Integrate a power of x",
+      "title_fr": "Integrer une puissance de x",
+      "content": "Use the rule and do not forget C.",
+      "content_fr": "Utilise la regle sans oublier C.",
+      "required": true,
+      "xp": 20,
+      "question": {
+        "kind": "mcq",
+        "difficulty": 2,
+        "text": "Integrate x^4 with respect to x.",
+        "text_fr": "Integre x^4 par rapport a x.",
+        "explanation": "The antiderivative is x^5 / 5 + C.",
+        "explanation_fr": "La primitive est x^5 / 5 + C.",
+        "hint_prompt": "Raise the power to 5, then divide by 5.",
+        "hint_prompt_fr": "Eleve l exposant a 5, puis divise par 5.",
+        "choices": [
+          {"text": "x^5 / 5 + C", "text_fr": "x^5 / 5 + C", "correct": true},
+          {"text": "4x^3 + C", "text_fr": "4x^3 + C", "correct": false},
+          {"text": "x^5 + C", "text_fr": "x^5 + C", "correct": false},
+          {"text": "5x^5 + C", "text_fr": "5x^5 + C", "correct": false}
+        ],
+        "hints": [
+          {"text": "The new exponent is 5.", "text_fr": "Le nouvel exposant est 5."},
+          {"text": "Divide by 5: x^5 / 5 + C.", "text_fr": "Divise par 5 : x^5 / 5 + C."}
+        ]
+      }
+    },
+    {
+      "kind": "summary",
+      "title": "Key rule",
+      "title_fr": "Regle cle",
+      "content": "Integration reverses differentiation.\n\n    integral of x^n dx = x^(n+1) / (n+1) + C\n\nIntegrate term by term and always add the constant `C` to an indefinite integral.",
+      "content_fr": "L integration inverse la derivation.\n\n    integrale de x^n dx = x^(n+1) / (n+1) + C\n\nIntegre terme par terme et ajoute toujours la constante `C` a une integrale indefinie.",
+      "required": false,
+      "xp": 10
+    }
+  ],
+  "quiz": {
+    "title": "Quiz - Integration as the reverse of differentiation",
+    "title_fr": "Quiz - L integration comme inverse de la derivation",
+    "pass_score": 60,
+    "questions": [
+      {
+        "kind": "mcq",
+        "difficulty": 1,
+        "text": "Integrate x^3 with respect to x.",
+        "text_fr": "Integre x^3 par rapport a x.",
+        "explanation": "The antiderivative is x^4 / 4 + C.",
+        "explanation_fr": "La primitive est x^4 / 4 + C.",
+        "hint_prompt": "Raise the exponent by one and divide.",
+        "hint_prompt_fr": "Augmente l exposant de un et divise.",
+        "choices": [
+          {"text": "x^4 / 4 + C", "text_fr": "x^4 / 4 + C", "correct": true},
+          {"text": "3x^2 + C", "text_fr": "3x^2 + C", "correct": false},
+          {"text": "x^4 + C", "text_fr": "x^4 + C", "correct": false},
+          {"text": "4x^4 + C", "text_fr": "4x^4 + C", "correct": false}
+        ],
+        "hints": [
+          {"text": "The new exponent is 4.", "text_fr": "Le nouvel exposant est 4."},
+          {"text": "Divide by 4.", "text_fr": "Divise par 4."}
+        ]
+      },
+      {
+        "kind": "mcq",
+        "difficulty": 2,
+        "text": "Integrate x with respect to x.",
+        "text_fr": "Integre x par rapport a x.",
+        "explanation": "Here n = 1, so x integrates to x^2 / 2 + C.",
+        "explanation_fr": "Ici n = 1, donc x a pour primitive x^2 / 2 + C.",
+        "hint_prompt": "Treat x as x^1.",
+        "hint_prompt_fr": "Considere x comme x^1.",
+        "choices": [
+          {"text": "x^2 / 2 + C", "text_fr": "x^2 / 2 + C", "correct": true},
+          {"text": "x^2 + C", "text_fr": "x^2 + C", "correct": false},
+          {"text": "1 + C", "text_fr": "1 + C", "correct": false},
+          {"text": "2x + C", "text_fr": "2x + C", "correct": false}
+        ],
+        "hints": [
+          {"text": "Write x as x^1.", "text_fr": "Ecris x comme x^1."},
+          {"text": "The new exponent is 2, then divide by 2.", "text_fr": "Le nouvel exposant est 2, puis divise par 2."}
+        ]
+      },
+      {
+        "kind": "mcq",
+        "difficulty": 2,
+        "text": "What is missing from the answer 5x^3 / 3 for an indefinite integral?",
+        "text_fr": "Que manque-t-il dans la reponse 5x^3 / 3 pour une integrale indefinie ?",
+        "explanation": "An indefinite integral must include the constant of integration C.",
+        "explanation_fr": "Une integrale indefinie doit inclure la constante d integration C.",
+        "hint_prompt": "Something is added to every indefinite integral.",
+        "hint_prompt_fr": "On ajoute quelque chose a toute integrale indefinie.",
+        "choices": [
+          {"text": "The constant of integration C", "text_fr": "La constante d integration C", "correct": true},
+          {"text": "A factor of 3", "text_fr": "Un facteur 3", "correct": false},
+          {"text": "A minus sign", "text_fr": "Un signe moins", "correct": false},
+          {"text": "The variable x", "text_fr": "La variable x", "correct": false}
+        ],
+        "hints": [
+          {"text": "Think about the unknown constant.", "text_fr": "Pense a la constante inconnue."},
+          {"text": "It is written C.", "text_fr": "Elle s ecrit C."}
+        ]
+      },
+      {
+        "kind": "mcq",
+        "difficulty": 2,
+        "text": "Differentiating x^2 + 7 gives 2x. What is the integral of 2x with respect to x?",
+        "text_fr": "Deriver x^2 + 7 donne 2x. Quelle est l integrale de 2x par rapport a x ?",
+        "explanation": "The integral of 2x is x^2 + C. The 7 is absorbed into C, because any constant could have been there.",
+        "explanation_fr": "L integrale de 2x est x^2 + C. Le 7 est absorbe dans C, car n importe quelle constante aurait pu s y trouver.",
+        "hint_prompt": "Reverse the differentiation.",
+        "hint_prompt_fr": "Inverse la derivation.",
+        "choices": [
+          {"text": "x^2 + C", "text_fr": "x^2 + C", "correct": true},
+          {"text": "x^2 + 7 + C", "text_fr": "x^2 + 7 + C", "correct": false},
+          {"text": "2 + C", "text_fr": "2 + C", "correct": false},
+          {"text": "x^3 / 3 + C", "text_fr": "x^3 / 3 + C", "correct": false}
+        ],
+        "hints": [
+          {"text": "What differentiates to 2x ?", "text_fr": "Qu est-ce qui a pour derivee 2x ?"},
+          {"text": "x^2 does, plus any constant C.", "text_fr": "C est x^2, plus une constante quelconque C."}
+        ]
+      },
+      {
+        "kind": "mcq",
+        "difficulty": 3,
+        "text": "Integrate x^2 + x with respect to x.",
+        "text_fr": "Integre x^2 + x par rapport a x.",
+        "explanation": "Integrate term by term: x^2 gives x^3 / 3 and x gives x^2 / 2, so the result is x^3 / 3 + x^2 / 2 + C.",
+        "explanation_fr": "Integre terme par terme : x^2 donne x^3 / 3 et x donne x^2 / 2, donc le resultat est x^3 / 3 + x^2 / 2 + C.",
+        "hint_prompt": "Integrate each term separately.",
+        "hint_prompt_fr": "Integre chaque terme separement.",
+        "choices": [
+          {"text": "x^3 / 3 + x^2 / 2 + C", "text_fr": "x^3 / 3 + x^2 / 2 + C", "correct": true},
+          {"text": "2x + 1 + C", "text_fr": "2x + 1 + C", "correct": false},
+          {"text": "x^3 / 3 + x + C", "text_fr": "x^3 / 3 + x + C", "correct": false},
+          {"text": "3x^2 + 2x + C", "text_fr": "3x^2 + 2x + C", "correct": false}
+        ],
+        "hints": [
+          {"text": "x^2 integrates to x^3 / 3.", "text_fr": "x^2 s integre en x^3 / 3."},
+          {"text": "x integrates to x^2 / 2.", "text_fr": "x s integre en x^2 / 2."}
+        ]
+      }
+    ]
+  }
+}
