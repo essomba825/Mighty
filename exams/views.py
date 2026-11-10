@@ -1,10 +1,13 @@
-from django.http import FileResponse
+from django.core import signing
+from django.http import FileResponse, HttpResponse
 from django.db.models import Q
 from rest_framework import filters, permissions, viewsets
 from rest_framework.decorators import action
-from rest_framework.exceptions import NotFound
+from rest_framework.exceptions import NotFound, PermissionDenied
 from rest_framework.response import Response
 from rest_framework import status
+
+_PDF_TOKEN_MAX_AGE = 300  # secondes (5 minutes)
 
 from .models import ExamPaper, PaperCorrection
 from .serializers import (ExamPaperCreateSerializer, ExamPaperListSerializer,
@@ -100,6 +103,73 @@ class ExamPaperViewSet(viewsets.ReadOnlyModelViewSet):
             filename=paper.source_name or paper.source_pdf.name.rsplit('/', 1)[-1],
         )
 
+    @action(detail=True, methods=['get'], url_path='pdf-token')
+    def pdf_token(self, request, pk=None):
+        """Génère un token signé (5 min) pour accéder au PDF sans header JWT."""
+        paper = self.get_object()
+        if not paper.source_pdf:
+            raise NotFound('PDF file not found.')
+        token = signing.dumps({'pk': paper.pk, 'kind': 'paper'}, salt='pdf-stream')
+        return Response({'token': token})
+
+    @action(detail=False, methods=['get'], url_path='stream',
+            permission_classes=[permissions.AllowAny])
+    def stream(self, request):
+        """Stream un PDF via token signé — pas de CORS, pas de blob, affichage immédiat."""
+        token = request.query_params.get('token', '')
+        try:
+            payload = signing.loads(token, salt='pdf-stream', max_age=_PDF_TOKEN_MAX_AGE)
+        except signing.BadSignature:
+            return HttpResponse('Token invalide ou expiré.', status=403)
+
+        kind = payload.get('kind')
+        pk = payload.get('pk')
+
+        if kind == 'paper':
+            try:
+                paper = ExamPaper.objects.get(pk=pk)
+            except ExamPaper.DoesNotExist:
+                raise NotFound('Paper not found.')
+            if not paper.source_pdf:
+                raise NotFound('PDF file not found.')
+            try:
+                pdf_file = paper.source_pdf.open('rb')
+            except FileNotFoundError as error:
+                raise NotFound('PDF file not found.') from error
+            response = FileResponse(
+                pdf_file,
+                content_type='application/pdf',
+                as_attachment=False,
+                filename=paper.source_name or paper.source_pdf.name.rsplit('/', 1)[-1],
+            )
+
+        elif kind == 'correction':
+            try:
+                paper = ExamPaper.objects.get(pk=pk)
+            except ExamPaper.DoesNotExist:
+                raise NotFound('Paper not found.')
+            correction = paper.correction_versions.filter(
+                status=PaperCorrection.Status.PUBLISHED,
+            ).exclude(correction_pdf='').order_by('-version').first()
+            if not correction or not correction.correction_pdf:
+                raise NotFound('Published correction PDF not found.')
+            try:
+                pdf_file = correction.correction_pdf.open('rb')
+            except FileNotFoundError as error:
+                raise NotFound('Published correction PDF not found.') from error
+            response = FileResponse(
+                pdf_file,
+                content_type='application/pdf',
+                as_attachment=False,
+                filename=correction.correction_pdf.name.rsplit('/', 1)[-1],
+            )
+        else:
+            return HttpResponse('Kind invalide.', status=400)
+
+        response['Access-Control-Allow-Origin'] = '*'
+        response['Cache-Control'] = 'private, max-age=300'
+        return response
+
     @action(detail=True, methods=['get', 'post'], url_path='correction',
             permission_classes=[CanManageExamPaper])
     def correction(self, request, pk=None):
@@ -151,3 +221,15 @@ class ExamPaperViewSet(viewsets.ReadOnlyModelViewSet):
             as_attachment=False,
             filename=correction.correction_pdf.name.rsplit('/', 1)[-1],
         )
+
+    @action(detail=True, methods=['get'], url_path='correction-pdf-token')
+    def correction_pdf_token(self, request, pk=None):
+        """Génère un token signé (5 min) pour accéder au PDF de correction sans header JWT."""
+        paper = self.get_object()
+        correction = paper.correction_versions.filter(
+            status=PaperCorrection.Status.PUBLISHED,
+        ).exclude(correction_pdf='').order_by('-version').first()
+        if not correction or not correction.correction_pdf:
+            raise NotFound('Published correction PDF not found.')
+        token = signing.dumps({'pk': paper.pk, 'kind': 'correction'}, salt='pdf-stream')
+        return Response({'token': token})
