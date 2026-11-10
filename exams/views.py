@@ -105,6 +105,8 @@ class ExamPaperViewSet(viewsets.ReadOnlyModelViewSet):
             filename=paper.source_name or paper.source_pdf.name.rsplit('/', 1)[-1],
         )
         response.xframe_options_exempt = True
+        response['Cache-Control'] = 'public, max-age=604800, immutable'
+        response['Access-Control-Allow-Origin'] = '*'
         return response
 
     @action(detail=True, methods=['get'], url_path='pdf-token')
@@ -229,6 +231,8 @@ class ExamPaperViewSet(viewsets.ReadOnlyModelViewSet):
             filename=correction.correction_pdf.name.rsplit('/', 1)[-1],
         )
         response.xframe_options_exempt = True
+        response['Cache-Control'] = 'public, max-age=604800, immutable'
+        response['Access-Control-Allow-Origin'] = '*'
         return response
 
     @action(detail=True, methods=['get'], url_path='correction-pdf-token')
