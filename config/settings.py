@@ -293,7 +293,7 @@ SECURE_REFERRER_POLICY = 'strict-origin-when-cross-origin'
 # 'auto' suffit quand un reverse-proxy (Nginx, Caddy) gere le TLS.
 SECURE_PROXY_SSL_HEADER = ('HTTP_X_FORWARDED_PROTO', 'https')
 USE_X_FORWARDED_HOST = EN_PRODUCTION
-X_FRAME_OPTIONS = 'DENY'
+X_FRAME_OPTIONS = 'SAMEORIGIN'
 
 # Origines autorisees a presenter des jetons : sans cela, un site tiers peut
 # rejouer une requete contre l'API au nom de membre connecte.

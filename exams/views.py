@@ -1,6 +1,7 @@
 from django.core import signing
 from django.http import FileResponse, HttpResponse
 from django.db.models import Q
+from django.views.decorators.clickjacking import xframe_options_exempt
 from rest_framework import filters, permissions, viewsets
 from rest_framework.decorators import action
 from rest_framework.exceptions import NotFound, PermissionDenied
@@ -86,6 +87,7 @@ class ExamPaperViewSet(viewsets.ReadOnlyModelViewSet):
         )
 
     @action(detail=True, methods=['get'], url_path='pdf')
+    @xframe_options_exempt
     def pdf(self, request, pk=None):
         paper = self.get_object()
         if not paper.source_pdf:
@@ -96,12 +98,14 @@ class ExamPaperViewSet(viewsets.ReadOnlyModelViewSet):
         except FileNotFoundError as error:
             raise NotFound('PDF file not found.') from error
 
-        return FileResponse(
+        response = FileResponse(
             pdf_file,
             content_type='application/pdf',
             as_attachment=False,
             filename=paper.source_name or paper.source_pdf.name.rsplit('/', 1)[-1],
         )
+        response.xframe_options_exempt = True
+        return response
 
     @action(detail=True, methods=['get'], url_path='pdf-token')
     def pdf_token(self, request, pk=None):
@@ -114,6 +118,7 @@ class ExamPaperViewSet(viewsets.ReadOnlyModelViewSet):
 
     @action(detail=False, methods=['get'], url_path='stream',
             permission_classes=[permissions.AllowAny])
+    @xframe_options_exempt
     def stream(self, request):
         """Stream un PDF via token signé — pas de CORS, pas de blob, affichage immédiat."""
         token = request.query_params.get('token', '')
@@ -168,6 +173,7 @@ class ExamPaperViewSet(viewsets.ReadOnlyModelViewSet):
 
         response['Access-Control-Allow-Origin'] = '*'
         response['Cache-Control'] = 'private, max-age=300'
+        response.xframe_options_exempt = True
         return response
 
     @action(detail=True, methods=['get', 'post'], url_path='correction',
@@ -202,6 +208,7 @@ class ExamPaperViewSet(viewsets.ReadOnlyModelViewSet):
 
     @action(detail=True, methods=['get'], url_path='correction-pdf',
             permission_classes=[permissions.AllowAny])
+    @xframe_options_exempt
     def correction_pdf(self, request, pk=None):
         paper = self.get_object()
         correction = paper.correction_versions.filter(
@@ -215,12 +222,14 @@ class ExamPaperViewSet(viewsets.ReadOnlyModelViewSet):
         except FileNotFoundError as error:
             raise NotFound('Published correction PDF not found.') from error
 
-        return FileResponse(
+        response = FileResponse(
             pdf_file,
             content_type='application/pdf',
             as_attachment=False,
             filename=correction.correction_pdf.name.rsplit('/', 1)[-1],
         )
+        response.xframe_options_exempt = True
+        return response
 
     @action(detail=True, methods=['get'], url_path='correction-pdf-token')
     def correction_pdf_token(self, request, pk=None):
