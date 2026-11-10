@@ -10,8 +10,9 @@ from rest_framework import status
 
 _PDF_TOKEN_MAX_AGE = 300  # secondes (5 minutes)
 
-from .models import ExamPaper, PaperCorrection
+from .models import ExamPaper, ExamSubmission, PaperCorrection
 from .serializers import (ExamPaperCreateSerializer, ExamPaperListSerializer,
+                          ExamSubmissionSerializer,
                           PaperCorrectionCreateSerializer, PaperCorrectionSerializer,
                           parse_questions_payload)
 
@@ -246,3 +247,29 @@ class ExamPaperViewSet(viewsets.ReadOnlyModelViewSet):
             raise NotFound('Published correction PDF not found.')
         token = signing.dumps({'pk': paper.pk, 'kind': 'correction'}, salt='pdf-stream')
         return Response({'token': token})
+
+
+class ExamSubmissionViewSet(viewsets.ModelViewSet):
+    """Members submit academic resources; admins review them."""
+    serializer_class = ExamSubmissionSerializer
+    http_method_names = ['get', 'post', 'head', 'options']
+
+    def get_permissions(self):
+        if self.action == 'create':
+            return [permissions.IsAuthenticated()]
+        # List/retrieve: authenticated members see only their own; admins see all
+        return [permissions.IsAuthenticated()]
+
+    def get_queryset(self):
+        user = self.request.user
+        qs = ExamSubmission.objects.select_related('submitted_by', 'subject')
+        if user.is_staff or getattr(user, 'role', None) == 'admin':
+            status_filter = self.request.query_params.get('status')
+            if status_filter:
+                qs = qs.filter(status=status_filter)
+            return qs
+        # Regular members only see their own submissions
+        return qs.filter(submitted_by=user)
+
+    def perform_create(self, serializer):
+        serializer.save(submitted_by=self.request.user)

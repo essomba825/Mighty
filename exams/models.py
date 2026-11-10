@@ -203,3 +203,56 @@ class MarkCriterion(models.Model):
 
     def __str__(self):
         return f'{self.correction.question.number} — {self.marks} marks: {self.key}'
+
+
+class ExamSubmission(models.Model):
+    """Resource submitted by a member for admin review and potential publication."""
+
+    class ResourceType(models.TextChoices):
+        PAST_PAPER = 'past_paper', 'Past Paper / Épreuve'
+        CORRECTION = 'correction', 'Correction / Corrigé'
+        NOTES = 'notes', 'Notes de cours'
+        TEXTBOOK = 'textbook', 'Livre / Manuel'
+        OTHER = 'other', 'Autre ressource'
+
+    class Status(models.TextChoices):
+        PENDING = 'pending', 'En attente'
+        APPROVED = 'approved', 'Approuvé'
+        REJECTED = 'rejected', 'Refusé'
+
+    class Level(models.TextChoices):
+        OL = 'ol', 'GCE O/L'
+        AL = 'al', 'GCE A/L'
+
+    submitted_by = models.ForeignKey(
+        settings.AUTH_USER_MODEL, null=True,
+        on_delete=models.SET_NULL, related_name='exam_submissions',
+    )
+    subject = models.ForeignKey(
+        Subject, null=True, blank=True,
+        on_delete=models.SET_NULL, related_name='exam_submissions',
+    )
+    resource_type = models.CharField(
+        max_length=20, choices=ResourceType.choices, default=ResourceType.PAST_PAPER,
+    )
+    level = models.CharField(max_length=2, choices=Level.choices)
+    year = models.PositiveSmallIntegerField(null=True, blank=True)
+    title = models.CharField(max_length=255)
+    description = models.TextField(blank=True)
+    pdf_file = models.FileField(upload_to='submissions/')
+    status = models.CharField(
+        max_length=12, choices=Status.choices, default=Status.PENDING,
+    )
+    reviewer_note = models.TextField(blank=True)
+    submitted_at = models.DateTimeField(default=timezone.now)
+    reviewed_at = models.DateTimeField(null=True, blank=True)
+    reviewed_by = models.ForeignKey(
+        settings.AUTH_USER_MODEL, null=True, blank=True,
+        on_delete=models.SET_NULL, related_name='exam_submissions_reviewed',
+    )
+
+    class Meta:
+        ordering = ['-submitted_at']
+
+    def __str__(self):
+        return f'{self.title} — {self.submitted_by} ({self.status})'

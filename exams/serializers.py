@@ -7,8 +7,9 @@ from django.db.models import Max
 from django.db.models import Q
 from rest_framework import serializers
 
-from .models import (ExamPaper, ExamQuestion, MarkCriterion, PaperCorrection,
-                     QuestionCorrection)
+from education.models import Subject
+from .models import (ExamPaper, ExamQuestion, ExamSubmission, MarkCriterion,
+                     PaperCorrection, QuestionCorrection)
 
 
 class ExamPaperListSerializer(serializers.ModelSerializer):
@@ -103,7 +104,7 @@ class ExamPaperCreateSerializer(serializers.ModelSerializer):
     def validate_source_pdf(self, value):
         position = value.tell()
         if value.read(5) != b'%PDF-':
-            raise serializers.ValidationError('Le fichier doit être un PDF valide.')
+            raise serializers.ValidationError('Le fichier doit Ãªtre un PDF valide.')
         value.seek(position)
         return value
 
@@ -116,7 +117,7 @@ class ExamPaperCreateSerializer(serializers.ModelSerializer):
         sha256 = digest.hexdigest()
         if ExamPaper.objects.filter(source_sha256=sha256).exists():
             raise serializers.ValidationError({
-                'source_pdf': 'Cette épreuve PDF est déjà enregistrée.'
+                'source_pdf': 'Cette Ã©preuve PDF est dÃ©jÃ  enregistrÃ©e.'
             })
 
         validated_data['source_name'] = PurePath(pdf.name).name
@@ -133,7 +134,7 @@ class PaperCorrectionCreateSerializer(serializers.Serializer):
     def validate_correction_pdf(self, value):
         position = value.tell()
         if value.read(5) != b'%PDF-':
-            raise serializers.ValidationError('Le fichier doit être un PDF valide.')
+            raise serializers.ValidationError('Le fichier doit Ãªtre un PDF valide.')
         value.seek(position)
         return value
 
@@ -142,7 +143,7 @@ class PaperCorrectionCreateSerializer(serializers.Serializer):
         questions = attrs.get('questions') or []
         if not pdf and not questions:
             raise serializers.ValidationError(
-                'Ajoutez un PDF de corrigé ou au moins une correction de question.'
+                'Ajoutez un PDF de corrigÃ© ou au moins une correction de question.'
             )
         if not isinstance(questions, list):
             raise serializers.ValidationError({'questions': 'Une liste de questions est attendue.'})
@@ -151,27 +152,27 @@ class PaperCorrectionCreateSerializer(serializers.Serializer):
         for index, question in enumerate(questions, start=1):
             if not isinstance(question, dict):
                 raise serializers.ValidationError({
-                    'questions': f"La correction {index} doit être un objet."
+                    'questions': f"La correction {index} doit Ãªtre un objet."
                 })
             if not str(question.get('number', '')).strip():
                 raise serializers.ValidationError({
-                    'questions': f"Le numéro de la question {index} est obligatoire."
+                    'questions': f"Le numÃ©ro de la question {index} est obligatoire."
                 })
             number = str(question['number']).strip()
             if number in seen_numbers:
                 raise serializers.ValidationError({
-                    'questions': f"La question {number} apparaît plusieurs fois."
+                    'questions': f"La question {number} apparaÃ®t plusieurs fois."
                 })
             seen_numbers.add(number)
             if not str(question.get('statement', '')).strip():
                 raise serializers.ValidationError({
-                    'questions': f"L'énoncé de la question {index} est obligatoire."
+                    'questions': f"L'Ã©noncÃ© de la question {index} est obligatoire."
                 })
             if not str(question.get('answer', '')).strip() and not str(
                 question.get('explanation_fr', '') or question.get('explanation_en', '')
             ).strip():
                 raise serializers.ValidationError({
-                    'questions': f"Ajoutez une réponse ou une explication à la question {index}."
+                    'questions': f"Ajoutez une rÃ©ponse ou une explication Ã  la question {index}."
                 })
         return attrs
 
@@ -245,6 +246,45 @@ def parse_questions_payload(data):
             return json.loads(questions)
         except json.JSONDecodeError as error:
             raise serializers.ValidationError({
-                'questions': 'Le contenu des questions doit être un JSON valide.'
+                'questions': 'Le contenu des questions doit Ãªtre un JSON valide.'
             }) from error
     return questions
+
+
+class ExamSubmissionSerializer(serializers.ModelSerializer):
+    submitted_by_name = serializers.SerializerMethodField()
+    subject_name = serializers.CharField(source='subject.name', read_only=True)
+    subject_id = serializers.PrimaryKeyRelatedField(
+        source='subject', queryset=Subject.objects.all(),
+        required=False, allow_null=True, write_only=True,
+    )
+
+    class Meta:
+        model = ExamSubmission
+        fields = [
+            'id', 'resource_type', 'level', 'year', 'title', 'description',
+            'pdf_file', 'status', 'reviewer_note',
+            'submitted_at', 'reviewed_at',
+            'submitted_by_name', 'subject_name', 'subject_id',
+        ]
+        read_only_fields = ['id', 'status', 'reviewer_note', 'submitted_at', 'reviewed_at',
+                            'submitted_by_name', 'subject_name']
+
+    def get_submitted_by_name(self, obj):
+        if obj.submitted_by:
+            return f'{obj.submitted_by.first_name} {obj.submitted_by.last_name}'.strip() or obj.submitted_by.username
+        return None
+
+    def validate_pdf_file(self, value):
+        pos = value.tell()
+        if value.read(5) != b'%PDF-':
+            raise serializers.ValidationError('Le fichier doit être un PDF valide.')
+        value.seek(pos)
+        if value.size > 50 * 1024 * 1024:
+            raise serializers.ValidationError('Le PDF ne doit pas dépasser 50 Mo.')
+        return value
+
+    def create(self, validated_data):
+        request = self.context['request']
+        validated_data['submitted_by'] = request.user
+        return super().create(validated_data)
