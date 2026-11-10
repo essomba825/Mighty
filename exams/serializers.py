@@ -278,10 +278,10 @@ class ExamSubmissionSerializer(serializers.ModelSerializer):
     def validate_pdf_file(self, value):
         pos = value.tell()
         if value.read(5) != b'%PDF-':
-            raise serializers.ValidationError('Le fichier doit être un PDF valide.')
+            raise serializers.ValidationError('The file must be a valid PDF.')
         value.seek(pos)
         if value.size > 50 * 1024 * 1024:
-            raise serializers.ValidationError('Le PDF ne doit pas dépasser 50 Mo.')
+            raise serializers.ValidationError('PDF file size must not exceed 50 MB.')
         return value
 
     def create(self, validated_data):

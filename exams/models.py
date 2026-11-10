@@ -209,16 +209,16 @@ class ExamSubmission(models.Model):
     """Resource submitted by a member for admin review and potential publication."""
 
     class ResourceType(models.TextChoices):
-        PAST_PAPER = 'past_paper', 'Past Paper / Épreuve'
-        CORRECTION = 'correction', 'Correction / Corrigé'
-        NOTES = 'notes', 'Notes de cours'
-        TEXTBOOK = 'textbook', 'Livre / Manuel'
-        OTHER = 'other', 'Autre ressource'
+        PAST_PAPER = 'past_paper', 'Past Paper'
+        CORRECTION = 'correction', 'Marking Scheme / Solution'
+        NOTES = 'notes', 'Study Notes'
+        TEXTBOOK = 'textbook', 'Textbook'
+        OTHER = 'other', 'Other'
 
     class Status(models.TextChoices):
-        PENDING = 'pending', 'En attente'
-        APPROVED = 'approved', 'Approuvé'
-        REJECTED = 'rejected', 'Refusé'
+        PENDING = 'pending', 'Pending'
+        APPROVED = 'approved', 'Approved'
+        REJECTED = 'rejected', 'Rejected'
 
     class Level(models.TextChoices):
         OL = 'ol', 'GCE O/L'
